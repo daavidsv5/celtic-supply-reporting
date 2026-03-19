@@ -375,7 +375,7 @@ export const ${varName}: MarginDailyRecord[] = ${JSON.stringify(records, null, 2
 }
 
 // ── Retention processing ──────────────────────────────────────────────────────
-const EMAIL_COL = 8;
+const EMAIL_COL = 5; // sloupec "email" v Shoptet exportu
 
 function aggregateRetention(csv) {
   const rows = parseCSV(csv);
