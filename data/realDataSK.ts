@@ -9006,8 +9006,8 @@ export const realDataSK: RealDailyRecordSK[] = [
     "orders_cancelled": 0,
     "revenue_vat": 48.67,
     "revenue": 40.9,
-    "cost": 37.32,
-    "cost_facebook": 29.14,
+    "cost": 37.36,
+    "cost_facebook": 29.18,
     "cost_google": 8.18,
     "clicks_facebook": 413,
     "clicks_google": 27
@@ -9019,10 +9019,10 @@ export const realDataSK: RealDailyRecordSK[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 0.37,
-    "cost_facebook": 0.37,
+    "cost": 11.9,
+    "cost_facebook": 11.9,
     "cost_google": 0,
-    "clicks_facebook": 2,
+    "clicks_facebook": 143,
     "clicks_google": 0
   }
 ];

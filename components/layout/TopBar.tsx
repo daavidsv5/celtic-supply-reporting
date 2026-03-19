@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { FilterState, Country, TimePeriod } from '@/data/types';
 import { getDateRange } from '@/hooks/useFilters';
 import { formatDate } from '@/lib/formatters';
@@ -31,6 +32,8 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
   const [updating, setUpdating] = useState(false);
   const [updateMsg, setUpdateMsg] = useState<string | null>(null);
   const { toggle } = useSidebar();
+  const pathname = usePathname();
+  const isRetention = pathname === '/retention' || pathname === '/crosssell';
 
   const handleUpdate = async () => {
     setUpdating(true);
@@ -73,48 +76,50 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
           <Menu size={20} />
         </button>
 
-        {/* Country segmented control */}
-        <div className="flex items-center gap-1.5 flex-shrink-0">
-          <span className="text-xs text-slate-400 font-medium hidden sm:inline">Trh:</span>
-          <div className="flex rounded-lg border border-slate-200 overflow-hidden bg-white">
-            {([
-              { label: 'Vše', value: 'all' },
-              { label: '🇨🇿', value: 'cz' },
-              { label: '🇸🇰', value: 'sk' },
-            ] as { label: string; value: 'all' | Country }[]).map(({ label, value }, idx) => {
-              const isActive =
-                value === 'all'
-                  ? filters.countries.length === 2
-                  : filters.countries.length === 1 && filters.countries[0] === value;
-              const select = () => {
-                if (value === 'all') onChange({ ...filters, countries: ['cz', 'sk'] });
-                else onChange({ ...filters, countries: [value as Country] });
-              };
-              return (
-                <button
-                  key={value}
-                  onClick={select}
-                  className={`px-2.5 md:px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none ${
-                    idx > 0 ? 'border-l border-slate-200' : ''
-                  } ${
-                    isActive
-                      ? 'bg-blue-600 text-white'
-                      : 'text-slate-600 hover:bg-slate-50'
-                  }`}
-                >
-                  {/* Show CZ/SK text only on sm+ */}
-                  <span className="sm:hidden">{label}</span>
-                  <span className="hidden sm:inline">
-                    {value === 'all' ? 'Vše' : value === 'cz' ? '🇨🇿 CZ' : '🇸🇰 SK'}
-                  </span>
-                </button>
-              );
-            })}
+        {/* Country segmented control — hidden on retention page */}
+        {!isRetention && (
+          <div className="flex items-center gap-1.5 flex-shrink-0">
+            <span className="text-xs text-slate-400 font-medium hidden sm:inline">Trh:</span>
+            <div className="flex rounded-lg border border-slate-200 overflow-hidden bg-white">
+              {([
+                { label: 'Vše', value: 'all' },
+                { label: '🇨🇿', value: 'cz' },
+                { label: '🇸🇰', value: 'sk' },
+              ] as { label: string; value: 'all' | Country }[]).map(({ label, value }, idx) => {
+                const isActive =
+                  value === 'all'
+                    ? filters.countries.length === 2
+                    : filters.countries.length === 1 && filters.countries[0] === value;
+                const select = () => {
+                  if (value === 'all') onChange({ ...filters, countries: ['cz', 'sk'] });
+                  else onChange({ ...filters, countries: [value as Country] });
+                };
+                return (
+                  <button
+                    key={value}
+                    onClick={select}
+                    className={`px-2.5 md:px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none ${
+                      idx > 0 ? 'border-l border-slate-200' : ''
+                    } ${
+                      isActive
+                        ? 'bg-blue-600 text-white'
+                        : 'text-slate-600 hover:bg-slate-50'
+                    }`}
+                  >
+                    {/* Show CZ/SK text only on sm+ */}
+                    <span className="sm:hidden">{label}</span>
+                    <span className="hidden sm:inline">
+                      {value === 'all' ? 'Vše' : value === 'cz' ? '🇨🇿 CZ' : '🇸🇰 SK'}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Divider — desktop only */}
-        <div className="h-6 w-px bg-slate-100 hidden md:block flex-shrink-0" />
+        {!isRetention && <div className="h-6 w-px bg-slate-100 hidden md:block flex-shrink-0" />}
 
         {/* Time period */}
         <div className="flex items-center gap-1.5 flex-shrink-0">

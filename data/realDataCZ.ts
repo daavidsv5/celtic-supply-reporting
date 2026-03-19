@@ -3845,8 +3845,8 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12398,
     "revenue": 11069.67,
-    "cost": 1837.03,
-    "cost_facebook": 1609.49,
+    "cost": 1839.67,
+    "cost_facebook": 1612.13,
     "cost_google": 227.54,
     "clicks_facebook": 209,
     "clicks_google": 39
@@ -3858,10 +3858,10 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2224,
     "revenue": 1985.73,
-    "cost": 37.77,
-    "cost_facebook": 37.77,
+    "cost": 665.27,
+    "cost_facebook": 665.27,
     "cost_google": 0,
-    "clicks_facebook": 2,
+    "clicks_facebook": 68,
     "clicks_google": 0
   }
 ];
