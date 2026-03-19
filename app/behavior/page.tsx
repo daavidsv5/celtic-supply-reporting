@@ -6,19 +6,26 @@ import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { mockData } from '@/data/mockGenerator';
 import { getDisplayCurrency, EUR_TO_CZK } from '@/data/types';
 import { formatCurrency, formatPercent, formatDate } from '@/lib/formatters';
+import { hourlyDataCZ } from '@/data/hourlyDataCZ';
+import { hourlyDataSK } from '@/data/hourlyDataSK';
 import {
   BarChart,
   Bar,
+  LineChart,
+  Line,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
+  Legend,
   ResponsiveContainer,
 } from 'recharts';
 
 const DAY_NAMES = ['Neděle', 'Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'Pátek', 'Sobota'];
 const DAY_SHORT = ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'];
 const DAY_ORDER  = [1, 2, 3, 4, 5, 6, 0]; // Mon → Sun
+const DOW_COLORS = ['#6366f1','#3b82f6','#0ea5e9','#14b8a6','#22c55e','#f59e0b','#ef4444'];
+// Mon Tue Wed Thu Fri Sat Sun
 
 function formatYAxis(v: number, cur: 'CZK' | 'EUR') {
   const s = cur === 'EUR' ? '€' : 'Kč';
@@ -77,6 +84,56 @@ export default function BehaviorPage() {
 
   const totalOrders  = stats.reduce((s, r) => s + r.orders,  0);
   const totalRevenue = stats.reduce((s, r) => s + r.revenue, 0);
+
+  // ── Hourly data (all-time, filtered by country) ───────────────────────────
+  const hourlyGrid = useMemo(() => {
+    const isCZOnly = filters.countries.length === 1 && filters.countries[0] === 'cz';
+    const isSKOnly = filters.countries.length === 1 && filters.countries[0] === 'sk';
+    const eur = eurToCzk ?? EUR_TO_CZK;
+
+    // Build 7×24 grid with avgRevenue per cell
+    const grid: number[][] = Array.from({ length: 7 }, () => new Array(24).fill(0));
+
+    if (isSKOnly) {
+      for (const p of hourlyDataSK) grid[p.dayOfWeek][p.hour] = p.avgRevenue;
+    } else if (isCZOnly) {
+      for (const p of hourlyDataCZ) grid[p.dayOfWeek][p.hour] = p.avgRevenue;
+    } else {
+      // Vše: combine CZ (CZK) + SK converted to CZK, average by max dayCount
+      const czMap  = new Map(hourlyDataCZ.map(p => [`${p.dayOfWeek}-${p.hour}`, p]));
+      const skMap  = new Map(hourlyDataSK.map(p => [`${p.dayOfWeek}-${p.hour}`, p]));
+      for (let dow = 0; dow < 7; dow++) {
+        for (let h = 0; h < 24; h++) {
+          const cz = czMap.get(`${dow}-${h}`);
+          const sk = skMap.get(`${dow}-${h}`);
+          const czRev = cz ? cz.totalRevenue : 0;
+          const skRev = sk ? sk.totalRevenue * eur : 0;
+          const days  = Math.max(cz?.dayCount ?? 0, sk?.dayCount ?? 0) || 1;
+          grid[dow][h] = (czRev + skRev) / days;
+        }
+      }
+    }
+    return grid;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filters.countries, eurToCzk]);
+
+  // Line chart data: 24 points, one per hour, one series per day of week (Mon→Sun)
+  const hourlyChartData = useMemo(() =>
+    Array.from({ length: 24 }, (_, h) => {
+      const row: Record<string, number | string> = { hour: `${h}:00` };
+      DAY_ORDER.forEach(dow => {
+        row[DAY_SHORT[dow]] = Math.round(hourlyGrid[dow][h]);
+      });
+      return row;
+    }),
+  [hourlyGrid]);
+
+  // Heatmap max for colour scaling
+  const heatmapMax = useMemo(() => {
+    let max = 0;
+    for (const row of hourlyGrid) for (const v of row) if (v > max) max = v;
+    return max || 1;
+  }, [hourlyGrid]);
 
   const strongest = [...stats].sort((a, b) => b.avgRevenue - a.avgRevenue)[0];
   const weakest   = [...stats].sort((a, b) => a.avgRevenue - b.avgRevenue)[0];
@@ -171,6 +228,102 @@ export default function BehaviorPage() {
               <Bar dataKey="revenue" name="Tržby bez DPH" fill="#3b82f6" radius={[3, 3, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
+        </div>
+      </div>
+
+      {/* Hourly line chart */}
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-5">
+        <h2 className="text-sm font-semibold text-slate-700 mb-1">
+          Nákupy v průběhu dne{' '}
+          <span className="text-xs font-normal text-slate-400">(průměr tržeb bez DPH / hodina, dle dne v týdnu)</span>
+        </h2>
+        <p className="text-[11px] text-slate-400 mb-4">Vychází ze všech dostupných dat — nezávisle na zvoleném období.</p>
+        <ResponsiveContainer width="100%" height={300}>
+          <LineChart data={hourlyChartData} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
+            <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
+            <XAxis
+              dataKey="hour"
+              tick={{ fontSize: 10, fill: '#94a3b8' }}
+              axisLine={false}
+              tickLine={false}
+              interval={1}
+            />
+            <YAxis
+              tickFormatter={v => formatYAxis(v, currency)}
+              tick={{ fontSize: 10, fill: '#94a3b8' }}
+              width={60}
+              axisLine={false}
+              tickLine={false}
+            />
+            <Tooltip
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              formatter={(v: any, name: any) => [fc(Number(v)), name]}
+              contentStyle={{ fontSize: 11, borderRadius: 8, border: '1px solid #e2e8f0' }}
+            />
+            <Legend wrapperStyle={{ fontSize: 11, color: '#64748b' }} iconType="circle" iconSize={7} />
+            {DAY_ORDER.map((dow, i) => (
+              <Line
+                key={dow}
+                type="monotone"
+                dataKey={DAY_SHORT[dow]}
+                stroke={DOW_COLORS[i]}
+                strokeWidth={1.5}
+                dot={false}
+                activeDot={{ r: 3 }}
+              />
+            ))}
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
+
+      {/* Heatmap grid */}
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-5">
+        <h2 className="text-sm font-semibold text-slate-700 mb-1">
+          Heatmapa nákupů — den × hodina
+        </h2>
+        <p className="text-[11px] text-slate-400 mb-4">Průměrné tržby bez DPH za hodinu. Tmavší = vyšší tržby.</p>
+        <div className="overflow-x-auto">
+          <table className="text-[10px] w-full border-collapse" style={{ minWidth: 560 }}>
+            <thead>
+              <tr>
+                <th className="pr-2 pb-1 text-left text-slate-400 font-medium w-8" />
+                {Array.from({ length: 24 }, (_, h) => (
+                  <th key={h} className="pb-1 text-center text-slate-400 font-normal w-7">{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {DAY_ORDER.map((dow, rowIdx) => (
+                <tr key={dow}>
+                  <td className="pr-2 py-0.5 text-right text-slate-500 font-medium whitespace-nowrap">{DAY_SHORT[dow]}</td>
+                  {Array.from({ length: 24 }, (_, h) => {
+                    const val = hourlyGrid[dow][h];
+                    const ratio = heatmapMax > 0 ? val / heatmapMax : 0;
+                    const alpha = ratio < 0.05 ? 0.04 : 0.12 + ratio * 0.82;
+                    const textColor = ratio > 0.55 ? '#1e3a8a' : '#64748b';
+                    return (
+                      <td
+                        key={h}
+                        title={val > 0 ? fc(val) : '—'}
+                        className="py-0.5 text-center rounded"
+                        style={{
+                          backgroundColor: `rgba(37,99,235,${alpha.toFixed(2)})`,
+                          color: textColor,
+                          width: 28,
+                          height: 24,
+                          cursor: 'default',
+                        }}
+                      >
+                        {val >= heatmapMax * 0.35 ? (
+                          <span className="font-semibold">{Math.round(val / 1000)}k</span>
+                        ) : null}
+                      </td>
+                    );
+                  })}
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
 
