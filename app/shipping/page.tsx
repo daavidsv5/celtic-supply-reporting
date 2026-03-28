@@ -69,9 +69,11 @@ interface MethodRow {
 }
 
 // Custom tooltip for stacked charts
-function StackedTooltip({ active, payload, label, fc }: TooltipProps<number, string> & { fc: (v: number) => string }) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function StackedTooltip({ active, payload, label, fc }: any) {
   if (!active || !payload?.length) return null;
-  const total = payload.reduce((s, p) => s + (p.value as number || 0), 0);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const total = payload.reduce((s: number, p: any) => s + (p.value as number || 0), 0);
   return (
     <div className="bg-white border border-slate-200 rounded-xl shadow-lg p-3 text-xs min-w-[160px]">
       <p className="font-semibold text-slate-600 mb-2">{label}</p>
@@ -95,7 +97,8 @@ function StackedTooltip({ active, payload, label, fc }: TooltipProps<number, str
 }
 
 // Tooltip for % stacked charts
-function PctStackedTooltip({ active, payload, label }: TooltipProps<number, string>) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function PctStackedTooltip({ active, payload, label }: any) {
   if (!active || !payload?.length) return null;
   return (
     <div className="bg-white border border-slate-200 rounded-xl shadow-lg p-3 text-xs min-w-[160px]">
@@ -116,9 +119,8 @@ function PctStackedTooltip({ active, payload, label }: TooltipProps<number, stri
 const RADIAN = Math.PI / 180;
 
 // External label with leader line — name + %
-function renderPieLabel({ cx, cy, midAngle, outerRadius, percent, name }: {
-  cx: number; cy: number; midAngle: number; outerRadius: number; percent: number; name: string;
-}) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function renderPieLabel({ cx, cy, midAngle, outerRadius, percent, name }: any) {
   if (percent < 0.04) return null;
   const sin  = Math.sin(-midAngle * RADIAN);
   const cos  = Math.cos(-midAngle * RADIAN);
@@ -394,7 +396,7 @@ export default function ShippingPage() {
   }, [costs, filters.countries, startStr, endStr, skMult, shippingRows]);
 
   function updateCost(name: string, field: keyof CarrierCost, value: string) {
-    setCosts(prev => ({ ...prev, [name]: { ...({ cz: '', sk: '', note: '', ...prev[name] }), [field]: value } }));
+    setCosts(prev => { const cur = Object.assign({ cz: '', sk: '', note: '' }, prev[name], { [field]: value }); return { ...prev, [name]: cur as CarrierCost }; });
     setSaved(false);
   }
 
@@ -612,7 +614,7 @@ export default function ShippingPage() {
                         <Cell key={i} fill={SHIP_PALETTE[i % SHIP_PALETTE.length]} stroke="#fff" strokeWidth={2} />
                       ))}
                     </Pie>
-                    <Tooltip formatter={(v: number) => [formatNumber(v), 'Počet objednávek']} contentStyle={{ fontSize: 12, borderRadius: 8 }} />
+                    <Tooltip formatter={(v: unknown) => [formatNumber(Number(v)), 'Počet objednávek']} contentStyle={{ fontSize: 12, borderRadius: 8 }} />
                   </PieChart>
                 </ResponsiveContainer>
               </div>
@@ -690,7 +692,7 @@ export default function ShippingPage() {
                         <Cell key={i} fill={PAY_PALETTE[i % PAY_PALETTE.length]} stroke="#fff" strokeWidth={2} />
                       ))}
                     </Pie>
-                    <Tooltip formatter={(v: number) => [formatNumber(v), 'Počet objednávek']} contentStyle={{ fontSize: 12, borderRadius: 8 }} />
+                    <Tooltip formatter={(v: unknown) => [formatNumber(Number(v)), 'Počet objednávek']} contentStyle={{ fontSize: 12, borderRadius: 8 }} />
                   </PieChart>
                 </ResponsiveContainer>
               </div>

@@ -6,7 +6,7 @@ import { TrendingUp, TrendingDown } from 'lucide-react';
 interface KpiCardProps {
   title: string;
   value: string;
-  yoy: number;
+  yoy: number | null;
   icon?: React.ReactNode;
   sparklineData?: number[];
   invertColors?: boolean;
@@ -23,8 +23,8 @@ export default function KpiCard({
   hasPrevData = true,
   variant = 'default',
 }: KpiCardProps) {
-  const isPositive = invertColors ? yoy < 0 : yoy > 0;
-  const isNeutral  = yoy === 0;
+  const isPositive = invertColors ? (yoy ?? 0) < 0 : (yoy ?? 0) > 0;
+  const isNeutral  = yoy === 0 || yoy === null;
 
   const borderColor = variant === 'green' ? 'border-emerald-700' : variant === 'red' ? 'border-rose-600' : 'border-blue-800';
   const iconBg      = variant === 'green' ? 'bg-emerald-50 text-emerald-700' : variant === 'red' ? 'bg-rose-50 text-rose-600' : 'bg-blue-50 text-blue-600';
