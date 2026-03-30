@@ -21,6 +21,14 @@ export async function POST() {
     return NextResponse.json({ ok: false, log: 'Deploy hook selhal.' }, { status: 500 });
   }
 
+  // Check if running on Vercel (read-only filesystem — exec won't work)
+  if (process.env.VERCEL) {
+    return NextResponse.json({
+      ok: false,
+      log: 'Na Vercelu není nastaven VERCEL_DEPLOY_HOOK_URL. Přidej ho v Settings → Environment Variables.',
+    }, { status: 500 });
+  }
+
   // Locally: run the update script directly
   const scriptDir = path.join(process.cwd(), 'scripts');
   return new Promise<NextResponse>((resolve) => {
