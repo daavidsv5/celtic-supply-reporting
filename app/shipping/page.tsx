@@ -447,7 +447,6 @@ export default function ShippingPage() {
           />
           <KpiCard title="Prům. doprava"        value={fc(avgShipping)}                               yoy={yoyPct(avgShipping, prevAvgShipping)}            icon={<DollarSign size={16} />} sparklineData={[]}            hasPrevData={hasPrevData} />
           <KpiCard title="Doprava zdarma"       value={formatNumber(freeShippingCount)}               yoy={yoyPct(freeShippingPct, prevFreeShippingPct)}   icon={<Gift size={16} />}       sparklineData={[]}            hasPrevData={hasPrevData} />
-          <StatCard title="Nejpop. doprava"     value={shippingRows[0]?.name ?? '--'}                 icon={<Star size={18} />}  sub={shippingRows[0] ? `${shippingRows[0].pct_count.toFixed(0)}% objednávek` : ''} />
         </div>
       </div>
 
@@ -459,7 +458,6 @@ export default function ShippingPage() {
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           <KpiCard title="Platby celkem"        value={fc(totalPaymentRev)}                           yoy={yoyPct(totalPaymentRev, prevTotalPaymentRev)}   icon={<CreditCard size={16} />} sparklineData={sparkPayment}  hasPrevData={hasPrevData} />
           <KpiCard title="Prům. platba"         value={fc(avgPayment)}                                yoy={yoyPct(avgPayment, prevAvgPayment)}              icon={<Banknote size={16} />}   sparklineData={[]}            hasPrevData={hasPrevData} />
-          <StatCard title="Nejpop. platba"      value={paymentRows[0]?.name ?? '--'}                  icon={<Award size={18} />} sub={paymentRows[0] ? `${paymentRows[0].pct_count.toFixed(0)}% objednávek` : ''} />
         </div>
       </div>
 

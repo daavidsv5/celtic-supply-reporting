@@ -32,6 +32,7 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
   const { data: session } = useSession();
   const isAdmin = (session?.user as { role?: string })?.role === 'admin';
   const isRetention = pathname === '/retention' || pathname === '/crosssell';
+  const hideAll = pathname === '/shipping';
 
   const handleUpdate = async () => {
     setUpdating(true);
@@ -83,7 +84,7 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
                 { label: 'Vše', value: 'all' },
                 { label: '🇨🇿', value: 'cz' },
                 { label: '🇸🇰', value: 'sk' },
-              ] as { label: string; value: 'all' | Country }[]).map(({ label, value }, idx) => {
+              ] as { label: string; value: 'all' | Country }[]).filter(({ value }) => !(hideAll && value === 'all')).map(({ label, value }, idx) => {
                 const isActive =
                   value === 'all'
                     ? filters.countries.length === 2
