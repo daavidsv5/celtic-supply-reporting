@@ -23,9 +23,10 @@ Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4, Recharts, NextAut
 
 ```
 Google Sheets (CSV)
-       ↓  scripts/updateData.js  (denně v 06:00 via Windows Task Scheduler)
+       ↓  scripts/updateData.js  (denně v 05:00 via Windows Task Scheduler)
+       ↓  na konci skriptu: git commit + push → Vercel automaticky redeploy
 data/realDataCZ.ts + realDataSK.ts + productData* + marginData* + hourlyData* +
-crossSellData* + retentionData* + orderValueData* + shippingPaymentData*
+crossSellData* + retentionData* + orderValueData* + shippingPaymentData* + lastUpdate.ts
        ↓
 data/mockGenerator.ts  →  export const mockData: DailyRecord[]
                        →  getDailyMarketingData() + getMarketingSourceData()
@@ -35,11 +36,20 @@ hooks/useDashboardData.ts  (filters + aggregates → KpiData, chartData, YoY)
 app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|retention|shipping)/page.tsx
 ```
 
+### Aktualizace dat na Vercelu
+
+- `scripts/updateData.js` běží lokálně denně v 05:00 (Windows Task Scheduler)
+- Na konci skriptu se provede `git commit + push` → Vercel automaticky nasadí nová data
+- Tlačítko **Aktualizovat data** (viditelné pouze adminům) volá `/api/update`:
+  - Na Vercelu: spustí Vercel Deploy Hook (`VERCEL_DEPLOY_HOOK_URL` env proměnná)
+  - Lokálně: spustí `node updateData.js` přímo
+- `data/lastUpdate.ts` — auto-gen timestamp poslední aktualizace, zobrazen v TopBaru vpravo
+
 ### Stránky
 
 | Stránka | Popis |
 |---------|-------|
-| `/dashboard` | **Klíčové ukazatele (KPI)** — 13 metrik vč. marže a hrubého zisku, RevenueOrdersChart, CostPnoChart, DailyTable |
+| `/dashboard` | **Klíčové ukazatele (KPI)** — Tržby s/bez DPH, Počet obj., AOV, Marketing. investice, PNO, CPA, Marže, Marže %, Cena za nového zákazníka, Hrubý zisk na obj. + samostatný řádek Hrubý zisk + Hrubý zisk % |
 | `/orders` | Objednávky — tržby vs počet, distribuce hodnot košíku (histogram), rozložení CZ/SK |
 | `/marketing` | Marketingové investice — CPC per channel (FB/Google), trend kliky+CPC (ROAS odstraněn) |
 | `/products` | Prodejnost produktů — ABC analýza (A/B/C segmenty), sortovatelná tabulka, YoY, CSV export |
@@ -47,7 +57,7 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `/analytics` | GA4 integrace — sessions, CVR, sources+devices (YoY), vstupní stránky; zatím jen CZ |
 | `/behavior` | Nákupní chování — týdenní srovnání, hourly grid (all-time agregace) |
 | `/crosssell` | Cross-sell potenciál — top 100 produktových párů |
-| `/retention` | Retenční analýza — RFM segmentace, LTV, AOV, repeat purchase rate |
+| `/retention` | Retenční analýza — RFM segmentace, LTV, AOV, repeat purchase rate, měsíční graf Noví vs. stávající zákazníci (100% stacked bar) |
 | `/shipping` | Doprava a platby — KPI vč. zisku/ztráty dopravy, ceník dopravců (CZ/SK), P&L tabulka per dopravce |
 | `/login` | Přihlášení (NextAuth) |
 | `/admin/users` | Správa uživatelů (admin only) |
@@ -73,6 +83,7 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `data/mockGenerator.ts` | Kombinuje reálná + mock data; `getDailyMarketingData()` + `getMarketingSourceData()` |
 | `data/realDataCZ.ts` | Auto-gen reálná CZ data (CZK) — **needitovat ručně** |
 | `data/realDataSK.ts` | Auto-gen reálná SK data (EUR) — **needitovat ručně** |
+| `data/lastUpdate.ts` | Auto-gen timestamp poslední aktualizace dat — **needitovat ručně** |
 | `data/productDataCZ.ts` / `productDataSK.ts` | Prodej produktů (počet kusů, tržby) — auto-gen |
 | `data/marginDataCZ.ts` / `marginDataSK.ts` | Marže (nákupní cena vs tržby bez DPH) — auto-gen |
 | `data/hourlyDataCZ.ts` / `hourlyDataSK.ts` | Nákupní chování 7×24 grid — auto-gen, all-time |
@@ -80,12 +91,14 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `data/retentionDataCZ.ts` / `retentionDataSK.ts` | Per-customer retence `{ dates, revenues, revsVat }[]` — auto-gen |
 | `data/orderValueDataCZ.ts` / `orderValueDataSK.ts` | Per-order košík bez DPH `{ date, value }[]` — auto-gen |
 | `data/shippingPaymentDataCZ.ts` / `shippingPaymentDataSK.ts` | Doprava+platby po dnech — auto-gen |
-| `lib/retentionUtils.ts` | Všechny výpočty pro `/retention` (KPI, YoY, RFM segmentace, distribuce) |
+| `lib/retentionUtils.ts` | Všechny výpočty pro `/retention` (KPI, YoY, RFM segmentace, distribuce, měsíční Noví vs. stávající) |
+| `lib/formatters.ts` | `formatCurrency`, `formatPercent`, `formatNumber`, `formatDate`, `formatShortDate`, `formatMonthYear` |
 | `components/kpi/StatCard.tsx` | Sdílená KPI karta (border-2 border-blue-800, icon vpravo); prop `negative` = rose varianta; props `yoy`, `hasPrevData`, `invertYoy` pro YoY badge |
 | `components/kpi/KpiCard.tsx` | KPI karta se sparkline a YoY badge; prop `variant: 'default' \| 'green' \| 'red'` mění barvu rámečku, ikony a hodnoty |
 | `hooks/useFilters.ts` | `FiltersProvider` + `useFilters()` + `getDateRange()` + live EUR rate |
 | `hooks/useDashboardData.ts` | Filtruje, agreguje, normalizuje měny, počítá KPI + chartData + YoY |
-| `scripts/updateData.js` | Čistý Node.js — stáhne CSV z Google Sheets, generuje všechny data/*.ts soubory |
+| `scripts/updateData.js` | Čistý Node.js — stáhne CSV z Google Sheets, generuje všechny data/*.ts soubory, pak git push |
+| `app/api/update/route.ts` | POST endpoint — admin only; na Vercelu volá Deploy Hook, lokálně spustí skript |
 
 ### KPI komponenty
 
@@ -98,7 +111,9 @@ Dva typy KPI karet — **neměnit vzájemně**:
 
 ### `/dashboard` — Klíčové ukazatele (KPI)
 
-KPI boxy (13 celkem): Tržby s/bez DPH, Počet obj., AOV, Marketing. investice, PNO, CPA, Storna, Podíl storen, **Marže, Marže %, Hrubý zisk, Hrubý zisk %**.
+KPI boxy (11 + 2 ve vlastním řádku): Tržby s/bez DPH, Počet obj., AOV, Marketing. investice, PNO, CPA, Marže, Marže %, Cena za nového zákazníka, Hrubý zisk na objednávku + **samostatný řádek: Hrubý zisk, Hrubý zisk %** (variant='green').
+
+**Odstraněno:** Storna, Podíl storen (odstraněno na žádost uživatele).
 
 Marže a Hrubý zisk se počítají z `marginDataCZ` / `marginDataSK`:
 - `margin = marginRev - purchaseCost`
@@ -106,7 +121,14 @@ Marže a Hrubý zisk se počítají z `marginDataCZ` / `marginDataSK`:
 - `grossProfit = margin - kpi.cost`
 - `grossPct = grossProfit / marginRev × 100`
 
-Karta **Hrubý zisk** a **Hrubý zisk %** mají `variant='green'`.
+### `/retention` — Retenční analýza
+
+- **Měsíční graf Noví vs. stávající zákazníci** — 100% stacked bar, hned pod KPI boxy
+  - Data z `computeMonthlyNewVsReturning()` v `lib/retentionUtils.ts`
+  - Zelená = noví (první nákup v daném měsíci), Modrá = stávající (vrátili se)
+  - Osa X: název měsíce + rok (`formatMonthYear`), Osa Y: % podíl
+  - Tooltip zobrazuje skutečné počty zákazníků
+- RFM segmentace, LTV, AOV, repeat purchase rate — beze změny
 
 ### `/shipping` — Doprava a platby
 
@@ -212,10 +234,13 @@ GA4 je napojeno pouze pro **CZ**. SK bude řešeno samostatně v budoucnu.
 - **Graf CVR trychtýře v čase** (`funnelTrendPct`): zobrazuje jedinou křivku — `purchase / begin_checkout × 100 %` — jak se vyvíjí CVR celého trychtýře v čase; selektor zařízení (Vše / Desktop / Mobil / Tablet); Y-osa 0–100 %, každý bod počítán relativně k `begin_checkout_${device}` daného dne
 - **Trychtýř průchodnosti košíkem** (statický): stacked bar per krok, % z 1. kroku, odpad mezi kroky, rozpad desktop/mobile/tablet
 
-### Pre-existing TS chyby
-
-`app/shipping/page.tsx` má ~8 TS chyb (Recharts PieLabel + Tooltip typy). Jsou **pre-existující**, nezpůsobené nedávnými změnami — neřešit, pokud se nerefaktoruje shipping stránka.
-
 ### Autentizace
 
 NextAuth 5 (beta). Uživatelé jsou uloženi v `data/users.json` (bcrypt hesla). Admin stránka `/admin/users` vyžaduje `role: 'admin'`.
+
+- Tlačítko **Aktualizovat data** v TopBaru je viditelné **pouze adminům** (kontrola přes `useSession`)
+- Ostatní uživatelé tlačítko nevidí
+
+### Pre-existing TS chyby
+
+`app/shipping/page.tsx` má ~8 TS chyb (Recharts PieLabel + Tooltip typy). Jsou **pre-existující**, nezpůsobené nedávnými změnami — neřešit, pokud se nerefaktoruje shipping stránka.
