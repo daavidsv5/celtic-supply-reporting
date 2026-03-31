@@ -31,3 +31,10 @@ export function formatShortDate(dateStr: string): string {
   const [, month, day] = dateStr.split('-');
   return `${parseInt(day)}.\u00a0${parseInt(month)}.`;
 }
+
+const MONTHS_CS = ['Led', 'Úno', 'Bře', 'Dub', 'Kvě', 'Čvn', 'Čvc', 'Srp', 'Zář', 'Říj', 'Lis', 'Pro'];
+
+export function formatMonthYear(dateStr: string): string {
+  const [year, month] = dateStr.split('-');
+  return `${MONTHS_CS[parseInt(month) - 1]} ${year}`;
+}

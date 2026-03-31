@@ -15,7 +15,7 @@ import {
   computeDaysBetweenHistogram,
   computeRfmSegments,
 } from '@/lib/retentionUtils';
-import { formatCurrency, formatPercent, formatNumber, formatShortDate } from '@/lib/formatters';
+import { formatCurrency, formatPercent, formatNumber, formatShortDate, formatMonthYear } from '@/lib/formatters';
 import {
   AreaChart, Area, BarChart, Bar, LineChart, Line,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend,
@@ -131,14 +131,14 @@ export default function RetentionPage() {
         <ResponsiveContainer width="100%" height={260}>
           <BarChart data={monthlyNewVsRet} margin={{ top: 4, right: 16, left: 4, bottom: 4 }} stackOffset="expand">
             <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
-            <XAxis dataKey="date" tickFormatter={formatShortDate} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} interval="preserveStartEnd" />
+            <XAxis dataKey="date" tickFormatter={formatMonthYear} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} interval="preserveStartEnd" />
             <YAxis tickFormatter={v => `${Math.round((v as number) * 100)} %`} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={44} />
             <Tooltip
               formatter={(v: any, name: any, props: any) => {
                 const raw = props?.payload?.[name === 'Noví zákazníci' ? 'noví' : 'stávající'] ?? 0;
                 return [formatNumber(raw), name];
               }}
-              labelFormatter={(l: any) => formatShortDate(l as string)}
+              labelFormatter={(l: any) => formatMonthYear(l as string)}
             />
             <Legend wrapperStyle={{ fontSize: 11, color: '#64748b' }} iconType="square" iconSize={9} />
             <Bar dataKey="noví"      name="Noví zákazníci"      stackId="a" fill={C.newCustomers} />
