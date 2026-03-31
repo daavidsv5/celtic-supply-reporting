@@ -8,6 +8,7 @@ import { getDateRange } from '@/hooks/useFilters';
 import { formatDate } from '@/lib/formatters';
 import { RefreshCw, Menu } from 'lucide-react';
 import { useSidebar } from './ConditionalLayout';
+import { lastUpdate } from '@/data/lastUpdate';
 
 interface TopBarProps {
   filters: FilterState;
@@ -156,6 +157,11 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
           <span className="font-medium text-slate-700">{formatDate(start)}</span>
           <span className="mx-1.5 text-slate-300">–</span>
           <span className="font-medium text-slate-700">{formatDate(end)}</span>
+        </div>
+
+        {/* Last update label */}
+        <div className="text-xs text-slate-400 hidden md:block flex-shrink-0">
+          Data: <span className="font-medium text-slate-500">{new Date(lastUpdate).toLocaleString('cs-CZ', { day: 'numeric', month: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
         </div>
 
         {/* Spacer */}
