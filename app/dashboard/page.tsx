@@ -126,11 +126,14 @@ export default function DashboardPage() {
     { title: 'Cena za objednávku',      value: fc(kpi.cpa),        yoy: yoy.cpa,        icon: <Tag size={16} />,         invertColors: true },
     { title: 'Marže',                   value: fc(margin),            yoy: yoyMargin,      icon: <Banknote size={16} /> },
     { title: 'Marže %',                 value: formatPercent(marginPct),       yoy: yoyMarginPct,   icon: <Percent size={16} /> },
-    { title: 'Hrubý zisk',             value: fc(grossProfit),         yoy: yoyGrossProfit, icon: <TrendingUp size={16} />, variant: 'green' as const },
-    { title: 'Hrubý zisk %',           value: formatPercent(grossPct), yoy: yoyGrossPct,    icon: <BarChart2 size={16} />, variant: 'green' as const },
     { title: 'Cena za nového zákazníka', value: newCustomerCounts.cur > 0 ? fc(costPerNewCustomer) : '–', yoy: yoyCostPerNewCustomer, icon: <Users size={16} />, invertColors: true },
-    { title: 'Hrubý zisk na objednávku', value: kpi.orders > 0 ? fc(grossPerOrder) : '–', yoy: yoyGrossPerOrder, icon: <Banknote size={16} />, variant: 'green' as const },
+    { title: 'Hrubý zisk na objednávku', value: kpi.orders > 0 ? fc(grossPerOrder) : '–', yoy: yoyGrossPerOrder, icon: <Banknote size={16} /> },
   ].map(c => ({ ...c, hasPrevData }));
+
+  const grossKpiCards = [
+    { title: 'Hrubý zisk',   value: fc(grossProfit),         yoy: yoyGrossProfit, icon: <TrendingUp size={16} />, variant: 'green' as const, hasPrevData },
+    { title: 'Hrubý zisk %', value: formatPercent(grossPct), yoy: yoyGrossPct,    icon: <BarChart2 size={16} />,  variant: 'green' as const, hasPrevData },
+  ];
 
   return (
     <div className="space-y-6">
@@ -143,6 +146,13 @@ export default function DashboardPage() {
       {/* KPI Cards */}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
         {kpiCards.map((card) => (
+          <KpiCard key={card.title} {...card} />
+        ))}
+      </div>
+
+      {/* Hrubý zisk — vlastní řádek */}
+      <div className="grid grid-cols-2 gap-4">
+        {grossKpiCards.map((card) => (
           <KpiCard key={card.title} {...card} />
         ))}
       </div>
