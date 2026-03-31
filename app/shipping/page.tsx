@@ -433,7 +433,7 @@ export default function ShippingPage() {
         <p className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
           <Truck size={16} /> Doprava
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
           <KpiCard title="Doprava zákazník"     value={fc(totalShippingRev)}                          yoy={yoyPct(totalShippingRev, prevTotalShippingRev)} icon={<Truck size={16} />}      sparklineData={sparkShipping} hasPrevData={hasPrevData} />
           <KpiCard title="Doprava e-shop"       value={hasAnyCost ? fc(eshopShippingCost) : '--'}     yoy={0}                                               icon={<DollarSign size={16} />} sparklineData={[]}            hasPrevData={false} />
           <KpiCard
@@ -455,7 +455,7 @@ export default function ShippingPage() {
         <p className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
           <CreditCard size={16} /> Platba
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
           <KpiCard title="Platby celkem"        value={fc(totalPaymentRev)}                           yoy={yoyPct(totalPaymentRev, prevTotalPaymentRev)}   icon={<CreditCard size={16} />} sparklineData={sparkPayment}  hasPrevData={hasPrevData} />
           <KpiCard title="Prům. platba"         value={fc(avgPayment)}                                yoy={yoyPct(avgPayment, prevAvgPayment)}              icon={<Banknote size={16} />}   sparklineData={[]}            hasPrevData={hasPrevData} />
         </div>

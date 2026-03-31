@@ -132,7 +132,7 @@ export default function OrdersPage() {
       </div>
 
       {/* KPI Cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
         {kpiCards.map((card) => (
           <KpiCard key={card.title} {...card} />
         ))}
@@ -245,7 +245,7 @@ export default function OrdersPage() {
             </ResponsiveContainer>
 
             {/* Stats row */}
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
               {histogram.map((b) => (
                 <div key={b.label} className={`rounded-xl p-3 border ${b.label === peak.label ? 'border-blue-300 bg-blue-50' : 'border-slate-100 bg-slate-50'}`}>
                   <p className={`text-[10px] font-bold uppercase tracking-wider mb-1 ${b.label === peak.label ? 'text-blue-600' : 'text-slate-400'}`}>

@@ -62,9 +62,9 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
   };
 
   return (
-    <div className="bg-white border-b border-slate-100 px-3 md:px-6 py-2.5 md:py-3">
+    <div className="bg-white border-b border-slate-100 px-3 md:px-6 py-2 md:py-3">
       {/* Single row — wraps on smaller screens */}
-      <div className="flex items-center gap-2 md:gap-4 flex-wrap">
+      <div className="flex items-center gap-1.5 md:gap-4 flex-wrap">
 
         {/* Hamburger — mobile only */}
         <button

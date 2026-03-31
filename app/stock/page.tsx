@@ -121,7 +121,7 @@ export default function StockPage() {
       </div>
 
       {/* KPI Cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
         <StatCard title="Celkem produktů" value={formatNumber(kpis.total)}   icon={<Package size={18} />} />
         <StatCard title="Skladem"         value={formatNumber(kpis.inStock)} icon={<PackageCheck size={18} />} highlight />
         <StatCard title="Vyprodáno"       value={formatNumber(kpis.outStock)}icon={<PackageX size={18} />} negative />

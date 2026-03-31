@@ -122,7 +122,7 @@ export default function MarketingPage() {
       </div>
 
       {/* KPI Cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {kpiCards.map((card) => (
           <KpiCard key={card.title} {...card} />
         ))}
@@ -140,14 +140,14 @@ export default function MarketingPage() {
         {/* FB + Google summary cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* Facebook Ads */}
-          <div className="bg-white rounded-2xl border-2 border-blue-800 p-4 space-y-3">
+          <div className="bg-white rounded-2xl border-2 border-blue-800 p-3 sm:p-4 space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-xs font-bold uppercase tracking-wider text-blue-700">Facebook Ads</span>
               <div className="w-8 h-8 bg-blue-50 rounded-lg flex items-center justify-center text-blue-600">
                 <Share2 size={15} />
               </div>
             </div>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-3 gap-2 sm:gap-3">
               <div>
                 <p className="text-[10px] text-slate-400 uppercase tracking-wider">Náklady</p>
                 <p className="text-xl font-bold text-slate-900">{fc(fb.cost)}</p>
@@ -167,14 +167,14 @@ export default function MarketingPage() {
           </div>
 
           {/* Google Ads */}
-          <div className="bg-white rounded-2xl border-2 border-blue-800 p-4 space-y-3">
+          <div className="bg-white rounded-2xl border-2 border-blue-800 p-3 sm:p-4 space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-xs font-bold uppercase tracking-wider text-green-700">Google Ads</span>
               <div className="w-8 h-8 bg-green-50 rounded-lg flex items-center justify-center text-green-600">
                 <Search size={15} />
               </div>
             </div>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-3 gap-2 sm:gap-3">
               <div>
                 <p className="text-[10px] text-slate-400 uppercase tracking-wider">Náklady</p>
                 <p className="text-xl font-bold text-slate-900">{fc(gg.cost)}</p>

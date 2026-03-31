@@ -144,14 +144,14 @@ export default function DashboardPage() {
       </div>
 
       {/* KPI Cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
         {kpiCards.map((card) => (
           <KpiCard key={card.title} {...card} />
         ))}
       </div>
 
       {/* Hrubý zisk — vlastní řádek */}
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
         {grossKpiCards.map((card) => (
           <KpiCard key={card.title} {...card} />
         ))}

@@ -234,7 +234,7 @@ export default function ProductsPage() {
       </div>
 
       {/* KPI boxes */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 sm:gap-4">
         <StatCard title="Celkový prodej s DPH"  value={fc(totalRevenueVat)}        icon={<TrendingUp size={18} />} sub={currency}              yoy={yoy.revenuevat}             hasPrevData={hasPrevDataDash} />
         <StatCard title="Celkový prodej bez DPH" value={fc(totalRevenue)}            icon={<ShoppingBag size={18} />} sub={currency}             yoy={yoy.revenue}                hasPrevData={hasPrevDataDash} />
         <StatCard title="Celkový počet kusů"     value={formatNumber(totalAmount)}   icon={<Boxes size={18} />} sub="prodáno"                     yoy={yoyPct(totalAmount, prevTotalAmount)}  hasPrevData={hasPrevData} />
@@ -248,7 +248,7 @@ export default function ProductsPage() {
           <h2 className="text-sm font-semibold text-slate-700">ABC analýza produktů</h2>
           <span className="text-xs text-slate-400">— dle tržeb bez DPH</span>
         </div>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
           {/* A */}
           <div className="rounded-xl border-2 border-emerald-200 bg-emerald-50 p-4">
             <div className="flex items-center gap-2 mb-2">

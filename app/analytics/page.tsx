@@ -211,7 +211,7 @@ export default function AnalyticsPage() {
       {data && cur && prev && (
         <>
           {/* KPI row */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
             <SharedKpiCard title="Sessions"          value={cur.sessions.toLocaleString('cs-CZ')}  yoy={yoyPct(cur.sessions, prev.sessions)}       icon={<TrendingUp size={16} />}       hasPrevData={!!prev.sessions} />
             <SharedKpiCard title="Unikátní uživatelé" value={cur.users.toLocaleString('cs-CZ')}   yoy={yoyPct(cur.users, prev.users)}             icon={<Users size={16} />}            hasPrevData={!!prev.users} />
             <SharedKpiCard title="Konverze"          value={cur.conversions.toLocaleString('cs-CZ')} yoy={yoyPct(cur.conversions, prev.conversions)} icon={<MousePointerClick size={16} />} hasPrevData={!!prev.conversions} />

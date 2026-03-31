@@ -117,7 +117,7 @@ export default function RetentionPage() {
       </p>
 
       {/* KPI Cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
         <StatCard title="Celkem zákazníků"   value={formatNumber(kpis.totalCustomers)}            icon={<Users size={18} />} />
         <StatCard title="Celkový obrat"       value={fc(kpis.totalRevenue)}                         icon={<DollarSign size={18} />} />
         <StatCard title="Ø objednávka"        value={fc(kpis.avgOrderValue)}                        icon={<ShoppingCart size={18} />} />
@@ -157,7 +157,7 @@ export default function RetentionPage() {
         </div>
 
         {/* Segment cards 2×3 grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {rfmSegments.map(seg => (
             <div key={seg.segment} className={`rounded-xl border-2 ${seg.borderColor} ${seg.color} p-3 space-y-2`}>
               <div>
