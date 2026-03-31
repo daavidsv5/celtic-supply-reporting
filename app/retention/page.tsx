@@ -126,17 +126,17 @@ export default function RetentionPage() {
         <StatCard title="LTV / zákazník"      value={fc(kpis.ltvPerCustomer)}                       icon={<TrendingUp size={18} />} />
       </div>
 
-      {/* Noví vs. stávající zákazníci — měsíční stacked bar */}
+      {/* Noví vs. stávající zákazníci — měsíční grouped bar */}
       <ChartCard title="Noví vs. stávající zákazníci — vývoj po měsících">
         <ResponsiveContainer width="100%" height={260}>
-          <BarChart data={monthlyNewVsRet} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
+          <BarChart data={monthlyNewVsRet} margin={{ top: 4, right: 16, left: 4, bottom: 4 }} barSize={6}>
             <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
             <XAxis dataKey="date" tickFormatter={formatShortDate} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} interval="preserveStartEnd" />
             <YAxis tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={36} allowDecimals={false} />
             <Tooltip formatter={(v: any, name: any) => [formatNumber(v as number), name]} labelFormatter={(l: any) => formatShortDate(l as string)} />
             <Legend wrapperStyle={{ fontSize: 11, color: '#64748b' }} iconType="square" iconSize={9} />
-            <Bar dataKey="noví"      name="Noví zákazníci"      stackId="a" fill={C.newCustomers} />
-            <Bar dataKey="stávající" name="Stávající zákazníci" stackId="a" fill={C.primary}      radius={[3, 3, 0, 0]} />
+            <Bar dataKey="noví"      name="Noví zákazníci"      fill={C.newCustomers} radius={[3, 3, 0, 0]} />
+            <Bar dataKey="stávající" name="Stávající zákazníci" fill={C.primary}      radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </ChartCard>
