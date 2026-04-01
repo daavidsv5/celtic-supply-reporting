@@ -48,7 +48,7 @@ export default function LoginPage() {
           >
             <BarChart2 className="text-blue-300" size={28} />
           </div>
-          <h1 className="text-white text-2xl font-semibold">Shoptet Reporting</h1>
+          <h1 className="text-white text-2xl font-semibold">Manažerský reporting</h1>
           <p className="text-blue-300 text-sm mt-1">Přihlaste se ke svému účtu</p>
         </div>
 

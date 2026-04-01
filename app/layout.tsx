@@ -5,8 +5,8 @@ import { FiltersProvider } from '@/hooks/useFilters';
 import ConditionalLayout from '@/components/layout/ConditionalLayout';
 
 export const metadata: Metadata = {
-  title: 'Shoptet Reporting',
-  description: 'Shoptet e-commerce reporting dashboard',
+  title: 'Manažerský reporting',
+  description: 'Sardinerie — manažerský reporting a analytika',
 };
 
 export default function RootLayout({

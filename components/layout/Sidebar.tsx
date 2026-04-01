@@ -37,8 +37,8 @@ export default function Sidebar() {
       <div className="flex items-center gap-3 px-5 py-4 border-b border-white/10">
         <BarChart2 className="text-blue-300 flex-shrink-0" size={22} />
         <span className="text-white font-semibold text-base leading-tight flex-1">
-          Shoptet<br />
-          <span className="text-blue-300 text-sm font-normal">Reporting</span>
+          Manažerský<br />
+          <span className="text-blue-300 text-sm font-normal">reporting</span>
         </span>
         <button
           onClick={close}
