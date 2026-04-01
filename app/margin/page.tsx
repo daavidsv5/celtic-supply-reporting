@@ -6,7 +6,7 @@ import { marginDataCZ } from '@/data/marginDataCZ';
 import { marginDataSK } from '@/data/marginDataSK';
 import { realDataCZ } from '@/data/realDataCZ';
 import { realDataSK } from '@/data/realDataSK';
-import { formatCurrency, formatPercent, formatDate, formatNumber, formatShortDate } from '@/lib/formatters';
+import { formatCurrency, formatPercent, formatDate, formatNumber, formatShortDate, formatMonthYear } from '@/lib/formatters';
 import { Info, Wallet, Banknote, ShoppingCart, TrendingUp, Percent, BarChart2, DollarSign } from 'lucide-react';
 import StatCard from '@/components/kpi/StatCard';
 import {
@@ -26,12 +26,12 @@ function fmtPctAxis(v: number): string {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const MarzeTooltip = ({ active, payload, label, currency }: any) => {
+const MarzeTooltip = ({ active, payload, label, currency, isMonthly }: any) => {
   if (!active || !payload?.length) return null;
   return (
     <div className="bg-white border border-slate-200 rounded-xl shadow-lg p-3 text-xs min-w-[180px]">
       <p className="font-semibold text-slate-600 mb-2 pb-1.5 border-b border-slate-100">
-        {formatShortDate(label)}
+        {isMonthly ? formatMonthYear(label) : formatShortDate(label)}
       </p>
       {payload.map((p: any) => (
         <div key={p.name} className="flex items-center justify-between gap-4 py-0.5">
@@ -83,7 +83,7 @@ export default function MarginPage() {
     return m;
   }, []);
 
-  const { totals, chartData, skHasPurchaseCost } = useMemo(() => {
+  const { totals, chartData, skHasPurchaseCost, isMonthly } = useMemo(() => {
     let revVat = 0, rev = 0, orders = 0, cost = 0, purchaseCost = 0, marginRev = 0;
     let skHasPurchaseCost = false;
 
@@ -208,10 +208,12 @@ export default function MarginPage() {
       totals: { revVat, rev, orders, cost, purchaseCost, margin, marginPct, grossProfit, grossPct, pno },
       chartData: chartRows,
       skHasPurchaseCost,
+      isMonthly: dayCount > 60,
     };
   }, [startStr, endStr, realCZByDate, realSKByDate, isCZOnly, isSKOnly, skMult]);
 
   const { revVat, rev, orders, cost, margin, marginPct, grossProfit, grossPct, pno } = totals;
+  const dateTickFormatter = isMonthly ? formatMonthYear : formatShortDate;
 
   const currLabel = currency === 'EUR' ? '€' : 'Kč';
   const marketLabel = isCZOnly ? 'CZ' : isSKOnly ? 'SK' : 'CZ + SK';
@@ -283,7 +285,7 @@ export default function MarginPage() {
               <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
               <XAxis
                 dataKey="date"
-                tickFormatter={formatShortDate}
+                tickFormatter={dateTickFormatter}
                 tick={{ fontSize: 11, fill: '#94a3b8' }}
                 axisLine={false}
                 tickLine={false}
@@ -306,7 +308,7 @@ export default function MarginPage() {
                 tickLine={false}
                 width={44}
               />
-              <Tooltip content={<MarzeTooltip currency={currency} />} cursor={{ fill: '#f8fafc' }} />
+              <Tooltip content={<MarzeTooltip currency={currency} isMonthly={isMonthly} />} cursor={{ fill: '#f8fafc' }} />
               <Legend wrapperStyle={{ fontSize: 11, paddingTop: 16, color: '#64748b' }} iconType="square" iconSize={9} />
               <Bar yAxisId="left" dataKey="marze" name={`Marže (${currLabel})`} fill={C.margin} radius={[3, 3, 0, 0]} barSize={8} />
               <Line yAxisId="right" type="monotone" dataKey="marzePct" name="Marže %" stroke={C.marginLight} strokeWidth={2} dot={false} />
@@ -322,7 +324,7 @@ export default function MarginPage() {
               <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
               <XAxis
                 dataKey="date"
-                tickFormatter={formatShortDate}
+                tickFormatter={dateTickFormatter}
                 tick={{ fontSize: 11, fill: '#94a3b8' }}
                 axisLine={false}
                 tickLine={false}
@@ -345,7 +347,7 @@ export default function MarginPage() {
                 tickLine={false}
                 width={44}
               />
-              <Tooltip content={<MarzeTooltip currency={currency} />} cursor={{ fill: '#f8fafc' }} />
+              <Tooltip content={<MarzeTooltip currency={currency} isMonthly={isMonthly} />} cursor={{ fill: '#f8fafc' }} />
               <Legend wrapperStyle={{ fontSize: 11, paddingTop: 16, color: '#64748b' }} iconType="square" iconSize={9} />
               <Bar yAxisId="left" dataKey="hrubyZisk" name={`Hrubý zisk (${currLabel})`} fill={C.grossProfit} radius={[3, 3, 0, 0]} barSize={8} />
               <Line yAxisId="right" type="monotone" dataKey="hrubyZiskPct" name="Hrubý zisk %" stroke={C.grossProfitLight} strokeWidth={2} dot={false} />

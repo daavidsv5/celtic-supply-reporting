@@ -51,10 +51,12 @@ function periodKey(date: string, p: Period): string {
   return date.substring(0, 7);
 }
 
+const MONTHS_CS = ['Led', 'Úno', 'Bře', 'Dub', 'Kvě', 'Čvn', 'Čvc', 'Srp', 'Zář', 'Říj', 'Lis', 'Pro'];
+
 function formatPeriodLabel(key: string, p: Period): string {
   if (p === 'month') {
     const [y, m] = key.split('-');
-    return `${m}/${y}`;
+    return `${MONTHS_CS[parseInt(m) - 1]} ${y}`;
   }
   return key.substring(5);
 }
