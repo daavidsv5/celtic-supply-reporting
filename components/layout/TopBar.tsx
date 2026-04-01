@@ -33,7 +33,7 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
   const { data: session } = useSession();
   const isAdmin = (session?.user as { role?: string })?.role === 'admin';
   const isRetention = pathname === '/retention' || pathname === '/crosssell';
-  const hideAll = pathname === '/shipping';
+  const hideAll = pathname === '/shipping' || pathname === '/analytics';
 
   const handleUpdate = async () => {
     setUpdating(true);
