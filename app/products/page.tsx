@@ -9,7 +9,7 @@ import { mockData } from '@/data/mockGenerator';
 import { productDataCZ } from '@/data/productDataCZ';
 import { productDataSK } from '@/data/productDataSK';
 import { getDisplayCurrency } from '@/data/types';
-import { formatCurrency, formatNumber, formatDate } from '@/lib/formatters';
+import { formatCurrency, formatNumber, formatDate, localIsoDate } from '@/lib/formatters';
 
 type SortKey = 'name' | 'amount' | 'revenue' | 'revenue_vat' | 'abc';
 type SortDir = 'asc' | 'desc';
@@ -105,10 +105,10 @@ export default function ProductsPage() {
   const [abcFilter, setAbcFilter] = useState<AbcFilter>('all');
 
   const { start, end, prevStart, prevEnd } = getDateRange(filters);
-  const startStr     = start.toISOString().split('T')[0];
-  const endStr       = end.toISOString().split('T')[0];
-  const prevStartStr = prevStart.toISOString().split('T')[0];
-  const prevEndStr   = prevEnd.toISOString().split('T')[0];
+  const startStr     = localIsoDate(start);
+  const endStr       = localIsoDate(end);
+  const prevStartStr = localIsoDate(prevStart);
+  const prevEndStr   = localIsoDate(prevEnd);
 
   const currency = getDisplayCurrency(filters.countries);
   const fc = (v: number) => formatCurrency(v, currency);

@@ -5,7 +5,7 @@ import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { shippingPaymentDataCZ } from '@/data/shippingPaymentDataCZ';
 import { shippingPaymentDataSK } from '@/data/shippingPaymentDataSK';
 import { getDisplayCurrency } from '@/data/types';
-import { formatCurrency, formatNumber, formatDate } from '@/lib/formatters';
+import { formatCurrency, formatNumber, formatDate, localIsoDate } from '@/lib/formatters';
 import { Truck, CreditCard, DollarSign, Banknote, Star, Award, Gift, Save, RotateCcw } from 'lucide-react';
 
 const LS_KEY = 'carrierCosts_v1';
@@ -171,10 +171,10 @@ export default function ShippingPage() {
   const [period, setPeriod] = useState<Period>('day');
 
   const { start, end, prevStart, prevEnd } = getDateRange(filters);
-  const startStr     = start.toISOString().split('T')[0];
-  const endStr       = end.toISOString().split('T')[0];
-  const prevStartStr = prevStart.toISOString().split('T')[0];
-  const prevEndStr   = prevEnd.toISOString().split('T')[0];
+  const startStr     = localIsoDate(start);
+  const endStr       = localIsoDate(end);
+  const prevStartStr = localIsoDate(prevStart);
+  const prevEndStr   = localIsoDate(prevEnd);
 
   const currency = getDisplayCurrency(filters.countries);
   const onlySK   = filters.countries.length === 1 && filters.countries[0] === 'sk';

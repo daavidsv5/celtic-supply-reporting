@@ -38,3 +38,11 @@ export function formatMonthYear(dateStr: string): string {
   const [year, month] = dateStr.split('-');
   return `${MONTHS_CS[parseInt(month) - 1]} ${year}`;
 }
+
+/** Returns local date as "YYYY-MM-DD" without UTC conversion. */
+export function localIsoDate(d: Date): string {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}

@@ -11,9 +11,10 @@ import { retentionDataSK } from '@/data/retentionDataSK';
 import KpiCard from '@/components/kpi/KpiCard';
 import RevenueOrdersChart from '@/components/charts/RevenueOrdersChart';
 import CostPnoChart from '@/components/charts/CostPnoChart';
+import { AovChart, CpaChart } from '@/components/charts/AovCpaChart';
 import DailyTable from '@/components/tables/DailyTable';
 import CountryDistribution from '@/components/tables/CountryDistribution';
-import { formatCurrency, formatPercent, formatNumber, formatDate } from '@/lib/formatters';
+import { formatCurrency, formatPercent, formatNumber, formatDate, localIsoDate } from '@/lib/formatters';
 import { Wallet, Banknote, ShoppingCart, BarChart2, TrendingUp, Percent, Tag, Users } from 'lucide-react';
 
 const periodTitles: Record<string, string> = {
@@ -34,10 +35,10 @@ export default function DashboardPage() {
 
   // Merge margin data for selected countries (current + prev period)
   const marginTotals = useMemo(() => {
-    const s  = start.toISOString().split('T')[0];
-    const e  = end.toISOString().split('T')[0];
-    const ps = prevStart.toISOString().split('T')[0];
-    const pe = prevEnd.toISOString().split('T')[0];
+    const s  = localIsoDate(start);
+    const e  = localIsoDate(end);
+    const ps = localIsoDate(prevStart);
+    const pe = localIsoDate(prevEnd);
     let pc = 0, mr = 0, prevPc = 0, prevMr = 0;
     const marginData: { date: string; purchaseCost: number }[] = [];
     if (filters.countries.includes('cz')) {
@@ -56,10 +57,10 @@ export default function DashboardPage() {
   }, [filters.countries, start, end, prevStart, prevEnd, skMult]);
 
   const newCustomerCounts = useMemo(() => {
-    const s  = start.toISOString().split('T')[0];
-    const e  = end.toISOString().split('T')[0];
-    const ps = prevStart.toISOString().split('T')[0];
-    const pe = prevEnd.toISOString().split('T')[0];
+    const s  = localIsoDate(start);
+    const e  = localIsoDate(end);
+    const ps = localIsoDate(prevStart);
+    const pe = localIsoDate(prevEnd);
     let cur = 0, prev = 0, allCur = 0, allPrev = 0;
     const sources = [
       ...(filters.countries.includes('cz') ? retentionDataCZ : []),
@@ -166,6 +167,8 @@ export default function DashboardPage() {
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
         <RevenueOrdersChart data={chartData} currency={currency} hasPrevData={hasPrevData} />
         <CostPnoChart data={chartData} currency={currency} hasPrevData={hasPrevData} />
+        <AovChart data={chartData} currency={currency} hasPrevData={hasPrevData} />
+        <CpaChart data={chartData} currency={currency} hasPrevData={hasPrevData} />
       </div>
 
       {/* Table */}

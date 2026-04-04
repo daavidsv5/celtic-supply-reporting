@@ -6,7 +6,7 @@ import { marginDataCZ } from '@/data/marginDataCZ';
 import { marginDataSK } from '@/data/marginDataSK';
 import { realDataCZ } from '@/data/realDataCZ';
 import { realDataSK } from '@/data/realDataSK';
-import { formatCurrency, formatPercent, formatDate, formatNumber, formatShortDate, formatMonthYear } from '@/lib/formatters';
+import { formatCurrency, formatPercent, formatDate, formatNumber, formatShortDate, formatMonthYear, localIsoDate } from '@/lib/formatters';
 import { Info, Wallet, Banknote, ShoppingCart, TrendingUp, Percent, BarChart2, DollarSign } from 'lucide-react';
 import StatCard from '@/components/kpi/StatCard';
 import {
@@ -54,8 +54,8 @@ export default function MarginPage() {
   const { filters, eurToCzk } = useFilters();
   const { start, end } = getDateRange(filters);
 
-  const startStr = start.toISOString().split('T')[0];
-  const endStr   = end.toISOString().split('T')[0];
+  const startStr = localIsoDate(start);
+  const endStr   = localIsoDate(end);
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
   const isCZOnly  = filters.countries.length === 1 && filters.countries[0] === 'cz';

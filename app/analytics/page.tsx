@@ -7,6 +7,7 @@ import {
   XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, CartesianGrid,
 } from 'recharts';
 import { C } from '@/lib/chartColors';
+import { localIsoDate } from '@/lib/formatters';
 import {
   Monitor, Smartphone, Tablet, TrendingUp, TrendingDown,
   Users, MousePointerClick, Clock, Percent,
@@ -152,7 +153,7 @@ export default function AnalyticsPage() {
     setLoading(true);
     setError(null);
     const { start, end } = getDateRange(filters);
-    const fmt = (d: Date) => d.toISOString().split('T')[0];
+    const fmt = localIsoDate;
     const country = filters.countries.length === 1 && filters.countries[0] === 'sk' ? 'sk' : 'cz';
     fetch(`/api/analytics?from=${fmt(start)}&to=${fmt(end)}&country=${country}`)
       .then(r => r.json())

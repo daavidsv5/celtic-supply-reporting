@@ -5,7 +5,7 @@ import { TrendingUp, TrendingDown } from 'lucide-react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { mockData } from '@/data/mockGenerator';
 import { getDisplayCurrency, EUR_TO_CZK } from '@/data/types';
-import { formatCurrency, formatPercent, formatDate } from '@/lib/formatters';
+import { formatCurrency, formatPercent, formatDate, localIsoDate } from '@/lib/formatters';
 import { hourlyDataCZ } from '@/data/hourlyDataCZ';
 import { hourlyDataSK } from '@/data/hourlyDataSK';
 import {
@@ -34,8 +34,8 @@ export default function BehaviorPage() {
   const { filters, eurToCzk } = useFilters();
   const { start, end } = getDateRange(filters);
 
-  const startStr = start.toISOString().split('T')[0];
-  const endStr   = end.toISOString().split('T')[0];
+  const startStr = localIsoDate(start);
+  const endStr   = localIsoDate(end);
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
   const currency = getDisplayCurrency(filters.countries);

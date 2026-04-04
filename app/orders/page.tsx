@@ -5,7 +5,7 @@ import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { useDashboardData } from '@/hooks/useDashboardData';
 import { mockData } from '@/data/mockGenerator';
 import KpiCard from '@/components/kpi/KpiCard';
-import { formatCurrency, formatNumber, formatPercent, formatDate, formatShortDate } from '@/lib/formatters';
+import { formatCurrency, formatNumber, formatPercent, formatDate, formatShortDate, localIsoDate } from '@/lib/formatters';
 import { Wallet, Banknote, ShoppingCart, BarChart2, XCircle, AlertTriangle, Lightbulb, CalendarDays } from 'lucide-react';
 import { orderValueDataCZ } from '@/data/orderValueDataCZ';
 import { orderValueDataSK } from '@/data/orderValueDataSK';
@@ -93,14 +93,14 @@ export default function OrdersPage() {
 
     if (filters.countries.includes('cz')) {
       for (const r of orderValueDataCZ) {
-        if (r.date >= start.toISOString().split('T')[0] && r.date <= end.toISOString().split('T')[0]) {
+        if (r.date >= localIsoDate(start) && r.date <= localIsoDate(end)) {
           filtered.push(r.value);
         }
       }
     }
     if (filters.countries.includes('sk')) {
       for (const r of orderValueDataSK) {
-        if (r.date >= start.toISOString().split('T')[0] && r.date <= end.toISOString().split('T')[0]) {
+        if (r.date >= localIsoDate(start) && r.date <= localIsoDate(end)) {
           filtered.push(r.value * skMult);
         }
       }

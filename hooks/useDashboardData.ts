@@ -15,6 +15,10 @@ export interface ChartDataPoint {
   cost_prev: number;
   pno: number;
   pno_prev: number;
+  aov: number;
+  aov_prev: number;
+  cpa: number;
+  cpa_prev: number;
 }
 
 export interface DashboardData {
@@ -30,7 +34,10 @@ export interface DashboardData {
 }
 
 function isoDate(d: Date): string {
-  return d.toISOString().split('T')[0];
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
 }
 
 /** Normalize a record's monetary values to the display currency.
@@ -143,6 +150,10 @@ export function useDashboardData(
         cost_prev:    prev.cost,
         pno:      cur.revenue  > 0 ? Math.round(cur.cost  / cur.revenue  * 10000) / 100 : 0,
         pno_prev: prev.revenue > 0 ? Math.round(prev.cost / prev.revenue * 10000) / 100 : 0,
+        aov:      cur.orders  > 0 ? cur.revenue  / cur.orders  : 0,
+        aov_prev: prev.orders > 0 ? prev.revenue / prev.orders : 0,
+        cpa:      cur.orders  > 0 ? cur.cost  / cur.orders  : 0,
+        cpa_prev: prev.orders > 0 ? prev.cost / prev.orders : 0,
       };
     });
 

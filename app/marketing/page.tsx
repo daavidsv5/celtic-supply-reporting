@@ -5,7 +5,7 @@ import { useDashboardData } from '@/hooks/useDashboardData';
 import { mockData, getMarketingSourceData, getDailyMarketingData } from '@/data/mockGenerator';
 import KpiCard from '@/components/kpi/KpiCard';
 import CostPnoChart from '@/components/charts/CostPnoChart';
-import { formatCurrency, formatPercent, formatNumber, formatDate, formatShortDate } from '@/lib/formatters';
+import { formatCurrency, formatPercent, formatNumber, formatDate, formatShortDate, localIsoDate } from '@/lib/formatters';
 import { TrendingUp as TrendingUpIcon, TrendingUp, TrendingDown, Percent, Tag, Banknote, Share2, Search } from 'lucide-react';
 import {
   ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip,
@@ -62,8 +62,8 @@ export default function MarketingPage() {
   // Daily marketing data — base for table + trend charts
   const { start: sDaily, end: eDaily } = getDateRange(filters);
   const allDailyMarketing = getDailyMarketingData(
-    sDaily.toISOString().split('T')[0],
-    eDaily.toISOString().split('T')[0],
+    localIsoDate(sDaily),
+    localIsoDate(eDaily),
     filters.countries,
     eurToCzk
   );
@@ -87,8 +87,8 @@ export default function MarketingPage() {
 
   // Source breakdown — use real data with date range + country context
   const sourceData = getMarketingSourceData(
-    sDaily.toISOString().split('T')[0],
-    eDaily.toISOString().split('T')[0],
+    localIsoDate(sDaily),
+    localIsoDate(eDaily),
     filters.countries,
     eurToCzk
   );
@@ -103,8 +103,8 @@ export default function MarketingPage() {
   const prevStart = new Date(sDaily); prevStart.setFullYear(prevStart.getFullYear() - 1);
   const prevEnd   = new Date(eDaily); prevEnd.setFullYear(prevEnd.getFullYear() - 1);
   const prevSourceData = hasPrevData ? getMarketingSourceData(
-    prevStart.toISOString().split('T')[0],
-    prevEnd.toISOString().split('T')[0],
+    localIsoDate(prevStart),
+    localIsoDate(prevEnd),
     filters.countries,
     eurToCzk
   ) : [];
