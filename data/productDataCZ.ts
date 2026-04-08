@@ -6704,17 +6704,17 @@ export const productDataCZ: ProductSaleRecord[] = [
   },
   {
     "date": "2025-10-11",
-    "name": "Dary země a moře",
-    "amount": 1,
-    "revenue_vat": 1523,
-    "revenue": 1258.68
-  },
-  {
-    "date": "2025-10-11",
     "name": "Chutě, které přineslo slunce",
     "amount": 1,
     "revenue_vat": 597,
     "revenue": 493.39
+  },
+  {
+    "date": "2025-10-11",
+    "name": "Dary země a moře",
+    "amount": 1,
+    "revenue_vat": 1523,
+    "revenue": 1258.68
   },
   {
     "date": "2025-10-11",
@@ -12906,17 +12906,17 @@ export const productDataCZ: ProductSaleRecord[] = [
   },
   {
     "date": "2025-12-08",
-    "name": "Dary země a moře",
-    "amount": 6,
-    "revenue_vat": 8460,
-    "revenue": 7553.58
-  },
-  {
-    "date": "2025-12-08",
     "name": "Chutě, které přineslo slunce",
     "amount": 1,
     "revenue_vat": 553,
     "revenue": 493.75
+  },
+  {
+    "date": "2025-12-08",
+    "name": "Dary země a moře",
+    "amount": 6,
+    "revenue_vat": 8460,
+    "revenue": 7553.58
   },
   {
     "date": "2025-12-08",
@@ -13235,17 +13235,17 @@ export const productDataCZ: ProductSaleRecord[] = [
   },
   {
     "date": "2025-12-10",
-    "name": "Dary země a moře",
-    "amount": 2,
-    "revenue_vat": 2820,
-    "revenue": 2517.86
-  },
-  {
-    "date": "2025-12-10",
     "name": "Chutě, které přineslo slunce",
     "amount": 3,
     "revenue_vat": 1659,
     "revenue": 1481.25
+  },
+  {
+    "date": "2025-12-10",
+    "name": "Dary země a moře",
+    "amount": 2,
+    "revenue_vat": 2820,
+    "revenue": 2517.86
   },
   {
     "date": "2025-12-10",
@@ -22132,17 +22132,17 @@ export const productDataCZ: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-11",
-    "name": "Dary země a moře",
-    "amount": 1,
-    "revenue_vat": 1410,
-    "revenue": 1258.93
-  },
-  {
-    "date": "2026-03-11",
     "name": "Chutě, které přineslo slunce",
     "amount": 1,
     "revenue_vat": 553,
     "revenue": 493.75
+  },
+  {
+    "date": "2026-03-11",
+    "name": "Dary země a moře",
+    "amount": 1,
+    "revenue_vat": 1410,
+    "revenue": 1258.93
   },
   {
     "date": "2026-03-11",
@@ -25114,17 +25114,17 @@ export const productDataCZ: ProductSaleRecord[] = [
   },
   {
     "date": "2026-04-04",
-    "name": "Dary země a moře",
-    "amount": 1,
-    "revenue_vat": 1410,
-    "revenue": 1258.93
-  },
-  {
-    "date": "2026-04-04",
     "name": "Chutě, které přineslo slunce",
     "amount": 1,
     "revenue_vat": 553,
     "revenue": 493.75
+  },
+  {
+    "date": "2026-04-04",
+    "name": "Dary země a moře",
+    "amount": 1,
+    "revenue_vat": 1410,
+    "revenue": 1258.93
   },
   {
     "date": "2026-04-04",

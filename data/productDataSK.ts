@@ -1755,17 +1755,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2024-09-24",
-    "name": "Dary zeme a mora",
-    "amount": 1,
-    "revenue_vat": 54.14,
-    "revenue": 45.12
-  },
-  {
-    "date": "2024-09-24",
     "name": "Chute, ktoré prinieslo slnko",
     "amount": 1,
     "revenue_vat": 21.06,
     "revenue": 17.55
+  },
+  {
+    "date": "2024-09-24",
+    "name": "Dary zeme a mora",
+    "amount": 1,
+    "revenue_vat": 54.14,
+    "revenue": 45.12
   },
   {
     "date": "2024-09-24",
@@ -3554,17 +3554,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2024-11-26",
-    "name": "Dary zeme a mora",
-    "amount": 1,
-    "revenue_vat": 54.14,
-    "revenue": 45.12
-  },
-  {
-    "date": "2024-11-26",
     "name": "Chute, ktoré prinieslo slnko",
     "amount": 1,
     "revenue_vat": 21.06,
     "revenue": 17.55
+  },
+  {
+    "date": "2024-11-26",
+    "name": "Dary zeme a mora",
+    "amount": 1,
+    "revenue_vat": 54.14,
+    "revenue": 45.12
   },
   {
     "date": "2024-11-26",
@@ -5416,17 +5416,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-02-03",
-    "name": "Dary zeme a mora",
-    "amount": 1,
-    "revenue_vat": 54.14,
-    "revenue": 45.5
-  },
-  {
-    "date": "2025-02-03",
     "name": "Chute, ktoré prinieslo slnko",
     "amount": 2,
     "revenue_vat": 42.12,
     "revenue": 35.39
+  },
+  {
+    "date": "2025-02-03",
+    "name": "Dary zeme a mora",
+    "amount": 1,
+    "revenue_vat": 54.14,
+    "revenue": 45.5
   },
   {
     "date": "2025-02-04",
@@ -6270,17 +6270,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-02-22",
-    "name": "Dary zeme a mora",
-    "amount": 1,
-    "revenue_vat": 54.14,
-    "revenue": 45.5
-  },
-  {
-    "date": "2025-02-22",
     "name": "Chute, ktoré prinieslo slnko",
     "amount": 1,
     "revenue_vat": 21.06,
     "revenue": 17.7
+  },
+  {
+    "date": "2025-02-22",
+    "name": "Dary zeme a mora",
+    "amount": 1,
+    "revenue_vat": 54.14,
+    "revenue": 45.5
   },
   {
     "date": "2025-02-22",
@@ -8972,17 +8972,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-05-04",
-    "name": "Dary zeme a mora",
-    "amount": 1,
-    "revenue_vat": 54.14,
-    "revenue": 45.5
-  },
-  {
-    "date": "2025-05-04",
     "name": "Chute, ktoré prinieslo slnko",
     "amount": 1,
     "revenue_vat": 21.06,
     "revenue": 17.7
+  },
+  {
+    "date": "2025-05-04",
+    "name": "Dary zeme a mora",
+    "amount": 1,
+    "revenue_vat": 54.14,
+    "revenue": 45.5
   },
   {
     "date": "2025-05-04",
@@ -10834,6 +10834,41 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-06-23",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 6.94,
+    "revenue": 5.83
+  },
+  {
+    "date": "2025-06-23",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-06-23",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-06-23",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-06-23",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 7.47,
+    "revenue": 6.28
+  },
+  {
+    "date": "2025-06-23",
     "name": "Sardinky s batackým korením a kurkumou 115 g",
     "amount": 1,
     "revenue_vat": 6.76,
@@ -10901,41 +10936,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 5.66,
     "revenue": 4.76
-  },
-  {
-    "date": "2025-06-23",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 6.94,
-    "revenue": 5.83
-  },
-  {
-    "date": "2025-06-23",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
-  },
-  {
-    "date": "2025-06-23",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
-  },
-  {
-    "date": "2025-06-23",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
-  },
-  {
-    "date": "2025-06-23",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 7.47,
-    "revenue": 6.28
   },
   {
     "date": "2025-06-23",
@@ -11072,17 +11072,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-06-27",
-    "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
-    "amount": 5,
-    "revenue_vat": 31.86,
-    "revenue": 26.77
-  },
-  {
-    "date": "2025-06-27",
     "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
     "amount": 1,
     "revenue_vat": 8,
     "revenue": 6.72
+  },
+  {
+    "date": "2025-06-27",
+    "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
+    "amount": 5,
+    "revenue_vat": 31.86,
+    "revenue": 26.77
   },
   {
     "date": "2025-06-27",
@@ -11142,6 +11142,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-06-29",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-06-29",
     "name": "Sardinky s batackým korením a kurkumou 115 g",
     "amount": 1,
     "revenue_vat": 7.51,
@@ -11174,13 +11181,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.29,
     "revenue": 5.29
-  },
-  {
-    "date": "2025-06-29",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-06-29",
@@ -11338,6 +11338,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-07-04",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 6.94,
+    "revenue": 5.83
+  },
+  {
+    "date": "2025-07-04",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 2,
     "revenue_vat": 15.69,
@@ -11398,13 +11405,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 7.4,
     "revenue": 6.22
-  },
-  {
-    "date": "2025-07-04",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 6.94,
-    "revenue": 5.83
   },
   {
     "date": "2025-07-04",
@@ -11639,6 +11639,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-07-09",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-07-09",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 1,
     "revenue_vat": 8.26,
@@ -11657,13 +11664,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 7.08,
     "revenue": 5.95
-  },
-  {
-    "date": "2025-07-09",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-07-09",
@@ -12017,6 +12017,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-07-20",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2025-07-20",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2025-07-20",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 4,
     "revenue_vat": 29.4,
@@ -12042,20 +12056,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 3,
     "revenue_vat": 21.39,
     "revenue": 17.97
-  },
-  {
-    "date": "2025-07-20",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2025-07-20",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2025-07-21",
@@ -12098,6 +12098,20 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 4.24,
     "revenue": 3.56
+  },
+  {
+    "date": "2025-07-21",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-07-21",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 2,
+    "revenue_vat": 16,
+    "revenue": 13.45
   },
   {
     "date": "2025-07-21",
@@ -12147,20 +12161,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 6,
     "revenue_vat": 35.32,
     "revenue": 29.68
-  },
-  {
-    "date": "2025-07-21",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
-  },
-  {
-    "date": "2025-07-21",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 2,
-    "revenue_vat": 16,
-    "revenue": 13.45
   },
   {
     "date": "2025-07-21",
@@ -12507,6 +12507,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-08-04",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 6.94,
+    "revenue": 5.83
+  },
+  {
+    "date": "2025-08-04",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-08-04",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 1,
     "revenue_vat": 6.62,
@@ -12539,20 +12553,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 4,
     "revenue_vat": 23.54,
     "revenue": 19.78
-  },
-  {
-    "date": "2025-08-04",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 6.94,
-    "revenue": 5.83
-  },
-  {
-    "date": "2025-08-04",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
   },
   {
     "date": "2025-08-04",
@@ -12609,6 +12609,27 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.01,
     "revenue": 6.73
+  },
+  {
+    "date": "2025-08-05",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 4,
+    "revenue_vat": 30.84,
+    "revenue": 25.92
+  },
+  {
+    "date": "2025-08-05",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-08-05",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
   },
   {
     "date": "2025-08-05",
@@ -12745,27 +12766,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-08-05",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 4,
-    "revenue_vat": 30.84,
-    "revenue": 25.92
-  },
-  {
-    "date": "2025-08-05",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2025-08-05",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2025-08-05",
     "name": "Tuniak v olivovom oleji 160 g",
     "amount": 1,
     "revenue_vat": 12.19,
@@ -12857,6 +12857,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-08-08",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 2,
+    "revenue_vat": 15.42,
+    "revenue": 12.96
+  },
+  {
+    "date": "2025-08-08",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 2,
     "revenue_vat": 16.52,
@@ -12875,13 +12882,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 13.08,
     "revenue": 10.99
-  },
-  {
-    "date": "2025-08-08",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 2,
-    "revenue_vat": 15.42,
-    "revenue": 12.96
   },
   {
     "date": "2025-08-10",
@@ -12927,13 +12927,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-08-10",
-    "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
-    "amount": 5,
-    "revenue_vat": 31.86,
-    "revenue": 26.77
-  },
-  {
-    "date": "2025-08-10",
     "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
     "amount": 1,
     "revenue_vat": 7.71,
@@ -12966,6 +12959,13 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.3,
     "revenue": 6.97
+  },
+  {
+    "date": "2025-08-10",
+    "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
+    "amount": 5,
+    "revenue_vat": 31.86,
+    "revenue": 26.77
   },
   {
     "date": "2025-08-10",
@@ -13130,20 +13130,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-08-17",
-    "name": "Sardinky s olivovým olejom a zeleným korením 115 g",
-    "amount": 1,
-    "revenue_vat": 7.84,
-    "revenue": 6.59
-  },
-  {
-    "date": "2025-08-17",
-    "name": "Sardinky v olivovom oleji s paradajkami 115 g",
-    "amount": 1,
-    "revenue_vat": 7.4,
-    "revenue": 6.22
-  },
-  {
-    "date": "2025-08-17",
     "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
     "amount": 3,
     "revenue_vat": 23.13,
@@ -13162,6 +13148,20 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.3,
     "revenue": 6.97
+  },
+  {
+    "date": "2025-08-17",
+    "name": "Sardinky s olivovým olejom a zeleným korením 115 g",
+    "amount": 1,
+    "revenue_vat": 7.84,
+    "revenue": 6.59
+  },
+  {
+    "date": "2025-08-17",
+    "name": "Sardinky v olivovom oleji s paradajkami 115 g",
+    "amount": 1,
+    "revenue_vat": 7.4,
+    "revenue": 6.22
   },
   {
     "date": "2025-08-18",
@@ -13186,13 +13186,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-08-18",
-    "name": "Sardinky s citrónom a čili papričkami 115 g",
-    "amount": 1,
-    "revenue_vat": 8.26,
-    "revenue": 6.94
-  },
-  {
-    "date": "2025-08-18",
     "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
     "amount": 2,
     "revenue_vat": 15.42,
@@ -13211,6 +13204,13 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.3,
     "revenue": 6.97
+  },
+  {
+    "date": "2025-08-18",
+    "name": "Sardinky s citrónom a čili papričkami 115 g",
+    "amount": 1,
+    "revenue_vat": 8.26,
+    "revenue": 6.94
   },
   {
     "date": "2025-08-18",
@@ -13361,6 +13361,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-08-24",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-08-24",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 1,
     "revenue_vat": 8.26,
@@ -13379,13 +13386,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 7.4,
     "revenue": 6.22
-  },
-  {
-    "date": "2025-08-24",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-08-27",
@@ -13445,6 +13445,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-08-28",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 2,
+    "revenue_vat": 13.88,
+    "revenue": 11.66
+  },
+  {
+    "date": "2025-08-28",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 1,
     "revenue_vat": 6.62,
@@ -13470,13 +13477,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.26,
     "revenue": 6.94
-  },
-  {
-    "date": "2025-08-28",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 2,
-    "revenue_vat": 13.88,
-    "revenue": 11.66
   },
   {
     "date": "2025-08-28",
@@ -13585,6 +13585,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-09-02",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2025-09-02",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-09-02",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 1,
     "revenue_vat": 8.26,
@@ -13603,20 +13617,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 7.13,
     "revenue": 5.99
-  },
-  {
-    "date": "2025-09-02",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2025-09-02",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-09-02",
@@ -13718,6 +13718,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-09-10",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-09-10",
     "name": "Sardinky Luzienne 115 g",
     "amount": 1,
     "revenue_vat": 7.01,
@@ -13750,13 +13757,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 5.89,
     "revenue": 4.95
-  },
-  {
-    "date": "2025-09-10",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
   },
   {
     "date": "2025-09-10",
@@ -14040,6 +14040,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-09-22",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-09-22",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 3,
     "revenue_vat": 22.05,
@@ -14086,13 +14093,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 13.08,
     "revenue": 10.99
-  },
-  {
-    "date": "2025-09-22",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-09-22",
@@ -14208,6 +14208,41 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-09-23",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 3,
+    "revenue_vat": 23.13,
+    "revenue": 19.44
+  },
+  {
+    "date": "2025-09-23",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-09-23",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-09-23",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 2,
+    "revenue_vat": 17.78,
+    "revenue": 14.94
+  },
+  {
+    "date": "2025-09-23",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2025-09-23",
     "name": "Sardinky Luzienne 115 g",
     "amount": 2,
     "revenue_vat": 15.58,
@@ -14296,41 +14331,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.54,
     "revenue": 5.5
-  },
-  {
-    "date": "2025-09-23",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 3,
-    "revenue_vat": 23.13,
-    "revenue": 19.44
-  },
-  {
-    "date": "2025-09-23",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2025-09-23",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2025-09-23",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 2,
-    "revenue_vat": 17.78,
-    "revenue": 14.94
-  },
-  {
-    "date": "2025-09-23",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2025-09-23",
@@ -14530,6 +14530,27 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-09-27",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-09-27",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-09-27",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8,
+    "revenue": 6.72
+  },
+  {
+    "date": "2025-09-27",
     "name": "Sardinky Luzienne 115 g",
     "amount": 1,
     "revenue_vat": 7.01,
@@ -14586,27 +14607,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-09-27",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
-  },
-  {
-    "date": "2025-09-27",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
-  },
-  {
-    "date": "2025-09-27",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8,
-    "revenue": 6.72
-  },
-  {
-    "date": "2025-09-27",
     "name": "Tuniak v olivovom oleji 160 g",
     "amount": 1,
     "revenue_vat": 10.97,
@@ -14660,6 +14660,20 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.46,
     "revenue": 5.43
+  },
+  {
+    "date": "2025-09-28",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2025-09-28",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 2,
+    "revenue_vat": 17.78,
+    "revenue": 14.94
   },
   {
     "date": "2025-09-28",
@@ -14723,20 +14737,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 13.08,
     "revenue": 10.99
-  },
-  {
-    "date": "2025-09-28",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2025-09-28",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 2,
-    "revenue_vat": 17.78,
-    "revenue": 14.94
   },
   {
     "date": "2025-09-28",
@@ -14824,17 +14824,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-09-30",
-    "name": "Sardinky s olivovým olejom a citrónom 115 g",
-    "amount": 1,
-    "revenue_vat": 7.35,
-    "revenue": 6.18
-  },
-  {
-    "date": "2025-09-30",
     "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
     "amount": 5,
     "revenue_vat": 34.7,
     "revenue": 29.16
+  },
+  {
+    "date": "2025-09-30",
+    "name": "Sardinky s olivovým olejom a citrónom 115 g",
+    "amount": 1,
+    "revenue_vat": 7.35,
+    "revenue": 6.18
   },
   {
     "date": "2025-09-30",
@@ -15111,6 +15111,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-10-12",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-10-12",
     "name": "Sardinky marinované vínom Muscadet 115 g",
     "amount": 1,
     "revenue_vat": 7.73,
@@ -15136,13 +15143,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 7.08,
     "revenue": 5.95
-  },
-  {
-    "date": "2025-10-12",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-10-12",
@@ -15419,6 +15419,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-10-16",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-10-16",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 1,
     "revenue_vat": 8.26,
@@ -15458,13 +15465,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 3,
     "revenue_vat": 22.2,
     "revenue": 18.66
-  },
-  {
-    "date": "2025-10-16",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-10-16",
@@ -15566,6 +15566,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-10-18",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-10-18",
     "name": "Sardinky s olivovým olejom a zeleným korením 115 g",
     "amount": 2,
     "revenue_vat": 15.68,
@@ -15591,13 +15598,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 13.08,
     "revenue": 10.99
-  },
-  {
-    "date": "2025-10-18",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-10-18",
@@ -15713,6 +15713,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-10-20",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-10-20",
     "name": "Sardinky Luzienne 115 g",
     "amount": 1,
     "revenue_vat": 7.79,
@@ -15808,13 +15815,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.54,
     "revenue": 5.5
-  },
-  {
-    "date": "2025-10-20",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-10-20",
@@ -15958,17 +15958,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-10-26",
-    "name": "Dary zeme a mora",
-    "amount": 1,
-    "revenue_vat": 58.79,
-    "revenue": 49.4
-  },
-  {
-    "date": "2025-10-26",
     "name": "Chute, ktoré prinieslo slnko",
     "amount": 2,
     "revenue_vat": 46.12,
     "revenue": 38.76
+  },
+  {
+    "date": "2025-10-26",
+    "name": "Dary zeme a mora",
+    "amount": 1,
+    "revenue_vat": 58.79,
+    "revenue": 49.4
   },
   {
     "date": "2025-10-26",
@@ -16203,17 +16203,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-08",
-    "name": "Dary zeme a mora",
-    "amount": 1,
-    "revenue_vat": 58.79,
-    "revenue": 49.4
-  },
-  {
-    "date": "2025-11-08",
     "name": "Chute, ktoré prinieslo slnko",
     "amount": 1,
     "revenue_vat": 23.06,
     "revenue": 19.38
+  },
+  {
+    "date": "2025-11-08",
+    "name": "Dary zeme a mora",
+    "amount": 1,
+    "revenue_vat": 58.79,
+    "revenue": 49.4
   },
   {
     "date": "2025-11-08",
@@ -16277,6 +16277,13 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.01,
     "revenue": 6.73
+  },
+  {
+    "date": "2025-11-08",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 2,
+    "revenue_vat": 17.78,
+    "revenue": 14.94
   },
   {
     "date": "2025-11-08",
@@ -16350,13 +16357,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-08",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 2,
-    "revenue_vat": 17.78,
-    "revenue": 14.94
-  },
-  {
-    "date": "2025-11-08",
     "name": "Tuniak v olivovom oleji 160 g",
     "amount": 2,
     "revenue_vat": 24.38,
@@ -16399,6 +16399,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-09",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2025-11-09",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 7,
     "revenue_vat": 46.31,
@@ -16417,13 +16424,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 10,
     "revenue_vat": 63.72,
     "revenue": 53.54
-  },
-  {
-    "date": "2025-11-09",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
   },
   {
     "date": "2025-11-10",
@@ -16504,6 +16504,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-10",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-11-10",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2025-11-10",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 1,
     "revenue_vat": 7.35,
@@ -16529,20 +16543,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.36,
     "revenue": 5.34
-  },
-  {
-    "date": "2025-11-10",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2025-11-10",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2025-11-10",
@@ -16910,6 +16910,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-18",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2025-11-18",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2025-11-18",
     "name": "Sardinky s maslom a pohánkou na konzumáciu po tepelnej úprave 115 g",
     "amount": 1,
     "revenue_vat": 8.67,
@@ -16935,20 +16949,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 13.08,
     "revenue": 11
-  },
-  {
-    "date": "2025-11-18",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2025-11-18",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2025-11-19",
@@ -17113,6 +17113,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-21",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-11-21",
     "name": "Sardinky s paradajkami a pistou na konzumáciu po tepelnej úprave 115 g",
     "amount": 1,
     "revenue_vat": 8.06,
@@ -17145,13 +17152,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.54,
     "revenue": 5.5
-  },
-  {
-    "date": "2025-11-21",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-11-22",
@@ -17225,6 +17225,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-23",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 4,
+    "revenue_vat": 30.84,
+    "revenue": 25.92
+  },
+  {
+    "date": "2025-11-23",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 3,
     "revenue_vat": 24.78,
@@ -17264,13 +17271,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.54,
     "revenue": 5.5
-  },
-  {
-    "date": "2025-11-23",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 4,
-    "revenue_vat": 30.84,
-    "revenue": 25.92
   },
   {
     "date": "2025-11-23",
@@ -17351,6 +17351,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-24",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 2,
+    "revenue_vat": 15.42,
+    "revenue": 12.96
+  },
+  {
+    "date": "2025-11-24",
     "name": "Sardinky s olivami z Nice 115 g",
     "amount": 1,
     "revenue_vat": 9.41,
@@ -17404,13 +17411,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.54,
     "revenue": 5.5
-  },
-  {
-    "date": "2025-11-24",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 2,
-    "revenue_vat": 15.42,
-    "revenue": 12.96
   },
   {
     "date": "2025-11-24",
@@ -17617,6 +17617,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-11-30",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2025-11-30",
     "name": "Sardinky Luzienne 115 g",
     "amount": 2,
     "revenue_vat": 15.58,
@@ -17649,13 +17656,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.29,
     "revenue": 5.29
-  },
-  {
-    "date": "2025-11-30",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2025-12-01",
@@ -17715,27 +17715,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-12-01",
-    "name": "Sardinky s olivovým olejom a citrónom 115 g",
-    "amount": 3,
-    "revenue_vat": 22.05,
-    "revenue": 18.53
-  },
-  {
-    "date": "2025-12-01",
-    "name": "Sardinky s olivovým olejom a zeleným korením 115 g",
-    "amount": 3,
-    "revenue_vat": 23.52,
-    "revenue": 19.77
-  },
-  {
-    "date": "2025-12-01",
-    "name": "Sardinky v slnečnicovom oleji s paradajkami 115 g",
-    "amount": 2,
-    "revenue_vat": 13.08,
-    "revenue": 10.99
-  },
-  {
-    "date": "2025-12-01",
     "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
     "amount": 1,
     "revenue_vat": 7.71,
@@ -17761,6 +17740,27 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.3,
     "revenue": 6.97
+  },
+  {
+    "date": "2025-12-01",
+    "name": "Sardinky s olivovým olejom a citrónom 115 g",
+    "amount": 3,
+    "revenue_vat": 22.05,
+    "revenue": 18.53
+  },
+  {
+    "date": "2025-12-01",
+    "name": "Sardinky s olivovým olejom a zeleným korením 115 g",
+    "amount": 3,
+    "revenue_vat": 23.52,
+    "revenue": 19.77
+  },
+  {
+    "date": "2025-12-01",
+    "name": "Sardinky v slnečnicovom oleji s paradajkami 115 g",
+    "amount": 2,
+    "revenue_vat": 13.08,
+    "revenue": 10.99
   },
   {
     "date": "2025-12-02",
@@ -18205,17 +18205,17 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-12-10",
-    "name": "Dary zeme a mora",
-    "amount": 4,
-    "revenue_vat": 235.16,
-    "revenue": 197.61
-  },
-  {
-    "date": "2025-12-10",
     "name": "Chute, ktoré prinieslo slnko",
     "amount": 1,
     "revenue_vat": 23.06,
     "revenue": 19.38
+  },
+  {
+    "date": "2025-12-10",
+    "name": "Dary zeme a mora",
+    "amount": 4,
+    "revenue_vat": 235.16,
+    "revenue": 197.61
   },
   {
     "date": "2025-12-10",
@@ -18233,20 +18233,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-12-10",
-    "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
-    "amount": 7,
-    "revenue_vat": 44.6,
-    "revenue": 37.48
-  },
-  {
-    "date": "2025-12-10",
-    "name": "Sardinky v slnečnicovom oleji s paradajkami 115 g",
-    "amount": 7,
-    "revenue_vat": 41.2,
-    "revenue": 34.62
-  },
-  {
-    "date": "2025-12-10",
     "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
     "amount": 3,
     "revenue_vat": 26.67,
@@ -18258,6 +18244,20 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 3,
     "revenue_vat": 26.67,
     "revenue": 22.41
+  },
+  {
+    "date": "2025-12-10",
+    "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
+    "amount": 7,
+    "revenue_vat": 44.6,
+    "revenue": 37.48
+  },
+  {
+    "date": "2025-12-10",
+    "name": "Sardinky v slnečnicovom oleji s paradajkami 115 g",
+    "amount": 7,
+    "revenue_vat": 41.2,
+    "revenue": 34.62
   },
   {
     "date": "2025-12-10",
@@ -18408,6 +18408,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2025-12-14",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 3,
+    "revenue_vat": 26.67,
+    "revenue": 22.41
+  },
+  {
+    "date": "2025-12-14",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2025-12-14",
     "name": "Sardinky s maslom na konzumáciu po tepelnej úprave 115 g",
     "amount": 1,
     "revenue_vat": 8.53,
@@ -18440,20 +18454,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 13.08,
     "revenue": 10.99
-  },
-  {
-    "date": "2025-12-14",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 3,
-    "revenue_vat": 26.67,
-    "revenue": 22.41
-  },
-  {
-    "date": "2025-12-14",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2025-12-15",
@@ -18744,6 +18744,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-01-01",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-01-01",
     "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
     "amount": 1,
     "revenue_vat": 7.08,
@@ -18755,13 +18762,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.29,
     "revenue": 5.29
-  },
-  {
-    "date": "2026-01-01",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2026-01-01",
@@ -18947,6 +18947,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-01-06",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-01-06",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2026-01-06",
     "name": "Sardinky marinované vínom Muscadet 115 g",
     "amount": 2,
     "revenue_vat": 15.46,
@@ -18996,20 +19010,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-01-06",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-01-06",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
-  },
-  {
-    "date": "2026-01-06",
     "name": "Tuniak v olivovom oleji 160 g",
     "amount": 1,
     "revenue_vat": 12.19,
@@ -19052,34 +19052,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-01-07",
-    "name": "Sardinky marinované vínom Muscadet 115 g",
-    "amount": 2,
-    "revenue_vat": 15.46,
-    "revenue": 12.99
-  },
-  {
-    "date": "2026-01-07",
-    "name": "Sardinky s citrónom a čili papričkami 115 g",
-    "amount": 2,
-    "revenue_vat": 16.52,
-    "revenue": 13.88
-  },
-  {
-    "date": "2026-01-07",
-    "name": "Sardinky v oleji s omáčkou Pitomaïl 115 g",
-    "amount": 2,
-    "revenue_vat": 14.26,
-    "revenue": 11.98
-  },
-  {
-    "date": "2026-01-07",
-    "name": "Sardinky v olivovom oleji s paradajkami 115 g",
-    "amount": 2,
-    "revenue_vat": 14.8,
-    "revenue": 12.44
-  },
-  {
-    "date": "2026-01-07",
     "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
     "amount": 1,
     "revenue_vat": 7.71,
@@ -19112,6 +19084,34 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.3,
     "revenue": 6.97
+  },
+  {
+    "date": "2026-01-07",
+    "name": "Sardinky marinované vínom Muscadet 115 g",
+    "amount": 2,
+    "revenue_vat": 15.46,
+    "revenue": 12.99
+  },
+  {
+    "date": "2026-01-07",
+    "name": "Sardinky s citrónom a čili papričkami 115 g",
+    "amount": 2,
+    "revenue_vat": 16.52,
+    "revenue": 13.88
+  },
+  {
+    "date": "2026-01-07",
+    "name": "Sardinky v oleji s omáčkou Pitomaïl 115 g",
+    "amount": 2,
+    "revenue_vat": 14.26,
+    "revenue": 11.98
+  },
+  {
+    "date": "2026-01-07",
+    "name": "Sardinky v olivovom oleji s paradajkami 115 g",
+    "amount": 2,
+    "revenue_vat": 14.8,
+    "revenue": 12.44
   },
   {
     "date": "2026-01-07",
@@ -19528,6 +19528,41 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-01-12",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-01-12",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-01-12",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-01-12",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-01-12",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2026-01-12",
     "name": "Sardinky Nantaise na konzumáciu po tepelnej úprave 115 g",
     "amount": 1,
     "revenue_vat": 8.48,
@@ -19612,41 +19647,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-01-12",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-01-12",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-01-12",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-01-12",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-01-12",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
-  },
-  {
-    "date": "2026-01-12",
     "name": "Tuniak v olivovom oleji s aromatickým korením 160 g",
     "amount": 1,
     "revenue_vat": 12.51,
@@ -19707,6 +19707,41 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 8.01,
     "revenue": 6.73
+  },
+  {
+    "date": "2026-01-13",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-01-13",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-01-13",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-01-13",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-01-13",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
   },
   {
     "date": "2026-01-13",
@@ -19784,41 +19819,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.29,
     "revenue": 5.29
-  },
-  {
-    "date": "2026-01-13",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-01-13",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-01-13",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-01-13",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-01-13",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2026-01-13",
@@ -20263,6 +20263,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-01-26",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-01-26",
     "name": "Sardinky marinované vínom Muscadet 115 g",
     "amount": 1,
     "revenue_vat": 7.73,
@@ -20372,13 +20379,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 7,
     "revenue_vat": 41.86,
     "revenue": 35.18
-  },
-  {
-    "date": "2026-01-26",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
   },
   {
     "date": "2026-01-26",
@@ -20662,6 +20662,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-01",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 3,
+    "revenue_vat": 23.13,
+    "revenue": 19.44
+  },
+  {
+    "date": "2026-02-01",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-01",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 2,
     "revenue_vat": 16.52,
@@ -20757,20 +20771,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 6,
     "revenue_vat": 39.24,
     "revenue": 32.98
-  },
-  {
-    "date": "2026-02-01",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 3,
-    "revenue_vat": 23.13,
-    "revenue": 19.44
-  },
-  {
-    "date": "2026-02-01",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2026-02-01",
@@ -20872,6 +20872,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-03",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2026-02-03",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 3,
     "revenue_vat": 22.05,
@@ -20904,13 +20911,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 4,
     "revenue_vat": 29.6,
     "revenue": 24.87
-  },
-  {
-    "date": "2026-02-03",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2026-02-03",
@@ -21103,41 +21103,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-07",
-    "name": "Sardinky s olivovým olejom a citrónom 115 g",
-    "amount": 2,
-    "revenue_vat": 14.7,
-    "revenue": 12.35
-  },
-  {
-    "date": "2026-02-07",
-    "name": "Sardinky s olivovým olejom a zeleným korením 115 g",
-    "amount": 1,
-    "revenue_vat": 7.84,
-    "revenue": 6.59
-  },
-  {
-    "date": "2026-02-07",
-    "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
-    "amount": 17,
-    "revenue_vat": 109.74,
-    "revenue": 92.22
-  },
-  {
-    "date": "2026-02-07",
-    "name": "Sardinky v oleji s omáčkou Pitomaïl 115 g",
-    "amount": 5,
-    "revenue_vat": 32.09,
-    "revenue": 26.96
-  },
-  {
-    "date": "2026-02-07",
-    "name": "Sardinky v slnečnicovom oleji s paradajkami 115 g",
-    "amount": 5,
-    "revenue_vat": 29.43,
-    "revenue": 24.73
-  },
-  {
-    "date": "2026-02-07",
     "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
     "amount": 2,
     "revenue_vat": 15.42,
@@ -21170,6 +21135,41 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 16.6,
     "revenue": 13.94
+  },
+  {
+    "date": "2026-02-07",
+    "name": "Sardinky s olivovým olejom a citrónom 115 g",
+    "amount": 2,
+    "revenue_vat": 14.7,
+    "revenue": 12.35
+  },
+  {
+    "date": "2026-02-07",
+    "name": "Sardinky s olivovým olejom a zeleným korením 115 g",
+    "amount": 1,
+    "revenue_vat": 7.84,
+    "revenue": 6.59
+  },
+  {
+    "date": "2026-02-07",
+    "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
+    "amount": 17,
+    "revenue_vat": 109.74,
+    "revenue": 92.22
+  },
+  {
+    "date": "2026-02-07",
+    "name": "Sardinky v oleji s omáčkou Pitomaïl 115 g",
+    "amount": 5,
+    "revenue_vat": 32.09,
+    "revenue": 26.96
+  },
+  {
+    "date": "2026-02-07",
+    "name": "Sardinky v slnečnicovom oleji s paradajkami 115 g",
+    "amount": 5,
+    "revenue_vat": 29.43,
+    "revenue": 24.73
   },
   {
     "date": "2026-02-08",
@@ -21219,6 +21219,34 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 4,
     "revenue_vat": 18.84,
     "revenue": 15.83
+  },
+  {
+    "date": "2026-02-09",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-02-09",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-09",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-09",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 3,
+    "revenue_vat": 24.9,
+    "revenue": 20.92
   },
   {
     "date": "2026-02-09",
@@ -21275,34 +21303,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 5,
     "revenue_vat": 29.43,
     "revenue": 24.73
-  },
-  {
-    "date": "2026-02-09",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-02-09",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-02-09",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-02-09",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 3,
-    "revenue_vat": 24.9,
-    "revenue": 20.92
   },
   {
     "date": "2026-02-09",
@@ -21642,6 +21642,41 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-15",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-02-15",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-15",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 2,
+    "revenue_vat": 17.78,
+    "revenue": 14.94
+  },
+  {
+    "date": "2026-02-15",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-15",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2026-02-15",
     "name": "Sardinky Luzienne 115 g",
     "amount": 2,
     "revenue_vat": 15.58,
@@ -21695,41 +21730,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 13.08,
     "revenue": 11
-  },
-  {
-    "date": "2026-02-15",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-02-15",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-02-15",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 2,
-    "revenue_vat": 17.78,
-    "revenue": 14.94
-  },
-  {
-    "date": "2026-02-15",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-02-15",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2026-02-15",
@@ -21887,6 +21887,27 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-17",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-02-17",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-17",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-17",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 3,
     "revenue_vat": 24.78,
@@ -21936,27 +21957,6 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-17",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-02-17",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-02-17",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-02-17",
     "name": "Tuniak vo vlastnej šťave 207 g",
     "amount": 1,
     "revenue_vat": 12.51,
@@ -21968,6 +21968,13 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 13.16,
     "revenue": 11.06
+  },
+  {
+    "date": "2026-02-18",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
   },
   {
     "date": "2026-02-18",
@@ -22010,13 +22017,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 6,
     "revenue_vat": 44.4,
     "revenue": 37.31
-  },
-  {
-    "date": "2026-02-18",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2026-02-19",
@@ -22097,6 +22097,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-20",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-02-20",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 4,
     "revenue_vat": 29.4,
@@ -22115,13 +22122,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 14.8,
     "revenue": 12.44
-  },
-  {
-    "date": "2026-02-20",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
   },
   {
     "date": "2026-02-20",
@@ -22174,6 +22174,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-22",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-22",
     "name": "Sardinky Luzienne 115 g",
     "amount": 1,
     "revenue_vat": 7.79,
@@ -22220,13 +22227,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 5,
     "revenue_vat": 37,
     "revenue": 31.09
-  },
-  {
-    "date": "2026-02-22",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2026-02-22",
@@ -22328,6 +22328,34 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-02-24",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-02-24",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-24",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-02-24",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 2,
+    "revenue_vat": 17.78,
+    "revenue": 14.94
+  },
+  {
+    "date": "2026-02-24",
     "name": "Sardinky s citrónom a čili papričkami 115 g",
     "amount": 3,
     "revenue_vat": 24.78,
@@ -22374,34 +22402,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.54,
     "revenue": 5.5
-  },
-  {
-    "date": "2026-02-24",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-02-24",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-02-24",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-02-24",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 2,
-    "revenue_vat": 17.78,
-    "revenue": 14.94
   },
   {
     "date": "2026-02-25",
@@ -22538,6 +22538,27 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-01",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 2,
+    "revenue_vat": 15.42,
+    "revenue": 12.96
+  },
+  {
+    "date": "2026-03-01",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 2,
+    "revenue_vat": 17.78,
+    "revenue": 14.94
+  },
+  {
+    "date": "2026-03-01",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-03-01",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 1,
     "revenue_vat": 7.35,
@@ -22570,27 +22591,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 7.4,
     "revenue": 6.22
-  },
-  {
-    "date": "2026-03-01",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 2,
-    "revenue_vat": 15.42,
-    "revenue": 12.96
-  },
-  {
-    "date": "2026-03-01",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 2,
-    "revenue_vat": 17.78,
-    "revenue": 14.94
-  },
-  {
-    "date": "2026-03-01",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2026-03-01",
@@ -22853,6 +22853,27 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-06",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-03-06",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-03-06",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 1,
+    "revenue_vat": 8.3,
+    "revenue": 6.97
+  },
+  {
+    "date": "2026-03-06",
     "name": "Sardinky marinované vínom Muscadet 115 g",
     "amount": 2,
     "revenue_vat": 15.46,
@@ -22899,27 +22920,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 7.4,
     "revenue": 6.22
-  },
-  {
-    "date": "2026-03-06",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-03-06",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-03-06",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 1,
-    "revenue_vat": 8.3,
-    "revenue": 6.97
   },
   {
     "date": "2026-03-06",
@@ -22986,6 +22986,20 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-08",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-03-08",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-03-08",
     "name": "Sardinky marinované vínom Muscadet 115 g",
     "amount": 1,
     "revenue_vat": 7.73,
@@ -23025,20 +23039,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 15,
     "revenue_vat": 95.58,
     "revenue": 80.31
-  },
-  {
-    "date": "2026-03-08",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-03-08",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2026-03-08",
@@ -23098,6 +23098,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-09",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-03-09",
     "name": "Sardinky s olivovým olejom a citrónom 115 g",
     "amount": 2,
     "revenue_vat": 14.7,
@@ -23123,13 +23130,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 2,
     "revenue_vat": 14.8,
     "revenue": 12.44
-  },
-  {
-    "date": "2026-03-09",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
   },
   {
     "date": "2026-03-09",
@@ -23182,6 +23182,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-10",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 2,
+    "revenue_vat": 17.78,
+    "revenue": 14.94
+  },
+  {
+    "date": "2026-03-10",
     "name": "Sardinky s kandizovaným citrónom a koriandrom na konzumáciu po tepelnej úprave 115 g",
     "amount": 1,
     "revenue_vat": 8.06,
@@ -23230,13 +23237,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "revenue": 37.32
   },
   {
-    "date": "2026-03-10",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 2,
-    "revenue_vat": 17.78,
-    "revenue": 14.94
-  },
-  {
     "date": "2026-03-11",
     "name": "Sardinky sv. Juraja v olivovom oleji 115 g",
     "amount": 15,
@@ -23270,6 +23270,13 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 4.71,
     "revenue": 3.96
+  },
+  {
+    "date": "2026-03-12",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
   },
   {
     "date": "2026-03-12",
@@ -23326,13 +23333,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.54,
     "revenue": 5.5
-  },
-  {
-    "date": "2026-03-12",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2026-03-12",
@@ -23875,6 +23875,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-22",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-03-22",
     "name": "Sardinky s olivovým olejom a zeleným korením 115 g",
     "amount": 5,
     "revenue_vat": 35.28,
@@ -23886,13 +23893,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 12,
     "revenue_vat": 76.46,
     "revenue": 64.25
-  },
-  {
-    "date": "2026-03-22",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
   },
   {
     "date": "2026-03-23",
@@ -24267,6 +24267,41 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-29",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 1,
+    "revenue_vat": 7.71,
+    "revenue": 6.48
+  },
+  {
+    "date": "2026-03-29",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-03-29",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-03-29",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-03-29",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 2,
+    "revenue_vat": 16.6,
+    "revenue": 13.94
+  },
+  {
+    "date": "2026-03-29",
     "name": "Sardinky Luzienne 115 g",
     "amount": 1,
     "revenue_vat": 7.79,
@@ -24320,41 +24355,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 7.4,
     "revenue": 6.22
-  },
-  {
-    "date": "2026-03-29",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 1,
-    "revenue_vat": 7.71,
-    "revenue": 6.48
-  },
-  {
-    "date": "2026-03-29",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-03-29",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-03-29",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-03-29",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 2,
-    "revenue_vat": 16.6,
-    "revenue": 13.94
   },
   {
     "date": "2026-03-29",
@@ -24435,6 +24435,41 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-03-30",
+    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
+    "amount": 4,
+    "revenue_vat": 30.84,
+    "revenue": 25.92
+  },
+  {
+    "date": "2026-03-30",
+    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
+    "amount": 2,
+    "revenue_vat": 17.78,
+    "revenue": 14.94
+  },
+  {
+    "date": "2026-03-30",
+    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-03-30",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 3,
+    "revenue_vat": 26.67,
+    "revenue": 22.41
+  },
+  {
+    "date": "2026-03-30",
+    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
+    "amount": 2,
+    "revenue_vat": 16.6,
+    "revenue": 13.94
+  },
+  {
+    "date": "2026-03-30",
     "name": "Sardinky marinované vínom Muscadet 115 g",
     "amount": 1,
     "revenue_vat": 7.73,
@@ -24509,41 +24544,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.54,
     "revenue": 5.5
-  },
-  {
-    "date": "2026-03-30",
-    "name": "Šalát z makrely s mrkvou a šošovicou beluga 175 g",
-    "amount": 4,
-    "revenue_vat": 30.84,
-    "revenue": 25.92
-  },
-  {
-    "date": "2026-03-30",
-    "name": "Šalát z tuniaka s jednozrnkou a čiernou ryžou 175 g",
-    "amount": 2,
-    "revenue_vat": 17.78,
-    "revenue": 14.94
-  },
-  {
-    "date": "2026-03-30",
-    "name": "Šalát z tuniaka s provensálskou zeleninou a sherry octom 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
-  },
-  {
-    "date": "2026-03-30",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 3,
-    "revenue_vat": 26.67,
-    "revenue": 22.41
-  },
-  {
-    "date": "2026-03-30",
-    "name": "Šalát zo sleďa s kelom a ryžou z Camargue BIO 175 g",
-    "amount": 2,
-    "revenue_vat": 16.6,
-    "revenue": 13.94
   },
   {
     "date": "2026-03-30",
@@ -24743,6 +24743,13 @@ export const productDataSK: ProductSaleRecord[] = [
   },
   {
     "date": "2026-04-06",
+    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
+    "amount": 1,
+    "revenue_vat": 8.89,
+    "revenue": 7.47
+  },
+  {
+    "date": "2026-04-06",
     "name": "Sardinky marinované vínom Muscadet 115 g",
     "amount": 2,
     "revenue_vat": 15.46,
@@ -24796,13 +24803,6 @@ export const productDataSK: ProductSaleRecord[] = [
     "amount": 1,
     "revenue_vat": 6.29,
     "revenue": 5.29
-  },
-  {
-    "date": "2026-04-06",
-    "name": "Šalát z tuniaka so zeleninou tajine a quinoou 175 g",
-    "amount": 1,
-    "revenue_vat": 8.89,
-    "revenue": 7.47
   },
   {
     "date": "2026-04-06",
