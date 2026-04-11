@@ -48,7 +48,7 @@ const makeTooltip = (currency: Currency) => {
   return CustomTooltip;
 };
 
-export default function RevenueOrdersChart({ data, currency = 'CZK', hasPrevData = true }: Props) {
+export default function RevenueOrdersChart({ data, currency = 'EUR', hasPrevData = true }: Props) {
   const CustomTooltip = makeTooltip(currency);
   const title = hasPrevData ? 'Tržby a objednávky (YoY)' : 'Tržby a objednávky';
 

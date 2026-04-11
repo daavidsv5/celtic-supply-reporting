@@ -2,19 +2,14 @@
 
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
-import { shippingPaymentDataCZ } from '@/data/shippingPaymentDataCZ';
-import { shippingPaymentDataSK as _shippingPaymentDataSK } from '@/data/shippingPaymentDataSK';
-import { getDisplayCurrency, SK_LAUNCH_DATE } from '@/data/types';
-
-const shippingPaymentDataSK = _shippingPaymentDataSK.filter(r => r.date >= SK_LAUNCH_DATE);
+import { shippingPaymentDataAT } from '@/data/shippingPaymentDataAT';
 import { formatCurrency, formatNumber, formatDate, localIsoDate } from '@/lib/formatters';
 import { Truck, CreditCard, DollarSign, Banknote, Star, Award, Gift, Save, RotateCcw } from 'lucide-react';
 
 const LS_KEY = 'carrierCosts_v1';
 
 interface CarrierCost {
-  cz: string;  // CZK, prázdný řetězec = nevyplněno
-  sk: string;  // EUR
+  at: string;  // EUR, prázdný řetězec = nevyplněno
   note: string;
 }
 import KpiCard from '@/components/kpi/KpiCard';
@@ -169,7 +164,7 @@ function PieLegend({ rows, palette, total }: {
 }
 
 export default function ShippingPage() {
-  const { filters, eurToCzk } = useFilters();
+  const { filters } = useFilters();
   const [period, setPeriod] = useState<Period>('day');
 
   const { start, end, prevStart, prevEnd } = getDateRange(filters);
@@ -178,50 +173,23 @@ export default function ShippingPage() {
   const prevStartStr = localIsoDate(prevStart);
   const prevEndStr   = localIsoDate(prevEnd);
 
-  const currency = getDisplayCurrency(filters.countries);
-  const onlySK   = filters.countries.length === 1 && filters.countries[0] === 'sk';
-  const skMult   = onlySK ? 1 : eurToCzk;
-  const fc = (v: number) => formatCurrency(v, currency);
+  const fc = (v: number) => formatCurrency(v, 'EUR');
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
-  // ── Merge CZ + SK ──────────────────────────────────────────────────────────
-  const records = useMemo(() => {
-    const out: { date: string; type: 'shipping' | 'payment'; name: string; count: number; revenue_vat: number }[] = [];
-    if (filters.countries.includes('cz')) {
-      for (const r of shippingPaymentDataCZ) {
-        if (r.date < startStr || r.date > endStr) continue;
-        out.push({ ...r });
-      }
-    }
-    if (filters.countries.includes('sk')) {
-      for (const r of shippingPaymentDataSK) {
-        if (r.date < startStr || r.date > endStr) continue;
-        out.push({ ...r, revenue_vat: r.revenue_vat * skMult });
-      }
-    }
-    return out;
-  }, [filters.countries, startStr, endStr, skMult]);
+  // ── AT records filtered by period ──────────────────────────────────────────
+  const records = useMemo(() =>
+    shippingPaymentDataAT.filter(r => r.date >= startStr && r.date <= endStr),
+    [startStr, endStr]
+  );
 
   const shipping = records.filter(r => r.type === 'shipping');
   const payment  = records.filter(r => r.type === 'payment');
 
   // ── Prev year records ──────────────────────────────────────────────────────
-  const prevRecords = useMemo(() => {
-    const out: { date: string; type: 'shipping' | 'payment'; name: string; count: number; revenue_vat: number }[] = [];
-    if (filters.countries.includes('cz')) {
-      for (const r of shippingPaymentDataCZ) {
-        if (r.date < prevStartStr || r.date > prevEndStr) continue;
-        out.push({ ...r });
-      }
-    }
-    if (filters.countries.includes('sk')) {
-      for (const r of shippingPaymentDataSK) {
-        if (r.date < prevStartStr || r.date > prevEndStr) continue;
-        out.push({ ...r, revenue_vat: r.revenue_vat * skMult });
-      }
-    }
-    return out;
-  }, [filters.countries, prevStartStr, prevEndStr, skMult]);
+  const prevRecords = useMemo(() =>
+    shippingPaymentDataAT.filter(r => r.date >= prevStartStr && r.date <= prevEndStr),
+    [prevStartStr, prevEndStr]
+  );
 
   const prevShipping = prevRecords.filter(r => r.type === 'shipping');
   const prevPayment  = prevRecords.filter(r => r.type === 'payment');
@@ -330,11 +298,10 @@ export default function ShippingPage() {
   const noData  = records.length === 0;
 
   // ── Carrier cost table ─────────────────────────────────────────────────────
-  const allCarriers = useMemo(() => {
-    const czNames = new Set(shippingPaymentDataCZ.filter(r => r.type === 'shipping').map(r => r.name));
-    const skNames = new Set(shippingPaymentDataSK.filter(r => r.type === 'shipping').map(r => r.name));
-    return [...new Set([...czNames, ...skNames])].sort();
-  }, []);
+  const allCarriers = useMemo(() =>
+    [...new Set(shippingPaymentDataAT.filter(r => r.type === 'shipping').map(r => r.name))].sort(),
+    []
+  );
 
   const [costs, setCosts] = useState<Record<string, CarrierCost>>({});
   const [saved, setSaved] = useState(false);
@@ -350,57 +317,35 @@ export default function ShippingPage() {
   // E-shop shipping cost = sum(count * pricePerCarrier) for the current period
   const eshopShippingCost = useMemo(() => {
     let total = 0;
-    if (filters.countries.includes('cz')) {
-      for (const r of shippingPaymentDataCZ) {
-        if (r.type !== 'shipping' || r.date < startStr || r.date > endStr) continue;
-        const price = Number(costs[r.name]?.cz) || 0;
-        total += r.count * price;
-      }
-    }
-    if (filters.countries.includes('sk')) {
-      for (const r of shippingPaymentDataSK) {
-        if (r.type !== 'shipping' || r.date < startStr || r.date > endStr) continue;
-        const price = Number(costs[r.name]?.sk) || 0;
-        total += r.count * price * skMult;
-      }
+    for (const r of shippingPaymentDataAT) {
+      if (r.type !== 'shipping' || r.date < startStr || r.date > endStr) continue;
+      const price = Number(costs[r.name]?.at) || 0;
+      total += r.count * price;
     }
     return total;
-  }, [costs, filters.countries, startStr, endStr, skMult]);
+  }, [costs, startStr, endStr]);
 
   const shippingProfitLoss = totalShippingRev - eshopShippingCost;
-  const hasAnyCost = Object.values(costs).some(c => Number(c.cz) > 0 || Number(c.sk) > 0);
+  const hasAnyCost = Object.values(costs).some(c => Number(c.at) > 0);
 
   // Per-carrier profit/loss table
   const carrierPnl = useMemo(() => {
-    // Build per-carrier CZ/SK counts for current period
-    const czCount: Record<string, number> = {};
-    const skCount: Record<string, number> = {};
-    if (filters.countries.includes('cz')) {
-      for (const r of shippingPaymentDataCZ) {
-        if (r.type !== 'shipping' || r.date < startStr || r.date > endStr) continue;
-        czCount[r.name] = (czCount[r.name] || 0) + r.count;
-      }
+    const atCount: Record<string, number> = {};
+    for (const r of shippingPaymentDataAT) {
+      if (r.type !== 'shipping' || r.date < startStr || r.date > endStr) continue;
+      atCount[r.name] = (atCount[r.name] || 0) + r.count;
     }
-    if (filters.countries.includes('sk')) {
-      for (const r of shippingPaymentDataSK) {
-        if (r.type !== 'shipping' || r.date < startStr || r.date > endStr) continue;
-        skCount[r.name] = (skCount[r.name] || 0) + r.count;
-      }
-    }
-    // Merge all carrier names
-    const names = [...new Set([...Object.keys(czCount), ...Object.keys(skCount)])];
-    return names.map(name => {
+    return Object.keys(atCount).map(name => {
       const customerPays = shippingRows.find(r => r.name === name)?.revenue_vat ?? 0;
       const count        = shippingRows.find(r => r.name === name)?.count ?? 0;
-      const eshopPays    = (czCount[name] || 0) * (Number(costs[name]?.cz) || 0)
-                         + (skCount[name] || 0) * (Number(costs[name]?.sk) || 0) * skMult;
+      const eshopPays    = atCount[name] * (Number(costs[name]?.at) || 0);
       const pnl = customerPays - eshopPays;
       return { name, count, customerPays, eshopPays, pnl };
     }).sort((a, b) => b.count - a.count);
-  }, [costs, filters.countries, startStr, endStr, skMult, shippingRows]);
+  }, [costs, startStr, endStr, shippingRows]);
 
   function updateCost(name: string, field: keyof CarrierCost, value: string) {
-    setCosts(prev => { const cur = Object.assign({ cz: '', sk: '', note: '' }, prev[name], { [field]: value }); return { ...prev, [name]: cur as CarrierCost }; });
+    setCosts(prev => { const cur = Object.assign({ at: '', note: '' }, prev[name], { [field]: value }); return { ...prev, [name]: cur as CarrierCost }; });
     setSaved(false);
   }
 
@@ -749,53 +694,13 @@ export default function ShippingPage() {
           </div>
         </div>
 
-        <div className={`grid grid-cols-1 divide-y divide-slate-100 ${filters.countries.includes('cz') && filters.countries.includes('sk') ? 'xl:grid-cols-2 xl:divide-y-0 xl:divide-x' : ''}`}>
+        <div>
 
-          {/* CZ */}
-          {filters.countries.includes('cz') && <div>
-            <div className="px-4 py-2.5 bg-blue-50 border-b border-blue-100 flex items-center gap-2">
-              <span className="text-sm">🇨🇿</span>
-              <span className="text-xs font-bold text-blue-700 uppercase tracking-wider">Česká republika — ceny v Kč</span>
-            </div>
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="bg-blue-900">
-                  <th className="px-4 py-2.5 text-left text-[11px] font-semibold text-white uppercase tracking-wider">Dopravce</th>
-                  <th className="px-4 py-2.5 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Cena (Kč)</th>
-                  <th className="px-4 py-2.5 text-left text-[11px] font-semibold text-white uppercase tracking-wider">Poznámka</th>
-                </tr>
-              </thead>
-              <tbody>
-                {allCarriers.filter(n => shippingPaymentDataCZ.some(r => r.type === 'shipping' && r.name === n)).map((name, idx) => {
-                  const c = costs[name] ?? { cz: '', sk: '', note: '' };
-                  return (
-                    <tr key={name} className={`border-b border-slate-50 ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
-                      <td className="px-4 py-2.5 font-medium text-slate-700">{name}</td>
-                      <td className="px-4 py-2">
-                        <div className="flex justify-end">
-                          <div className="relative">
-                            <input type="number" min="0" step="0.01" value={c.cz} onChange={e => updateCost(name, 'cz', e.target.value)} placeholder="0.00"
-                              className="w-28 text-right text-sm tabular-nums pr-8 pl-2 py-1.5 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300" />
-                            <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-slate-400 pointer-events-none">Kč</span>
-                          </div>
-                        </div>
-                      </td>
-                      <td className="px-4 py-2">
-                        <input type="text" value={c.note} onChange={e => updateCost(name, 'note', e.target.value)} placeholder="poznámka..."
-                          className="w-full text-sm px-2 py-1.5 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300 text-slate-600 placeholder:text-slate-300" />
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>}
-
-          {/* SK */}
-          {filters.countries.includes('sk') && <div>
+          {/* AT */}
+          <div>
             <div className="px-4 py-2.5 bg-red-50 border-b border-red-100 flex items-center gap-2">
-              <span className="text-sm">🇸🇰</span>
-              <span className="text-xs font-bold text-red-600 uppercase tracking-wider">Slovensko — ceny v €</span>
+              <span className="text-sm">🇦🇹</span>
+              <span className="text-xs font-bold text-red-700 uppercase tracking-wider">Österreich — ceny v €</span>
             </div>
             <table className="w-full text-sm">
               <thead>
@@ -806,15 +711,15 @@ export default function ShippingPage() {
                 </tr>
               </thead>
               <tbody>
-                {allCarriers.filter(n => shippingPaymentDataSK.some(r => r.type === 'shipping' && r.name === n)).map((name, idx) => {
-                  const c = costs[name] ?? { cz: '', sk: '', note: '' };
+                {allCarriers.map((name, idx) => {
+                  const c = costs[name] ?? { at: '', note: '' };
                   return (
                     <tr key={name} className={`border-b border-slate-50 ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
                       <td className="px-4 py-2.5 font-medium text-slate-700">{name}</td>
                       <td className="px-4 py-2">
                         <div className="flex justify-end">
                           <div className="relative">
-                            <input type="number" min="0" step="0.01" value={c.sk} onChange={e => updateCost(name, 'sk', e.target.value)} placeholder="0.00"
+                            <input type="number" min="0" step="0.01" value={c.at} onChange={e => updateCost(name, 'at', e.target.value)} placeholder="0.00"
                               className="w-24 text-right text-sm tabular-nums pr-6 pl-2 py-1.5 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300" />
                             <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-slate-400 pointer-events-none">€</span>
                           </div>
@@ -829,7 +734,7 @@ export default function ShippingPage() {
                 })}
               </tbody>
             </table>
-          </div>}
+          </div>
 
         </div>
         <div className="px-5 py-3 bg-slate-50/50 border-t border-slate-100 text-xs text-slate-400">

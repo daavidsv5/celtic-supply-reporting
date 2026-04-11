@@ -91,7 +91,7 @@ function ChartCard({
   title, data, dataKey, prevKey, currentLabel, prevLabel,
   color, colorPrev, formatValue, formatAxis, hasPrevData, tickFormatter,
 }: ChartCardProps) {
-  const CustomTooltip = makeTooltip('CZK', formatValue, tickFormatter);
+  const CustomTooltip = makeTooltip('EUR', formatValue, tickFormatter);
   return (
     <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-5">
       <h2 className="text-sm font-semibold text-slate-700 mb-5">{title}</h2>
@@ -203,7 +203,7 @@ function PnoChartCard({ data, hasPrevData, tickFormatter }: {
 
 // ─── Export: 4-chart grid ─────────────────────────────────────────────────────
 
-export default function KpiLineCharts({ data, currency = 'CZK', hasPrevData = true, isMonthly = false }: Props) {
+export default function KpiLineCharts({ data, currency = 'EUR', hasPrevData = true, isMonthly = false }: Props) {
   const tickFormatter = isMonthly
     ? (d: string) => formatMonthYear(d)
     : (d: string) => formatShortDate(d);

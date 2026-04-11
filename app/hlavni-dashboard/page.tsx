@@ -6,14 +6,8 @@ import {
   Legend, ResponsiveContainer,
 } from 'recharts';
 import { mockData } from '@/data/mockGenerator';
-import { marginDataCZ } from '@/data/marginDataCZ';
-import { marginDataSK as _marginDataSK } from '@/data/marginDataSK';
-import { useFilters } from '@/hooks/useFilters';
+import { marginDataAT } from '@/data/marginDataAT';
 import { useHlavniDashboard } from '@/hooks/useHlavniDashboard';
-import { SK_LAUNCH_DATE } from '@/data/types';
-import type { Country } from '@/data/types';
-
-const marginDataSK = _marginDataSK.filter(r => r.date >= SK_LAUNCH_DATE);
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 
@@ -29,44 +23,25 @@ interface MonthlyRow {
   marginRev: number;
 }
 
-function aggregateMonthly(
-  year: number,
-  countries: Country[],
-  eurToCzk: number,
-): MonthlyRow[] {
-  const isSKOnly = countries.length === 1 && countries[0] === 'sk';
+function aggregateMonthly(year: number): MonthlyRow[] {
   const months: MonthlyRow[] = Array.from({ length: 12 }, () => ({
     revenue: 0, orders: 0, cost: 0, purchaseCost: 0, marginRev: 0,
   }));
 
   for (const r of mockData) {
-    if (!countries.includes(r.country)) continue;
     const [y, m] = r.date.split('-').map(Number);
     if (y !== year) continue;
-    const mult = r.country === 'sk' && !isSKOnly ? eurToCzk : 1;
     const i = m - 1;
-    months[i].revenue += r.revenue * mult;
+    months[i].revenue += r.revenue;
     months[i].orders  += r.orders;
-    months[i].cost    += r.cost * mult;
+    months[i].cost    += r.cost;
   }
 
-  if (countries.includes('cz')) {
-    for (const r of marginDataCZ) {
-      const [y, m] = r.date.split('-').map(Number);
-      if (y !== year) continue;
-      months[m - 1].purchaseCost += r.purchaseCost;
-      months[m - 1].marginRev    += r.revenue;
-    }
-  }
-
-  if (countries.includes('sk')) {
-    const mult = isSKOnly ? 1 : eurToCzk;
-    for (const r of marginDataSK) {
-      const [y, m] = r.date.split('-').map(Number);
-      if (y !== year) continue;
-      months[m - 1].purchaseCost += r.purchaseCost * mult;
-      months[m - 1].marginRev    += r.revenue * mult;
-    }
+  for (const r of marginDataAT) {
+    const [y, m] = r.date.split('-').map(Number);
+    if (y !== year) continue;
+    months[m - 1].purchaseCost += r.purchaseCost;
+    months[m - 1].marginRev    += r.revenue;
   }
 
   return months;
@@ -154,21 +129,10 @@ function ChartCard({ title, data, colorA, colorB, yearA, yearB, axisFormatter, t
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function HlavniDashboardPage() {
-  const { eurToCzk } = useFilters();
-  const { market, yearA, yearB } = useHlavniDashboard();
+  const { yearA, yearB } = useHlavniDashboard();
 
-  const countries: Country[] = useMemo(() => {
-    if (market === 'cz') return ['cz'];
-    if (market === 'sk') return ['sk'];
-    return ['cz', 'sk'];
-  }, [market]);
-
-  const isSKOnly = market === 'sk';
-  const fmtMoney   = isSKOnly ? fmtEUR : fmtCZK;
-  const moneyAxis  = isSKOnly ? fmtAxisEUR : fmtAxisCZK;
-
-  const monthsA = useMemo(() => aggregateMonthly(yearA, countries, eurToCzk), [yearA, countries, eurToCzk]);
-  const monthsB = useMemo(() => aggregateMonthly(yearB, countries, eurToCzk), [yearB, countries, eurToCzk]);
+  const monthsA = useMemo(() => aggregateMonthly(yearA), [yearA]);
+  const monthsB = useMemo(() => aggregateMonthly(yearB), [yearB]);
 
   const chartData = useMemo(() => MONTHS_CS.map((month, i) => {
     const a = monthsA[i];
@@ -209,13 +173,13 @@ export default function HlavniDashboardPage() {
           data={makeData('revenue')}
           colorA="#2563eb" colorB="#93c5fd"
           yearA={yearA} yearB={yearB}
-          axisFormatter={moneyAxis} tooltipFormatter={fmtMoney}
+          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
         />
         <ChartCard title="Hrubý zisk"
           data={makeData('grossProfit')}
           colorA="#16a34a" colorB="#86efac"
           yearA={yearA} yearB={yearB}
-          axisFormatter={moneyAxis} tooltipFormatter={fmtMoney}
+          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
         />
         <ChartCard title="Počet objednávek"
           data={makeData('orders')}
@@ -227,7 +191,7 @@ export default function HlavniDashboardPage() {
           data={makeData('cost')}
           colorA="#dc2626" colorB="#fca5a5"
           yearA={yearA} yearB={yearB}
-          axisFormatter={moneyAxis} tooltipFormatter={fmtMoney}
+          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
         />
         <ChartCard title="PNO (%)"
           data={makeData('pno')}
@@ -239,7 +203,7 @@ export default function HlavniDashboardPage() {
           data={makeData('aov')}
           colorA="#4338ca" colorB="#c4b5fd"
           yearA={yearA} yearB={yearB}
-          axisFormatter={moneyAxis} tooltipFormatter={fmtMoney}
+          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
         />
         <ChartCard title="Marže (%)"
           data={makeData('marginPct')}
@@ -251,7 +215,7 @@ export default function HlavniDashboardPage() {
           data={makeData('cpa')}
           colorA="#7c3aed" colorB="#c4b5fd"
           yearA={yearA} yearB={yearB}
-          axisFormatter={moneyAxis} tooltipFormatter={fmtMoney}
+          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
         />
       </div>
     </div>

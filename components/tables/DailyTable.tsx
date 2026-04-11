@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { DailyRecord, EUR_TO_CZK, Currency, getDisplayCurrency } from '@/data/types';
+import { DailyRecord } from '@/data/types';
 import { formatCurrency, formatPercent, formatNumber, formatDate } from '@/lib/formatters';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -12,7 +12,6 @@ interface MarginRecord {
 
 interface Props {
   data: DailyRecord[];
-  eurToCzk?: number;
   marginData?: MarginRecord[];
 }
 
@@ -40,13 +39,10 @@ function pnoBadge(pno: number) {
 
 const PAGE_SIZE = 20;
 
-export default function DailyTable({ data, eurToCzk = EUR_TO_CZK, marginData }: Props) {
+export default function DailyTable({ data, marginData }: Props) {
   const [page, setPage] = useState(0);
 
-  const countries = [...new Set(data.map(r => r.country))];
-  const currency: Currency = getDisplayCurrency(countries);
-  const mult = (r: DailyRecord) => currency === 'CZK' && r.currency === 'EUR' ? eurToCzk : 1;
-  const fc = (v: number) => formatCurrency(v, currency);
+  const fc = (v: number) => formatCurrency(v, 'EUR');
   const showMargin = !!marginData && marginData.length > 0;
 
   // Build margin lookup by date
@@ -59,14 +55,13 @@ export default function DailyTable({ data, eurToCzk = EUR_TO_CZK, marginData }: 
 
   const byDate: Record<string, AggregatedRow> = {};
   for (const r of data) {
-    const m = mult(r);
     if (!byDate[r.date]) {
       byDate[r.date] = { date: r.date, revenue_vat: 0, revenue: 0, orders: 0, aov: 0, cost: 0, pno: 0, cpa: 0, purchaseCost: 0, grossProfit: 0, grossProfitPct: 0 };
     }
-    byDate[r.date].revenue_vat += r.revenue_vat * m;
-    byDate[r.date].revenue     += r.revenue     * m;
+    byDate[r.date].revenue_vat += r.revenue_vat;
+    byDate[r.date].revenue     += r.revenue;
     byDate[r.date].orders      += r.orders;
-    byDate[r.date].cost        += r.cost        * m;
+    byDate[r.date].cost        += r.cost;
   }
 
   const rows: AggregatedRow[] = Object.values(byDate)

@@ -95,10 +95,7 @@ export default function MetaPage() {
   const [filterCampaign, setFilterCampaign] = useState<string>('');
   const [filterAdset, setFilterAdset]       = useState<string>('');
 
-  const isSKOnly = filters.countries.length === 1 && filters.countries[0] === 'sk';
-  const country  = isSKOnly ? 'sk' : 'cz';
-  const currency = isSKOnly ? 'EUR' : 'CZK';
-  const fc = (v: number) => formatCurrency(v, currency);
+  const fc = (v: number) => formatCurrency(v, 'EUR');
 
   const { start, end } = getDateRange(filters);
   const from = localIsoDate(start);
@@ -107,7 +104,7 @@ export default function MetaPage() {
   useEffect(() => {
     setLoading(true);
     setError(null);
-    fetch(`/api/meta?from=${from}&to=${to}&country=${country}`)
+    fetch(`/api/meta?from=${from}&to=${to}&country=at`)
       .then(r => r.json())
       .then(json => {
         if (json.error) { setError(json.error); return; }
@@ -120,7 +117,7 @@ export default function MetaPage() {
       })
       .catch(e => setError(e.message))
       .finally(() => setLoading(false));
-  }, [from, to, country]);
+  }, [from, to]);
 
   function toggleSort(key: SortKey) {
     if (sortKey === key) setSortDir(d => d === 'desc' ? 'asc' : 'desc');
@@ -153,7 +150,7 @@ export default function MetaPage() {
     { label: 'Imprese',        value: formatNumber(kpi.impressions), icon: Eye,         color: 'blue',   yoy: hasPrev ? yoyChange(kpi.impressions,   p!.impressions)   : null, invertYoy: false },
     { label: 'Kliky',          value: formatNumber(kpi.clicks), icon: MousePointerClick, color: 'blue',  yoy: hasPrev ? yoyChange(kpi.clicks,        p!.clicks)        : null, invertYoy: false },
     { label: 'CTR',            value: pct(kpi.ctr),            icon: Percent,           color: 'indigo', yoy: hasPrev ? yoyChange(kpi.ctr,           p!.ctr)           : null, invertYoy: false },
-    { label: 'CPC',            value: `${kpi.cpc.toFixed(2).replace('.', ',')} ${currency === 'EUR' ? '€' : 'Kč'}`, icon: Target, color: 'indigo', yoy: hasPrev ? yoyChange(kpi.cpc, p!.cpc) : null, invertYoy: true },
+    { label: 'CPC',            value: `${kpi.cpc.toFixed(2).replace('.', ',')} €`, icon: Target, color: 'indigo', yoy: hasPrev ? yoyChange(kpi.cpc, p!.cpc) : null, invertYoy: true },
     { label: 'Nákupy',         value: formatNumber(kpi.purchases), icon: ShoppingCart,  color: 'green',  yoy: hasPrev ? yoyChange(kpi.purchases,     p!.purchases)     : null, invertYoy: false },
     { label: 'Tržby z reklam', value: fc(kpi.purchaseValue),   icon: TrendingUp,        color: 'green',  yoy: hasPrev ? yoyChange(kpi.purchaseValue, p!.purchaseValue) : null, invertYoy: false },
     { label: 'CPA',            value: fc(kpi.cpa),             icon: Target,            color: kpi.cpa > 0 ? 'orange' : 'slate', yoy: hasPrev ? yoyChange(kpi.cpa, p!.cpa) : null, invertYoy: true },
@@ -181,7 +178,7 @@ export default function MetaPage() {
       <div>
         <h1 className="text-xl font-bold text-slate-900">Meta Ads</h1>
         <p className="text-sm text-slate-500 mt-0.5">
-          {formatDate(start)} – {formatDate(end)} · {isSKOnly ? 'SK' : 'CZ'}
+          {formatDate(start)} – {formatDate(end)} · AT
         </p>
       </div>
 
@@ -256,8 +253,8 @@ export default function MetaPage() {
                   <LineChart data={daily} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
                     <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
                     <XAxis dataKey="date" tickFormatter={formatShortDate} interval="preserveStartEnd" {...axisProps} />
-                    <YAxis tickFormatter={v => `${v.toFixed(2).replace('.', ',')} ${currency === 'EUR' ? '€' : 'Kč'}`} width={64} {...axisProps} />
-                    {tooltip(v => `${v.toFixed(2).replace('.', ',')} ${currency === 'EUR' ? '€' : 'Kč'}`)}
+                    <YAxis tickFormatter={v => `${v.toFixed(2).replace('.', ',')} €`} width={64} {...axisProps} />
+                    {tooltip(v => `${v.toFixed(2).replace('.', ',')} €`)}
                     <Line type="monotone" dataKey="cpc" stroke={C.aov} strokeWidth={2.5} dot={false} connectNulls />
                   </LineChart>
                 )}
@@ -265,8 +262,8 @@ export default function MetaPage() {
                   <LineChart data={daily.filter(d => d.cpa > 0)} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
                     <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
                     <XAxis dataKey="date" tickFormatter={formatShortDate} interval="preserveStartEnd" {...axisProps} />
-                    <YAxis tickFormatter={v => `${Math.round(v)} ${currency === 'EUR' ? '€' : 'Kč'}`} width={64} {...axisProps} />
-                    {tooltip(v => `${Math.round(v)} ${currency === 'EUR' ? '€' : 'Kč'}`)}
+                    <YAxis tickFormatter={v => `${Math.round(v)} €`} width={64} {...axisProps} />
+                    {tooltip(v => `${Math.round(v)} €`)}
                     <Line type="monotone" dataKey="cpa" stroke={C.cost} strokeWidth={2.5} dot={false} connectNulls />
                   </LineChart>
                 )}

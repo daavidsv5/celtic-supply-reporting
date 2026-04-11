@@ -10,9 +10,7 @@ import StatCard from '@/components/kpi/StatCard';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { useDashboardData } from '@/hooks/useDashboardData';
 import { mockData } from '@/data/mockGenerator';
-import { productDataCZ } from '@/data/productDataCZ';
-import { productDataSK } from '@/data/productDataSK';
-import { getDisplayCurrency } from '@/data/types';
+import { productDataAT } from '@/data/productDataAT';
 import { formatCurrency, formatNumber, formatDate, localIsoDate, formatMonthYear } from '@/lib/formatters';
 
 type SortKey = 'name' | 'amount' | 'revenue' | 'revenue_vat' | 'abc';
@@ -71,33 +69,19 @@ function SortIcon({ col, sortKey, sortDir }: { col: SortKey; sortKey: SortKey; s
 }
 
 function aggregateByName(
-  countries: string[],
+  _countries: string[],
   startStr: string,
   endStr: string,
-  skMult: number
+  _skMult?: number,
 ): Record<string, { amount: number; revenue: number; revenue_vat: number }> {
   const byName: Record<string, { amount: number; revenue: number; revenue_vat: number }> = {};
-
-  if (countries.includes('cz')) {
-    for (const r of productDataCZ) {
-      if (r.date < startStr || r.date > endStr) continue;
-      if (!byName[r.name]) byName[r.name] = { amount: 0, revenue: 0, revenue_vat: 0 };
-      byName[r.name].amount      += r.amount;
-      byName[r.name].revenue     += r.revenue;
-      byName[r.name].revenue_vat += r.revenue_vat;
-    }
+  for (const r of productDataAT) {
+    if (r.date < startStr || r.date > endStr) continue;
+    if (!byName[r.name]) byName[r.name] = { amount: 0, revenue: 0, revenue_vat: 0 };
+    byName[r.name].amount      += r.amount;
+    byName[r.name].revenue     += r.revenue;
+    byName[r.name].revenue_vat += r.revenue_vat;
   }
-
-  if (countries.includes('sk')) {
-    for (const r of productDataSK) {
-      if (r.date < startStr || r.date > endStr) continue;
-      if (!byName[r.name]) byName[r.name] = { amount: 0, revenue: 0, revenue_vat: 0 };
-      byName[r.name].amount      += r.amount;
-      byName[r.name].revenue     += r.revenue     * skMult;
-      byName[r.name].revenue_vat += r.revenue_vat * skMult;
-    }
-  }
-
   return byName;
 }
 
@@ -110,10 +94,10 @@ const TREND_COLORS = [
 
 function aggregateProductTrend(
   productNames: string[],
-  countries: string[],
+  _countries: string[],
   startStr: string,
   endStr: string,
-  skMult: number,
+  _skMult: number,
   isMonthly: boolean,
 ): { key: string; [name: string]: number | string }[] {
   const buckets = new Map<string, Record<string, number>>();
@@ -124,10 +108,7 @@ function aggregateProductTrend(
     return init;
   };
 
-  const sources = [
-    ...(countries.includes('cz') ? productDataCZ.map(r => ({ ...r, mult: 1 })) : []),
-    ...(countries.includes('sk') ? productDataSK.map(r => ({ ...r, mult: skMult })) : []),
-  ];
+  const sources = productDataAT;
 
   for (const r of sources) {
     if (r.date < startStr || r.date > endStr) continue;
@@ -135,7 +116,7 @@ function aggregateProductTrend(
     const key = isMonthly ? r.date.slice(0, 7) : r.date;
     if (!buckets.has(key)) buckets.set(key, initBucket());
     const b = buckets.get(key)!;
-    b[`${r.name}__rev`] = (b[`${r.name}__rev`] ?? 0) + r.revenue * r.mult;
+    b[`${r.name}__rev`] = (b[`${r.name}__rev`] ?? 0) + r.revenue;
     b[`${r.name}__amt`] = (b[`${r.name}__amt`] ?? 0) + r.amount;
   }
 
@@ -249,10 +230,7 @@ function ProductTrendChart({
     );
   };
 
-  const fmtRevAxis = (v: number) => {
-    if (currency === 'EUR') return v >= 1000 ? `${Math.round(v / 1000)}k €` : `${Math.round(v)} €`;
-    return v >= 1_000_000 ? `${(v / 1_000_000).toFixed(1)}M` : v >= 1000 ? `${Math.round(v / 1000)}k` : String(Math.round(v));
-  };
+  const fmtRevAxis = (v: number) => v >= 1000 ? `${Math.round(v / 1000)}k €` : `${Math.round(v)} €`;
 
   return (
     <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-5">
@@ -404,8 +382,8 @@ function ProductTrendChart({
 }
 
 export default function ProductsPage() {
-  const { filters, eurToCzk } = useFilters();
-  const { kpi, prevKpi, yoy, hasPrevData: hasPrevDataDash } = useDashboardData(filters, mockData, eurToCzk);
+  const { filters } = useFilters();
+  const { kpi, prevKpi, yoy, hasPrevData: hasPrevDataDash } = useDashboardData(filters, mockData);
   const [sortKey, setSortKey] = useState<SortKey>('revenue');
   const [sortDir, setSortDir] = useState<SortDir>('desc');
   const [abcFilter, setAbcFilter] = useState<AbcFilter>('all');
@@ -416,18 +394,16 @@ export default function ProductsPage() {
   const prevStartStr = localIsoDate(prevStart);
   const prevEndStr   = localIsoDate(prevEnd);
 
-  const currency = getDisplayCurrency(filters.countries);
-  const fc = (v: number) => formatCurrency(v, currency);
+  const fc = (v: number) => formatCurrency(v, 'EUR');
 
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
   const isMonthly = dayCount > 60;
 
-  const onlySK = filters.countries.length === 1 && filters.countries[0] === 'sk';
-  const skMult = onlySK ? 1 : eurToCzk;
+  const skMult = 1;
 
   const { rows, hasPrevData, abcStats, prevTotalAmount } = useMemo(() => {
-    const current = aggregateByName(filters.countries, startStr, endStr, skMult);
-    const prev    = aggregateByName(filters.countries, prevStartStr, prevEndStr, skMult);
+    const current = aggregateByName(filters.countries, startStr, endStr);
+    const prev    = aggregateByName(filters.countries, prevStartStr, prevEndStr);
 
     const hasPrev = Object.values(prev).some(r => r.amount > 0);
 
@@ -490,13 +466,12 @@ export default function ProductsPage() {
     const prevTotalAmount = list.reduce((s, r) => s + r.prevAmount, 0);
 
     return { rows: fullList, hasPrevData: hasPrev, abcStats, prevTotalAmount };
-  }, [filters.countries, startStr, endStr, prevStartStr, prevEndStr, skMult, sortKey, sortDir]);
+  }, [filters.countries, startStr, endStr, prevStartStr, prevEndStr, sortKey, sortDir]);
 
   // All product names for autocomplete (sorted A-Z)
   const allProductNames = useMemo(() => {
     const names = new Set<string>();
-    for (const r of productDataCZ) names.add(r.name);
-    for (const r of productDataSK) names.add(r.name);
+    for (const r of productDataAT) names.add(r.name);
     return Array.from(names).sort((a, b) => a.localeCompare(b, 'cs'));
   }, []);
 
@@ -518,7 +493,7 @@ export default function ProductsPage() {
   };
 
   const exportCsv = () => {
-    const header = ['ABC', 'Název produktu', 'Počet kusů', 'Počet kusů (loni)', `Bez DPH (${currency})`, `Bez DPH loni (${currency})`, `S DPH (${currency})`, 'Podíl na obratu (%)'];
+    const header = ['ABC', 'Název produktu', 'Počet kusů', 'Počet kusů (loni)', `Bez DPH (EUR)`, `Bez DPH loni (EUR)`, `S DPH (EUR)`, 'Podíl na obratu (%)'];
     const csvRows = filteredRows.map(r => [
       r.abc,
       `"${r.name.replace(/"/g, '""')}"`,
@@ -552,8 +527,8 @@ export default function ProductsPage() {
 
       {/* KPI boxes */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 sm:gap-4">
-        <StatCard title="Celkový prodej s DPH"  value={fc(totalRevenueVat)}        icon={<TrendingUp size={18} />} sub={currency}              yoy={yoy.revenuevat}             hasPrevData={hasPrevDataDash} />
-        <StatCard title="Celkový prodej bez DPH" value={fc(totalRevenue)}            icon={<ShoppingBag size={18} />} sub={currency}             yoy={yoy.revenue}                hasPrevData={hasPrevDataDash} />
+        <StatCard title="Celkový prodej s DPH"  value={fc(totalRevenueVat)}        icon={<TrendingUp size={18} />} sub="EUR"              yoy={yoy.revenuevat}             hasPrevData={hasPrevDataDash} />
+        <StatCard title="Celkový prodej bez DPH" value={fc(totalRevenue)}            icon={<ShoppingBag size={18} />} sub="EUR"             yoy={yoy.revenue}                hasPrevData={hasPrevDataDash} />
         <StatCard title="Celkový počet kusů"     value={formatNumber(totalAmount)}   icon={<Boxes size={18} />} sub="prodáno"                     yoy={yoyPct(totalAmount, prevTotalAmount)}  hasPrevData={hasPrevData} />
         <StatCard title="Počet produktů"          value={formatNumber(uniqueProducts)} icon={<Package size={18} />} sub="unikátních produktů" />
         <StatCard title="Produktů v objednávce"  value={avgItemsPerOrder.toFixed(2)} icon={<LayoutList size={18} />} sub="průměr ks / obj."    yoy={yoyAvgItems}                hasPrevData={hasPrevData} />
@@ -635,7 +610,7 @@ export default function ProductsPage() {
         startStr={startStr}
         endStr={endStr}
         skMult={skMult}
-        currency={currency}
+        currency="EUR"
         isMonthly={isMonthly}
         fc={fc}
       />
@@ -701,7 +676,7 @@ export default function ProductsPage() {
                 </th>
                 <th className={`${thClass()} text-right`} onClick={() => handleSort('revenue')}>
                   <span className="inline-flex items-center gap-1 justify-end w-full">
-                    Bez DPH ({currency}) <SortIcon col="revenue" sortKey={sortKey} sortDir={sortDir} />
+                    Bez DPH (€) <SortIcon col="revenue" sortKey={sortKey} sortDir={sortDir} />
                   </span>
                 </th>
                 <th className={`${thClass()} text-right w-20`}>
@@ -709,7 +684,7 @@ export default function ProductsPage() {
                 </th>
                 <th className={`${thClass()} text-right`} onClick={() => handleSort('revenue_vat')}>
                   <span className="inline-flex items-center gap-1 justify-end w-full">
-                    S DPH ({currency}) <SortIcon col="revenue_vat" sortKey={sortKey} sortDir={sortDir} />
+                    S DPH (€) <SortIcon col="revenue_vat" sortKey={sortKey} sortDir={sortDir} />
                   </span>
                 </th>
               </tr>

@@ -4,10 +4,8 @@ import { useMemo } from 'react';
 import { TrendingUp, TrendingDown } from 'lucide-react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { mockData } from '@/data/mockGenerator';
-import { getDisplayCurrency, EUR_TO_CZK } from '@/data/types';
 import { formatCurrency, formatPercent, formatDate, localIsoDate } from '@/lib/formatters';
-import { hourlyDataCZ } from '@/data/hourlyDataCZ';
-import { hourlyDataSK } from '@/data/hourlyDataSK';
+import { hourlyDataAT } from '@/data/hourlyDataAT';
 import {
   BarChart,
   Bar,
@@ -23,33 +21,26 @@ const DAY_NAMES = ['Neděle', 'Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'P�
 const DAY_SHORT = ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'];
 const DAY_ORDER  = [1, 2, 3, 4, 5, 6, 0]; // Mon → Sun
 
-function formatYAxis(v: number, cur: 'CZK' | 'EUR') {
-  const s = cur === 'EUR' ? '€' : 'Kč';
-  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M ${s}`;
-  if (v >= 1_000)     return `${Math.round(v / 1_000)}k ${s}`;
-  return `${v} ${s}`;
+function formatYAxis(v: number) {
+  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M €`;
+  if (v >= 1_000)     return `${Math.round(v / 1_000)}k €`;
+  return `${v} €`;
 }
 
 export default function BehaviorPage() {
-  const { filters, eurToCzk } = useFilters();
+  const { filters } = useFilters();
   const { start, end } = getDateRange(filters);
 
   const startStr = localIsoDate(start);
   const endStr   = localIsoDate(end);
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
-  const currency = getDisplayCurrency(filters.countries);
-  const fc = (v: number) => formatCurrency(v, currency);
-  const mult = (cur: 'CZK' | 'EUR') =>
-    currency === 'CZK' && cur === 'EUR' ? (eurToCzk ?? EUR_TO_CZK) : 1;
+  const fc = (v: number) => formatCurrency(v, 'EUR');
 
-  // Filter mockData by date range + selected countries
+  // Filter mockData by date range
   const filtered = useMemo(
-    () =>
-      mockData.filter(
-        r => r.date >= startStr && r.date <= endStr && filters.countries.includes(r.country)
-      ),
-    [startStr, endStr, filters.countries]
+    () => mockData.filter(r => r.date >= startStr && r.date <= endStr),
+    [startStr, endStr]
   );
 
   // Aggregate by weekday
@@ -59,9 +50,8 @@ export default function BehaviorPage() {
 
     for (const r of filtered) {
       const dow = new Date(r.date + 'T12:00:00').getDay();
-      const m   = mult(r.currency);
       agg[dow].orders  += r.orders;
-      agg[dow].revenue += r.revenue * m;
+      agg[dow].revenue += r.revenue;
       agg[dow].days.add(r.date);
     }
 
@@ -75,42 +65,24 @@ export default function BehaviorPage() {
       avgOrders:  agg[d].days.size > 0 ? agg[d].orders  / agg[d].days.size : 0,
       avgRevenue: agg[d].days.size > 0 ? agg[d].revenue / agg[d].days.size : 0,
     }));
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filtered, currency, eurToCzk]);
+  }, [filtered]);
 
   const totalOrders  = stats.reduce((s, r) => s + r.orders,  0);
   const totalRevenue = stats.reduce((s, r) => s + r.revenue, 0);
 
-  // ── Hourly data (all-time, filtered by country) — single avg line ────────
+  // ── Hourly data (all-time) — single avg line ────────────────────────────
   const hourlyChartData = useMemo(() => {
-    const isCZOnly = filters.countries.length === 1 && filters.countries[0] === 'cz';
-    const isSKOnly = filters.countries.length === 1 && filters.countries[0] === 'sk';
-    const eur = eurToCzk ?? EUR_TO_CZK;
-
-    // totalRevenue[h] and totalDays[h] across all days of week
     const totRev  = new Array(24).fill(0);
     const totDays = new Array(24).fill(0);
-
-    const source = isSKOnly ? hourlyDataSK : isCZOnly ? hourlyDataCZ : null;
-
-    if (source) {
-      for (const p of source) {
-        const rev = isSKOnly ? p.totalRevenue : p.totalRevenue;
-        totRev[p.hour]  += rev;
-        totDays[p.hour] += p.dayCount;
-      }
-    } else {
-      // Vše: CZ in CZK + SK converted to CZK
-      for (const p of hourlyDataCZ) { totRev[p.hour] += p.totalRevenue;         totDays[p.hour] += p.dayCount; }
-      for (const p of hourlyDataSK) { totRev[p.hour] += p.totalRevenue * eur; totDays[p.hour] += p.dayCount; }
+    for (const p of hourlyDataAT) {
+      totRev[p.hour]  += p.totalRevenue;
+      totDays[p.hour] += p.dayCount;
     }
-
     return Array.from({ length: 24 }, (_, h) => ({
       hour:    `${h}:00`,
       revenue: totDays[h] > 0 ? Math.round(totRev[h] / totDays[h]) : 0,
     }));
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filters.countries, eurToCzk]);
+  }, []);
 
   const strongest = [...stats].sort((a, b) => b.avgRevenue - a.avgRevenue)[0];
   const weakest   = [...stats].sort((a, b) => a.avgRevenue - b.avgRevenue)[0];
@@ -191,7 +163,7 @@ export default function BehaviorPage() {
               <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
               <XAxis dataKey="name" tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
               <YAxis
-                tickFormatter={v => formatYAxis(v, currency)}
+                tickFormatter={v => formatYAxis(v)}
                 tick={{ fontSize: 11, fill: '#94a3b8' }}
                 width={70}
                 axisLine={false}
@@ -219,7 +191,7 @@ export default function BehaviorPage() {
           <BarChart data={hourlyChartData} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
             <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
             <XAxis dataKey="hour" tick={{ fontSize: 10, fill: '#94a3b8' }} axisLine={false} tickLine={false} interval={1} />
-            <YAxis tickFormatter={v => formatYAxis(v, currency)} tick={{ fontSize: 10, fill: '#94a3b8' }} width={64} axisLine={false} tickLine={false} />
+            <YAxis tickFormatter={v => formatYAxis(v)} tick={{ fontSize: 10, fill: '#94a3b8' }} width={64} axisLine={false} tickLine={false} />
             <Tooltip
               // eslint-disable-next-line @typescript-eslint/no-explicit-any
               formatter={(v: any) => [fc(Number(v)), 'Průměr tržeb bez DPH']}

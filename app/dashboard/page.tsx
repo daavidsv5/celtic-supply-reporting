@@ -4,13 +4,8 @@ import { useMemo } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { useDashboardData } from '@/hooks/useDashboardData';
 import { mockData } from '@/data/mockGenerator';
-import { marginDataCZ } from '@/data/marginDataCZ';
-import { marginDataSK as _marginDataSK } from '@/data/marginDataSK';
-import { SK_LAUNCH_DATE } from '@/data/types';
-
-const marginDataSK = _marginDataSK.filter(r => r.date >= SK_LAUNCH_DATE);
-import { retentionDataCZ } from '@/data/retentionDataCZ';
-import { retentionDataSK } from '@/data/retentionDataSK';
+import { marginDataAT } from '@/data/marginDataAT';
+import { retentionDataAT } from '@/data/retentionDataAT';
 import KpiCard from '@/components/kpi/KpiCard';
 import KpiLineCharts from '@/components/charts/KpiLineCharts';
 import { AovChart, CpaChart } from '@/components/charts/AovCpaChart';
@@ -27,15 +22,12 @@ const periodTitles: Record<string, string> = {
 };
 
 export default function DashboardPage() {
-  const { filters, eurToCzk } = useFilters();
-  const { kpi, prevKpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData, eurToCzk);
+  const { filters } = useFilters();
+  const { kpi, prevKpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData);
 
   const { start, end, prevStart, prevEnd } = getDateRange(filters);
 
-  const isSKOnly = filters.countries.length === 1 && filters.countries[0] === 'sk';
-  const skMult = isSKOnly ? 1 : eurToCzk;
-
-  // Merge margin data for selected countries (current + prev period)
+  // Margin data for current + prev period
   const marginTotals = useMemo(() => {
     const s  = localIsoDate(start);
     const e  = localIsoDate(end);
@@ -43,20 +35,12 @@ export default function DashboardPage() {
     const pe = localIsoDate(prevEnd);
     let pc = 0, mr = 0, prevPc = 0, prevMr = 0;
     const marginData: { date: string; purchaseCost: number }[] = [];
-    if (filters.countries.includes('cz')) {
-      for (const r of marginDataCZ) {
-        if (r.date >= s && r.date <= e)  { pc += r.purchaseCost; mr += r.revenue; marginData.push({ date: r.date, purchaseCost: r.purchaseCost }); }
-        if (r.date >= ps && r.date <= pe){ prevPc += r.purchaseCost; prevMr += r.revenue; }
-      }
-    }
-    if (filters.countries.includes('sk')) {
-      for (const r of marginDataSK) {
-        if (r.date >= s && r.date <= e)  { pc += r.purchaseCost * skMult; mr += r.revenue * skMult; marginData.push({ date: r.date, purchaseCost: r.purchaseCost * skMult }); }
-        if (r.date >= ps && r.date <= pe){ prevPc += r.purchaseCost * skMult; prevMr += r.revenue * skMult; }
-      }
+    for (const r of marginDataAT) {
+      if (r.date >= s && r.date <= e)  { pc += r.purchaseCost; mr += r.revenue; marginData.push({ date: r.date, purchaseCost: r.purchaseCost }); }
+      if (r.date >= ps && r.date <= pe){ prevPc += r.purchaseCost; prevMr += r.revenue; }
     }
     return { marginData, purchaseCost: pc, marginRev: mr, prevPurchaseCost: prevPc, prevMarginRev: prevMr };
-  }, [filters.countries, start, end, prevStart, prevEnd, skMult]);
+  }, [start, end, prevStart, prevEnd]);
 
   const newCustomerCounts = useMemo(() => {
     const s  = localIsoDate(start);
@@ -64,11 +48,7 @@ export default function DashboardPage() {
     const ps = localIsoDate(prevStart);
     const pe = localIsoDate(prevEnd);
     let cur = 0, prev = 0, allCur = 0, allPrev = 0;
-    const sources = [
-      ...(filters.countries.includes('cz') ? retentionDataCZ : []),
-      ...(filters.countries.includes('sk') ? retentionDataSK : []),
-    ];
-    for (const c of sources) {
+    for (const c of retentionDataAT) {
       const first = c.dates[0];
       if (first >= s  && first <= e)  cur++;
       if (first >= ps && first <= pe) prev++;
@@ -76,7 +56,7 @@ export default function DashboardPage() {
       if (c.dates.some(d => d >= ps && d <= pe)) allPrev++;
     }
     return { cur, prev, allCur, allPrev };
-  }, [filters.countries, start, end, prevStart, prevEnd]);
+  }, [start, end, prevStart, prevEnd]);
 
   const { marginData, marginRev, purchaseCost, prevMarginRev, prevPurchaseCost } = marginTotals;
   const margin        = marginRev - purchaseCost;
@@ -165,7 +145,7 @@ export default function DashboardPage() {
 
       {/* Country Distribution */}
       {filters.countries.length > 1 && (
-        <CountryDistribution data={currentData} eurToCzk={eurToCzk} />
+        <CountryDistribution data={currentData} />
       )}
 
       {/* KPI line charts — Tržby, Objednávky, Náklady, PNO */}
@@ -178,7 +158,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Table */}
-      <DailyTable data={currentData} eurToCzk={eurToCzk} marginData={marginData} />
+      <DailyTable data={currentData} marginData={marginData} />
     </div>
   );
 }

@@ -1,8 +1,7 @@
 'use client';
 
 import { useMemo } from 'react';
-import { DailyRecord, FilterState, KpiData, EUR_TO_CZK, getDisplayCurrency, Currency } from '@/data/types';
-// EUR_TO_CZK is used as default fallback only
+import { DailyRecord, FilterState, KpiData, Currency } from '@/data/types';
 import { getDateRange } from './useFilters';
 
 export interface ChartDataPoint {
@@ -29,7 +28,6 @@ export interface DashboardData {
   yoy: Record<keyof KpiData, number>;
   chartData: ChartDataPoint[];
   currency: Currency;
-  /** False when no previous-year data exists (e.g. CZ launched May 2025) */
   hasPrevData: boolean;
 }
 
@@ -40,34 +38,18 @@ function isoDate(d: Date): string {
   return `${y}-${m}-${day}`;
 }
 
-/** Normalize a record's monetary values to the display currency.
- *  - displayCurrency = 'EUR'  → keep EUR as-is, ignore CZK records (shouldn't exist)
- *  - displayCurrency = 'CZK'  → keep CZK as-is, convert EUR records × eurToCzk
- */
-function normalizedValues(r: DailyRecord, displayCurrency: Currency, eurToCzk: number) {
-  const multiplier =
-    displayCurrency === 'CZK' && r.currency === 'EUR' ? eurToCzk : 1;
-  return {
-    revenue:     r.revenue     * multiplier,
-    revenue_vat: r.revenue_vat * multiplier,
-    cost:        r.cost        * multiplier,
-    orders:      r.orders,
-  };
-}
-
-function calcKpi(records: DailyRecord[], displayCurrency: Currency, eurToCzk: number): KpiData {
+function calcKpi(records: DailyRecord[]): KpiData {
   let revenuevat = 0, revenue = 0, orders = 0, ordersCancelled = 0, cost = 0;
   for (const r of records) {
-    const v = normalizedValues(r, displayCurrency, eurToCzk);
-    revenuevat      += v.revenue_vat;
-    revenue         += v.revenue;
-    orders          += v.orders;
+    revenuevat      += r.revenue_vat;
+    revenue         += r.revenue;
+    orders          += r.orders;
     ordersCancelled += r.orders_cancelled;
-    cost            += v.cost;
+    cost            += r.cost;
   }
-  const aov        = orders > 0 ? revenuevat / orders : 0;
-  const pno        = revenue > 0 ? (cost / revenue) * 100 : 0;
-  const cpa        = orders > 0 ? cost / orders : 0;
+  const aov      = orders > 0 ? revenuevat / orders : 0;
+  const pno      = revenue > 0 ? (cost / revenue) * 100 : 0;
+  const cpa      = orders > 0 ? cost / orders : 0;
   const totalWithCancelled = orders + ordersCancelled;
   const cancelRate = totalWithCancelled > 0 ? (ordersCancelled / totalWithCancelled) * 100 : 0;
   return { revenuevat, revenue, orders, aov, cost, pno, cpa, ordersCancelled, cancelRate };
@@ -81,7 +63,6 @@ function yoyChange(current: number, prev: number): number {
 export function useDashboardData(
   filters: FilterState,
   allData: DailyRecord[],
-  eurToCzk: number = EUR_TO_CZK
 ): DashboardData {
   return useMemo(() => {
     const { start, end, prevStart, prevEnd } = getDateRange(filters);
@@ -90,17 +71,13 @@ export function useDashboardData(
     const prevStartStr = isoDate(prevStart);
     const prevEndStr  = isoDate(prevEnd);
 
-    const currency = getDisplayCurrency(filters.countries);
+    const currency: Currency = 'EUR';
 
-    const currentData = allData.filter(
-      r => r.date >= startStr && r.date <= endStr && filters.countries.includes(r.country)
-    );
-    const prevData = allData.filter(
-      r => r.date >= prevStartStr && r.date <= prevEndStr && filters.countries.includes(r.country)
-    );
+    const currentData = allData.filter(r => r.date >= startStr && r.date <= endStr);
+    const prevData    = allData.filter(r => r.date >= prevStartStr && r.date <= prevEndStr);
 
-    const kpi     = calcKpi(currentData, currency, eurToCzk);
-    const prevKpi = calcKpi(prevData,    currency, eurToCzk);
+    const kpi     = calcKpi(currentData);
+    const prevKpi = calcKpi(prevData);
 
     const yoy: Record<keyof KpiData, number> = {
       revenuevat:       yoyChange(kpi.revenuevat,       prevKpi.revenuevat),
@@ -117,24 +94,22 @@ export function useDashboardData(
     // Chart data — aggregate current period by date
     const currentByDate: Record<string, { revenue: number; orders: number; cost: number }> = {};
     for (const r of currentData) {
-      const v = normalizedValues(r, currency, eurToCzk);
       if (!currentByDate[r.date]) currentByDate[r.date] = { revenue: 0, orders: 0, cost: 0 };
-      currentByDate[r.date].revenue += v.revenue;
-      currentByDate[r.date].orders  += v.orders;
-      currentByDate[r.date].cost    += v.cost;
+      currentByDate[r.date].revenue += r.revenue;
+      currentByDate[r.date].orders  += r.orders;
+      currentByDate[r.date].cost    += r.cost;
     }
 
     // Previous period shifted +1 year to align with current dates
     const prevByShiftedDate: Record<string, { revenue: number; orders: number; cost: number }> = {};
     for (const r of prevData) {
-      const v = normalizedValues(r, currency, eurToCzk);
       const d = new Date(r.date);
       d.setFullYear(d.getFullYear() + 1);
       const shifted = isoDate(d);
       if (!prevByShiftedDate[shifted]) prevByShiftedDate[shifted] = { revenue: 0, orders: 0, cost: 0 };
-      prevByShiftedDate[shifted].revenue += v.revenue;
-      prevByShiftedDate[shifted].orders  += v.orders;
-      prevByShiftedDate[shifted].cost    += v.cost;
+      prevByShiftedDate[shifted].revenue += r.revenue;
+      prevByShiftedDate[shifted].orders  += r.orders;
+      prevByShiftedDate[shifted].cost    += r.cost;
     }
 
     const chartData: ChartDataPoint[] = Object.keys(currentByDate).sort().map(date => {
@@ -160,5 +135,5 @@ export function useDashboardData(
     const hasPrevData = prevData.some(r => r.orders > 0 || r.revenue > 0);
 
     return { currentData, prevData, kpi, prevKpi, yoy, chartData, currency, hasPrevData };
-  }, [filters, allData, eurToCzk]);
+  }, [filters, allData]);
 }

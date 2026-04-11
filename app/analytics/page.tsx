@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import { useFilters } from '@/hooks/useFilters';
 import { useDashboardData } from '@/hooks/useDashboardData';
 import { mockData } from '@/data/mockGenerator';
-import { getDisplayCurrency } from '@/data/types';
 import { formatCurrency } from '@/lib/formatters';
 import {
   LineChart, Line, BarChart, Bar, PieChart, Pie, Cell,
@@ -149,23 +148,21 @@ function yoyPct(cur: number, prev: number): number {
 }
 
 export default function AnalyticsPage() {
-  const { filters, getDateRange, eurToCzk } = useFilters();
+  const { filters, getDateRange } = useFilters();
   const [data, setData]             = useState<GA4Data | null>(null);
   const [loading, setLoading]       = useState(true);
   const [error, setError]           = useState<string | null>(null);
   const [funnelDevice, setFunnelDevice] = useState<FunnelDevice>('all');
 
-  // Shoptet revenue for selected market (CZ = CZK, SK = EUR)
-  const { kpi: shoptetKpi, prevKpi: shoptetPrevKpi } = useDashboardData(filters, mockData, eurToCzk);
-  const currency = getDisplayCurrency(filters.countries);
+  const { kpi: shoptetKpi, prevKpi: shoptetPrevKpi } = useDashboardData(filters, mockData);
+  const currency = 'EUR' as const;
 
   useEffect(() => {
     setLoading(true);
     setError(null);
     const { start, end } = getDateRange(filters);
     const fmt = localIsoDate;
-    const country = filters.countries.length === 1 && filters.countries[0] === 'sk' ? 'sk' : 'cz';
-    fetch(`/api/analytics?from=${fmt(start)}&to=${fmt(end)}&country=${country}`)
+    fetch(`/api/analytics?from=${fmt(start)}&to=${fmt(end)}&country=at`)
       .then(r => r.json())
       .then(json => {
         if (json.error) { setError(json.error); setData(null); }

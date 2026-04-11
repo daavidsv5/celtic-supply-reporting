@@ -102,7 +102,7 @@ function SingleLineChart({
   );
 }
 
-export function AovChart({ data, currency = 'CZK', hasPrevData = true }: Props) {
+export function AovChart({ data, currency = 'EUR', hasPrevData = true }: Props) {
   return (
     <SingleLineChart
       data={data}
@@ -118,7 +118,7 @@ export function AovChart({ data, currency = 'CZK', hasPrevData = true }: Props) 
   );
 }
 
-export function CpaChart({ data, currency = 'CZK', hasPrevData = true }: Props) {
+export function CpaChart({ data, currency = 'EUR', hasPrevData = true }: Props) {
   return (
     <SingleLineChart
       data={data}

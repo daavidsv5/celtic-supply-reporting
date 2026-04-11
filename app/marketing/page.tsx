@@ -38,8 +38,8 @@ function pnoColor(pno: number): string {
 
 
 export default function MarketingPage() {
-  const { filters, eurToCzk } = useFilters();
-  const { kpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData, eurToCzk);
+  const { filters } = useFilters();
+  const { kpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData);
   const fc = (v: number) => formatCurrency(v, currency);
 
   const { start, end } = getDateRange(filters);
@@ -65,7 +65,6 @@ export default function MarketingPage() {
     localIsoDate(sDaily),
     localIsoDate(eDaily),
     filters.countries,
-    eurToCzk
   );
 
   const dailyRows = allDailyMarketing.slice(0, 30).map(r => ({
@@ -90,7 +89,6 @@ export default function MarketingPage() {
     localIsoDate(sDaily),
     localIsoDate(eDaily),
     filters.countries,
-    eurToCzk
   );
 
   // Per-channel summary metrics
@@ -106,7 +104,6 @@ export default function MarketingPage() {
     localIsoDate(prevStart),
     localIsoDate(prevEnd),
     filters.countries,
-    eurToCzk
   ) : [];
   const fbPrev = prevSourceData.find(s => s.source === 'Facebook Ads') ?? { cost: 0, clicks: 0 };
   const ggPrev = prevSourceData.find(s => s.source === 'Google Ads')   ?? { cost: 0, clicks: 0 };

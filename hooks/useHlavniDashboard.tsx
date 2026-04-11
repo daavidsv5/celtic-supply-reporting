@@ -3,11 +3,7 @@
 import React, { createContext, useContext, useState, useMemo } from 'react';
 import { mockData } from '@/data/mockGenerator';
 
-export type HlavniMarket = 'all' | 'cz' | 'sk';
-
 interface HlavniDashCtx {
-  market: HlavniMarket;
-  setMarket: (m: HlavniMarket) => void;
   yearA: number;
   yearB: number;
   yearOptions: number[];
@@ -25,17 +21,11 @@ function getAvailableYears(): number[] {
 
 export function HlavniDashboardProvider({ children }: { children: React.ReactNode }) {
   const availableYears = useMemo(() => getAvailableYears(), []);
-
   const defaultYear = availableYears[0] ?? new Date().getFullYear();
-
-  const [market, setMarket] = useState<HlavniMarket>('all');
   const [selectedYear, setSelectedYear] = useState(defaultYear);
 
-  const yearA = selectedYear;
-  const yearB = selectedYear - 1;
-
   return (
-    <Ctx.Provider value={{ market, setMarket, yearA, yearB, yearOptions: availableYears, selectedYear, setSelectedYear }}>
+    <Ctx.Provider value={{ yearA: selectedYear, yearB: selectedYear - 1, yearOptions: availableYears, selectedYear, setSelectedYear }}>
       {children}
     </Ctx.Provider>
   );

@@ -48,7 +48,7 @@ const makeTooltip = (currency: Currency) => {
   return CustomTooltip;
 };
 
-export default function CostPnoChart({ data, currency = 'CZK', hasPrevData = true }: Props) {
+export default function CostPnoChart({ data, currency = 'EUR', hasPrevData = true }: Props) {
   const CustomTooltip = makeTooltip(currency);
   const title = hasPrevData ? 'Náklady a PNO (YoY)' : 'Náklady a PNO';
 

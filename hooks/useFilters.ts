@@ -1,7 +1,7 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { FilterState, TimePeriod, EUR_TO_CZK } from '@/data/types';
+import React, { createContext, useContext, useState } from 'react';
+import { FilterState, TimePeriod } from '@/data/types';
 
 interface DateRange {
   start: Date;
@@ -14,8 +14,6 @@ interface FiltersContextValue {
   filters: FilterState;
   setFilters: (f: FilterState) => void;
   getDateRange: (f: FilterState) => DateRange;
-  /** Live EUR→CZK exchange rate. Falls back to 25 until fetched. */
-  eurToCzk: number;
 }
 
 const TODAY = new Date();
@@ -36,9 +34,8 @@ export function getDateRange(filters: FilterState): DateRange {
       break;
     }
     case 'last_month': {
-      const lm = new Date(TODAY.getFullYear(), TODAY.getMonth() - 1, 1);
-      start = lm;
-      end = new Date(TODAY.getFullYear(), TODAY.getMonth(), 0);
+      start = new Date(TODAY.getFullYear(), TODAY.getMonth() - 1, 1);
+      end   = new Date(TODAY.getFullYear(), TODAY.getMonth(), 0);
       break;
     }
     case 'last_14_days': {
@@ -55,12 +52,12 @@ export function getDateRange(filters: FilterState): DateRange {
     }
     case 'custom': {
       start = filters.customStart ? new Date(filters.customStart) : new Date(TODAY.getFullYear(), TODAY.getMonth(), 1);
-      end = filters.customEnd ? new Date(filters.customEnd) : new Date(TODAY);
+      end   = filters.customEnd   ? new Date(filters.customEnd)   : new Date(TODAY);
       break;
     }
     default: {
       start = new Date(TODAY.getFullYear(), TODAY.getMonth(), 1);
-      end = new Date(TODAY);
+      end   = new Date(TODAY);
     }
   }
 
@@ -75,59 +72,16 @@ export function getDateRange(filters: FilterState): DateRange {
 const FiltersContext = createContext<FiltersContextValue | null>(null);
 
 const defaultFilters: FilterState = {
-  countries: ['cz', 'sk'],
+  countries: ['at'],
   timePeriod: 'current_month',
 };
 
-const CACHE_KEY = 'eurToCzk_cache';
-
-function loadCachedRate(): number | null {
-  try {
-    const raw = localStorage.getItem(CACHE_KEY);
-    if (!raw) return null;
-    const { rate, date } = JSON.parse(raw);
-    if (date === new Date().toISOString().split('T')[0]) return rate;
-  } catch { /* ignore */ }
-  return null;
-}
-
-function saveRateCache(rate: number) {
-  try {
-    localStorage.setItem(CACHE_KEY, JSON.stringify({
-      rate,
-      date: new Date().toISOString().split('T')[0],
-    }));
-  } catch { /* ignore */ }
-}
-
 export function FiltersProvider({ children }: { children: React.ReactNode }) {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
-  const [eurToCzk, setEurToCzk] = useState<number>(EUR_TO_CZK); // fallback
-
-  useEffect(() => {
-    // Try cache first (valid for today)
-    const cached = loadCachedRate();
-    if (cached) {
-      setEurToCzk(cached);
-      return;
-    }
-
-    // Fetch live rate from frankfurter.app (free, no API key)
-    fetch('https://api.frankfurter.app/latest?from=EUR&to=CZK')
-      .then(r => r.json())
-      .then(data => {
-        const rate = data?.rates?.CZK;
-        if (typeof rate === 'number' && rate > 0) {
-          setEurToCzk(rate);
-          saveRateCache(rate);
-        }
-      })
-      .catch(() => { /* keep fallback */ });
-  }, []);
 
   return React.createElement(
     FiltersContext.Provider,
-    { value: { filters, setFilters, getDateRange, eurToCzk } },
+    { value: { filters, setFilters, getDateRange } },
     children
   );
 }

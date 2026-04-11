@@ -3,13 +3,13 @@
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { useSession } from 'next-auth/react';
-import { FilterState, Country, TimePeriod } from '@/data/types';
+import { FilterState, TimePeriod } from '@/data/types';
 import { getDateRange } from '@/hooks/useFilters';
 import { formatDate } from '@/lib/formatters';
 import { RefreshCw, Menu } from 'lucide-react';
 import { useSidebar } from './ConditionalLayout';
 import { lastUpdate } from '@/data/lastUpdate';
-import { useHlavniDashboard, HlavniMarket } from '@/hooks/useHlavniDashboard';
+import { useHlavniDashboard } from '@/hooks/useHlavniDashboard';
 
 interface TopBarProps {
   filters: FilterState;
@@ -33,8 +33,6 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
   const pathname = usePathname();
   const { data: session } = useSession();
   const isAdmin = (session?.user as { role?: string })?.role === 'admin';
-  const isRetention = pathname === '/retention' || pathname === '/crosssell';
-  const hideAll = pathname === '/shipping' || pathname === '/analytics' || pathname === '/meta';
   const isHlavniDashboard = pathname === '/hlavni-dashboard';
   const dash = useHlavniDashboard();
 
@@ -67,7 +65,6 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
 
   return (
     <div className="bg-white border-b border-slate-100 px-3 md:px-6 py-2 md:py-3">
-      {/* Single row — wraps on smaller screens */}
       <div className="flex items-center gap-1.5 md:gap-4 flex-wrap">
 
         {/* Hamburger — mobile only */}
@@ -79,106 +76,31 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
           <Menu size={20} />
         </button>
 
-        {/* ── Hlavní Dashboard selectors ── */}
+        {/* ── Hlavní Dashboard — rok selector ── */}
         {isHlavniDashboard ? (
-          <>
-            {/* Market toggle */}
-            <div className="flex items-center gap-1.5 flex-shrink-0">
-              <div className="flex rounded-lg border border-slate-200 overflow-hidden bg-white">
-                {([
-                  { label: 'Vše', value: 'all' },
-                  { label: '🇨🇿 CZ', value: 'cz' },
-                  { label: '🇸🇰 SK', value: 'sk' },
-                ] as { label: string; value: HlavniMarket }[]).map(({ label, value }, idx) => (
-                  <button
-                    key={value}
-                    onClick={() => dash.setMarket(value)}
-                    className={`px-2.5 md:px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none ${
-                      idx > 0 ? 'border-l border-slate-200' : ''
-                    } ${
-                      dash.market === value
-                        ? 'bg-blue-600 text-white'
-                        : 'text-slate-600 hover:bg-slate-50'
-                    }`}
-                  >
-                    {label}
-                  </button>
-                ))}
-              </div>
+          <div className="flex items-center gap-1.5 flex-shrink-0">
+            <span className="text-xs text-slate-400 font-medium hidden sm:inline">Rok:</span>
+            <div className="flex rounded-lg border border-slate-200 overflow-hidden bg-white">
+              {dash.yearOptions.map((year, idx) => (
+                <button
+                  key={year}
+                  onClick={() => dash.setSelectedYear(year)}
+                  className={`px-2.5 md:px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none ${
+                    idx > 0 ? 'border-l border-slate-200' : ''
+                  } ${
+                    dash.selectedYear === year
+                      ? 'bg-blue-600 text-white'
+                      : 'text-slate-600 hover:bg-slate-50'
+                  }`}
+                >
+                  {year}
+                </button>
+              ))}
             </div>
-
-            {/* Divider */}
-            <div className="h-6 w-px bg-slate-100 hidden md:block flex-shrink-0" />
-
-            {/* Year selector */}
-            <div className="flex items-center gap-1.5 flex-shrink-0">
-              <span className="text-xs text-slate-400 font-medium hidden sm:inline">Rok:</span>
-              <div className="flex rounded-lg border border-slate-200 overflow-hidden bg-white">
-                {dash.yearOptions.map((year, idx) => (
-                  <button
-                    key={year}
-                    onClick={() => dash.setSelectedYear(year)}
-                    className={`px-2.5 md:px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none ${
-                      idx > 0 ? 'border-l border-slate-200' : ''
-                    } ${
-                      dash.selectedYear === year
-                        ? 'bg-blue-600 text-white'
-                        : 'text-slate-600 hover:bg-slate-50'
-                    }`}
-                  >
-                    {year}
-                  </button>
-                ))}
-              </div>
-              <span className="text-xs text-slate-400 hidden sm:inline">vs. {dash.yearB}</span>
-            </div>
-          </>
+            <span className="text-xs text-slate-400 hidden sm:inline">vs. {dash.yearB}</span>
+          </div>
         ) : (
           <>
-            {/* Country segmented control — hidden on retention page */}
-            {!isRetention && (
-              <div className="flex items-center gap-1.5 flex-shrink-0">
-                <span className="text-xs text-slate-400 font-medium hidden sm:inline">Trh:</span>
-                <div className="flex rounded-lg border border-slate-200 overflow-hidden bg-white">
-                  {([
-                    { label: 'Vše', value: 'all' },
-                    { label: '🇨🇿', value: 'cz' },
-                    { label: '🇸🇰', value: 'sk' },
-                  ] as { label: string; value: 'all' | Country }[]).filter(({ value }) => !(hideAll && value === 'all')).map(({ label, value }, idx) => {
-                    const isActive =
-                      value === 'all'
-                        ? filters.countries.length === 2
-                        : filters.countries.length === 1 && filters.countries[0] === value;
-                    const select = () => {
-                      if (value === 'all') onChange({ ...filters, countries: ['cz', 'sk'] });
-                      else onChange({ ...filters, countries: [value as Country] });
-                    };
-                    return (
-                      <button
-                        key={value}
-                        onClick={select}
-                        className={`px-2.5 md:px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none ${
-                          idx > 0 ? 'border-l border-slate-200' : ''
-                        } ${
-                          isActive
-                            ? 'bg-blue-600 text-white'
-                            : 'text-slate-600 hover:bg-slate-50'
-                        }`}
-                      >
-                        <span className="sm:hidden">{label}</span>
-                        <span className="hidden sm:inline">
-                          {value === 'all' ? 'Vše' : value === 'cz' ? '🇨🇿 CZ' : '🇸🇰 SK'}
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* Divider — desktop only */}
-            {!isRetention && <div className="h-6 w-px bg-slate-100 hidden md:block flex-shrink-0" />}
-
             {/* Time period */}
             <div className="flex items-center gap-1.5 flex-shrink-0">
               <span className="text-xs text-slate-400 font-medium hidden sm:inline">Období:</span>
@@ -212,7 +134,7 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
               </div>
             )}
 
-            {/* Date range label — hidden on small mobile */}
+            {/* Date range label */}
             <div className="text-xs md:text-sm text-slate-500 hidden sm:block flex-shrink-0">
               <span className="font-medium text-slate-700">{formatDate(start)}</span>
               <span className="mx-1.5 text-slate-300">–</span>
@@ -226,30 +148,30 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
 
         {/* Last update label */}
         <div className="text-xs text-slate-400 hidden md:block flex-shrink-0">
-          Data: <span className="font-medium text-slate-500">{new Date(lastUpdate).toLocaleString('cs-CZ', { day: 'numeric', month: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
+          Data: <span className="font-medium text-slate-500">{new Date(lastUpdate).toLocaleString('de-AT', { day: 'numeric', month: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
         </div>
 
         {/* Update button — admin only */}
         <div className="flex items-center gap-2 flex-shrink-0">
-        {isAdmin && (<>
-          {updateMsg && (
-            <span
-              title={updateMsg}
-              className={`text-xs font-medium max-w-xs truncate ${updateMsg.startsWith('Chyba') ? 'text-rose-500' : 'text-emerald-600'}`}
+          {isAdmin && (<>
+            {updateMsg && (
+              <span
+                title={updateMsg}
+                className={`text-xs font-medium max-w-xs truncate ${updateMsg.startsWith('Chyba') ? 'text-rose-500' : 'text-emerald-600'}`}
+              >
+                {updateMsg}
+              </span>
+            )}
+            <button
+              onClick={handleUpdate}
+              disabled={updating}
+              title={updateMsg ?? 'Aktualizovat data'}
+              className="inline-flex items-center gap-1.5 px-2.5 md:px-3 py-1.5 rounded-lg border border-blue-200 bg-blue-50 text-blue-700 text-sm font-medium hover:bg-blue-100 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
-              {updateMsg}
-            </span>
-          )}
-          <button
-            onClick={handleUpdate}
-            disabled={updating}
-            title={updateMsg ?? 'Aktualizovat data'}
-            className="inline-flex items-center gap-1.5 px-2.5 md:px-3 py-1.5 rounded-lg border border-blue-200 bg-blue-50 text-blue-700 text-sm font-medium hover:bg-blue-100 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-          >
-            <RefreshCw size={13} className={updating ? 'animate-spin' : ''} />
-            <span className="hidden md:inline">{updating ? 'Aktualizuji…' : 'Aktualizovat data'}</span>
-          </button>
-        </>)}
+              <RefreshCw size={13} className={updating ? 'animate-spin' : ''} />
+              <span className="hidden md:inline">{updating ? 'Aktualizuji…' : 'Aktualizovat data'}</span>
+            </button>
+          </>)}
         </div>
       </div>
     </div>

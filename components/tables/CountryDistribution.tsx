@@ -1,11 +1,10 @@
 'use client';
 
-import { DailyRecord, Country, EUR_TO_CZK } from '@/data/types';
+import { DailyRecord, Country } from '@/data/types';
 import { formatCurrency, formatPercent, formatNumber } from '@/lib/formatters';
 
 interface Props {
   data: DailyRecord[];
-  eurToCzk?: number;
 }
 
 interface CountryRow {
@@ -20,21 +19,18 @@ interface CountryRow {
 }
 
 const countryColors: Record<Country, string> = {
-  cz: '#4285F4',
-  sk: '#FF9800',
+  at: '#ED2939',
 };
 
 const countryLabels: Record<Country, string> = {
-  cz: 'Česká republika (CZ)',
-  sk: 'Slovensko (SK)',
+  at: 'Österreich (AT)',
 };
 
-const countryCurrency: Record<Country, 'CZK' | 'EUR'> = {
-  cz: 'CZK',
-  sk: 'EUR',
+const countryCurrency: Record<Country, 'EUR'> = {
+  at: 'EUR',
 };
 
-export default function CountryDistribution({ data, eurToCzk = EUR_TO_CZK }: Props) {
+export default function CountryDistribution({ data }: Props) {
   const byCountry: Record<string, CountryRow> = {};
 
   for (const r of data) {
@@ -53,13 +49,9 @@ export default function CountryDistribution({ data, eurToCzk = EUR_TO_CZK }: Pro
     cpa: r.orders > 0 ? r.cost / r.orders : 0,
   }));
 
-  // For stacked-bar share, normalise SK EUR → CZK so widths are proportional
-  const revenueCZK = (r: CountryRow) =>
-    r.country === 'sk' ? r.revenue * eurToCzk : r.revenue;
-
-  const totalRevenueCZK = rows.reduce((s, r) => s + revenueCZK(r), 0);
+  const totalRevenue = rows.reduce((s, r) => s + r.revenue, 0);
   rows.forEach((r) => {
-    r.share = totalRevenueCZK > 0 ? (revenueCZK(r) / totalRevenueCZK) * 100 : 0;
+    r.share = totalRevenue > 0 ? (r.revenue / totalRevenue) * 100 : 0;
   });
 
   const pnoColor = (pno: number) =>

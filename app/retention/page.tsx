@@ -1,13 +1,8 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useMemo } from 'react';
 import { Users, DollarSign, ShoppingCart, RefreshCw, Calendar, TrendingUp } from 'lucide-react';
-import { retentionDataCZ } from '@/data/retentionDataCZ';
-import { retentionDataSK as _retentionDataSK } from '@/data/retentionDataSK';
-import { SK_LAUNCH_DATE } from '@/data/types';
-
-// Exclude customers whose first purchase was before SK launch (test orders)
-const retentionDataSK = _retentionDataSK.filter(c => c.dates[0] >= SK_LAUNCH_DATE);
+import { retentionDataAT } from '@/data/retentionDataAT';
 import {
   computeRetentionKpis,
   computeYearCustomerMetrics,
@@ -27,8 +22,6 @@ import {
 } from 'recharts';
 import { C } from '@/lib/chartColors';
 import StatCard from '@/components/kpi/StatCard';
-
-type Tab = 'cz' | 'sk';
 
 function ChartCard({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -53,19 +46,15 @@ function TableCard({ title, children }: { title: string; children: React.ReactNo
 const thClass = 'px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider whitespace-nowrap';
 const tdClass = 'px-4 py-2.5 whitespace-nowrap';
 
-function fmtYAxis(v: number, currency: 'CZK' | 'EUR') {
-  const s = currency === 'EUR' ? '€' : 'Kč';
-  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M ${s}`;
-  if (v >= 1_000) return `${Math.round(v / 1_000)}k ${s}`;
-  return `${Math.round(v)} ${s}`;
+function fmtYAxis(v: number) {
+  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M €`;
+  if (v >= 1_000) return `${Math.round(v / 1_000)}k €`;
+  return `${Math.round(v)} €`;
 }
 
 export default function RetentionPage() {
-  const [tab, setTab] = useState<Tab>('cz');
-
-  const data = tab === 'cz' ? retentionDataCZ : retentionDataSK;
-  const currency = tab === 'cz' ? 'CZK' : 'EUR';
-  const fc = (v: number) => formatCurrency(v, currency);
+  const data = retentionDataAT;
+  const fc = (v: number) => formatCurrency(v, 'EUR');
   const fp = (v: number) => formatPercent(v, 1);
 
   const rfmSegments       = useMemo(() => computeRfmSegments(data), [data]);
@@ -89,28 +78,9 @@ export default function RetentionPage() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-        <div>
-          <h1 className="text-xl font-bold text-slate-900">Retenční analýza zákazníků</h1>
-          <p className="text-sm text-slate-500 mt-0.5">Analýza nákupního chování zákazníků</p>
-        </div>
-        <div className="flex gap-1 bg-slate-100 p-1 rounded-lg self-start sm:self-auto">
-          {(['cz', 'sk'] as Tab[]).map(t => (
-            <button
-              key={t}
-              onClick={() => setTab(t)}
-              className={`flex items-center gap-1.5 px-4 py-1.5 rounded-md text-sm font-semibold transition-all ${
-                tab === t
-                  ? t === 'cz'
-                    ? 'bg-blue-700 text-white shadow-sm'
-                    : 'bg-red-600 text-white shadow-sm'
-                  : 'text-gray-500 hover:text-slate-700'
-              }`}
-            >
-              <span>{t === 'cz' ? '🇨🇿' : '🇸🇰'}</span> {t.toUpperCase()}
-            </button>
-          ))}
-        </div>
+      <div>
+        <h1 className="text-xl font-bold text-slate-900">Retenční analýza zákazníků</h1>
+        <p className="text-sm text-slate-500 mt-0.5">Analýza nákupního chování zákazníků</p>
       </div>
 
       {/* Summary */}
@@ -234,7 +204,7 @@ export default function RetentionPage() {
             <LineChart data={monthly} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
               <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
               <XAxis dataKey="date" tickFormatter={formatShortDate} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} interval="preserveStartEnd" />
-              <YAxis tickFormatter={v => fmtYAxis(v, currency)} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={56} />
+              <YAxis tickFormatter={v => fmtYAxis(v)} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={56} />
               <Tooltip formatter={(v: any) => [fc(v as number), 'LTV / zákazník']} labelFormatter={(l: any) => formatShortDate(l as string)} />
               <Line type="monotone" dataKey="ltv" name="LTV" stroke={C.rate} strokeWidth={2} dot={false} />
             </LineChart>
@@ -246,7 +216,7 @@ export default function RetentionPage() {
             <LineChart data={monthly} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
               <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
               <XAxis dataKey="date" tickFormatter={formatShortDate} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} interval="preserveStartEnd" />
-              <YAxis tickFormatter={v => fmtYAxis(v, currency)} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={56} />
+              <YAxis tickFormatter={v => fmtYAxis(v)} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={56} />
               <Tooltip formatter={(v: any) => [fc(v as number), 'Ø objednávka']} labelFormatter={(l: any) => formatShortDate(l as string)} />
               <Line type="monotone" dataKey="aov" name="Ø objednávka" stroke={C.aov} strokeWidth={2} dot={false} />
             </LineChart>
@@ -267,7 +237,7 @@ export default function RetentionPage() {
               </defs>
               <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
               <XAxis dataKey="year" tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
-              <YAxis tickFormatter={v => fmtYAxis(v, currency)} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={60} />
+              <YAxis tickFormatter={v => fmtYAxis(v)} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={60} />
               <Tooltip formatter={(v: any) => [fc(v as number), 'Obrat']} />
               <Area type="monotone" dataKey="obrat" name="Obrat" stroke={C.primary} fill="url(#gradObrat)" strokeWidth={2} dot={{ r: 5, fill: C.primary }} />
             </AreaChart>
@@ -321,7 +291,7 @@ export default function RetentionPage() {
             <BarChart data={yearCustomer} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
               <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
               <XAxis dataKey="year" tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
-              <YAxis tickFormatter={v => fmtYAxis(v, currency)} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={56} />
+              <YAxis tickFormatter={v => fmtYAxis(v)} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={56} />
               <Tooltip formatter={(v: any) => [fc(v as number)]} />
               <Legend wrapperStyle={{ fontSize: 11, color: '#64748b' }} iconType="square" iconSize={9} />
               <Bar dataKey="avgFirstPurchase"  name="1. nákup"          fill={C.primary} radius={[3, 3, 0, 0]} barSize={24} />
