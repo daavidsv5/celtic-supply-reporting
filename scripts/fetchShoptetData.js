@@ -120,7 +120,7 @@ async function fetchOrderCodes(fromDate) {
   let totalPages = 1;
 
   const dateParam = fromDate
-    ? `&changeTimeFrom=${encodeURIComponent(fromDate.toISOString())}`
+    ? `&changeTimeFrom=${encodeURIComponent(fromDate.toISOString().replace(/\.\d{3}Z$/, '+0100'))}`
     : '';
 
   do {
