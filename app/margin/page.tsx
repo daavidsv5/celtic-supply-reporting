@@ -2,8 +2,19 @@
 
 import { useMemo } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
+import { getDisplayCurrency } from '@/data/types';
 import { marginDataAT } from '@/data/marginDataAT';
+import { marginDataCZ } from '@/data/marginDataCZ';
+import { marginDataSK } from '@/data/marginDataSK';
+import { marginDataPL } from '@/data/marginDataPL';
+import { marginDataNL } from '@/data/marginDataNL';
+import { marginDataDE } from '@/data/marginDataDE';
 import { realDataAT } from '@/data/realDataAT';
+import { realDataCZ } from '@/data/realDataCZ';
+import { realDataSK } from '@/data/realDataSK';
+import { realDataPL } from '@/data/realDataPL';
+import { realDataNL } from '@/data/realDataNL';
+import { realDataDE } from '@/data/realDataDE';
 import { formatCurrency, formatPercent, formatDate, formatNumber, formatShortDate, formatMonthYear, localIsoDate } from '@/lib/formatters';
 import { Wallet, Banknote, ShoppingCart, TrendingUp, Percent, BarChart2, DollarSign } from 'lucide-react';
 import StatCard from '@/components/kpi/StatCard';
@@ -56,16 +67,22 @@ export default function MarginPage() {
   const endStr   = localIsoDate(end);
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
-  const currency = 'EUR' as const;
+  const marginByCountry  = { at: marginDataAT, cz: marginDataCZ, sk: marginDataSK, pl: marginDataPL, nl: marginDataNL, de: marginDataDE };
+  const realByCountry    = { at: realDataAT,   cz: realDataCZ,   sk: realDataSK,   pl: realDataPL,   nl: realDataNL,   de: realDataDE };
+  const country = filters.countries[0] ?? 'at';
+  const marginData = marginByCountry[country] ?? marginDataAT;
+  const realData   = realByCountry[country]   ?? realDataAT;
+  const currency = getDisplayCurrency(filters.countries);
 
-  // Build index of realDataAT by date
+  // Build index of realData by date
   const realATByDate = useMemo(() => {
     const m: Record<string, { revenue_vat: number; revenue: number; orders: number; cost: number }> = {};
-    for (const r of realDataAT) {
+    for (const r of realData) {
       m[r.date] = { revenue_vat: r.revenue_vat, revenue: r.revenue, orders: r.orders, cost: r.cost };
     }
     return m;
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [country]);
 
   const { totals, chartData, isMonthly } = useMemo(() => {
     let revVat = 0, rev = 0, orders = 0, cost = 0, purchaseCost = 0, marginRev = 0;
@@ -73,7 +90,7 @@ export default function MarginPage() {
     const dailyMap: Record<string, { date: string; marze: number; marzePct: number; hrubyZisk: number; hrubyZiskPct: number }> = {};
     const datesInRange = new Set<string>();
 
-    for (const r of marginDataAT) {
+    for (const r of marginData) {
       if (r.date < startStr || r.date > endStr) continue;
       datesInRange.add(r.date);
       purchaseCost += r.purchaseCost;

@@ -2,7 +2,14 @@
 
 import { useMemo } from 'react';
 import { Users, DollarSign, ShoppingCart, RefreshCw, Calendar, TrendingUp } from 'lucide-react';
+import { useFilters } from '@/hooks/useFilters';
+import { getDisplayCurrency } from '@/data/types';
 import { retentionDataAT } from '@/data/retentionDataAT';
+import { retentionDataCZ } from '@/data/retentionDataCZ';
+import { retentionDataSK } from '@/data/retentionDataSK';
+import { retentionDataPL } from '@/data/retentionDataPL';
+import { retentionDataNL } from '@/data/retentionDataNL';
+import { retentionDataDE } from '@/data/retentionDataDE';
 import {
   computeRetentionKpis,
   computeYearCustomerMetrics,
@@ -52,9 +59,13 @@ function fmtYAxis(v: number) {
   return `${Math.round(v)} €`;
 }
 
+const retentionByCountry = { at: retentionDataAT, cz: retentionDataCZ, sk: retentionDataSK, pl: retentionDataPL, nl: retentionDataNL, de: retentionDataDE };
+
 export default function RetentionPage() {
-  const data = retentionDataAT;
-  const fc = (v: number) => formatCurrency(v, 'EUR');
+  const { filters } = useFilters();
+  const data = retentionByCountry[filters.countries[0]] ?? retentionDataAT;
+  const currency = getDisplayCurrency(filters.countries);
+  const fc = (v: number) => formatCurrency(v, currency);
   const fp = (v: number) => formatPercent(v, 1);
 
   const rfmSegments       = useMemo(() => computeRfmSegments(data), [data]);

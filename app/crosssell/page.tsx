@@ -2,7 +2,13 @@
 
 import { useState, useMemo } from 'react';
 import { ShoppingBag, Package, TrendingUp, Search } from 'lucide-react';
+import { useFilters } from '@/hooks/useFilters';
 import { crossSellDataAT } from '@/data/crossSellDataAT';
+import { crossSellDataCZ } from '@/data/crossSellDataCZ';
+import { crossSellDataSK } from '@/data/crossSellDataSK';
+import { crossSellDataPL } from '@/data/crossSellDataPL';
+import { crossSellDataNL } from '@/data/crossSellDataNL';
+import { crossSellDataDE } from '@/data/crossSellDataDE';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Cell,
@@ -12,12 +18,15 @@ import { C } from '@/lib/chartColors';
 
 const COLORS = C.palette;
 
+const crossSellByCountry = { at: crossSellDataAT, cz: crossSellDataCZ, sk: crossSellDataSK, pl: crossSellDataPL, nl: crossSellDataNL, de: crossSellDataDE };
+
 export default function CrossSellPage() {
+  const { filters } = useFilters();
   const [search, setSearch] = useState('');
   const [page, setPage] = useState(0);
   const PAGE_SIZE = 25;
 
-  const data = crossSellDataAT;
+  const data = crossSellByCountry[filters.countries[0]] ?? crossSellDataAT;
 
   const multiPct = data.totalOrders > 0
     ? Math.round((data.multiItemOrders / data.totalOrders) * 100)

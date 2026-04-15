@@ -2,7 +2,13 @@
 
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
+import { getDisplayCurrency } from '@/data/types';
 import { shippingPaymentDataAT } from '@/data/shippingPaymentDataAT';
+import { shippingPaymentDataCZ } from '@/data/shippingPaymentDataCZ';
+import { shippingPaymentDataSK } from '@/data/shippingPaymentDataSK';
+import { shippingPaymentDataPL } from '@/data/shippingPaymentDataPL';
+import { shippingPaymentDataNL } from '@/data/shippingPaymentDataNL';
+import { shippingPaymentDataDE } from '@/data/shippingPaymentDataDE';
 import { formatCurrency, formatNumber, formatDate, localIsoDate } from '@/lib/formatters';
 import { Truck, CreditCard, DollarSign, Banknote, Star, Award, Gift, Save, RotateCcw } from 'lucide-react';
 
@@ -173,13 +179,17 @@ export default function ShippingPage() {
   const prevStartStr = localIsoDate(prevStart);
   const prevEndStr   = localIsoDate(prevEnd);
 
-  const fc = (v: number) => formatCurrency(v, 'EUR');
+  const shippingByCountry = { at: shippingPaymentDataAT, cz: shippingPaymentDataCZ, sk: shippingPaymentDataSK, pl: shippingPaymentDataPL, nl: shippingPaymentDataNL, de: shippingPaymentDataDE };
+  const shippingData = shippingByCountry[filters.countries[0]] ?? shippingPaymentDataAT;
+  const currency = getDisplayCurrency(filters.countries);
+  const fc = (v: number) => formatCurrency(v, currency);
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
-  // ── AT records filtered by period ──────────────────────────────────────────
+  // ── records filtered by period ─────────────────────────────────────────────
   const records = useMemo(() =>
-    shippingPaymentDataAT.filter(r => r.date >= startStr && r.date <= endStr),
-    [startStr, endStr]
+    shippingData.filter(r => r.date >= startStr && r.date <= endStr),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [shippingData, startStr, endStr]
   );
 
   const shipping = records.filter(r => r.type === 'shipping');
@@ -187,7 +197,7 @@ export default function ShippingPage() {
 
   // ── Prev year records ──────────────────────────────────────────────────────
   const prevRecords = useMemo(() =>
-    shippingPaymentDataAT.filter(r => r.date >= prevStartStr && r.date <= prevEndStr),
+    shippingData.filter(r => r.date >= prevStartStr && r.date <= prevEndStr),
     [prevStartStr, prevEndStr]
   );
 
@@ -299,7 +309,7 @@ export default function ShippingPage() {
 
   // ── Carrier cost table ─────────────────────────────────────────────────────
   const allCarriers = useMemo(() =>
-    [...new Set(shippingPaymentDataAT.filter(r => r.type === 'shipping').map(r => r.name))].sort(),
+    [...new Set(shippingData.filter(r => r.type === 'shipping').map(r => r.name))].sort(),
     []
   );
 
@@ -317,7 +327,7 @@ export default function ShippingPage() {
   // E-shop shipping cost = sum(count * pricePerCarrier) for the current period
   const eshopShippingCost = useMemo(() => {
     let total = 0;
-    for (const r of shippingPaymentDataAT) {
+    for (const r of shippingData) {
       if (r.type !== 'shipping' || r.date < startStr || r.date > endStr) continue;
       const price = Number(costs[r.name]?.at) || 0;
       total += r.count * price;
@@ -331,7 +341,7 @@ export default function ShippingPage() {
   // Per-carrier profit/loss table
   const carrierPnl = useMemo(() => {
     const atCount: Record<string, number> = {};
-    for (const r of shippingPaymentDataAT) {
+    for (const r of shippingData) {
       if (r.type !== 'shipping' || r.date < startStr || r.date > endStr) continue;
       atCount[r.name] = (atCount[r.name] || 0) + r.count;
     }

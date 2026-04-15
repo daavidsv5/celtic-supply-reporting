@@ -3,9 +3,15 @@
 import { useMemo } from 'react';
 import { TrendingUp, TrendingDown } from 'lucide-react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
+import { getDisplayCurrency } from '@/data/types';
 import { mockData } from '@/data/mockGenerator';
 import { formatCurrency, formatPercent, formatDate, localIsoDate } from '@/lib/formatters';
 import { hourlyDataAT } from '@/data/hourlyDataAT';
+import { hourlyDataCZ } from '@/data/hourlyDataCZ';
+import { hourlyDataSK } from '@/data/hourlyDataSK';
+import { hourlyDataPL } from '@/data/hourlyDataPL';
+import { hourlyDataNL } from '@/data/hourlyDataNL';
+import { hourlyDataDE } from '@/data/hourlyDataDE';
 import {
   BarChart,
   Bar,
@@ -35,7 +41,10 @@ export default function BehaviorPage() {
   const endStr   = localIsoDate(end);
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
-  const fc = (v: number) => formatCurrency(v, 'EUR');
+  const hourlyByCountry = { at: hourlyDataAT, cz: hourlyDataCZ, sk: hourlyDataSK, pl: hourlyDataPL, nl: hourlyDataNL, de: hourlyDataDE };
+  const hourlyData = hourlyByCountry[filters.countries[0]] ?? hourlyDataAT;
+  const currency = getDisplayCurrency(filters.countries);
+  const fc = (v: number) => formatCurrency(v, currency);
 
   // Filter mockData by date range
   const filtered = useMemo(
@@ -74,7 +83,7 @@ export default function BehaviorPage() {
   const hourlyChartData = useMemo(() => {
     const totRev  = new Array(24).fill(0);
     const totDays = new Array(24).fill(0);
-    for (const p of hourlyDataAT) {
+    for (const p of hourlyData) {
       totRev[p.hour]  += p.totalRevenue;
       totDays[p.hour] += p.dayCount;
     }

@@ -8,6 +8,11 @@ import KpiCard from '@/components/kpi/KpiCard';
 import { formatCurrency, formatNumber, formatPercent, formatDate, formatShortDate, localIsoDate } from '@/lib/formatters';
 import { Wallet, Banknote, ShoppingCart, BarChart2, XCircle, AlertTriangle, Lightbulb, CalendarDays } from 'lucide-react';
 import { orderValueDataAT } from '@/data/orderValueDataAT';
+import { orderValueDataCZ } from '@/data/orderValueDataCZ';
+import { orderValueDataSK } from '@/data/orderValueDataSK';
+import { orderValueDataPL } from '@/data/orderValueDataPL';
+import { orderValueDataNL } from '@/data/orderValueDataNL';
+import { orderValueDataDE } from '@/data/orderValueDataDE';
 import { C } from '@/lib/chartColors';
 import {
   ComposedChart,
@@ -84,18 +89,23 @@ export default function OrdersPage() {
   const fc = (v: number) => formatCurrency(v, currency);
 
   // ── Order value distribution ─────────────────────────────────────────────
+  const orderValueByCountry = { at: orderValueDataAT, cz: orderValueDataCZ, sk: orderValueDataSK, pl: orderValueDataPL, nl: orderValueDataNL, de: orderValueDataDE };
+  const orderValueData = orderValueByCountry[filters.countries[0]] ?? orderValueDataAT;
+  const buckets = currency === 'CZK' ? CZK_BUCKETS : EUR_BUCKETS;
+
   const { histogram, hasOrderValueData } = useMemo(() => {
     const filtered: number[] = [];
     const startStr2 = localIsoDate(start);
     const endStr2   = localIsoDate(end);
-    for (const r of orderValueDataAT) {
+    for (const r of orderValueData) {
       if (r.date >= startStr2 && r.date <= endStr2) filtered.push(r.value);
     }
     return {
-      histogram: buildHistogram(filtered, EUR_BUCKETS),
+      histogram: buildHistogram(filtered, buckets),
       hasOrderValueData: filtered.length > 0,
     };
-  }, [start, end]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [orderValueData, start, end]);
 
   const kpiCards = [
     { title: 'Tržby s DPH',     value: fc(kpi.revenuevat), yoy: yoy.revenuevat, sparklineData: dailyRevenue, icon: <Wallet size={16} /> },
@@ -174,7 +184,7 @@ export default function OrdersPage() {
         const allValues: number[] = [];
         // recompute sorted values for median
         const medianApprox = peak.avg;
-        const sym = currency === 'EUR' ? '€' : 'Kč';
+        const sym = currency === 'EUR' ? '€' : currency === 'PLN' ? 'zł' : 'Kč';
         const threshold = peak.max === Infinity
           ? null
           : peak.max;

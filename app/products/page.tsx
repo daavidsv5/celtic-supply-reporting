@@ -9,8 +9,14 @@ import {
 import StatCard from '@/components/kpi/StatCard';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { useDashboardData } from '@/hooks/useDashboardData';
+import { getDisplayCurrency } from '@/data/types';
 import { mockData } from '@/data/mockGenerator';
 import { productDataAT } from '@/data/productDataAT';
+import { productDataCZ } from '@/data/productDataCZ';
+import { productDataSK } from '@/data/productDataSK';
+import { productDataPL } from '@/data/productDataPL';
+import { productDataNL } from '@/data/productDataNL';
+import { productDataDE } from '@/data/productDataDE';
 import { formatCurrency, formatNumber, formatDate, localIsoDate, formatMonthYear } from '@/lib/formatters';
 
 type SortKey = 'name' | 'amount' | 'revenue' | 'revenue_vat' | 'abc';
@@ -73,9 +79,10 @@ function aggregateByName(
   startStr: string,
   endStr: string,
   _skMult?: number,
+  productData = productDataAT,
 ): Record<string, { amount: number; revenue: number; revenue_vat: number }> {
   const byName: Record<string, { amount: number; revenue: number; revenue_vat: number }> = {};
-  for (const r of productDataAT) {
+  for (const r of productData) {
     if (r.date < startStr || r.date > endStr) continue;
     if (!byName[r.name]) byName[r.name] = { amount: 0, revenue: 0, revenue_vat: 0 };
     byName[r.name].amount      += r.amount;
@@ -99,6 +106,7 @@ function aggregateProductTrend(
   endStr: string,
   _skMult: number,
   isMonthly: boolean,
+  productData = productDataAT,
 ): { key: string; [name: string]: number | string }[] {
   const buckets = new Map<string, Record<string, number>>();
 
@@ -108,7 +116,7 @@ function aggregateProductTrend(
     return init;
   };
 
-  const sources = productDataAT;
+  const sources = productData;
 
   for (const r of sources) {
     if (r.date < startStr || r.date > endStr) continue;
@@ -145,10 +153,11 @@ interface ProductTrendChartProps {
   currency: string;
   isMonthly: boolean;
   fc: (v: number) => string;
+  productData?: typeof productDataAT;
 }
 
 function ProductTrendChart({
-  allProductNames, countries, startStr, endStr, skMult, currency, isMonthly, fc,
+  allProductNames, countries, startStr, endStr, skMult, currency, isMonthly, fc, productData = productDataAT,
 }: ProductTrendChartProps) {
   const [selectedProducts, setSelectedProducts] = useState<string[]>([]);
   const [query, setQuery] = useState('');
@@ -190,7 +199,7 @@ function ProductTrendChart({
 
   const chartData = useMemo(() => {
     if (selectedProducts.length === 0) return [];
-    return aggregateProductTrend(selectedProducts, countries, startStr, endStr, skMult, isMonthly);
+    return aggregateProductTrend(selectedProducts, countries, startStr, endStr, skMult, isMonthly, productData);
   }, [selectedProducts, countries, startStr, endStr, skMult, isMonthly]);
 
   const fmtKey = (key: string) => isMonthly
@@ -394,7 +403,10 @@ export default function ProductsPage() {
   const prevStartStr = localIsoDate(prevStart);
   const prevEndStr   = localIsoDate(prevEnd);
 
-  const fc = (v: number) => formatCurrency(v, 'EUR');
+  const productByCountry = { at: productDataAT, cz: productDataCZ, sk: productDataSK, pl: productDataPL, nl: productDataNL, de: productDataDE };
+  const productData = productByCountry[filters.countries[0]] ?? productDataAT;
+  const currency = getDisplayCurrency(filters.countries);
+  const fc = (v: number) => formatCurrency(v, currency);
 
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
   const isMonthly = dayCount > 60;
@@ -402,8 +414,8 @@ export default function ProductsPage() {
   const skMult = 1;
 
   const { rows, hasPrevData, abcStats, prevTotalAmount } = useMemo(() => {
-    const current = aggregateByName(filters.countries, startStr, endStr);
-    const prev    = aggregateByName(filters.countries, prevStartStr, prevEndStr);
+    const current = aggregateByName(filters.countries, startStr, endStr, undefined, productData);
+    const prev    = aggregateByName(filters.countries, prevStartStr, prevEndStr, undefined, productData);
 
     const hasPrev = Object.values(prev).some(r => r.amount > 0);
 
@@ -471,7 +483,7 @@ export default function ProductsPage() {
   // All product names for autocomplete (sorted A-Z)
   const allProductNames = useMemo(() => {
     const names = new Set<string>();
-    for (const r of productDataAT) names.add(r.name);
+    for (const r of productData) names.add(r.name);
     return Array.from(names).sort((a, b) => a.localeCompare(b, 'cs'));
   }, []);
 
@@ -610,9 +622,10 @@ export default function ProductsPage() {
         startStr={startStr}
         endStr={endStr}
         skMult={skMult}
-        currency="EUR"
+        currency={currency}
         isMonthly={isMonthly}
         fc={fc}
+        productData={productData}
       />
 
       {/* Product table */}
