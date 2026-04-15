@@ -5,8 +5,8 @@
  * Run:  node scripts/fetchShoptetData.js           # incremental (last 7 days)
  *       node scripts/fetchShoptetData.js --full    # full sync (all orders)
  *
- * Requires env var: SHOPTET_API_TOKEN_AT
- * Or set it directly in .env.local as SHOPTET_API_TOKEN_AT=...
+ * Requires env var: SHOPTET_API_TOKEN_PL
+ * Or set it directly in .env.local as SHOPTET_API_TOKEN_PL=...
  */
 
 const https = require('https');
@@ -25,22 +25,28 @@ if (fs.existsSync(envFile)) {
   });
 }
 
-const API_TOKEN      = process.env.SHOPTET_API_TOKEN_AT;
+const API_TOKEN      = process.env.SHOPTET_API_TOKEN_PL;
 const API_BASE       = 'https://api.myshoptet.com/api';
 const DATA_DIR       = path.join(__dirname, '..', 'data');
-const CACHE_FILE     = path.join(__dirname, 'orders_cache_at.json');
-const LOG_FILE       = path.join(__dirname, 'fetchShoptetData.log');
+const CACHE_FILE     = path.join(__dirname, 'orders_cache_pl.json');
+const CATEGORY_MAP_CACHE = path.join(__dirname, 'category_map_pl.json');
+const LOG_FILE       = path.join(__dirname, 'fetchShoptetDataPL.log');
 
 const FULL_SYNC       = process.argv.includes('--full');
-const INCREMENTAL_DAYS = 7;   // days to look back for incremental sync
+const INCREMENTAL_DAYS = 10;  // days to look back for incremental sync
 const BATCH_SIZE      = 10;   // concurrent detail requests
+const BATCH_DELAY_MS  = 500;  // pause between batches to avoid 429
 const ITEMS_PER_PAGE  = 100;
+// Re-fetch product→category map only if older than this (ms). 24 h by default.
+const CATEGORY_MAP_TTL_MS = 24 * 60 * 60 * 1000;
+// Bump when productMap structure changes (forces cache re-fetch)
+const CATEGORY_MAP_VERSION = 2;
 
-// Status IDs that mean cancelled (Abgesagt)
+// Status IDs that mean cancelled (Anulowano)
 const CANCELLED_STATUS_IDS = new Set([-4]);
 
 if (!API_TOKEN) {
-  console.error('ERROR: SHOPTET_API_TOKEN_AT env variable is not set.');
+  console.error('ERROR: SHOPTET_API_TOKEN_PL env variable is not set.');
   console.error('Add it to .env.local or set it as an environment variable.');
   process.exit(1);
 }
@@ -113,14 +119,121 @@ async function runBatches(items, fn, batchSize, label) {
   return results;
 }
 
+// ── Fetch all categories → build guid→{ root, sub } map ──────────────────────
+async function fetchCategoryHierarchy() {
+  const all = [];
+  let page = 1, totalPages = 1;
+  do {
+    const data = await apiGet(`/categories?itemsPerPage=100&page=${page}`);
+    const cats = data.categories || data.data?.categories || [];
+    all.push(...cats);
+    totalPages = data.paginator?.pageCount || data.data?.paginator?.pageCount || 1;
+    page++;
+  } while (page <= totalPages);
+
+  const nameOf = {}; // guid → name
+  const parentOf = {}; // guid → parentGuid | null
+  for (const c of all) {
+    nameOf[c.guid]  = c.name;
+    parentOf[c.guid] = c.parentGuid || null;
+  }
+
+  // Find root guid by walking up
+  function findRoot(guid) {
+    let cur = guid;
+    const visited = new Set();
+    while (parentOf[cur] && !visited.has(cur)) {
+      visited.add(cur);
+      cur = parentOf[cur];
+    }
+    return cur;
+  }
+
+  // Find 2nd-level ancestor (direct child of root)
+  function findLevel2(guid) {
+    let cur = guid;
+    const visited = new Set();
+    while (parentOf[cur] && parentOf[parentOf[cur]] && !visited.has(cur)) {
+      visited.add(cur);
+      cur = parentOf[cur];
+    }
+    // cur is now either root (depth 0) or level-2 (depth 1)
+    return parentOf[cur] ? cur : null; // null if cur itself is root
+  }
+
+  const guidToHierarchy = {}; // guid → { root: string, sub: string }
+  for (const c of all) {
+    const rootGuid  = findRoot(c.guid);
+    const level2Guid = findLevel2(c.guid);
+    guidToHierarchy[c.guid] = {
+      root: nameOf[rootGuid] || c.name,
+      sub:  level2Guid ? (nameOf[level2Guid] || '') : '',
+    };
+  }
+  return guidToHierarchy;
+}
+
+// ── Fetch all products → build productGuid→{ root, sub, brand } map ──────────
+async function buildProductCategoryMap() {
+  // Use cache if fresh enough and version matches
+  if (fs.existsSync(CATEGORY_MAP_CACHE)) {
+    try {
+      const cached = JSON.parse(fs.readFileSync(CATEGORY_MAP_CACHE, 'utf8'));
+      const age = Date.now() - (cached._ts || 0);
+      if (age < CATEGORY_MAP_TTL_MS && cached._version === CATEGORY_MAP_VERSION) {
+        log(`Category map cache valid (${Math.round(age / 60000)} min old), skipping re-fetch.`);
+        delete cached._ts;
+        delete cached._version;
+        return cached;
+      }
+    } catch { /* re-fetch */ }
+  }
+
+  log('Building product→category map...');
+  const guidToHierarchy = await fetchCategoryHierarchy();
+  log(`Categories fetched: ${Object.keys(guidToHierarchy).length}`);
+
+  const productMap = {}; // productGuid → { root, sub, brand }
+  let page = 1, totalPages = 1;
+  do {
+    const data = await apiGet(`/products?itemsPerPage=100&page=${page}`);
+    const prods = data.products || data.data?.products || [];
+    totalPages = data.paginator?.pageCount || data.data?.paginator?.pageCount || 1;
+    for (const p of prods) {
+      const catGuid = p.defaultCategory?.guid;
+      const brand   = (p.brand?.name || '').trim();
+      const catInfo = catGuid
+        ? (guidToHierarchy[catGuid] || { root: p.defaultCategory.name, sub: '' })
+        : { root: 'Nezařazeno', sub: '' };
+      productMap[p.guid] = { ...catInfo, brand };
+    }
+    if (page % 10 === 0 || page === totalPages) log(`Products: ${page}/${totalPages} pages`);
+    page++;
+  } while (page <= totalPages);
+
+  log(`Product→category map: ${Object.keys(productMap).length} products`);
+  fs.writeFileSync(CATEGORY_MAP_CACHE, JSON.stringify({ ...productMap, _ts: Date.now(), _version: CATEGORY_MAP_VERSION }), 'utf8');
+  return productMap;
+}
+
 // ── Fetch order list pages ─────────────────────────────────────────────────────
 async function fetchOrderCodes(fromDate) {
   const codes = [];
   let page = 1;
   let totalPages = 1;
 
+  // API requires ISO 8601 with timezone offset (e.g. 2026-04-04T18:00:00+0200), not UTC Z
+  function toApiDate(d) {
+    const off = -d.getTimezoneOffset();
+    const sign = off >= 0 ? '+' : '-';
+    const hh = String(Math.floor(Math.abs(off) / 60)).padStart(2, '0');
+    const mm = String(Math.abs(off) % 60).padStart(2, '0');
+    const pad = n => String(n).padStart(2, '0');
+    return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}${sign}${hh}${mm}`;
+  }
+
   const dateParam = fromDate
-    ? `&changeTimeFrom=${encodeURIComponent(fromDate.toISOString())}`
+    ? `&changeTimeFrom=${encodeURIComponent(toApiDate(fromDate))}`
     : '';
 
   do {
@@ -176,9 +289,11 @@ function parseDayOfWeek(creationTime) {
 const parseNum = (s) => parseFloat(s || '0') || 0;
 
 // ── Process all cached orders into aggregated datasets ─────────────────────────
-function processOrders(orders) {
+function processOrders(orders, productCategoryMap = {}) {
   const byDay          = {}; // date → DailyRecord
   const byProduct      = {}; // `${date}|${name}` → ProductSaleRecord
+  const byCategory     = {}; // `${date}|${category}` → { date, category, revenue }
+  const byBrand        = {}; // `${date}|${brand}` → { date, brand, revenue, purchaseCost }
   const byMarginDay    = {}; // date → { revenue, purchaseCost }
   const hourlyCells    = {}; // `${dow}|${hour}` → { totalRevenue, totalOrders, dates: Set }
   const crossSellMap   = {}; // `${A}|||${B}` → count
@@ -223,7 +338,7 @@ function processOrders(orders) {
 
       orderRevenue    += rev;
       orderRevenueVat += revVat;
-      orderPurchaseCost += cost;
+      orderPurchaseCost += cost * qty;
 
       byDay[date].revenue     += rev;
       byDay[date].revenue_vat += revVat;
@@ -234,6 +349,24 @@ function processOrders(orders) {
       byProduct[pk].amount      += qty;
       byProduct[pk].revenue_vat += revVat;
       byProduct[pk].revenue     += rev;
+
+      // Categories
+      const catEntry = (item.productGuid && productCategoryMap[item.productGuid])
+        ? productCategoryMap[item.productGuid]
+        : { root: 'Nezařazeno', sub: '' };
+      const rootCat = catEntry.root || 'Nezařazeno';
+      const subCat  = catEntry.sub  || '';
+      const ck = `${date}|${rootCat}|${subCat}`;
+      if (!byCategory[ck]) byCategory[ck] = { date, category: rootCat, subCategory: subCat, revenue: 0, purchaseCost: 0 };
+      byCategory[ck].revenue      += rev;
+      byCategory[ck].purchaseCost += cost * qty;
+
+      // Brands
+      const brand = ((item.productGuid && productCategoryMap[item.productGuid]?.brand) || '').trim() || 'Nezařazeno';
+      const bk = `${date}|${brand}`;
+      if (!byBrand[bk]) byBrand[bk] = { date, brand, revenue: 0, purchaseCost: 0 };
+      byBrand[bk].revenue      += rev;
+      byBrand[bk].purchaseCost += cost * qty;
     }
 
     // Margin
@@ -272,8 +405,8 @@ function processOrders(orders) {
     orderValues.push({ date, value: orderRevenue });
 
     // Shipping & payment
-    const shippingName = order.shipping?.name || 'Unbekannt';
-    const paymentName  = order.paymentMethod?.name || 'Unbekannt';
+    const shippingName = order.shipping?.name || 'Nieznany';
+    const paymentName  = order.paymentMethod?.name || 'Nieznany';
 
     const shippingItem = items.find(i => i.itemType === 'shipping');
     const shippingRevVat = parseNum(shippingItem?.itemPrice?.withVat);
@@ -322,11 +455,13 @@ function processOrders(orders) {
 
   return {
     byDay,
-    products:       Object.values(byProduct),
-    marginByDay:    Object.values(byMarginDay),
+    products:        Object.values(byProduct),
+    categoryData:    Object.values(byCategory),
+    brandData:       Object.values(byBrand),
+    marginByDay:     Object.values(byMarginDay),
     hourlyData,
-    crossSell:      { totalOrders, multiItemOrders, pairs: crossSellPairs },
-    retention:      Object.values(retentionMap),
+    crossSell:       { totalOrders, multiItemOrders, pairs: crossSellPairs },
+    retention:       Object.values(retentionMap),
     orderValues,
     shippingPayment: Object.values(shippingPayMap),
   };
@@ -342,11 +477,11 @@ function sortByDate(arr) {
 function writeRealData(byDay) {
   const records = sortByDate(Object.values(byDay));
   const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
-// AT: orders in EUR (cancelled excluded)
+// PL: orders in PLN (cancelled excluded)
 
 export interface RealDailyRecord {
   date: string;
-  country: 'at';
+  country: 'pl';
   orders: number;
   orders_cancelled: number;
   revenue_vat: number;
@@ -358,16 +493,16 @@ export interface RealDailyRecord {
   clicks_google: number;
 }
 
-export const realDataAT: RealDailyRecord[] = ${JSON.stringify(records, null, 2)};
+export const realDataPL: RealDailyRecord[] = ${JSON.stringify(records, null, 2)};
 `;
-  fs.writeFileSync(path.join(DATA_DIR, 'realDataAT.ts'), content, 'utf8');
-  log(`realDataAT.ts: ${records.length} days`);
+  fs.writeFileSync(path.join(DATA_DIR, 'realDataPL.ts'), content, 'utf8');
+  log(`realDataPL.ts: ${records.length} days`);
 }
 
 function writeProductData(products) {
   const records = sortByDate(products);
   const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
-// AT: product sales (cancelled excluded)
+// PL: product sales (cancelled excluded)
 
 export interface ProductSaleRecord {
   date: string;
@@ -377,16 +512,16 @@ export interface ProductSaleRecord {
   revenue: number;
 }
 
-export const productDataAT: ProductSaleRecord[] = ${JSON.stringify(records, null, 2)};
+export const productDataPL: ProductSaleRecord[] = ${JSON.stringify(records, null, 2)};
 `;
-  fs.writeFileSync(path.join(DATA_DIR, 'productDataAT.ts'), content, 'utf8');
-  log(`productDataAT.ts: ${records.length} records`);
+  fs.writeFileSync(path.join(DATA_DIR, 'productDataPL.ts'), content, 'utf8');
+  log(`productDataPL.ts: ${records.length} records`);
 }
 
 function writeMarginData(marginByDay) {
   const records = sortByDate(marginByDay);
   const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
-// AT: daily margin data (EUR). purchaseCost = nákupní cena, revenue = tržby bez DPH.
+// PL: daily margin data (PLN). purchaseCost = nákupní cena, revenue = tržby bez DPH.
 
 export interface MarginDailyRecord {
   date: string;
@@ -394,15 +529,15 @@ export interface MarginDailyRecord {
   revenue: number;
 }
 
-export const marginDataAT: MarginDailyRecord[] = ${JSON.stringify(records, null, 2)};
+export const marginDataPL: MarginDailyRecord[] = ${JSON.stringify(records, null, 2)};
 `;
-  fs.writeFileSync(path.join(DATA_DIR, 'marginDataAT.ts'), content, 'utf8');
-  log(`marginDataAT.ts: ${records.length} days`);
+  fs.writeFileSync(path.join(DATA_DIR, 'marginDataPL.ts'), content, 'utf8');
+  log(`marginDataPL.ts: ${records.length} days`);
 }
 
 function writeHourlyData(hourlyData) {
   const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
-// AT: hourly purchase behaviour (EUR), all-time
+// PL: hourly purchase behaviour (PLN), all-time
 
 export interface HourlyPoint {
   dayOfWeek:    number;  // 0 = Sunday … 6 = Saturday
@@ -414,15 +549,15 @@ export interface HourlyPoint {
   avgOrders:    number;
 }
 
-export const hourlyDataAT: HourlyPoint[] = ${JSON.stringify(hourlyData, null, 2)};
+export const hourlyDataPL: HourlyPoint[] = ${JSON.stringify(hourlyData, null, 2)};
 `;
-  fs.writeFileSync(path.join(DATA_DIR, 'hourlyDataAT.ts'), content, 'utf8');
-  log(`hourlyDataAT.ts: ${hourlyData.length} cells`);
+  fs.writeFileSync(path.join(DATA_DIR, 'hourlyDataPL.ts'), content, 'utf8');
+  log(`hourlyDataPL.ts: ${hourlyData.length} cells`);
 }
 
 function writeCrossSellData(crossSell) {
   const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
-// AT: product pair co-occurrence from orders
+// PL: product pair co-occurrence from orders
 
 export interface CrossSellPair {
   productA: string;
@@ -437,42 +572,80 @@ export interface CrossSellData {
   pairs: CrossSellPair[];
 }
 
-export const crossSellDataAT: CrossSellData = ${JSON.stringify(crossSell, null, 2)};
+export const crossSellDataPL: CrossSellData = ${JSON.stringify(crossSell, null, 2)};
 `;
-  fs.writeFileSync(path.join(DATA_DIR, 'crossSellDataAT.ts'), content, 'utf8');
-  log(`crossSellDataAT.ts: ${crossSell.pairs.length} pairs`);
+  fs.writeFileSync(path.join(DATA_DIR, 'crossSellDataPL.ts'), content, 'utf8');
+  log(`crossSellDataPL.ts: ${crossSell.pairs.length} pairs`);
 }
 
 function writeRetentionData(retention) {
   const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
-// AT: per-customer retention data (EUR)
+// PL: per-customer retention data (EUR)
 
-export const retentionDataAT: { dates: string[]; revenues: number[]; revsVat: number[] }[] = ${JSON.stringify(retention, null, 2)};
+export const retentionDataPL: { dates: string[]; revenues: number[]; revsVat: number[] }[] = ${JSON.stringify(retention, null, 2)};
 `;
-  fs.writeFileSync(path.join(DATA_DIR, 'retentionDataAT.ts'), content, 'utf8');
-  log(`retentionDataAT.ts: ${retention.length} customers`);
+  fs.writeFileSync(path.join(DATA_DIR, 'retentionDataPL.ts'), content, 'utf8');
+  log(`retentionDataPL.ts: ${retention.length} customers`);
 }
 
 function writeOrderValueData(orderValues) {
   const records = sortByDate(orderValues);
   const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
-// AT: per-order product basket value bez DPH (EUR), cancelled excluded
+// PL: per-order product basket value bez DPH (EUR), cancelled excluded
 
 export interface OrderValueRecord {
   date: string;
   value: number;
 }
 
-export const orderValueDataAT: OrderValueRecord[] = ${JSON.stringify(records, null, 2)};
+export const orderValueDataPL: OrderValueRecord[] = ${JSON.stringify(records, null, 2)};
 `;
-  fs.writeFileSync(path.join(DATA_DIR, 'orderValueDataAT.ts'), content, 'utf8');
-  log(`orderValueDataAT.ts: ${records.length} orders`);
+  fs.writeFileSync(path.join(DATA_DIR, 'orderValueDataPL.ts'), content, 'utf8');
+  log(`orderValueDataPL.ts: ${records.length} orders`);
+}
+
+function writeCategoryData(categoryData) {
+  const records = sortByDate(categoryData);
+  const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
+// PL: daily revenue by category (EUR, cancelled excluded)
+// category = 1st-level (root), subCategory = 2nd-level (empty if product is in root directly)
+
+export interface CategoryRevenueRecord {
+  date: string;
+  category: string;
+  subCategory: string;
+  revenue: number;
+  purchaseCost: number;
+}
+
+export const categoryDataPL: CategoryRevenueRecord[] = ${JSON.stringify(records, null, 2)};
+`;
+  fs.writeFileSync(path.join(DATA_DIR, 'categoryDataPL.ts'), content, 'utf8');
+  log(`categoryDataPL.ts: ${records.length} records`);
+}
+
+function writeBrandData(brandData) {
+  const records = sortByDate(brandData);
+  const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
+// PL: daily revenue by brand/manufacturer (EUR, cancelled excluded)
+
+export interface BrandRevenueRecord {
+  date: string;
+  brand: string;
+  revenue: number;
+  purchaseCost: number;
+}
+
+export const brandDataPL: BrandRevenueRecord[] = ${JSON.stringify(records, null, 2)};
+`;
+  fs.writeFileSync(path.join(DATA_DIR, 'brandDataPL.ts'), content, 'utf8');
+  log(`brandDataPL.ts: ${records.length} records`);
 }
 
 function writeShippingPaymentData(shippingPayment) {
   const records = sortByDate(shippingPayment);
   const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
-// AT: shipping and payment methods per day (EUR, cancelled excluded)
+// PL: shipping and payment methods per day (EUR, cancelled excluded)
 
 export interface ShippingPaymentRecord {
   date: string;
@@ -482,10 +655,10 @@ export interface ShippingPaymentRecord {
   revenue_vat: number;
 }
 
-export const shippingPaymentDataAT: ShippingPaymentRecord[] = ${JSON.stringify(records, null, 2)};
+export const shippingPaymentDataPL: ShippingPaymentRecord[] = ${JSON.stringify(records, null, 2)};
 `;
-  fs.writeFileSync(path.join(DATA_DIR, 'shippingPaymentDataAT.ts'), content, 'utf8');
-  log(`shippingPaymentDataAT.ts: ${records.length} records`);
+  fs.writeFileSync(path.join(DATA_DIR, 'shippingPaymentDataPL.ts'), content, 'utf8');
+  log(`shippingPaymentDataPL.ts: ${records.length} records`);
 }
 
 function writeLastUpdate() {
@@ -499,14 +672,14 @@ export const lastUpdate = '${ts}';
 
 // ── Main ───────────────────────────────────────────────────────────────────────
 async function main() {
-  log(`=== fetchShoptetData.js START (${FULL_SYNC ? 'FULL SYNC' : 'INCREMENTAL'}) ===`);
+  log(`=== fetchShoptetDataPL.js START (${FULL_SYNC ? 'FULL SYNC' : 'INCREMENTAL'}) ===`);
+
+  // 1. Determine which order codes to fetch
+  let codesToFetch;
+  const cacheExists = fs.existsSync(CACHE_FILE);
 
   // 1. Load cache first (enables resume)
   const cache = loadCache();
-  const cacheExists = fs.existsSync(CACHE_FILE);
-
-  // 2. Determine which order codes to fetch
-  let codesToFetch;
 
   if (FULL_SYNC || !cacheExists) {
     const fullSyncFrom = new Date('2023-01-01');
@@ -524,9 +697,8 @@ async function main() {
     log(`Orders to update: ${codesToFetch.length}`);
   }
 
-  // 3. Fetch order details with periodic save (resume support)
+  // 2. Fetch order details with periodic save (resume support)
   const SAVE_EVERY = 1500;
-  const BATCH_DELAY_MS = 500;
   log(`Fetching ${codesToFetch.length} order details (batch size: ${BATCH_SIZE})...`);
   let updated = 0;
   for (let i = 0; i < codesToFetch.length; i += BATCH_SIZE) {
@@ -549,14 +721,19 @@ async function main() {
   }
   log(`Updated ${updated} orders in cache. Total cached: ${Object.keys(cache).length}`);
 
-  // 4. Process all cached orders
+  // 3. Build product→category map
+  const productCategoryMap = await buildProductCategoryMap();
+
+  // 5. Process all cached orders
   const allOrders = Object.values(cache);
   log(`Processing ${allOrders.length} orders...`);
-  const aggregated = processOrders(allOrders);
+  const aggregated = processOrders(allOrders, productCategoryMap);
 
-  // 5. Write all data files
+  // 6. Write all data files
   writeRealData(aggregated.byDay);
   writeProductData(aggregated.products);
+  writeCategoryData(aggregated.categoryData);
+  writeBrandData(aggregated.brandData);
   writeMarginData(aggregated.marginByDay);
   writeHourlyData(aggregated.hourlyData);
   writeCrossSellData(aggregated.crossSell);
@@ -565,7 +742,7 @@ async function main() {
   writeShippingPaymentData(aggregated.shippingPayment);
   writeLastUpdate();
 
-  log('=== fetchShoptetData.js DONE ===');
+  log('=== fetchShoptetDataPL.js DONE ===');
 }
 
 main().catch(err => {
