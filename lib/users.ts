@@ -1,5 +1,4 @@
-import fs from 'fs';
-import path from 'path';
+import pool from './db';
 
 export interface User {
   id: string;
@@ -12,47 +11,47 @@ export interface User {
 
 export type PublicUser = Omit<User, 'passwordHash'>;
 
-const USERS_FILE = path.join(process.cwd(), 'data', 'users.json');
-
-function readUsers(): User[] {
-  const raw = fs.readFileSync(USERS_FILE, 'utf-8');
-  return JSON.parse(raw) as User[];
-}
-
-function writeUsers(users: User[]): void {
-  fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2), 'utf-8');
+function rowToUser(row: Record<string, string>): User {
+  return {
+    id:           row.id,
+    email:        row.email,
+    name:         row.name,
+    passwordHash: row.password_hash,
+    role:         row.role as 'admin' | 'user',
+    createdAt:    row.created_at,
+  };
 }
 
 export async function getUsers(): Promise<User[]> {
-  return readUsers();
+  const { rows } = await pool.query('SELECT * FROM users ORDER BY created_at');
+  return rows.map(rowToUser);
 }
 
 export async function getUserByEmail(email: string): Promise<User | undefined> {
-  const users = readUsers();
-  return users.find(u => u.email.toLowerCase() === email.toLowerCase());
+  const { rows } = await pool.query(
+    'SELECT * FROM users WHERE LOWER(email) = LOWER($1)',
+    [email]
+  );
+  return rows[0] ? rowToUser(rows[0]) : undefined;
 }
 
 export async function getUserById(id: string): Promise<User | undefined> {
-  const users = readUsers();
-  return users.find(u => u.id === id);
+  const { rows } = await pool.query('SELECT * FROM users WHERE id = $1', [id]);
+  return rows[0] ? rowToUser(rows[0]) : undefined;
 }
 
 export async function addUser(user: User): Promise<void> {
-  const users = readUsers();
-  users.push(user);
-  writeUsers(users);
+  await pool.query(
+    `INSERT INTO users (id, email, name, password_hash, role, created_at)
+     VALUES ($1, $2, $3, $4, $5, $6)`,
+    [user.id, user.email, user.name, user.passwordHash, user.role, user.createdAt]
+  );
 }
 
 export async function deleteUser(id: string): Promise<void> {
-  const users = readUsers();
-  writeUsers(users.filter(u => u.id !== id));
+  await pool.query('DELETE FROM users WHERE id = $1', [id]);
 }
 
 export async function updatePassword(id: string, newHash: string): Promise<void> {
-  const users = readUsers();
-  const user = users.find(u => u.id === id);
-  if (user) {
-    user.passwordHash = newHash;
-    writeUsers(users);
-  }
+  await pool.query('UPDATE users SET password_hash = $1 WHERE id = $2', [newHash, id]);
 }

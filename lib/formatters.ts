@@ -1,8 +1,11 @@
-export function formatCurrency(value: number, currency: 'CZK' | 'EUR' = 'CZK'): string {
+export function formatCurrency(value: number, currency: 'CZK' | 'EUR' | 'PLN' = 'CZK'): string {
   if (currency === 'EUR') {
-    // EUR: 2 decimal places, prefix €
     const formatted = value.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0');
     return `${formatted}\u00a0€`;
+  }
+  if (currency === 'PLN') {
+    const formatted = value.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0');
+    return `${formatted}\u00a0zł`;
   }
   const formatted = Math.round(value)
     .toString()

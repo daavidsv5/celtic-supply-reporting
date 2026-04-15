@@ -20,14 +20,29 @@ interface CountryRow {
 
 const countryColors: Record<Country, string> = {
   at: '#ED2939',
+  cz: '#D7141A',
+  sk: '#0B4EA2',
+  pl: '#DC143C',
+  nl: '#FF4F00',
+  de: '#000000',
 };
 
 const countryLabels: Record<Country, string> = {
   at: 'Österreich (AT)',
+  cz: 'Česká republika (CZ)',
+  sk: 'Slovensko (SK)',
+  pl: 'Polska (PL)',
+  nl: 'Nederland (NL)',
+  de: 'Deutschland (DE)',
 };
 
-const countryCurrency: Record<Country, 'EUR'> = {
+const countryCurrency: Record<Country, 'EUR' | 'CZK' | 'PLN'> = {
   at: 'EUR',
+  cz: 'CZK',
+  sk: 'EUR',
+  pl: 'PLN',
+  nl: 'EUR',
+  de: 'EUR',
 };
 
 export default function CountryDistribution({ data }: Props) {

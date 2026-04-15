@@ -23,8 +23,8 @@ import {
   Cell,
 } from 'recharts';
 
-function formatYAxis(v: number, cur: 'CZK' | 'EUR' = 'CZK') {
-  const s = cur === 'EUR' ? '€' : 'Kč';
+function formatYAxis(v: number, cur: 'CZK' | 'EUR' | 'PLN' = 'CZK') {
+  const s = cur === 'EUR' ? '€' : cur === 'PLN' ? 'zł' : 'Kč';
   if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M ${s}`;
   if (v >= 1_000) return `${Math.round(v / 1_000)}k ${s}`;
   return `${v} ${s}`;
