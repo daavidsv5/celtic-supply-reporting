@@ -18,14 +18,6 @@ interface TopBarProps {
 
 const ALL_COUNTRIES: Country[] = ['at', 'cz', 'sk', 'pl', 'nl', 'de'];
 
-const countryColors: Record<Country, string> = {
-  at: '#ED2939',
-  cz: '#D7141A',
-  sk: '#0B4EA2',
-  pl: '#DC143C',
-  nl: '#FF4F00',
-  de: '#1a1a1a',
-};
 
 const periodLabels: Record<TimePeriod, string> = {
   current_year:  'Aktuální rok',
@@ -110,11 +102,10 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
                 key={c}
                 onClick={() => handleCountryToggle(c)}
                 title={c.toUpperCase()}
-                style={active ? { backgroundColor: countryColors[c], borderColor: countryColors[c], color: '#fff' } : {}}
                 className={`px-2 py-1 rounded-md text-[11px] font-bold uppercase border transition-colors ${
                   active
-                    ? 'shadow-sm'
-                    : 'border-slate-200 text-slate-400 hover:border-slate-400 hover:text-slate-600 bg-white'
+                    ? 'bg-blue-600 border-blue-600 text-white shadow-sm'
+                    : 'bg-white border-slate-200 text-slate-400 hover:border-slate-400 hover:text-slate-600'
                 }`}
               >
                 {c}
