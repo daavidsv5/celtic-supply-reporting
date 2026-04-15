@@ -1,16 +1,40 @@
 import { DailyRecord } from './types';
 import { realDataAT } from './realDataAT';
+import { realDataCZ } from './realDataCZ';
+import { realDataSK } from './realDataSK';
 
-export const mockData: DailyRecord[] = realDataAT.map(r => ({
-  date: r.date,
-  country: 'at' as const,
-  currency: 'EUR' as const,
-  orders: r.orders,
-  orders_cancelled: r.orders_cancelled,
-  revenue_vat: r.revenue_vat,
-  revenue: r.revenue,
-  cost: r.cost,
-}));
+export const mockData: DailyRecord[] = [
+  ...realDataAT.map(r => ({
+    date: r.date,
+    country: 'at' as const,
+    currency: 'EUR' as const,
+    orders: r.orders,
+    orders_cancelled: r.orders_cancelled,
+    revenue_vat: r.revenue_vat,
+    revenue: r.revenue,
+    cost: r.cost,
+  })),
+  ...realDataCZ.map(r => ({
+    date: r.date,
+    country: 'cz' as const,
+    currency: 'CZK' as const,
+    orders: r.orders,
+    orders_cancelled: r.orders_cancelled,
+    revenue_vat: r.revenue_vat,
+    revenue: r.revenue,
+    cost: r.cost,
+  })),
+  ...realDataSK.map(r => ({
+    date: r.date,
+    country: 'sk' as const,
+    currency: 'EUR' as const,
+    orders: r.orders,
+    orders_cancelled: r.orders_cancelled,
+    revenue_vat: r.revenue_vat,
+    revenue: r.revenue,
+    cost: r.cost,
+  })),
+];
 
 // Daily marketing data with per-channel breakdown
 export interface DailyMarketingRow {

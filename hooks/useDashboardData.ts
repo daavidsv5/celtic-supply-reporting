@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo } from 'react';
-import { DailyRecord, FilterState, KpiData, Currency } from '@/data/types';
+import { DailyRecord, FilterState, KpiData, Currency, getDisplayCurrency } from '@/data/types';
 import { getDateRange } from './useFilters';
 
 export interface ChartDataPoint {
@@ -71,10 +71,14 @@ export function useDashboardData(
     const prevStartStr = isoDate(prevStart);
     const prevEndStr  = isoDate(prevEnd);
 
-    const currency: Currency = 'EUR';
+    const currency: Currency = getDisplayCurrency(filters.countries);
 
-    const currentData = allData.filter(r => r.date >= startStr && r.date <= endStr);
-    const prevData    = allData.filter(r => r.date >= prevStartStr && r.date <= prevEndStr);
+    const currentData = allData.filter(r =>
+      r.date >= startStr && r.date <= endStr && filters.countries.includes(r.country)
+    );
+    const prevData = allData.filter(r =>
+      r.date >= prevStartStr && r.date <= prevEndStr && filters.countries.includes(r.country)
+    );
 
     const kpi     = calcKpi(currentData);
     const prevKpi = calcKpi(prevData);
