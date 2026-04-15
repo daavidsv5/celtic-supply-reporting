@@ -2,6 +2,9 @@ import { DailyRecord } from './types';
 import { realDataAT } from './realDataAT';
 import { realDataCZ } from './realDataCZ';
 import { realDataSK } from './realDataSK';
+import { realDataPL } from './realDataPL';
+import { realDataNL } from './realDataNL';
+import { realDataDE } from './realDataDE';
 
 export const mockData: DailyRecord[] = [
   ...realDataAT.map(r => ({
@@ -27,6 +30,36 @@ export const mockData: DailyRecord[] = [
   ...realDataSK.map(r => ({
     date: r.date,
     country: 'sk' as const,
+    currency: 'EUR' as const,
+    orders: r.orders,
+    orders_cancelled: r.orders_cancelled,
+    revenue_vat: r.revenue_vat,
+    revenue: r.revenue,
+    cost: r.cost,
+  })),
+  ...realDataPL.map(r => ({
+    date: r.date,
+    country: 'pl' as const,
+    currency: 'PLN' as const,
+    orders: r.orders,
+    orders_cancelled: r.orders_cancelled,
+    revenue_vat: r.revenue_vat,
+    revenue: r.revenue,
+    cost: r.cost,
+  })),
+  ...realDataNL.map(r => ({
+    date: r.date,
+    country: 'nl' as const,
+    currency: 'EUR' as const,
+    orders: r.orders,
+    orders_cancelled: r.orders_cancelled,
+    revenue_vat: r.revenue_vat,
+    revenue: r.revenue,
+    cost: r.cost,
+  })),
+  ...realDataDE.map(r => ({
+    date: r.date,
+    country: 'de' as const,
     currency: 'EUR' as const,
     orders: r.orders,
     orders_cancelled: r.orders_cancelled,
