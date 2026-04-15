@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { useSession } from 'next-auth/react';
-import { FilterState, TimePeriod } from '@/data/types';
+import { FilterState, TimePeriod, Country } from '@/data/types';
 import { getDateRange } from '@/hooks/useFilters';
 import { formatDate } from '@/lib/formatters';
 import { RefreshCw, Menu } from 'lucide-react';
@@ -15,6 +15,17 @@ interface TopBarProps {
   filters: FilterState;
   onChange: (f: FilterState) => void;
 }
+
+const ALL_COUNTRIES: Country[] = ['at', 'cz', 'sk', 'pl', 'nl', 'de'];
+
+const countryColors: Record<Country, string> = {
+  at: '#ED2939',
+  cz: '#D7141A',
+  sk: '#0B4EA2',
+  pl: '#DC143C',
+  nl: '#FF4F00',
+  de: '#1a1a1a',
+};
 
 const periodLabels: Record<TimePeriod, string> = {
   current_year:  'Aktuální rok',
@@ -54,6 +65,20 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
     onChange({ ...filters, timePeriod: period });
   };
 
+  const handleCountryToggle = (country: Country) => {
+    const active = filters.countries;
+    if (active.includes(country)) {
+      if (active.length === 1) return; // keep at least one
+      onChange({ ...filters, countries: active.filter(c => c !== country) });
+    } else {
+      onChange({ ...filters, countries: [...active, country] });
+    }
+  };
+
+  const handleSelectAll = () => {
+    onChange({ ...filters, countries: [...ALL_COUNTRIES] });
+  };
+
   const handleCustomDate = (field: 'customStart' | 'customEnd', val: string) => {
     onChange({ ...filters, [field]: val ? new Date(val) : undefined });
   };
@@ -75,6 +100,40 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
         >
           <Menu size={20} />
         </button>
+
+        {/* Country selectors */}
+        <div className="flex items-center gap-1 flex-shrink-0">
+          {ALL_COUNTRIES.map((c) => {
+            const active = filters.countries.includes(c);
+            return (
+              <button
+                key={c}
+                onClick={() => handleCountryToggle(c)}
+                title={c.toUpperCase()}
+                style={active ? { backgroundColor: countryColors[c], borderColor: countryColors[c], color: '#fff' } : {}}
+                className={`px-2 py-1 rounded-md text-[11px] font-bold uppercase border transition-colors ${
+                  active
+                    ? 'shadow-sm'
+                    : 'border-slate-200 text-slate-400 hover:border-slate-400 hover:text-slate-600 bg-white'
+                }`}
+              >
+                {c}
+              </button>
+            );
+          })}
+          {filters.countries.length < ALL_COUNTRIES.length && (
+            <button
+              onClick={handleSelectAll}
+              className="px-2 py-1 rounded-md text-[11px] font-bold border border-slate-200 text-slate-400 hover:border-blue-400 hover:text-blue-600 bg-white transition-colors"
+              title="Vybrat vše"
+            >
+              Vše
+            </button>
+          )}
+        </div>
+
+        {/* Divider */}
+        <div className="w-px h-5 bg-slate-200 flex-shrink-0 hidden sm:block" />
 
         {/* ── Hlavní Dashboard — rok selector ── */}
         {isHlavniDashboard ? (
