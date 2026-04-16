@@ -2,7 +2,7 @@ name: Update Shoptet Data
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # 04:00 UTC = 05:00 CET (zima) / 06:00 CEST (léto)
+    - cron: '0 3 * * *'  # 03:00 UTC = 04:00 CET (zima) / 05:00 CEST (léto)
   workflow_dispatch:       # Ruční spuštění přes GitHub UI
 
 permissions:
