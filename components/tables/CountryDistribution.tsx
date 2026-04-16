@@ -48,9 +48,6 @@ const countryLabels: Record<Country, string> = {
   de: 'Deutschland (DE)',
 };
 
-const countryCurrency: Record<Country, 'EUR' | 'CZK' | 'PLN'> = {
-  at: 'EUR', cz: 'CZK', sk: 'EUR', pl: 'PLN', nl: 'EUR', de: 'EUR',
-};
 
 function yoyPct(cur: number, prev: number) {
   if (prev === 0) return null;
@@ -186,8 +183,7 @@ export default function CountryDistribution({ data, prevData = [], marginCur = {
           </thead>
           <tbody>
             {rows.map((r, idx) => {
-              const cur = countryCurrency[r.country];
-              const fc = (v: number) => formatCurrency(v, cur);
+              const fc = (v: number) => formatCurrency(v, 'CZK');
               const grossProfit     = r.marginRev     > 0 ? (r.marginRev     - r.purchaseCost)     - r.cost     : 0;
               const prevGrossProfit = r.prevMarginRev > 0 ? (r.prevMarginRev - r.prevPurchaseCost) - r.prevCost : 0;
               const grossPct        = r.marginRev     > 0 ? (grossProfit     / r.marginRev)     * 100 : 0;
