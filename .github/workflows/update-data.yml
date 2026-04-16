@@ -1,9 +1,9 @@
-name: Update Data
+name: Update Shoptet Data
 
 on:
   schedule:
-    - cron: '0 5 * * *'   # 05:00 UTC = 06:00 CET / 07:00 CEST
-  workflow_dispatch:        # Možnost spustit ručně přes GitHub UI
+    - cron: '0 4 * * *'  # 04:00 UTC = 05:00 CET (zima) / 06:00 CEST (léto)
+  workflow_dispatch:       # Ruční spuštění přes GitHub UI
 
 permissions:
   contents: write
@@ -28,5 +28,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run update script
-        run: node scripts/updateData.js
+      - name: Run all market updates
+        env:
+          SHOPTET_API_TOKEN_AT: ${{ secrets.SHOPTET_API_TOKEN_AT }}
+          SHOPTET_API_TOKEN_PL: ${{ secrets.SHOPTET_API_TOKEN_PL }}
+          SHOPTET_API_TOKEN_NL: ${{ secrets.SHOPTET_API_TOKEN_NL }}
+          SHOPTET_API_TOKEN_DE: ${{ secrets.SHOPTET_API_TOKEN_DE }}
+          SHOPTET_API_TOKEN_SK: ${{ secrets.SHOPTET_API_TOKEN_SK }}
+          SHOPTET_API_TOKEN_CZ: ${{ secrets.SHOPTET_API_TOKEN_CZ }}
+        run: node scripts/updateAllMarkets.js
