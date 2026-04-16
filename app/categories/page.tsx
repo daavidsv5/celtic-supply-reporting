@@ -14,9 +14,19 @@ import { categoryDataDE } from '@/data/categoryDataDE';
 import { categoryDataSK } from '@/data/categoryDataSK';
 import { categoryDataCZ } from '@/data/categoryDataCZ';
 import { formatCurrency, formatNumber, localIsoDate, formatMonthYear } from '@/lib/formatters';
-import { getDisplayCurrency } from '@/data/types';
+import { getDisplayCurrency, isAllCountries } from '@/data/types';
+import { useExchangeRates, toCZK } from '@/hooks/useExchangeRates';
 
 const HIDDEN_CATEGORIES = new Set(['Skrýt', 'Nach Hersteller', 'Nezařazeno']);
+
+const ALL_CATEGORY_SOURCES = [
+  { data: categoryDataAT, currency: 'EUR' as const },
+  { data: categoryDataCZ, currency: 'CZK' as const },
+  { data: categoryDataSK, currency: 'EUR' as const },
+  { data: categoryDataPL, currency: 'PLN' as const },
+  { data: categoryDataNL, currency: 'EUR' as const },
+  { data: categoryDataDE, currency: 'EUR' as const },
+];
 
 const TREND_COLORS = [
   '#2563eb', '#16a34a', '#dc2626', '#d97706', '#7c3aed',
@@ -437,11 +447,24 @@ export default function CategoriesPage() {
 
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
+  const rates = useExchangeRates();
+  const multiCountry = isAllCountries(filters.countries);
   const country = filters.countries[0];
-  const categoryData = country === 'cz' ? categoryDataCZ : country === 'sk' ? categoryDataSK : country === 'pl' ? categoryDataPL : country === 'nl' ? categoryDataNL : country === 'de' ? categoryDataDE : categoryDataAT;
+  const singleCategoryData = country === 'cz' ? categoryDataCZ : country === 'sk' ? categoryDataSK : country === 'pl' ? categoryDataPL : country === 'nl' ? categoryDataNL : country === 'de' ? categoryDataDE : categoryDataAT;
   const currency = getDisplayCurrency(filters.countries);
   const fc = (v: number) => formatCurrency(v, currency);
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
+
+  const activeCategoryData = useMemo(() => {
+    if (!multiCountry) return singleCategoryData;
+    return ALL_CATEGORY_SOURCES.flatMap(({ data, currency: cur }) =>
+      data.map(r => ({
+        ...r,
+        revenue:      toCZK(r.revenue, cur, rates),
+        purchaseCost: toCZK(r.purchaseCost, cur, rates),
+      }))
+    );
+  }, [multiCountry, singleCategoryData, rates]);
   const isMonthly = dayCount > 60;
 
   const toggleExpand = (cat: string) => {
@@ -457,7 +480,7 @@ export default function CategoriesPage() {
     const current: Record<string, Record<string, Agg>> = {};
     const prev:    Record<string, Record<string, Agg>> = {};
 
-    for (const r of categoryData) {
+    for (const r of activeCategoryData) {
       if (HIDDEN_CATEGORIES.has(r.category)) continue;
       const sub = r.subCategory || '';
       if (r.date >= startStr && r.date <= endStr) {
@@ -546,7 +569,7 @@ export default function CategoriesPage() {
     });
 
     return { rows: list, totalRevenue: totalRev, prevTotalRevenue: prevTotalRev, totalPurchaseCost: totalCost, prevTotalPurchaseCost: prevTotalCost, totalQuantity: totalQty, prevTotalQuantity: prevTotalQty, hasPrevData: hasPrev, allOptions: opts };
-  }, [startStr, endStr, prevStartStr, prevEndStr, categoryData]);
+  }, [startStr, endStr, prevStartStr, prevEndStr, activeCategoryData]);
 
   return (
     <div className="p-4 sm:p-6 space-y-6">
@@ -570,7 +593,7 @@ export default function CategoriesPage() {
         isMonthly={isMonthly}
         hasPrevData={hasPrevData}
         fc={fc}
-        categoryData={categoryData}
+        categoryData={activeCategoryData}
       />
 
       {/* Table */}

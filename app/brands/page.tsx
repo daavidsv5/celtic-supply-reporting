@@ -14,7 +14,17 @@ import { brandDataDE } from '@/data/brandDataDE';
 import { brandDataSK } from '@/data/brandDataSK';
 import { brandDataCZ } from '@/data/brandDataCZ';
 import { formatCurrency, formatNumber, localIsoDate, formatMonthYear } from '@/lib/formatters';
-import { getDisplayCurrency } from '@/data/types';
+import { getDisplayCurrency, isAllCountries } from '@/data/types';
+import { useExchangeRates, toCZK } from '@/hooks/useExchangeRates';
+
+const ALL_BRAND_SOURCES = [
+  { data: brandDataAT, currency: 'EUR' as const },
+  { data: brandDataCZ, currency: 'CZK' as const },
+  { data: brandDataSK, currency: 'EUR' as const },
+  { data: brandDataPL, currency: 'PLN' as const },
+  { data: brandDataNL, currency: 'EUR' as const },
+  { data: brandDataDE, currency: 'EUR' as const },
+];
 
 const HIDDEN_BRANDS = new Set(['Nezařazeno']);
 
@@ -387,18 +397,31 @@ export default function BrandsPage() {
   const prevStartStr = localIsoDate(prevStart);
   const prevEndStr   = localIsoDate(prevEnd);
 
+  const rates = useExchangeRates();
+  const multiCountry = isAllCountries(filters.countries);
   const country = filters.countries[0];
-  const brandData = country === 'cz' ? brandDataCZ : country === 'sk' ? brandDataSK : country === 'pl' ? brandDataPL : country === 'nl' ? brandDataNL : country === 'de' ? brandDataDE : brandDataAT;
+  const singleBrandData = country === 'cz' ? brandDataCZ : country === 'sk' ? brandDataSK : country === 'pl' ? brandDataPL : country === 'nl' ? brandDataNL : country === 'de' ? brandDataDE : brandDataAT;
   const currency = getDisplayCurrency(filters.countries);
   const fc = (v: number) => formatCurrency(v, currency);
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
   const isMonthly = dayCount > 60;
 
+  const activeBrandData = useMemo(() => {
+    if (!multiCountry) return singleBrandData;
+    return ALL_BRAND_SOURCES.flatMap(({ data, currency: cur }) =>
+      data.map(r => ({
+        ...r,
+        revenue:      toCZK(r.revenue, cur, rates),
+        purchaseCost: toCZK(r.purchaseCost, cur, rates),
+      }))
+    );
+  }, [multiCountry, singleBrandData, rates]);
+
   const { rows, totalRevenue, prevTotalRevenue, totalPurchaseCost, prevTotalPurchaseCost, totalQuantity, prevTotalQuantity, hasPrevData, allBrands } = useMemo(() => {
     const current: Record<string, { revenue: number; purchaseCost: number; quantity: number }> = {};
     const prev:    Record<string, { revenue: number; purchaseCost: number; quantity: number }> = {};
 
-    for (const r of brandData) {
+    for (const r of activeBrandData) {
       if (HIDDEN_BRANDS.has(r.brand)) continue;
       if (r.date >= startStr && r.date <= endStr) {
         if (!current[r.brand]) current[r.brand] = { revenue: 0, purchaseCost: 0, quantity: 0 };
@@ -457,7 +480,7 @@ export default function BrandsPage() {
       hasPrevData: hasPrev,
       allBrands: brands,
     };
-  }, [startStr, endStr, prevStartStr, prevEndStr, brandData]);
+  }, [startStr, endStr, prevStartStr, prevEndStr, activeBrandData]);
 
   return (
     <div className="p-4 sm:p-6 space-y-6">
@@ -482,7 +505,7 @@ export default function BrandsPage() {
         isMonthly={isMonthly}
         hasPrevData={hasPrevData}
         fc={fc}
-        brandData={brandData}
+        brandData={activeBrandData}
       />
 
       {/* Table */}
