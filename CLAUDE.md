@@ -64,9 +64,10 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 
 ### Aktualizace dat
 
-- **Windows Task Scheduler** — task `Shoptet Reporting - Update All Markets` spouští `scripts/updateAllMarkets.bat` každý den v **06:00 CET**
+- **GitHub Actions** (`.github/workflows/update-data.yml`) — spouští `scripts/updateAllMarkets.js` každý den v **04:00 CET** (03:00 UTC)
 - `updateAllMarkets.js` spustí sekvenčně AT → PL → NL → DE → SK → CZ (inkrementální 10 dní) → updateData.js (Google Sheets), pak `git commit + push` → Vercel redeploy
 - `data/lastUpdate.ts` — auto-gen timestamp poslední aktualizace, zobrazen v TopBaru vpravo
+- **CZ full sync** — `fetchShoptetDataCZ.js --full` stáhne ~95k objednávek od 2023-01-01 (resumable, trvá ~14 h); po dokončení commitnout `data/*CZ.ts`
 
 ### Databáze (Neon PostgreSQL)
 
@@ -92,8 +93,8 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `/crosssell` | Cross-sell potenciál — top 100 produktových párů |
 | `/retention` | Retenční analýza — RFM segmentace, LTV, AOV, repeat purchase rate, měsíční graf Noví vs. stávající |
 | `/shipping` | Doprava a platby — KPI vč. zisku/ztráty dopravy, ceník dopravců, P&L tabulka per dopravce |
-| `/categories` | Kategorie prodejnost — tržby bez DPH dle kategorií, trendový graf, YoY tabulka |
-| `/brands` | Značky — tržby bez DPH dle značek/výrobců, trendový graf, YoY tabulka |
+| `/categories` | Kategorie prodejnost — tržby bez DPH dle kategorií, trendový graf, YoY tabulka + sloupec Počet ks s YoY; bez selektoru Vše |
+| `/brands` | Značky — tržby bez DPH dle značek/výrobců, trendový graf, YoY tabulka + sloupec Počet ks s YoY; bez selektoru Vše |
 | `/login` | Přihlášení (NextAuth) |
 | `/admin/users` | Správa uživatelů (admin only) |
 
@@ -116,6 +117,7 @@ TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (
 - `getDisplayCurrency` vrací `'CZK'`
 - Všechny hodnoty jsou přepočítány aktuálním kurzem do Kč (viz `useExchangeRates`)
 - Stránky s podporou Vše: `/hlavni-dashboard`, `/dashboard`, `/orders`, `/margin`
+- Tlačítko **Vše skryto** na: `/shipping`, `/categories`, `/brands`, `/retention`, `/analytics`, `/crosssell`, `/behavior`
 
 ### Kurzy měn (`useExchangeRates`)
 
@@ -137,8 +139,8 @@ TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (
 | `data/realDataNL.ts` | Auto-gen NL data (EUR) z Shoptet API — **needitovat ručně** |
 | `data/realDataDE.ts` | Auto-gen DE data (EUR) z Shoptet API — **needitovat ručně** |
 | `data/lastUpdate.ts` | Auto-gen timestamp poslední aktualizace — **needitovat ručně** |
-| `data/categoryData*.ts` | Tržby dle kategorií — auto-gen ze Shoptet API (AT/PL/NL/DE/SK/CZ) |
-| `data/brandData*.ts` | Tržby dle značek — auto-gen ze Shoptet API (AT/PL/NL/DE/SK/CZ) |
+| `data/categoryData*.ts` | Tržby + počet kusů dle kategorií — auto-gen ze Shoptet API (AT/PL/NL/DE/SK/CZ); pole `quantity: number` |
+| `data/brandData*.ts` | Tržby + počet kusů dle značek — auto-gen ze Shoptet API (AT/PL/NL/DE/SK/CZ); pole `quantity: number` |
 | `data/productData*.ts` | Prodej produktů (počet kusů, tržby) — auto-gen |
 | `data/marginData*.ts` | Marže (nákupní cena vs tržby bez DPH) — auto-gen |
 | `data/hourlyData*.ts` | Nákupní chování 7×24 grid — auto-gen, all-time |
@@ -162,6 +164,7 @@ TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (
 | `app/api/update/route.ts` | POST endpoint — admin only; Vercel Deploy Hook nebo lokální skript |
 | `app/api/exchange-rates/route.ts` | GET endpoint — vrací aktuální kurzy EUR_CZK + PLN_CZK (frankfurter.app, revalidate 24 h) |
 | `components/tables/DailyTable.tsx` | Tabulka „Přehled po dnech"; prop `currency?: Currency` (default `'EUR'`) — předávat vždy z page |
+| `components/tables/CountryDistribution.tsx` | Tabulka distribuce dle zemí (multi-country view); hodnoty vždy v CZK; YoY badges + sloupce AOV, Marže %, Hrubý zisk, Hrubý zisk % |
 | `components/layout/TopBar.tsx` | Selektor zemí: tlačítko **Vše** (první) + single-select jednotlivé země; rok-selector pro `/hlavni-dashboard` |
 
 ### KPI komponenty
