@@ -175,6 +175,7 @@ export default function CountryDistribution({ data, prevData = [], marginCur = {
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Objednávky</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Tržby bez DPH</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Tržby s DPH</th>
+              <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">AOV</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Náklady</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">PNO</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">CPA</th>
@@ -191,6 +192,8 @@ export default function CountryDistribution({ data, prevData = [], marginCur = {
               const grossPct        = r.marginRev     > 0 ? (grossProfit     / r.marginRev)     * 100 : 0;
               const prevGrossPct    = r.prevMarginRev > 0 ? (prevGrossProfit / r.prevMarginRev) * 100 : 0;
               const showMargin      = r.marginRev > 0;
+              const aov     = r.orders     > 0 ? r.revenue     / r.orders     : 0;
+              const prevAov = r.prevOrders > 0 ? r.prevRevenue / r.prevOrders : 0;
               return (
                 <tr key={r.country} className={`border-b border-slate-50 hover:bg-slate-50/70 transition-colors ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
                   <td className="px-5 py-3">
@@ -207,14 +210,20 @@ export default function CountryDistribution({ data, prevData = [], marginCur = {
                   </td>
                   <td className="px-4 py-3 text-right">
                     <div className="flex flex-col items-end gap-0.5">
-                      <span className="text-slate-500">{fc(r.revenue)}</span>
+                      <span className="text-slate-800 font-semibold">{fc(r.revenue)}</span>
                       {hasPrevData && <YoyBadge cur={r.revenue} prev={r.prevRevenue} />}
                     </div>
                   </td>
                   <td className="px-4 py-3 text-right">
                     <div className="flex flex-col items-end gap-0.5">
-                      <span className="text-slate-800 font-semibold">{fc(r.revenue_vat)}</span>
+                      <span className="text-slate-500">{fc(r.revenue_vat)}</span>
                       {hasPrevData && <YoyBadge cur={r.revenue_vat} prev={r.prevRevenue_vat} />}
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className="text-slate-600 font-medium">{fc(aov)}</span>
+                      {hasPrevData && <YoyBadge cur={aov} prev={prevAov} />}
                     </div>
                   </td>
                   <td className="px-4 py-3 text-right">
