@@ -114131,5 +114131,13 @@ export const categoryDataSK: CategoryRevenueRecord[] = [
     "revenue": 22.93,
     "purchaseCost": 9.6,
     "quantity": 15
+  },
+  {
+    "date": "2026-04-16",
+    "category": "Permanentný make-up",
+    "subCategory": "Cartridge pre PMU",
+    "revenue": 14.02,
+    "purchaseCost": 10.1,
+    "quantity": 8
   }
 ];

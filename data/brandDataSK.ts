@@ -125575,5 +125575,12 @@ export const brandDataSK: BrandRevenueRecord[] = [
     "revenue": 60.73,
     "purchaseCost": 21.37,
     "quantity": 1
+  },
+  {
+    "date": "2026-04-16",
+    "brand": "FK Irons",
+    "revenue": 14.02,
+    "purchaseCost": 10.1,
+    "quantity": 8
   }
 ];
