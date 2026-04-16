@@ -35,7 +35,7 @@ const periodTitles: Record<string, string> = {
 export default function DashboardPage() {
   const { filters } = useFilters();
   const rates = useExchangeRates();
-  const { kpi, prevKpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData, rates);
+  const { kpi, prevKpi, yoy, chartData, currentData, prevData, currency, hasPrevData } = useDashboardData(filters, mockData, rates);
 
   const { start, end, prevStart, prevEnd } = getDateRange(filters);
   const multiCountry = filters.countries.length > 1;
@@ -81,6 +81,33 @@ export default function DashboardPage() {
     }
     return { marginData, purchaseCost: pc, marginRev: mr, prevPurchaseCost: prevPc, prevMarginRev: prevMr };
   }, [start, end, prevStart, prevEnd, activeMarginData, allMarginSources, multiCountry, rates]);
+
+  const marginPerCountry = useMemo(() => {
+    const s  = localIsoDate(start);
+    const e  = localIsoDate(end);
+    const ps = localIsoDate(prevStart);
+    const pe = localIsoDate(prevEnd);
+    const sources = [
+      { country: 'at', data: marginDataAT, cur: 'EUR'  as const },
+      { country: 'cz', data: marginDataCZ, cur: 'CZK'  as const },
+      { country: 'sk', data: marginDataSK, cur: 'EUR'  as const },
+      { country: 'pl', data: marginDataPL, cur: 'PLN'  as const },
+      { country: 'nl', data: marginDataNL, cur: 'EUR'  as const },
+      { country: 'de', data: marginDataDE, cur: 'EUR'  as const },
+    ];
+    const cur:  Record<string, { purchaseCost: number; marginRev: number }> = {};
+    const prev: Record<string, { purchaseCost: number; marginRev: number }> = {};
+    for (const { country, data, cur: currency } of sources) {
+      const factor = multiCountry ? toCZK(1, currency, rates) : 1;
+      cur[country]  = { purchaseCost: 0, marginRev: 0 };
+      prev[country] = { purchaseCost: 0, marginRev: 0 };
+      for (const r of data) {
+        if (r.date >= s && r.date <= e)  { cur[country].purchaseCost  += r.purchaseCost * factor; cur[country].marginRev  += r.revenue * factor; }
+        if (r.date >= ps && r.date <= pe){ prev[country].purchaseCost += r.purchaseCost * factor; prev[country].marginRev += r.revenue * factor; }
+      }
+    }
+    return { cur, prev };
+  }, [start, end, prevStart, prevEnd, multiCountry, rates]);
 
   const newCustomerCounts = useMemo(() => {
     const s  = localIsoDate(start);
@@ -186,7 +213,13 @@ export default function DashboardPage() {
 
       {/* Country Distribution */}
       {filters.countries.length > 1 && (
-        <CountryDistribution data={currentData} />
+        <CountryDistribution
+          data={currentData}
+          prevData={prevData}
+          marginCur={marginPerCountry.cur}
+          prevMarginCur={marginPerCountry.prev}
+          hasPrevData={hasPrevData}
+        />
       )}
 
       {/* KPI line charts — Tržby, Objednávky, Náklady, PNO */}
