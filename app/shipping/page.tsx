@@ -12,12 +12,19 @@ import { shippingPaymentDataDE } from '@/data/shippingPaymentDataDE';
 import { formatCurrency, formatNumber, formatDate, localIsoDate } from '@/lib/formatters';
 import { Truck, CreditCard, DollarSign, Banknote, Star, Award, Gift, Save, RotateCcw } from 'lucide-react';
 
-const LS_KEY = 'carrierCosts_v1';
-
 interface CarrierCost {
-  at: string;  // EUR, prázdný řetězec = nevyplněno
+  at: string;  // cena, prázdný řetězec = nevyplněno
   note: string;
 }
+
+const COUNTRY_META: Record<string, { flag: string; name: string; sym: string; curLabel: string }> = {
+  at: { flag: '🇦🇹', name: 'Österreich',      sym: '€',  curLabel: 'EUR' },
+  cz: { flag: '🇨🇿', name: 'Česká republika', sym: 'Kč', curLabel: 'CZK' },
+  sk: { flag: '🇸🇰', name: 'Slovensko',        sym: '€',  curLabel: 'EUR' },
+  pl: { flag: '🇵🇱', name: 'Polska',           sym: 'zł', curLabel: 'PLN' },
+  nl: { flag: '🇳🇱', name: 'Nederland',        sym: '€',  curLabel: 'EUR' },
+  de: { flag: '🇩🇪', name: 'Deutschland',      sym: '€',  curLabel: 'EUR' },
+};
 import KpiCard from '@/components/kpi/KpiCard';
 import { C } from '@/lib/chartColors';
 import StatCard from '@/components/kpi/StatCard';
@@ -179,8 +186,12 @@ export default function ShippingPage() {
   const prevStartStr = localIsoDate(prevStart);
   const prevEndStr   = localIsoDate(prevEnd);
 
+  const country = filters.countries[0] ?? 'at';
+  const lsKey = `carrierCosts_v1_${country}`;
+  const countryMeta = COUNTRY_META[country] ?? COUNTRY_META.at;
+
   const shippingByCountry = { at: shippingPaymentDataAT, cz: shippingPaymentDataCZ, sk: shippingPaymentDataSK, pl: shippingPaymentDataPL, nl: shippingPaymentDataNL, de: shippingPaymentDataDE };
-  const shippingData = shippingByCountry[filters.countries[0]] ?? shippingPaymentDataAT;
+  const shippingData = shippingByCountry[country] ?? shippingPaymentDataAT;
   const currency = getDisplayCurrency(filters.countries);
   const fc = (v: number) => formatCurrency(v, currency);
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
@@ -310,7 +321,7 @@ export default function ShippingPage() {
   // ── Carrier cost table ─────────────────────────────────────────────────────
   const allCarriers = useMemo(() =>
     [...new Set(shippingData.filter(r => r.type === 'shipping').map(r => r.name))].sort(),
-    []
+    [shippingData]
   );
 
   const [costs, setCosts] = useState<Record<string, CarrierCost>>({});
@@ -319,10 +330,10 @@ export default function ShippingPage() {
 
   useEffect(() => {
     try {
-      const raw = localStorage.getItem(LS_KEY);
-      if (raw) setCosts(JSON.parse(raw));
-    } catch {}
-  }, []);
+      const raw = localStorage.getItem(lsKey);
+      setCosts(raw ? JSON.parse(raw) : {});
+    } catch { setCosts({}); }
+  }, [lsKey]);
 
   // E-shop shipping cost = sum(count * pricePerCarrier) for the current period
   const eshopShippingCost = useMemo(() => {
@@ -360,7 +371,7 @@ export default function ShippingPage() {
   }
 
   function saveCosts() {
-    localStorage.setItem(LS_KEY, JSON.stringify(costs));
+    localStorage.setItem(lsKey, JSON.stringify(costs));
     setSaved(true);
     if (saveTimer.current) clearTimeout(saveTimer.current);
     saveTimer.current = setTimeout(() => setSaved(false), 2500);
@@ -369,7 +380,7 @@ export default function ShippingPage() {
   function resetCosts() {
     if (!confirm('Opravdu vymazat všechny ceny dopravců?')) return;
     setCosts({});
-    localStorage.removeItem(LS_KEY);
+    localStorage.removeItem(lsKey);
     setSaved(false);
   }
 
@@ -706,17 +717,18 @@ export default function ShippingPage() {
 
         <div>
 
-          {/* AT */}
           <div>
-            <div className="px-4 py-2.5 bg-red-50 border-b border-red-100 flex items-center gap-2">
-              <span className="text-sm">🇦🇹</span>
-              <span className="text-xs font-bold text-red-700 uppercase tracking-wider">Österreich — ceny v €</span>
+            <div className="px-4 py-2.5 bg-slate-50 border-b border-slate-100 flex items-center gap-2">
+              <span className="text-sm">{countryMeta.flag}</span>
+              <span className="text-xs font-bold text-slate-600 uppercase tracking-wider">
+                {countryMeta.name} — ceny v {countryMeta.curLabel}
+              </span>
             </div>
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-blue-900">
                   <th className="px-4 py-2.5 text-left text-[11px] font-semibold text-white uppercase tracking-wider">Dopravce</th>
-                  <th className="px-4 py-2.5 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Cena (€)</th>
+                  <th className="px-4 py-2.5 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Cena ({countryMeta.sym})</th>
                   <th className="px-4 py-2.5 text-left text-[11px] font-semibold text-white uppercase tracking-wider">Poznámka</th>
                 </tr>
               </thead>
@@ -731,7 +743,7 @@ export default function ShippingPage() {
                           <div className="relative">
                             <input type="number" min="0" step="0.01" value={c.at} onChange={e => updateCost(name, 'at', e.target.value)} placeholder="0.00"
                               className="w-24 text-right text-sm tabular-nums pr-6 pl-2 py-1.5 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300" />
-                            <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-slate-400 pointer-events-none">€</span>
+                            <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-slate-400 pointer-events-none">{countryMeta.sym}</span>
                           </div>
                         </div>
                       </td>

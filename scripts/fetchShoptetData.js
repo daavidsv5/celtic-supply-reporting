@@ -320,16 +320,18 @@ function processOrders(orders, productCategoryMap = {}) {
       const rootCat = catEntry.root || 'Nezařazeno';
       const subCat  = catEntry.sub  || '';
       const ck = `${date}|${rootCat}|${subCat}`;
-      if (!byCategory[ck]) byCategory[ck] = { date, category: rootCat, subCategory: subCat, revenue: 0, purchaseCost: 0 };
+      if (!byCategory[ck]) byCategory[ck] = { date, category: rootCat, subCategory: subCat, revenue: 0, purchaseCost: 0, quantity: 0 };
       byCategory[ck].revenue      += rev;
       byCategory[ck].purchaseCost += cost * qty;
+      byCategory[ck].quantity     += qty;
 
       // Brands
       const brand = ((item.productGuid && productCategoryMap[item.productGuid]?.brand) || '').trim() || 'Nezařazeno';
       const bk = `${date}|${brand}`;
-      if (!byBrand[bk]) byBrand[bk] = { date, brand, revenue: 0, purchaseCost: 0 };
+      if (!byBrand[bk]) byBrand[bk] = { date, brand, revenue: 0, purchaseCost: 0, quantity: 0 };
       byBrand[bk].revenue      += rev;
       byBrand[bk].purchaseCost += cost * qty;
+      byBrand[bk].quantity     += qty;
     }
 
     // Margin
@@ -597,6 +599,7 @@ export interface CategoryRevenueRecord {
   subCategory: string;
   revenue: number;
   purchaseCost: number;
+  quantity: number;
 }
 
 export const categoryDataAT: CategoryRevenueRecord[] = ${JSON.stringify(records, null, 2)};
@@ -615,6 +618,7 @@ export interface BrandRevenueRecord {
   brand: string;
   revenue: number;
   purchaseCost: number;
+  quantity: number;
 }
 
 export const brandDataAT: BrandRevenueRecord[] = ${JSON.stringify(records, null, 2)};

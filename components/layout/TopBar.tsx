@@ -34,6 +34,9 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
   const { data: session } = useSession();
   const isAdmin = (session?.user as { role?: string })?.role === 'admin';
   const isHlavniDashboard = pathname === '/hlavni-dashboard';
+  const isShipping = pathname === '/shipping';
+  const hideVse = isShipping || pathname === '/categories' || pathname === '/brands'
+    || pathname === '/retention' || pathname === '/analytics' || pathname === '/crosssell' || pathname === '/behavior';
   const dash = useHlavniDashboard();
 
   const handleUpdate = async () => {
@@ -86,18 +89,20 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
 
         {/* Country selectors */}
         <div className="flex items-center gap-1 flex-shrink-0">
-          {/* Vše — first */}
-          <button
-            onClick={handleSelectAll}
-            title="Všechny země"
-            className={`px-4 py-2 rounded-md text-[15px] font-bold border transition-colors ${
-              filters.countries.length === ALL_COUNTRIES.length
-                ? 'bg-blue-600 border-blue-600 text-white shadow-sm'
-                : 'bg-white border-slate-200 text-slate-400 hover:border-slate-400 hover:text-slate-600'
-            }`}
-          >
-            Vše
-          </button>
+          {/* Vše — skryté na /shipping, /categories, /brands */}
+          {!hideVse && (
+            <button
+              onClick={handleSelectAll}
+              title="Všechny země"
+              className={`px-4 py-2 rounded-md text-[15px] font-bold border transition-colors ${
+                filters.countries.length === ALL_COUNTRIES.length
+                  ? 'bg-blue-600 border-blue-600 text-white shadow-sm'
+                  : 'bg-white border-slate-200 text-slate-400 hover:border-slate-400 hover:text-slate-600'
+              }`}
+            >
+              Vše
+            </button>
+          )}
           {ALL_COUNTRIES.map((c) => {
             const active = filters.countries.length === 1 && filters.countries[0] === c;
             return (

@@ -19,12 +19,12 @@ interface CountryRow {
 }
 
 const countryColors: Record<Country, string> = {
-  at: '#ED2939',
-  cz: '#D7141A',
-  sk: '#0B4EA2',
-  pl: '#DC143C',
-  nl: '#FF4F00',
-  de: '#000000',
+  at: '#DC2626',  // červená
+  cz: '#2563EB',  // modrá
+  sk: '#16A34A',  // zelená
+  pl: '#9333EA',  // fialová
+  nl: '#EA580C',  // oranžová
+  de: '#374151',  // tmavá šedá
 };
 
 const countryLabels: Record<Country, string> = {

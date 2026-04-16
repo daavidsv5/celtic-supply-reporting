@@ -13,7 +13,7 @@ import { categoryDataNL } from '@/data/categoryDataNL';
 import { categoryDataDE } from '@/data/categoryDataDE';
 import { categoryDataSK } from '@/data/categoryDataSK';
 import { categoryDataCZ } from '@/data/categoryDataCZ';
-import { formatCurrency, localIsoDate, formatMonthYear } from '@/lib/formatters';
+import { formatCurrency, formatNumber, localIsoDate, formatMonthYear } from '@/lib/formatters';
 import { getDisplayCurrency } from '@/data/types';
 
 const HIDDEN_CATEGORIES = new Set(['Skrýt', 'Nach Hersteller', 'Nezařazeno']);
@@ -37,6 +37,8 @@ interface SubRow {
   prevRevenue: number;
   purchaseCost: number;
   prevPurchaseCost: number;
+  quantity: number;
+  prevQuantity: number;
   share: number;
 }
 
@@ -46,6 +48,8 @@ interface CategoryRow {
   prevRevenue: number;
   purchaseCost: number;
   prevPurchaseCost: number;
+  quantity: number;
+  prevQuantity: number;
   share: number;
   subs: SubRow[];
 }
@@ -448,8 +452,8 @@ export default function CategoriesPage() {
     });
   };
 
-  const { rows, totalRevenue, prevTotalRevenue, totalPurchaseCost, prevTotalPurchaseCost, hasPrevData, allOptions } = useMemo(() => {
-    type Agg = { revenue: number; purchaseCost: number };
+  const { rows, totalRevenue, prevTotalRevenue, totalPurchaseCost, prevTotalPurchaseCost, totalQuantity, prevTotalQuantity, hasPrevData, allOptions } = useMemo(() => {
+    type Agg = { revenue: number; purchaseCost: number; quantity: number };
     const current: Record<string, Record<string, Agg>> = {};
     const prev:    Record<string, Record<string, Agg>> = {};
 
@@ -458,27 +462,31 @@ export default function CategoriesPage() {
       const sub = r.subCategory || '';
       if (r.date >= startStr && r.date <= endStr) {
         if (!current[r.category]) current[r.category] = {};
-        if (!current[r.category][sub]) current[r.category][sub] = { revenue: 0, purchaseCost: 0 };
+        if (!current[r.category][sub]) current[r.category][sub] = { revenue: 0, purchaseCost: 0, quantity: 0 };
         current[r.category][sub].revenue      += r.revenue;
         current[r.category][sub].purchaseCost += r.purchaseCost;
+        current[r.category][sub].quantity     += (r as any).quantity ?? 0;
       }
       if (r.date >= prevStartStr && r.date <= prevEndStr) {
         if (!prev[r.category]) prev[r.category] = {};
-        if (!prev[r.category][sub]) prev[r.category][sub] = { revenue: 0, purchaseCost: 0 };
+        if (!prev[r.category][sub]) prev[r.category][sub] = { revenue: 0, purchaseCost: 0, quantity: 0 };
         prev[r.category][sub].revenue      += r.revenue;
         prev[r.category][sub].purchaseCost += r.purchaseCost;
+        prev[r.category][sub].quantity     += (r as any).quantity ?? 0;
       }
     }
 
     const sumAgg = (subs: Record<string, Agg>) => Object.values(subs).reduce(
-      (acc, v) => ({ revenue: acc.revenue + v.revenue, purchaseCost: acc.purchaseCost + v.purchaseCost }),
-      { revenue: 0, purchaseCost: 0 }
+      (acc, v) => ({ revenue: acc.revenue + v.revenue, purchaseCost: acc.purchaseCost + v.purchaseCost, quantity: acc.quantity + v.quantity }),
+      { revenue: 0, purchaseCost: 0, quantity: 0 }
     );
 
     const totalRev      = Object.values(current).reduce((s, subs) => s + sumAgg(subs).revenue, 0);
     const prevTotalRev  = Object.values(prev).reduce((s, subs) => s + sumAgg(subs).revenue, 0);
     const totalCost     = Object.values(current).reduce((s, subs) => s + sumAgg(subs).purchaseCost, 0);
     const prevTotalCost = Object.values(prev).reduce((s, subs) => s + sumAgg(subs).purchaseCost, 0);
+    const totalQty      = Object.values(current).reduce((s, subs) => s + sumAgg(subs).quantity, 0);
+    const prevTotalQty  = Object.values(prev).reduce((s, subs) => s + sumAgg(subs).quantity, 0);
     const hasPrev       = prevTotalRev > 0;
 
     const allRoots = new Set([...Object.keys(current), ...Object.keys(prev)]);
@@ -498,8 +506,8 @@ export default function CategoriesPage() {
       const subRows: SubRow[] = [];
       for (const sub of allSubs) {
         if (!sub) continue;
-        const s  = curSubs[sub]  ?? { revenue: 0, purchaseCost: 0 };
-        const p  = prevSubs[sub] ?? { revenue: 0, purchaseCost: 0 };
+        const s  = curSubs[sub]  ?? { revenue: 0, purchaseCost: 0, quantity: 0 };
+        const p  = prevSubs[sub] ?? { revenue: 0, purchaseCost: 0, quantity: 0 };
         if (s.revenue === 0 && p.revenue === 0) continue;
         subRows.push({
           subCategory:      sub,
@@ -507,6 +515,8 @@ export default function CategoriesPage() {
           prevRevenue:      p.revenue,
           purchaseCost:     s.purchaseCost,
           prevPurchaseCost: p.purchaseCost,
+          quantity:         s.quantity,
+          prevQuantity:     p.quantity,
           share:            curTot.revenue > 0 ? (s.revenue / curTot.revenue) * 100 : 0,
         });
         opts.push({ label: `${cat} › ${sub}`, root: cat, sub });
@@ -519,6 +529,8 @@ export default function CategoriesPage() {
         prevRevenue:      prevTot.revenue,
         purchaseCost:     curTot.purchaseCost,
         prevPurchaseCost: prevTot.purchaseCost,
+        quantity:         curTot.quantity,
+        prevQuantity:     prevTot.quantity,
         share:            totalRev > 0 ? (curTot.revenue / totalRev) * 100 : 0,
         subs:             subRows,
       });
@@ -533,7 +545,7 @@ export default function CategoriesPage() {
       return a.sub.localeCompare(b.sub);
     });
 
-    return { rows: list, totalRevenue: totalRev, prevTotalRevenue: prevTotalRev, totalPurchaseCost: totalCost, prevTotalPurchaseCost: prevTotalCost, hasPrevData: hasPrev, allOptions: opts };
+    return { rows: list, totalRevenue: totalRev, prevTotalRevenue: prevTotalRev, totalPurchaseCost: totalCost, prevTotalPurchaseCost: prevTotalCost, totalQuantity: totalQty, prevTotalQuantity: prevTotalQty, hasPrevData: hasPrev, allOptions: opts };
   }, [startStr, endStr, prevStartStr, prevEndStr, categoryData]);
 
   return (
@@ -566,23 +578,13 @@ export default function CategoriesPage() {
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-slate-100 bg-slate-50">
-                <th className="text-left px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">
-                  Kategorie
-                </th>
-                <th className="text-right px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">
-                  Tržby bez DPH
-                </th>
-
-                <th className="text-right px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">
-                  Marže (abs.)
-                </th>
-                <th className="text-right px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">
-                  Marže %
-                </th>
-                <th className="text-right px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide min-w-[140px]">
-                  Podíl
-                </th>
+              <tr className="bg-blue-900">
+                <th className="text-left px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Kategorie</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Tržby bez DPH</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Marže (abs.)</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Marže %</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Počet ks</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider min-w-[140px]">Podíl (Tržby bez DPH)</th>
               </tr>
             </thead>
             <tbody>
@@ -629,6 +631,10 @@ export default function CategoriesPage() {
                           purchaseCost={row.purchaseCost} prevPurchaseCost={row.prevPurchaseCost}
                         />
                       </td>
+                      <td className="px-5 py-3.5 text-right">
+                        <span className="font-semibold text-slate-800">{formatNumber(row.quantity)}</span>
+                        {hasPrevData && <YoyBadge current={row.quantity} prev={row.prevQuantity} />}
+                      </td>
                       <td className="px-5 py-3.5">
                         <ShareBar pct={row.share} />
                       </td>
@@ -658,6 +664,10 @@ export default function CategoriesPage() {
                             purchaseCost={sub.purchaseCost} prevPurchaseCost={sub.prevPurchaseCost}
                           />
                         </td>
+                        <td className="px-5 py-2.5 text-right">
+                          <span className="text-slate-600">{formatNumber(sub.quantity)}</span>
+                          {hasPrevData && <YoyBadge current={sub.quantity} prev={sub.prevQuantity} />}
+                        </td>
                         <td className="px-5 py-2.5">
                           <ShareBar pct={sub.share} muted />
                         </td>
@@ -684,6 +694,10 @@ export default function CategoriesPage() {
                     revenue={totalRevenue} prevRevenue={prevTotalRevenue}
                     purchaseCost={totalPurchaseCost} prevPurchaseCost={prevTotalPurchaseCost}
                   />
+                </td>
+                <td className="px-5 py-3.5 text-right">
+                  <span className="font-bold text-slate-800">{formatNumber(totalQuantity)}</span>
+                  {hasPrevData && <YoyBadge current={totalQuantity} prev={prevTotalQuantity} />}
                 </td>
                 <td className="px-5 py-3.5">
                   <div className="flex items-center gap-2">

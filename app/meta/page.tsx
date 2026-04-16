@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
+import { getDisplayCurrency } from '@/data/types';
 import { localIsoDate, formatCurrency, formatNumber, formatDate, formatShortDate } from '@/lib/formatters';
 import { TrendingUp, Users, MousePointerClick, ShoppingCart, Eye, Target, Percent, CreditCard, Image } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
@@ -95,7 +96,7 @@ export default function MetaPage() {
   const [filterCampaign, setFilterCampaign] = useState<string>('');
   const [filterAdset, setFilterAdset]       = useState<string>('');
 
-  const fc = (v: number) => formatCurrency(v, 'EUR');
+  const fc = (v: number) => formatCurrency(v, getDisplayCurrency(filters.countries));
 
   const { start, end } = getDateRange(filters);
   const from = localIsoDate(start);

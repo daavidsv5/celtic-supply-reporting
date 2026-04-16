@@ -13,7 +13,7 @@ import { brandDataNL } from '@/data/brandDataNL';
 import { brandDataDE } from '@/data/brandDataDE';
 import { brandDataSK } from '@/data/brandDataSK';
 import { brandDataCZ } from '@/data/brandDataCZ';
-import { formatCurrency, localIsoDate, formatMonthYear } from '@/lib/formatters';
+import { formatCurrency, formatNumber, localIsoDate, formatMonthYear } from '@/lib/formatters';
 import { getDisplayCurrency } from '@/data/types';
 
 const HIDDEN_BRANDS = new Set(['Nezařazeno']);
@@ -372,6 +372,8 @@ interface BrandRow {
   prevRevenue: number;
   purchaseCost: number;
   prevPurchaseCost: number;
+  quantity: number;
+  prevQuantity: number;
   share: number;
 }
 
@@ -392,21 +394,23 @@ export default function BrandsPage() {
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
   const isMonthly = dayCount > 60;
 
-  const { rows, totalRevenue, prevTotalRevenue, totalPurchaseCost, prevTotalPurchaseCost, hasPrevData, allBrands } = useMemo(() => {
-    const current: Record<string, { revenue: number; purchaseCost: number }> = {};
-    const prev:    Record<string, { revenue: number; purchaseCost: number }> = {};
+  const { rows, totalRevenue, prevTotalRevenue, totalPurchaseCost, prevTotalPurchaseCost, totalQuantity, prevTotalQuantity, hasPrevData, allBrands } = useMemo(() => {
+    const current: Record<string, { revenue: number; purchaseCost: number; quantity: number }> = {};
+    const prev:    Record<string, { revenue: number; purchaseCost: number; quantity: number }> = {};
 
     for (const r of brandData) {
       if (HIDDEN_BRANDS.has(r.brand)) continue;
       if (r.date >= startStr && r.date <= endStr) {
-        if (!current[r.brand]) current[r.brand] = { revenue: 0, purchaseCost: 0 };
+        if (!current[r.brand]) current[r.brand] = { revenue: 0, purchaseCost: 0, quantity: 0 };
         current[r.brand].revenue      += r.revenue;
         current[r.brand].purchaseCost += r.purchaseCost;
+        current[r.brand].quantity     += (r as any).quantity ?? 0;
       }
       if (r.date >= prevStartStr && r.date <= prevEndStr) {
-        if (!prev[r.brand]) prev[r.brand] = { revenue: 0, purchaseCost: 0 };
+        if (!prev[r.brand]) prev[r.brand] = { revenue: 0, purchaseCost: 0, quantity: 0 };
         prev[r.brand].revenue      += r.revenue;
         prev[r.brand].purchaseCost += r.purchaseCost;
+        prev[r.brand].quantity     += (r as any).quantity ?? 0;
       }
     }
 
@@ -414,6 +418,8 @@ export default function BrandsPage() {
     const prevTotalRev  = Object.values(prev).reduce((s, v) => s + v.revenue, 0);
     const totalCost     = Object.values(current).reduce((s, v) => s + v.purchaseCost, 0);
     const prevTotalCost = Object.values(prev).reduce((s, v) => s + v.purchaseCost, 0);
+    const totalQty      = Object.values(current).reduce((s, v) => s + v.quantity, 0);
+    const prevTotalQty  = Object.values(prev).reduce((s, v) => s + v.quantity, 0);
     const hasPrev       = prevTotalRev > 0;
 
     const allKeys = new Set([...Object.keys(current), ...Object.keys(prev)]);
@@ -421,8 +427,8 @@ export default function BrandsPage() {
     const brands: string[] = [];
 
     for (const brand of allKeys) {
-      const c = current[brand] ?? { revenue: 0, purchaseCost: 0 };
-      const p = prev[brand]    ?? { revenue: 0, purchaseCost: 0 };
+      const c = current[brand] ?? { revenue: 0, purchaseCost: 0, quantity: 0 };
+      const p = prev[brand]    ?? { revenue: 0, purchaseCost: 0, quantity: 0 };
       if (c.revenue === 0 && p.revenue === 0) continue;
       list.push({
         brand,
@@ -430,6 +436,8 @@ export default function BrandsPage() {
         prevRevenue:      p.revenue,
         purchaseCost:     c.purchaseCost,
         prevPurchaseCost: p.purchaseCost,
+        quantity:         c.quantity,
+        prevQuantity:     p.quantity,
         share:            totalRev > 0 ? (c.revenue / totalRev) * 100 : 0,
       });
       brands.push(brand);
@@ -444,6 +452,8 @@ export default function BrandsPage() {
       prevTotalRevenue: prevTotalRev,
       totalPurchaseCost: totalCost,
       prevTotalPurchaseCost: prevTotalCost,
+      totalQuantity: totalQty,
+      prevTotalQuantity: prevTotalQty,
       hasPrevData: hasPrev,
       allBrands: brands,
     };
@@ -480,22 +490,13 @@ export default function BrandsPage() {
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-slate-100 bg-slate-50">
-                <th className="text-left px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">
-                  Značka
-                </th>
-                <th className="text-right px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">
-                  Tržby bez DPH
-                </th>
-                <th className="text-right px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">
-                  Marže (abs.)
-                </th>
-                <th className="text-right px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">
-                  Marže %
-                </th>
-                <th className="text-right px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide min-w-[140px]">
-                  Podíl
-                </th>
+              <tr className="bg-blue-900">
+                <th className="text-left px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Značka</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Tržby bez DPH</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Marže (abs.)</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Marže %</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider">Počet ks</th>
+                <th className="text-right px-5 py-3 text-[11px] font-semibold text-white uppercase tracking-wider min-w-[140px]">Podíl (Tržby bez DPH)</th>
               </tr>
             </thead>
             <tbody>
@@ -521,6 +522,10 @@ export default function BrandsPage() {
                       purchaseCost={row.purchaseCost} prevPurchaseCost={row.prevPurchaseCost}
                     />
                   </td>
+                  <td className="px-5 py-3.5 text-right">
+                    <span className="font-semibold text-slate-800">{formatNumber(row.quantity)}</span>
+                    {hasPrevData && <YoyBadge current={row.quantity} prev={row.prevQuantity} />}
+                  </td>
                   <td className="px-5 py-3.5">
                     <ShareBar pct={row.share} />
                   </td>
@@ -543,6 +548,10 @@ export default function BrandsPage() {
                     revenue={totalRevenue} prevRevenue={prevTotalRevenue}
                     purchaseCost={totalPurchaseCost} prevPurchaseCost={prevTotalPurchaseCost}
                   />
+                </td>
+                <td className="px-5 py-3.5 text-right">
+                  <span className="font-bold text-slate-800">{formatNumber(totalQuantity)}</span>
+                  {hasPrevData && <YoyBadge current={totalQuantity} prev={prevTotalQuantity} />}
                 </td>
                 <td className="px-5 py-3.5">
                   <div className="flex items-center gap-2">

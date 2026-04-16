@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
+import { getDisplayCurrency } from '@/data/types';
 import { localIsoDate, formatCurrency, formatNumber, formatDate, formatShortDate } from '@/lib/formatters';
 import { TrendingUp, MousePointerClick, ShoppingCart, Eye, Target, Percent, CreditCard } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
@@ -74,7 +75,7 @@ export default function GoogleAdsPage() {
   const [sortKey, setSortKey] = useState<SortKey>('spend');
   const [sortDir, setSortDir] = useState<'desc' | 'asc'>('desc');
 
-  const currency = 'EUR';
+  const currency = getDisplayCurrency(filters.countries);
   const fc = (v: number) => formatCurrency(v, currency);
 
   const { start, end } = getDateRange(filters);
