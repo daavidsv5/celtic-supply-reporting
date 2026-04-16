@@ -179,6 +179,7 @@ export default function CountryDistribution({ data, prevData = [], marginCur = {
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Náklady</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">PNO</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">CPA</th>
+              <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Marže %</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Hrubý zisk</th>
               <th className="px-4 py-3 text-right text-[11px] font-semibold text-white uppercase tracking-wider">Hrubý zisk %</th>
             </tr>
@@ -192,8 +193,10 @@ export default function CountryDistribution({ data, prevData = [], marginCur = {
               const grossPct        = r.marginRev     > 0 ? (grossProfit     / r.marginRev)     * 100 : 0;
               const prevGrossPct    = r.prevMarginRev > 0 ? (prevGrossProfit / r.prevMarginRev) * 100 : 0;
               const showMargin      = r.marginRev > 0;
-              const aov     = r.orders     > 0 ? r.revenue     / r.orders     : 0;
-              const prevAov = r.prevOrders > 0 ? r.prevRevenue / r.prevOrders : 0;
+              const aov         = r.orders     > 0 ? r.revenue     / r.orders     : 0;
+              const prevAov     = r.prevOrders > 0 ? r.prevRevenue / r.prevOrders : 0;
+              const marzePct    = r.marginRev     > 0 ? ((r.marginRev     - r.purchaseCost)     / r.marginRev)     * 100 : 0;
+              const prevMarzePct= r.prevMarginRev > 0 ? ((r.prevMarginRev - r.prevPurchaseCost) / r.prevMarginRev) * 100 : 0;
               return (
                 <tr key={r.country} className={`border-b border-slate-50 hover:bg-slate-50/70 transition-colors ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
                   <td className="px-5 py-3">
@@ -244,6 +247,16 @@ export default function CountryDistribution({ data, prevData = [], marginCur = {
                     <div className="flex flex-col items-end gap-0.5">
                       <span className="text-slate-500">{fc(r.cpa)}</span>
                       {hasPrevData && <YoyBadge cur={r.cpa} prev={r.prevCpa} invertColors />}
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      {showMargin ? (
+                        <>
+                          <span className={`font-semibold ${marzePct >= 0 ? 'text-slate-800' : 'text-rose-600'}`}>{formatPercent(marzePct)}</span>
+                          {hasPrevData && prevMarzePct !== 0 && <PpBadge cur={marzePct} prev={prevMarzePct} />}
+                        </>
+                      ) : <span className="text-slate-300">—</span>}
                     </div>
                   </td>
                   <td className="px-4 py-3 text-right">
