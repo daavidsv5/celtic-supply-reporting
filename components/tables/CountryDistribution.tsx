@@ -59,10 +59,10 @@ function yoyPct(cur: number, prev: number) {
 
 function YoyBadge({ cur, prev, invertColors }: { cur: number; prev: number; invertColors?: boolean }) {
   const pct = yoyPct(cur, prev);
-  if (pct === null) return <span className="text-[10px] text-slate-400 ml-1">—</span>;
+  if (pct === null) return <span className="text-[10px] text-slate-400">—</span>;
   const positive = invertColors ? pct <= 0 : pct >= 0;
   return (
-    <span className={`inline-flex items-center gap-0.5 text-[10px] font-bold px-1 py-0.5 rounded ml-1 ${
+    <span className={`inline-flex items-center gap-0.5 text-[10px] font-bold px-1 py-0.5 rounded ${
       positive ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-500'
     }`}>
       {positive ? <TrendingUp size={9} /> : <TrendingDown size={9} />}
@@ -73,10 +73,10 @@ function YoyBadge({ cur, prev, invertColors }: { cur: number; prev: number; inve
 
 function PpBadge({ cur, prev, invertColors }: { cur: number; prev: number; invertColors?: boolean }) {
   const diff = cur - prev;
-  if (prev === 0) return <span className="text-[10px] text-slate-400 ml-1">—</span>;
+  if (prev === 0) return <span className="text-[10px] text-slate-400">—</span>;
   const positive = invertColors ? diff <= 0 : diff >= 0;
   return (
-    <span className={`inline-flex items-center gap-0.5 text-[10px] font-bold px-1 py-0.5 rounded ml-1 ${
+    <span className={`inline-flex items-center gap-0.5 text-[10px] font-bold px-1 py-0.5 rounded ${
       positive ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-500'
     }`}>
       {positive ? <TrendingUp size={9} /> : <TrendingDown size={9} />}
@@ -199,47 +199,63 @@ export default function CountryDistribution({ data, prevData = [], marginCur = {
                       <span className="text-slate-700 font-medium">{countryLabels[r.country]}</span>
                     </div>
                   </td>
-                  <td className="px-4 py-3 text-right text-slate-600">
-                    {formatNumber(r.orders)}
-                    {hasPrevData && <YoyBadge cur={r.orders} prev={r.prevOrders} />}
-                  </td>
-                  <td className="px-4 py-3 text-right text-slate-500">
-                    {fc(r.revenue)}
-                    {hasPrevData && <YoyBadge cur={r.revenue} prev={r.prevRevenue} />}
-                  </td>
-                  <td className="px-4 py-3 text-right text-slate-800 font-semibold">
-                    {fc(r.revenue_vat)}
-                    {hasPrevData && <YoyBadge cur={r.revenue_vat} prev={r.prevRevenue_vat} />}
-                  </td>
-                  <td className="px-4 py-3 text-right text-slate-500">
-                    {fc(r.cost)}
-                    {hasPrevData && <YoyBadge cur={r.cost} prev={r.prevCost} invertColors />}
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className="text-slate-600">{formatNumber(r.orders)}</span>
+                      {hasPrevData && <YoyBadge cur={r.orders} prev={r.prevOrders} />}
+                    </div>
                   </td>
                   <td className="px-4 py-3 text-right">
-                    <span className={`px-2 py-0.5 rounded-lg text-[11px] font-semibold ${pnoColor(r.pno)}`}>
-                      {formatPercent(r.pno)}
-                    </span>
-                    {hasPrevData && r.prevPno > 0 && <PpBadge cur={r.pno} prev={r.prevPno} invertColors />}
-                  </td>
-                  <td className="px-4 py-3 text-right text-slate-500">
-                    {fc(r.cpa)}
-                    {hasPrevData && <YoyBadge cur={r.cpa} prev={r.prevCpa} invertColors />}
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className="text-slate-500">{fc(r.revenue)}</span>
+                      {hasPrevData && <YoyBadge cur={r.revenue} prev={r.prevRevenue} />}
+                    </div>
                   </td>
                   <td className="px-4 py-3 text-right">
-                    {showMargin ? (
-                      <>
-                        <span className={`font-semibold ${grossProfit >= 0 ? 'text-emerald-700' : 'text-rose-600'}`}>{fc(grossProfit)}</span>
-                        {hasPrevData && prevGrossProfit !== 0 && <YoyBadge cur={grossProfit} prev={prevGrossProfit} />}
-                      </>
-                    ) : <span className="text-slate-300">—</span>}
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className="text-slate-800 font-semibold">{fc(r.revenue_vat)}</span>
+                      {hasPrevData && <YoyBadge cur={r.revenue_vat} prev={r.prevRevenue_vat} />}
+                    </div>
                   </td>
                   <td className="px-4 py-3 text-right">
-                    {showMargin ? (
-                      <>
-                        <span className={`font-semibold ${grossPct >= 0 ? 'text-emerald-700' : 'text-rose-600'}`}>{formatPercent(grossPct)}</span>
-                        {hasPrevData && prevGrossPct !== 0 && <PpBadge cur={grossPct} prev={prevGrossPct} />}
-                      </>
-                    ) : <span className="text-slate-300">—</span>}
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className="text-slate-500">{fc(r.cost)}</span>
+                      {hasPrevData && <YoyBadge cur={r.cost} prev={r.prevCost} invertColors />}
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className={`px-2 py-0.5 rounded-lg text-[11px] font-semibold ${pnoColor(r.pno)}`}>
+                        {formatPercent(r.pno)}
+                      </span>
+                      {hasPrevData && r.prevPno > 0 && <PpBadge cur={r.pno} prev={r.prevPno} invertColors />}
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className="text-slate-500">{fc(r.cpa)}</span>
+                      {hasPrevData && <YoyBadge cur={r.cpa} prev={r.prevCpa} invertColors />}
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      {showMargin ? (
+                        <>
+                          <span className={`font-semibold ${grossProfit >= 0 ? 'text-emerald-700' : 'text-rose-600'}`}>{fc(grossProfit)}</span>
+                          {hasPrevData && prevGrossProfit !== 0 && <YoyBadge cur={grossProfit} prev={prevGrossProfit} />}
+                        </>
+                      ) : <span className="text-slate-300">—</span>}
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      {showMargin ? (
+                        <>
+                          <span className={`font-semibold ${grossPct >= 0 ? 'text-emerald-700' : 'text-rose-600'}`}>{formatPercent(grossPct)}</span>
+                          {hasPrevData && prevGrossPct !== 0 && <PpBadge cur={grossPct} prev={prevGrossPct} />}
+                        </>
+                      ) : <span className="text-slate-300">—</span>}
+                    </div>
                   </td>
                 </tr>
               );
