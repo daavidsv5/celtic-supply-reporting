@@ -35,7 +35,8 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
   const isAdmin = (session?.user as { role?: string })?.role === 'admin';
   const isHlavniDashboard = pathname === '/hlavni-dashboard';
   const isShipping = pathname === '/shipping';
-  const hideVse = isShipping || pathname === '/retention' || pathname === '/analytics' || pathname === '/crosssell' || pathname === '/behavior';
+  const hideVse = isShipping || pathname === '/categories' || pathname === '/brands'
+    || pathname === '/retention' || pathname === '/analytics' || pathname === '/crosssell' || pathname === '/behavior';
   const dash = useHlavniDashboard();
 
   const handleUpdate = async () => {

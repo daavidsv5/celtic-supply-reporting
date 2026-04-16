@@ -14,19 +14,9 @@ import { categoryDataDE } from '@/data/categoryDataDE';
 import { categoryDataSK } from '@/data/categoryDataSK';
 import { categoryDataCZ } from '@/data/categoryDataCZ';
 import { formatCurrency, formatNumber, localIsoDate, formatMonthYear } from '@/lib/formatters';
-import { getDisplayCurrency, isAllCountries } from '@/data/types';
-import { useExchangeRates, toCZK } from '@/hooks/useExchangeRates';
+import { getDisplayCurrency } from '@/data/types';
 
 const HIDDEN_CATEGORIES = new Set(['Skrýt', 'Nach Hersteller', 'Nezařazeno']);
-
-const ALL_CATEGORY_SOURCES = [
-  { data: categoryDataAT, currency: 'EUR' as const },
-  { data: categoryDataCZ, currency: 'CZK' as const },
-  { data: categoryDataSK, currency: 'EUR' as const },
-  { data: categoryDataPL, currency: 'PLN' as const },
-  { data: categoryDataNL, currency: 'EUR' as const },
-  { data: categoryDataDE, currency: 'EUR' as const },
-];
 
 const TREND_COLORS = [
   '#2563eb', '#16a34a', '#dc2626', '#d97706', '#7c3aed',
@@ -447,24 +437,11 @@ export default function CategoriesPage() {
 
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
-  const rates = useExchangeRates();
-  const multiCountry = isAllCountries(filters.countries);
   const country = filters.countries[0];
-  const singleCategoryData = country === 'cz' ? categoryDataCZ : country === 'sk' ? categoryDataSK : country === 'pl' ? categoryDataPL : country === 'nl' ? categoryDataNL : country === 'de' ? categoryDataDE : categoryDataAT;
+  const activeCategoryData = country === 'cz' ? categoryDataCZ : country === 'sk' ? categoryDataSK : country === 'pl' ? categoryDataPL : country === 'nl' ? categoryDataNL : country === 'de' ? categoryDataDE : categoryDataAT;
   const currency = getDisplayCurrency(filters.countries);
   const fc = (v: number) => formatCurrency(v, currency);
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
-
-  const activeCategoryData = useMemo(() => {
-    if (!multiCountry) return singleCategoryData;
-    return ALL_CATEGORY_SOURCES.flatMap(({ data, currency: cur }) =>
-      data.map(r => ({
-        ...r,
-        revenue:      toCZK(r.revenue, cur, rates),
-        purchaseCost: toCZK(r.purchaseCost, cur, rates),
-      }))
-    );
-  }, [multiCountry, singleCategoryData, rates]);
   const isMonthly = dayCount > 60;
 
   const toggleExpand = (cat: string) => {
