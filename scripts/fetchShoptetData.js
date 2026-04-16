@@ -28,10 +28,13 @@ if (fs.existsSync(envFile)) {
 const API_TOKEN      = process.env.SHOPTET_API_TOKEN_AT;
 const API_BASE       = 'https://api.myshoptet.com/api';
 const DATA_DIR       = path.join(__dirname, '..', 'data');
-const CACHE_FILE     = path.join(__dirname, 'orders_cache_at.json');
-const LOG_FILE       = path.join(__dirname, 'fetchShoptetData.log');
+const CACHE_FILE          = path.join(__dirname, 'orders_cache_at.json');
+const CATEGORY_MAP_CACHE  = path.join(__dirname, 'category_map_at.json');
+const LOG_FILE            = path.join(__dirname, 'fetchShoptetData.log');
 
-const FULL_SYNC       = process.argv.includes('--full');
+const FULL_SYNC           = process.argv.includes('--full');
+const CATEGORY_MAP_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
+const CATEGORY_MAP_VERSION = 1;
 const INCREMENTAL_DAYS = 7;   // days to look back for incremental sync
 const BATCH_SIZE      = 10;   // concurrent detail requests
 const ITEMS_PER_PAGE  = 100;
@@ -140,6 +143,79 @@ async function fetchOrderDetail(code) {
   return data.order;
 }
 
+// ── Fetch all categories → build guid→{ root, sub } map ──────────────────────
+async function fetchCategoryHierarchy() {
+  const all = [];
+  let page = 1, totalPages = 1;
+  do {
+    const data = await apiGet(`/categories?itemsPerPage=100&page=${page}`);
+    const cats = data.categories || data.data?.categories || [];
+    all.push(...cats);
+    totalPages = data.paginator?.pageCount || data.data?.paginator?.pageCount || 1;
+    page++;
+  } while (page <= totalPages);
+
+  const nameOf = {}, parentOf = {};
+  for (const c of all) { nameOf[c.guid] = c.name; parentOf[c.guid] = c.parentGuid || null; }
+
+  function findRoot(guid) {
+    let cur = guid; const visited = new Set();
+    while (parentOf[cur] && !visited.has(cur)) { visited.add(cur); cur = parentOf[cur]; }
+    return cur;
+  }
+  function findLevel2(guid) {
+    let cur = guid; const visited = new Set();
+    while (parentOf[cur] && parentOf[parentOf[cur]] && !visited.has(cur)) { visited.add(cur); cur = parentOf[cur]; }
+    return parentOf[cur] ? cur : null;
+  }
+
+  const guidToHierarchy = {};
+  for (const c of all) {
+    const rootGuid = findRoot(c.guid), level2Guid = findLevel2(c.guid);
+    guidToHierarchy[c.guid] = { root: nameOf[rootGuid] || c.name, sub: level2Guid ? (nameOf[level2Guid] || '') : '' };
+  }
+  return guidToHierarchy;
+}
+
+// ── Fetch all products → build productGuid→{ root, sub, brand } map ──────────
+async function buildProductCategoryMap() {
+  if (fs.existsSync(CATEGORY_MAP_CACHE)) {
+    try {
+      const cached = JSON.parse(fs.readFileSync(CATEGORY_MAP_CACHE, 'utf8'));
+      const age = Date.now() - (cached._ts || 0);
+      if (age < CATEGORY_MAP_TTL_MS && cached._version === CATEGORY_MAP_VERSION) {
+        log(`Category map cache valid (${Math.round(age / 60000)} min old), skipping re-fetch.`);
+        delete cached._ts; delete cached._version;
+        return cached;
+      }
+    } catch { /* re-fetch */ }
+  }
+
+  log('Building product→category map...');
+  const guidToHierarchy = await fetchCategoryHierarchy();
+  log(`Categories fetched: ${Object.keys(guidToHierarchy).length}`);
+
+  const productMap = {};
+  let page = 1, totalPages = 1;
+  do {
+    const data = await apiGet(`/products?itemsPerPage=100&page=${page}`);
+    const prods = data.products || data.data?.products || [];
+    totalPages = data.paginator?.pageCount || data.data?.paginator?.pageCount || 1;
+    for (const p of prods) {
+      const catGuid = p.defaultCategory?.guid;
+      const brand   = (p.brand?.name || '').trim();
+      const catInfo = catGuid ? (guidToHierarchy[catGuid] || { root: p.defaultCategory.name, sub: '' }) : { root: 'Nezařazeno', sub: '' };
+      productMap[p.guid] = { ...catInfo, brand };
+    }
+    if (page % 10 === 0 || page === totalPages) log(`Products: ${page}/${totalPages} pages`);
+    page++;
+  } while (page <= totalPages);
+
+  log(`Product→category map: ${Object.keys(productMap).length} products`);
+  fs.writeFileSync(CATEGORY_MAP_CACHE, JSON.stringify({ ...productMap, _ts: Date.now(), _version: CATEGORY_MAP_VERSION }), 'utf8');
+  return productMap;
+}
+
 // ── Cache helpers ──────────────────────────────────────────────────────────────
 function loadCache() {
   if (fs.existsSync(CACHE_FILE)) {
@@ -176,9 +252,11 @@ function parseDayOfWeek(creationTime) {
 const parseNum = (s) => parseFloat(s || '0') || 0;
 
 // ── Process all cached orders into aggregated datasets ─────────────────────────
-function processOrders(orders) {
+function processOrders(orders, productCategoryMap = {}) {
   const byDay          = {}; // date → DailyRecord
   const byProduct      = {}; // `${date}|${name}` → ProductSaleRecord
+  const byCategory     = {}; // `${date}|${root}|${sub}` → CategoryRevenueRecord
+  const byBrand        = {}; // `${date}|${brand}` → BrandRevenueRecord
   const byMarginDay    = {}; // date → { revenue, purchaseCost }
   const hourlyCells    = {}; // `${dow}|${hour}` → { totalRevenue, totalOrders, dates: Set }
   const crossSellMap   = {}; // `${A}|||${B}` → count
@@ -234,6 +312,24 @@ function processOrders(orders) {
       byProduct[pk].amount      += qty;
       byProduct[pk].revenue_vat += revVat;
       byProduct[pk].revenue     += rev;
+
+      // Categories
+      const catEntry = (item.productGuid && productCategoryMap[item.productGuid])
+        ? productCategoryMap[item.productGuid]
+        : { root: 'Nezařazeno', sub: '' };
+      const rootCat = catEntry.root || 'Nezařazeno';
+      const subCat  = catEntry.sub  || '';
+      const ck = `${date}|${rootCat}|${subCat}`;
+      if (!byCategory[ck]) byCategory[ck] = { date, category: rootCat, subCategory: subCat, revenue: 0, purchaseCost: 0 };
+      byCategory[ck].revenue      += rev;
+      byCategory[ck].purchaseCost += cost * qty;
+
+      // Brands
+      const brand = ((item.productGuid && productCategoryMap[item.productGuid]?.brand) || '').trim() || 'Nezařazeno';
+      const bk = `${date}|${brand}`;
+      if (!byBrand[bk]) byBrand[bk] = { date, brand, revenue: 0, purchaseCost: 0 };
+      byBrand[bk].revenue      += rev;
+      byBrand[bk].purchaseCost += cost * qty;
     }
 
     // Margin
@@ -322,11 +418,13 @@ function processOrders(orders) {
 
   return {
     byDay,
-    products:       Object.values(byProduct),
-    marginByDay:    Object.values(byMarginDay),
+    products:        Object.values(byProduct),
+    categoryData:    Object.values(byCategory),
+    brandData:       Object.values(byBrand),
+    marginByDay:     Object.values(byMarginDay),
     hourlyData,
-    crossSell:      { totalOrders, multiItemOrders, pairs: crossSellPairs },
-    retention:      Object.values(retentionMap),
+    crossSell:       { totalOrders, multiItemOrders, pairs: crossSellPairs },
+    retention:       Object.values(retentionMap),
     orderValues,
     shippingPayment: Object.values(shippingPayMap),
   };
@@ -488,6 +586,43 @@ export const shippingPaymentDataAT: ShippingPaymentRecord[] = ${JSON.stringify(r
   log(`shippingPaymentDataAT.ts: ${records.length} records`);
 }
 
+function writeCategoryData(categoryData) {
+  const records = sortByDate(categoryData);
+  const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
+// AT: daily revenue by category (EUR, cancelled excluded)
+
+export interface CategoryRevenueRecord {
+  date: string;
+  category: string;
+  subCategory: string;
+  revenue: number;
+  purchaseCost: number;
+}
+
+export const categoryDataAT: CategoryRevenueRecord[] = ${JSON.stringify(records, null, 2)};
+`;
+  fs.writeFileSync(path.join(DATA_DIR, 'categoryDataAT.ts'), content, 'utf8');
+  log(`categoryDataAT.ts: ${records.length} records`);
+}
+
+function writeBrandData(brandData) {
+  const records = sortByDate(brandData);
+  const content = `// Auto-generated by scripts/fetchShoptetData.js — last update: ${now}
+// AT: daily revenue by brand/manufacturer (EUR, cancelled excluded)
+
+export interface BrandRevenueRecord {
+  date: string;
+  brand: string;
+  revenue: number;
+  purchaseCost: number;
+}
+
+export const brandDataAT: BrandRevenueRecord[] = ${JSON.stringify(records, null, 2)};
+`;
+  fs.writeFileSync(path.join(DATA_DIR, 'brandDataAT.ts'), content, 'utf8');
+  log(`brandDataAT.ts: ${records.length} records`);
+}
+
 function writeLastUpdate() {
   const ts = new Date().toISOString();
   const content = `// Auto-generated — do not edit manually
@@ -549,14 +684,19 @@ async function main() {
   }
   log(`Updated ${updated} orders in cache. Total cached: ${Object.keys(cache).length}`);
 
-  // 4. Process all cached orders
+  // 4. Build product→category map
+  const productCategoryMap = await buildProductCategoryMap();
+
+  // 5. Process all cached orders
   const allOrders = Object.values(cache);
   log(`Processing ${allOrders.length} orders...`);
-  const aggregated = processOrders(allOrders);
+  const aggregated = processOrders(allOrders, productCategoryMap);
 
-  // 5. Write all data files
+  // 6. Write all data files
   writeRealData(aggregated.byDay);
   writeProductData(aggregated.products);
+  writeCategoryData(aggregated.categoryData);
+  writeBrandData(aggregated.brandData);
   writeMarginData(aggregated.marginByDay);
   writeHourlyData(aggregated.hourlyData);
   writeCrossSellData(aggregated.crossSell);

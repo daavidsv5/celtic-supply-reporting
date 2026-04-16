@@ -3,9 +3,20 @@
 import { useMemo } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { useDashboardData } from '@/hooks/useDashboardData';
+import { useExchangeRates, toCZK } from '@/hooks/useExchangeRates';
 import { mockData } from '@/data/mockGenerator';
 import { marginDataAT } from '@/data/marginDataAT';
+import { marginDataCZ } from '@/data/marginDataCZ';
+import { marginDataSK } from '@/data/marginDataSK';
+import { marginDataPL } from '@/data/marginDataPL';
+import { marginDataNL } from '@/data/marginDataNL';
+import { marginDataDE } from '@/data/marginDataDE';
 import { retentionDataAT } from '@/data/retentionDataAT';
+import { retentionDataCZ } from '@/data/retentionDataCZ';
+import { retentionDataSK } from '@/data/retentionDataSK';
+import { retentionDataPL } from '@/data/retentionDataPL';
+import { retentionDataNL } from '@/data/retentionDataNL';
+import { retentionDataDE } from '@/data/retentionDataDE';
 import KpiCard from '@/components/kpi/KpiCard';
 import KpiLineCharts from '@/components/charts/KpiLineCharts';
 import { AovChart, CpaChart } from '@/components/charts/AovCpaChart';
@@ -23,9 +34,33 @@ const periodTitles: Record<string, string> = {
 
 export default function DashboardPage() {
   const { filters } = useFilters();
-  const { kpi, prevKpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData);
+  const rates = useExchangeRates();
+  const { kpi, prevKpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData, rates);
 
   const { start, end, prevStart, prevEnd } = getDateRange(filters);
+  const multiCountry = filters.countries.length > 1;
+
+  const country = filters.countries[0] ?? 'at';
+  const marginDataByCountry = { at: marginDataAT, cz: marginDataCZ, sk: marginDataSK, pl: marginDataPL, nl: marginDataNL, de: marginDataDE };
+  const retentionDataByCountry = { at: retentionDataAT, cz: retentionDataCZ, sk: retentionDataSK, pl: retentionDataPL, nl: retentionDataNL, de: retentionDataDE };
+
+  // For multi-country: aggregate all, converting to CZK; for single: use that country's data
+  const allMarginSources = multiCountry
+    ? [
+        { data: marginDataAT, cur: 'EUR' as const },
+        { data: marginDataCZ, cur: 'CZK' as const },
+        { data: marginDataSK, cur: 'EUR' as const },
+        { data: marginDataPL, cur: 'PLN' as const },
+        { data: marginDataNL, cur: 'EUR' as const },
+        { data: marginDataDE, cur: 'EUR' as const },
+      ]
+    : null;
+  const activeMarginData = marginDataByCountry[country as keyof typeof marginDataByCountry] ?? marginDataAT;
+
+  const allRetentionSources = multiCountry
+    ? [retentionDataAT, retentionDataCZ, retentionDataSK, retentionDataPL, retentionDataNL, retentionDataDE]
+    : null;
+  const activeRetentionData = retentionDataByCountry[country as keyof typeof retentionDataByCountry] ?? retentionDataAT;
 
   // Margin data for current + prev period
   const marginTotals = useMemo(() => {
@@ -35,12 +70,17 @@ export default function DashboardPage() {
     const pe = localIsoDate(prevEnd);
     let pc = 0, mr = 0, prevPc = 0, prevMr = 0;
     const marginData: { date: string; purchaseCost: number }[] = [];
-    for (const r of marginDataAT) {
-      if (r.date >= s && r.date <= e)  { pc += r.purchaseCost; mr += r.revenue; marginData.push({ date: r.date, purchaseCost: r.purchaseCost }); }
-      if (r.date >= ps && r.date <= pe){ prevPc += r.purchaseCost; prevMr += r.revenue; }
+
+    const sources = allMarginSources ?? [{ data: activeMarginData, cur: 'EUR' as const }];
+    for (const { data, cur } of sources) {
+      const factor = multiCountry ? toCZK(1, cur, rates) : 1;
+      for (const r of data) {
+        if (r.date >= s && r.date <= e)  { pc += r.purchaseCost * factor; mr += r.revenue * factor; marginData.push({ date: r.date, purchaseCost: r.purchaseCost * factor }); }
+        if (r.date >= ps && r.date <= pe){ prevPc += r.purchaseCost * factor; prevMr += r.revenue * factor; }
+      }
     }
     return { marginData, purchaseCost: pc, marginRev: mr, prevPurchaseCost: prevPc, prevMarginRev: prevMr };
-  }, [start, end, prevStart, prevEnd]);
+  }, [start, end, prevStart, prevEnd, activeMarginData, allMarginSources, multiCountry, rates]);
 
   const newCustomerCounts = useMemo(() => {
     const s  = localIsoDate(start);
@@ -48,7 +88,8 @@ export default function DashboardPage() {
     const ps = localIsoDate(prevStart);
     const pe = localIsoDate(prevEnd);
     let cur = 0, prev = 0, allCur = 0, allPrev = 0;
-    for (const c of retentionDataAT) {
+    const retSources = allRetentionSources ? allRetentionSources.flat() : activeRetentionData;
+    for (const c of retSources) {
       const first = c.dates[0];
       if (first >= s  && first <= e)  cur++;
       if (first >= ps && first <= pe) prev++;
@@ -56,7 +97,7 @@ export default function DashboardPage() {
       if (c.dates.some(d => d >= ps && d <= pe)) allPrev++;
     }
     return { cur, prev, allCur, allPrev };
-  }, [start, end, prevStart, prevEnd]);
+  }, [start, end, prevStart, prevEnd, activeRetentionData, allRetentionSources]);
 
   const { marginData, marginRev, purchaseCost, prevMarginRev, prevPurchaseCost } = marginTotals;
   const margin        = marginRev - purchaseCost;
@@ -158,7 +199,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Table */}
-      <DailyTable data={currentData} marginData={marginData} />
+      <DailyTable data={currentData} marginData={marginData} currency={currency} />
     </div>
   );
 }

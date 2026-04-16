@@ -3,6 +3,7 @@
 import { useMemo } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { useDashboardData } from '@/hooks/useDashboardData';
+import { useExchangeRates, toCZK } from '@/hooks/useExchangeRates';
 import { mockData } from '@/data/mockGenerator';
 import KpiCard from '@/components/kpi/KpiCard';
 import { formatCurrency, formatNumber, formatPercent, formatDate, formatShortDate, localIsoDate } from '@/lib/formatters';
@@ -70,9 +71,11 @@ function buildHistogram(values: number[], buckets: typeof CZK_BUCKETS) {
 
 export default function OrdersPage() {
   const { filters } = useFilters();
-  const { kpi, prevKpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData);
+  const rates = useExchangeRates();
+  const { kpi, prevKpi, yoy, chartData, currentData, currency, hasPrevData } = useDashboardData(filters, mockData, rates);
 
   const { start, end } = getDateRange(filters);
+  const multiCountry = filters.countries.length > 1;
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
   const dailyRevenue = chartData.map((d) => d.revenue);
@@ -90,22 +93,39 @@ export default function OrdersPage() {
 
   // ── Order value distribution ─────────────────────────────────────────────
   const orderValueByCountry = { at: orderValueDataAT, cz: orderValueDataCZ, sk: orderValueDataSK, pl: orderValueDataPL, nl: orderValueDataNL, de: orderValueDataDE };
-  const orderValueData = orderValueByCountry[filters.countries[0]] ?? orderValueDataAT;
+  const singleOrderValueData = orderValueByCountry[filters.countries[0]] ?? orderValueDataAT;
   const buckets = currency === 'CZK' ? CZK_BUCKETS : EUR_BUCKETS;
 
   const { histogram, hasOrderValueData } = useMemo(() => {
     const filtered: number[] = [];
     const startStr2 = localIsoDate(start);
     const endStr2   = localIsoDate(end);
-    for (const r of orderValueData) {
-      if (r.date >= startStr2 && r.date <= endStr2) filtered.push(r.value);
+    if (multiCountry) {
+      const sources = [
+        { data: orderValueDataAT, cur: 'EUR' as const },
+        { data: orderValueDataCZ, cur: 'CZK' as const },
+        { data: orderValueDataSK, cur: 'EUR' as const },
+        { data: orderValueDataPL, cur: 'PLN' as const },
+        { data: orderValueDataNL, cur: 'EUR' as const },
+        { data: orderValueDataDE, cur: 'EUR' as const },
+      ];
+      for (const { data, cur } of sources) {
+        const factor = toCZK(1, cur, rates);
+        for (const r of data) {
+          if (r.date >= startStr2 && r.date <= endStr2) filtered.push(r.value * factor);
+        }
+      }
+    } else {
+      for (const r of singleOrderValueData) {
+        if (r.date >= startStr2 && r.date <= endStr2) filtered.push(r.value);
+      }
     }
     return {
       histogram: buildHistogram(filtered, buckets),
       hasOrderValueData: filtered.length > 0,
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [orderValueData, start, end]);
+  }, [singleOrderValueData, multiCountry, start, end, rates]);
 
   const kpiCards = [
     { title: 'Tržby s DPH',     value: fc(kpi.revenuevat), yoy: yoy.revenuevat, sparklineData: dailyRevenue, icon: <Wallet size={16} /> },

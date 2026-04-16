@@ -102,10 +102,27 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 - **CZ** — CZK, **SK** — EUR, **AT/NL/DE** — EUR, **PL** — PLN
 - `getDisplayCurrency(countries)` v `data/types.ts`:
   - Solo PL → `'PLN'`
-  - Solo CZ nebo CZ+SK → `'CZK'`
-  - Ostatní (AT/NL/DE nebo kombinace) → `'EUR'`
+  - Solo CZ → `'CZK'`
+  - Více zemí (Vše) → `'CZK'` (agregace přes kurzy)
+  - Ostatní (AT/SK/NL/DE) → `'EUR'`
 - `formatCurrency(v, currency)` v `lib/formatters.ts` podporuje `'CZK' | 'EUR' | 'PLN'`
 - `Country = 'at' | 'cz' | 'sk' | 'pl' | 'nl' | 'de'`
+- `ALL_COUNTRIES: Country[]` a `isAllCountries(countries)` exportovány z `data/types.ts`
+
+### Multi-country „Vše" selektor
+
+TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (single-select). Při výběru Vše:
+- `filters.countries = ALL_COUNTRIES` (všech 6 zemí)
+- `getDisplayCurrency` vrací `'CZK'`
+- Všechny hodnoty jsou přepočítány aktuálním kurzem do Kč (viz `useExchangeRates`)
+- Stránky s podporou Vše: `/hlavni-dashboard`, `/dashboard`, `/orders`, `/margin`
+
+### Kurzy měn (`useExchangeRates`)
+
+- `hooks/useExchangeRates.ts` — hook fetchující kurzy, cache v `localStorage` 24 h, fallback EUR=25, PLN=5,85
+- `app/api/exchange-rates/route.ts` — Next.js API route, data z frankfurter.app (ECB), `revalidate: 86400`
+- `toCZK(value, currency, rates)` — utility pro převod EUR/PLN→CZK
+- `useDashboardData(filters, allData, rates?)` — volitelný `rates` param; při multi-country konvertuje záznamy přes `convertRecord()`
 
 ### Klíčové soubory
 
@@ -134,14 +151,18 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `lib/schema.sql` | Schéma tabulky `users` |
 | `lib/retentionUtils.ts` | Výpočty pro `/retention` (KPI, YoY, RFM, měsíční Noví vs. stávající) |
 | `lib/formatters.ts` | `formatCurrency` (CZK/EUR/PLN), `formatPercent`, `formatNumber`, `localIsoDate` |
-| `hooks/useFilters.ts` | `FiltersProvider` + `useFilters()` + `getDateRange()` + live EUR rate |
-| `hooks/useDashboardData.ts` | Filtruje, agreguje, normalizuje měny, počítá KPI + chartData + YoY |
+| `hooks/useFilters.ts` | `FiltersProvider` + `useFilters()` + `getDateRange()` |
+| `hooks/useDashboardData.ts` | Filtruje, agreguje, normalizuje měny, počítá KPI + chartData + YoY; volitelný param `rates` pro multi-country CZK konverzi |
+| `hooks/useExchangeRates.ts` | Kurzy EUR_CZK + PLN_CZK z frankfurter.app; localStorage cache 24 h; `toCZK()` utility |
 | `hooks/useHlavniDashboard.tsx` | Context pro Hlavní Dashboard — market, yearA, yearB, yearOptions |
 | `scripts/updateAllMarkets.js` | Master update skript — spustí všechny Shoptet syncy + Google Sheets + git push |
 | `scripts/updateData.js` | Google Sheets sync (CZ+SK costs, margins) + git push |
 | `scripts/fetchShoptetData.js` | AT Shoptet sync (inkrementální 10 dní / full) |
 | `scripts/fetchShoptetDataCZ.js` | CZ Shoptet sync — resumable full sync od 2023-01-01, průběžné ukládání cache |
 | `app/api/update/route.ts` | POST endpoint — admin only; Vercel Deploy Hook nebo lokální skript |
+| `app/api/exchange-rates/route.ts` | GET endpoint — vrací aktuální kurzy EUR_CZK + PLN_CZK (frankfurter.app, revalidate 24 h) |
+| `components/tables/DailyTable.tsx` | Tabulka „Přehled po dnech"; prop `currency?: Currency` (default `'EUR'`) — předávat vždy z page |
+| `components/layout/TopBar.tsx` | Selektor zemí: tlačítko **Vše** (první) + single-select jednotlivé země; rok-selector pro `/hlavni-dashboard` |
 
 ### KPI komponenty
 

@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { useSession } from 'next-auth/react';
-import { FilterState, TimePeriod, Country } from '@/data/types';
+import { FilterState, TimePeriod, Country, ALL_COUNTRIES } from '@/data/types';
 import { getDateRange } from '@/hooks/useFilters';
 import { formatDate } from '@/lib/formatters';
 import { RefreshCw, Menu } from 'lucide-react';
@@ -15,9 +15,6 @@ interface TopBarProps {
   filters: FilterState;
   onChange: (f: FilterState) => void;
 }
-
-const ALL_COUNTRIES: Country[] = ['at', 'cz', 'sk', 'pl', 'nl', 'de'];
-
 
 const periodLabels: Record<TimePeriod, string> = {
   current_year:  'Aktuální rok',
@@ -57,14 +54,8 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
     onChange({ ...filters, timePeriod: period });
   };
 
-  const handleCountryToggle = (country: Country) => {
-    const active = filters.countries;
-    if (active.includes(country)) {
-      if (active.length === 1) return; // keep at least one
-      onChange({ ...filters, countries: active.filter(c => c !== country) });
-    } else {
-      onChange({ ...filters, countries: [...active, country] });
-    }
+  const handleCountrySelect = (country: Country) => {
+    onChange({ ...filters, countries: [country] });
   };
 
   const handleSelectAll = () => {
@@ -95,14 +86,26 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
 
         {/* Country selectors */}
         <div className="flex items-center gap-1 flex-shrink-0">
+          {/* Vše — first */}
+          <button
+            onClick={handleSelectAll}
+            title="Všechny země"
+            className={`px-4 py-2 rounded-md text-[15px] font-bold border transition-colors ${
+              filters.countries.length === ALL_COUNTRIES.length
+                ? 'bg-blue-600 border-blue-600 text-white shadow-sm'
+                : 'bg-white border-slate-200 text-slate-400 hover:border-slate-400 hover:text-slate-600'
+            }`}
+          >
+            Vše
+          </button>
           {ALL_COUNTRIES.map((c) => {
-            const active = filters.countries.includes(c);
+            const active = filters.countries.length === 1 && filters.countries[0] === c;
             return (
               <button
                 key={c}
-                onClick={() => handleCountryToggle(c)}
+                onClick={() => handleCountrySelect(c)}
                 title={c.toUpperCase()}
-                className={`px-2 py-1 rounded-md text-[11px] font-bold uppercase border transition-colors ${
+                className={`px-4 py-2 rounded-md text-[15px] font-bold uppercase border transition-colors ${
                   active
                     ? 'bg-blue-600 border-blue-600 text-white shadow-sm'
                     : 'bg-white border-slate-200 text-slate-400 hover:border-slate-400 hover:text-slate-600'
@@ -112,15 +115,6 @@ export default function TopBar({ filters, onChange }: TopBarProps) {
               </button>
             );
           })}
-          {filters.countries.length < ALL_COUNTRIES.length && (
-            <button
-              onClick={handleSelectAll}
-              className="px-2 py-1 rounded-md text-[11px] font-bold border border-slate-200 text-slate-400 hover:border-blue-400 hover:text-blue-600 bg-white transition-colors"
-              title="Vybrat vše"
-            >
-              Vše
-            </button>
-          )}
         </div>
 
         {/* Divider */}

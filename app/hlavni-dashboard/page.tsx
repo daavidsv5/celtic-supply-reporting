@@ -7,11 +7,28 @@ import {
 } from 'recharts';
 import { mockData } from '@/data/mockGenerator';
 import { marginDataAT } from '@/data/marginDataAT';
+import { marginDataCZ } from '@/data/marginDataCZ';
+import { marginDataSK } from '@/data/marginDataSK';
+import { marginDataPL } from '@/data/marginDataPL';
+import { marginDataNL } from '@/data/marginDataNL';
+import { marginDataDE } from '@/data/marginDataDE';
 import { useHlavniDashboard } from '@/hooks/useHlavniDashboard';
+import { useFilters } from '@/hooks/useFilters';
+import { getDisplayCurrency } from '@/data/types';
+import { useExchangeRates, toCZK, ExchangeRates } from '@/hooks/useExchangeRates';
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 
 const MONTHS_CS = ['Led', 'Úno', 'Bře', 'Dub', 'Kvě', 'Čvn', 'Čvc', 'Srp', 'Zář', 'Říj', 'Lis', 'Pro'];
+
+const marginByCountry = {
+  at: marginDataAT,
+  cz: marginDataCZ,
+  sk: marginDataSK,
+  pl: marginDataPL,
+  nl: marginDataNL,
+  de: marginDataDE,
+} as const;
 
 // ─── Data aggregation ────────────────────────────────────────────────────────
 
@@ -23,12 +40,17 @@ interface MonthlyRow {
   marginRev: number;
 }
 
-function aggregateMonthly(year: number): MonthlyRow[] {
+function aggregateMonthly(
+  year: number,
+  country: string,
+  marginData: typeof marginDataAT,
+): MonthlyRow[] {
   const months: MonthlyRow[] = Array.from({ length: 12 }, () => ({
     revenue: 0, orders: 0, cost: 0, purchaseCost: 0, marginRev: 0,
   }));
 
   for (const r of mockData) {
+    if (r.country !== country) continue;
     const [y, m] = r.date.split('-').map(Number);
     if (y !== year) continue;
     const i = m - 1;
@@ -37,7 +59,7 @@ function aggregateMonthly(year: number): MonthlyRow[] {
     months[i].cost    += r.cost;
   }
 
-  for (const r of marginDataAT) {
+  for (const r of marginData) {
     const [y, m] = r.date.split('-').map(Number);
     if (y !== year) continue;
     months[m - 1].purchaseCost += r.purchaseCost;
@@ -47,27 +69,58 @@ function aggregateMonthly(year: number): MonthlyRow[] {
   return months;
 }
 
+const ALL_COUNTRY_SOURCES = [
+  { country: 'at', marginData: marginDataAT, cur: 'EUR' as const },
+  { country: 'cz', marginData: marginDataCZ, cur: 'CZK' as const },
+  { country: 'sk', marginData: marginDataSK, cur: 'EUR' as const },
+  { country: 'pl', marginData: marginDataPL, cur: 'PLN' as const },
+  { country: 'nl', marginData: marginDataNL, cur: 'EUR' as const },
+  { country: 'de', marginData: marginDataDE, cur: 'EUR' as const },
+];
+
+function aggregateMonthlyAll(year: number, rates: ExchangeRates): MonthlyRow[] {
+  const months: MonthlyRow[] = Array.from({ length: 12 }, () => ({
+    revenue: 0, orders: 0, cost: 0, purchaseCost: 0, marginRev: 0,
+  }));
+
+  for (const { country, marginData, cur } of ALL_COUNTRY_SOURCES) {
+    const factor = toCZK(1, cur, rates);
+    for (const r of mockData) {
+      if (r.country !== country) continue;
+      const [y, m] = r.date.split('-').map(Number);
+      if (y !== year) continue;
+      const i = m - 1;
+      months[i].revenue += r.revenue * factor;
+      months[i].orders  += r.orders;
+      months[i].cost    += r.cost    * factor;
+    }
+    for (const r of marginData) {
+      const [y, m] = r.date.split('-').map(Number);
+      if (y !== year) continue;
+      months[m - 1].purchaseCost += r.purchaseCost * factor;
+      months[m - 1].marginRev    += r.revenue      * factor;
+    }
+  }
+
+  return months;
+}
+
 // ─── Formatters ──────────────────────────────────────────────────────────────
 
-function fmtCZK(v: number): string {
-  return `${Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0')}\u00a0Kč`;
+function makeFmtValue(currency: 'EUR' | 'CZK' | 'PLN') {
+  const sym = currency === 'EUR' ? '€' : currency === 'PLN' ? 'zł' : 'Kč';
+  return (v: number): string =>
+    `${Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0')}\u00a0${sym}`;
 }
 
-function fmtEUR(v: number): string {
-  return `${v.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0')}\u00a0€`;
-}
-
-function fmtAxisCZK(v: number): string {
-  if (v === 0) return '0';
-  if (Math.abs(v) >= 1_000_000) return `${(v / 1_000_000).toFixed(1).replace('.', ',')}M`;
-  if (Math.abs(v) >= 1_000) return `${Math.round(v / 1_000)}k`;
-  return String(Math.round(v));
-}
-
-function fmtAxisEUR(v: number): string {
-  if (v === 0) return '0';
-  if (Math.abs(v) >= 1_000) return `${Math.round(v / 1_000)}k €`;
-  return `${Math.round(v)} €`;
+function makeFmtAxis(currency: 'EUR' | 'CZK' | 'PLN') {
+  const sym = currency === 'EUR' ? ' €' : currency === 'PLN' ? ' zł' : ' Kč';
+  return (v: number): string => {
+    if (v === 0) return '0';
+    if (Math.abs(v) >= 1_000_000) return `${(v / 1_000_000).toFixed(1).replace('.', ',')}M`;
+    if (Math.abs(v) >= 1_000) return `${Math.round(v / 1_000)}k${sym}`;
+    return `${Math.round(v)}${sym}`;
+  };
 }
 
 function fmtAxisPct(v: number): string {
@@ -84,8 +137,8 @@ function fmtAxisCount(v: number): string {
 interface ChartCardProps {
   title: string;
   data: { month: string; a: number; b: number }[];
-  colorA: string;   // newer year — darker
-  colorB: string;   // older year — lighter
+  colorA: string;
+  colorB: string;
   yearA: number;
   yearB: number;
   axisFormatter: (v: number) => string;
@@ -130,32 +183,49 @@ function ChartCard({ title, data, colorA, colorB, yearA, yearB, axisFormatter, t
 
 export default function HlavniDashboardPage() {
   const { yearA, yearB } = useHlavniDashboard();
+  const { filters } = useFilters();
+  const rates = useExchangeRates();
 
-  const monthsA = useMemo(() => aggregateMonthly(yearA), [yearA]);
-  const monthsB = useMemo(() => aggregateMonthly(yearB), [yearB]);
+  const country = filters.countries[0] ?? 'at';
+  const multiCountry = filters.countries.length > 1;
+  const currency = getDisplayCurrency(filters.countries);
+  const marginData = marginByCountry[country as keyof typeof marginByCountry] ?? marginDataAT;
+
+  const fmtValue = makeFmtValue(currency);
+  const fmtAxis  = makeFmtAxis(currency);
+  const pctFmt   = (v: number) => `${v.toFixed(1).replace('.', ',')} %`;
+
+  const monthsA = useMemo(
+    () => multiCountry ? aggregateMonthlyAll(yearA, rates) : aggregateMonthly(yearA, country, marginData),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [yearA, country, marginData, multiCountry, rates],
+  );
+  const monthsB = useMemo(
+    () => multiCountry ? aggregateMonthlyAll(yearB, rates) : aggregateMonthly(yearB, country, marginData),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [yearB, country, marginData, multiCountry, rates],
+  );
 
   const chartData = useMemo(() => MONTHS_CS.map((month, i) => {
     const a = monthsA[i];
     const b = monthsB[i];
     return {
       month,
-      revenue:     { a: a.revenue,                                                           b: b.revenue },
-      grossProfit: { a: a.marginRev - a.purchaseCost - a.cost,                               b: b.marginRev - b.purchaseCost - b.cost },
-      orders:      { a: a.orders,                                                             b: b.orders },
-      cost:        { a: a.cost,                                                               b: b.cost },
-      pno:         { a: a.revenue > 0 ? (a.cost / a.revenue) * 100 : 0,                     b: b.revenue > 0 ? (b.cost / b.revenue) * 100 : 0 },
-      aov:         { a: a.orders > 0 ? a.revenue / a.orders : 0,                             b: b.orders > 0 ? b.revenue / b.orders : 0 },
+      revenue:     { a: a.revenue,                                                                 b: b.revenue },
+      grossProfit: { a: a.marginRev - a.purchaseCost - a.cost,                                     b: b.marginRev - b.purchaseCost - b.cost },
+      orders:      { a: a.orders,                                                                   b: b.orders },
+      cost:        { a: a.cost,                                                                     b: b.cost },
+      pno:         { a: a.revenue > 0 ? (a.cost / a.revenue) * 100 : 0,                           b: b.revenue > 0 ? (b.cost / b.revenue) * 100 : 0 },
+      aov:         { a: a.orders > 0 ? a.revenue / a.orders : 0,                                   b: b.orders > 0 ? b.revenue / b.orders : 0 },
       marginPct:   { a: a.marginRev > 0 ? ((a.marginRev - a.purchaseCost) / a.marginRev) * 100 : 0,
                      b: b.marginRev > 0 ? ((b.marginRev - b.purchaseCost) / b.marginRev) * 100 : 0 },
-      cpa:         { a: a.orders > 0 ? a.cost / a.orders : 0,                               b: b.orders > 0 ? b.cost / b.orders : 0 },
+      cpa:         { a: a.orders > 0 ? a.cost / a.orders : 0,                                     b: b.orders > 0 ? b.cost / b.orders : 0 },
     };
   }), [monthsA, monthsB]);
 
   function makeData(key: keyof typeof chartData[0]): { month: string; a: number; b: number }[] {
     return chartData.map(d => ({ month: d.month, ...(d[key] as { a: number; b: number }) }));
   }
-
-  const pctFmt = (v: number) => `${v.toFixed(1).replace('.', ',')} %`;
 
   return (
     <div className="space-y-6">
@@ -173,13 +243,13 @@ export default function HlavniDashboardPage() {
           data={makeData('revenue')}
           colorA="#2563eb" colorB="#93c5fd"
           yearA={yearA} yearB={yearB}
-          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
+          axisFormatter={fmtAxis} tooltipFormatter={fmtValue}
         />
         <ChartCard title="Hrubý zisk"
           data={makeData('grossProfit')}
           colorA="#16a34a" colorB="#86efac"
           yearA={yearA} yearB={yearB}
-          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
+          axisFormatter={fmtAxis} tooltipFormatter={fmtValue}
         />
         <ChartCard title="Počet objednávek"
           data={makeData('orders')}
@@ -191,7 +261,7 @@ export default function HlavniDashboardPage() {
           data={makeData('cost')}
           colorA="#dc2626" colorB="#fca5a5"
           yearA={yearA} yearB={yearB}
-          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
+          axisFormatter={fmtAxis} tooltipFormatter={fmtValue}
         />
         <ChartCard title="PNO (%)"
           data={makeData('pno')}
@@ -203,7 +273,7 @@ export default function HlavniDashboardPage() {
           data={makeData('aov')}
           colorA="#4338ca" colorB="#c4b5fd"
           yearA={yearA} yearB={yearB}
-          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
+          axisFormatter={fmtAxis} tooltipFormatter={fmtValue}
         />
         <ChartCard title="Marže (%)"
           data={makeData('marginPct')}
@@ -215,7 +285,7 @@ export default function HlavniDashboardPage() {
           data={makeData('cpa')}
           colorA="#7c3aed" colorB="#c4b5fd"
           yearA={yearA} yearB={yearB}
-          axisFormatter={fmtAxisEUR} tooltipFormatter={fmtEUR}
+          axisFormatter={fmtAxis} tooltipFormatter={fmtValue}
         />
       </div>
     </div>

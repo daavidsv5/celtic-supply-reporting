@@ -34,8 +34,14 @@ export interface FilterState {
 }
 
 export function getDisplayCurrency(countries: Country[]): Currency {
-  if (countries.length === 1 && countries[0] === 'pl') return 'PLN';
-  if (countries.length === 1 && countries[0] === 'cz') return 'CZK';
-  if (countries.every(c => c === 'cz' || c === 'sk')) return 'CZK';
+  if (countries.length > 1) return 'CZK'; // multi-country → aggregate in CZK
+  if (countries[0] === 'pl') return 'PLN';
+  if (countries[0] === 'cz') return 'CZK';
   return 'EUR';
+}
+
+export const ALL_COUNTRIES: Country[] = ['at', 'cz', 'sk', 'pl', 'nl', 'de'];
+
+export function isAllCountries(countries: Country[]): boolean {
+  return countries.length === ALL_COUNTRIES.length;
 }

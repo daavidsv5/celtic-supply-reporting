@@ -14,6 +14,7 @@ import { categoryDataDE } from '@/data/categoryDataDE';
 import { categoryDataSK } from '@/data/categoryDataSK';
 import { categoryDataCZ } from '@/data/categoryDataCZ';
 import { formatCurrency, localIsoDate, formatMonthYear } from '@/lib/formatters';
+import { getDisplayCurrency } from '@/data/types';
 
 const HIDDEN_CATEGORIES = new Set(['Skrýt', 'Nach Hersteller', 'Nezařazeno']);
 
@@ -434,7 +435,7 @@ export default function CategoriesPage() {
 
   const country = filters.countries[0];
   const categoryData = country === 'cz' ? categoryDataCZ : country === 'sk' ? categoryDataSK : country === 'pl' ? categoryDataPL : country === 'nl' ? categoryDataNL : country === 'de' ? categoryDataDE : categoryDataAT;
-  const currency = country === 'pl' ? 'PLN' : 'EUR';
+  const currency = getDisplayCurrency(filters.countries);
   const fc = (v: number) => formatCurrency(v, currency);
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
   const isMonthly = dayCount > 60;

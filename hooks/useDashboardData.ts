@@ -3,6 +3,7 @@
 import { useMemo } from 'react';
 import { DailyRecord, FilterState, KpiData, Currency, getDisplayCurrency } from '@/data/types';
 import { getDateRange } from './useFilters';
+import { ExchangeRates, toCZK } from './useExchangeRates';
 
 export interface ChartDataPoint {
   date: string;
@@ -63,6 +64,7 @@ function yoyChange(current: number, prev: number): number {
 export function useDashboardData(
   filters: FilterState,
   allData: DailyRecord[],
+  rates?: ExchangeRates,
 ): DashboardData {
   return useMemo(() => {
     const { start, end, prevStart, prevEnd } = getDateRange(filters);
@@ -72,13 +74,27 @@ export function useDashboardData(
     const prevEndStr  = isoDate(prevEnd);
 
     const currency: Currency = getDisplayCurrency(filters.countries);
+    const multiCountry = filters.countries.length > 1;
 
-    const currentData = allData.filter(r =>
-      r.date >= startStr && r.date <= endStr && filters.countries.includes(r.country)
-    );
-    const prevData = allData.filter(r =>
-      r.date >= prevStartStr && r.date <= prevEndStr && filters.countries.includes(r.country)
-    );
+    // Convert a record's monetary values to the display currency
+    function convertRecord(r: DailyRecord) {
+      if (!multiCountry || !rates) return r;
+      const factor = r.currency === 'EUR' ? rates.EUR_CZK : r.currency === 'PLN' ? rates.PLN_CZK : 1;
+      return {
+        ...r,
+        revenue:     r.revenue     * factor,
+        revenue_vat: r.revenue_vat * factor,
+        cost:        r.cost        * factor,
+        currency:    'CZK' as Currency,
+      };
+    }
+
+    const currentData = allData
+      .filter(r => r.date >= startStr && r.date <= endStr && filters.countries.includes(r.country))
+      .map(convertRecord);
+    const prevData = allData
+      .filter(r => r.date >= prevStartStr && r.date <= prevEndStr && filters.countries.includes(r.country))
+      .map(convertRecord);
 
     const kpi     = calcKpi(currentData);
     const prevKpi = calcKpi(prevData);
@@ -139,5 +155,5 @@ export function useDashboardData(
     const hasPrevData = prevData.some(r => r.orders > 0 || r.revenue > 0);
 
     return { currentData, prevData, kpi, prevKpi, yoy, chartData, currency, hasPrevData };
-  }, [filters, allData]);
+  }, [filters, allData, rates]);
 }

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { DailyRecord } from '@/data/types';
+import { DailyRecord, Currency } from '@/data/types';
 import { formatCurrency, formatPercent, formatNumber, formatDate } from '@/lib/formatters';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -13,6 +13,7 @@ interface MarginRecord {
 interface Props {
   data: DailyRecord[];
   marginData?: MarginRecord[];
+  currency?: Currency;
 }
 
 interface AggregatedRow {
@@ -39,10 +40,10 @@ function pnoBadge(pno: number) {
 
 const PAGE_SIZE = 20;
 
-export default function DailyTable({ data, marginData }: Props) {
+export default function DailyTable({ data, marginData, currency = 'EUR' }: Props) {
   const [page, setPage] = useState(0);
 
-  const fc = (v: number) => formatCurrency(v, 'EUR');
+  const fc = (v: number) => formatCurrency(v, currency);
   const showMargin = !!marginData && marginData.length > 0;
 
   // Build margin lookup by date

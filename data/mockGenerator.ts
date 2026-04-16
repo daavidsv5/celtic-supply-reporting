@@ -1,10 +1,19 @@
-import { DailyRecord } from './types';
+import { DailyRecord, getDisplayCurrency } from './types';
 import { realDataAT } from './realDataAT';
 import { realDataCZ } from './realDataCZ';
 import { realDataSK } from './realDataSK';
 import { realDataPL } from './realDataPL';
 import { realDataNL } from './realDataNL';
 import { realDataDE } from './realDataDE';
+
+const realDataByCountry = {
+  at: realDataAT,
+  cz: realDataCZ,
+  sk: realDataSK,
+  pl: realDataPL,
+  nl: realDataNL,
+  de: realDataDE,
+} as const;
 
 export const mockData: DailyRecord[] = [
   ...realDataAT.map(r => ({
@@ -84,11 +93,13 @@ export interface DailyMarketingRow {
 export function getDailyMarketingData(
   dateStart: string,
   dateEnd: string,
-  _countries: string[],
+  countries: string[],
 ): DailyMarketingRow[] {
+  const country = (countries[0] ?? 'at') as keyof typeof realDataByCountry;
+  const sourceData = realDataByCountry[country] ?? realDataAT;
   const byDate: Record<string, DailyMarketingRow> = {};
 
-  for (const r of realDataAT.filter(d => d.date >= dateStart && d.date <= dateEnd)) {
+  for (const r of sourceData.filter(d => d.date >= dateStart && d.date <= dateEnd)) {
     if (!byDate[r.date]) {
       byDate[r.date] = { date: r.date, cost: 0, cost_facebook: 0, cost_google: 0, clicks_facebook: 0, clicks_google: 0, orders: 0, revenue: 0 };
     }
@@ -108,7 +119,7 @@ export function getDailyMarketingData(
 export interface MarketingSource {
   source: string;
   cost: number;
-  currency: 'EUR';
+  currency: 'EUR' | 'CZK' | 'PLN';
   clicks: number;
   orders: number;
   revenue: number;
@@ -119,9 +130,12 @@ export interface MarketingSource {
 export function getMarketingSourceData(
   dateStart: string,
   dateEnd: string,
-  _countries: string[],
+  countries: string[],
 ): MarketingSource[] {
-  const r = realDataAT.filter(d => d.date >= dateStart && d.date <= dateEnd);
+  const country = (countries[0] ?? 'at') as keyof typeof realDataByCountry;
+  const sourceData = realDataByCountry[country] ?? realDataAT;
+  const currency = getDisplayCurrency(countries as import('./types').Country[]);
+  const r = sourceData.filter(d => d.date >= dateStart && d.date <= dateEnd);
   const fbCost   = r.reduce((s, d) => s + d.cost_facebook, 0);
   const gCost    = r.reduce((s, d) => s + d.cost_google, 0);
   const fbClicks = r.reduce((s, d) => s + d.clicks_facebook, 0);
@@ -135,7 +149,7 @@ export function getMarketingSourceData(
 
   return [
     {
-      source: 'Facebook Ads', currency: 'EUR',
+      source: 'Facebook Ads', currency,
       cost: fbCost, clicks: fbClicks,
       orders:  Math.round(totalOrders  * mkShare(fbCost)),
       revenue: Math.round(totalRevenue * mkShare(fbCost)),
@@ -143,7 +157,7 @@ export function getMarketingSourceData(
       cpa: safeDiv(fbCost, totalOrders  * mkShare(fbCost)),
     },
     {
-      source: 'Google Ads', currency: 'EUR',
+      source: 'Google Ads', currency,
       cost: gCost, clicks: gClicks,
       orders:  Math.round(totalOrders  * mkShare(gCost)),
       revenue: Math.round(totalRevenue * mkShare(gCost)),

@@ -57,7 +57,7 @@ export default function MarketingPage() {
     { title: 'Tržby bez DPH',          value: fc(kpi.revenue),yoy: yoy.revenue, sparklineData: dailyRevenue, icon: <Banknote size={16} /> },
   ].map(c => ({ ...c, hasPrevData }));
 
-  const sym = currency === 'EUR' ? '€' : 'Kč';
+  const sym = currency === 'EUR' ? '€' : currency === 'PLN' ? 'zł' : 'Kč';
 
   // Daily marketing data — base for table + trend charts
   const { start: sDaily, end: eDaily } = getDateRange(filters);

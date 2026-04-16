@@ -539,8 +539,8 @@ export default function ProductsPage() {
 
       {/* KPI boxes */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 sm:gap-4">
-        <StatCard title="Celkový prodej s DPH"  value={fc(totalRevenueVat)}        icon={<TrendingUp size={18} />} sub="EUR"              yoy={yoy.revenuevat}             hasPrevData={hasPrevDataDash} />
-        <StatCard title="Celkový prodej bez DPH" value={fc(totalRevenue)}            icon={<ShoppingBag size={18} />} sub="EUR"             yoy={yoy.revenue}                hasPrevData={hasPrevDataDash} />
+        <StatCard title="Celkový prodej s DPH"  value={fc(totalRevenueVat)}        icon={<TrendingUp size={18} />} sub={currency}         yoy={yoy.revenuevat}             hasPrevData={hasPrevDataDash} />
+        <StatCard title="Celkový prodej bez DPH" value={fc(totalRevenue)}            icon={<ShoppingBag size={18} />} sub={currency}        yoy={yoy.revenue}                hasPrevData={hasPrevDataDash} />
         <StatCard title="Celkový počet kusů"     value={formatNumber(totalAmount)}   icon={<Boxes size={18} />} sub="prodáno"                     yoy={yoyPct(totalAmount, prevTotalAmount)}  hasPrevData={hasPrevData} />
         <StatCard title="Počet produktů"          value={formatNumber(uniqueProducts)} icon={<Package size={18} />} sub="unikátních produktů" />
         <StatCard title="Produktů v objednávce"  value={avgItemsPerOrder.toFixed(2)} icon={<LayoutList size={18} />} sub="průměr ks / obj."    yoy={yoyAvgItems}                hasPrevData={hasPrevData} />

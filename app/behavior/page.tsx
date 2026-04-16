@@ -27,10 +27,10 @@ const DAY_NAMES = ['Neděle', 'Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'P�
 const DAY_SHORT = ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'];
 const DAY_ORDER  = [1, 2, 3, 4, 5, 6, 0]; // Mon → Sun
 
-function formatYAxis(v: number) {
-  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M €`;
-  if (v >= 1_000)     return `${Math.round(v / 1_000)}k €`;
-  return `${v} €`;
+function formatYAxis(v: number, sym = '€') {
+  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M ${sym}`;
+  if (v >= 1_000)     return `${Math.round(v / 1_000)}k ${sym}`;
+  return `${v} ${sym}`;
 }
 
 export default function BehaviorPage() {
@@ -46,10 +46,12 @@ export default function BehaviorPage() {
   const currency = getDisplayCurrency(filters.countries);
   const fc = (v: number) => formatCurrency(v, currency);
 
-  // Filter mockData by date range
+  const sym = currency === 'CZK' ? 'Kč' : currency === 'PLN' ? 'zł' : '€';
+
+  // Filter mockData by date range AND country
   const filtered = useMemo(
-    () => mockData.filter(r => r.date >= startStr && r.date <= endStr),
-    [startStr, endStr]
+    () => mockData.filter(r => r.date >= startStr && r.date <= endStr && filters.countries.includes(r.country)),
+    [startStr, endStr, filters.countries]
   );
 
   // Aggregate by weekday
@@ -172,7 +174,7 @@ export default function BehaviorPage() {
               <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
               <XAxis dataKey="name" tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
               <YAxis
-                tickFormatter={v => formatYAxis(v)}
+                tickFormatter={v => formatYAxis(v, sym)}
                 tick={{ fontSize: 11, fill: '#94a3b8' }}
                 width={70}
                 axisLine={false}
@@ -200,7 +202,7 @@ export default function BehaviorPage() {
           <BarChart data={hourlyChartData} margin={{ top: 4, right: 16, left: 4, bottom: 4 }}>
             <CartesianGrid strokeDasharray="0" stroke="#f1f5f9" vertical={false} />
             <XAxis dataKey="hour" tick={{ fontSize: 10, fill: '#94a3b8' }} axisLine={false} tickLine={false} interval={1} />
-            <YAxis tickFormatter={v => formatYAxis(v)} tick={{ fontSize: 10, fill: '#94a3b8' }} width={64} axisLine={false} tickLine={false} />
+            <YAxis tickFormatter={v => formatYAxis(v, sym)} tick={{ fontSize: 10, fill: '#94a3b8' }} width={64} axisLine={false} tickLine={false} />
             <Tooltip
               // eslint-disable-next-line @typescript-eslint/no-explicit-any
               formatter={(v: any) => [fc(Number(v)), 'Průměr tržeb bez DPH']}

@@ -3,6 +3,7 @@
 import { useMemo } from 'react';
 import { useFilters, getDateRange } from '@/hooks/useFilters';
 import { getDisplayCurrency } from '@/data/types';
+import { useExchangeRates, toCZK } from '@/hooks/useExchangeRates';
 import { marginDataAT } from '@/data/marginDataAT';
 import { marginDataCZ } from '@/data/marginDataCZ';
 import { marginDataSK } from '@/data/marginDataSK';
@@ -61,6 +62,7 @@ const MarzeTooltip = ({ active, payload, label, currency, isMonthly }: any) => {
 
 export default function MarginPage() {
   const { filters } = useFilters();
+  const rates = useExchangeRates();
   const { start, end } = getDateRange(filters);
 
   const startStr = localIsoDate(start);
@@ -68,48 +70,88 @@ export default function MarginPage() {
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
   const marginByCountry  = { at: marginDataAT, cz: marginDataCZ, sk: marginDataSK, pl: marginDataPL, nl: marginDataNL, de: marginDataDE };
-  const realByCountry    = { at: realDataAT,   cz: realDataCZ,   sk: realDataSK,   pl: realDataPL,   nl: realDataNL,   de: realDataDE };
+  const realByCountryMap = { at: realDataAT,   cz: realDataCZ,   sk: realDataSK,   pl: realDataPL,   nl: realDataNL,   de: realDataDE };
   const country = filters.countries[0] ?? 'at';
+  const multiCountry = filters.countries.length > 1;
   const marginData = marginByCountry[country] ?? marginDataAT;
-  const realData   = realByCountry[country]   ?? realDataAT;
+  const realData   = realByCountryMap[country]   ?? realDataAT;
   const currency = getDisplayCurrency(filters.countries);
 
-  // Build index of realData by date
-  const realATByDate = useMemo(() => {
+  // All-country sources for multi-country aggregation
+  const allMarginSources = [
+    { data: marginDataAT, realSrc: realDataAT, cur: 'EUR' as const },
+    { data: marginDataCZ, realSrc: realDataCZ, cur: 'CZK' as const },
+    { data: marginDataSK, realSrc: realDataSK, cur: 'EUR' as const },
+    { data: marginDataPL, realSrc: realDataPL, cur: 'PLN' as const },
+    { data: marginDataNL, realSrc: realDataNL, cur: 'EUR' as const },
+    { data: marginDataDE, realSrc: realDataDE, cur: 'EUR' as const },
+  ];
+
+  // Build index of realData by date (single or multi-country)
+  const realByDate = useMemo(() => {
     const m: Record<string, { revenue_vat: number; revenue: number; orders: number; cost: number }> = {};
-    for (const r of realData) {
-      m[r.date] = { revenue_vat: r.revenue_vat, revenue: r.revenue, orders: r.orders, cost: r.cost };
+    const sources = multiCountry
+      ? allMarginSources.map(s => ({ data: s.realSrc, cur: s.cur }))
+      : [{ data: realData, cur: (currency === 'PLN' ? 'PLN' : currency === 'CZK' ? 'CZK' : 'EUR') as 'EUR' | 'CZK' | 'PLN' }];
+    for (const { data, cur } of sources) {
+      const factor = multiCountry ? toCZK(1, cur, rates) : 1;
+      for (const r of data) {
+        if (!m[r.date]) m[r.date] = { revenue_vat: 0, revenue: 0, orders: 0, cost: 0 };
+        m[r.date].revenue_vat += r.revenue_vat * factor;
+        m[r.date].revenue     += r.revenue     * factor;
+        m[r.date].orders      += r.orders;
+        m[r.date].cost        += r.cost        * factor;
+      }
     }
     return m;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [country]);
+  }, [country, multiCountry, rates]);
 
   const { totals, chartData, isMonthly } = useMemo(() => {
     let revVat = 0, rev = 0, orders = 0, cost = 0, purchaseCost = 0, marginRev = 0;
 
-    const dailyMap: Record<string, { date: string; marze: number; marzePct: number; hrubyZisk: number; hrubyZiskPct: number }> = {};
+    const dailyMap: Record<string, { date: string; marze: number; marzePct: number; hrubyZisk: number; hrubyZiskPct: number; _marginRev: number }> = {};
     const datesInRange = new Set<string>();
 
-    for (const r of marginData) {
-      if (r.date < startStr || r.date > endStr) continue;
-      datesInRange.add(r.date);
-      purchaseCost += r.purchaseCost;
-      marginRev    += r.revenue;
-      const dayReal  = realATByDate[r.date];
-      const dayCost  = dayReal?.cost ?? 0;
-      const dayMarze = r.revenue - r.purchaseCost;
-      const dayHZ    = dayMarze - dayCost;
-      const prev = dailyMap[r.date];
-      dailyMap[r.date] = {
-        date:         r.date,
-        marze:        Math.round((prev?.marze ?? 0) + dayMarze),
-        marzePct:     r.revenue > 0 ? (dayMarze / r.revenue) * 100 : 0,
-        hrubyZisk:    Math.round((prev?.hrubyZisk ?? 0) + dayHZ),
-        hrubyZiskPct: r.revenue > 0 ? (dayHZ / r.revenue) * 100 : 0,
-      };
+    const marginSources = multiCountry
+      ? allMarginSources
+      : [{ data: marginData, realSrc: realData, cur: (currency === 'PLN' ? 'PLN' : currency === 'CZK' ? 'CZK' : 'EUR') as 'EUR' | 'CZK' | 'PLN' }];
+
+    for (const { data, cur } of marginSources) {
+      const factor = multiCountry ? toCZK(1, cur, rates) : 1;
+      for (const r of data) {
+        if (r.date < startStr || r.date > endStr) continue;
+        datesInRange.add(r.date);
+        const pc = r.purchaseCost * factor;
+        const mr = r.revenue * factor;
+        purchaseCost += pc;
+        marginRev    += mr;
+        const dayCost  = realByDate[r.date]?.cost ?? 0;
+        const dayMarze = mr - pc;
+        const dayHZ    = dayMarze - dayCost;
+        const prev = dailyMap[r.date];
+        const prevMarze = prev?.marze ?? 0;
+        const prevHZ    = prev?.hrubyZisk ?? 0;
+        const prevMR    = prev?._marginRev ?? 0;
+        dailyMap[r.date] = {
+          date:         r.date,
+          _marginRev:   prevMR + mr,
+          marze:        Math.round(prevMarze + dayMarze),
+          marzePct:     0, // computed below after aggregating
+          hrubyZisk:    Math.round(prevHZ + dayHZ),
+          hrubyZiskPct: 0,
+        };
+      }
     }
 
-    for (const [d, r] of Object.entries(realATByDate)) {
+    // Compute percentages after full aggregation
+    for (const d of Object.keys(dailyMap)) {
+      const v = dailyMap[d];
+      v.marzePct     = v._marginRev > 0 ? (v.marze     / v._marginRev) * 100 : 0;
+      v.hrubyZiskPct = v._marginRev > 0 ? (v.hrubyZisk / v._marginRev) * 100 : 0;
+    }
+
+    for (const [d, r] of Object.entries(realByDate)) {
       if (d < startStr || d > endStr) continue;
       datesInRange.add(d);
       revVat  += r.revenue_vat;
@@ -144,7 +186,11 @@ export default function MarginPage() {
           hrubyZiskPct: v.count > 0 ? v.hrubyZiskPct_sum / v.count : 0,
         }));
     } else {
-      chartRows = allDays.map(d => dailyMap[d] ?? { date: d, marze: 0, marzePct: 0, hrubyZisk: 0, hrubyZiskPct: 0 });
+      chartRows = allDays.map(d => {
+        const v = dailyMap[d];
+        return v ? { date: d, marze: v.marze, marzePct: v.marzePct, hrubyZisk: v.hrubyZisk, hrubyZiskPct: v.hrubyZiskPct }
+                 : { date: d, marze: 0, marzePct: 0, hrubyZisk: 0, hrubyZiskPct: 0 };
+      });
     }
 
     const margin      = marginRev - purchaseCost;
@@ -158,15 +204,16 @@ export default function MarginPage() {
       chartData: chartRows,
       isMonthly: dayCount > 60,
     };
-  }, [startStr, endStr, realATByDate]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [startStr, endStr, realByDate, multiCountry, rates]);
 
   const { revVat, rev, orders, cost, margin, marginPct, grossProfit, grossPct, pno } = totals;
   const dateTickFormatter = isMonthly ? formatMonthYear : formatShortDate;
 
-  const currLabel = '€';
+  const currLabel = currency === 'CZK' ? 'Kč' : currency === 'PLN' ? 'zł' : '€';
 
   const kpiCards = [
-    { title: 'Tržby s DPH',           value: formatCurrency(revVat, currency), subtitle: 'z objednávek AT',                      icon: <Wallet size={18} /> },
+    { title: 'Tržby s DPH',           value: formatCurrency(revVat, currency), subtitle: `z objednávek ${multiCountry ? 'Vše (Kč)' : country.toUpperCase()}`,  icon: <Wallet size={18} /> },
     { title: 'Tržby bez DPH',         value: formatCurrency(rev, currency),    subtitle: 'základ pro PNO a marži',               icon: <Banknote size={18} /> },
     { title: 'Počet objednávek',       value: formatNumber(orders),             subtitle: 'dokončené objednávky',                 icon: <ShoppingCart size={18} /> },
     { title: 'Marketingové investice', value: formatCurrency(cost, currency),   subtitle: 'Google + Facebook', negative: false,  icon: <TrendingUp size={18} /> },

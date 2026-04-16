@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useFilters } from '@/hooks/useFilters';
+import { getDisplayCurrency } from '@/data/types';
 import { useDashboardData } from '@/hooks/useDashboardData';
 import { mockData } from '@/data/mockGenerator';
 import { formatCurrency } from '@/lib/formatters';
@@ -155,7 +156,7 @@ export default function AnalyticsPage() {
   const [funnelDevice, setFunnelDevice] = useState<FunnelDevice>('all');
 
   const { kpi: shoptetKpi, prevKpi: shoptetPrevKpi } = useDashboardData(filters, mockData);
-  const currency = 'EUR' as const;
+  const currency = getDisplayCurrency(filters.countries);
 
   useEffect(() => {
     setLoading(true);
