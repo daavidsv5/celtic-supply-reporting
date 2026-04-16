@@ -119,11 +119,39 @@ export default function RetentionPage() {
             <XAxis dataKey="date" tickFormatter={formatMonthYear} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} interval="preserveStartEnd" />
             <YAxis tickFormatter={v => `${Math.round((v as number) * 100)} %`} tick={{ fontSize: 11, fill: '#94a3b8' }} axisLine={false} tickLine={false} width={44} />
             <Tooltip
-              formatter={(v: any, name: any, props: any) => {
-                const raw = props?.payload?.[name === 'Noví zákazníci' ? 'noví' : 'stávající'] ?? 0;
-                return [formatNumber(raw), name];
+              content={({ active, payload, label }: any) => {
+                if (!active || !payload?.length) return null;
+                const d = payload[0]?.payload ?? {};
+                const total = (d['noví'] ?? 0) + (d['stávající'] ?? 0);
+                const entries = [
+                  { name: 'Noví zákazníci',      key: 'noví',      color: C.newCustomers },
+                  { name: 'Stávající zákazníci', key: 'stávající', color: C.primary },
+                ];
+                return (
+                  <div className="bg-white border border-slate-200 rounded-lg p-2.5 text-xs shadow-sm min-w-[200px]">
+                    <p className="font-semibold text-slate-600 mb-1.5">{formatMonthYear(label as string)}</p>
+                    {entries.map(({ name, key, color }) => {
+                      const count = d[key] ?? 0;
+                      const pct = total > 0 ? (count / total) * 100 : 0;
+                      return (
+                        <div key={key} className="flex items-center justify-between gap-4 mb-0.5">
+                          <span style={{ color }} className="font-medium">{name}</span>
+                          <span className="text-slate-700 font-semibold tabular-nums">
+                            {formatNumber(count)}
+                            <span className="text-slate-400 font-normal ml-1">({pct.toFixed(1)} %)</span>
+                          </span>
+                        </div>
+                      );
+                    })}
+                    {total > 0 && (
+                      <div className="flex items-center justify-between gap-4 border-t border-slate-100 pt-1 mt-1">
+                        <span className="text-slate-400">Celkem</span>
+                        <span className="text-slate-600 font-semibold tabular-nums">{formatNumber(total)}</span>
+                      </div>
+                    )}
+                  </div>
+                );
               }}
-              labelFormatter={(l: any) => formatMonthYear(l as string)}
             />
             <Legend wrapperStyle={{ fontSize: 11, color: '#64748b' }} iconType="square" iconSize={9} />
             <Bar dataKey="noví"      name="Noví zákazníci"      stackId="a" fill={C.newCustomers} />
