@@ -143,20 +143,51 @@ interface ChartCardProps {
   yearB: number;
   axisFormatter: (v: number) => string;
   tooltipFormatter: (v: number) => string;
+  isPctMetric?: boolean;
 }
 
-function ChartCard({ title, data, colorA, colorB, yearA, yearB, axisFormatter, tooltipFormatter }: ChartCardProps) {
+function ChartCard({ title, data, colorA, colorB, yearA, yearB, axisFormatter, tooltipFormatter, isPctMetric }: ChartCardProps) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (!active || !payload?.length) return null;
+
+    const entryB = payload.find((e: any) => e.dataKey === 'b');
+    const entryA = payload.find((e: any) => e.dataKey === 'a');
+    const valA = entryA?.value ?? 0;
+    const valB = entryB?.value ?? 0;
+
+    let yoyLabel: string | null = null;
+    let yoyPositive = true;
+    if (valB !== 0) {
+      if (isPctMetric) {
+        const diff = valA - valB;
+        yoyPositive = diff >= 0;
+        yoyLabel = `${diff >= 0 ? '+' : ''}${diff.toFixed(1).replace('.', ',')} pp`;
+      } else {
+        const pct = ((valA - valB) / Math.abs(valB)) * 100;
+        yoyPositive = pct >= 0;
+        yoyLabel = `${pct >= 0 ? '+' : ''}${pct.toFixed(1).replace('.', ',')} %`;
+      }
+    }
+
     return (
-      <div className="bg-white border border-slate-200 rounded-lg p-2.5 text-xs shadow-sm">
-        <p className="font-medium text-slate-600 mb-1">{label}</p>
-        {payload.map((entry: any) => (
-          <p key={entry.name} style={{ color: entry.fill }}>
-            {entry.name}: <span className="font-semibold">{tooltipFormatter(entry.value)}</span>
+      <div className="bg-white border border-slate-200 rounded-lg p-2.5 text-xs shadow-sm min-w-[160px]">
+        <p className="font-medium text-slate-600 mb-1.5">{label}</p>
+        {entryB && (
+          <p style={{ color: entryB.fill }} className="mb-0.5">
+            {yearB}: <span className="font-semibold">{tooltipFormatter(valB)}</span>
           </p>
-        ))}
+        )}
+        {entryA && (
+          <p style={{ color: entryA.fill }} className="mb-1">
+            {yearA}: <span className="font-semibold">{tooltipFormatter(valA)}</span>
+          </p>
+        )}
+        {yoyLabel && (
+          <p className={`font-bold border-t border-slate-100 pt-1 ${yoyPositive ? 'text-emerald-600' : 'text-rose-500'}`}>
+            YoY: {yoyLabel}
+          </p>
+        )}
       </div>
     );
   };
@@ -268,6 +299,7 @@ export default function HlavniDashboardPage() {
           colorA="#0891b2" colorB="#67e8f9"
           yearA={yearA} yearB={yearB}
           axisFormatter={fmtAxisPct} tooltipFormatter={pctFmt}
+          isPctMetric
         />
         <ChartCard title="AOV – Průměrná hodnota objednávky"
           data={makeData('aov')}
@@ -280,6 +312,7 @@ export default function HlavniDashboardPage() {
           colorA="#15803d" colorB="#86efac"
           yearA={yearA} yearB={yearB}
           axisFormatter={fmtAxisPct} tooltipFormatter={pctFmt}
+          isPctMetric
         />
         <ChartCard title="Cena za objednávku (CPA)"
           data={makeData('cpa')}
