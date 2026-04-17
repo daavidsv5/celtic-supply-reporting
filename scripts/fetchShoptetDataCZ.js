@@ -12,6 +12,7 @@
 const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
+const v8    = require('v8');
 
 // ── Config ─────────────────────────────────────────────────────────────────────
 const envFile = path.join(__dirname, '..', '.env.local');
@@ -241,24 +242,15 @@ async function fetchOrderDetail(code) {
 // ── Cache helpers ──────────────────────────────────────────────────────────────
 function loadCache() {
   if (fs.existsSync(CACHE_FILE)) {
-    try { return JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8')); }
+    try { return v8.deserialize(fs.readFileSync(CACHE_FILE)); }
     catch { log('Cache file corrupt, starting fresh.'); }
   }
   return {};
 }
 
 function saveCache(cache) {
-  const entries = Object.entries(cache);
   const tmpFile = CACHE_FILE + '.tmp';
-  const fd = fs.openSync(tmpFile, 'w');
-  fs.writeSync(fd, '{');
-  for (let i = 0; i < entries.length; i++) {
-    const [k, v] = entries[i];
-    const chunk = JSON.stringify(k) + ':' + JSON.stringify(v) + (i < entries.length - 1 ? ',' : '');
-    fs.writeSync(fd, chunk);
-  }
-  fs.writeSync(fd, '}');
-  fs.closeSync(fd);
+  fs.writeFileSync(tmpFile, v8.serialize(cache));
   fs.renameSync(tmpFile, CACHE_FILE);
 }
 
