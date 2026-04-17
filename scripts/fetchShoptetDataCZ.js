@@ -3,7 +3,7 @@
  * Fetches orders from Shoptet Private API (CZ) and generates data/*.ts files.
  *
  * Run:  node scripts/fetchShoptetDataCZ.js           # incremental (last 7 days)
- *       node scripts/fetchShoptetDataCZ.js --full    # full sync (all orders from 2023-01-01)
+ *       node scripts/fetchShoptetDataCZ.js --full    # full sync (all orders from 2025-01-01)
  *
  * Requires env var: SHOPTET_API_TOKEN_CZ
  * Or set it directly in .env.local as SHOPTET_API_TOKEN_CZ=...
@@ -649,7 +649,7 @@ async function main() {
   let codesToFetch;
 
   if (FULL_SYNC || !fs.existsSync(CACHE_FILE)) {
-    const fullSyncFrom = new Date('2023-01-01');
+    const fullSyncFrom = new Date('2025-01-01');
     log(`Fetching ALL order codes (full sync from ${fullSyncFrom.toISOString().substring(0, 10)})...`);
     const allCodes = await fetchOrderCodes(fullSyncFrom);
     log(`Total orders found: ${allCodes.length}`);
