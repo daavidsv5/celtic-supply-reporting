@@ -289,7 +289,7 @@ function processOrders(orders, productCategoryMap = {}) {
     const cancelled = CANCELLED_STATUS_IDS.has(order.status.id);
     const items     = order.items || [];
 
-    if (!byDay[date]) byDay[date] = { date, orders: 0, orders_cancelled: 0, revenue_vat: 0, revenue: 0, cost: 0, cost_facebook: 0, cost_google: 0, clicks_facebook: 0, clicks_google: 0 };
+    if (!byDay[date]) byDay[date] = { date, country: 'cz', orders: 0, orders_cancelled: 0, revenue_vat: 0, revenue: 0, cost: 0, cost_facebook: 0, cost_google: 0, clicks_facebook: 0, clicks_google: 0 };
 
     if (cancelled) {
       byDay[date].orders_cancelled++;
@@ -458,7 +458,7 @@ function writeRealData(byDay) {
 
 export interface RealDailyRecord {
   date: string;
-  country: 'cz';
+  country?: 'cz';
   orders: number;
   orders_cancelled: number;
   revenue_vat: number;

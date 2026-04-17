@@ -3,7 +3,7 @@
 
 export interface RealDailyRecordSK {
   date: string;
-  country: 'sk';
+  country?: 'sk';
   orders: number;
   orders_cancelled: number;
   revenue_vat: number;

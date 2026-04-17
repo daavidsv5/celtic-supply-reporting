@@ -328,7 +328,7 @@ function processOrders(orders, productCategoryMap = {}) {
     if (isAllegroOrder(order)) continue;
 
     // --- Cancelled order tracking ---
-    if (!byDay[date]) byDay[date] = { date, orders: 0, orders_cancelled: 0, revenue_vat: 0, revenue: 0, cost: 0, cost_facebook: 0, cost_google: 0, clicks_facebook: 0, clicks_google: 0 };
+    if (!byDay[date]) byDay[date] = { date, country: 'sk', orders: 0, orders_cancelled: 0, revenue_vat: 0, revenue: 0, cost: 0, cost_facebook: 0, cost_google: 0, clicks_facebook: 0, clicks_google: 0 };
 
     if (cancelled) {
       byDay[date].orders_cancelled++;
@@ -503,7 +503,7 @@ function writeRealData(byDay) {
 
 export interface RealDailyRecord {
   date: string;
-  country: 'sk';
+  country?: 'sk';
   orders: number;
   orders_cancelled: number;
   revenue_vat: number;
