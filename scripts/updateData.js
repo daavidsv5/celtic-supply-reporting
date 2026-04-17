@@ -826,72 +826,12 @@ async function main() {
   try {
     // Download all sheets in parallel
     log('Downloading Google Sheets...');
-    const [csvOrdersCZ, csvCostCZ, csvMarginCZ, csvStockCZ] = await Promise.all([
-      fetchUrl(SHEETS.orders_cz),
-      fetchUrl(SHEETS.cost_cz),
-      fetchUrl(SHEETS.margin_cz),
+    const [csvStockCZ] = await Promise.all([
       fetchUrl(SHEETS.stock_cz),
     ]);
     log('Download complete.');
 
-    // ── CZ ────────────────────────────────────────────────────────────────────
-    const ordersByDayCZ             = aggregateOrders(csvOrdersCZ, 1);          // CZK
-    const { byDay: costByDayCZ, byDaySource: costSrcCZ } = aggregateCost(csvCostCZ, 1); // CZK
-    const recordsCZ = mergeDailyRecords(ordersByDayCZ, costByDayCZ, costSrcCZ, 'cz');
-
-    const totalCZ = recordsCZ.reduce((a, r) => ({
-      orders: a.orders + r.orders,
-      revenue_vat: a.revenue_vat + r.revenue_vat,
-      cost: a.cost + r.cost,
-    }), { orders: 0, revenue_vat: 0, cost: 0 });
-
-    log(`CZ: ${recordsCZ.length} days | ${totalCZ.orders} orders | ${totalCZ.revenue_vat.toFixed(0)} Kč | PNO ${(totalCZ.cost / (recordsCZ.reduce((s,r) => s+r.revenue, 0)) * 100).toFixed(2)}%`);
-
-    writeTsFile(
-      path.join(DATA_DIR, 'realDataCZ.ts'),
-      'realDataCZ', 'RealDailyRecord',
-      'CZ: orders in CZK (cancelled/returned excluded)',
-      recordsCZ
-    );
-    log('Written realDataCZ.ts');
-
-    const productsCZ = aggregateProducts(csvOrdersCZ, 1);
-    writeProductTsFile(path.join(DATA_DIR, 'productDataCZ.ts'), 'productDataCZ', 'cz', productsCZ);
-    log(`CZ products: ${productsCZ.reduce((s, r) => s + r.amount, 0)} ks across ${new Set(productsCZ.map(r => r.name)).size} unique products`);
-    log('Written productDataCZ.ts');
-
-    // ── CZ Shipping / Payment ─────────────────────────────────────────────────
-    const shippingPaymentCZ = aggregateShippingPayment(csvOrdersCZ, 1);
-    writeShippingPaymentTsFile(path.join(DATA_DIR, 'shippingPaymentDataCZ.ts'), 'shippingPaymentDataCZ', 'cz', shippingPaymentCZ);
-    log(`CZ shipping/payment: ${shippingPaymentCZ.length} records`);
-
-    // ── CZ Order value distribution ───────────────────────────────────────────
-    const orderValuesCZ = aggregateOrderValues(csvOrdersCZ);
-    writeOrderValueTsFile(path.join(DATA_DIR, 'orderValueDataCZ.ts'), 'orderValueDataCZ', 'cz', orderValuesCZ);
-    log(`CZ order values: ${orderValuesCZ.length} orders`);
-
-    // ── CZ retention ──────────────────────────────────────────────────────────
-    const retentionCZ = aggregateRetention(csvOrdersCZ);
-    writeRetentionTsFile(path.join(DATA_DIR, 'retentionDataCZ.ts'), 'retentionDataCZ', 'cz', retentionCZ);
-    log(`CZ retention: ${retentionCZ.length} customers`);
-
-    // ── CZ hourly behaviour ───────────────────────────────────────────────────
-    const hourlyCZ = aggregateHourly(csvOrdersCZ);
-    writeHourlyTsFile(path.join(DATA_DIR, 'hourlyDataCZ.ts'), 'hourlyDataCZ', 'cz', hourlyCZ);
-    const nonZeroCZ = hourlyCZ.filter(p => p.totalOrders > 0).length;
-    log(`CZ hourly: ${nonZeroCZ}/168 active (dow×hour) slots`);
-
-    // ── CZ cross-sell ─────────────────────────────────────────────────────────
-    const crossSellCZ = aggregateCrossSell(csvOrdersCZ);
-    writeCrossSellTsFile(path.join(DATA_DIR, 'crossSellDataCZ.ts'), 'crossSellDataCZ', 'cz', crossSellCZ);
-    log(`CZ cross-sell: ${crossSellCZ.pairs.length} pairs from ${crossSellCZ.totalOrders} orders (${crossSellCZ.multiItemOrders} multi-item)`);
-
-    // ── CZ Margin ──────────────────────────────────────────────────────────────
-    const marginRecordsCZ = aggregateMargin(csvMarginCZ);
-    writeMarginTsFile(path.join(DATA_DIR, 'marginDataCZ.ts'), 'marginDataCZ', 'CZK', marginRecordsCZ);
-    const totalMarginCZ = marginRecordsCZ.reduce((s, r) => s + (r.revenue - r.purchaseCost), 0);
-    log(`CZ margin: ${marginRecordsCZ.length} days | marže ${totalMarginCZ.toFixed(0)} Kč`);
-    log('Written marginDataCZ.ts');
+    // CZ orders/costs/margin — handled by fetchShoptetDataCZ.js (Google Sheets integration pending)
 
     // ── CZ Stock ──────────────────────────────────────────────────────────────
     const stockCZ = aggregateStock(csvStockCZ);
