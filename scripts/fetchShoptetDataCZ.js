@@ -645,7 +645,7 @@ async function main() {
   log(`=== fetchShoptetDataCZ.js START (${FULL_SYNC ? 'FULL SYNC' : 'INCREMENTAL'}) ===`);
 
   const cache = loadCache();
-  const SAVE_EVERY = 1500;
+  const SAVE_EVERY = 300;
   let codesToFetch;
 
   if (FULL_SYNC || !fs.existsSync(CACHE_FILE)) {
