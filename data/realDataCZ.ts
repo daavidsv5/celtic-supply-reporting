@@ -36,11 +36,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 53.31,
-    "cost_facebook": 17.99,
-    "cost_google": 35.32,
-    "clicks_facebook": 6,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-05-28",
@@ -49,11 +49,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2016,
     "revenue": 1666.12,
-    "cost": 477.31,
-    "cost_facebook": 234.43,
-    "cost_google": 242.88,
-    "clicks_facebook": 71,
-    "clicks_google": 152
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-05-29",
@@ -62,11 +62,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3084,
     "revenue": 2548.76,
-    "cost": 643.02,
-    "cost_facebook": 424.29,
-    "cost_google": 218.73,
-    "clicks_facebook": 91,
-    "clicks_google": 182
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-05-30",
@@ -75,11 +75,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3003,
     "revenue": 2481.83,
-    "cost": 617.18,
-    "cost_facebook": 481.75,
-    "cost_google": 135.43,
-    "clicks_facebook": 103,
-    "clicks_google": 65
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-05-31",
@@ -88,11 +88,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2049,
     "revenue": 1693.39,
-    "cost": 436.47,
-    "cost_facebook": 372.98,
-    "cost_google": 63.49,
-    "clicks_facebook": 87,
-    "clicks_google": 10
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-01",
@@ -101,11 +101,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1417,
     "revenue": 1171.07,
-    "cost": 504.12,
-    "cost_facebook": 397.64,
-    "cost_google": 106.48,
-    "clicks_facebook": 120,
-    "clicks_google": 13
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-02",
@@ -114,11 +114,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 3627,
     "revenue": 2997.52,
-    "cost": 448.66,
-    "cost_facebook": 348.18,
-    "cost_google": 100.48,
-    "clicks_facebook": 92,
-    "clicks_google": 12
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-03",
@@ -127,11 +127,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4301.5,
     "revenue": 3554.97,
-    "cost": 440.95,
-    "cost_facebook": 376.76,
-    "cost_google": 64.19,
-    "clicks_facebook": 74,
-    "clicks_google": 7
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-04",
@@ -140,11 +140,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2173,
     "revenue": 1795.87,
-    "cost": 440.87,
-    "cost_facebook": 364.09,
-    "cost_google": 76.78,
-    "clicks_facebook": 78,
-    "clicks_google": 9
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-05",
@@ -153,11 +153,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 1728,
     "revenue": 1428.1,
-    "cost": 451.03,
-    "cost_facebook": 347.6,
-    "cost_google": 103.43,
-    "clicks_facebook": 87,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-06",
@@ -166,11 +166,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 518,
     "revenue": 428.1,
-    "cost": 473.54,
-    "cost_facebook": 321.95,
-    "cost_google": 151.59,
-    "clicks_facebook": 66,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-07",
@@ -179,11 +179,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7886,
     "revenue": 6517.37,
-    "cost": 475.39,
-    "cost_facebook": 361.53,
-    "cost_google": 113.86,
-    "clicks_facebook": 77,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-08",
@@ -192,11 +192,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2473,
     "revenue": 2043.8,
-    "cost": 621.48,
-    "cost_facebook": 415.9,
-    "cost_google": 205.58,
-    "clicks_facebook": 98,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-09",
@@ -205,11 +205,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5377,
     "revenue": 4443.8,
-    "cost": 485.09,
-    "cost_facebook": 367.46,
-    "cost_google": 117.63,
-    "clicks_facebook": 71,
-    "clicks_google": 13
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-10",
@@ -218,11 +218,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4731,
     "revenue": 3909.91,
-    "cost": 687.88,
-    "cost_facebook": 487.38,
-    "cost_google": 200.5,
-    "clicks_facebook": 95,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-11",
@@ -231,11 +231,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 715.79,
-    "cost_facebook": 474.77,
-    "cost_google": 241.02,
-    "clicks_facebook": 82,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-12",
@@ -244,11 +244,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2112,
     "revenue": 1745.46,
-    "cost": 781.88,
-    "cost_facebook": 492.72,
-    "cost_google": 289.16,
-    "clicks_facebook": 104,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-13",
@@ -257,11 +257,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3206,
     "revenue": 2649.59,
-    "cost": 717.06,
-    "cost_facebook": 425.7,
-    "cost_google": 291.36,
-    "clicks_facebook": 83,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-14",
@@ -270,11 +270,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 691.79,
-    "cost_facebook": 365.06,
-    "cost_google": 326.73,
-    "clicks_facebook": 71,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-15",
@@ -283,11 +283,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1433,
     "revenue": 1184.29,
-    "cost": 670.2,
-    "cost_facebook": 513.97,
-    "cost_google": 156.23,
-    "clicks_facebook": 109,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-16",
@@ -296,11 +296,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4713.5,
     "revenue": 3895.45,
-    "cost": 654.59,
-    "cost_facebook": 470.32,
-    "cost_google": 184.27,
-    "clicks_facebook": 108,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-17",
@@ -309,11 +309,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4446,
     "revenue": 3674.38,
-    "cost": 592.51,
-    "cost_facebook": 431.16,
-    "cost_google": 161.35,
-    "clicks_facebook": 77,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-18",
@@ -322,11 +322,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 343.8,
     "revenue": 284.14,
-    "cost": 750.62,
-    "cost_facebook": 623.41,
-    "cost_google": 127.21,
-    "clicks_facebook": 79,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-19",
@@ -335,11 +335,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3621,
     "revenue": 2992.57,
-    "cost": 734.98,
-    "cost_facebook": 578.37,
-    "cost_google": 156.61,
-    "clicks_facebook": 81,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-20",
@@ -348,11 +348,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1043,
     "revenue": 861.99,
-    "cost": 633.83,
-    "cost_facebook": 522.56,
-    "cost_google": 111.27,
-    "clicks_facebook": 65,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-21",
@@ -361,11 +361,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 673.34,
-    "cost_facebook": 547.16,
-    "cost_google": 126.18,
-    "clicks_facebook": 90,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-22",
@@ -374,11 +374,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1278.9,
     "revenue": 1056.94,
-    "cost": 892.65,
-    "cost_facebook": 695.45,
-    "cost_google": 197.2,
-    "clicks_facebook": 106,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-23",
@@ -387,11 +387,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7896.6,
     "revenue": 6526.1,
-    "cost": 860.12,
-    "cost_facebook": 618.83,
-    "cost_google": 241.29,
-    "clicks_facebook": 97,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-24",
@@ -400,11 +400,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 8515,
     "revenue": 7037.18,
-    "cost": 702,
-    "cost_facebook": 543.77,
-    "cost_google": 158.23,
-    "clicks_facebook": 77,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-25",
@@ -413,11 +413,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 819.11,
-    "cost_facebook": 664.88,
-    "cost_google": 154.23,
-    "clicks_facebook": 81,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-26",
@@ -426,11 +426,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 609,
     "revenue": 503.31,
-    "cost": 654.04,
-    "cost_facebook": 535.41,
-    "cost_google": 118.63,
-    "clicks_facebook": 63,
-    "clicks_google": 17
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-27",
@@ -439,11 +439,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 807.93,
-    "cost_facebook": 591.5,
-    "cost_google": 216.43,
-    "clicks_facebook": 75,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-28",
@@ -452,11 +452,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1339.2,
     "revenue": 1106.77,
-    "cost": 744.69,
-    "cost_facebook": 547.95,
-    "cost_google": 196.74,
-    "clicks_facebook": 89,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-29",
@@ -465,11 +465,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 880.14,
-    "cost_facebook": 666.4,
-    "cost_google": 213.74,
-    "clicks_facebook": 95,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-06-30",
@@ -478,11 +478,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3417,
     "revenue": 2823.98,
-    "cost": 799.98,
-    "cost_facebook": 610.96,
-    "cost_google": 189.02,
-    "clicks_facebook": 81,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-01",
@@ -491,11 +491,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2014,
     "revenue": 1664.47,
-    "cost": 668.81,
-    "cost_facebook": 435.83,
-    "cost_google": 232.98,
-    "clicks_facebook": 66,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-02",
@@ -504,11 +504,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 913.5,
     "revenue": 754.96,
-    "cost": 579.29,
-    "cost_facebook": 427.88,
-    "cost_google": 151.41,
-    "clicks_facebook": 128,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-03",
@@ -517,11 +517,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2336,
     "revenue": 1930.57,
-    "cost": 606.31,
-    "cost_facebook": 441.24,
-    "cost_google": 165.07,
-    "clicks_facebook": 95,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-04",
@@ -530,11 +530,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1271.5,
     "revenue": 1050.82,
-    "cost": 536.78,
-    "cost_facebook": 421.68,
-    "cost_google": 115.1,
-    "clicks_facebook": 73,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-05",
@@ -543,11 +543,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3187.2,
     "revenue": 2634.04,
-    "cost": 517.31,
-    "cost_facebook": 430.75,
-    "cost_google": 86.56,
-    "clicks_facebook": 72,
-    "clicks_google": 10
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-06",
@@ -556,11 +556,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 900,
     "revenue": 743.8,
-    "cost": 572.33,
-    "cost_facebook": 468.22,
-    "cost_google": 104.11,
-    "clicks_facebook": 95,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-07",
@@ -569,11 +569,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1393,
     "revenue": 1151.24,
-    "cost": 667.64,
-    "cost_facebook": 471.94,
-    "cost_google": 195.7,
-    "clicks_facebook": 97,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-08",
@@ -582,11 +582,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3861,
     "revenue": 3190.91,
-    "cost": 700.99,
-    "cost_facebook": 481.97,
-    "cost_google": 219.02,
-    "clicks_facebook": 97,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-09",
@@ -595,11 +595,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 713,
     "revenue": 589.26,
-    "cost": 607.86,
-    "cost_facebook": 432.66,
-    "cost_google": 175.2,
-    "clicks_facebook": 57,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-10",
@@ -608,11 +608,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1523,
     "revenue": 1258.68,
-    "cost": 573.91,
-    "cost_facebook": 433.98,
-    "cost_google": 139.93,
-    "clicks_facebook": 94,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-11",
@@ -621,11 +621,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 1523,
     "revenue": 1258.68,
-    "cost": 569.92,
-    "cost_facebook": 429.3,
-    "cost_google": 140.62,
-    "clicks_facebook": 88,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-12",
@@ -634,11 +634,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 203,
     "revenue": 167.77,
-    "cost": 616.78,
-    "cost_facebook": 422.81,
-    "cost_google": 193.97,
-    "clicks_facebook": 88,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-13",
@@ -647,11 +647,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1344,
     "revenue": 1110.75,
-    "cost": 612.3,
-    "cost_facebook": 481.12,
-    "cost_google": 131.18,
-    "clicks_facebook": 101,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-14",
@@ -660,11 +660,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2020,
     "revenue": 1669.42,
-    "cost": 635.07,
-    "cost_facebook": 476.16,
-    "cost_google": 158.91,
-    "clicks_facebook": 105,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-15",
@@ -673,11 +673,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3068,
     "revenue": 2535.54,
-    "cost": 699.82,
-    "cost_facebook": 471.39,
-    "cost_google": 228.43,
-    "clicks_facebook": 93,
-    "clicks_google": 28
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-16",
@@ -686,11 +686,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1844,
     "revenue": 1523.97,
-    "cost": 605.9,
-    "cost_facebook": 422.27,
-    "cost_google": 183.63,
-    "clicks_facebook": 97,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-17",
@@ -699,11 +699,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 6241,
     "revenue": 5157.86,
-    "cost": 643.03,
-    "cost_facebook": 401.71,
-    "cost_google": 241.32,
-    "clicks_facebook": 76,
-    "clicks_google": 27
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-18",
@@ -712,11 +712,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 510,
-    "cost_facebook": 385.67,
-    "cost_google": 124.33,
-    "clicks_facebook": 95,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-19",
@@ -725,11 +725,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 458.39,
-    "cost_facebook": 308.13,
-    "cost_google": 150.26,
-    "clicks_facebook": 84,
-    "clicks_google": 17
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-20",
@@ -738,11 +738,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 19739.6,
     "revenue": 16313.7,
-    "cost": 771.32,
-    "cost_facebook": 408.34,
-    "cost_google": 362.98,
-    "clicks_facebook": 98,
-    "clicks_google": 43
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-21",
@@ -751,11 +751,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3584,
     "revenue": 2961.99,
-    "cost": 630.95,
-    "cost_facebook": 394.33,
-    "cost_google": 236.62,
-    "clicks_facebook": 98,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-22",
@@ -764,11 +764,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1713,
     "revenue": 1415.71,
-    "cost": 662.03,
-    "cost_facebook": 403.95,
-    "cost_google": 258.08,
-    "clicks_facebook": 105,
-    "clicks_google": 35
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-23",
@@ -777,11 +777,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1561,
     "revenue": 1290.08,
-    "cost": 557.93,
-    "cost_facebook": 379.91,
-    "cost_google": 178.02,
-    "clicks_facebook": 84,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-24",
@@ -790,11 +790,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1344,
     "revenue": 1110.75,
-    "cost": 458.14,
-    "cost_facebook": 387.89,
-    "cost_google": 70.25,
-    "clicks_facebook": 89,
-    "clicks_google": 11
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-25",
@@ -803,11 +803,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 576,
     "revenue": 476.04,
-    "cost": 489.12,
-    "cost_facebook": 390.42,
-    "cost_google": 98.7,
-    "clicks_facebook": 79,
-    "clicks_google": 17
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-26",
@@ -816,11 +816,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 922,
     "revenue": 761.98,
-    "cost": 509.66,
-    "cost_facebook": 344.13,
-    "cost_google": 165.53,
-    "clicks_facebook": 67,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-27",
@@ -829,11 +829,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4442,
     "revenue": 3671.1,
-    "cost": 548.79,
-    "cost_facebook": 391.3,
-    "cost_google": 157.49,
-    "clicks_facebook": 79,
-    "clicks_google": 31
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-28",
@@ -842,11 +842,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2412.6,
     "revenue": 1993.87,
-    "cost": 543.69,
-    "cost_facebook": 387.91,
-    "cost_google": 155.78,
-    "clicks_facebook": 69,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-29",
@@ -855,11 +855,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4992,
     "revenue": 4125.63,
-    "cost": 573.79,
-    "cost_facebook": 429.51,
-    "cost_google": 144.28,
-    "clicks_facebook": 73,
-    "clicks_google": 28
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-30",
@@ -868,11 +868,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 914,
     "revenue": 755.37,
-    "cost": 610.27,
-    "cost_facebook": 423.12,
-    "cost_google": 187.15,
-    "clicks_facebook": 94,
-    "clicks_google": 27
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-07-31",
@@ -881,11 +881,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3330,
     "revenue": 2752.08,
-    "cost": 718.06,
-    "cost_facebook": 425,
-    "cost_google": 293.06,
-    "clicks_facebook": 74,
-    "clicks_google": 35
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-01",
@@ -894,11 +894,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 642.72,
-    "cost_facebook": 445.53,
-    "cost_google": 197.19,
-    "clicks_facebook": 89,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-02",
@@ -907,11 +907,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6775,
     "revenue": 5599.18,
-    "cost": 482.8,
-    "cost_facebook": 407.73,
-    "cost_google": 75.07,
-    "clicks_facebook": 88,
-    "clicks_google": 10
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-03",
@@ -920,11 +920,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 3111,
     "revenue": 2571.07,
-    "cost": 657.96,
-    "cost_facebook": 445.59,
-    "cost_google": 212.37,
-    "clicks_facebook": 88,
-    "clicks_google": 31
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-04",
@@ -933,11 +933,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4025,
     "revenue": 3326.47,
-    "cost": 583.16,
-    "cost_facebook": 450.16,
-    "cost_google": 133,
-    "clicks_facebook": 94,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-05",
@@ -946,11 +946,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3865.5,
     "revenue": 3194.64,
-    "cost": 644.08,
-    "cost_facebook": 442.4,
-    "cost_google": 201.68,
-    "clicks_facebook": 86,
-    "clicks_google": 63
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-06",
@@ -959,11 +959,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 739.32,
-    "cost_facebook": 438.36,
-    "cost_google": 300.96,
-    "clicks_facebook": 74,
-    "clicks_google": 74
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-07",
@@ -972,11 +972,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1335,
     "revenue": 1103.31,
-    "cost": 632.7,
-    "cost_facebook": 397.55,
-    "cost_google": 235.15,
-    "clicks_facebook": 81,
-    "clicks_google": 71
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-08",
@@ -985,11 +985,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2576,
     "revenue": 2128.93,
-    "cost": 486.1,
-    "cost_facebook": 390.47,
-    "cost_google": 95.63,
-    "clicks_facebook": 55,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-09",
@@ -998,11 +998,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4147,
     "revenue": 3427.28,
-    "cost": 587.4,
-    "cost_facebook": 399.01,
-    "cost_google": 188.39,
-    "clicks_facebook": 65,
-    "clicks_google": 60
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-10",
@@ -1011,11 +1011,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3058.5,
     "revenue": 2527.68,
-    "cost": 590.28,
-    "cost_facebook": 462.9,
-    "cost_google": 127.38,
-    "clicks_facebook": 100,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-11",
@@ -1024,11 +1024,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 404,
     "revenue": 333.88,
-    "cost": 646.39,
-    "cost_facebook": 475.82,
-    "cost_google": 170.57,
-    "clicks_facebook": 84,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-12",
@@ -1037,11 +1037,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2619.2,
     "revenue": 2164.63,
-    "cost": 647.88,
-    "cost_facebook": 511.21,
-    "cost_google": 136.67,
-    "clicks_facebook": 93,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-13",
@@ -1050,11 +1050,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2105,
     "revenue": 1739.68,
-    "cost": 600.17,
-    "cost_facebook": 479.33,
-    "cost_google": 120.84,
-    "clicks_facebook": 65,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-14",
@@ -1063,11 +1063,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3764,
     "revenue": 3110.75,
-    "cost": 640.57,
-    "cost_facebook": 451.07,
-    "cost_google": 189.5,
-    "clicks_facebook": 73,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-15",
@@ -1076,11 +1076,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 511.07,
-    "cost_facebook": 434.52,
-    "cost_google": 76.55,
-    "clicks_facebook": 71,
-    "clicks_google": 6
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-16",
@@ -1089,11 +1089,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 629.86,
-    "cost_facebook": 391.06,
-    "cost_google": 238.8,
-    "clicks_facebook": 70,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-17",
@@ -1102,11 +1102,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4691,
     "revenue": 3876.87,
-    "cost": 592.11,
-    "cost_facebook": 473.42,
-    "cost_google": 118.69,
-    "clicks_facebook": 74,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-18",
@@ -1115,11 +1115,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2166.4,
     "revenue": 1790.41,
-    "cost": 579.78,
-    "cost_facebook": 469.69,
-    "cost_google": 110.09,
-    "clicks_facebook": 88,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-19",
@@ -1128,11 +1128,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 326,
     "revenue": 269.42,
-    "cost": 702.13,
-    "cost_facebook": 467.2,
-    "cost_google": 234.93,
-    "clicks_facebook": 69,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-20",
@@ -1141,11 +1141,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5581.8,
     "revenue": 4613.07,
-    "cost": 608.46,
-    "cost_facebook": 465.79,
-    "cost_google": 142.67,
-    "clicks_facebook": 80,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-21",
@@ -1154,11 +1154,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 580,
     "revenue": 479.34,
-    "cost": 707.39,
-    "cost_facebook": 511.32,
-    "cost_google": 196.07,
-    "clicks_facebook": 100,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-22",
@@ -1167,11 +1167,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 607,
     "revenue": 501.65,
-    "cost": 618.74,
-    "cost_facebook": 484.68,
-    "cost_google": 134.06,
-    "clicks_facebook": 50,
-    "clicks_google": 17
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-23",
@@ -1180,11 +1180,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 651.77,
-    "cost_facebook": 443.61,
-    "cost_google": 208.16,
-    "clicks_facebook": 85,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-24",
@@ -1193,11 +1193,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 679.4,
-    "cost_facebook": 521.42,
-    "cost_google": 157.98,
-    "clicks_facebook": 102,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-25",
@@ -1206,11 +1206,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5567.5,
     "revenue": 4601.25,
-    "cost": 628.6,
-    "cost_facebook": 481.2,
-    "cost_google": 147.4,
-    "clicks_facebook": 60,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-26",
@@ -1219,11 +1219,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 678.72,
-    "cost_facebook": 519.28,
-    "cost_google": 159.44,
-    "clicks_facebook": 77,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-27",
@@ -1232,11 +1232,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1031,
     "revenue": 852.07,
-    "cost": 602.6,
-    "cost_facebook": 456.95,
-    "cost_google": 145.65,
-    "clicks_facebook": 67,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-28",
@@ -1245,11 +1245,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1224,
     "revenue": 1011.57,
-    "cost": 687.04,
-    "cost_facebook": 458.81,
-    "cost_google": 228.23,
-    "clicks_facebook": 67,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-29",
@@ -1258,11 +1258,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4640,
     "revenue": 3834.73,
-    "cost": 617.54,
-    "cost_facebook": 427.97,
-    "cost_google": 189.57,
-    "clicks_facebook": 64,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-30",
@@ -1271,11 +1271,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 571.02,
-    "cost_facebook": 452.31,
-    "cost_google": 118.71,
-    "clicks_facebook": 54,
-    "clicks_google": 12
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-08-31",
@@ -1284,11 +1284,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1028,
     "revenue": 849.59,
-    "cost": 684.88,
-    "cost_facebook": 503.33,
-    "cost_google": 181.55,
-    "clicks_facebook": 91,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-01",
@@ -1297,11 +1297,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4013,
     "revenue": 3316.53,
-    "cost": 609.2,
-    "cost_facebook": 500.44,
-    "cost_google": 108.76,
-    "clicks_facebook": 75,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-02",
@@ -1310,11 +1310,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 16631.5,
     "revenue": 13745.05,
-    "cost": 828.54,
-    "cost_facebook": 512.41,
-    "cost_google": 316.13,
-    "clicks_facebook": 98,
-    "clicks_google": 43
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-03",
@@ -1323,11 +1323,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2070,
     "revenue": 1710.75,
-    "cost": 743.79,
-    "cost_facebook": 486.09,
-    "cost_google": 257.7,
-    "clicks_facebook": 64,
-    "clicks_google": 40
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-04",
@@ -1336,11 +1336,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 888,
     "revenue": 733.88,
-    "cost": 583.15,
-    "cost_facebook": 411.07,
-    "cost_google": 172.08,
-    "clicks_facebook": 61,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-05",
@@ -1349,11 +1349,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2288,
     "revenue": 1890.91,
-    "cost": 609.05,
-    "cost_facebook": 476.49,
-    "cost_google": 132.56,
-    "clicks_facebook": 73,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-06",
@@ -1362,11 +1362,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 627.33,
-    "cost_facebook": 423.82,
-    "cost_google": 203.51,
-    "clicks_facebook": 55,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-07",
@@ -1375,11 +1375,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 814.09,
-    "cost_facebook": 514.88,
-    "cost_google": 299.21,
-    "clicks_facebook": 94,
-    "clicks_google": 43
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-08",
@@ -1388,11 +1388,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 631,
     "revenue": 521.49,
-    "cost": 690.19,
-    "cost_facebook": 512.04,
-    "cost_google": 178.15,
-    "clicks_facebook": 73,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-09",
@@ -1401,11 +1401,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 742.79,
-    "cost_facebook": 481.87,
-    "cost_google": 260.92,
-    "clicks_facebook": 70,
-    "clicks_google": 38
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-10",
@@ -1414,11 +1414,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3073,
     "revenue": 2539.67,
-    "cost": 646.65,
-    "cost_facebook": 455.08,
-    "cost_google": 191.57,
-    "clicks_facebook": 88,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-11",
@@ -1427,11 +1427,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1555,
     "revenue": 1285.12,
-    "cost": 637.55,
-    "cost_facebook": 428.68,
-    "cost_google": 208.87,
-    "clicks_facebook": 73,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-12",
@@ -1440,11 +1440,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4666.5,
     "revenue": 3856.61,
-    "cost": 632.95,
-    "cost_facebook": 449.07,
-    "cost_google": 183.88,
-    "clicks_facebook": 52,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-13",
@@ -1453,11 +1453,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 636.22,
-    "cost_facebook": 478.84,
-    "cost_google": 157.38,
-    "clicks_facebook": 52,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-14",
@@ -1466,11 +1466,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 1731,
     "revenue": 1430.58,
-    "cost": 913.29,
-    "cost_facebook": 545.07,
-    "cost_google": 368.22,
-    "clicks_facebook": 69,
-    "clicks_google": 42
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-15",
@@ -1479,11 +1479,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 755.23,
-    "cost_facebook": 450.2,
-    "cost_google": 305.03,
-    "clicks_facebook": 103,
-    "clicks_google": 40
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-16",
@@ -1492,11 +1492,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1680,
     "revenue": 1388.42,
-    "cost": 785.76,
-    "cost_facebook": 558.85,
-    "cost_google": 226.91,
-    "clicks_facebook": 69,
-    "clicks_google": 32
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-17",
@@ -1505,11 +1505,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3440,
     "revenue": 2842.97,
-    "cost": 546.63,
-    "cost_facebook": 442.42,
-    "cost_google": 104.21,
-    "clicks_facebook": 63,
-    "clicks_google": 17
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-18",
@@ -1518,11 +1518,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 536.12,
-    "cost_facebook": 454.6,
-    "cost_google": 81.52,
-    "clicks_facebook": 61,
-    "clicks_google": 15
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-19",
@@ -1531,11 +1531,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 700,
     "revenue": 578.51,
-    "cost": 526.74,
-    "cost_facebook": 398.84,
-    "cost_google": 127.9,
-    "clicks_facebook": 61,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-20",
@@ -1544,11 +1544,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3937,
     "revenue": 3253.74,
-    "cost": 546.5,
-    "cost_facebook": 471.78,
-    "cost_google": 74.72,
-    "clicks_facebook": 66,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-21",
@@ -1557,11 +1557,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 745.6,
-    "cost_facebook": 550.25,
-    "cost_google": 195.35,
-    "clicks_facebook": 67,
-    "clicks_google": 34
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-22",
@@ -1570,11 +1570,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 961,
     "revenue": 794.22,
-    "cost": 609.81,
-    "cost_facebook": 481.58,
-    "cost_google": 128.23,
-    "clicks_facebook": 51,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-23",
@@ -1583,11 +1583,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7421.6,
     "revenue": 6133.56,
-    "cost": 555.39,
-    "cost_facebook": 519.86,
-    "cost_google": 35.53,
-    "clicks_facebook": 141,
-    "clicks_google": 8
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-24",
@@ -1596,11 +1596,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2459.5,
     "revenue": 2032.65,
-    "cost": 430.42,
-    "cost_facebook": 358.77,
-    "cost_google": 71.65,
-    "clicks_facebook": 100,
-    "clicks_google": 15
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-25",
@@ -1609,11 +1609,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 8234,
     "revenue": 6804.97,
-    "cost": 532.77,
-    "cost_facebook": 350.1,
-    "cost_google": 182.67,
-    "clicks_facebook": 107,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-26",
@@ -1622,11 +1622,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 401.07,
-    "cost_facebook": 335.38,
-    "cost_google": 65.69,
-    "clicks_facebook": 141,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-27",
@@ -1635,11 +1635,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 4495,
     "revenue": 3714.88,
-    "cost": 402.18,
-    "cost_facebook": 321.88,
-    "cost_google": 80.3,
-    "clicks_facebook": 136,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-28",
@@ -1648,11 +1648,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4972,
     "revenue": 4109.1,
-    "cost": 518.93,
-    "cost_facebook": 439.04,
-    "cost_google": 79.89,
-    "clicks_facebook": 203,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-29",
@@ -1661,11 +1661,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4149,
     "revenue": 3428.94,
-    "cost": 429.13,
-    "cost_facebook": 356.47,
-    "cost_google": 72.66,
-    "clicks_facebook": 128,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-09-30",
@@ -1674,11 +1674,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2057.5,
     "revenue": 1700.41,
-    "cost": 535.33,
-    "cost_facebook": 498.78,
-    "cost_google": 36.55,
-    "clicks_facebook": 139,
-    "clicks_google": 9
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-01",
@@ -1687,11 +1687,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 855,
     "revenue": 706.61,
-    "cost": 673.18,
-    "cost_facebook": 581.1,
-    "cost_google": 92.08,
-    "clicks_facebook": 161,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-02",
@@ -1700,11 +1700,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3238,
     "revenue": 2676.05,
-    "cost": 504.08,
-    "cost_facebook": 371.14,
-    "cost_google": 132.94,
-    "clicks_facebook": 107,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-03",
@@ -1713,11 +1713,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3196,
     "revenue": 2641.33,
-    "cost": 406.27,
-    "cost_facebook": 345.59,
-    "cost_google": 60.68,
-    "clicks_facebook": 87,
-    "clicks_google": 10
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-04",
@@ -1726,11 +1726,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 370.47,
-    "cost_facebook": 299.3,
-    "cost_google": 71.17,
-    "clicks_facebook": 113,
-    "clicks_google": 15
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-05",
@@ -1739,11 +1739,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1169,
     "revenue": 966.12,
-    "cost": 420.53,
-    "cost_facebook": 342.54,
-    "cost_google": 77.99,
-    "clicks_facebook": 133,
-    "clicks_google": 17
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-06",
@@ -1752,11 +1752,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2084,
     "revenue": 1722.32,
-    "cost": 398,
-    "cost_facebook": 339.92,
-    "cost_google": 58.08,
-    "clicks_facebook": 102,
-    "clicks_google": 10
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-07",
@@ -1765,11 +1765,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 466.87,
-    "cost_facebook": 338.92,
-    "cost_google": 127.95,
-    "clicks_facebook": 119,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-08",
@@ -1778,11 +1778,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1654,
     "revenue": 1366.94,
-    "cost": 392.52,
-    "cost_facebook": 324.68,
-    "cost_google": 67.84,
-    "clicks_facebook": 128,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-09",
@@ -1791,11 +1791,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2275.2,
     "revenue": 1880.33,
-    "cost": 405.84,
-    "cost_facebook": 319.13,
-    "cost_google": 86.71,
-    "clicks_facebook": 105,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-10",
@@ -1804,11 +1804,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2077,
     "revenue": 1716.53,
-    "cost": 371.62,
-    "cost_facebook": 316.09,
-    "cost_google": 55.53,
-    "clicks_facebook": 109,
-    "clicks_google": 13
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-11",
@@ -1817,11 +1817,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6627,
     "revenue": 5476.87,
-    "cost": 385.29,
-    "cost_facebook": 289.66,
-    "cost_google": 95.63,
-    "clicks_facebook": 107,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-12",
@@ -1830,11 +1830,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5508,
     "revenue": 4552.07,
-    "cost": 411.07,
-    "cost_facebook": 341.47,
-    "cost_google": 69.6,
-    "clicks_facebook": 120,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-13",
@@ -1843,11 +1843,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7665.1,
     "revenue": 6334.8,
-    "cost": 464.73,
-    "cost_facebook": 339.72,
-    "cost_google": 125.01,
-    "clicks_facebook": 130,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-14",
@@ -1856,11 +1856,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 823.5,
     "revenue": 680.58,
-    "cost": 471.24,
-    "cost_facebook": 378.11,
-    "cost_google": 93.13,
-    "clicks_facebook": 133,
-    "clicks_google": 15
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-15",
@@ -1869,11 +1869,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4507.5,
     "revenue": 3725.22,
-    "cost": 443.37,
-    "cost_facebook": 367.09,
-    "cost_google": 76.28,
-    "clicks_facebook": 117,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-16",
@@ -1882,11 +1882,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2582.5,
     "revenue": 2134.3,
-    "cost": 414.75,
-    "cost_facebook": 352.68,
-    "cost_google": 62.07,
-    "clicks_facebook": 94,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-17",
@@ -1895,11 +1895,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4350,
     "revenue": 3595.05,
-    "cost": 405.52,
-    "cost_facebook": 345.07,
-    "cost_google": 60.45,
-    "clicks_facebook": 111,
-    "clicks_google": 11
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-18",
@@ -1908,11 +1908,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7367,
     "revenue": 6088.45,
-    "cost": 446.58,
-    "cost_facebook": 342.47,
-    "cost_google": 104.11,
-    "clicks_facebook": 111,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-19",
@@ -1921,11 +1921,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5174,
     "revenue": 4276.04,
-    "cost": 582.72,
-    "cost_facebook": 518.51,
-    "cost_google": 64.21,
-    "clicks_facebook": 144,
-    "clicks_google": 15
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-20",
@@ -1934,11 +1934,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 535.48,
-    "cost_facebook": 466.56,
-    "cost_google": 68.92,
-    "clicks_facebook": 108,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-21",
@@ -1947,11 +1947,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6948,
     "revenue": 5742.16,
-    "cost": 541.44,
-    "cost_facebook": 459.1,
-    "cost_google": 82.34,
-    "clicks_facebook": 123,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-22",
@@ -1960,11 +1960,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5114.5,
     "revenue": 4226.87,
-    "cost": 473.67,
-    "cost_facebook": 390.23,
-    "cost_google": 83.44,
-    "clicks_facebook": 101,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-23",
@@ -1973,11 +1973,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2614,
     "revenue": 2160.32,
-    "cost": 542.5,
-    "cost_facebook": 412.15,
-    "cost_google": 130.35,
-    "clicks_facebook": 97,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-24",
@@ -1986,11 +1986,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3939.5,
     "revenue": 3255.78,
-    "cost": 533.39,
-    "cost_facebook": 453.73,
-    "cost_google": 79.66,
-    "clicks_facebook": 107,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-25",
@@ -1999,11 +1999,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1339,
     "revenue": 1106.61,
-    "cost": 530.92,
-    "cost_facebook": 444.81,
-    "cost_google": 86.11,
-    "clicks_facebook": 110,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-26",
@@ -2012,11 +2012,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2917,
     "revenue": 2410.74,
-    "cost": 577.7,
-    "cost_facebook": 507.19,
-    "cost_google": 70.51,
-    "clicks_facebook": 99,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-27",
@@ -2025,11 +2025,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6214,
     "revenue": 5135.54,
-    "cost": 654.27,
-    "cost_facebook": 476.41,
-    "cost_google": 177.86,
-    "clicks_facebook": 130,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-28",
@@ -2038,11 +2038,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10791.5,
     "revenue": 8918.61,
-    "cost": 763.75,
-    "cost_facebook": 674.76,
-    "cost_google": 88.99,
-    "clicks_facebook": 145,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-29",
@@ -2051,11 +2051,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7119.5,
     "revenue": 5883.88,
-    "cost": 653.19,
-    "cost_facebook": 554.54,
-    "cost_google": 98.65,
-    "clicks_facebook": 121,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-30",
@@ -2064,11 +2064,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4939,
     "revenue": 4081.82,
-    "cost": 565.72,
-    "cost_facebook": 497.77,
-    "cost_google": 67.95,
-    "clicks_facebook": 94,
-    "clicks_google": 8
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-10-31",
@@ -2077,11 +2077,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1085,
     "revenue": 896.7,
-    "cost": 431.82,
-    "cost_facebook": 410.54,
-    "cost_google": 21.28,
-    "clicks_facebook": 86,
-    "clicks_google": 5
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-01",
@@ -2090,11 +2090,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 422.61,
-    "cost_facebook": 368.77,
-    "cost_google": 53.84,
-    "clicks_facebook": 92,
-    "clicks_google": 11
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-02",
@@ -2103,11 +2103,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5853.5,
     "revenue": 4837.6,
-    "cost": 599.41,
-    "cost_facebook": 458.24,
-    "cost_google": 141.17,
-    "clicks_facebook": 116,
-    "clicks_google": 28
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-03",
@@ -2116,11 +2116,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4991,
     "revenue": 4124.8,
-    "cost": 499.26,
-    "cost_facebook": 415.01,
-    "cost_google": 84.25,
-    "clicks_facebook": 97,
-    "clicks_google": 11
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-04",
@@ -2129,11 +2129,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2250,
     "revenue": 1859.51,
-    "cost": 575.38,
-    "cost_facebook": 409.52,
-    "cost_google": 165.86,
-    "clicks_facebook": 82,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-05",
@@ -2142,11 +2142,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5872,
     "revenue": 4852.9,
-    "cost": 595.74,
-    "cost_facebook": 570.89,
-    "cost_google": 24.85,
-    "clicks_facebook": 97,
-    "clicks_google": 6
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-06",
@@ -2155,11 +2155,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 12603.5,
     "revenue": 10416.12,
-    "cost": 703.76,
-    "cost_facebook": 647.41,
-    "cost_google": 56.35,
-    "clicks_facebook": 135,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-07",
@@ -2168,11 +2168,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 6047,
     "revenue": 4997.52,
-    "cost": 609.67,
-    "cost_facebook": 472.35,
-    "cost_google": 137.32,
-    "clicks_facebook": 116,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-08",
@@ -2181,11 +2181,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6473,
     "revenue": 5349.58,
-    "cost": 397.13,
-    "cost_facebook": 345.77,
-    "cost_google": 51.36,
-    "clicks_facebook": 117,
-    "clicks_google": 12
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-09",
@@ -2194,11 +2194,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3627.5,
     "revenue": 2997.92,
-    "cost": 829.3,
-    "cost_facebook": 677.5,
-    "cost_google": 151.8,
-    "clicks_facebook": 228,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-10",
@@ -2207,11 +2207,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6340.5,
     "revenue": 5240.08,
-    "cost": 760.11,
-    "cost_facebook": 569.31,
-    "cost_google": 190.8,
-    "clicks_facebook": 162,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-11",
@@ -2220,11 +2220,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 9560,
     "revenue": 7900.83,
-    "cost": 943.97,
-    "cost_facebook": 741.41,
-    "cost_google": 202.56,
-    "clicks_facebook": 194,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-12",
@@ -2233,11 +2233,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 3,
     "revenue_vat": 5127.5,
     "revenue": 4237.61,
-    "cost": 971.02,
-    "cost_facebook": 723.82,
-    "cost_google": 247.2,
-    "clicks_facebook": 185,
-    "clicks_google": 27
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-13",
@@ -2246,11 +2246,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 19992.5,
     "revenue": 16522.73,
-    "cost": 1165.69,
-    "cost_facebook": 702.7,
-    "cost_google": 462.99,
-    "clicks_facebook": 179,
-    "clicks_google": 89
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-14",
@@ -2259,11 +2259,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7723,
     "revenue": 6441.63,
-    "cost": 1201.07,
-    "cost_facebook": 902.06,
-    "cost_google": 299.01,
-    "clicks_facebook": 216,
-    "clicks_google": 43
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-15",
@@ -2272,11 +2272,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2860,
     "revenue": 2363.64,
-    "cost": 752.05,
-    "cost_facebook": 565.69,
-    "cost_google": 186.36,
-    "clicks_facebook": 145,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-16",
@@ -2285,11 +2285,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12486.5,
     "revenue": 10319.45,
-    "cost": 1307.5,
-    "cost_facebook": 999.74,
-    "cost_google": 307.76,
-    "clicks_facebook": 236,
-    "clicks_google": 41
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-17",
@@ -2298,11 +2298,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2011,
     "revenue": 1661.99,
-    "cost": 1244.98,
-    "cost_facebook": 895.35,
-    "cost_google": 349.63,
-    "clicks_facebook": 262,
-    "clicks_google": 60
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-18",
@@ -2311,11 +2311,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 15703.3,
     "revenue": 12977.96,
-    "cost": 1113.11,
-    "cost_facebook": 900.76,
-    "cost_google": 212.35,
-    "clicks_facebook": 241,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-19",
@@ -2324,11 +2324,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11129.97,
     "revenue": 9881.89,
-    "cost": 976.54,
-    "cost_facebook": 821.64,
-    "cost_google": 154.9,
-    "clicks_facebook": 181,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-20",
@@ -2337,11 +2337,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 2,
     "revenue_vat": 12237.2,
     "revenue": 10113.39,
-    "cost": 1074.34,
-    "cost_facebook": 786.44,
-    "cost_google": 287.9,
-    "clicks_facebook": 197,
-    "clicks_google": 31
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-21",
@@ -2350,11 +2350,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 20155,
     "revenue": 17958.51,
-    "cost": 986.91,
-    "cost_facebook": 780.43,
-    "cost_google": 206.48,
-    "clicks_facebook": 168,
-    "clicks_google": 28
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-22",
@@ -2363,11 +2363,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7894,
     "revenue": 7048.26,
-    "cost": 932.01,
-    "cost_facebook": 764.27,
-    "cost_google": 167.74,
-    "clicks_facebook": 179,
-    "clicks_google": 35
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-23",
@@ -2376,11 +2376,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10504,
     "revenue": 9378.65,
-    "cost": 1563.63,
-    "cost_facebook": 1015.67,
-    "cost_google": 547.96,
-    "clicks_facebook": 193,
-    "clicks_google": 49
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-24",
@@ -2389,11 +2389,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3703,
     "revenue": 3306.26,
-    "cost": 1378.12,
-    "cost_facebook": 884.18,
-    "cost_google": 493.94,
-    "clicks_facebook": 173,
-    "clicks_google": 42
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-25",
@@ -2402,11 +2402,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10223,
     "revenue": 9127.71,
-    "cost": 1139.31,
-    "cost_facebook": 856.27,
-    "cost_google": 283.04,
-    "clicks_facebook": 132,
-    "clicks_google": 41
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-26",
@@ -2415,11 +2415,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12281,
     "revenue": 10965.23,
-    "cost": 1245.24,
-    "cost_facebook": 840.9,
-    "cost_google": 404.34,
-    "clicks_facebook": 159,
-    "clicks_google": 32
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-27",
@@ -2428,11 +2428,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5803,
     "revenue": 5181.28,
-    "cost": 1521.15,
-    "cost_facebook": 1132.4,
-    "cost_google": 388.75,
-    "clicks_facebook": 210,
-    "clicks_google": 35
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-28",
@@ -2441,11 +2441,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 8385,
     "revenue": 7486.62,
-    "cost": 1397.75,
-    "cost_facebook": 1277.55,
-    "cost_google": 120.2,
-    "clicks_facebook": 163,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-29",
@@ -2454,11 +2454,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5485,
     "revenue": 4897.32,
-    "cost": 1205.13,
-    "cost_facebook": 956.2,
-    "cost_google": 248.93,
-    "clicks_facebook": 152,
-    "clicks_google": 38
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-11-30",
@@ -2467,11 +2467,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 8713,
     "revenue": 7779.5,
-    "cost": 1960.53,
-    "cost_facebook": 1518.04,
-    "cost_google": 442.49,
-    "clicks_facebook": 226,
-    "clicks_google": 44
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-01",
@@ -2480,11 +2480,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 21571,
     "revenue": 19259.87,
-    "cost": 1562.22,
-    "cost_facebook": 1252.93,
-    "cost_google": 309.29,
-    "clicks_facebook": 190,
-    "clicks_google": 36
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-02",
@@ -2493,11 +2493,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 17345.9,
     "revenue": 15487.46,
-    "cost": 1667.52,
-    "cost_facebook": 1262.56,
-    "cost_google": 404.96,
-    "clicks_facebook": 198,
-    "clicks_google": 48
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-03",
@@ -2506,11 +2506,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 19228.8,
     "revenue": 17168.67,
-    "cost": 1876.68,
-    "cost_facebook": 1376.02,
-    "cost_google": 500.66,
-    "clicks_facebook": 211,
-    "clicks_google": 52
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-04",
@@ -2519,11 +2519,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11509,
     "revenue": 10275.93,
-    "cost": 1860.16,
-    "cost_facebook": 1459.43,
-    "cost_google": 400.73,
-    "clicks_facebook": 245,
-    "clicks_google": 49
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-05",
@@ -2532,11 +2532,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6600,
     "revenue": 5892.88,
-    "cost": 1720.89,
-    "cost_facebook": 1322.32,
-    "cost_google": 398.57,
-    "clicks_facebook": 199,
-    "clicks_google": 47
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-06",
@@ -2545,11 +2545,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7723.6,
     "revenue": 6896.08,
-    "cost": 1834.62,
-    "cost_facebook": 1156.49,
-    "cost_google": 678.13,
-    "clicks_facebook": 182,
-    "clicks_google": 60
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-07",
@@ -2558,11 +2558,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11520,
     "revenue": 10285.72,
-    "cost": 2170.47,
-    "cost_facebook": 1635.25,
-    "cost_google": 535.22,
-    "clicks_facebook": 236,
-    "clicks_google": 56
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-08",
@@ -2571,11 +2571,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 19393,
     "revenue": 17315.2,
-    "cost": 2185.56,
-    "cost_facebook": 1709.66,
-    "cost_google": 475.9,
-    "clicks_facebook": 259,
-    "clicks_google": 62
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-09",
@@ -2584,11 +2584,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 11361.5,
     "revenue": 10144.22,
-    "cost": 2083.19,
-    "cost_facebook": 1659,
-    "cost_google": 424.19,
-    "clicks_facebook": 223,
-    "clicks_google": 59
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-10",
@@ -2597,11 +2597,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 15189.5,
     "revenue": 13562.11,
-    "cost": 2127.29,
-    "cost_facebook": 1560.48,
-    "cost_google": 566.81,
-    "clicks_facebook": 200,
-    "clicks_google": 57
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-11",
@@ -2610,11 +2610,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 19635.5,
     "revenue": 17531.75,
-    "cost": 2126.23,
-    "cost_facebook": 1670.41,
-    "cost_google": 455.82,
-    "clicks_facebook": 238,
-    "clicks_google": 52
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-12",
@@ -2623,11 +2623,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11637,
     "revenue": 10390.25,
-    "cost": 1850.02,
-    "cost_facebook": 1447.6,
-    "cost_google": 402.42,
-    "clicks_facebook": 237,
-    "clicks_google": 43
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-13",
@@ -2636,11 +2636,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10456,
     "revenue": 9335.78,
-    "cost": 1735.68,
-    "cost_facebook": 1233.88,
-    "cost_google": 501.8,
-    "clicks_facebook": 183,
-    "clicks_google": 43
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-14",
@@ -2649,11 +2649,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 18704.5,
     "revenue": 16700.5,
-    "cost": 2368.26,
-    "cost_facebook": 1835.29,
-    "cost_google": 532.97,
-    "clicks_facebook": 252,
-    "clicks_google": 57
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-15",
@@ -2662,11 +2662,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 30329,
     "revenue": 27079.57,
-    "cost": 2190.97,
-    "cost_facebook": 1740.7,
-    "cost_google": 450.27,
-    "clicks_facebook": 208,
-    "clicks_google": 47
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-16",
@@ -2675,11 +2675,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 15182,
     "revenue": 13555.45,
-    "cost": 2578.65,
-    "cost_facebook": 2127.12,
-    "cost_google": 451.53,
-    "clicks_facebook": 288,
-    "clicks_google": 51
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-17",
@@ -2688,11 +2688,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7392,
     "revenue": 6600.01,
-    "cost": 185.09,
-    "cost_facebook": 169.43,
-    "cost_google": 15.66,
-    "clicks_facebook": 22,
-    "clicks_google": 2
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-18",
@@ -2701,11 +2701,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 563,
     "revenue": 502.68,
-    "cost": 3.89,
+    "cost": 0,
     "cost_facebook": 0,
-    "cost_google": 3.89,
+    "cost_google": 0,
     "clicks_facebook": 0,
-    "clicks_google": 7
+    "clicks_google": 0
   },
   {
     "date": "2025-12-19",
@@ -2714,11 +2714,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 0.07,
+    "cost": 0,
     "cost_facebook": 0,
-    "cost_google": 0.07,
+    "cost_google": 0,
     "clicks_facebook": 0,
-    "clicks_google": 1
+    "clicks_google": 0
   },
   {
     "date": "2025-12-20",
@@ -2727,11 +2727,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1649,
     "revenue": 1472.33,
-    "cost": 0.07,
+    "cost": 0,
     "cost_facebook": 0,
-    "cost_google": 0.07,
+    "cost_google": 0,
     "clicks_facebook": 0,
-    "clicks_google": 1
+    "clicks_google": 0
   },
   {
     "date": "2025-12-23",
@@ -2740,11 +2740,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 0.07,
+    "cost": 0,
     "cost_facebook": 0,
-    "cost_google": 0.07,
+    "cost_google": 0,
     "clicks_facebook": 0,
-    "clicks_google": 1
+    "clicks_google": 0
   },
   {
     "date": "2025-12-24",
@@ -2753,11 +2753,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 0.21,
+    "cost": 0,
     "cost_facebook": 0,
-    "cost_google": 0.21,
+    "cost_google": 0,
     "clicks_facebook": 0,
-    "clicks_google": 3
+    "clicks_google": 0
   },
   {
     "date": "2025-12-25",
@@ -2779,10 +2779,10 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 348.81,
-    "cost_facebook": 348.81,
+    "cost": 0,
+    "cost_facebook": 0,
     "cost_google": 0,
-    "clicks_facebook": 77,
+    "clicks_facebook": 0,
     "clicks_google": 0
   },
   {
@@ -2792,11 +2792,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2094,
     "revenue": 1869.64,
-    "cost": 321.37,
-    "cost_facebook": 321.19,
-    "cost_google": 0.18,
-    "clicks_facebook": 70,
-    "clicks_google": 2
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-28",
@@ -2805,11 +2805,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2570,
     "revenue": 2294.65,
-    "cost": 468.89,
-    "cost_facebook": 465.93,
-    "cost_google": 2.96,
-    "clicks_facebook": 92,
-    "clicks_google": 1
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-29",
@@ -2818,11 +2818,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2197,
     "revenue": 1961.61,
-    "cost": 551.1,
-    "cost_facebook": 549.51,
-    "cost_google": 1.59,
-    "clicks_facebook": 106,
-    "clicks_google": 4
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-30",
@@ -2831,11 +2831,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2878,
     "revenue": 2569.63,
-    "cost": 521.62,
-    "cost_facebook": 521.55,
-    "cost_google": 0.07,
-    "clicks_facebook": 102,
-    "clicks_google": 1
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2025-12-31",
@@ -2844,11 +2844,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 532,
     "revenue": 475,
-    "cost": 463.51,
-    "cost_facebook": 459.25,
-    "cost_google": 4.26,
-    "clicks_facebook": 108,
-    "clicks_google": 6
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-01",
@@ -2857,11 +2857,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 531.03,
-    "cost_facebook": 526.74,
-    "cost_google": 4.29,
-    "clicks_facebook": 136,
-    "clicks_google": 5
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-02",
@@ -2870,11 +2870,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7208,
     "revenue": 6435.72,
-    "cost": 451.87,
-    "cost_facebook": 448.7,
-    "cost_google": 3.17,
-    "clicks_facebook": 78,
-    "clicks_google": 5
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-03",
@@ -2883,11 +2883,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 2861,
     "revenue": 2554.47,
-    "cost": 364.03,
-    "cost_facebook": 363.67,
-    "cost_google": 0.36,
-    "clicks_facebook": 70,
-    "clicks_google": 4
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-04",
@@ -2896,11 +2896,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7807.5,
     "revenue": 6971.01,
-    "cost": 680.52,
-    "cost_facebook": 609.42,
-    "cost_google": 71.1,
-    "clicks_facebook": 100,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-05",
@@ -2909,11 +2909,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3583,
     "revenue": 3199.12,
-    "cost": 3053.19,
-    "cost_facebook": 2688.29,
-    "cost_google": 364.9,
-    "clicks_facebook": 1806,
-    "clicks_google": 70
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-06",
@@ -2922,11 +2922,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4490,
     "revenue": 4008.94,
-    "cost": 3216.93,
-    "cost_facebook": 2744.72,
-    "cost_google": 472.21,
-    "clicks_facebook": 2322,
-    "clicks_google": 80
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-07",
@@ -2935,11 +2935,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 979,
     "revenue": 874.1,
-    "cost": 2923.22,
-    "cost_facebook": 2637.56,
-    "cost_google": 285.66,
-    "clicks_facebook": 2068,
-    "clicks_google": 65
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-08",
@@ -2948,11 +2948,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2151,
     "revenue": 1920.54,
-    "cost": 2816.26,
-    "cost_facebook": 2515.9,
-    "cost_google": 300.36,
-    "clicks_facebook": 1943,
-    "clicks_google": 51
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-09",
@@ -2961,11 +2961,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 2224.58,
-    "cost_facebook": 1971.05,
-    "cost_google": 253.53,
-    "clicks_facebook": 1370,
-    "clicks_google": 50
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-10",
@@ -2974,11 +2974,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 563,
     "revenue": 502.69,
-    "cost": 632.41,
-    "cost_facebook": 456.6,
-    "cost_google": 175.81,
-    "clicks_facebook": 128,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-11",
@@ -2987,11 +2987,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7681.5,
     "revenue": 6858.53,
-    "cost": 1015.9,
-    "cost_facebook": 481.33,
-    "cost_google": 534.57,
-    "clicks_facebook": 138,
-    "clicks_google": 52
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-12",
@@ -3000,11 +3000,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6110.1,
     "revenue": 5455.45,
-    "cost": 765.03,
-    "cost_facebook": 505.47,
-    "cost_google": 259.56,
-    "clicks_facebook": 131,
-    "clicks_google": 37
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-13",
@@ -3013,11 +3013,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7505.9,
     "revenue": 6701.72,
-    "cost": 820.11,
-    "cost_facebook": 461.21,
-    "cost_google": 358.9,
-    "clicks_facebook": 100,
-    "clicks_google": 44
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-14",
@@ -3026,11 +3026,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 604,
     "revenue": 539.29,
-    "cost": 565.71,
-    "cost_facebook": 412.77,
-    "cost_google": 152.94,
-    "clicks_facebook": 98,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-15",
@@ -3039,11 +3039,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3193,
     "revenue": 2850.9,
-    "cost": 703.29,
-    "cost_facebook": 405.41,
-    "cost_google": 297.88,
-    "clicks_facebook": 97,
-    "clicks_google": 36
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-16",
@@ -3052,11 +3052,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 612.79,
-    "cost_facebook": 408.84,
-    "cost_google": 203.95,
-    "clicks_facebook": 99,
-    "clicks_google": 27
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-17",
@@ -3065,11 +3065,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 845,
     "revenue": 754.47,
-    "cost": 607.4,
-    "cost_facebook": 375.12,
-    "cost_google": 232.28,
-    "clicks_facebook": 113,
-    "clicks_google": 33
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-18",
@@ -3078,11 +3078,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2138,
     "revenue": 1908.94,
-    "cost": 837.57,
-    "cost_facebook": 514.41,
-    "cost_google": 323.16,
-    "clicks_facebook": 125,
-    "clicks_google": 38
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-19",
@@ -3091,11 +3091,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5422.5,
     "revenue": 4841.52,
-    "cost": 806.97,
-    "cost_facebook": 495.81,
-    "cost_google": 311.16,
-    "clicks_facebook": 145,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-20",
@@ -3104,11 +3104,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3886,
     "revenue": 3469.67,
-    "cost": 666.21,
-    "cost_facebook": 474.6,
-    "cost_google": 191.61,
-    "clicks_facebook": 142,
-    "clicks_google": 27
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-21",
@@ -3117,11 +3117,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4807,
     "revenue": 4291.97,
-    "cost": 601.51,
-    "cost_facebook": 423.98,
-    "cost_google": 177.53,
-    "clicks_facebook": 103,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-22",
@@ -3130,11 +3130,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5743,
     "revenue": 5127.7,
-    "cost": 939.77,
-    "cost_facebook": 735.05,
-    "cost_google": 204.72,
-    "clicks_facebook": 209,
-    "clicks_google": 27
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-23",
@@ -3143,11 +3143,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1462,
     "revenue": 1305.36,
-    "cost": 817.39,
-    "cost_facebook": 654.57,
-    "cost_google": 162.82,
-    "clicks_facebook": 178,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-24",
@@ -3156,11 +3156,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 19856,
     "revenue": 17728.55,
-    "cost": 960.77,
-    "cost_facebook": 767.65,
-    "cost_google": 193.12,
-    "clicks_facebook": 204,
-    "clicks_google": 28
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-25",
@@ -3169,11 +3169,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10505.5,
     "revenue": 9379.99,
-    "cost": 1205.37,
-    "cost_facebook": 1022.47,
-    "cost_google": 182.9,
-    "clicks_facebook": 266,
-    "clicks_google": 36
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-26",
@@ -3182,11 +3182,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7171,
     "revenue": 6402.7,
-    "cost": 1442.82,
-    "cost_facebook": 1124.66,
-    "cost_google": 318.16,
-    "clicks_facebook": 291,
-    "clicks_google": 47
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-27",
@@ -3195,11 +3195,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12700,
     "revenue": 11339.33,
-    "cost": 1583.08,
-    "cost_facebook": 1164.01,
-    "cost_google": 419.07,
-    "clicks_facebook": 297,
-    "clicks_google": 58
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-28",
@@ -3208,11 +3208,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 8634,
     "revenue": 7708.98,
-    "cost": 1705.08,
-    "cost_facebook": 1099.63,
-    "cost_google": 605.45,
-    "clicks_facebook": 263,
-    "clicks_google": 61
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-29",
@@ -3221,11 +3221,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6435,
     "revenue": 5745.53,
-    "cost": 1451.03,
-    "cost_facebook": 1025.39,
-    "cost_google": 425.64,
-    "clicks_facebook": 266,
-    "clicks_google": 42
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-30",
@@ -3234,11 +3234,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 7875,
     "revenue": 7031.29,
-    "cost": 1268.99,
-    "cost_facebook": 897.65,
-    "cost_google": 371.34,
-    "clicks_facebook": 222,
-    "clicks_google": 50
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-01-31",
@@ -3247,11 +3247,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5809,
     "revenue": 5186.63,
-    "cost": 1223.27,
-    "cost_facebook": 762.53,
-    "cost_google": 460.74,
-    "clicks_facebook": 234,
-    "clicks_google": 54
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-01",
@@ -3260,11 +3260,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 10059,
     "revenue": 8981.31,
-    "cost": 1498.73,
-    "cost_facebook": 1146.82,
-    "cost_google": 351.91,
-    "clicks_facebook": 286,
-    "clicks_google": 47
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-02",
@@ -3273,11 +3273,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 8127.5,
     "revenue": 7256.7,
-    "cost": 1652.56,
-    "cost_facebook": 1149.74,
-    "cost_google": 502.82,
-    "clicks_facebook": 295,
-    "clicks_google": 78
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-03",
@@ -3286,11 +3286,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 14166.5,
     "revenue": 12648.73,
-    "cost": 1444.46,
-    "cost_facebook": 1220.9,
-    "cost_google": 223.56,
-    "clicks_facebook": 327,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-04",
@@ -3299,11 +3299,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4815,
     "revenue": 4299.12,
-    "cost": 1423.62,
-    "cost_facebook": 1228.54,
-    "cost_google": 195.08,
-    "clicks_facebook": 279,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-05",
@@ -3312,11 +3312,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3230,
     "revenue": 2883.95,
-    "cost": 1605.4,
-    "cost_facebook": 1401.91,
-    "cost_google": 203.49,
-    "clicks_facebook": 274,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-06",
@@ -3325,11 +3325,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6088,
     "revenue": 5435.74,
-    "cost": 1100.4,
-    "cost_facebook": 925.04,
-    "cost_google": 175.36,
-    "clicks_facebook": 228,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-07",
@@ -3338,11 +3338,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10704.5,
     "revenue": 9557.62,
-    "cost": 880.65,
-    "cost_facebook": 744.36,
-    "cost_google": 136.29,
-    "clicks_facebook": 177,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-08",
@@ -3351,11 +3351,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10775,
     "revenue": 9620.61,
-    "cost": 1363.94,
-    "cost_facebook": 1106,
-    "cost_google": 257.94,
-    "clicks_facebook": 255,
-    "clicks_google": 41
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-09",
@@ -3364,11 +3364,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 9179,
     "revenue": 8195.57,
-    "cost": 1373.41,
-    "cost_facebook": 1220.71,
-    "cost_google": 152.7,
-    "clicks_facebook": 237,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-10",
@@ -3377,11 +3377,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 10853.5,
     "revenue": 9690.62,
-    "cost": 1481.35,
-    "cost_facebook": 1211.03,
-    "cost_google": 270.32,
-    "clicks_facebook": 237,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-11",
@@ -3390,11 +3390,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7914,
     "revenue": 7066.11,
-    "cost": 1501.12,
-    "cost_facebook": 1256.63,
-    "cost_google": 244.49,
-    "clicks_facebook": 238,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-12",
@@ -3403,11 +3403,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 8483,
     "revenue": 7574.15,
-    "cost": 1308.07,
-    "cost_facebook": 1104.93,
-    "cost_google": 203.14,
-    "clicks_facebook": 196,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-13",
@@ -3416,11 +3416,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 7700.5,
     "revenue": 6875.48,
-    "cost": 1318.27,
-    "cost_facebook": 1149.02,
-    "cost_google": 169.25,
-    "clicks_facebook": 204,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-14",
@@ -3429,11 +3429,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 14814.4,
     "revenue": 13227.17,
-    "cost": 1246.41,
-    "cost_facebook": 998.68,
-    "cost_google": 247.73,
-    "clicks_facebook": 233,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-15",
@@ -3442,11 +3442,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 9817.6,
     "revenue": 8765.73,
-    "cost": 1652.23,
-    "cost_facebook": 1289.17,
-    "cost_google": 363.06,
-    "clicks_facebook": 260,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-16",
@@ -3455,11 +3455,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10465.4,
     "revenue": 9344.13,
-    "cost": 1326.2,
-    "cost_facebook": 1210.74,
-    "cost_google": 115.46,
-    "clicks_facebook": 236,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-17",
@@ -3468,11 +3468,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7386,
     "revenue": 6594.66,
-    "cost": 1726.7,
-    "cost_facebook": 1523.86,
-    "cost_google": 202.84,
-    "clicks_facebook": 305,
-    "clicks_google": 18
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-18",
@@ -3481,11 +3481,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11419.8,
     "revenue": 10196.35,
-    "cost": 1520.35,
-    "cost_facebook": 1381.01,
-    "cost_google": 139.34,
-    "clicks_facebook": 327,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-19",
@@ -3494,11 +3494,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 4725,
     "revenue": 4218.77,
-    "cost": 1331.3,
-    "cost_facebook": 1098.22,
-    "cost_google": 233.08,
-    "clicks_facebook": 203,
-    "clicks_google": 16
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-20",
@@ -3507,11 +3507,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4320,
     "revenue": 3857.16,
-    "cost": 710.62,
-    "cost_facebook": 604.32,
-    "cost_google": 106.3,
-    "clicks_facebook": 137,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-21",
@@ -3520,11 +3520,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 8115,
     "revenue": 7245.58,
-    "cost": 1182.53,
-    "cost_facebook": 918.37,
-    "cost_google": 264.16,
-    "clicks_facebook": 214,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-22",
@@ -3533,11 +3533,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 2798,
     "revenue": 2498.2,
-    "cost": 1583.81,
-    "cost_facebook": 1373.14,
-    "cost_google": 210.67,
-    "clicks_facebook": 255,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-23",
@@ -3546,11 +3546,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 3311,
     "revenue": 2956.28,
-    "cost": 1412,
-    "cost_facebook": 1298.99,
-    "cost_google": 113.01,
-    "clicks_facebook": 211,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-24",
@@ -3559,11 +3559,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 3265,
     "revenue": 2915.21,
-    "cost": 1431.18,
-    "cost_facebook": 1122.34,
-    "cost_google": 308.84,
-    "clicks_facebook": 140,
-    "clicks_google": 31
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-25",
@@ -3572,11 +3572,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 14304,
     "revenue": 12771.47,
-    "cost": 1467.42,
-    "cost_facebook": 1231.43,
-    "cost_google": 235.99,
-    "clicks_facebook": 113,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-26",
@@ -3585,11 +3585,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 18655.6,
     "revenue": 16656.82,
-    "cost": 1613.11,
-    "cost_facebook": 1329.41,
-    "cost_google": 283.7,
-    "clicks_facebook": 178,
-    "clicks_google": 36
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-27",
@@ -3598,11 +3598,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 2,
     "revenue_vat": 7189,
     "revenue": 6418.79,
-    "cost": 2075.06,
-    "cost_facebook": 1764.77,
-    "cost_google": 310.29,
-    "clicks_facebook": 247,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-02-28",
@@ -3611,11 +3611,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 2149,
     "revenue": 1918.77,
-    "cost": 891.01,
-    "cost_facebook": 706.47,
-    "cost_google": 184.54,
-    "clicks_facebook": 74,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-01",
@@ -3624,11 +3624,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4177,
     "revenue": 3729.48,
-    "cost": 1706.98,
-    "cost_facebook": 1499.53,
-    "cost_google": 207.45,
-    "clicks_facebook": 215,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-02",
@@ -3637,11 +3637,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 13214.9,
     "revenue": 11799.06,
-    "cost": 1687.02,
-    "cost_facebook": 1401.09,
-    "cost_google": 285.93,
-    "clicks_facebook": 230,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-03",
@@ -3650,11 +3650,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12982,
     "revenue": 11591.14,
-    "cost": 1636.71,
-    "cost_facebook": 1512.36,
-    "cost_google": 124.35,
-    "clicks_facebook": 261,
-    "clicks_google": 17
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-04",
@@ -3663,11 +3663,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11967,
     "revenue": 10684.89,
-    "cost": 1841.4,
-    "cost_facebook": 1487.53,
-    "cost_google": 353.87,
-    "clicks_facebook": 243,
-    "clicks_google": 36
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-05",
@@ -3676,11 +3676,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1760,
     "revenue": 1571.44,
-    "cost": 1693.01,
-    "cost_facebook": 1362.67,
-    "cost_google": 330.34,
-    "clicks_facebook": 215,
-    "clicks_google": 32
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-06",
@@ -3689,11 +3689,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10346,
     "revenue": 9237.53,
-    "cost": 1500.8,
-    "cost_facebook": 1326.94,
-    "cost_google": 173.86,
-    "clicks_facebook": 173,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-07",
@@ -3702,11 +3702,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11338,
     "revenue": 10123.29,
-    "cost": 1638.71,
-    "cost_facebook": 1295.08,
-    "cost_google": 343.63,
-    "clicks_facebook": 243,
-    "clicks_google": 37
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-08",
@@ -3715,11 +3715,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7044.8,
     "revenue": 6290.01,
-    "cost": 1978.34,
-    "cost_facebook": 1632.92,
-    "cost_google": 345.42,
-    "clicks_facebook": 333,
-    "clicks_google": 31
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-09",
@@ -3728,11 +3728,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12840,
     "revenue": 11464.35,
-    "cost": 1842.31,
-    "cost_facebook": 1471.57,
-    "cost_google": 370.74,
-    "clicks_facebook": 245,
-    "clicks_google": 31
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-10",
@@ -3741,11 +3741,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 29917.4,
     "revenue": 26712.06,
-    "cost": 1927.25,
-    "cost_facebook": 1596.44,
-    "cost_google": 330.81,
-    "clicks_facebook": 244,
-    "clicks_google": 43
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-11",
@@ -3754,11 +3754,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 18364,
     "revenue": 16396.47,
-    "cost": 2108.31,
-    "cost_facebook": 1760.38,
-    "cost_google": 347.93,
-    "clicks_facebook": 216,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-12",
@@ -3767,11 +3767,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11646,
     "revenue": 10398.22,
-    "cost": 1856.19,
-    "cost_facebook": 1629.66,
-    "cost_google": 226.53,
-    "clicks_facebook": 221,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-13",
@@ -3780,11 +3780,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12608.7,
     "revenue": 11257.83,
-    "cost": 1667.75,
-    "cost_facebook": 1540.99,
-    "cost_google": 126.76,
-    "clicks_facebook": 190,
-    "clicks_google": 21
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-14",
@@ -3793,11 +3793,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 9829,
     "revenue": 8775.91,
-    "cost": 1996.92,
-    "cost_facebook": 1725.75,
-    "cost_google": 271.17,
-    "clicks_facebook": 249,
-    "clicks_google": 36
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-15",
@@ -3806,11 +3806,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 19942,
     "revenue": 17805.41,
-    "cost": 2478.36,
-    "cost_facebook": 2032.32,
-    "cost_google": 446.04,
-    "clicks_facebook": 303,
-    "clicks_google": 31
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-16",
@@ -3819,11 +3819,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12599,
     "revenue": 11249.12,
-    "cost": 2082.27,
-    "cost_facebook": 1780.89,
-    "cost_google": 301.38,
-    "clicks_facebook": 230,
-    "clicks_google": 36
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-17",
@@ -3832,11 +3832,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10002,
     "revenue": 8930.37,
-    "cost": 1986.95,
-    "cost_facebook": 1788.06,
-    "cost_google": 198.89,
-    "clicks_facebook": 274,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-18",
@@ -3845,11 +3845,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 12023,
     "revenue": 10734.86,
-    "cost": 1839.8,
-    "cost_facebook": 1612.26,
-    "cost_google": 227.54,
-    "clicks_facebook": 210,
-    "clicks_google": 39
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-19",
@@ -3858,11 +3858,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6324,
     "revenue": 5646.48,
-    "cost": 1841.9,
-    "cost_facebook": 1617.78,
-    "cost_google": 224.12,
-    "clicks_facebook": 205,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-20",
@@ -3871,11 +3871,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 9632,
     "revenue": 8600.06,
-    "cost": 1725.28,
-    "cost_facebook": 1528.72,
-    "cost_google": 196.56,
-    "clicks_facebook": 194,
-    "clicks_google": 28
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-21",
@@ -3884,11 +3884,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3349,
     "revenue": 2990.19,
-    "cost": 903.08,
-    "cost_facebook": 772.01,
-    "cost_google": 131.07,
-    "clicks_facebook": 121,
-    "clicks_google": 17
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-22",
@@ -3897,11 +3897,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7266,
     "revenue": 6487.53,
-    "cost": 1582.76,
-    "cost_facebook": 1392.02,
-    "cost_google": 190.74,
-    "clicks_facebook": 193,
-    "clicks_google": 25
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-23",
@@ -3910,11 +3910,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6102,
     "revenue": 5448.25,
-    "cost": 1448.06,
-    "cost_facebook": 1300.15,
-    "cost_google": 147.91,
-    "clicks_facebook": 155,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-24",
@@ -3923,11 +3923,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 14051.8,
     "revenue": 12546.3,
-    "cost": 1361.97,
-    "cost_facebook": 1275.69,
-    "cost_google": 86.28,
-    "clicks_facebook": 196,
-    "clicks_google": 10
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-25",
@@ -3936,11 +3936,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 2,
     "revenue_vat": 5614,
     "revenue": 5012.5,
-    "cost": 1498.24,
-    "cost_facebook": 1327.22,
-    "cost_google": 171.02,
-    "clicks_facebook": 169,
-    "clicks_google": 19
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-26",
@@ -3949,11 +3949,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 9655,
     "revenue": 8620.55,
-    "cost": 1547.8,
-    "cost_facebook": 1227.53,
-    "cost_google": 320.27,
-    "clicks_facebook": 149,
-    "clicks_google": 30
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-27",
@@ -3962,11 +3962,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3474,
     "revenue": 3101.79,
-    "cost": 1403.87,
-    "cost_facebook": 1274.78,
-    "cost_google": 129.09,
-    "clicks_facebook": 161,
-    "clicks_google": 22
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-28",
@@ -3975,11 +3975,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 5870,
     "revenue": 5241.09,
-    "cost": 1060,
-    "cost_facebook": 950.12,
-    "cost_google": 109.88,
-    "clicks_facebook": 133,
-    "clicks_google": 20
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-29",
@@ -3988,11 +3988,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 25667.5,
     "revenue": 22917.5,
-    "cost": 1522.17,
-    "cost_facebook": 1320.38,
-    "cost_google": 201.79,
-    "clicks_facebook": 180,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-30",
@@ -4001,11 +4001,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 8674.1,
     "revenue": 7744.78,
-    "cost": 1272.34,
-    "cost_facebook": 1134.95,
-    "cost_google": 137.39,
-    "clicks_facebook": 146,
-    "clicks_google": 29
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-03-31",
@@ -4014,11 +4014,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 3160,
     "revenue": 2821.44,
-    "cost": 1374.23,
-    "cost_facebook": 1280.32,
-    "cost_google": 93.91,
-    "clicks_facebook": 157,
-    "clicks_google": 23
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-01",
@@ -4027,11 +4027,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7202,
     "revenue": 6430.38,
-    "cost": 1373.72,
-    "cost_facebook": 1275.37,
-    "cost_google": 98.35,
-    "clicks_facebook": 185,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-02",
@@ -4040,11 +4040,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 1567,
     "revenue": 1399.12,
-    "cost": 857.38,
-    "cost_facebook": 737.61,
-    "cost_google": 119.77,
-    "clicks_facebook": 133,
-    "clicks_google": 14
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-03",
@@ -4053,11 +4053,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 19399,
     "revenue": 17320.57,
-    "cost": 1645.2,
-    "cost_facebook": 1416.88,
-    "cost_google": 228.32,
-    "clicks_facebook": 251,
-    "clicks_google": 34
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-04",
@@ -4066,11 +4066,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 14833.5,
     "revenue": 13244.26,
-    "cost": 1736.8,
-    "cost_facebook": 1582.17,
-    "cost_google": 154.63,
-    "clicks_facebook": 259,
-    "clicks_google": 24
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-05",
@@ -4079,11 +4079,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 9358.4,
     "revenue": 8355.76,
-    "cost": 1645.01,
-    "cost_facebook": 1461.09,
-    "cost_google": 183.92,
-    "clicks_facebook": 229,
-    "clicks_google": 31
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-06",
@@ -4092,11 +4092,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 8867,
     "revenue": 7917.01,
-    "cost": 1967.9,
-    "cost_facebook": 1697.22,
-    "cost_google": 270.68,
-    "clicks_facebook": 279,
-    "clicks_google": 34
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-07",
@@ -4105,11 +4105,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 6012,
     "revenue": 5367.88,
-    "cost": 1788.68,
-    "cost_facebook": 1520.65,
-    "cost_google": 268.03,
-    "clicks_facebook": 241,
-    "clicks_google": 34
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-08",
@@ -4118,11 +4118,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11065.5,
     "revenue": 9879.96,
-    "cost": 1733.49,
-    "cost_facebook": 1437.93,
-    "cost_google": 295.56,
-    "clicks_facebook": 215,
-    "clicks_google": 41
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-09",
@@ -4131,11 +4131,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 1,
     "revenue_vat": 22467.2,
     "revenue": 20060.01,
-    "cost": 1526.81,
-    "cost_facebook": 1257.83,
-    "cost_google": 268.98,
-    "clicks_facebook": 185,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-10",
@@ -4144,11 +4144,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 10468.4,
     "revenue": 9346.82,
-    "cost": 1504.46,
-    "cost_facebook": 1286.95,
-    "cost_google": 217.51,
-    "clicks_facebook": 189,
-    "clicks_google": 28
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-11",
@@ -4157,11 +4157,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 11937,
     "revenue": 10658.1,
-    "cost": 1577.48,
-    "cost_facebook": 1234.97,
-    "cost_google": 342.51,
-    "clicks_facebook": 183,
-    "clicks_google": 33
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-12",
@@ -4170,11 +4170,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 7752,
     "revenue": 6921.45,
-    "cost": 2030.9,
-    "cost_facebook": 1740.93,
-    "cost_google": 289.97,
-    "clicks_facebook": 264,
-    "clicks_google": 32
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-13",
@@ -4183,11 +4183,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 4299,
     "revenue": 3838.4,
-    "cost": 1705.11,
-    "cost_facebook": 1441.56,
-    "cost_google": 263.55,
-    "clicks_facebook": 197,
-    "clicks_google": 26
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-14",
@@ -4196,11 +4196,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 9506,
     "revenue": 8487.55,
-    "cost": 1970.4,
-    "cost_facebook": 1491.72,
-    "cost_google": 478.68,
-    "clicks_facebook": 172,
-    "clicks_google": 53
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-15",
@@ -4209,11 +4209,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 17136.5,
     "revenue": 15300.46,
-    "cost": 1900.37,
-    "cost_facebook": 1490.66,
-    "cost_google": 409.71,
-    "clicks_facebook": 199,
-    "clicks_google": 32
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-16",
@@ -4222,11 +4222,11 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 9300,
     "revenue": 8303.58,
-    "cost": 1791.01,
-    "cost_facebook": 1373.85,
-    "cost_google": 417.16,
-    "clicks_facebook": 176,
-    "clicks_google": 37
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
+    "clicks_google": 0
   },
   {
     "date": "2026-04-17",
@@ -4235,10 +4235,10 @@ export const realDataCZ: RealDailyRecord[] = [
     "orders_cancelled": 0,
     "revenue_vat": 0,
     "revenue": 0,
-    "cost": 46.64,
-    "cost_facebook": 46.61,
-    "cost_google": 0.03,
-    "clicks_facebook": 8,
+    "cost": 0,
+    "cost_facebook": 0,
+    "cost_google": 0,
+    "clicks_facebook": 0,
     "clicks_google": 0
   }
 ];
