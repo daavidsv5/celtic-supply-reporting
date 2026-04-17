@@ -826,15 +826,11 @@ async function main() {
   try {
     // Download all sheets in parallel
     log('Downloading Google Sheets...');
-    const [csvOrdersCZ, csvOrdersSK, csvCostCZ, csvCostSK, csvMarginCZ, csvMarginSK, csvStockCZ, csvStockSK] = await Promise.all([
+    const [csvOrdersCZ, csvCostCZ, csvMarginCZ, csvStockCZ] = await Promise.all([
       fetchUrl(SHEETS.orders_cz),
-      fetchUrl(SHEETS.orders_sk),
       fetchUrl(SHEETS.cost_cz),
-      fetchUrl(SHEETS.cost_sk),
       fetchUrl(SHEETS.margin_cz),
-      fetchUrl(SHEETS.margin_sk),
       fetchUrl(SHEETS.stock_cz),
-      fetchUrl(SHEETS.stock_sk),
     ]);
     log('Download complete.');
 
@@ -864,70 +860,20 @@ async function main() {
     log(`CZ products: ${productsCZ.reduce((s, r) => s + r.amount, 0)} ks across ${new Set(productsCZ.map(r => r.name)).size} unique products`);
     log('Written productDataCZ.ts');
 
-    // ── SK ────────────────────────────────────────────────────────────────────
-    const ordersByDaySK             = aggregateOrders(csvOrdersSK, 1);          // EUR
-    const { byDay: costByDaySK, byDaySource: costSrcSK } = aggregateCost(csvCostSK, 1, (cols) => {
-      const source = cols[2];
-      const medium = cols[3];
-      const campaignName = (cols[7] || '').toLowerCase();
-      // Pro facebook/cpc zahrnout pouze kampaně obsahující 'sk-sardinerie'
-      if (source === 'facebook' && medium === 'cpc') {
-        return campaignName.includes('sk-sardinerie');
-      }
-      return true;
-    }); // EUR
-    const recordsSK = mergeDailyRecords(ordersByDaySK, costByDaySK, costSrcSK, 'sk');
-
-    const totalSK = recordsSK.reduce((a, r) => ({
-      orders: a.orders + r.orders,
-      revenue_vat: a.revenue_vat + r.revenue_vat,
-      cost: a.cost + r.cost,
-    }), { orders: 0, revenue_vat: 0, cost: 0 });
-
-    log(`SK: ${recordsSK.length} days | ${totalSK.orders} orders | ${totalSK.revenue_vat.toFixed(2)} € | PNO ${(totalSK.cost / (recordsSK.reduce((s,r) => s+r.revenue, 0)) * 100).toFixed(2)}%`);
-
-    writeTsFile(
-      path.join(DATA_DIR, 'realDataSK.ts'),
-      'realDataSK', 'RealDailyRecordSK',
-      'SK: orders in EUR (cancelled/returned excluded), costs in EUR',
-      recordsSK
-    );
-    log('Written realDataSK.ts');
-
-    const productsSK = aggregateProducts(csvOrdersSK, 1);
-    writeProductTsFile(path.join(DATA_DIR, 'productDataSK.ts'), 'productDataSK', 'sk', productsSK);
-    log(`SK products: ${productsSK.reduce((s, r) => s + r.amount, 0)} ks across ${new Set(productsSK.map(r => r.name)).size} unique products`);
-    log('Written productDataSK.ts');
-
     // ── CZ Shipping / Payment ─────────────────────────────────────────────────
     const shippingPaymentCZ = aggregateShippingPayment(csvOrdersCZ, 1);
     writeShippingPaymentTsFile(path.join(DATA_DIR, 'shippingPaymentDataCZ.ts'), 'shippingPaymentDataCZ', 'cz', shippingPaymentCZ);
     log(`CZ shipping/payment: ${shippingPaymentCZ.length} records`);
-
-    // ── SK Shipping / Payment ─────────────────────────────────────────────────
-    const shippingPaymentSK = aggregateShippingPayment(csvOrdersSK, 1);
-    writeShippingPaymentTsFile(path.join(DATA_DIR, 'shippingPaymentDataSK.ts'), 'shippingPaymentDataSK', 'sk', shippingPaymentSK);
-    log(`SK shipping/payment: ${shippingPaymentSK.length} records`);
 
     // ── CZ Order value distribution ───────────────────────────────────────────
     const orderValuesCZ = aggregateOrderValues(csvOrdersCZ);
     writeOrderValueTsFile(path.join(DATA_DIR, 'orderValueDataCZ.ts'), 'orderValueDataCZ', 'cz', orderValuesCZ);
     log(`CZ order values: ${orderValuesCZ.length} orders`);
 
-    // ── SK Order value distribution ───────────────────────────────────────────
-    const orderValuesSK = aggregateOrderValues(csvOrdersSK);
-    writeOrderValueTsFile(path.join(DATA_DIR, 'orderValueDataSK.ts'), 'orderValueDataSK', 'sk', orderValuesSK);
-    log(`SK order values: ${orderValuesSK.length} orders`);
-
     // ── CZ retention ──────────────────────────────────────────────────────────
     const retentionCZ = aggregateRetention(csvOrdersCZ);
     writeRetentionTsFile(path.join(DATA_DIR, 'retentionDataCZ.ts'), 'retentionDataCZ', 'cz', retentionCZ);
     log(`CZ retention: ${retentionCZ.length} customers`);
-
-    // ── SK retention ──────────────────────────────────────────────────────────
-    const retentionSK = aggregateRetention(csvOrdersSK);
-    writeRetentionTsFile(path.join(DATA_DIR, 'retentionDataSK.ts'), 'retentionDataSK', 'sk', retentionSK);
-    log(`SK retention: ${retentionSK.length} customers`);
 
     // ── CZ hourly behaviour ───────────────────────────────────────────────────
     const hourlyCZ = aggregateHourly(csvOrdersCZ);
@@ -935,21 +881,10 @@ async function main() {
     const nonZeroCZ = hourlyCZ.filter(p => p.totalOrders > 0).length;
     log(`CZ hourly: ${nonZeroCZ}/168 active (dow×hour) slots`);
 
-    // ── SK hourly behaviour ───────────────────────────────────────────────────
-    const hourlySK = aggregateHourly(csvOrdersSK);
-    writeHourlyTsFile(path.join(DATA_DIR, 'hourlyDataSK.ts'), 'hourlyDataSK', 'sk', hourlySK);
-    const nonZeroSK = hourlySK.filter(p => p.totalOrders > 0).length;
-    log(`SK hourly: ${nonZeroSK}/168 active (dow×hour) slots`);
-
     // ── CZ cross-sell ─────────────────────────────────────────────────────────
     const crossSellCZ = aggregateCrossSell(csvOrdersCZ);
     writeCrossSellTsFile(path.join(DATA_DIR, 'crossSellDataCZ.ts'), 'crossSellDataCZ', 'cz', crossSellCZ);
     log(`CZ cross-sell: ${crossSellCZ.pairs.length} pairs from ${crossSellCZ.totalOrders} orders (${crossSellCZ.multiItemOrders} multi-item)`);
-
-    // ── SK cross-sell ─────────────────────────────────────────────────────────
-    const crossSellSK = aggregateCrossSell(csvOrdersSK);
-    writeCrossSellTsFile(path.join(DATA_DIR, 'crossSellDataSK.ts'), 'crossSellDataSK', 'sk', crossSellSK);
-    log(`SK cross-sell: ${crossSellSK.pairs.length} pairs from ${crossSellSK.totalOrders} orders (${crossSellSK.multiItemOrders} multi-item)`);
 
     // ── CZ Margin ──────────────────────────────────────────────────────────────
     const marginRecordsCZ = aggregateMargin(csvMarginCZ);
@@ -958,23 +893,12 @@ async function main() {
     log(`CZ margin: ${marginRecordsCZ.length} days | marže ${totalMarginCZ.toFixed(0)} Kč`);
     log('Written marginDataCZ.ts');
 
-    // ── SK Margin ──────────────────────────────────────────────────────────────
-    // SK sheet má stejný formát, ale orderPurchasePrice je prázdné → purchaseCost=0
-    const marginRecordsSK = aggregateMargin(csvMarginSK);
-    writeMarginTsFile(path.join(DATA_DIR, 'marginDataSK.ts'), 'marginDataSK', 'EUR', marginRecordsSK);
-    const totalRevSK = marginRecordsSK.reduce((s, r) => s + r.revenue, 0);
-    log(`SK margin: ${marginRecordsSK.length} days | revenue ${totalRevSK.toFixed(2)} € (nákupní ceny nejsou k dispozici)`);
-    log('Written marginDataSK.ts');
-
     // ── CZ Stock ──────────────────────────────────────────────────────────────
     const stockCZ = aggregateStock(csvStockCZ);
     writeStockTsFile(path.join(DATA_DIR, 'stockDataCZ.ts'), 'stockDataCZ', 'cz', stockCZ);
     log(`CZ stock: ${stockCZ.length} products | ${stockCZ.filter(r => r.stock === 0).length} out of stock`);
 
-    // ── SK Stock ──────────────────────────────────────────────────────────────
-    const stockSK = aggregateStock(csvStockSK);
-    writeStockTsFile(path.join(DATA_DIR, 'stockDataSK.ts'), 'stockDataSK', 'sk', stockSK);
-    log(`SK stock: ${stockSK.length} products | ${stockSK.filter(r => r.stock === 0).length} out of stock`);
+    // SK stock — handled by fetchShoptetDataSK.js (Google Sheets integration pending)
 
     // ── lastUpdate.ts ─────────────────────────────────────────────────────────
     const nowIso = new Date().toISOString();
