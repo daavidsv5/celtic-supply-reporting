@@ -249,7 +249,8 @@ function loadCache() {
 
 function saveCache(cache) {
   const entries = Object.entries(cache);
-  const fd = fs.openSync(CACHE_FILE, 'w');
+  const tmpFile = CACHE_FILE + '.tmp';
+  const fd = fs.openSync(tmpFile, 'w');
   fs.writeSync(fd, '{');
   for (let i = 0; i < entries.length; i++) {
     const [k, v] = entries[i];
@@ -258,6 +259,7 @@ function saveCache(cache) {
   }
   fs.writeSync(fd, '}');
   fs.closeSync(fd);
+  fs.renameSync(tmpFile, CACHE_FILE);
 }
 
 // ── Date helpers ───────────────────────────────────────────────────────────────
