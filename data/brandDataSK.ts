@@ -122526,20 +122526,6 @@ export const brandDataSK: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-01",
-    "brand": "PERMA BLEND",
-    "revenue": 33.03,
-    "purchaseCost": 22.57,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Killer Ink",
-    "revenue": 6.390000000000001,
-    "purchaseCost": 1.62,
-    "quantity": 7
-  },
-  {
-    "date": "2026-04-01",
     "brand": "Bishop Rotary",
     "revenue": 15.31,
     "purchaseCost": 10.43,

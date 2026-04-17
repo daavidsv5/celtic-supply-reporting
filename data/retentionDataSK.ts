@@ -35710,8 +35710,7 @@ export const retentionDataSK: { dates: string[]; revenues: number[]; revsVat: nu
       "2025-05-18",
       "2025-07-08",
       "2025-09-03",
-      "2026-02-03",
-      "2026-04-01"
+      "2026-02-03"
     ],
     "revenues": [
       8.87,
@@ -35720,8 +35719,7 @@ export const retentionDataSK: { dates: string[]; revenues: number[]; revsVat: nu
       20.65,
       14.620000000000001,
       15.940000000000001,
-      16.68,
-      40.49
+      16.68
     ],
     "revsVat": [
       10.64,
@@ -35730,8 +35728,7 @@ export const retentionDataSK: { dates: string[]; revenues: number[]; revsVat: nu
       25.4,
       17.98,
       19.6,
-      20.52,
-      49.8
+      20.52
     ]
   },
   {

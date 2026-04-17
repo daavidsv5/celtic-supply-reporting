@@ -53249,10 +53249,6 @@ export const orderValueDataSK: OrderValueRecord[] = [
   },
   {
     "date": "2026-04-01",
-    "value": 39.42
-  },
-  {
-    "date": "2026-04-01",
     "value": 15.31
   },
   {

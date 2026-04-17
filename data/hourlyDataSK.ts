@@ -538,10 +538,10 @@ export const hourlyDataSK: HourlyPoint[] = [
     "dayOfWeek": 3,
     "hour": 21,
     "dayCount": 98,
-    "totalRevenue": 8837.860000000002,
-    "totalOrders": 145,
-    "avgRevenue": 90.18224489795921,
-    "avgOrders": 1.4795918367346939
+    "totalRevenue": 8798.440000000002,
+    "totalOrders": 144,
+    "avgRevenue": 89.78000000000003,
+    "avgOrders": 1.469387755102041
   },
   {
     "dayOfWeek": 4,

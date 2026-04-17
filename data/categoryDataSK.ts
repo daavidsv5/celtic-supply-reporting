@@ -111688,9 +111688,9 @@ export const categoryDataSK: CategoryRevenueRecord[] = [
     "date": "2026-04-01",
     "category": "Permanentný make-up",
     "subCategory": "",
-    "revenue": 211.88000000000002,
-    "purchaseCost": 163.53,
-    "quantity": 50
+    "revenue": 206.84000000000003,
+    "purchaseCost": 162.83,
+    "quantity": 45
   },
   {
     "date": "2026-04-01",
@@ -111704,9 +111704,9 @@ export const categoryDataSK: CategoryRevenueRecord[] = [
     "date": "2026-04-01",
     "category": "Permanentný make-up",
     "subCategory": "Pigmenty",
-    "revenue": 605.77,
-    "purchaseCost": 388.21,
-    "quantity": 15
+    "revenue": 572.74,
+    "purchaseCost": 365.64,
+    "quantity": 14
   },
   {
     "date": "2026-04-01",
@@ -111795,14 +111795,6 @@ export const categoryDataSK: CategoryRevenueRecord[] = [
     "revenue": 1.32,
     "purchaseCost": 0.83,
     "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Permanentný make-up",
-    "subCategory": "Microblading",
-    "revenue": 1.35,
-    "purchaseCost": 0.92,
-    "quantity": 2
   },
   {
     "date": "2026-04-02",

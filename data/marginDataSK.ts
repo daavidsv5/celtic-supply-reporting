@@ -3355,8 +3355,8 @@ export const marginDataSK: MarginDailyRecord[] = [
   },
   {
     "date": "2026-04-01",
-    "revenue": 1523.2899999999995,
-    "purchaseCost": 966.0499999999998
+    "revenue": 1483.8699999999994,
+    "purchaseCost": 941.8599999999998
   },
   {
     "date": "2026-04-02",

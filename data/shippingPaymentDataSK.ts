@@ -27237,15 +27237,15 @@ export const shippingPaymentDataSK: ShippingPaymentRecord[] = [
     "date": "2026-04-01",
     "type": "payment",
     "name": "Dobierkou",
-    "count": 16,
+    "count": 15,
     "revenue_vat": 0
   },
   {
     "date": "2026-04-01",
     "type": "shipping",
     "name": "GLS ParcelShop - doručenie do druhého dňa",
-    "count": 9,
-    "revenue_vat": 18.599999999999998
+    "count": 8,
+    "revenue_vat": 16.4
   },
   {
     "date": "2026-04-01",
