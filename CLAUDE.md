@@ -94,7 +94,7 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `/behavior` | Nákupní chování — týdenní srovnání, hourly grid (all-time agregace) |
 | `/crosssell` | Cross-sell potenciál — top 100 produktových párů + 2 tabulky kategoriového cross-sellu (1. a 2. řád) |
 | `/retention` | Retenční analýza — RFM segmentace, LTV, AOV, repeat purchase rate, měsíční graf Noví vs. stávající |
-| `/shipping` | Doprava a platby — KPI vč. zisku/ztráty dopravy, ceník dopravců, P&L tabulka per dopravce |
+| `/shipping` | Doprava a platby — KPI vč. zisku/ztráty dopravy, ceník dopravců, P&L tabulka per dopravce; YoY % badge u počtu objednávek per dopravce/platba |
 | `/categories` | Kategorie prodejnost — tržby bez DPH dle kategorií, trendový graf, YoY tabulka + sloupec Počet ks s YoY; podporuje selektor Vše (agregace 6 trhů v CZK, překlady do češtiny) |
 | `/brands` | Značky — tržby bez DPH dle značek/výrobců, trendový graf, YoY tabulka + sloupec Počet ks s YoY; podporuje selektor Vše (agregace 6 trhů v CZK) |
 | `/login` | Přihlášení (NextAuth) |
