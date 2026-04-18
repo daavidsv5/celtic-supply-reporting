@@ -29,8 +29,20 @@ const API_TOKEN      = process.env.SHOPTET_API_TOKEN_CZ;
 const API_BASE       = 'https://api.myshoptet.com/api';
 const DATA_DIR       = path.join(__dirname, '..', 'data');
 const CACHE_FILE     = path.join(__dirname, 'orders_cache_cz.json');
+const LOCK_FILE      = path.join(__dirname, 'orders_cache_cz.lock');
 const CATEGORY_MAP_CACHE = path.join(__dirname, 'category_map_cz.json');
 const LOG_FILE       = path.join(__dirname, 'fetchShoptetDataCZ.log');
+
+// Prevent multiple simultaneous instances
+if (fs.existsSync(LOCK_FILE)) {
+  const pid = fs.readFileSync(LOCK_FILE, 'utf8').trim();
+  console.error(`Already running (PID ${pid}). Delete ${LOCK_FILE} to force.`);
+  process.exit(1);
+}
+fs.writeFileSync(LOCK_FILE, String(process.pid));
+process.on('exit', () => { try { fs.unlinkSync(LOCK_FILE); } catch {} });
+process.on('SIGINT', () => process.exit());
+process.on('SIGTERM', () => process.exit());
 
 const FULL_SYNC        = process.argv.includes('--full');
 const INCREMENTAL_DAYS = 10;
