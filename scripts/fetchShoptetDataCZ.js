@@ -45,6 +45,7 @@ process.on('SIGINT', () => process.exit());
 process.on('SIGTERM', () => process.exit());
 
 const FULL_SYNC        = process.argv.includes('--full');
+const PROCESS_ONLY     = process.argv.includes('--process-only');
 const INCREMENTAL_DAYS = 10;
 const BATCH_SIZE       = 3;
 const BATCH_DELAY_MS   = 500;
@@ -659,6 +660,10 @@ async function main() {
   log(`=== fetchShoptetDataCZ.js START (${FULL_SYNC ? 'FULL SYNC' : 'INCREMENTAL'}) ===`);
 
   const cache = loadCache();
+
+  if (PROCESS_ONLY) {
+    log(`--process-only: skipping download, processing ${Object.keys(cache).length} cached orders...`);
+  } else {
   const SAVE_EVERY = 300;
   let codesToFetch;
 
@@ -701,6 +706,7 @@ async function main() {
   }
 
   log(`Updated ${updated} orders in cache. Total cached: ${Object.keys(cache).length}`);
+  } // end if (!PROCESS_ONLY)
 
   const productCategoryMap = await buildProductCategoryMap();
 
