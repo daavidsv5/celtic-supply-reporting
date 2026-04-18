@@ -76,364 +76,15692 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "quantity": 2
   },
   {
-    "date": "2026-01-07",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Ostatní",
-    "revenue": 72.89,
-    "purchaseCost": 40.16,
+    "date": "2026-01-27",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 74.38,
+    "purchaseCost": 38.9,
     "quantity": 2
   },
   {
-    "date": "2026-01-07",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Dezinfekce",
-    "revenue": 162.89,
-    "purchaseCost": 112,
+    "date": "2026-01-27",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 1198.35,
+    "purchaseCost": 736.29,
     "quantity": 1
   },
   {
-    "date": "2026-01-07",
-    "category": "Tetování",
-    "subCategory": "Tetovací cartridge",
-    "revenue": 1455.28,
-    "purchaseCost": 708.81,
-    "quantity": 61
+    "date": "2026-01-27",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 102.07,
+    "purchaseCost": 46.21,
+    "quantity": 1
   },
   {
-    "date": "2026-01-07",
+    "date": "2026-01-27",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 5887.64,
+    "purchaseCost": 4351.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-27",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 14910.779999999999,
+    "purchaseCost": 9562.77,
+    "quantity": 23
+  },
+  {
+    "date": "2026-01-27",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Sáčky, obaly",
-    "revenue": 103.39,
-    "purchaseCost": 63.52,
+    "revenue": 297.56,
+    "purchaseCost": 179.75,
     "quantity": 1
   },
   {
-    "date": "2026-01-07",
+    "date": "2026-01-27",
     "category": "Spotřební materiál pro studia",
-    "subCategory": "Vazelíny, másla",
-    "revenue": 274.46,
-    "purchaseCost": 194.56,
+    "subCategory": "Mýdla, pěny",
+    "revenue": 234.75,
+    "purchaseCost": 149.06,
     "quantity": 1
   },
   {
-    "date": "2026-01-07",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 371.16,
-    "purchaseCost": 272.53,
+    "date": "2026-01-27",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 431.03,
+    "purchaseCost": 245.42,
     "quantity": 1
   },
   {
-    "date": "2026-01-07",
+    "date": "2026-01-27",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 70.66,
+    "purchaseCost": 21.47,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-27",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Kalíšky, kelímky",
-    "revenue": 63.22,
-    "purchaseCost": 43.32,
+    "revenue": 94.21,
+    "purchaseCost": 27,
     "quantity": 1
   },
   {
-    "date": "2026-01-07",
+    "date": "2026-01-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 38.47,
+    "purchaseCost": 10.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-27",
     "category": "Spotřební materiál pro studia",
     "subCategory": "",
-    "revenue": 237.27,
+    "revenue": 250.45,
     "purchaseCost": 178.74,
     "quantity": 1
   },
   {
-    "date": "2026-01-07",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Hojivé fólie a tattoo finish",
-    "revenue": 519.92,
-    "purchaseCost": 315.5,
+    "date": "2026-01-27",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 906.81,
+    "purchaseCost": 666.41,
+    "quantity": 27
+  },
+  {
+    "date": "2026-01-27",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 361.16,
+    "purchaseCost": 254.89,
     "quantity": 1
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-01-27",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Vazelíny, másla",
-    "revenue": 561.28,
-    "purchaseCost": 374.26,
+    "revenue": 391.78,
+    "purchaseCost": 243.2,
     "quantity": 1
   },
   {
-    "date": "2026-03-11",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "",
-    "revenue": 38.64,
-    "purchaseCost": 26.8,
-    "quantity": 1
+    "date": "2026-01-28",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 3538.0100000000007,
+    "purchaseCost": 1896.44,
+    "quantity": 48
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-01-28",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Holítka, podložky",
-    "revenue": 66.74,
-    "purchaseCost": 50,
-    "quantity": 1
+    "revenue": 2644.36,
+    "purchaseCost": 1484.65,
+    "quantity": 19
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-01-28",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 41188.48000000001,
+    "purchaseCost": 24046.800000000003,
+    "quantity": 1449
+  },
+  {
+    "date": "2026-01-28",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Kalíšky, kelímky",
-    "revenue": 59.71,
-    "purchaseCost": 43.32,
+    "revenue": 1751.0200000000002,
+    "purchaseCost": 512.35,
+    "quantity": 14
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 21536.36,
+    "purchaseCost": 11594.890000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3183.5099999999993,
+    "purchaseCost": 1812.7,
+    "quantity": 42
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 13130.439999999997,
+    "purchaseCost": 8879.760000000004,
+    "quantity": 27
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 11324.380000000003,
+    "purchaseCost": 5583.06,
+    "quantity": 402
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 9225.390000000001,
+    "purchaseCost": 6038.95,
+    "quantity": 48
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3105.6200000000003,
+    "purchaseCost": 1792.6599999999996,
+    "quantity": 14
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 1485.95,
+    "purchaseCost": 1389.77,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2531.2900000000004,
+    "purchaseCost": 1555.1799999999998,
+    "quantity": 8
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3983.1000000000004,
+    "purchaseCost": 1667.6699999999996,
+    "quantity": 78
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2023.14,
+    "purchaseCost": 1125.83,
+    "quantity": 12
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 12011.300000000001,
+    "purchaseCost": 8101.469999999999,
+    "quantity": 38
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 5429.65,
+    "purchaseCost": 3910.620000000001,
+    "quantity": 27
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2528.06,
+    "purchaseCost": 1677.9300000000003,
+    "quantity": 15
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 14906.22999999999,
+    "purchaseCost": 9595.91,
+    "quantity": 46
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1114.1,
+    "purchaseCost": 752.92,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 507.46000000000004,
+    "purchaseCost": 280.09,
+    "quantity": 18
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1115.69,
+    "purchaseCost": 450.5,
+    "quantity": 55
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1489.25,
+    "purchaseCost": 744.0899999999999,
+    "quantity": 12
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 7185.959999999999,
+    "purchaseCost": 3092.6899999999996,
+    "quantity": 8
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 0,
+    "purchaseCost": 15788.64,
     "quantity": 1
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-01-28",
     "category": "Spotřební materiál pro studia",
-    "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 252.89,
-    "purchaseCost": 264,
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 3722.62,
+    "purchaseCost": 2177.53,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 632.65,
+    "purchaseCost": 287.73999999999995,
+    "quantity": 34
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 6197.52,
+    "purchaseCost": 4351.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 569.43,
+    "purchaseCost": 176.83,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 952.8899999999999,
+    "purchaseCost": 459.44999999999993,
+    "quantity": 9
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 755.99,
+    "purchaseCost": 405.03,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 3021.4900000000002,
+    "purchaseCost": 1608.16,
+    "quantity": 9
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 479.34,
+    "purchaseCost": 263.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-28",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 128.1,
+    "purchaseCost": 84.93,
     "quantity": 2
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-01-29",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 468.5900000000001,
+    "purchaseCost": 215.51999999999998,
+    "quantity": 27
+  },
+  {
+    "date": "2026-01-29",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Ostatní",
-    "revenue": 87.81,
-    "purchaseCost": 24.1,
+    "revenue": 3316.7100000000005,
+    "purchaseCost": 1735.26,
+    "quantity": 85
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6012.380000000001,
+    "purchaseCost": 3472.6099999999997,
+    "quantity": 20
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2256.3500000000004,
+    "purchaseCost": 1207.96,
+    "quantity": 18
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 10921.019999999999,
+    "purchaseCost": 6294.589999999998,
+    "quantity": 47
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1703.31,
+    "purchaseCost": 484.96999999999997,
+    "quantity": 17
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7838.05,
+    "purchaseCost": 4132.5199999999995,
+    "quantity": 16
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 40130.27,
+    "purchaseCost": 21738.07999999999,
+    "quantity": 1697
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 7779.379999999998,
+    "purchaseCost": 3804.0999999999995,
+    "quantity": 271
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2088.83,
+    "purchaseCost": 1243.8899999999999,
+    "quantity": 25
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3504.95,
+    "purchaseCost": 2213.3199999999997,
+    "quantity": 22
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3169.88,
+    "purchaseCost": 2125.68,
+    "quantity": 14
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 5490.1,
+    "purchaseCost": 2383.62,
+    "quantity": 80
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 13634.399999999994,
+    "purchaseCost": 8873.03,
+    "quantity": 35
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 748.77,
+    "purchaseCost": 436.07000000000005,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3159.5300000000007,
+    "purchaseCost": 1529.09,
+    "quantity": 13
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 761.16,
+    "purchaseCost": 347.96000000000004,
+    "quantity": 16
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 8504.97,
+    "purchaseCost": 6524.47,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 865.29,
+    "purchaseCost": 529.03,
+    "quantity": 23
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 950.41,
+    "purchaseCost": 632.62,
+    "quantity": 14
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 50.41,
+    "purchaseCost": 17.81,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 3990.1000000000004,
+    "purchaseCost": 1592.1500000000003,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 18164.46,
+    "purchaseCost": 12929.650000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 913.23,
+    "purchaseCost": 412.56,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1471.9099999999999,
+    "purchaseCost": 845.29,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 385.12,
+    "purchaseCost": 254.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 536.36,
+    "purchaseCost": 310.26,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 735.54,
+    "purchaseCost": 364.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 479.34,
+    "purchaseCost": 255.2,
+    "quantity": 20
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 305.79,
+    "purchaseCost": 182.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 412.4,
+    "purchaseCost": 145.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4577.69,
+    "purchaseCost": 2215.29,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 33298.82,
+    "purchaseCost": 18787.360000000008,
+    "quantity": 1170
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1893.43,
+    "purchaseCost": 1082.0300000000002,
+    "quantity": 37
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2166.9500000000003,
+    "purchaseCost": 1287.12,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 3319.84,
+    "purchaseCost": 2018.1100000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2038.9700000000003,
+    "purchaseCost": 1112.05,
+    "quantity": 12
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3210.75,
+    "purchaseCost": 1543.6000000000001,
+    "quantity": 54
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 12376.86,
+    "purchaseCost": 7980.179999999999,
+    "quantity": 30
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 5399.14,
+    "purchaseCost": 3465.98,
+    "quantity": 25
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 767.7600000000001,
+    "purchaseCost": 509.2499999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 8649.609999999999,
+    "purchaseCost": 4587.169999999999,
+    "quantity": 276
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 10938.839999999998,
+    "purchaseCost": 7311.210000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 424.78999999999996,
+    "purchaseCost": 208.22000000000003,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5514.61,
+    "purchaseCost": 3364.2,
+    "quantity": 19
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 200,
+    "purchaseCost": 90.09,
+    "quantity": 11
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 5115.7,
+    "purchaseCost": 3402.02,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 18821.16,
+    "purchaseCost": 11600.010000000002,
+    "quantity": 24
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2012.3999999999999,
+    "purchaseCost": 1189.9899999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 5403.48,
+    "purchaseCost": 3100.2100000000005,
+    "quantity": 23
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1632.8899999999999,
+    "purchaseCost": 1155.85,
+    "quantity": 9
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1347.1,
+    "purchaseCost": 423.81999999999994,
+    "quantity": 42
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 289.26,
+    "purchaseCost": 158.4,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 992.55,
+    "purchaseCost": 557.7500000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 21462.81,
+    "purchaseCost": 14574.619999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 871.5900000000001,
+    "purchaseCost": 619.5300000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 788.4300000000001,
+    "purchaseCost": 339.48,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1054.68,
+    "purchaseCost": 606.22,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 453.71000000000004,
+    "purchaseCost": 253.32999999999998,
+    "quantity": 16
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 10314.05,
+    "purchaseCost": 5997,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 90.91,
+    "purchaseCost": 61.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 321.49,
+    "purchaseCost": 189.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 413.22,
+    "purchaseCost": 413.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1775.66,
+    "purchaseCost": 1082.48,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 177.26999999999998,
+    "purchaseCost": 123.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 759.09,
+    "purchaseCost": 379.47,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 4941.35,
+    "purchaseCost": 2919.93,
+    "quantity": 16
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 2048.75,
+    "purchaseCost": 1145.04,
+    "quantity": 8
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 368.6,
+    "purchaseCost": 222.32,
+    "quantity": 17
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 2171.1400000000003,
+    "purchaseCost": 1468.6599999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 432.23,
+    "purchaseCost": 258.15000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 957.03,
+    "purchaseCost": 572.3100000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 15936.570000000003,
+    "purchaseCost": 9177.609999999997,
+    "quantity": 644
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1664.4600000000003,
+    "purchaseCost": 809.7100000000002,
+    "quantity": 11
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 707.44,
+    "purchaseCost": 280.83,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 715.6999999999999,
+    "purchaseCost": 332.06999999999994,
+    "quantity": 21
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 1361.1399999999999,
+    "purchaseCost": 647.85,
+    "quantity": 42
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 173.55,
+    "purchaseCost": 67.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 4773.38,
+    "purchaseCost": 3241.729999999999,
+    "quantity": 16
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1203.43,
+    "purchaseCost": 693.2,
+    "quantity": 9
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2112.4,
+    "purchaseCost": 1261.26,
+    "quantity": 44
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1647.94,
+    "purchaseCost": 1164.9399999999998,
+    "quantity": 8
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1201.6599999999999,
+    "purchaseCost": 589.0699999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 1309.2900000000002,
+    "purchaseCost": 730.15,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 125.62,
+    "purchaseCost": 94.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 576.03,
+    "purchaseCost": 169.56,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-31",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 81.82,
+    "purchaseCost": 23.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2873.6,
+    "purchaseCost": 1691.9899999999998,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3124.8599999999997,
+    "purchaseCost": 1906.7999999999997,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 19800.82,
+    "purchaseCost": 12966.42,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 27350.29,
+    "purchaseCost": 15693.390000000001,
+    "quantity": 1150
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6155.37,
+    "purchaseCost": 4106.55,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 7926.470000000002,
+    "purchaseCost": 4668.749999999998,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1925.9700000000003,
+    "purchaseCost": 1324.3000000000002,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1062.8700000000001,
+    "purchaseCost": 413.08,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1602.47,
+    "purchaseCost": 775.8100000000001,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 2379.94,
+    "purchaseCost": 1429.31,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1810.54,
+    "purchaseCost": 1234.56,
+    "quantity": 72
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 3289.26,
+    "purchaseCost": 2141.4799999999996,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1094.63,
+    "purchaseCost": 696.76,
+    "quantity": 51
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1167.77,
+    "purchaseCost": 727.1200000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1412.4,
+    "purchaseCost": 850.1499999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 14138.410000000003,
+    "purchaseCost": 8056.089999999999,
+    "quantity": 444
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1328.92,
+    "purchaseCost": 795.84,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1046.6799999999998,
+    "purchaseCost": 688.49,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1922.2000000000003,
+    "purchaseCost": 930.6399999999999,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 804.97,
+    "purchaseCost": 667.8599999999999,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 11194.370000000003,
+    "purchaseCost": 8019.64,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 925.63,
+    "purchaseCost": 610.4,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1402.48,
+    "purchaseCost": 905.3199999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 882.6500000000001,
+    "purchaseCost": 464.41,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 388.42999999999995,
+    "purchaseCost": 126.39,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2214.88,
+    "purchaseCost": 553.1800000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 295.04,
+    "purchaseCost": 159.59,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 772.7199999999999,
+    "purchaseCost": 543.13,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 371.07000000000005,
+    "purchaseCost": 133.31,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 20.66,
+    "purchaseCost": 9.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 123.97,
+    "purchaseCost": 77.15,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 825.62,
+    "purchaseCost": 577.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 81.82,
+    "purchaseCost": 23.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 42917.62000000003,
+    "purchaseCost": 20617.639999999996,
+    "quantity": 1541
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1574.05,
+    "purchaseCost": 1061.67,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 9401.68,
+    "purchaseCost": 5173.839999999999,
+    "quantity": 39
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2584.17,
+    "purchaseCost": 1420.9299999999998,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 282.69000000000005,
+    "purchaseCost": 69.69999999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1642.3999999999999,
+    "purchaseCost": 613.43,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 5806.539999999999,
+    "purchaseCost": 3216,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 7014.06,
+    "purchaseCost": 4710.739999999999,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 7990.099999999999,
+    "purchaseCost": 5400.4,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 17311.929999999997,
+    "purchaseCost": 11414.500000000004,
+    "quantity": 39
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 1801.65,
+    "purchaseCost": 1206.26,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 4057.5,
+    "purchaseCost": 2412.5500000000006,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5920.970000000001,
+    "purchaseCost": 2726.25,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 7952.91,
+    "purchaseCost": 3562.0100000000007,
+    "quantity": 244
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1799.24,
+    "purchaseCost": 1050.79,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3709.44,
+    "purchaseCost": 2482.77,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 11913.62,
+    "purchaseCost": 6363.290000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 347.11,
+    "purchaseCost": 230.5,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3175.2400000000007,
+    "purchaseCost": 1458.3699999999997,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 825.61,
+    "purchaseCost": 314.36,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 1642.15,
+    "purchaseCost": 938.73,
+    "quantity": 68
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 701.65,
+    "purchaseCost": 382.62,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 148.76,
+    "purchaseCost": 70,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 10665.29,
+    "purchaseCost": 4882.219999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 455.20000000000005,
+    "purchaseCost": 258.04,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1052.8899999999999,
+    "purchaseCost": 570.54,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1949.0899999999997,
+    "purchaseCost": 882.66,
+    "quantity": 109
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 2985.9500000000003,
+    "purchaseCost": 1493.5300000000002,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 445.03000000000003,
+    "purchaseCost": 264.80999999999995,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 115.7,
+    "purchaseCost": 53.84,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 818.18,
+    "purchaseCost": 411.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 2346.27,
+    "purchaseCost": 1562.04,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 6257.820000000001,
+    "purchaseCost": 4372.289999999999,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 4466.64,
+    "purchaseCost": 2336.8700000000003,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1770.5600000000002,
+    "purchaseCost": 1087.72,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3580.1799999999994,
+    "purchaseCost": 1555.6599999999996,
+    "quantity": 85
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 11008.460000000001,
+    "purchaseCost": 7200.669999999998,
+    "quantity": 31
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 11846.94,
+    "purchaseCost": 7905.629999999999,
+    "quantity": 59
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 5129.5,
+    "purchaseCost": 2240.3199999999997,
+    "quantity": 102
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 13468.039999999997,
+    "purchaseCost": 6664.17,
+    "quantity": 420
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 6598.740000000001,
+    "purchaseCost": 4324.71,
+    "quantity": 44
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 471.0799999999999,
+    "purchaseCost": 283.44,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 10694.21,
+    "purchaseCost": 5515.09,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 10477.080000000002,
+    "purchaseCost": 7213.37,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2454.4300000000003,
+    "purchaseCost": 1161.3,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 60967.430000000044,
+    "purchaseCost": 30914.329999999994,
+    "quantity": 2262
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 4970.299999999999,
+    "purchaseCost": 3349.23,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1172.7199999999998,
+    "purchaseCost": 523.52,
+    "quantity": 65
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 11744.25,
+    "purchaseCost": 7086.860000000001,
+    "quantity": 39
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 4998.79,
+    "purchaseCost": 3065.03,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3943.51,
+    "purchaseCost": 2101.79,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 33196.27,
+    "purchaseCost": 21472.760000000002,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 4512.85,
+    "purchaseCost": 2790.0099999999998,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1778.7099999999998,
+    "purchaseCost": 906.5699999999999,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4874.369999999999,
+    "purchaseCost": 2126.34,
+    "quantity": 39
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 13262.869999999999,
+    "purchaseCost": 8832.57,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 4123.97,
+    "purchaseCost": 2110.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1023.1499999999999,
+    "purchaseCost": 544.23,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1944.32,
+    "purchaseCost": 1160.38,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 2279.75,
+    "purchaseCost": 1457.92,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 2117.3599999999997,
+    "purchaseCost": 1310.8500000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 194.21,
+    "purchaseCost": 35.45,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 257.86,
+    "purchaseCost": 109.11,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-03",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 247.11,
+    "purchaseCost": 154.63,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 54653.720000000045,
+    "purchaseCost": 26192.760000000006,
+    "quantity": 2009
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 24050.779999999995,
+    "purchaseCost": 15228.409999999998,
+    "quantity": 55
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 5237.16,
+    "purchaseCost": 3441.18,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 7533.6900000000005,
+    "purchaseCost": 4273.5099999999975,
+    "quantity": 39
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4979.34,
+    "purchaseCost": 2269.25,
+    "quantity": 86
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 13445.549999999997,
+    "purchaseCost": 4470.349999999999,
+    "quantity": 136
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8096.130000000001,
+    "purchaseCost": 4953.710000000001,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 846.51,
+    "purchaseCost": 519.3599999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2062.22,
+    "purchaseCost": 1048.1,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 12221.869999999997,
+    "purchaseCost": 6112.940000000002,
+    "quantity": 365
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2303.24,
+    "purchaseCost": 937.95,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3971.1000000000004,
+    "purchaseCost": 1986.37,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2665.47,
+    "purchaseCost": 1396.14,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 5233.880000000001,
+    "purchaseCost": 3615.43,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2245.1800000000003,
+    "purchaseCost": 1256.14,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1162.88,
+    "purchaseCost": 521.35,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4081.66,
+    "purchaseCost": 2698.2499999999995,
+    "quantity": 59
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 6925.099999999999,
+    "purchaseCost": 4235.01,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 2596.87,
+    "purchaseCost": 1598.29,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 399.9800000000001,
+    "purchaseCost": 175.70000000000002,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1842.15,
+    "purchaseCost": 989.54,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 8738.880000000001,
+    "purchaseCost": 5345.29,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 37.19,
+    "purchaseCost": 23.41,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 1350.41,
+    "purchaseCost": 754.5999999999999,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 288.43,
+    "purchaseCost": 91.76,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 5208.67,
+    "purchaseCost": 3452.61,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 694.22,
+    "purchaseCost": 384.03999999999996,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 572.72,
+    "purchaseCost": 288.28000000000003,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 171.07,
+    "purchaseCost": 52.2,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 578.51,
+    "purchaseCost": 263.8,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 27422.499999999993,
+    "purchaseCost": 17282.38999999999,
+    "quantity": 66
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2206.61,
+    "purchaseCost": 1411.6299999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 57569.720000000016,
+    "purchaseCost": 28972.469999999998,
+    "quantity": 2170
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 5402.64,
+    "purchaseCost": 3073.2999999999997,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 7887.620000000002,
+    "purchaseCost": 5500.36,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2522.4,
+    "purchaseCost": 1369.48,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 4501.86,
+    "purchaseCost": 1417.1200000000003,
+    "quantity": 85
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3311.71,
+    "purchaseCost": 2263.7499999999995,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2212.44,
+    "purchaseCost": 1254.1899999999998,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 9188.57,
+    "purchaseCost": 6404.889999999999,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4567.4,
+    "purchaseCost": 2215.43,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 27219.000000000004,
+    "purchaseCost": 16626.379999999997,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 9397.06,
+    "purchaseCost": 3890.8099999999995,
+    "quantity": 76
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 941.39,
+    "purchaseCost": 468.88,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2889.4100000000003,
+    "purchaseCost": 2037.66,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1234.71,
+    "purchaseCost": 811.3700000000001,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2310.33,
+    "purchaseCost": 1056.16,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2019.6100000000001,
+    "purchaseCost": 987.76,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 3664.39,
+    "purchaseCost": 1663.7,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 1236.3799999999999,
+    "purchaseCost": 885.12,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 206.61,
+    "purchaseCost": 51.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 6799.179999999999,
+    "purchaseCost": 3481.23,
+    "quantity": 188
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 7842.98,
+    "purchaseCost": 5509.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 1239.67,
+    "purchaseCost": 1241.33,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 10402.48,
+    "purchaseCost": 6784.330000000001,
+    "quantity": 81
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Speciální nabídka",
+    "subCategory": "Rozbalené zboží",
+    "revenue": 5570.25,
+    "purchaseCost": 3886.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1454.55,
+    "purchaseCost": 1482.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 426.15,
+    "purchaseCost": 222.34,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 468.59000000000003,
+    "purchaseCost": 213.57999999999998,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 3929.77,
+    "purchaseCost": 2532.5900000000006,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 347.11,
+    "purchaseCost": 219.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 347.11,
+    "purchaseCost": 219.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 329.75,
+    "purchaseCost": 160.51,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 809.92,
+    "purchaseCost": 526.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 636.37,
+    "purchaseCost": 351.21000000000004,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-05",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 206.61,
+    "purchaseCost": 147.03,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 7778.269999999998,
+    "purchaseCost": 4730.210000000001,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1536.3600000000001,
+    "purchaseCost": 771.3599999999999,
+    "quantity": 74
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 10139.209999999997,
+    "purchaseCost": 6430.290000000001,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 828.0899999999999,
+    "purchaseCost": 500.88,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 806.61,
+    "purchaseCost": 459.8,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 3154.04,
+    "purchaseCost": 2465.73,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 27822.480000000007,
+    "purchaseCost": 14242.289999999992,
+    "quantity": 976
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 3221.7,
+    "purchaseCost": 1474.72,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2581.02,
+    "purchaseCost": 1194.63,
+    "quantity": 55
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3506.26,
+    "purchaseCost": 1992.5600000000002,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 8318.46,
+    "purchaseCost": 3689.16,
+    "quantity": 317
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2007.44,
+    "purchaseCost": 753.67,
+    "quantity": 46
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 57.86,
+    "purchaseCost": 28.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 871.9,
+    "purchaseCost": 555.23,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 9321.59,
+    "purchaseCost": 4702.4400000000005,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2519.8300000000004,
+    "purchaseCost": 1515.41,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2049.67,
+    "purchaseCost": 990.5900000000001,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 811.63,
+    "purchaseCost": 243.89,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4221.57,
+    "purchaseCost": 2915.5399999999995,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3274.7200000000003,
+    "purchaseCost": 2256.96,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 13749.740000000002,
+    "purchaseCost": 9168.51,
+    "quantity": 114
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2845.58,
+    "purchaseCost": 1597.7600000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 380.17,
+    "purchaseCost": 253.26,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1066.12,
+    "purchaseCost": 729,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 657.03,
+    "purchaseCost": 137.88,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 2520.6600000000003,
+    "purchaseCost": 1516.26,
+    "quantity": 118
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 232.23,
+    "purchaseCost": 83.48,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1691.3200000000002,
+    "purchaseCost": 978.65,
+    "quantity": 36
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 719.01,
+    "purchaseCost": 812.78,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 81.82,
+    "purchaseCost": 24.63,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 147.93,
+    "purchaseCost": 33.07,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 3535.54,
+    "purchaseCost": 2171.82,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 271.57,
+    "purchaseCost": 82.74,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 330.58,
+    "purchaseCost": 3.32,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 14279.569999999987,
+    "purchaseCost": 9143.559999999996,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2295.05,
+    "purchaseCost": 1245.7099999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1104.1399999999999,
+    "purchaseCost": 626.25,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 14667.780000000002,
+    "purchaseCost": 7095.49,
+    "quantity": 470
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1246.28,
+    "purchaseCost": 611.12,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2065.29,
+    "purchaseCost": 907.09,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 2529.76,
+    "purchaseCost": 1395.7400000000002,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 628.6700000000001,
+    "purchaseCost": 245.34,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2711.5599999999995,
+    "purchaseCost": 1817.4099999999999,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 4462.000000000001,
+    "purchaseCost": 2667.9,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 2771.070000000001,
+    "purchaseCost": 1406.0100000000002,
+    "quantity": 34
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 6590.69,
+    "purchaseCost": 2839.6,
+    "quantity": 189
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 486.78000000000003,
+    "purchaseCost": 337.29,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 10031.44,
+    "purchaseCost": 6667.499999999998,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 13638.859999999999,
+    "purchaseCost": 9248.8,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 595.04,
+    "purchaseCost": 188.48000000000002,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1571.0900000000001,
+    "purchaseCost": 471.03000000000003,
+    "quantity": 55
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 2885.9500000000003,
+    "purchaseCost": 1314.7399999999998,
+    "quantity": 158
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 549.5899999999999,
+    "purchaseCost": 379.43,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 188.43,
+    "purchaseCost": 117.58,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 246.28000000000003,
+    "purchaseCost": 133.72,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 499.16999999999996,
+    "purchaseCost": 328.64,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 50.41,
+    "purchaseCost": 19.55,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 742.1500000000001,
+    "purchaseCost": 449.56,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 388.43,
+    "purchaseCost": 218.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2702.48,
+    "purchaseCost": 1043.71,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1297.52,
+    "purchaseCost": 882.77,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-07",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 5694.21,
+    "purchaseCost": 3303.54,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2599.15,
+    "purchaseCost": 1001.3700000000001,
+    "quantity": 61
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 25043.979999999985,
+    "purchaseCost": 15828.909999999996,
+    "quantity": 61
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1436.3600000000001,
+    "purchaseCost": 810.13,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 4135.31,
+    "purchaseCost": 2502.46,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3197.2700000000004,
+    "purchaseCost": 2212.18,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 2063.39,
+    "purchaseCost": 1403.09,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 29007.370000000014,
+    "purchaseCost": 14447.05,
+    "quantity": 1060
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2725.2599999999998,
+    "purchaseCost": 1024.2099999999998,
+    "quantity": 56
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7845.460000000001,
+    "purchaseCost": 3933.0799999999995,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 618.1800000000001,
+    "purchaseCost": 287.37,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3107.63,
+    "purchaseCost": 1734.6599999999999,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1635.17,
+    "purchaseCost": 852.52,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 789.24,
+    "purchaseCost": 417.5200000000001,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1562.8000000000002,
+    "purchaseCost": 1001.39,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1088.42,
+    "purchaseCost": 582.9,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1540.08,
+    "purchaseCost": 872.7,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 6339.67,
+    "purchaseCost": 4167.73,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 736.1500000000001,
+    "purchaseCost": 458.74,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2754.5499999999997,
+    "purchaseCost": 1609.0900000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 5740.499999999999,
+    "purchaseCost": 2638.3699999999994,
+    "quantity": 167
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 59636.37,
+    "purchaseCost": 35591.24,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 81.81,
+    "purchaseCost": 14.309999999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 168.57999999999998,
+    "purchaseCost": 78.09,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 75.21,
+    "purchaseCost": 27.759999999999998,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1961.1700000000003,
+    "purchaseCost": 911.97,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1687.6100000000001,
+    "purchaseCost": 1036.27,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 493.39,
+    "purchaseCost": 364.29,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 1619.84,
+    "purchaseCost": 1059.81,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 272.73,
+    "purchaseCost": 157.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 5115.7,
+    "purchaseCost": 3377.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 90.91,
+    "purchaseCost": 61.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 4827.530000000002,
+    "purchaseCost": 2612.04,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 980.29,
+    "purchaseCost": 601.6899999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3410.88,
+    "purchaseCost": 1761.39,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 54652.230000000054,
+    "purchaseCost": 30972.09000000003,
+    "quantity": 2147
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3536.3100000000004,
+    "purchaseCost": 1522.08,
+    "quantity": 74
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 6477.85,
+    "purchaseCost": 3770.16,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4335.49,
+    "purchaseCost": 2836.2599999999993,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 8218.99,
+    "purchaseCost": 3882.37,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 17721.489999999998,
+    "purchaseCost": 11264.22,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 13966.130000000001,
+    "purchaseCost": 9347.64,
+    "quantity": 67
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2640.2,
+    "purchaseCost": 1443.1999999999996,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 3232.99,
+    "purchaseCost": 2111,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 387.61,
+    "purchaseCost": 248.25,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 16286.959999999994,
+    "purchaseCost": 7936.959999999998,
+    "quantity": 494
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1008.26,
+    "purchaseCost": 545.93,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 888.41,
+    "purchaseCost": 387.58000000000004,
+    "quantity": 58
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 6052.58,
+    "purchaseCost": 4092.99,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1169.3899999999999,
+    "purchaseCost": 614.03,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 17812.059999999998,
+    "purchaseCost": 11132.069999999998,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 11980.970000000001,
+    "purchaseCost": 7068.96,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 2094.5600000000004,
+    "purchaseCost": 1007.6000000000001,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 891.75,
+    "purchaseCost": 561.38,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 1454.55,
+    "purchaseCost": 817.5999999999999,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 3088.4300000000003,
+    "purchaseCost": 2348.7000000000003,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3055.61,
+    "purchaseCost": 1485.3999999999999,
+    "quantity": 68
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 18317.760000000002,
+    "purchaseCost": 7831.389999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1519.58,
+    "purchaseCost": 888.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 493.01000000000005,
+    "purchaseCost": 285.12,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 247.11,
+    "purchaseCost": 154.63,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4047.1199999999994,
+    "purchaseCost": 2470.33,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 363.65000000000003,
+    "purchaseCost": 256.4,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-09",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1809.1,
+    "purchaseCost": 1772.9199999999998,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 92946.38999999987,
+    "purchaseCost": 49523.82,
+    "quantity": 3471
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 10617.779999999999,
+    "purchaseCost": 6910.31,
+    "quantity": 39
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 8099.839999999997,
+    "purchaseCost": 4640.639999999999,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2627.29,
+    "purchaseCost": 1763.31,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 27029.079999999998,
+    "purchaseCost": 17411.51000000001,
+    "quantity": 70
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3755.8900000000003,
+    "purchaseCost": 1847.4899999999998,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5190.07,
+    "purchaseCost": 2663.2999999999997,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 5767.160000000001,
+    "purchaseCost": 3960.5999999999995,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 4946.350000000001,
+    "purchaseCost": 1512.3899999999994,
+    "quantity": 77
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1901.79,
+    "purchaseCost": 999.24,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 12977.330000000004,
+    "purchaseCost": 6269.380000000001,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 10171.089999999998,
+    "purchaseCost": 6804,
+    "quantity": 34
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 582.6400000000001,
+    "purchaseCost": 265.38,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 551.25,
+    "purchaseCost": 200.44000000000003,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 551.24,
+    "purchaseCost": 289.75,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 729.75,
+    "purchaseCost": 419.79,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 13433.890000000001,
+    "purchaseCost": 6559.74,
+    "quantity": 401
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 616.1100000000001,
+    "purchaseCost": 446.45,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Nezařazeno",
+    "subCategory": "",
+    "revenue": 0,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1928.9099999999999,
+    "purchaseCost": 999.4899999999999,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4500.82,
+    "purchaseCost": 2751.6299999999997,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3768.9700000000003,
+    "purchaseCost": 1859.4,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 5135.510000000001,
+    "purchaseCost": 3016.32,
+    "quantity": 44
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 27147.929999999997,
+    "purchaseCost": 11389.1,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 2116.52,
+    "purchaseCost": 1701,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 5128.759999999999,
+    "purchaseCost": 3155.7999999999997,
+    "quantity": 75
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1900.8899999999999,
+    "purchaseCost": 1177.45,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 8041.74,
+    "purchaseCost": 4188.299999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 4914.32,
+    "purchaseCost": 3113.23,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2794.63,
+    "purchaseCost": 1620.37,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Laminace obočí",
+    "revenue": 163.64,
+    "purchaseCost": 232.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 318.18,
+    "purchaseCost": 147.98,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 440.48,
+    "purchaseCost": 191.87,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 701.6600000000001,
+    "purchaseCost": 419.23,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 380.15999999999997,
+    "purchaseCost": 243.3,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 7800,
+    "purchaseCost": 4161.83,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 330.57,
+    "purchaseCost": 3.32,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 62621.390000000036,
+    "purchaseCost": 36249.54000000001,
+    "quantity": 2314
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 8835.630000000001,
+    "purchaseCost": 4435.47,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3810.2000000000003,
+    "purchaseCost": 2649.49,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2045.9199999999998,
+    "purchaseCost": 1124.27,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2609.97,
+    "purchaseCost": 1117.14,
+    "quantity": 112
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 7462.99,
+    "purchaseCost": 4521.97,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 25412.659999999993,
+    "purchaseCost": 16150.250000000002,
+    "quantity": 75
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1526.4900000000002,
+    "purchaseCost": 850.5400000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 347.11,
+    "purchaseCost": 231.58,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 7260.099999999999,
+    "purchaseCost": 3494.2799999999993,
+    "quantity": 248
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5957.039999999999,
+    "purchaseCost": 3812.12,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 742.1399999999999,
+    "purchaseCost": 370.84,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 49435.7,
+    "purchaseCost": 36865.28,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 9660.34,
+    "purchaseCost": 6607.22,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6021.579999999999,
+    "purchaseCost": 3628.6499999999996,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1785.6499999999996,
+    "purchaseCost": 1012.1300000000001,
+    "quantity": 34
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2814.33,
+    "purchaseCost": 1701.3200000000002,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1099.16,
+    "purchaseCost": 741.27,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1843.9700000000003,
+    "purchaseCost": 1144.06,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5155.37,
+    "purchaseCost": 2517.3199999999997,
+    "quantity": 66
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 915.69,
+    "purchaseCost": 576.6400000000001,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 5640.640000000001,
+    "purchaseCost": 2210.019999999999,
+    "quantity": 174
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3252.56,
+    "purchaseCost": 1728.75,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 163.64,
+    "purchaseCost": 98.55,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 836.6100000000001,
+    "purchaseCost": 420.14,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1767.81,
+    "purchaseCost": 776.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 548.89,
+    "purchaseCost": 250.56,
+    "quantity": 43
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1071.0700000000002,
+    "purchaseCost": 631.1800000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 12380.16,
+    "purchaseCost": 7780.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 668.94,
+    "purchaseCost": 378,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 173.55,
+    "purchaseCost": 95.03999999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-11",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 388.43,
+    "purchaseCost": 218.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 2726.44,
+    "purchaseCost": 1732.9900000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 28588.45000000003,
+    "purchaseCost": 15936.84,
+    "quantity": 1018
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 15465.439999999993,
+    "purchaseCost": 9802.720000000001,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6981.399999999999,
+    "purchaseCost": 4181.4,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 5278.509999999999,
+    "purchaseCost": 3210.13,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7688.860000000001,
+    "purchaseCost": 4219.9400000000005,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1823.19,
+    "purchaseCost": 1078.89,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3162.77,
+    "purchaseCost": 1158.1799999999996,
+    "quantity": 125
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3894.85,
+    "purchaseCost": 2205.29,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 822.3199999999999,
+    "purchaseCost": 367.33000000000004,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 3546.2700000000004,
+    "purchaseCost": 2311.7400000000002,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 15721.91,
+    "purchaseCost": 8463.79,
+    "quantity": 458
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2324.78,
+    "purchaseCost": 1280.12,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 381.81,
+    "purchaseCost": 239.38,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 16877.649999999994,
+    "purchaseCost": 6624.000000000004,
+    "quantity": 232
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1307.44,
+    "purchaseCost": 772.7,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 272.73,
+    "purchaseCost": 184.56,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1871.0900000000001,
+    "purchaseCost": 960.98,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1099.29,
+    "purchaseCost": 623.81,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 161.24,
+    "purchaseCost": 47,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1493.56,
+    "purchaseCost": 884.26,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 16.53,
+    "purchaseCost": 30,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 2121.5099999999998,
+    "purchaseCost": 940.6400000000001,
+    "quantity": 116
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 503.3,
+    "purchaseCost": 306.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 14438.02,
+    "purchaseCost": 8045.799999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 858.6700000000001,
+    "purchaseCost": 493.28000000000003,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 483.48,
+    "purchaseCost": 300.98,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 959.5,
+    "purchaseCost": 1263.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1214.8799999999999,
+    "purchaseCost": 678.12,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 13751.24,
+    "purchaseCost": 10503.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1699.17,
+    "purchaseCost": 1079.98,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 147.94,
+    "purchaseCost": 50.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 8990.08,
+    "purchaseCost": 5588.17,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 884.3,
+    "purchaseCost": 558.15,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 865.29,
+    "purchaseCost": 599.26,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3878.5300000000007,
+    "purchaseCost": 2448.8,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8741.380000000001,
+    "purchaseCost": 5459.169999999999,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1949.3500000000001,
+    "purchaseCost": 1091.92,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 6789.51,
+    "purchaseCost": 4085.6200000000003,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 17805.419999999995,
+    "purchaseCost": 11023.520000000002,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2778.2200000000003,
+    "purchaseCost": 1373.42,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3361.06,
+    "purchaseCost": 2093.2100000000005,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3797.479999999999,
+    "purchaseCost": 1250.1599999999999,
+    "quantity": 86
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 11273.560000000001,
+    "purchaseCost": 5845.12,
+    "quantity": 342
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 818.18,
+    "purchaseCost": 603.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 39339.779999999984,
+    "purchaseCost": 21818.579999999998,
+    "quantity": 1519
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1862.76,
+    "purchaseCost": 1045.96,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 9870.24,
+    "purchaseCost": 6592.47,
+    "quantity": 48
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1309.08,
+    "purchaseCost": 566.9,
+    "quantity": 49
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 976.58,
+    "purchaseCost": 489.86,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1602.52,
+    "purchaseCost": 1023.7800000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 6177.27,
+    "purchaseCost": 3017.17,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 925.63,
+    "purchaseCost": 512.6,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 16766.07,
+    "purchaseCost": 12356.049999999997,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2117.48,
+    "purchaseCost": 1068.3100000000002,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 8290.08,
+    "purchaseCost": 5199.46,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 10504.54,
+    "purchaseCost": 5381.31,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1421.07,
+    "purchaseCost": 716.98,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 743.8,
+    "purchaseCost": 526.02,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1140.5,
+    "purchaseCost": 670.68,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2565.03,
+    "purchaseCost": 1621.73,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 514.88,
+    "purchaseCost": 342.24,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 248.76,
+    "purchaseCost": 140.75,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 238.01,
+    "purchaseCost": 144.4,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 49.59,
+    "purchaseCost": 37.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 884.2900000000001,
+    "purchaseCost": 490.07,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 7274.4400000000005,
+    "purchaseCost": 4582.110000000001,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 13310.729999999996,
+    "purchaseCost": 6481.22,
+    "quantity": 518
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4323.75,
+    "purchaseCost": 2708.54,
+    "quantity": 56
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 2205.79,
+    "purchaseCost": 1484.3,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 6281.009999999999,
+    "purchaseCost": 4331.77,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 7637.179999999999,
+    "purchaseCost": 4170.0199999999995,
+    "quantity": 214
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 401.65999999999997,
+    "purchaseCost": 161.52,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 384.30000000000007,
+    "purchaseCost": 136.77,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 359.51,
+    "purchaseCost": 240.36,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 974,
+    "purchaseCost": 682.28,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 2397.52,
+    "purchaseCost": 1085.54,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1550.41,
+    "purchaseCost": 743.8599999999999,
+    "quantity": 52
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1250.42,
+    "purchaseCost": 794.94,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 334.71,
+    "purchaseCost": 146.56,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 6057.869999999999,
+    "purchaseCost": 3932.91,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 975.6300000000001,
+    "purchaseCost": 570.27,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1239.66,
+    "purchaseCost": 632.46,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1930.17,
+    "purchaseCost": 1153,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1052.06,
+    "purchaseCost": 494.91999999999996,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 3713.9399999999996,
+    "purchaseCost": 1804.15,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 290.91,
+    "purchaseCost": 143.9,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 752.06,
+    "purchaseCost": 429.36,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 853.72,
+    "purchaseCost": 467.93,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 4123.97,
+    "purchaseCost": 2077.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 363.64,
+    "purchaseCost": 163.4,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 39416.73000000002,
+    "purchaseCost": 19120.569999999992,
+    "quantity": 1458
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 3880.7800000000007,
+    "purchaseCost": 2696.4300000000003,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 996.28,
+    "purchaseCost": 362.81,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 219.84,
+    "purchaseCost": 128.37,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3707.46,
+    "purchaseCost": 2531.1099999999997,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 3412.61,
+    "purchaseCost": 1846.57,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2518.87,
+    "purchaseCost": 941.0000000000001,
+    "quantity": 63
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1573.3500000000006,
+    "purchaseCost": 854.25,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2402.9000000000005,
+    "purchaseCost": 1235.25,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 18520.95,
+    "purchaseCost": 12013.609999999997,
+    "quantity": 49
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 5385.63,
+    "purchaseCost": 3068.6200000000003,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2886.12,
+    "purchaseCost": 1900.3300000000004,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4392.16,
+    "purchaseCost": 2268.24,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 4716.469999999998,
+    "purchaseCost": 2245.39,
+    "quantity": 155
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 453.72,
+    "purchaseCost": 169.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1709.0900000000001,
+    "purchaseCost": 792.21,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 13612.190000000006,
+    "purchaseCost": 8677.16,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 4192.86,
+    "purchaseCost": 2682.9299999999994,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1008.79,
+    "purchaseCost": 649.06,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2232.54,
+    "purchaseCost": 1491.0500000000002,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2319.9800000000005,
+    "purchaseCost": 1124.44,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1153.31,
+    "purchaseCost": 635.6000000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 45.45,
+    "purchaseCost": 21.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 16342.56,
+    "purchaseCost": 9891.57,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 403.44000000000005,
+    "purchaseCost": 175.07,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 37.19,
+    "purchaseCost": 19.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 61.980000000000004,
+    "purchaseCost": 22.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 40.5,
+    "purchaseCost": 4.11,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 206.61,
+    "purchaseCost": 116.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 4098.95,
+    "purchaseCost": 2651.77,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 6197.379999999999,
+    "purchaseCost": 3813.770000000001,
+    "quantity": 48
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1993.86,
+    "purchaseCost": 1521,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 338.01,
+    "purchaseCost": 182.51999999999998,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 128.1,
+    "purchaseCost": 80.79,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 625.61,
+    "purchaseCost": 342.58,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 666.9399999999999,
+    "purchaseCost": 405.52000000000004,
+    "quantity": 45
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 74647.36000000003,
+    "purchaseCost": 37086.700000000004,
+    "quantity": 2899
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 10402.41,
+    "purchaseCost": 6085.349999999999,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3794.4300000000003,
+    "purchaseCost": 2580.27,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2991.43,
+    "purchaseCost": 1982.82,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4228.499999999999,
+    "purchaseCost": 2268.24,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 13816.340000000002,
+    "purchaseCost": 6721.109999999999,
+    "quantity": 393
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 4967.98,
+    "purchaseCost": 1889.9699999999998,
+    "quantity": 112
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3060.2100000000005,
+    "purchaseCost": 1694.6000000000001,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 3105.23,
+    "purchaseCost": 1393.5900000000001,
+    "quantity": 46
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8308.48,
+    "purchaseCost": 5282.61,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 5887.98,
+    "purchaseCost": 3611.790000000001,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 530.3,
+    "purchaseCost": 1189.33,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3463.4300000000003,
+    "purchaseCost": 1572.1399999999999,
+    "quantity": 82
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 25289.33,
+    "purchaseCost": 15989.789999999997,
+    "quantity": 55
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 35941.57,
+    "purchaseCost": 25339.049999999996,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 20099.89,
+    "purchaseCost": 13539.91,
+    "quantity": 96
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2734.690000000001,
+    "purchaseCost": 1526.84,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3052.860000000001,
+    "purchaseCost": 1780.6100000000001,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 958.6899999999999,
+    "purchaseCost": 357.97,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5814.52,
+    "purchaseCost": 3802.9900000000002,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6190.08,
+    "purchaseCost": 3891.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 206.61,
+    "purchaseCost": 93.2,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 91.41999999999999,
+    "purchaseCost": 47.78,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 255.38,
+    "purchaseCost": 97.62,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-16",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 19164.52,
+    "purchaseCost": 11398.199999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 7836.72,
+    "purchaseCost": 3348.6700000000005,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 57899.090000000084,
+    "purchaseCost": 29225.67,
+    "quantity": 1912
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1462.8,
+    "purchaseCost": 893.5500000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 12480.180000000002,
+    "purchaseCost": 8188.850000000001,
+    "quantity": 71
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8447.669999999998,
+    "purchaseCost": 5771.02,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2979.3900000000003,
+    "purchaseCost": 1564.1,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 8957.500000000002,
+    "purchaseCost": 4558.25,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 10357.009999999998,
+    "purchaseCost": 5026.75,
+    "quantity": 297
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1474.3799999999999,
+    "purchaseCost": 1017.46,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 2322.32,
+    "purchaseCost": 1058,
+    "quantity": 39
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 14506.259999999995,
+    "purchaseCost": 9732.739999999998,
+    "quantity": 68
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 10362.81,
+    "purchaseCost": 4592.27,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 409.09,
+    "purchaseCost": 172.88,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4371.9,
+    "purchaseCost": 2057.72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 894.64,
+    "purchaseCost": 522.6,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 470.65999999999997,
+    "purchaseCost": 336.62,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 3091.7000000000003,
+    "purchaseCost": 1614.7900000000002,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 4144.619999999999,
+    "purchaseCost": 2379.9499999999985,
+    "quantity": 101
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3690.9,
+    "purchaseCost": 1595.7799999999997,
+    "quantity": 113
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2486.34,
+    "purchaseCost": 1478.3999999999999,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4827.040000000001,
+    "purchaseCost": 3106.97,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3312.4800000000005,
+    "purchaseCost": 1880.28,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3986.8700000000003,
+    "purchaseCost": 2083.9700000000003,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 590.9,
+    "purchaseCost": 304.41999999999996,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1154.5400000000002,
+    "purchaseCost": 675.1800000000001,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5974.380000000001,
+    "purchaseCost": 3738.9399999999996,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 5761.0599999999995,
+    "purchaseCost": 3907.3399999999997,
+    "quantity": 48
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 147.94,
+    "purchaseCost": 50.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 834.72,
+    "purchaseCost": 363.29999999999995,
+    "quantity": 50
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 123.97,
+    "purchaseCost": 48.89999999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6197.52,
+    "purchaseCost": 2281.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 80.99,
+    "purchaseCost": 24.64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 90.91,
+    "purchaseCost": 61.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 52496.89000000005,
+    "purchaseCost": 25418.260000000006,
+    "quantity": 1864
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 4792.21,
+    "purchaseCost": 2483.6299999999997,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 9172.660000000002,
+    "purchaseCost": 5916.420000000002,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 8232.859999999999,
+    "purchaseCost": 3315.899999999999,
+    "quantity": 261
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3130.92,
+    "purchaseCost": 1734.6799999999998,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1544.1999999999998,
+    "purchaseCost": 906.16,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 5746.37,
+    "purchaseCost": 2574.23,
+    "quantity": 93
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 4125.51,
+    "purchaseCost": 2024.0699999999995,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2640.6800000000003,
+    "purchaseCost": 1876.68,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 7690.84,
+    "purchaseCost": 5381.950000000001,
+    "quantity": 45
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 17230.79,
+    "purchaseCost": 11046.560000000001,
+    "quantity": 58
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5871.48,
+    "purchaseCost": 3522.0899999999997,
+    "quantity": 76
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 3535.8999999999996,
+    "purchaseCost": 2192.7000000000003,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1777.6699999999996,
+    "purchaseCost": 857.2599999999999,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 4432.33,
+    "purchaseCost": 2270.67,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 2022.7299999999998,
+    "purchaseCost": 1027.86,
+    "quantity": 59
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3192.5600000000004,
+    "purchaseCost": 1312.29,
+    "quantity": 97
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 0,
+    "purchaseCost": 2.4899999999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 11270.270000000002,
+    "purchaseCost": 7621.860000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1052.0600000000002,
+    "purchaseCost": 576.33,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 138.01,
+    "purchaseCost": 37.5,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 594.22,
+    "purchaseCost": 276.05,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1337.91,
+    "purchaseCost": 583.1700000000001,
+    "quantity": 81
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 11239.84,
+    "purchaseCost": 7603.910000000002,
+    "quantity": 57
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1148.76,
+    "purchaseCost": 509.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 20247.089999999997,
+    "purchaseCost": 12480.84,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 234.75,
+    "purchaseCost": 154.63,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 1164.47,
+    "purchaseCost": 628.05,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 314.87,
+    "purchaseCost": 186.68,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 498.34000000000003,
+    "purchaseCost": 248.42000000000002,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 23537.190000000002,
+    "purchaseCost": 15127.49,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 1747.94,
+    "purchaseCost": 1430.43,
+    "quantity": 53
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 10321.490000000002,
+    "purchaseCost": 4359.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1492.1399999999999,
+    "purchaseCost": 858.32,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-18",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 369.01,
+    "purchaseCost": 218.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 42948.000000000015,
+    "purchaseCost": 20974.040000000005,
+    "quantity": 1474
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 393.39,
+    "purchaseCost": 259.65999999999997,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 4124.099999999999,
+    "purchaseCost": 2012.9399999999998,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4430.210000000001,
+    "purchaseCost": 2289.4799999999996,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 15225.269999999982,
+    "purchaseCost": 9350.839999999998,
+    "quantity": 53
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 12078.269999999999,
+    "purchaseCost": 7294.26,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1349.1599999999999,
+    "purchaseCost": 778.0000000000001,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 4464.789999999999,
+    "purchaseCost": 2380.4,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3325.4900000000002,
+    "purchaseCost": 2051.63,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2353.96,
+    "purchaseCost": 1710.52,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 388.43,
+    "purchaseCost": 218.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5475.22,
+    "purchaseCost": 3644.08,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1891.4399999999996,
+    "purchaseCost": 910.7199999999998,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 2376.04,
+    "purchaseCost": 1102.44,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 6577.619999999999,
+    "purchaseCost": 4118.6,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 804.96,
+    "purchaseCost": 19880.26,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 581.8199999999999,
+    "purchaseCost": 258.3,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 647.9300000000001,
+    "purchaseCost": 295.21999999999997,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 4308.26,
+    "purchaseCost": 2221.7799999999997,
+    "quantity": 82
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3708.54,
+    "purchaseCost": 2079.21,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1519.8400000000001,
+    "purchaseCost": 882.48,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 202.48,
+    "purchaseCost": 132.05,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 6357.88,
+    "purchaseCost": 2432.1299999999997,
+    "quantity": 206
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 4395.060000000002,
+    "purchaseCost": 1867.5499999999993,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1452.08,
+    "purchaseCost": 739.3800000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 623.96,
+    "purchaseCost": 293.99,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 1816.5300000000002,
+    "purchaseCost": 1021.79,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 50.41,
+    "purchaseCost": 19.55,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 40.5,
+    "purchaseCost": 4.11,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1644.63,
+    "purchaseCost": 958.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4371.9,
+    "purchaseCost": 2057.72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 7824.030000000001,
+    "purchaseCost": 4788.900000000001,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 15810.289999999999,
+    "purchaseCost": 8802.419999999996,
+    "quantity": 379
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 5386.780000000001,
+    "purchaseCost": 3206.6100000000006,
+    "quantity": 74
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 4857.2699999999995,
+    "purchaseCost": 1614.49,
+    "quantity": 199
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1351.44,
+    "purchaseCost": 882.44,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6944.12,
+    "purchaseCost": 4465.21,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 12.67,
+    "purchaseCost": 9.06,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 128.1,
+    "purchaseCost": 88.19,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2904.95,
+    "purchaseCost": 1663.2299999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5321.650000000001,
+    "purchaseCost": 3010.32,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 13603.289999999999,
+    "purchaseCost": 8974.640000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2727.27,
+    "purchaseCost": 1575.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3875.2200000000003,
+    "purchaseCost": 2227.65,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2533.9000000000005,
+    "purchaseCost": 1280.04,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2236.7799999999997,
+    "purchaseCost": 1568.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3778.25,
+    "purchaseCost": 2551.57,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2305.79,
+    "purchaseCost": 1111.48,
+    "quantity": 49
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 385.95000000000005,
+    "purchaseCost": 215.54000000000002,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 900.0000000000001,
+    "purchaseCost": 539.75,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1371.0799999999997,
+    "purchaseCost": 848.4300000000001,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 12101.51,
+    "purchaseCost": 8352.44,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2131.5300000000007,
+    "purchaseCost": 1014.7,
+    "quantity": 78
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4388.02,
+    "purchaseCost": 2458.44,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 335.61,
+    "purchaseCost": 193.54999999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 231.61,
+    "purchaseCost": 148.72,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 360.33000000000004,
+    "purchaseCost": 103.05,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 267.78,
+    "purchaseCost": 69.6,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 413.22,
+    "purchaseCost": 413.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Nezařazeno",
+    "subCategory": "",
+    "revenue": 0,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 165.29,
+    "purchaseCost": 77.4,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 119.83,
+    "purchaseCost": 65.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 181.82,
+    "purchaseCost": 87.30000000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-20",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 247.11,
+    "purchaseCost": 173.43,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 19643.8,
+    "purchaseCost": 13877.210000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1721.4800000000002,
+    "purchaseCost": 1095.3100000000002,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 6104.980000000001,
+    "purchaseCost": 3901.0699999999997,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1478.51,
+    "purchaseCost": 715.8299999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 654.53,
+    "purchaseCost": 368.34,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2394.22,
+    "purchaseCost": 1334.41,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 9988.880000000003,
+    "purchaseCost": 4830.060000000001,
+    "quantity": 348
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5178.5199999999995,
+    "purchaseCost": 3211.44,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 419.83000000000004,
+    "purchaseCost": 227.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 369.42999999999995,
+    "purchaseCost": 156.48000000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 2848.3500000000004,
+    "purchaseCost": 1591.21,
+    "quantity": 75
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 815.7,
+    "purchaseCost": 475.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 764.47,
+    "purchaseCost": 344.96000000000004,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 387.61,
+    "purchaseCost": 224.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 669.4100000000001,
+    "purchaseCost": 203.91,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 337.19,
+    "purchaseCost": 115.87,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 276.03,
+    "purchaseCost": 150.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2829.46,
+    "purchaseCost": 1944.2300000000002,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 577.69,
+    "purchaseCost": 389.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 222.31,
+    "purchaseCost": 169.72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2137.4500000000003,
+    "purchaseCost": 948.28,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 90.91,
+    "purchaseCost": 61.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 164.46,
+    "purchaseCost": 34.73,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 145.45,
+    "purchaseCost": 65.68,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 164.46,
+    "purchaseCost": 34.74,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 181,
+    "purchaseCost": 288.74,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 545.45,
+    "purchaseCost": 381.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 577.69,
+    "purchaseCost": 279.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 82.64,
+    "purchaseCost": 0.83,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 28430.18000000001,
+    "purchaseCost": 13874.320000000003,
+    "quantity": 1018
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2493.52,
+    "purchaseCost": 1710,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1282.4299999999998,
+    "purchaseCost": 668.88,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1050.0100000000002,
+    "purchaseCost": 577.21,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2400.8300000000004,
+    "purchaseCost": 1233.05,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 8888.85,
+    "purchaseCost": 4525.21,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 15318.039999999997,
+    "purchaseCost": 10365.159999999998,
+    "quantity": 39
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 527.97,
+    "purchaseCost": 401.77,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2835.4900000000002,
+    "purchaseCost": 1152.06,
+    "quantity": 45
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 380.17,
+    "purchaseCost": 254.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1597.1499999999999,
+    "purchaseCost": 935.21,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 8899.569999999998,
+    "purchaseCost": 3959.6399999999994,
+    "quantity": 281
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 690.09,
+    "purchaseCost": 326.23,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2859.2000000000003,
+    "purchaseCost": 1876.6300000000003,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3736.390000000001,
+    "purchaseCost": 1854.0900000000001,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 3754.540000000001,
+    "purchaseCost": 1349.9400000000005,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 801.6600000000001,
+    "purchaseCost": 413.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 2462.81,
+    "purchaseCost": 1034.9,
+    "quantity": 236
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 2790.9599999999996,
+    "purchaseCost": 1554.2600000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 659.5,
+    "purchaseCost": 361.62,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1891.87,
+    "purchaseCost": 1068.04,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2325.61,
+    "purchaseCost": 701.14,
+    "quantity": 86
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2921.5,
+    "purchaseCost": 1741.33,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 12557.839999999998,
+    "purchaseCost": 7813.1100000000015,
+    "quantity": 114
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1352.0700000000002,
+    "purchaseCost": 692.56,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1314.88,
+    "purchaseCost": 995.6400000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 1239.67,
+    "purchaseCost": 1239.67,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 147.93,
+    "purchaseCost": 31.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 4236.360000000001,
+    "purchaseCost": 2612.6400000000003,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 8082.639999999999,
+    "purchaseCost": 4069.37,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 908.27,
+    "purchaseCost": 477.23999999999995,
+    "quantity": 36
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 801.6600000000001,
+    "purchaseCost": 484.7,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 2396.69,
+    "purchaseCost": 1318.8,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-22",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 913.8399999999999,
+    "purchaseCost": 604.03,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2428.12,
+    "purchaseCost": 1156.9699999999998,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8467.53,
+    "purchaseCost": 5250.85,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 27246.02,
+    "purchaseCost": 17369.260000000002,
+    "quantity": 74
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 49382.82000000002,
+    "purchaseCost": 23629.43,
+    "quantity": 1722
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2910.82,
+    "purchaseCost": 1534.73,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 4339.669999999999,
+    "purchaseCost": 1578.0000000000002,
+    "quantity": 78
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 9507.470000000001,
+    "purchaseCost": 4614.11,
+    "quantity": 101
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 9397.78,
+    "purchaseCost": 6248.97,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 6749.03,
+    "purchaseCost": 3813.5500000000006,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 9650.019999999997,
+    "purchaseCost": 4976.6799999999985,
+    "quantity": 268
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1687.68,
+    "purchaseCost": 810.88,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 11567.57,
+    "purchaseCost": 7760.699999999999,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1213.3,
+    "purchaseCost": 552.2499999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3954.4899999999993,
+    "purchaseCost": 2476.63,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 6431.41,
+    "purchaseCost": 2872.7400000000002,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 12600.950000000003,
+    "purchaseCost": 7024.219999999998,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 8666.27,
+    "purchaseCost": 5272.4400000000005,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1415.69,
+    "purchaseCost": 817.63,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 6642.8,
+    "purchaseCost": 4675.96,
+    "quantity": 31
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 4217.59,
+    "purchaseCost": 2680.2599999999998,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 257.86,
+    "purchaseCost": 116.28,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 3710.74,
+    "purchaseCost": 1847.43,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 259.49,
+    "purchaseCost": 121.88000000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 202.48,
+    "purchaseCost": 119.33000000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1383.4699999999998,
+    "purchaseCost": 695.86,
+    "quantity": 62
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1094.25,
+    "purchaseCost": 612.3000000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 2231.4,
+    "purchaseCost": 977.9999999999999,
+    "quantity": 100
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 349.58,
+    "purchaseCost": 192.36,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 454.68,
+    "purchaseCost": 309.26,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 14842.96,
+    "purchaseCost": 8046.6,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 8546.28,
+    "purchaseCost": 5220.900000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1366.31,
+    "purchaseCost": 728.88,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 570.25,
+    "purchaseCost": 349.89000000000004,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 4599.72,
+    "purchaseCost": 3241.22,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2858.7800000000007,
+    "purchaseCost": 1456.02,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 42150.95000000001,
+    "purchaseCost": 20722.860000000008,
+    "quantity": 1646
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 19920.069999999985,
+    "purchaseCost": 12259.509999999997,
+    "quantity": 55
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2691.41,
+    "purchaseCost": 803.97,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1111.56,
+    "purchaseCost": 507.38,
+    "quantity": 58
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5684.7,
+    "purchaseCost": 2967.4900000000002,
+    "quantity": 55
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 21843.829999999998,
+    "purchaseCost": 14513.060000000001,
+    "quantity": 87
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 849.6099999999999,
+    "purchaseCost": 392.49,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 12806.61,
+    "purchaseCost": 5999.539999999999,
+    "quantity": 378
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 18732.279999999995,
+    "purchaseCost": 12256.2,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1848.9699999999998,
+    "purchaseCost": 889.8699999999998,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1624.6100000000001,
+    "purchaseCost": 881.8200000000002,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 119.83,
+    "purchaseCost": 65.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 466.12,
+    "purchaseCost": 271.93,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 10226.479999999998,
+    "purchaseCost": 6506.97,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3866.1600000000003,
+    "purchaseCost": 2163.23,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2915.09,
+    "purchaseCost": 1917,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 343.78000000000003,
+    "purchaseCost": 214.93,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 2610.73,
+    "purchaseCost": 1560.29,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 928.9200000000001,
+    "purchaseCost": 346.69,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 147.93,
+    "purchaseCost": 31.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 473.15000000000003,
+    "purchaseCost": 231.23999999999998,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 5663.250000000001,
+    "purchaseCost": 2862.7100000000005,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1392.57,
+    "purchaseCost": 910.05,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2037.4500000000003,
+    "purchaseCost": 1174.26,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 3525.21,
+    "purchaseCost": 2011.65,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3619.25,
+    "purchaseCost": 2247.04,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1595.46,
+    "purchaseCost": 731.0000000000001,
+    "quantity": 81
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 2296.7,
+    "purchaseCost": 1417.19,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 164.46,
+    "purchaseCost": 56.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 537.19,
+    "purchaseCost": 500,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 2969.4299999999994,
+    "purchaseCost": 1861.2099999999998,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 2750.3900000000003,
+    "purchaseCost": 1373.16,
+    "quantity": 144
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 123.14,
+    "purchaseCost": 75.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 164.46,
+    "purchaseCost": 50.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3148.2799999999997,
+    "purchaseCost": 1816.8099999999995,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 45987.13000000004,
+    "purchaseCost": 21710.519999999997,
+    "quantity": 1574
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 8858.700000000003,
+    "purchaseCost": 4799.1900000000005,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 25132.610000000008,
+    "purchaseCost": 16384.709999999995,
+    "quantity": 57
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1312.3799999999994,
+    "purchaseCost": 631.3200000000002,
+    "quantity": 70
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3498.0600000000004,
+    "purchaseCost": 1590.0900000000006,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 1649.79,
+    "purchaseCost": 913.0200000000002,
+    "quantity": 58
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1298.59,
+    "purchaseCost": 659.85,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1846.7699999999998,
+    "purchaseCost": 1024.8700000000001,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 4334.709999999999,
+    "purchaseCost": 1803.4799999999998,
+    "quantity": 125
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3613.0000000000005,
+    "purchaseCost": 1437.9700000000003,
+    "quantity": 66
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3071.2100000000005,
+    "purchaseCost": 1948.02,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3137.0199999999995,
+    "purchaseCost": 1668.2299999999998,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 11761.979999999996,
+    "purchaseCost": 5922.949999999998,
+    "quantity": 318
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1907.89,
+    "purchaseCost": 1224.6999999999998,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3380.26,
+    "purchaseCost": 2031.4100000000005,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 7968.1799999999985,
+    "purchaseCost": 3855.6099999999997,
+    "quantity": 45
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1319.4199999999998,
+    "purchaseCost": 484.8,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 2010.75,
+    "purchaseCost": 1296.4099999999999,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 2638.01,
+    "purchaseCost": 1382.98,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 7728.7300000000005,
+    "purchaseCost": 4929.09,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 8143.8,
+    "purchaseCost": 2790.6600000000003,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5506.429999999999,
+    "purchaseCost": 3343.89,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 11478.519999999999,
+    "purchaseCost": 5166.3099999999995,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 705.83,
+    "purchaseCost": 508.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 716.5200000000001,
+    "purchaseCost": 354.03,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1891.51,
+    "purchaseCost": 1020.0799999999999,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 6983.47,
+    "purchaseCost": 4551.95,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 487.67,
+    "purchaseCost": 281.55,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 83.83999999999999,
+    "purchaseCost": 25.91,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 949.59,
+    "purchaseCost": 556.71,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 375.21000000000004,
+    "purchaseCost": 283.82,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-25",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 3710.74,
+    "purchaseCost": 2011.65,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 542.14,
+    "purchaseCost": 272.54999999999995,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2969.8300000000004,
+    "purchaseCost": 1372.13,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 25031.30000000001,
+    "purchaseCost": 17081.78000000001,
+    "quantity": 70
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2805.07,
+    "purchaseCost": 1804.4200000000003,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 95.03999999999999,
+    "purchaseCost": 60.71000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1585.96,
+    "purchaseCost": 889.86,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 947.5100000000001,
+    "purchaseCost": 399.77000000000004,
+    "quantity": 69
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 33015.820000000014,
+    "purchaseCost": 16042.28,
+    "quantity": 1289
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 11276.520000000002,
+    "purchaseCost": 5686.93,
+    "quantity": 364
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 11350.500000000002,
+    "purchaseCost": 6597.649999999999,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 469.41999999999996,
+    "purchaseCost": 234.08999999999997,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1503.29,
+    "purchaseCost": 874.74,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2888.52,
+    "purchaseCost": 1106.02,
+    "quantity": 61
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3437.29,
+    "purchaseCost": 1952.36,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2135.28,
+    "purchaseCost": 1133.5700000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 7558.679999999999,
+    "purchaseCost": 4620.66,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1429.7600000000002,
+    "purchaseCost": 801.77,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 6422.34,
+    "purchaseCost": 4167.0199999999995,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3302.86,
+    "purchaseCost": 2113.13,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1618.65,
+    "purchaseCost": 859.6899999999999,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1031.4,
+    "purchaseCost": 696.65,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 147.93,
+    "purchaseCost": 31.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 776.86,
+    "purchaseCost": 436.42,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5032.64,
+    "purchaseCost": 3360.11,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 411.98,
+    "purchaseCost": 270.53,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 998.34,
+    "purchaseCost": 605.62,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 24363.63,
+    "purchaseCost": 15601.11,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Sety",
+    "subCategory": "",
+    "revenue": 1486.78,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1273.94,
+    "purchaseCost": 692.15,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 187.19,
+    "purchaseCost": 124.97,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 299.75,
+    "purchaseCost": 200.70000000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 10761.15,
+    "purchaseCost": 5926.32,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 718.1800000000001,
+    "purchaseCost": 437.63,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 24221.909999999996,
+    "purchaseCost": 16087.41,
+    "quantity": 83
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 21326.250000000004,
+    "purchaseCost": 10710.59,
+    "quantity": 705
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 3233.9,
+    "purchaseCost": 2052.45,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1980.3000000000002,
+    "purchaseCost": 871.4100000000001,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 5222.010000000001,
+    "purchaseCost": 3671.8699999999994,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2840.1300000000006,
+    "purchaseCost": 1439.4700000000003,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 989.15,
+    "purchaseCost": 553.58,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 11807.45,
+    "purchaseCost": 6084.929999999999,
+    "quantity": 332
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5128.950000000002,
+    "purchaseCost": 2927.1299999999997,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 7207.480000000002,
+    "purchaseCost": 3238.4200000000005,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 35830.16,
+    "purchaseCost": 39860.340000000004,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1883.21,
+    "purchaseCost": 1240.9899999999998,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 5490.13,
+    "purchaseCost": 3439.3900000000003,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1839.1100000000001,
+    "purchaseCost": 875.5800000000002,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3830.559999999999,
+    "purchaseCost": 2051.72,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 541.3100000000001,
+    "purchaseCost": 301.2,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 311.57,
+    "purchaseCost": 79.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1370.25,
+    "purchaseCost": 782.1199999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 14842.96,
+    "purchaseCost": 7901.76,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 7359.21,
+    "purchaseCost": 5327.990000000001,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 181.82,
+    "purchaseCost": 121.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 4286.35,
+    "purchaseCost": 2868.7099999999996,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1025.2099999999998,
+    "purchaseCost": 478.35,
+    "quantity": 62
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1392.56,
+    "purchaseCost": 788.4000000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 406.6,
+    "purchaseCost": 235.10000000000002,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 863.6400000000001,
+    "purchaseCost": 565.62,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 431.03,
+    "purchaseCost": 309.35,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6190.08,
+    "purchaseCost": 3880,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 10946.689999999999,
+    "purchaseCost": 5926.32,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 306.61,
+    "purchaseCost": 176.39000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 619,
+    "purchaseCost": 287.1,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 90.9,
+    "purchaseCost": 41.040000000000006,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8132.060000000001,
+    "purchaseCost": 4122.92,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2549.65,
+    "purchaseCost": 1774.8200000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1066.12,
+    "purchaseCost": 727.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 185.12,
+    "purchaseCost": 127.82,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 6254.27,
+    "purchaseCost": 3496.540000000001,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 2523.19,
+    "purchaseCost": 1577.8199999999997,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1795.09,
+    "purchaseCost": 965.22,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 2258.0600000000004,
+    "purchaseCost": 1167.48,
+    "quantity": 58
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 14168.41,
+    "purchaseCost": 7071.070000000001,
+    "quantity": 483
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 7564.970000000001,
+    "purchaseCost": 4649.360000000001,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 890.13,
+    "purchaseCost": 381.71000000000004,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1575.66,
+    "purchaseCost": 934.7099999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 7448.95,
+    "purchaseCost": 4579.61,
+    "quantity": 51
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2190.91,
+    "purchaseCost": 1074.88,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 808.75,
+    "purchaseCost": 295.10999999999996,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1976.69,
+    "purchaseCost": 1052.0700000000002,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 619.83,
+    "purchaseCost": 464.88,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 1881,
+    "purchaseCost": 818.9100000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1518.1799999999998,
+    "purchaseCost": 910.48,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 780.63,
+    "purchaseCost": 386.64,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1248.81,
+    "purchaseCost": 546.5899999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 10789.66,
+    "purchaseCost": 6073.58,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 764.66,
+    "purchaseCost": 407.5200000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-28",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 211.57,
+    "purchaseCost": 62.63,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2333.9700000000003,
+    "purchaseCost": 1511.83,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1464.0899999999997,
+    "purchaseCost": 857.94,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5675.33,
+    "purchaseCost": 3489.1499999999996,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 38721.28000000001,
+    "purchaseCost": 18619.239999999998,
+    "quantity": 1316
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1502.83,
+    "purchaseCost": 898.9,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 309.91999999999996,
+    "purchaseCost": 205.15999999999997,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 3040.5,
+    "purchaseCost": 2055.9100000000003,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3936.02,
+    "purchaseCost": 2265.6399999999994,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 11132.22,
+    "purchaseCost": 5926.32,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 5331.110000000001,
+    "purchaseCost": 2977.169999999999,
+    "quantity": 61
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2110.3300000000004,
+    "purchaseCost": 1311.05,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 11152.08,
+    "purchaseCost": 5809.009999999999,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 15564.890000000001,
+    "purchaseCost": 10359.919999999998,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 6836.729999999999,
+    "purchaseCost": 3157.6800000000003,
+    "quantity": 248
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1384.2600000000002,
+    "purchaseCost": 640.64,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 559.5999999999999,
+    "purchaseCost": 335.57,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 16466.75,
+    "purchaseCost": 11213.960000000005,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 992.7900000000001,
+    "purchaseCost": 504.87,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 20281.899999999998,
+    "purchaseCost": 12235.58,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 766.1600000000001,
+    "purchaseCost": 465.44000000000005,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2142.52,
+    "purchaseCost": 1492.32,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1962.3000000000002,
+    "purchaseCost": 1205.7800000000002,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1808.3799999999999,
+    "purchaseCost": 788.1499999999999,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1115.6999999999998,
+    "purchaseCost": 852.3000000000001,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1225.62,
+    "purchaseCost": 744.8199999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1493.8700000000001,
+    "purchaseCost": 656.26,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 1866.8500000000001,
+    "purchaseCost": 1256.82,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 380.17,
+    "purchaseCost": 255.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 166.35999999999999,
+    "purchaseCost": 80.71000000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 1099.18,
+    "purchaseCost": 540.5999999999999,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6325.26,
+    "purchaseCost": 4374,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 750.4200000000001,
+    "purchaseCost": 418.56,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-01",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 119.83,
+    "purchaseCost": 71.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 21071.24,
+    "purchaseCost": 13692.349999999995,
+    "quantity": 54
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 2082.65,
+    "purchaseCost": 1045.86,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2886.89,
+    "purchaseCost": 1166.6100000000001,
+    "quantity": 65
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3916.5100000000007,
+    "purchaseCost": 1992.44,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 7961.9800000000005,
+    "purchaseCost": 4790.590000000001,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 61409.15000000011,
+    "purchaseCost": 30122.170000000002,
+    "quantity": 2102
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 6549.779999999999,
+    "purchaseCost": 4287.400000000001,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1701.8099999999997,
+    "purchaseCost": 923.6600000000001,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 3581.73,
+    "purchaseCost": 1942.23,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 6233.9,
+    "purchaseCost": 4125.3,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 12542.369999999997,
+    "purchaseCost": 5829.949999999999,
+    "quantity": 362
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 11353.720000000001,
+    "purchaseCost": 7555.68,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 3725.3800000000006,
+    "purchaseCost": 2140.75,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 11697.900000000003,
+    "purchaseCost": 7739.740000000001,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 206.61,
+    "purchaseCost": 111.6,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 3049.61,
+    "purchaseCost": 1771.2499999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 14985.939999999999,
+    "purchaseCost": 7351.24,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 8594.76,
+    "purchaseCost": 4332.55,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 4410.75,
+    "purchaseCost": 3026.1099999999997,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1984.2799999999997,
+    "purchaseCost": 1189,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 510.74,
+    "purchaseCost": 272.72,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3205.0400000000004,
+    "purchaseCost": 1707.8100000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 54.55,
+    "purchaseCost": 26.19,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 83.47999999999999,
+    "purchaseCost": 29.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 4255.37,
+    "purchaseCost": 4207.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 7875.2,
+    "purchaseCost": 4234.72,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 60893.799999999996,
+    "purchaseCost": 62000.01,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 3187.61,
+    "purchaseCost": 1827.56,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 206.61,
+    "purchaseCost": 84.43,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 3152.24,
+    "purchaseCost": 2038.8899999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 9571.32,
+    "purchaseCost": 5493.68,
+    "quantity": 46
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 5450.1500000000015,
+    "purchaseCost": 1799.3000000000002,
+    "quantity": 119
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 14872.979999999996,
+    "purchaseCost": 9408.009999999998,
+    "quantity": 38
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 15318.59,
+    "purchaseCost": 7984.040000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 8025.740000000002,
+    "purchaseCost": 5684.26,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 11775.29,
+    "purchaseCost": 13046.419999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 23709.64000000001,
+    "purchaseCost": 11463.120000000003,
+    "quantity": 680
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 5645.1,
+    "purchaseCost": 2664.02,
+    "quantity": 121
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 64247.02000000008,
+    "purchaseCost": 33881.049999999996,
+    "quantity": 2082
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1157.02,
+    "purchaseCost": 646.6399999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2148.02,
+    "purchaseCost": 1149.58,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1785.14,
+    "purchaseCost": 1181.73,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3056.4500000000007,
+    "purchaseCost": 1745.3600000000001,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 10038.51,
+    "purchaseCost": 6918.619999999998,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4889.759999999999,
+    "purchaseCost": 2986.2900000000004,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 5750.080000000001,
+    "purchaseCost": 3258.2700000000004,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2920.75,
+    "purchaseCost": 1469.4500000000003,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5338.0199999999995,
+    "purchaseCost": 3985.07,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 2020.66,
+    "purchaseCost": 1177.57,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2592.88,
+    "purchaseCost": 1668.76,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 821.58,
+    "purchaseCost": 373.32000000000005,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 2821.91,
+    "purchaseCost": 2496.88,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 950.3999999999999,
+    "purchaseCost": 435.82000000000005,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 3120.540000000001,
+    "purchaseCost": 1929.5800000000002,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 3870.65,
+    "purchaseCost": 2922.0400000000004,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 81.82,
+    "purchaseCost": 50.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1074.3700000000001,
+    "purchaseCost": 658.29,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 3981.8,
+    "purchaseCost": 1878.02,
+    "quantity": 219
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 13435.300000000003,
+    "purchaseCost": 9167.420000000002,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 50567.76,
+    "purchaseCost": 31582.889999999996,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 314.06,
+    "purchaseCost": 116.32000000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 5571.07,
+    "purchaseCost": 3880,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 520.66,
+    "purchaseCost": 220.84,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 119.83,
+    "purchaseCost": 65.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "category": "Speciální nabídka",
+    "subCategory": "Rozbalené zboží",
+    "revenue": 5776.86,
+    "purchaseCost": 3122.55,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 3740.6699999999996,
+    "purchaseCost": 2296.89,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 5454.219999999999,
+    "purchaseCost": 3058.2200000000003,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1766.4299999999998,
+    "purchaseCost": 1054.37,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 18532.900000000005,
+    "purchaseCost": 12288.820000000002,
+    "quantity": 48
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2545.4300000000003,
+    "purchaseCost": 989.5999999999999,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8224.75,
+    "purchaseCost": 5306.4,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 42762.54000000002,
+    "purchaseCost": 21570.54,
+    "quantity": 1629
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 5624.080000000001,
+    "purchaseCost": 3777.3200000000006,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2673.9700000000003,
+    "purchaseCost": 1606.2599999999998,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 859.51,
+    "purchaseCost": 329.53,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 2151.51,
+    "purchaseCost": 934.62,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2609.1600000000008,
+    "purchaseCost": 1068.4600000000003,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 16735.579999999998,
+    "purchaseCost": 11107.469999999998,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 17918.210000000006,
+    "purchaseCost": 11877.350000000002,
+    "quantity": 87
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1211.56,
+    "purchaseCost": 689.17,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 10048.750000000002,
+    "purchaseCost": 4114.86,
+    "quantity": 322
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1045.46,
+    "purchaseCost": 541.26,
+    "quantity": 43
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 6160.120000000001,
+    "purchaseCost": 4167.63,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 130.58,
+    "purchaseCost": 78.96000000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1601.5700000000002,
+    "purchaseCost": 702.5699999999999,
+    "quantity": 42
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 838.0200000000001,
+    "purchaseCost": 437.63,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 1157.02,
+    "purchaseCost": 775.06,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 111.57,
+    "purchaseCost": 53.220000000000006,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 699.5,
+    "purchaseCost": 485.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 801.6600000000001,
+    "purchaseCost": 531.4200000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6190.08,
+    "purchaseCost": 3880,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 57.02,
+    "purchaseCost": 5.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 495.87,
+    "purchaseCost": 109.60000000000001,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 313.26,
+    "purchaseCost": 213.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 599.17,
+    "purchaseCost": 329.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-04",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 297.52,
+    "purchaseCost": 191.38,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3288.45,
+    "purchaseCost": 2227.11,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 4743.0599999999995,
+    "purchaseCost": 2734.1199999999994,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1990.7,
+    "purchaseCost": 1184.53,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4258.829999999999,
+    "purchaseCost": 2772.2699999999995,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 49748.84000000008,
+    "purchaseCost": 24363.7,
+    "quantity": 1874
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1724.4199999999998,
+    "purchaseCost": 790.0799999999999,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1507.3,
+    "purchaseCost": 921.02,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 10037.709999999997,
+    "purchaseCost": 5003.790000000001,
+    "quantity": 303
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 423.72,
+    "purchaseCost": 299.40999999999997,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 23178.010000000017,
+    "purchaseCost": 15647.460000000001,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 826.45,
+    "purchaseCost": 826.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1892.55,
+    "purchaseCost": 718.0400000000001,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3663.8999999999996,
+    "purchaseCost": 2007.7499999999998,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7278.190000000001,
+    "purchaseCost": 3770.3000000000006,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 920.66,
+    "purchaseCost": 408.58000000000004,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 81,
+    "purchaseCost": 10.4,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 5236.37,
+    "purchaseCost": 3335.2899999999995,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 928.09,
+    "purchaseCost": 419.48999999999995,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 941.3199999999999,
+    "purchaseCost": 485.3399999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5938.02,
+    "purchaseCost": 3621.44,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1454.55,
+    "purchaseCost": 1479.7,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 9387.840000000002,
+    "purchaseCost": 3737.6299999999997,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1397.61,
+    "purchaseCost": 684.5400000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 8385.96,
+    "purchaseCost": 4029.5499999999997,
+    "quantity": 48
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 610.76,
+    "purchaseCost": 341.7,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1958.6799999999998,
+    "purchaseCost": 1192.64,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 785.1300000000001,
+    "purchaseCost": 345.84000000000003,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2105.7900000000004,
+    "purchaseCost": 1097.4899999999998,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 405.78999999999996,
+    "purchaseCost": 139.89,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Nezařazeno",
+    "subCategory": "",
+    "revenue": 0,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 289.26,
+    "purchaseCost": 160.39999999999998,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-05",
+    "category": "Permanentní make-up",
+    "subCategory": "Laminace obočí",
+    "revenue": 247.11,
+    "purchaseCost": 168.67,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 23256.98,
+    "purchaseCost": 11345.640000000003,
+    "quantity": 1010
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2347.1899999999996,
+    "purchaseCost": 1657.1200000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2115.87,
+    "purchaseCost": 1511.3,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7385.810000000001,
+    "purchaseCost": 4194.32,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 871.95,
+    "purchaseCost": 462.99,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 613.45,
+    "purchaseCost": 299.98999999999995,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 11499.679999999998,
+    "purchaseCost": 7501.0999999999985,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 10706.62,
+    "purchaseCost": 7077.130000000001,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6777.169999999999,
+    "purchaseCost": 3721.84,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3326.1499999999996,
+    "purchaseCost": 1915.86,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3207.46,
+    "purchaseCost": 1893.5900000000001,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 2274.6500000000005,
+    "purchaseCost": 1338.8099999999997,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2276,
+    "purchaseCost": 1226.41,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 595.0600000000001,
+    "purchaseCost": 284.32,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 29619.519999999997,
+    "purchaseCost": 19973.679999999997,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 619.8500000000001,
+    "purchaseCost": 208.36,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 1478.52,
+    "purchaseCost": 905.7699999999999,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1354.55,
+    "purchaseCost": 2729.6099999999997,
+    "quantity": 42
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 6842.1399999999985,
+    "purchaseCost": 4675.279999999999,
+    "quantity": 190
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 460.33000000000004,
+    "purchaseCost": 303.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 4736.36,
+    "purchaseCost": 2333.85,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1078.42,
+    "purchaseCost": 587.1,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 2504.13,
+    "purchaseCost": 1153.44,
+    "quantity": 138
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 1955.3799999999999,
+    "purchaseCost": 1140.22,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 2436.37,
+    "purchaseCost": 1614.4,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 205.79,
+    "purchaseCost": 87.80000000000001,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 73.55,
+    "purchaseCost": 50.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 1239.67,
+    "purchaseCost": 1239.67,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 388.43,
+    "purchaseCost": 218.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 51.24,
+    "purchaseCost": 27.48,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 535.54,
+    "purchaseCost": 312.78,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 6363.710000000002,
+    "purchaseCost": 3666.7700000000013,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 34280.990000000005,
+    "purchaseCost": 25426.870000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 1904.96,
+    "purchaseCost": 1065.68,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 14671.090000000006,
+    "purchaseCost": 7175.000000000003,
+    "quantity": 520
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 2185.12,
+    "purchaseCost": 1464.9199999999998,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 111.57,
+    "purchaseCost": 49.650000000000006,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 127.27000000000001,
+    "purchaseCost": 57.99000000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1379.35,
+    "purchaseCost": 694.4300000000001,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2297.52,
+    "purchaseCost": 1018.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3074.3799999999997,
+    "purchaseCost": 1967.7,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2820.67,
+    "purchaseCost": 1941.03,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 1293.3799999999999,
+    "purchaseCost": 909.21,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1185.95,
+    "purchaseCost": 508.48,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 6318.179999999999,
+    "purchaseCost": 2840.44,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1214.87,
+    "purchaseCost": 788.47,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 238.01,
+    "purchaseCost": 152.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 471.08,
+    "purchaseCost": 281,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 541.3100000000001,
+    "purchaseCost": 302.48,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5269.42,
+    "purchaseCost": 3170.58,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 1800.83,
+    "purchaseCost": 1050.84,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1057.04,
+    "purchaseCost": 494.92999999999995,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 727.27,
+    "purchaseCost": 407,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1224.79,
+    "purchaseCost": 719.8899999999999,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 452.89,
+    "purchaseCost": 184.89,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 247.11,
+    "purchaseCost": 142.91,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 99.17,
+    "purchaseCost": 14.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1613.21,
+    "purchaseCost": 442.03,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 304.96,
+    "purchaseCost": 194.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 561.6500000000001,
+    "purchaseCost": 422.9,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 18515.22000000001,
+    "purchaseCost": 9384.889999999998,
+    "quantity": 693
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3066.4700000000003,
+    "purchaseCost": 1052.35,
+    "quantity": 83
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 2586.33,
+    "purchaseCost": 1448.0799999999997,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 4185.95,
+    "purchaseCost": 1831.11,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1266.1200000000003,
+    "purchaseCost": 710.92,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6762.200000000001,
+    "purchaseCost": 4515.759999999999,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2071.0699999999997,
+    "purchaseCost": 1252.21,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 10675.259999999998,
+    "purchaseCost": 6558.719999999999,
+    "quantity": 33
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 37082.64,
+    "purchaseCost": 21353.100000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 4254.68,
+    "purchaseCost": 2326.02,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 548.8,
+    "purchaseCost": 279.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1051.23,
+    "purchaseCost": 568.27,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1228.51,
+    "purchaseCost": 674.6899999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1547.54,
+    "purchaseCost": 1021.6899999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2074.71,
+    "purchaseCost": 1375.4,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 11901.259999999998,
+    "purchaseCost": 7821.979999999999,
+    "quantity": 46
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 139.67,
+    "purchaseCost": 68.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 1899.18,
+    "purchaseCost": 1313.6799999999998,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1470.87,
+    "purchaseCost": 772.2,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 1180.17,
+    "purchaseCost": 768.6399999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 305.78,
+    "purchaseCost": 198.58,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1125.2,
+    "purchaseCost": 507.04999999999995,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1116.69,
+    "purchaseCost": 517.62,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 4859.51,
+    "purchaseCost": 2512.9900000000002,
+    "quantity": 138
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 246.28,
+    "purchaseCost": 54.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 57.85,
+    "purchaseCost": 13.57,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 125.62,
+    "purchaseCost": 47.08,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-08",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 305.79,
+    "purchaseCost": 182.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4504.12,
+    "purchaseCost": 2416.26,
+    "quantity": 55
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 55271.38999999999,
+    "purchaseCost": 26653.54000000001,
+    "quantity": 2135
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 19312.41,
+    "purchaseCost": 12220.779999999999,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 4781.59,
+    "purchaseCost": 2962.7299999999996,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 6263.750000000001,
+    "purchaseCost": 3589.16,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2866.24,
+    "purchaseCost": 2066.7400000000002,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 11521.490000000003,
+    "purchaseCost": 5594.610000000001,
+    "quantity": 333
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1784.4199999999998,
+    "purchaseCost": 542.58,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1824.4999999999998,
+    "purchaseCost": 1127.1100000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6256.61,
+    "purchaseCost": 4198.9,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 309.09,
+    "purchaseCost": 147.81,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 391.74,
+    "purchaseCost": 145.96,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1616.54,
+    "purchaseCost": 490.43000000000006,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 14884.27,
+    "purchaseCost": 6632.91,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 4080.16,
+    "purchaseCost": 2359.66,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 720.5,
+    "purchaseCost": 346.34,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 825.62,
+    "purchaseCost": 387.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 8527.27,
+    "purchaseCost": 5490.350000000001,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1930.56,
+    "purchaseCost": 1090.8600000000001,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 11627.29,
+    "purchaseCost": 7298.170000000002,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1797.5,
+    "purchaseCost": 990.58,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2619.42,
+    "purchaseCost": 1487.5300000000002,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 9419.650000000003,
+    "purchaseCost": 4714.960000000001,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2424.810000000001,
+    "purchaseCost": 1025.5800000000002,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 411.57000000000005,
+    "purchaseCost": 289.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1121.12,
+    "purchaseCost": 543.5,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 578.52,
+    "purchaseCost": 322.6,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1809.1,
+    "purchaseCost": 1236.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 22694.21,
+    "purchaseCost": 12810.04,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 11231.4,
+    "purchaseCost": 7659.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 72.72999999999999,
+    "purchaseCost": 9.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 219.01,
+    "purchaseCost": 144.60999999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-09",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 2057.85,
+    "purchaseCost": 933.03,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 10130.670000000004,
+    "purchaseCost": 5832.540000000001,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 407.45,
+    "purchaseCost": 236.19,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 54214.32000000007,
+    "purchaseCost": 25140.079999999998,
+    "quantity": 1918
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2585.3200000000006,
+    "purchaseCost": 1555.6,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 45247.950000000004,
+    "purchaseCost": 29494.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 6069.370000000001,
+    "purchaseCost": 4252.81,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 5946.280000000001,
+    "purchaseCost": 3614.32,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 6834.7,
+    "purchaseCost": 3417.13,
+    "quantity": 185
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5257.88,
+    "purchaseCost": 3655.8200000000006,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 19454.619999999995,
+    "purchaseCost": 13336.519999999995,
+    "quantity": 61
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 458.67999999999995,
+    "purchaseCost": 299.2,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 500.82,
+    "purchaseCost": 239.07000000000002,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7352.240000000001,
+    "purchaseCost": 4139.259999999999,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8729.259999999998,
+    "purchaseCost": 5278.269999999998,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1817.2300000000002,
+    "purchaseCost": 939.98,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2434.5299999999993,
+    "purchaseCost": 861.92,
+    "quantity": 101
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2471.8900000000003,
+    "purchaseCost": 1424.4499999999998,
+    "quantity": 28
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2929.0199999999995,
+    "purchaseCost": 1798.26,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2262.0899999999997,
+    "purchaseCost": 1129.1699999999998,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1144.62,
+    "purchaseCost": 580.51,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6190.08,
+    "purchaseCost": 3880,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1279.26,
+    "purchaseCost": 662.5799999999999,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 15291.740000000005,
+    "purchaseCost": 9599.79,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 4338.860000000001,
+    "purchaseCost": 1783.5599999999995,
+    "quantity": 62
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1327.28,
+    "purchaseCost": 694.74,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1595.0499999999997,
+    "purchaseCost": 1075.69,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 777.69,
+    "purchaseCost": 494.5,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1459.5900000000001,
+    "purchaseCost": 786.4,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 123.97,
+    "purchaseCost": 75.9,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 190.08,
+    "purchaseCost": 131.33,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 659.4900000000001,
+    "purchaseCost": 552.98,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 222.4,
+    "purchaseCost": 144.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 205.79,
+    "purchaseCost": 157.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 165.29,
+    "purchaseCost": 82.2,
     "quantity": 5
   },
   {
     "date": "2026-03-11",
     "category": "Tetování",
     "subCategory": "Tetovací cartridge",
-    "revenue": 1026.4499999999998,
-    "purchaseCost": 512.8,
-    "quantity": 60
+    "revenue": 40928.79000000003,
+    "purchaseCost": 20166.710000000014,
+    "quantity": 1551
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 8563.610000000004,
+    "purchaseCost": 4129.400000000001,
+    "quantity": 87
   },
   {
     "date": "2026-03-11",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Mýdla, pěny",
-    "revenue": 210.04,
-    "purchaseCost": 148.95,
+    "revenue": 4372.040000000001,
+    "purchaseCost": 2923.959999999999,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 5059.52,
+    "purchaseCost": 2982.17,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 9624.109999999997,
+    "purchaseCost": 5510.72,
+    "quantity": 60
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5944.63,
+    "purchaseCost": 3982.44,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1470.26,
+    "purchaseCost": 974.3399999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3095.040000000001,
+    "purchaseCost": 1985.77,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 4918.96,
+    "purchaseCost": 3002.6600000000003,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6338.01,
+    "purchaseCost": 6101.51,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 13960.159999999998,
+    "purchaseCost": 6094.81,
+    "quantity": 472
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3267.1400000000003,
+    "purchaseCost": 1624.1299999999999,
+    "quantity": 110
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1345.5400000000002,
+    "purchaseCost": 760.78,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1598.1299999999997,
+    "purchaseCost": 551.8,
+    "quantity": 28
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 86.77,
+    "purchaseCost": 48.48,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 12766.2,
+    "purchaseCost": 10212.660000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1247.94,
+    "purchaseCost": 703.0899999999999,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 12558.19,
+    "purchaseCost": 8688.779999999999,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 419.84000000000003,
+    "purchaseCost": 204.54000000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 8968.57,
+    "purchaseCost": 5733.650000000001,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 6174.4400000000005,
+    "purchaseCost": 3746.8500000000004,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 13247.200000000003,
+    "purchaseCost": 8817.710000000003,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1900.83,
+    "purchaseCost": 1144.1100000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 18166.149999999998,
+    "purchaseCost": 11352.379999999997,
+    "quantity": 55
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 145.79,
+    "purchaseCost": 16.44,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 566.12,
+    "purchaseCost": 370.62,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1790.9199999999998,
+    "purchaseCost": 851.1200000000001,
+    "quantity": 100
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 212.39999999999998,
+    "purchaseCost": 100.82,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 922.0999999999999,
+    "purchaseCost": 529.61,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 10602.479999999998,
+    "purchaseCost": 5434.5,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 123.14,
+    "purchaseCost": 75.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 185.95,
+    "purchaseCost": 85.30000000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 727.27,
+    "purchaseCost": 378.21999999999997,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1509.9099999999999,
+    "purchaseCost": 874.86,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-11",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 144.64000000000001,
+    "purchaseCost": 67.48,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 4105.08,
+    "purchaseCost": 2623.0699999999997,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2267.7500000000005,
+    "purchaseCost": 1228.8700000000001,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 12374.039999999999,
+    "purchaseCost": 7728.93,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 53354.210000000036,
+    "purchaseCost": 26656.870000000003,
+    "quantity": 1912
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 3449.47,
+    "purchaseCost": 2055.52,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2267.01,
+    "purchaseCost": 1321.5000000000002,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3801.0400000000004,
+    "purchaseCost": 1547.9899999999998,
+    "quantity": 94
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1827.81,
+    "purchaseCost": 967.4500000000003,
+    "quantity": 28
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 22521.349999999984,
+    "purchaseCost": 22201.49,
+    "quantity": 55
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 13354.54,
+    "purchaseCost": 6196.3,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3739.1000000000004,
+    "purchaseCost": 2086.99,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 5542.38,
+    "purchaseCost": 3469.600000000001,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 941.31,
+    "purchaseCost": 468.13,
+    "quantity": 42
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 11862.81,
+    "purchaseCost": 7915.599999999999,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 19038.029999999995,
+    "purchaseCost": 12532.21,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 2200.83,
+    "purchaseCost": 1382.29,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7794.930000000001,
+    "purchaseCost": 3974.1400000000003,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 974.4,
+    "purchaseCost": 442.75,
+    "quantity": 71
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1300,
+    "purchaseCost": 728.17,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 8484.74,
+    "purchaseCost": 3936.6400000000003,
+    "quantity": 265
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 9220.660000000002,
+    "purchaseCost": 3532.1599999999994,
+    "quantity": 160
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 2177.35,
+    "purchaseCost": 1342.9500000000003,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1611.5700000000002,
+    "purchaseCost": 888.5400000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 309.91999999999996,
+    "purchaseCost": 205.16000000000003,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1030.57,
+    "purchaseCost": 592.8100000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1668.5800000000002,
+    "purchaseCost": 903.12,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 2905.21,
+    "purchaseCost": 1333,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 424.79,
+    "purchaseCost": 208.22,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 164.46,
+    "purchaseCost": 56.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 13280.989999999998,
+    "purchaseCost": 7259.49,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 10314.05,
+    "purchaseCost": 5989.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 147.94,
+    "purchaseCost": 50.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 247.11,
+    "purchaseCost": 144.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 4433.889999999999,
+    "purchaseCost": 1813.3100000000004,
+    "quantity": 64
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 44964.62000000001,
+    "purchaseCost": 23181.06,
+    "quantity": 1636
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2810.3800000000006,
+    "purchaseCost": 1455.5099999999998,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 6036.780000000001,
+    "purchaseCost": 4456.03,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 724.79,
+    "purchaseCost": 401.5,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2431.6600000000003,
+    "purchaseCost": 1168.9399999999998,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2318.2000000000003,
+    "purchaseCost": 1123.9700000000003,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 11330.229999999996,
+    "purchaseCost": 6962.749999999998,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1929.02,
+    "purchaseCost": 715.72,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7698.889999999999,
+    "purchaseCost": 4248.039999999999,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6077.670000000001,
+    "purchaseCost": 3622,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 10244.39,
+    "purchaseCost": 6519.969999999999,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 9158.440000000004,
+    "purchaseCost": 4754.0199999999995,
+    "quantity": 263
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 255.38,
+    "purchaseCost": 97.69,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4852.05,
+    "purchaseCost": 3084.6099999999997,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 774.47,
+    "purchaseCost": 264.20000000000005,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 7117.76,
+    "purchaseCost": 4998.21,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1770.04,
+    "purchaseCost": 1042.92,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1394.21,
+    "purchaseCost": 958.02,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 311.15,
+    "purchaseCost": 227.78000000000003,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1022.3100000000001,
+    "purchaseCost": 569.69,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1478.52,
+    "purchaseCost": 872.13,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 672.74,
+    "purchaseCost": 324.43000000000006,
+    "quantity": 38
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1750.4799999999998,
+    "purchaseCost": 1302.08,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 3057.02,
+    "purchaseCost": 1782.6100000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 330.58000000000004,
+    "purchaseCost": 188.75,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4070.74,
+    "purchaseCost": 2814.42,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 4906.599999999999,
+    "purchaseCost": 2779.53,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4371.9,
+    "purchaseCost": 2057.72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 12793.39,
+    "purchaseCost": 52349.63,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 66.12,
+    "purchaseCost": 41.91,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 2942.9799999999996,
+    "purchaseCost": 2043.4499999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 332.23,
+    "purchaseCost": 39.84,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-13",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6190.08,
+    "purchaseCost": 3900,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2004.89,
+    "purchaseCost": 569.0999999999999,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 4981.870000000001,
+    "purchaseCost": 2960.6400000000003,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 587.1899999999999,
+    "purchaseCost": 315.89,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1146.27,
+    "purchaseCost": 777.1800000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 512.39,
+    "purchaseCost": 209.01999999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 1822.31,
+    "purchaseCost": 824.0100000000001,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 6395.03,
+    "purchaseCost": 3973.04,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 2074.39,
+    "purchaseCost": 1328.08,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 10458.47,
+    "purchaseCost": 4612.420000000001,
+    "quantity": 421
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 471.08,
+    "purchaseCost": 281,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1884.3600000000001,
+    "purchaseCost": 931.1400000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 4406.6,
+    "purchaseCost": 2682.08,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 851.2399999999999,
+    "purchaseCost": 456.78,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 2769.0499999999997,
+    "purchaseCost": 1716.89,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1010,
+    "purchaseCost": 419.64,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 8487.6,
+    "purchaseCost": 50197.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1090.9099999999999,
+    "purchaseCost": 501.70000000000005,
+    "quantity": 60
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 2099.16,
+    "purchaseCost": 1477.2400000000002,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 294.55,
+    "purchaseCost": 96.04,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 278.93,
+    "purchaseCost": 323.73,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 828.9300000000001,
+    "purchaseCost": 521.53,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 1155.38,
+    "purchaseCost": 633.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 193.39999999999998,
+    "purchaseCost": 93.93,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 74.38,
+    "purchaseCost": 41.64,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 790.91,
+    "purchaseCost": 458.93999999999994,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 495.04,
+    "purchaseCost": 241.56,
     "quantity": 1
   },
   {
     "date": "2026-03-15",
     "category": "Barvy na tetování",
     "subCategory": "EU schválené tetovací barvy",
-    "revenue": 491.03,
-    "purchaseCost": 413.01,
-    "quantity": 1
+    "revenue": 13598.909999999998,
+    "purchaseCost": 8852.800000000001,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1537.19,
+    "purchaseCost": 544.1,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 7290.08,
+    "purchaseCost": 4771.26,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 6263.639999999998,
+    "purchaseCost": 2974.47,
+    "quantity": 185
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 41138.500000000015,
+    "purchaseCost": 20748.680000000004,
+    "quantity": 1574
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1691.23,
+    "purchaseCost": 1148.84,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1897.5400000000002,
+    "purchaseCost": 853.4999999999999,
+    "quantity": 50
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1534.72,
+    "purchaseCost": 907.6700000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 7233.09,
+    "purchaseCost": 4720.84,
+    "quantity": 12
   },
   {
     "date": "2026-03-15",
     "category": "Piercing",
-    "subCategory": "Péče o piercing",
-    "revenue": 1250.41,
-    "purchaseCost": 841,
-    "quantity": 20
+    "subCategory": "",
+    "revenue": 985.13,
+    "purchaseCost": 703.25,
+    "quantity": 22
   },
   {
     "date": "2026-03-15",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Holítka, podložky",
-    "revenue": 266.94,
-    "purchaseCost": 200,
+    "revenue": 1102.67,
+    "purchaseCost": 660.0799999999999,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1479.78,
+    "purchaseCost": 636.8699999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2681.8300000000004,
+    "purchaseCost": 1445.0100000000002,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3896.26,
+    "purchaseCost": 2212.73,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 2694.2,
+    "purchaseCost": 1615.76,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 3552.06,
+    "purchaseCost": 2081.82,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 192.56,
+    "purchaseCost": 85.36,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1930.58,
+    "purchaseCost": 1246.41,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 814.9499999999999,
+    "purchaseCost": 429.64,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 3663.93,
+    "purchaseCost": 2324.8599999999997,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 4685.44,
+    "purchaseCost": 2705.5500000000006,
+    "quantity": 62
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1744.2200000000003,
+    "purchaseCost": 827.83,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 526.35,
+    "purchaseCost": 326.37,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1253.6000000000001,
+    "purchaseCost": 968.6200000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2837.61,
+    "purchaseCost": 1087.5,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 139.67,
+    "purchaseCost": 50.18,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 156.2,
+    "purchaseCost": 30.79,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 163.64,
+    "purchaseCost": 131.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 56801.549999999974,
+    "purchaseCost": 26709.839999999986,
+    "quantity": 1931
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 12854.979999999992,
+    "purchaseCost": 8029.93,
+    "quantity": 46
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 42579.490000000005,
+    "purchaseCost": 27273.570000000007,
+    "quantity": 76
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 17487.589999999997,
+    "purchaseCost": 9074.210000000001,
+    "quantity": 522
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 11196.720000000001,
+    "purchaseCost": 6940.859999999999,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 7728.91,
+    "purchaseCost": 4583.740000000002,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 6188.169999999999,
+    "purchaseCost": 3947.83,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2045.4299999999998,
+    "purchaseCost": 1064.2100000000003,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1419.02,
+    "purchaseCost": 610.9100000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1379.33,
+    "purchaseCost": 898.21,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4643.539999999999,
+    "purchaseCost": 2744.75,
+    "quantity": 33
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 22991,
+    "purchaseCost": 15099.200000000003,
+    "quantity": 107
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 965.68,
+    "purchaseCost": 642.3199999999999,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 6308.28,
+    "purchaseCost": 2729.5700000000006,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 387.61,
+    "purchaseCost": 221.26,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 706.61,
+    "purchaseCost": 326.98,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 11656.220000000001,
+    "purchaseCost": 7454.12,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1317.36,
+    "purchaseCost": 569.2800000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 801.6600000000001,
+    "purchaseCost": 482.24,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 6023.9800000000005,
+    "purchaseCost": 3087.71,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1193.38,
+    "purchaseCost": 702.6700000000001,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 2478.51,
+    "purchaseCost": 1185.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3100.04,
+    "purchaseCost": 1359.54,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 21289.26,
+    "purchaseCost": 10272.91,
     "quantity": 4
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 329.75,
+    "purchaseCost": 144.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1828.9199999999996,
+    "purchaseCost": 1009.25,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 12966.12,
+    "purchaseCost": 6926.209999999998,
+    "quantity": 33
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 887.6099999999999,
+    "purchaseCost": 418.88000000000005,
+    "quantity": 48
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2814.21,
+    "purchaseCost": 1016.8400000000001,
+    "quantity": 76
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 13221.569999999998,
+    "purchaseCost": 8921.93,
+    "quantity": 60
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 10602.479999999998,
+    "purchaseCost": 5434.5,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 8756.2,
+    "purchaseCost": 5100.6900000000005,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 128.1,
+    "purchaseCost": 79.82,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-16",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 271.9,
+    "purchaseCost": 88.07,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 25580.22,
+    "purchaseCost": 16355.58,
+    "quantity": 82
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 56304.75000000003,
+    "purchaseCost": 28352.63999999999,
+    "quantity": 1961
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3379.920000000001,
+    "purchaseCost": 1687.5900000000001,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 3135.52,
+    "purchaseCost": 1700.47,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 6047.26,
+    "purchaseCost": 3376.87,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 31373.129999999997,
+    "purchaseCost": 20095.14,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 5712.450000000001,
+    "purchaseCost": 3362.8600000000015,
+    "quantity": 38
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2692.3399999999997,
+    "purchaseCost": 1573.34,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 6733.5599999999995,
+    "purchaseCost": 4286.92,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 479.34000000000003,
+    "purchaseCost": 217.35999999999999,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 11409.499999999998,
+    "purchaseCost": 5368.33,
+    "quantity": 351
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 29319.019999999997,
+    "purchaseCost": 15897.120000000003,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 6261.17,
+    "purchaseCost": 4325.700000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2695.879999999999,
+    "purchaseCost": 1160.8100000000002,
+    "quantity": 63
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1872.7399999999998,
+    "purchaseCost": 1126.73,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 4325.13,
+    "purchaseCost": 2078.19,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6793.540000000001,
+    "purchaseCost": 4336.559999999999,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 2228.9100000000003,
+    "purchaseCost": 1058.19,
+    "quantity": 117
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 780.99,
+    "purchaseCost": 493.71000000000004,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1857.87,
+    "purchaseCost": 1075.4099999999999,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 2293.39,
+    "purchaseCost": 1496.41,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1089.25,
+    "purchaseCost": 594.54,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 23760.21,
+    "purchaseCost": 14216.01,
+    "quantity": 79
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 604.54,
+    "purchaseCost": 332.06,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1659.5100000000002,
+    "purchaseCost": 800.42,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3455.370000000001,
+    "purchaseCost": 2283.13,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 3586.77,
+    "purchaseCost": 2144.62,
+    "quantity": 80
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1751.24,
+    "purchaseCost": 1012.8,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 396.69,
+    "purchaseCost": 243.63,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 206.61,
+    "purchaseCost": 150.24,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 390.99,
+    "purchaseCost": 315.42,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 281.5,
+    "purchaseCost": 147.06,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1702.48,
+    "purchaseCost": 1236.7,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Eko výrobky",
+    "revenue": 836.36,
+    "purchaseCost": 535.38,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6190.08,
+    "purchaseCost": 3880,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 16887.67,
+    "purchaseCost": 7273.560000000001,
+    "quantity": 539
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2922.33,
+    "purchaseCost": 1860.0700000000002,
+    "quantity": 42
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 47863.660000000025,
+    "purchaseCost": 23298.060000000005,
+    "quantity": 1657
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 4742.750000000001,
+    "purchaseCost": 3298.56,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 954.55,
+    "purchaseCost": 593.67,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 16623.690000000002,
+    "purchaseCost": 10936.210000000003,
+    "quantity": 88
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1882.8300000000002,
+    "purchaseCost": 1219.5900000000001,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2824.149999999999,
+    "purchaseCost": 1177.6000000000001,
+    "quantity": 78
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 4608.36,
+    "purchaseCost": 2515.81,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 4943.819999999999,
+    "purchaseCost": 2963.07,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 16008.429999999993,
+    "purchaseCost": 10777.650000000001,
+    "quantity": 48
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1756.17,
+    "purchaseCost": 878.96,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2962.0200000000004,
+    "purchaseCost": 1294.81,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4015.6900000000005,
+    "purchaseCost": 2496.76,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2626.4299999999994,
+    "purchaseCost": 1003.9600000000002,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1945.5400000000002,
+    "purchaseCost": 1076.77,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 425.62,
+    "purchaseCost": 195.40000000000003,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 5954.55,
+    "purchaseCost": 3989.5699999999997,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 6937.299999999999,
+    "purchaseCost": 4268.229999999999,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Nezařazeno",
+    "subCategory": "",
+    "revenue": 0,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 507.44,
+    "purchaseCost": 282.58000000000004,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 3756.18,
+    "purchaseCost": 2156.3100000000004,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1346.2600000000002,
+    "purchaseCost": 580.7900000000001,
+    "quantity": 94
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1637.17,
+    "purchaseCost": 807.0600000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1032.22,
+    "purchaseCost": 628.4499999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 3071.07,
+    "purchaseCost": 1845.2700000000002,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 1735.54,
+    "purchaseCost": 960.3000000000001,
+    "quantity": 60
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1223.1899999999998,
+    "purchaseCost": 629.1700000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 9232.33,
+    "purchaseCost": 5023.03,
+    "quantity": 38
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 46108.259999999995,
+    "purchaseCost": 29288.03,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4371.9,
+    "purchaseCost": 2057.72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 50.41,
+    "purchaseCost": 19.55,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1904.9600000000003,
+    "purchaseCost": 1093.5,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 17310.03,
+    "purchaseCost": 10913.889999999998,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 5445.879999999999,
+    "purchaseCost": 1925.89,
+    "quantity": 196
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 3008.4800000000005,
+    "purchaseCost": 1630.63,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4261.49,
+    "purchaseCost": 2687.4300000000003,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 44633.130000000034,
+    "purchaseCost": 22688.97,
+    "quantity": 1515
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3858.4599999999996,
+    "purchaseCost": 1399.4999999999998,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5733.69,
+    "purchaseCost": 3625.2400000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 12393.990000000002,
+    "purchaseCost": 8591.859999999997,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1018.1800000000001,
+    "purchaseCost": 485.03000000000003,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 82.64,
+    "purchaseCost": 37.28,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 14415.890000000001,
+    "purchaseCost": 10431.32,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 16371.109999999999,
+    "purchaseCost": 11338.460000000003,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 599.18,
+    "purchaseCost": 322.69999999999993,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 9278.670000000002,
+    "purchaseCost": 4618.4400000000005,
+    "quantity": 99
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 147.93,
+    "purchaseCost": 33.07,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 6509.99,
+    "purchaseCost": 4645.92,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3167.88,
+    "purchaseCost": 1586.6499999999999,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 4144.62,
+    "purchaseCost": 2339.4100000000003,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 219.01,
+    "purchaseCost": 144.61,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1139.46,
+    "purchaseCost": 504.95000000000005,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1114.88,
+    "purchaseCost": 652.29,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 8383.990000000002,
+    "purchaseCost": 4792.77,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1840.54,
+    "purchaseCost": 1157.17,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 3088.02,
+    "purchaseCost": 1815.1500000000003,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 25495.039999999997,
+    "purchaseCost": 16337.06,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 609.0899999999999,
+    "purchaseCost": 296.35,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 1595.99,
+    "purchaseCost": 971.0699999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 117.44,
+    "purchaseCost": 65.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 601.65,
+    "purchaseCost": 287.96,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 24.79,
+    "purchaseCost": 9.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4371.9,
+    "purchaseCost": 11212.15,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 735.54,
+    "purchaseCost": 363.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 123.14,
+    "purchaseCost": 75.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 14264.070000000002,
+    "purchaseCost": 8948.77,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 32745.550000000007,
+    "purchaseCost": 14872.46,
+    "quantity": 1344
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 396.55,
+    "purchaseCost": 166.82999999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 7307.950000000001,
+    "purchaseCost": 4513.53,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3449.45,
+    "purchaseCost": 1242.14,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 6573.49,
+    "purchaseCost": 4323.23,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 268.6,
+    "purchaseCost": 124.35,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 2189.7,
+    "purchaseCost": 1342.76,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 6890.110000000001,
+    "purchaseCost": 4396.91,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 462.8,
+    "purchaseCost": 253.76,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 533.08,
+    "purchaseCost": 199.84,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 2099.1800000000003,
+    "purchaseCost": 1167.37,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 13089.589999999998,
+    "purchaseCost": 20785.660000000003,
+    "quantity": 324
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1407.6,
+    "purchaseCost": 1013.36,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 764.55,
+    "purchaseCost": 452.5,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1703.5,
+    "purchaseCost": 974.09,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 620.65,
+    "purchaseCost": 301.48999999999995,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2416.55,
+    "purchaseCost": 1060.46,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 454.55,
+    "purchaseCost": 309.61,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4353.759999999999,
+    "purchaseCost": 1887.8500000000001,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1449.09,
+    "purchaseCost": 955.32,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 352.93,
+    "purchaseCost": 240.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 1094.2,
+    "purchaseCost": 729.0699999999999,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 185.12,
+    "purchaseCost": 90.00999999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 18495.86,
+    "purchaseCost": 10721.51,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 2057.85,
+    "purchaseCost": 933.03,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 428.1,
+    "purchaseCost": 137.51,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 5252.039999999999,
+    "purchaseCost": 3168.13,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 7077.34,
+    "purchaseCost": 3663.8,
+    "quantity": 38
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 83.47999999999999,
+    "purchaseCost": 29.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 869.4200000000001,
+    "purchaseCost": 575.82,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-20",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 125.28999999999999,
+    "purchaseCost": 63.4,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 516.53,
+    "purchaseCost": 185.45999999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2276.03,
+    "purchaseCost": 972.9,
+    "quantity": 61
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1497.09,
+    "purchaseCost": 805.4200000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 82.64,
+    "purchaseCost": 37.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 6812.399999999998,
+    "purchaseCost": 3237.8800000000006,
+    "quantity": 201
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 156.32,
+    "purchaseCost": 101.6,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1469.4699999999998,
+    "purchaseCost": 634.9100000000001,
+    "quantity": 43
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 21451.700000000008,
+    "purchaseCost": 11663.439999999997,
+    "quantity": 789
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 1401.65,
+    "purchaseCost": 936.76,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 951.3699999999999,
+    "purchaseCost": 604.4200000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 2419.01,
+    "purchaseCost": 1747.9699999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 6127.3600000000015,
+    "purchaseCost": 3918.28,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 940.51,
+    "purchaseCost": 437.89000000000004,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2976.8600000000006,
+    "purchaseCost": 2178.02,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 1485.9499999999998,
+    "purchaseCost": 985.6700000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 4178.5,
+    "purchaseCost": 2417.12,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 953.71,
+    "purchaseCost": 541.18,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 387.6,
+    "purchaseCost": 225.54000000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 29773.13,
+    "purchaseCost": 19991.93,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 57.02,
+    "purchaseCost": 28.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1818.18,
+    "purchaseCost": 1605.28,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 243.8,
+    "purchaseCost": 87.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 328.92,
+    "purchaseCost": 56.95,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 276.03,
+    "purchaseCost": 149.14000000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 37.19,
+    "purchaseCost": 23.51,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 22875.740000000013,
+    "purchaseCost": 11338.39,
+    "quantity": 831
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 10998.810000000001,
+    "purchaseCost": 7071.289999999998,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 418.18,
+    "purchaseCost": 195.84,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 628.9300000000001,
+    "purchaseCost": 369.66,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3211.13,
+    "purchaseCost": 1926.88,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1623.1599999999999,
+    "purchaseCost": 873.1500000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 3542.97,
+    "purchaseCost": 1682.62,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3581.62,
+    "purchaseCost": 2489.5,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2463.63,
+    "purchaseCost": 1397.1899999999998,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 3361.17,
+    "purchaseCost": 2145.64,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 444.63,
+    "purchaseCost": 177.83999999999997,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 1680.13,
+    "purchaseCost": 1067.86,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1670.8399999999997,
+    "purchaseCost": 928.8900000000001,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 19098.35,
+    "purchaseCost": 12928.999999999998,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 10213.850000000002,
+    "purchaseCost": 4894.800000000001,
+    "quantity": 309
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 680.1600000000001,
+    "purchaseCost": 394.64,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 6197.52,
+    "purchaseCost": 2281.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 280.16999999999996,
+    "purchaseCost": 45.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 666.95,
+    "purchaseCost": 345.4,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1815.9699999999996,
+    "purchaseCost": 784.4199999999998,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1444.95,
+    "purchaseCost": 828.49,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1491.7400000000002,
+    "purchaseCost": 907.3599999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 271.07,
+    "purchaseCost": 130.38,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 81.82,
+    "purchaseCost": 50.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 11957.02,
+    "purchaseCost": 8149.279999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1124.04,
+    "purchaseCost": 382.15999999999997,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 119.83000000000001,
+    "purchaseCost": 38.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 304.13,
+    "purchaseCost": 156.7,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4950.41,
+    "purchaseCost": 3135.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 90.91,
+    "purchaseCost": 60.55,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1069.25,
+    "purchaseCost": 537.48,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-22",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 12433.880000000001,
+    "purchaseCost": 9972.72,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 26674.830000000005,
+    "purchaseCost": 17061.270000000004,
+    "quantity": 76
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 44337.640000000014,
+    "purchaseCost": 20314.739999999998,
+    "quantity": 1562
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 12703.210000000001,
+    "purchaseCost": 7730.950000000004,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 2789.4800000000005,
+    "purchaseCost": 1027.2400000000002,
+    "quantity": 86
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2537.0199999999995,
+    "purchaseCost": 1257.22,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 2115.2,
+    "purchaseCost": 940.02,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7387.8200000000015,
+    "purchaseCost": 4345.4400000000005,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 8606.160000000002,
+    "purchaseCost": 5777.589999999999,
+    "quantity": 46
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4497.84,
+    "purchaseCost": 2749.449999999999,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 4002.5900000000006,
+    "purchaseCost": 2165.66,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 6712.120000000001,
+    "purchaseCost": 4372.799999999999,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 4653.45,
+    "purchaseCost": 3205.0000000000005,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 209.07999999999998,
+    "purchaseCost": 103.89999999999999,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 13585.14,
+    "purchaseCost": 7916.070000000001,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 21820.679999999997,
+    "purchaseCost": 14389.060000000001,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 23436.36,
+    "purchaseCost": 10516.780000000004,
+    "quantity": 723
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1401.72,
+    "purchaseCost": 613.8199999999999,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 643.04,
+    "purchaseCost": 441.54999999999995,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 4094.2400000000002,
+    "purchaseCost": 2593.6200000000003,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 3049.56,
+    "purchaseCost": 1832.8100000000002,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 8776.850000000002,
+    "purchaseCost": 3782.1299999999997,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3180.01,
+    "purchaseCost": 1580.8799999999999,
+    "quantity": 22
   },
   {
     "date": "2026-03-23",
     "category": "Tetování",
     "subCategory": "Tetovací strojky",
-    "revenue": 0,
-    "purchaseCost": 2268,
+    "revenue": 5858.67,
+    "purchaseCost": 8970.48,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1170.24,
+    "purchaseCost": 739.1,
+    "quantity": 28
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 739.6800000000001,
+    "purchaseCost": 429.59000000000003,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 205.64,
+    "purchaseCost": 81.98,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 3710.74,
+    "purchaseCost": 1476.37,
     "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 534.71,
+    "purchaseCost": 225.63,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 885.16,
+    "purchaseCost": 464.23,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1639.66,
+    "purchaseCost": 1257.8899999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 148.76,
+    "purchaseCost": 58,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 49.58,
+    "purchaseCost": 19.56,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 181.82,
+    "purchaseCost": 121.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 1167.7700000000002,
+    "purchaseCost": 648.09,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 48789.37000000003,
+    "purchaseCost": 23285.720000000012,
+    "quantity": 1828
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 6581.099999999999,
+    "purchaseCost": 4596.669999999999,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2791.2000000000003,
+    "purchaseCost": 1392.2899999999997,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 23603.999999999993,
+    "purchaseCost": 14671.569999999996,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 2129.04,
+    "purchaseCost": 1277.1999999999998,
+    "quantity": 74
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 20709.22,
+    "purchaseCost": 10570.320000000005,
+    "quantity": 658
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 8837.2,
+    "purchaseCost": 5569.459999999999,
+    "quantity": 82
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 247.93,
+    "purchaseCost": 152.6,
+    "quantity": 10
   },
   {
     "date": "2026-03-24",
     "category": "Spotřební materiál pro studia",
     "subCategory": "",
-    "revenue": 617.36,
-    "purchaseCost": 384.63,
+    "revenue": 10013.270000000002,
+    "purchaseCost": 6581.659999999996,
+    "quantity": 54
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 3315.4999999999995,
+    "purchaseCost": 2132.09,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 8958.02,
+    "purchaseCost": 5677.54,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 10398.479999999996,
+    "purchaseCost": 5991.930000000001,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 2380.16,
+    "purchaseCost": 974.1199999999999,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 768.61,
+    "purchaseCost": 526.13,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1409.49,
+    "purchaseCost": 618.31,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2198.4900000000002,
+    "purchaseCost": 1089.0199999999998,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2200.0699999999997,
+    "purchaseCost": 821.1199999999999,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1862.8300000000002,
+    "purchaseCost": 1285.9,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 2816.1399999999994,
+    "purchaseCost": 1318.52,
+    "quantity": 156
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 929.74,
+    "purchaseCost": 623.0300000000001,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 379.34000000000003,
+    "purchaseCost": 194.93,
     "quantity": 3
   },
   {
-    "date": "2026-03-25",
+    "date": "2026-03-24",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5735.54,
+    "purchaseCost": 2632.5599999999995,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1503.3,
+    "purchaseCost": 530.0600000000001,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-24",
     "category": "Barvy na tetování",
-    "subCategory": "EU schválené tetovací barvy",
-    "revenue": 548.8,
-    "purchaseCost": 413.01,
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1421.58,
+    "purchaseCost": 715.7,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 15258.730000000001,
+    "purchaseCost": 9468.380000000001,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 511.58,
+    "purchaseCost": 262.82,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1730.1599999999999,
+    "purchaseCost": 958.81,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 7846.270000000001,
+    "purchaseCost": 4983.459999999999,
+    "quantity": 42
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 6661.970000000001,
+    "purchaseCost": 3293.79,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 36338.84,
+    "purchaseCost": 24818.760000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 553.72,
+    "purchaseCost": 327.34000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 147.93,
+    "purchaseCost": 33.07,
     "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 528.93,
+    "purchaseCost": 194.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 3908.8900000000003,
+    "purchaseCost": 2440.65,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 7140.539999999999,
+    "purchaseCost": 4460.92,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3186.009999999999,
+    "purchaseCost": 1633.1399999999999,
+    "quantity": 54
   },
   {
     "date": "2026-03-25",
     "category": "Tetování",
     "subCategory": "Tetovací cartridge",
-    "revenue": 1468.1799999999998,
-    "purchaseCost": 842.0000000000001,
-    "quantity": 40
+    "revenue": 48710.03000000004,
+    "purchaseCost": 23840.48000000001,
+    "quantity": 1630
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2481.58,
+    "purchaseCost": 1367.82,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5686.77,
+    "purchaseCost": 2951.390000000001,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 2570.25,
+    "purchaseCost": 1165.1200000000003,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 14703.86,
+    "purchaseCost": 10284.519999999995,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1856.2,
+    "purchaseCost": 1201.2099999999998,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 6030.4,
+    "purchaseCost": 3483.8799999999997,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 14519.920000000002,
+    "purchaseCost": 9636.020000000004,
+    "quantity": 64
   },
   {
     "date": "2026-03-25",
     "category": "Permanentní make-up",
     "subCategory": "Cartridge pro PMU",
-    "revenue": 669.42,
-    "purchaseCost": 330.6,
+    "revenue": 24657.269999999997,
+    "purchaseCost": 12837.65,
+    "quantity": 663
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 22361.27999999999,
+    "purchaseCost": 14652.129999999994,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 14107.44,
+    "purchaseCost": 9538.640000000001,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 1000,
+    "purchaseCost": 666.05,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1879.4699999999998,
+    "purchaseCost": 1019.7300000000002,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Literatura, flash",
+    "revenue": 288.43,
+    "purchaseCost": 132.58,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 5455.03,
+    "purchaseCost": 3359.75,
+    "quantity": 33
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 7017.779999999999,
+    "purchaseCost": 3658.9700000000003,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 2227.28,
+    "purchaseCost": 1197.79,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 875.2,
+    "purchaseCost": 620.89,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2070.5,
+    "purchaseCost": 1178.91,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 27801.649999999994,
+    "purchaseCost": 20017.410000000003,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 646.29,
+    "purchaseCost": 179.28000000000003,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 796.6899999999999,
+    "purchaseCost": 406.5,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3215.4300000000003,
+    "purchaseCost": 1674.2400000000002,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1474.3899999999999,
+    "purchaseCost": 941.9899999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1818.18,
+    "purchaseCost": 873,
+    "quantity": 100
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 737.98,
+    "purchaseCost": 595.5600000000001,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1658.68,
+    "purchaseCost": 1287.3000000000002,
+    "quantity": 43
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 0,
+    "purchaseCost": 13160.24,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 615.7,
+    "purchaseCost": 289.43,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 238.01999999999998,
+    "purchaseCost": 120.81,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-25",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 24.79,
+    "purchaseCost": 15.26,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 13760.359999999997,
+    "purchaseCost": 8093.860000000001,
+    "quantity": 350
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 461.98,
+    "purchaseCost": 353.58,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1345.47,
+    "purchaseCost": 671,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 33878.250000000015,
+    "purchaseCost": 14889.160000000002,
+    "quantity": 1338
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2487.19,
+    "purchaseCost": 1726.64,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 13672.760000000002,
+    "purchaseCost": 8805.71,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 3932.6800000000003,
+    "purchaseCost": 1430.9399999999998,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 293.39,
+    "purchaseCost": 191.63,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 1222.31,
+    "purchaseCost": 569.6,
+    "quantity": 65
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 570.24,
+    "purchaseCost": 350.85,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1280.24,
+    "purchaseCost": 543.76,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3095.2100000000005,
+    "purchaseCost": 2114.33,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1251.98,
+    "purchaseCost": 689.0200000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 6613.379999999999,
+    "purchaseCost": 3628.58,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 6607.630000000001,
+    "purchaseCost": 4002.1500000000005,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1962.81,
+    "purchaseCost": 1109.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 10597.999999999996,
+    "purchaseCost": 7358.249999999999,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 5288.570000000001,
+    "purchaseCost": 2917.77,
     "quantity": 20
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 660.33,
+    "purchaseCost": 217.3,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 643.1799999999998,
+    "purchaseCost": 335.16999999999996,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 3379.59,
+    "purchaseCost": 2198.68,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 20461.820000000003,
+    "purchaseCost": 14072.070000000003,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 2271.2200000000003,
+    "purchaseCost": 1213.4499999999998,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 986.7800000000001,
+    "purchaseCost": 466.72999999999996,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 3081.81,
+    "purchaseCost": 1355.1599999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 3804.96,
+    "purchaseCost": 2235.46,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3675.63,
+    "purchaseCost": 1453.31,
+    "quantity": 106
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 1523.99,
+    "purchaseCost": 727.02,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1013.0200000000001,
+    "purchaseCost": 609.49,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1661.15,
+    "purchaseCost": 929.6300000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 37165.29,
+    "purchaseCost": 29603.489999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-26",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 437.19,
+    "purchaseCost": 237.44,
+    "quantity": 2
   },
   {
     "date": "2026-03-27",
     "category": "Tetování",
-    "subCategory": "Tetovací cartridge",
-    "revenue": 5813.230000000001,
-    "purchaseCost": 2888.57,
-    "quantity": 256
+    "subCategory": "Tetovací strojky",
+    "revenue": 5694.21,
+    "purchaseCost": 3345.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 4052.0699999999997,
+    "purchaseCost": 2631.899999999999,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1917.06,
+    "purchaseCost": 762.57,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 5504.020000000001,
+    "purchaseCost": 3999.98,
+    "quantity": 23
   },
   {
     "date": "2026-03-27",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Holítka, podložky",
-    "revenue": 245.87,
-    "purchaseCost": 160.85,
-    "quantity": 1
+    "revenue": 1461.16,
+    "purchaseCost": 749.27,
+    "quantity": 8
   },
   {
     "date": "2026-03-27",
-    "category": "Piercing",
-    "subCategory": "Péče o piercing",
-    "revenue": 1250.41,
-    "purchaseCost": 841,
-    "quantity": 20
-  },
-  {
-    "date": "2026-03-27",
-    "category": "Barvy na tetování",
-    "subCategory": "EU schválené tetovací barvy",
-    "revenue": 1116.24,
-    "purchaseCost": 837.12,
-    "quantity": 2
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2142.48,
+    "purchaseCost": 1424.5600000000002,
+    "quantity": 16
   },
   {
     "date": "2026-03-27",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Kalíšky, kelímky",
-    "revenue": 98.35,
-    "purchaseCost": 75.34,
-    "quantity": 2
+    "revenue": 2329.35,
+    "purchaseCost": 1045.35,
+    "quantity": 33
   },
   {
     "date": "2026-03-27",
     "category": "Spotřební materiál pro studia",
-    "subCategory": "",
-    "revenue": 658.9200000000001,
-    "purchaseCost": 450.90999999999997,
-    "quantity": 2
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1986.79,
+    "purchaseCost": 1038.9,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 519.01,
+    "purchaseCost": 298.15,
+    "quantity": 3
   },
   {
     "date": "2026-03-27",
     "category": "Permanentní make-up",
     "subCategory": "",
-    "revenue": 3.98,
-    "purchaseCost": 1.2,
-    "quantity": 1
+    "revenue": 16369.28,
+    "purchaseCost": 11235.929999999998,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 380.98,
+    "purchaseCost": 176.96,
+    "quantity": 20
   },
   {
     "date": "2026-03-27",
     "category": "Piercing",
     "subCategory": "Piercingové šperky",
-    "revenue": 65.73,
-    "purchaseCost": 42.68,
-    "quantity": 13
+    "revenue": 379.77,
+    "purchaseCost": 468,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 26845.159999999996,
+    "purchaseCost": 13222.85,
+    "quantity": 969
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 5982.32,
+    "purchaseCost": 2763.9900000000002,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 24307.81,
+    "purchaseCost": 16040.05,
+    "quantity": 43
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 4156.41,
+    "purchaseCost": 1945.8600000000001,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 380.16,
+    "purchaseCost": 134.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1777.6799999999998,
+    "purchaseCost": 1128.51,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 19386.960000000003,
+    "purchaseCost": 10085.23,
+    "quantity": 576
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 10417.37,
+    "purchaseCost": 6804.7,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 5431.010000000001,
+    "purchaseCost": 3326.2599999999993,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 3280.26,
+    "purchaseCost": 2174.62,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 7012.41,
+    "purchaseCost": 2449.81,
+    "quantity": 155
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 351.24,
+    "purchaseCost": 163.05,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2994.23,
+    "purchaseCost": 1278.8,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 156.2,
+    "purchaseCost": 47.209999999999994,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 903.22,
+    "purchaseCost": 501.49,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 4132.23,
+    "purchaseCost": 4132.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 504.14,
+    "purchaseCost": 337.71,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 3801.6400000000003,
+    "purchaseCost": 1766.8600000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 4123.97,
+    "purchaseCost": 2109.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 909.0899999999999,
+    "purchaseCost": 477.65,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5638.099999999999,
+    "purchaseCost": 3021.24,
+    "quantity": 23
   },
   {
     "date": "2026-03-28",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Vazelíny, másla",
-    "revenue": 768.6,
-    "purchaseCost": 474.06,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-28",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 824.7900000000001,
-    "purchaseCost": 390.31,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-28",
-    "category": "Tetování",
-    "subCategory": "Tetovací cartridge",
-    "revenue": 1434.6999999999998,
-    "purchaseCost": 692.7499999999999,
-    "quantity": 71
-  },
-  {
-    "date": "2026-03-28",
-    "category": "Tetování",
-    "subCategory": "",
-    "revenue": 106.61,
-    "purchaseCost": 69.77,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-28",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Kalíšky, kelímky",
-    "revenue": 349.13,
-    "purchaseCost": 153.57999999999998,
-    "quantity": 3
-  },
-  {
-    "date": "2026-03-28",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "",
-    "revenue": 672.98,
-    "purchaseCost": 506.82,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-28",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Jednorázové rukavice",
-    "revenue": 630.12,
-    "purchaseCost": 525.27,
-    "quantity": 3
+    "revenue": 2095.04,
+    "purchaseCost": 1329.59,
+    "quantity": 4
   },
   {
     "date": "2026-03-28",
     "category": "Barvy na tetování",
     "subCategory": "EU schválené tetovací barvy",
-    "revenue": 429.76,
-    "purchaseCost": 248.41,
+    "revenue": 7757.930000000001,
+    "purchaseCost": 5024.08,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 21864.47000000001,
+    "purchaseCost": 10704.319999999998,
+    "quantity": 931
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 396.69,
+    "purchaseCost": 309.2,
     "quantity": 2
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-03-28",
     "category": "Spotřební materiál pro studia",
-    "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 1373.1000000000001,
-    "purchaseCost": 526.72,
-    "quantity": 9
+    "subCategory": "",
+    "revenue": 3107.77,
+    "purchaseCost": 1716.5500000000002,
+    "quantity": 15
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-03-28",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 810.3299999999999,
+    "purchaseCost": 468.46,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 895.1199999999999,
+    "purchaseCost": 301.69,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 3920.66,
+    "purchaseCost": 2329.73,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 29.75,
+    "purchaseCost": 15.48,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 1202.06,
+    "purchaseCost": 479.06,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 6355.649999999999,
+    "purchaseCost": 4314.83,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 4214.120000000001,
+    "purchaseCost": 1923.38,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 1104.21,
+    "purchaseCost": 507.33000000000004,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 2618.1899999999996,
+    "purchaseCost": 1810.9500000000003,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-28",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Sáčky, obaly",
-    "revenue": 162.83,
-    "purchaseCost": 40.47,
+    "revenue": 1522.31,
+    "purchaseCost": 792.2299999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 128.10000000000002,
+    "purchaseCost": 76.67,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 1660.3400000000001,
+    "purchaseCost": 893.5999999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1649.5900000000001,
+    "purchaseCost": 1029.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 691.28,
+    "purchaseCost": 293.76,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 2405.4900000000002,
+    "purchaseCost": 1594.43,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 48.76,
+    "purchaseCost": 28.16,
     "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 296.69,
+    "purchaseCost": 78.19999999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 107.44,
+    "purchaseCost": 46.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 37.19,
+    "purchaseCost": 23.51,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 23958.68,
+    "purchaseCost": 15705.91,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Sety",
+    "subCategory": "Sady na tetování",
+    "revenue": 3223.14,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 80.99,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 4123.97,
+    "purchaseCost": 1429.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 945.0499999999997,
+    "purchaseCost": 512.77,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 4205.98,
+    "purchaseCost": 2801.41,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 10515.800000000003,
+    "purchaseCost": 6459.93,
+    "quantity": 31
   },
   {
     "date": "2026-03-29",
     "category": "Tetování",
-    "subCategory": "Tetovací cartridge",
-    "revenue": 1249.96,
-    "purchaseCost": 709.47,
-    "quantity": 39
+    "subCategory": "Péče o tetování",
+    "revenue": 1762.8100000000002,
+    "purchaseCost": 1002.4499999999999,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2901.2200000000007,
+    "purchaseCost": 1417.17,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 796.69,
+    "purchaseCost": 512.75,
+    "quantity": 2
   },
   {
     "date": "2026-03-29",
     "category": "Spotřební materiál pro studia",
     "subCategory": "",
-    "revenue": 460.42999999999995,
-    "purchaseCost": 261.07,
-    "quantity": 4
+    "revenue": 4733.739999999999,
+    "purchaseCost": 3109.13,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 28016.050000000014,
+    "purchaseCost": 14403.160000000005,
+    "quantity": 946
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1834.9600000000005,
+    "purchaseCost": 842.55,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 5082.65,
+    "purchaseCost": 2503.35,
+    "quantity": 134
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 5422.290000000001,
+    "purchaseCost": 2935.9200000000005,
+    "quantity": 42
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1395.8600000000001,
+    "purchaseCost": 801.93,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 5417.339999999999,
+    "purchaseCost": 1932.11,
+    "quantity": 140
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1955.8300000000002,
+    "purchaseCost": 764.8100000000001,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Speciální nabídka",
+    "subCategory": "",
+    "revenue": 82.64,
+    "purchaseCost": 0.83,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 1922.47,
+    "purchaseCost": 1261.66,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1901.7400000000002,
+    "purchaseCost": 904.77,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 8979.349999999999,
+    "purchaseCost": 5623.099999999999,
+    "quantity": 55
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 619.01,
+    "purchaseCost": 331.96999999999997,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 927.2799999999999,
+    "purchaseCost": 445.87,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 16578.51,
+    "purchaseCost": 12644.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1337.9999999999998,
+    "purchaseCost": 606.2200000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 1409.4,
+    "purchaseCost": 962.7699999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 2202.0000000000005,
+    "purchaseCost": 1632.8999999999999,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 7477.4000000000015,
+    "purchaseCost": 4804.299999999999,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 610.74,
+    "purchaseCost": 366.36,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1738.85,
+    "purchaseCost": 743.4300000000001,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 757.03,
+    "purchaseCost": 402.52,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 998.35,
+    "purchaseCost": 2057.2,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 1180.99,
+    "purchaseCost": 688.76,
+    "quantity": 3
   },
   {
     "date": "2026-03-29",
@@ -445,523 +15773,835 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
   },
   {
     "date": "2026-03-29",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Mýdla, pěny",
-    "revenue": 262.35,
-    "purchaseCost": 213.10000000000002,
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 972.72,
+    "purchaseCost": 469.96,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 1155.38,
+    "purchaseCost": 749.64,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-29",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 2536.36,
+    "purchaseCost": 1199.1299999999999,
     "quantity": 2
   },
   {
     "date": "2026-03-29",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Ostatní",
-    "revenue": 27.95,
-    "purchaseCost": 10.290000000000001,
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 1619.84,
+    "purchaseCost": 1063.5,
     "quantity": 2
   },
   {
-    "date": "2026-03-29",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Jednorázové rukavice",
-    "revenue": 9.9,
-    "purchaseCost": 7.12,
-    "quantity": 1
+    "date": "2026-03-30",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 13829.75,
+    "purchaseCost": 8300.95,
+    "quantity": 17
   },
   {
-    "date": "2026-03-29",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Dezinfekce",
-    "revenue": 9.9,
-    "purchaseCost": 7.61,
-    "quantity": 1
+    "date": "2026-03-30",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 19642.22,
+    "purchaseCost": 11029.039999999999,
+    "quantity": 529
   },
   {
-    "date": "2026-03-29",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Kalíšky, kelímky",
-    "revenue": 209.34,
-    "purchaseCost": 67.34,
-    "quantity": 2
+    "date": "2026-03-30",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 17737.329999999998,
+    "purchaseCost": 12064.920000000002,
+    "quantity": 54
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-03-30",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 1756.1999999999998,
+    "purchaseCost": 1054.1000000000001,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-30",
     "category": "Barvy na tetování",
-    "subCategory": "EU schválené tetovací barvy",
-    "revenue": 554.96,
-    "purchaseCost": 387.52,
-    "quantity": 1
+    "subCategory": "Umělecké barvy",
+    "revenue": 9981.039999999999,
+    "purchaseCost": 5859.27,
+    "quantity": 17
   },
   {
     "date": "2026-03-30",
     "category": "Spotřební materiál pro studia",
-    "subCategory": "Jednorázové rukavice",
-    "revenue": 493.39,
-    "purchaseCost": 287.70000000000005,
-    "quantity": 3
+    "subCategory": "Ostatní",
+    "revenue": 2949.31,
+    "purchaseCost": 1017.85,
+    "quantity": 86
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2605.7900000000004,
+    "purchaseCost": 1382.18,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3605.7799999999997,
+    "purchaseCost": 2474.13,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 5947.98,
+    "purchaseCost": 3940.5799999999995,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1151.3799999999999,
+    "purchaseCost": 520.01,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2154.61,
+    "purchaseCost": 1140.0400000000002,
+    "quantity": 19
   },
   {
     "date": "2026-03-30",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 222.31,
-    "purchaseCost": 148.31,
-    "quantity": 2
+    "revenue": 9314.85,
+    "purchaseCost": 5372.430000000001,
+    "quantity": 31
   },
   {
     "date": "2026-03-30",
-    "category": "Tetování",
-    "subCategory": "Tetovací cartridge",
-    "revenue": 5877.67,
-    "purchaseCost": 2736.4200000000005,
-    "quantity": 224
-  },
-  {
-    "date": "2026-03-30",
-    "category": "Barvy na tetování",
-    "subCategory": "EU schválené tetovací barvy",
-    "revenue": 1231.4,
-    "purchaseCost": 807.5600000000001,
-    "quantity": 3
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3034.7000000000003,
+    "purchaseCost": 1657.1699999999998,
+    "quantity": 19
   },
   {
     "date": "2026-03-30",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Hojivé fólie a tattoo finish",
-    "revenue": 1031.41,
-    "purchaseCost": 584.46,
-    "quantity": 2
+    "revenue": 9558.810000000001,
+    "purchaseCost": 5708.370000000001,
+    "quantity": 19
   },
   {
     "date": "2026-03-30",
-    "category": "Permanentní make-up",
-    "subCategory": "Zákres a procedura PMU",
-    "revenue": 107.44,
-    "purchaseCost": 46.28,
-    "quantity": 1
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 61541.800000000025,
+    "purchaseCost": 30505.370000000024,
+    "quantity": 2038
   },
   {
     "date": "2026-03-30",
-    "category": "Permanentní make-up",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 18564.890000000003,
+    "purchaseCost": 11993.389999999998,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Tetování",
     "subCategory": "",
-    "revenue": 403.29999999999995,
-    "purchaseCost": 212.88000000000002,
-    "quantity": 8
+    "revenue": 12513.2,
+    "purchaseCost": 5679.080000000001,
+    "quantity": 79
   },
   {
     "date": "2026-03-30",
     "category": "Permanentní make-up",
-    "subCategory": "Cartridge pro PMU",
-    "revenue": 223.14,
-    "purchaseCost": 112.14000000000001,
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 592.56,
+    "purchaseCost": 175.63,
     "quantity": 6
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4623.07,
+    "purchaseCost": 3002.98,
+    "quantity": 28
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 1184.3,
+    "purchaseCost": 860.49,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 1191.07,
+    "purchaseCost": 651.0699999999999,
+    "quantity": 8
   },
   {
     "date": "2026-03-30",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Vazelíny, másla",
-    "revenue": 106.61,
-    "purchaseCost": 67.89,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-30",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Ostatní",
-    "revenue": 82.64,
-    "purchaseCost": 43.82,
-    "quantity": 4
-  },
-  {
-    "date": "2026-03-30",
-    "category": "Piercing",
-    "subCategory": "",
-    "revenue": 90.91,
-    "purchaseCost": 60.55,
-    "quantity": 1
+    "revenue": 2048.65,
+    "purchaseCost": 1311.17,
+    "quantity": 14
   },
   {
     "date": "2026-03-30",
     "category": "Tetování",
     "subCategory": "Péče o tetování",
-    "revenue": 329.75,
-    "purchaseCost": 228.96,
+    "revenue": 4576.85,
+    "purchaseCost": 2670.1800000000003,
+    "quantity": 56
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 22371.059999999998,
+    "purchaseCost": 56989.17,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 77.69,
+    "purchaseCost": 49.02,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 1446.28,
+    "purchaseCost": 743.11,
     "quantity": 1
   },
   {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Sáčky, obaly",
-    "revenue": 890.25,
-    "purchaseCost": 410.02,
+    "date": "2026-03-30",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 454.53000000000003,
+    "purchaseCost": 215.32999999999998,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 189.26,
+    "purchaseCost": 70.16,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 957.8499999999999,
+    "purchaseCost": 568.24,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 329.75,
+    "purchaseCost": 159.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 310.74,
+    "purchaseCost": 167.1,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 330.58,
+    "purchaseCost": 215.14,
     "quantity": 6
   },
   {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 1396.69,
-    "purchaseCost": 758.53,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
+    "date": "2026-03-30",
+    "category": "Speciální nabídka",
     "subCategory": "",
-    "revenue": 311.57,
-    "purchaseCost": 125.93,
-    "quantity": 2
+    "revenue": 2479.34,
+    "purchaseCost": 2479.34,
+    "quantity": 1
   },
   {
-    "date": "2026-03-31",
-    "category": "Tetování",
-    "subCategory": "Tetovací cartridge",
-    "revenue": 2061.15,
-    "purchaseCost": 767.5,
-    "quantity": 80
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Tetování",
-    "subCategory": "",
-    "revenue": 3763.63,
-    "purchaseCost": 1489.16,
-    "quantity": 47
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Barvy na tetování",
-    "subCategory": "EU schválené tetovací barvy",
-    "revenue": 408.27,
-    "purchaseCost": 247.76,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Holítka, podložky",
-    "revenue": 742.97,
-    "purchaseCost": 380.19000000000005,
-    "quantity": 5
-  },
-  {
-    "date": "2026-03-31",
+    "date": "2026-03-30",
     "category": "Piercing",
-    "subCategory": "Piercingové jehly - Kanyly",
-    "revenue": 103.31,
-    "purchaseCost": 47.85,
-    "quantity": 5
+    "subCategory": "Piercingové šperky",
+    "revenue": 206.61,
+    "purchaseCost": 116.71,
+    "quantity": 1
   },
   {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Jednorázové rukavice",
-    "revenue": 557.8499999999999,
-    "purchaseCost": 358.5,
-    "quantity": 5
+    "date": "2026-03-30",
+    "category": "Speciální nabídka",
+    "subCategory": "Rozbalené zboží",
+    "revenue": 983.47,
+    "purchaseCost": 525.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "category": "Permanentní make-up",
+    "subCategory": "Laminace obočí",
+    "revenue": 222.31,
+    "purchaseCost": 116.12,
+    "quantity": 1
   },
   {
     "date": "2026-03-31",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Ostatní",
-    "revenue": 655.53,
-    "purchaseCost": 288.33000000000004,
-    "quantity": 9
+    "revenue": 5066.949999999998,
+    "purchaseCost": 2054.9699999999993,
+    "quantity": 117
   },
   {
     "date": "2026-03-31",
-    "category": "Permanentní make-up",
-    "subCategory": "EU Schválené pigmenty",
-    "revenue": 3710.74,
-    "purchaseCost": 2411.64,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Piercing",
-    "subCategory": "Péče o piercing",
-    "revenue": 74.38,
-    "purchaseCost": 29,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Permanentní make-up",
-    "subCategory": "Příslušenství k PMU",
-    "revenue": 232.23,
-    "purchaseCost": 116,
-    "quantity": 3
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Permanentní make-up",
-    "subCategory": "Cartridge pro PMU",
-    "revenue": 1407.2500000000002,
-    "purchaseCost": 617.1500000000001,
-    "quantity": 43
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Kalíšky, kelímky",
-    "revenue": 115.78,
-    "purchaseCost": 34.519999999999996,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Mýdla, pěny",
-    "revenue": 214.88,
-    "purchaseCost": 73.31,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Permanentní make-up",
-    "subCategory": "",
-    "revenue": 6784.299999999999,
-    "purchaseCost": 4636.09,
-    "quantity": 8
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 59380.25999999998,
+    "purchaseCost": 27650.329999999998,
+    "quantity": 2099
   },
   {
     "date": "2026-03-31",
     "category": "Barvy na tetování",
     "subCategory": "Příslušenství k barvám",
-    "revenue": 124.05000000000001,
-    "purchaseCost": 26.86,
-    "quantity": 2
+    "revenue": 822.4,
+    "purchaseCost": 414.32000000000005,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 4590.95,
+    "purchaseCost": 2381.6,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 11892.549999999997,
+    "purchaseCost": 7256.150000000001,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 557.8499999999999,
+    "purchaseCost": 274.91,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 4575.7300000000005,
+    "purchaseCost": 2452.3699999999994,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 7424.450000000001,
+    "purchaseCost": 2799.2999999999993,
+    "quantity": 163
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 23444.709999999985,
+    "purchaseCost": 16004.850000000002,
+    "quantity": 56
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 11562.140000000001,
+    "purchaseCost": 6700.260000000001,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5400.169999999999,
+    "purchaseCost": 2988.9100000000003,
+    "quantity": 24
   },
   {
     "date": "2026-03-31",
     "category": "Tetování",
     "subCategory": "Tetovací strojky",
-    "revenue": 23958.68,
-    "purchaseCost": 15705.91,
-    "quantity": 1
+    "revenue": 104428.08000000002,
+    "purchaseCost": 79793.01,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 9744.669999999998,
+    "purchaseCost": 4520.78,
+    "quantity": 310
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 5125.290000000001,
+    "purchaseCost": 3317.99,
+    "quantity": 38
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 6014.139999999999,
+    "purchaseCost": 3796.66,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 874.22,
+    "purchaseCost": 446.88,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3676.9700000000003,
+    "purchaseCost": 1865.4699999999998,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 3008.83,
+    "purchaseCost": 1354.6500000000003,
+    "quantity": 26
   },
   {
     "date": "2026-03-31",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Dezinfekce",
-    "revenue": 97.52,
-    "purchaseCost": 31.48,
-    "quantity": 2
+    "revenue": 4755.630000000001,
+    "purchaseCost": 3332.8099999999995,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 367.56,
+    "purchaseCost": 249.51999999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Nezařazeno",
+    "subCategory": "",
+    "revenue": 0,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 6361.98,
+    "purchaseCost": 3934.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2621.3700000000003,
+    "purchaseCost": 1375.95,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Permanentní make-up",
+    "subCategory": "Příslušenství k PMU",
+    "revenue": 1485.12,
+    "purchaseCost": 747.88,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 230.57999999999998,
+    "purchaseCost": 101.85,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 4645.67,
+    "purchaseCost": 2217.32,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Permanentní make-up",
+    "subCategory": "Péče o PMU",
+    "revenue": 804.1399999999999,
+    "purchaseCost": 462.25,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 742.98,
+    "purchaseCost": 508.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Permanentní make-up",
+    "subCategory": "Microblading",
+    "revenue": 394.21,
+    "purchaseCost": 44.64,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 13949.590000000006,
+    "purchaseCost": 9524.68,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-31",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 2411.58,
+    "purchaseCost": 1605.96,
+    "quantity": 5
   },
   {
     "date": "2026-03-31",
     "category": "Permanentní make-up",
     "subCategory": "Zákres a procedura PMU",
-    "revenue": 40.5,
-    "purchaseCost": 4.11,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Hojivé fólie a tattoo finish",
-    "revenue": 825.62,
-    "purchaseCost": 473.85,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-31",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Vazelíny, másla",
-    "revenue": 495.04,
-    "purchaseCost": 299.18,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Dezinfekce",
-    "revenue": 988.4300000000001,
-    "purchaseCost": 600.76,
+    "revenue": 223.14999999999998,
+    "purchaseCost": 78.14999999999999,
     "quantity": 4
   },
   {
-    "date": "2026-04-01",
-    "category": "Barvy na tetování",
-    "subCategory": "EU schválené tetovací barvy",
-    "revenue": 1619.84,
-    "purchaseCost": 1481.13,
-    "quantity": 4
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Tetování",
-    "subCategory": "Tetovací cartridge",
-    "revenue": 14025.87,
-    "purchaseCost": 5593.740000000001,
-    "quantity": 603
-  },
-  {
-    "date": "2026-04-01",
+    "date": "2026-03-31",
     "category": "Permanentní make-up",
-    "subCategory": "Cartridge pro PMU",
-    "revenue": 5411.98,
-    "purchaseCost": 3438.6900000000005,
-    "quantity": 149
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Tetování",
-    "subCategory": "",
-    "revenue": 914.8800000000001,
-    "purchaseCost": 489.64,
-    "quantity": 12
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Tetování",
-    "subCategory": "Péče o tetování",
-    "revenue": 351.24,
-    "purchaseCost": 198.64999999999998,
-    "quantity": 5
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 1300.6599999999999,
-    "purchaseCost": 875.5999999999999,
-    "quantity": 8
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Barvy na tetování",
-    "subCategory": "Příslušenství k barvám",
-    "revenue": 365.33000000000004,
-    "purchaseCost": 169.77,
-    "quantity": 3
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Ostatní",
-    "revenue": 654.71,
-    "purchaseCost": 260.84999999999997,
-    "quantity": 18
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Holítka, podložky",
-    "revenue": 361.57,
-    "purchaseCost": 206.76,
-    "quantity": 3
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Kalíšky, kelímky",
-    "revenue": 1945.61,
-    "purchaseCost": 939.28,
-    "quantity": 10
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Sáčky, obaly",
-    "revenue": 484.38,
-    "purchaseCost": 205.12,
+    "subCategory": "Laminace obočí",
+    "revenue": 328.93,
+    "purchaseCost": 284.78999999999996,
     "quantity": 2
   },
   {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "",
-    "revenue": 1210.82,
-    "purchaseCost": 611.31,
-    "quantity": 5
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Hojivé fólie a tattoo finish",
-    "revenue": 1483.6299999999999,
-    "purchaseCost": 951.9599999999999,
-    "quantity": 5
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Jednorázové rukavice",
-    "revenue": 454.68,
-    "purchaseCost": 329.34,
-    "quantity": 2
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Piercing",
-    "subCategory": "Piercingové jehly - Kanyly",
-    "revenue": 603.51,
-    "purchaseCost": 296.76,
-    "quantity": 32
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Mýdla, pěny",
-    "revenue": 214.88,
-    "purchaseCost": 73.31,
-    "quantity": 1
+    "date": "2026-03-31",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 532.23,
+    "purchaseCost": 316.8,
+    "quantity": 20
   },
   {
     "date": "2026-04-01",
     "category": "Piercing",
     "subCategory": "Péče o piercing",
-    "revenue": 81.82,
-    "purchaseCost": 43.85,
-    "quantity": 1
+    "revenue": 2672.44,
+    "purchaseCost": 1555.53,
+    "quantity": 24
   },
   {
     "date": "2026-04-01",
-    "category": "Piercing",
-    "subCategory": "",
-    "revenue": 172.73,
-    "purchaseCost": 77.39,
-    "quantity": 2
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Barvy na tetování",
-    "subCategory": "Umělecké barvy",
-    "revenue": 1906.0500000000002,
-    "purchaseCost": 1271.9699999999998,
-    "quantity": 5
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 12847.520000000002,
+    "purchaseCost": 6716.26,
+    "quantity": 367
   },
   {
     "date": "2026-04-01",
     "category": "Permanentní make-up",
     "subCategory": "Příslušenství k PMU",
-    "revenue": 156.2,
-    "purchaseCost": 59.010000000000005,
-    "quantity": 2
+    "revenue": 1312.4,
+    "purchaseCost": 889.02,
+    "quantity": 5
   },
   {
     "date": "2026-04-01",
     "category": "Permanentní make-up",
     "subCategory": "Péče o PMU",
-    "revenue": 16.53,
-    "purchaseCost": 7.74,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Vazelíny, másla",
-    "revenue": 247.11,
-    "purchaseCost": 151.53,
-    "quantity": 1
+    "revenue": 388.42999999999995,
+    "purchaseCost": 176.76000000000002,
+    "quantity": 19
   },
   {
     "date": "2026-04-01",
     "category": "Permanentní make-up",
     "subCategory": "",
-    "revenue": 1830.58,
-    "purchaseCost": 1071.22,
+    "revenue": 10107.439999999997,
+    "purchaseCost": 6729.63,
+    "quantity": 30
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 18169.719999999998,
+    "purchaseCost": 11920.9,
+    "quantity": 41
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 3302.6700000000005,
+    "purchaseCost": 1149.68,
+    "quantity": 76
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 2129.78,
+    "purchaseCost": 937.97,
     "quantity": 9
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Piercing",
+    "subCategory": "",
+    "revenue": 536.3699999999999,
+    "purchaseCost": 319.59,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 44199.87000000003,
+    "purchaseCost": 19439.69000000001,
+    "quantity": 1602
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Tetování",
+    "subCategory": "Napájení, kabely, pedály",
+    "revenue": 5857.85,
+    "purchaseCost": 4712.3,
+    "quantity": 3
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 3438.6800000000003,
+    "purchaseCost": 1928.86,
+    "quantity": 15
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 3831.0699999999997,
+    "purchaseCost": 2159.2,
+    "quantity": 37
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Hojivé fólie a tattoo finish",
+    "revenue": 9139.1,
+    "purchaseCost": 5261.579999999998,
+    "quantity": 19
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Tetování",
+    "subCategory": "Klasické tetovací jehly, gripy, tubusy, špičky",
+    "revenue": 599.1800000000001,
+    "purchaseCost": 258.44,
+    "quantity": 10
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 3532.0200000000004,
+    "purchaseCost": 2072.97,
+    "quantity": 17
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 559.38,
+    "purchaseCost": 236.76000000000002,
+    "quantity": 5
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 3600.59,
+    "purchaseCost": 2071.8200000000006,
+    "quantity": 18
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3940.55,
+    "purchaseCost": 1382.1299999999999,
+    "quantity": 19
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 3103.3299999999995,
+    "purchaseCost": 1579.97,
+    "quantity": 18
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 10108.059999999998,
+    "purchaseCost": 6407.27,
+    "quantity": 53
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 8633.45,
+    "purchaseCost": 4866.06,
+    "quantity": 51
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 3733.06,
+    "purchaseCost": 2531.3500000000004,
+    "quantity": 14
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 9403.340000000004,
+    "purchaseCost": 6041.97,
+    "quantity": 13
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Tetování",
+    "subCategory": "Tetovací strojky",
+    "revenue": 33446.28,
+    "purchaseCost": 20436.16,
+    "quantity": 3
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 1344.8600000000001,
+    "purchaseCost": 808.42,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 829.13,
+    "purchaseCost": 407.08000000000004,
+    "quantity": 44
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 2318.4500000000003,
+    "purchaseCost": 1527.7499999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Barvy na tetování",
+    "subCategory": "",
+    "revenue": 1157.02,
+    "purchaseCost": 632.46,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-01",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 487.6,
+    "purchaseCost": 303.92,
+    "quantity": 1
   },
   {
     "date": "2026-04-01",
@@ -973,107 +16613,163 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Dezinfekce",
-    "revenue": 1541.3300000000002,
-    "purchaseCost": 983.97,
-    "quantity": 5
+    "category": "Piercing",
+    "subCategory": "Piercingové jehly - Kanyly",
+    "revenue": 312.72,
+    "purchaseCost": 157.14000000000001,
+    "quantity": 18
   },
   {
     "date": "2026-04-02",
     "category": "Tetování",
-    "subCategory": "Tetovací cartridge",
-    "revenue": 14350.419999999996,
-    "purchaseCost": 6876.8099999999995,
-    "quantity": 512
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Ostatní",
-    "revenue": 447.93000000000006,
-    "purchaseCost": 145.2,
-    "quantity": 17
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Tetování",
-    "subCategory": "Péče o tetování",
-    "revenue": 2071.94,
-    "purchaseCost": 1238.21,
-    "quantity": 35
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Tetování",
-    "subCategory": "",
-    "revenue": 1531.48,
-    "purchaseCost": 1001.12,
-    "quantity": 17
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Mýdla, pěny",
-    "revenue": 1016.1199999999999,
-    "purchaseCost": 659.1199999999999,
-    "quantity": 4
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Permanentní make-up",
-    "subCategory": "Cartridge pro PMU",
-    "revenue": 1498.56,
-    "purchaseCost": 566.14,
-    "quantity": 56
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Permanentní make-up",
-    "subCategory": "",
-    "revenue": 1769.42,
-    "purchaseCost": 1032.6599999999999,
-    "quantity": 5
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Jednorázové rukavice",
-    "revenue": 814.8600000000001,
-    "purchaseCost": 447.77000000000004,
-    "quantity": 5
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Holítka, podložky",
-    "revenue": 512.39,
-    "purchaseCost": 235.54000000000002,
-    "quantity": 4
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Sáčky, obaly",
-    "revenue": 1045.95,
-    "purchaseCost": 633.6,
-    "quantity": 6
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 495.04,
+    "purchaseCost": 286.36,
+    "quantity": 1
   },
   {
     "date": "2026-04-02",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Hojivé fólie a tattoo finish",
-    "revenue": 1817.81,
-    "purchaseCost": 959.6800000000001,
-    "quantity": 3
+    "revenue": 4623.61,
+    "purchaseCost": 2565.5900000000006,
+    "quantity": 8
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 1968.6100000000001,
+    "purchaseCost": 1232.89,
+    "quantity": 8
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Tetování",
+    "subCategory": "Tetovací cartridge",
+    "revenue": 37542.99,
+    "purchaseCost": 19878.809999999998,
+    "quantity": 1256
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Ostatní",
+    "revenue": 1725.5900000000004,
+    "purchaseCost": 700.3400000000001,
+    "quantity": 74
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 11019.85,
+    "purchaseCost": 5269.43,
+    "quantity": 73
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Vazelíny, másla",
+    "revenue": 4275.62,
+    "purchaseCost": 2672.71,
+    "quantity": 11
   },
   {
     "date": "2026-04-02",
     "category": "Barvy na tetování",
     "subCategory": "EU schválené tetovací barvy",
-    "revenue": 2857.1800000000003,
-    "purchaseCost": 1824.6599999999999,
-    "quantity": 12
+    "revenue": 7922.520000000001,
+    "purchaseCost": 5229.29,
+    "quantity": 25
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Pomůcky pro přenos motivu",
+    "revenue": 9721.77,
+    "purchaseCost": 5318.039999999999,
+    "quantity": 20
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 1791.4,
+    "purchaseCost": 1002.0400000000001,
+    "quantity": 14
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 1115.69,
+    "purchaseCost": 597.78,
+    "quantity": 9
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 3244.0299999999997,
+    "purchaseCost": 1693.6200000000001,
+    "quantity": 20
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 1219.42,
+    "purchaseCost": 564.52,
+    "quantity": 7
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Mýdla, pěny",
+    "revenue": 3653.32,
+    "purchaseCost": 1896.25,
+    "quantity": 14
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 1773.63,
+    "purchaseCost": 1154.88,
+    "quantity": 20
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 5484.509999999999,
+    "purchaseCost": 9315.13,
+    "quantity": 175
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Permanentní make-up",
+    "subCategory": "",
+    "revenue": 6436.370000000001,
+    "purchaseCost": 4011.0199999999995,
+    "quantity": 35
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Jednorázové rukavice",
+    "revenue": 4405.37,
+    "purchaseCost": 2768.56,
+    "quantity": 24
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 431.82,
+    "purchaseCost": 300.23,
+    "quantity": 5
   },
   {
     "date": "2026-04-02",
@@ -1085,59 +16781,51 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Vazelíny, másla",
-    "revenue": 1726.03,
-    "purchaseCost": 1119.42,
-    "quantity": 4
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 5542.969999999999,
-    "purchaseCost": 2924.27,
-    "quantity": 6
-  },
-  {
-    "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Kalíšky, kelímky",
-    "revenue": 149.17,
-    "purchaseCost": 109.44,
-    "quantity": 1
+    "category": "Permanentní make-up",
+    "subCategory": "EU Schválené pigmenty",
+    "revenue": 12216.560000000001,
+    "purchaseCost": 8174.880000000002,
+    "quantity": 12
   },
   {
     "date": "2026-04-02",
     "category": "Barvy na tetování",
     "subCategory": "Příslušenství k barvám",
-    "revenue": 149.17,
-    "purchaseCost": 46.3,
-    "quantity": 1
+    "revenue": 1251.69,
+    "purchaseCost": 542.1799999999998,
+    "quantity": 9
   },
   {
     "date": "2026-04-02",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "",
-    "revenue": 775.4599999999999,
-    "purchaseCost": 514.15,
-    "quantity": 6
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 1887.27,
+    "purchaseCost": 1259.1999999999998,
+    "quantity": 26
+  },
+  {
+    "date": "2026-04-02",
+    "category": "Permanentní make-up",
+    "subCategory": "PMU strojky",
+    "revenue": 4123.97,
+    "purchaseCost": 2109.1,
+    "quantity": 1
   },
   {
     "date": "2026-04-02",
     "category": "Permanentní make-up",
     "subCategory": "Příslušenství k PMU",
-    "revenue": 123.14,
-    "purchaseCost": 20.53,
-    "quantity": 1
+    "revenue": 197.51999999999998,
+    "purchaseCost": 55.53,
+    "quantity": 2
   },
   {
     "date": "2026-04-02",
     "category": "Tetování",
     "subCategory": "Tetovací strojky",
-    "revenue": 3214.88,
-    "purchaseCost": 1367.73,
-    "quantity": 1
+    "revenue": 6429.76,
+    "purchaseCost": 2735.46,
+    "quantity": 2
   },
   {
     "date": "2026-04-02",
@@ -1173,27 +16861,19 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "category": "Piercing",
-    "subCategory": "Péče o piercing",
-    "revenue": 1500.5,
-    "purchaseCost": 1009.1999999999999,
-    "quantity": 24
-  },
-  {
-    "date": "2026-04-02",
     "category": "Permanentní make-up",
-    "subCategory": "EU Schválené pigmenty",
-    "revenue": 1404.13,
-    "purchaseCost": 925.04,
-    "quantity": 1
+    "subCategory": "Péče o PMU",
+    "revenue": 198.35,
+    "purchaseCost": 92.88,
+    "quantity": 12
   },
   {
     "date": "2026-04-03",
     "category": "Tetování",
     "subCategory": "Tetovací cartridge",
-    "revenue": 9897.529999999999,
-    "purchaseCost": 4947.11,
-    "quantity": 408
+    "revenue": 13769.029999999997,
+    "purchaseCost": 6758.649999999999,
+    "quantity": 543
   },
   {
     "date": "2026-04-03",
@@ -1215,9 +16895,17 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-03",
     "category": "Tetování",
     "subCategory": "Péče o tetování",
-    "revenue": 1870.29,
-    "purchaseCost": 971.0500000000002,
-    "quantity": 6
+    "revenue": 2382.69,
+    "purchaseCost": 1274.8000000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-04-03",
+    "category": "Permanentní make-up",
+    "subCategory": "Cartridge pro PMU",
+    "revenue": 410.75,
+    "purchaseCost": 117.66,
+    "quantity": 16
   },
   {
     "date": "2026-04-03",
@@ -1247,25 +16935,57 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-03",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Mýdla, pěny",
-    "revenue": 1072.7399999999998,
-    "purchaseCost": 453.93,
-    "quantity": 5
+    "revenue": 1266.1299999999997,
+    "purchaseCost": 527.49,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-03",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Sáčky, obaly",
+    "revenue": 788.4399999999999,
+    "purchaseCost": 418.63,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-03",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 5766.980000000001,
+    "purchaseCost": 3473.4300000000003,
+    "quantity": 16
+  },
+  {
+    "date": "2026-04-03",
+    "category": "Barvy na tetování",
+    "subCategory": "Příslušenství k barvám",
+    "revenue": 147.11,
+    "purchaseCost": 42.17,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-03",
+    "category": "Tetování",
+    "subCategory": "",
+    "revenue": 2599.9999999999995,
+    "purchaseCost": 1225.11,
+    "quantity": 44
   },
   {
     "date": "2026-04-03",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 4242.320000000001,
-    "purchaseCost": 2499.520000000001,
-    "quantity": 19
+    "revenue": 4390.340000000001,
+    "purchaseCost": 2621.560000000001,
+    "quantity": 20
   },
   {
     "date": "2026-04-03",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Dezinfekce",
-    "revenue": 1385.6299999999999,
-    "purchaseCost": 1019.0699999999999,
-    "quantity": 7
+    "revenue": 1563.3999999999999,
+    "purchaseCost": 1153.27,
+    "quantity": 8
   },
   {
     "date": "2026-04-03",
@@ -1279,9 +16999,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-03",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Holítka, podložky",
-    "revenue": 301.86,
-    "purchaseCost": 158.04000000000002,
-    "quantity": 2
+    "revenue": 610.95,
+    "purchaseCost": 264.74,
+    "quantity": 5
   },
   {
     "date": "2026-04-03",
@@ -1303,9 +17023,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-03",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Jednorázové rukavice",
-    "revenue": 812.89,
-    "purchaseCost": 529.72,
-    "quantity": 6
+    "revenue": 968.34,
+    "purchaseCost": 642.1500000000001,
+    "quantity": 7
   },
   {
     "date": "2026-04-03",
@@ -1327,17 +17047,17 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-03",
     "category": "Permanentní make-up",
     "subCategory": "EU Schválené pigmenty",
-    "revenue": 3024.8,
-    "purchaseCost": 1846.4200000000003,
-    "quantity": 4
+    "revenue": 4758.679999999999,
+    "purchaseCost": 2873.74,
+    "quantity": 6
   },
   {
     "date": "2026-04-03",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Ostatní",
-    "revenue": 529.75,
-    "purchaseCost": 155.94,
-    "quantity": 15
+    "revenue": 570.25,
+    "purchaseCost": 175.91,
+    "quantity": 16
   },
   {
     "date": "2026-04-03",
@@ -1357,27 +17077,11 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
   },
   {
     "date": "2026-04-03",
-    "category": "Barvy na tetování",
-    "subCategory": "EU schválené tetovací barvy",
-    "revenue": 5004.99,
-    "purchaseCost": 3105.600000000001,
-    "quantity": 14
-  },
-  {
-    "date": "2026-04-03",
     "category": "Tetování",
-    "subCategory": "",
-    "revenue": 1204.96,
-    "purchaseCost": 378.31,
-    "quantity": 41
-  },
-  {
-    "date": "2026-04-03",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Sáčky, obaly",
-    "revenue": 484.29999999999995,
-    "purchaseCost": 236.02999999999997,
-    "quantity": 4
+    "subCategory": "Tetovací strojky",
+    "revenue": 31287.609999999997,
+    "purchaseCost": 19828.89,
+    "quantity": 7
   },
   {
     "date": "2026-04-03",
@@ -1389,26 +17093,10 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
   },
   {
     "date": "2026-04-03",
-    "category": "Tetování",
-    "subCategory": "Tetovací strojky",
-    "revenue": 24600.829999999998,
-    "purchaseCost": 16734.51,
-    "quantity": 6
-  },
-  {
-    "date": "2026-04-03",
-    "category": "Barvy na tetování",
-    "subCategory": "Příslušenství k barvám",
-    "revenue": 65.29,
-    "purchaseCost": 13.43,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-03",
-    "category": "Permanentní make-up",
-    "subCategory": "Cartridge pro PMU",
-    "revenue": 26.45,
-    "purchaseCost": 8.38,
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 99.17,
+    "purchaseCost": 19.94,
     "quantity": 1
   },
   {
@@ -1479,9 +17167,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-04",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Vazelíny, másla",
-    "revenue": 527.27,
-    "purchaseCost": 364.85,
-    "quantity": 2
+    "revenue": 690.91,
+    "purchaseCost": 463.51,
+    "quantity": 4
   },
   {
     "date": "2026-04-04",
@@ -1495,9 +17183,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-04",
     "category": "Piercing",
     "subCategory": "Piercingové jehly - Kanyly",
-    "revenue": 54.54,
-    "purchaseCost": 25.83,
-    "quantity": 3
+    "revenue": 112.38999999999999,
+    "purchaseCost": 50.75,
+    "quantity": 7
   },
   {
     "date": "2026-04-04",
@@ -1543,17 +17231,17 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-04",
     "category": "Piercing",
     "subCategory": "Péče o piercing",
-    "revenue": 520.66,
-    "purchaseCost": 218.68,
-    "quantity": 5
+    "revenue": 595.04,
+    "purchaseCost": 247.68,
+    "quantity": 6
   },
   {
     "date": "2026-04-04",
     "category": "Permanentní make-up",
     "subCategory": "Cartridge pro PMU",
-    "revenue": 1561.21,
-    "purchaseCost": 682.83,
-    "quantity": 54
+    "revenue": 1851.3,
+    "purchaseCost": 760.62,
+    "quantity": 63
   },
   {
     "date": "2026-04-04",
@@ -1623,9 +17311,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-05",
     "category": "Piercing",
     "subCategory": "Péče o piercing",
-    "revenue": 519.8299999999999,
-    "purchaseCost": 233.89,
-    "quantity": 5
+    "revenue": 666.9399999999999,
+    "purchaseCost": 317.99,
+    "quantity": 7
   },
   {
     "date": "2026-04-05",
@@ -1679,9 +17367,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-05",
     "category": "Permanentní make-up",
     "subCategory": "",
-    "revenue": 1991.98,
-    "purchaseCost": 1266.8,
-    "quantity": 10
+    "revenue": 2016.77,
+    "purchaseCost": 1278.17,
+    "quantity": 11
   },
   {
     "date": "2026-04-05",
@@ -1695,9 +17383,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-05",
     "category": "Piercing",
     "subCategory": "Piercingové jehly - Kanyly",
-    "revenue": 90.91,
-    "purchaseCost": 35.8,
-    "quantity": 5
+    "revenue": 338.84999999999997,
+    "purchaseCost": 193.1,
+    "quantity": 20
   },
   {
     "date": "2026-04-05",
@@ -1751,9 +17439,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-05",
     "category": "Piercing",
     "subCategory": "",
-    "revenue": 454.55,
-    "purchaseCost": 302.75,
-    "quantity": 5
+    "revenue": 491.74,
+    "purchaseCost": 326.26,
+    "quantity": 6
   },
   {
     "date": "2026-04-05",
@@ -1805,6 +17493,22 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
   },
   {
     "date": "2026-04-05",
+    "category": "Piercing",
+    "subCategory": "Piercingové nástroje",
+    "revenue": 1145.45,
+    "purchaseCost": 556.78,
+    "quantity": 7
+  },
+  {
+    "date": "2026-04-05",
+    "category": "Piercing",
+    "subCategory": "Piercingové šperky",
+    "revenue": 602.48,
+    "purchaseCost": 347.37,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-05",
     "category": "Permanentní make-up",
     "subCategory": "Zákres a procedura PMU",
     "revenue": 123.14,
@@ -1839,17 +17543,17 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-06",
     "category": "Barvy na tetování",
     "subCategory": "EU schválené tetovací barvy",
-    "revenue": 9116.91,
-    "purchaseCost": 5577.9800000000005,
-    "quantity": 31
+    "revenue": 9745.010000000004,
+    "purchaseCost": 5978.56,
+    "quantity": 33
   },
   {
     "date": "2026-04-06",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Dezinfekce",
-    "revenue": 3275.3700000000003,
-    "purchaseCost": 2256.67,
-    "quantity": 17
+    "revenue": 3835.7000000000003,
+    "purchaseCost": 2679.53,
+    "quantity": 20
   },
   {
     "date": "2026-04-06",
@@ -1887,9 +17591,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-06",
     "category": "Tetování",
     "subCategory": "Tetovací cartridge",
-    "revenue": 35797.24,
-    "purchaseCost": 17668.06,
-    "quantity": 1288
+    "revenue": 38179.87999999999,
+    "purchaseCost": 18544.010000000002,
+    "quantity": 1373
   },
   {
     "date": "2026-04-06",
@@ -1903,17 +17607,17 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-06",
     "category": "Permanentní make-up",
     "subCategory": "Cartridge pro PMU",
-    "revenue": 7753.73,
-    "purchaseCost": 3864.2200000000003,
-    "quantity": 209
+    "revenue": 9931.41,
+    "purchaseCost": 4861.0199999999995,
+    "quantity": 269
   },
   {
     "date": "2026-04-06",
     "category": "Permanentní make-up",
     "subCategory": "",
-    "revenue": 9172.810000000001,
-    "purchaseCost": 5874.7,
-    "quantity": 46
+    "revenue": 11771.980000000003,
+    "purchaseCost": 7561.04,
+    "quantity": 51
   },
   {
     "date": "2026-04-06",
@@ -1935,17 +17639,17 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-06",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Sáčky, obaly",
-    "revenue": 2399.1800000000003,
-    "purchaseCost": 1230.34,
-    "quantity": 17
+    "revenue": 2872.7400000000002,
+    "purchaseCost": 1521.1699999999998,
+    "quantity": 24
   },
   {
     "date": "2026-04-06",
     "category": "Spotřební materiál pro studia",
     "subCategory": "",
-    "revenue": 3365.8100000000004,
-    "purchaseCost": 2045.6100000000001,
-    "quantity": 19
+    "revenue": 4590.599999999999,
+    "purchaseCost": 2724.7800000000007,
+    "quantity": 23
   },
   {
     "date": "2026-04-06",
@@ -1975,9 +17679,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-06",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 9421.590000000002,
-    "purchaseCost": 5093.070000000001,
-    "quantity": 32
+    "revenue": 10867.87,
+    "purchaseCost": 5855.4800000000005,
+    "quantity": 34
   },
   {
     "date": "2026-04-06",
@@ -1994,6 +17698,14 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "revenue": 4113.429999999999,
     "purchaseCost": 2435.33,
     "quantity": 10
+  },
+  {
+    "date": "2026-04-06",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 5198.35,
+    "purchaseCost": 2430.5,
+    "quantity": 1
   },
   {
     "date": "2026-04-06",
@@ -2015,9 +17727,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-06",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Vazelíny, másla",
-    "revenue": 862.81,
-    "purchaseCost": 583.66,
-    "quantity": 6
+    "revenue": 1399.17,
+    "purchaseCost": 888.1600000000001,
+    "quantity": 7
   },
   {
     "date": "2026-04-06",
@@ -2060,12 +17772,20 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "quantity": 4
   },
   {
+    "date": "2026-04-06",
+    "category": "Permanentní make-up",
+    "subCategory": "Zákres a procedura PMU",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
     "date": "2026-04-07",
     "category": "Tetování",
     "subCategory": "",
-    "revenue": 6636.999999999998,
-    "purchaseCost": 2622.4300000000003,
-    "quantity": 175
+    "revenue": 7262.619999999998,
+    "purchaseCost": 2837.59,
+    "quantity": 183
   },
   {
     "date": "2026-04-07",
@@ -2079,9 +17799,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-07",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Jednorázové rukavice",
-    "revenue": 8367.890000000001,
-    "purchaseCost": 4926.290000000001,
-    "quantity": 55
+    "revenue": 8532.35,
+    "purchaseCost": 5004.1,
+    "quantity": 56
   },
   {
     "date": "2026-04-07",
@@ -2103,57 +17823,97 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-07",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Vazelíny, másla",
-    "revenue": 4733.349999999999,
-    "purchaseCost": 2920.8100000000004,
-    "quantity": 15
+    "revenue": 4955.659999999999,
+    "purchaseCost": 3090.53,
+    "quantity": 16
   },
   {
     "date": "2026-04-07",
     "category": "Tetování",
     "subCategory": "Tetovací cartridge",
-    "revenue": 83147.31999999998,
-    "purchaseCost": 41945.91999999996,
-    "quantity": 2967
+    "revenue": 87919.20999999998,
+    "purchaseCost": 44204.14999999997,
+    "quantity": 3133
   },
   {
     "date": "2026-04-07",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Hojivé fólie a tattoo finish",
-    "revenue": 10444.669999999998,
-    "purchaseCost": 6419.889999999999,
-    "quantity": 21
+    "revenue": 11217.400000000001,
+    "purchaseCost": 6941.01,
+    "quantity": 23
   },
   {
     "date": "2026-04-07",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Sáčky, obaly",
-    "revenue": 6062.400000000001,
-    "purchaseCost": 3482.3499999999995,
-    "quantity": 43
+    "revenue": 6366.53,
+    "purchaseCost": 3638.7599999999993,
+    "quantity": 45
   },
   {
     "date": "2026-04-07",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 11953.859999999999,
-    "purchaseCost": 7107.640000000001,
-    "quantity": 56
+    "revenue": 14718.319999999998,
+    "purchaseCost": 8601.140000000001,
+    "quantity": 68
   },
   {
     "date": "2026-04-07",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Ostatní",
-    "revenue": 4992.1900000000005,
-    "purchaseCost": 2161.379999999999,
-    "quantity": 145
+    "revenue": 5697.150000000001,
+    "purchaseCost": 2359.5699999999993,
+    "quantity": 150
   },
   {
     "date": "2026-04-07",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Kalíšky, kelímky",
-    "revenue": 2957.06,
-    "purchaseCost": 1347.72,
-    "quantity": 32
+    "revenue": 3690.94,
+    "purchaseCost": 1669.26,
+    "quantity": 38
+  },
+  {
+    "date": "2026-04-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Dezinfekce",
+    "revenue": 8483.750000000002,
+    "purchaseCost": 5918.77,
+    "quantity": 54
+  },
+  {
+    "date": "2026-04-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Holítka, podložky",
+    "revenue": 2502.04,
+    "purchaseCost": 1348.1299999999999,
+    "quantity": 18
+  },
+  {
+    "date": "2026-04-07",
+    "category": "Barvy na tetování",
+    "subCategory": "EU schválené tetovací barvy",
+    "revenue": 28229.980000000007,
+    "purchaseCost": 17509.439999999995,
+    "quantity": 70
+  },
+  {
+    "date": "2026-04-07",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 2892.56,
+    "purchaseCost": 1486.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-07",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "",
+    "revenue": 10825.349999999999,
+    "purchaseCost": 5759.439999999999,
+    "quantity": 49
   },
   {
     "date": "2026-04-07",
@@ -2167,25 +17927,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-07",
     "category": "Piercing",
     "subCategory": "Péče o piercing",
-    "revenue": 461.97999999999996,
-    "purchaseCost": 227.18,
-    "quantity": 4
-  },
-  {
-    "date": "2026-04-07",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Holítka, podložky",
-    "revenue": 2423.53,
-    "purchaseCost": 1301.4599999999998,
-    "quantity": 17
-  },
-  {
-    "date": "2026-04-07",
-    "category": "Barvy na tetování",
-    "subCategory": "EU schválené tetovací barvy",
-    "revenue": 26647.330000000005,
-    "purchaseCost": 16514.569999999992,
-    "quantity": 65
+    "revenue": 935.53,
+    "purchaseCost": 605.36,
+    "quantity": 9
   },
   {
     "date": "2026-04-07",
@@ -2199,33 +17943,25 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-07",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Mýdla, pěny",
-    "revenue": 3304.1900000000005,
-    "purchaseCost": 1651.7200000000003,
-    "quantity": 14
-  },
-  {
-    "date": "2026-04-07",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "Dezinfekce",
-    "revenue": 7932.500000000002,
-    "purchaseCost": 5529.889999999999,
-    "quantity": 51
+    "revenue": 3766.1800000000007,
+    "purchaseCost": 1867,
+    "quantity": 16
   },
   {
     "date": "2026-04-07",
     "category": "Permanentní make-up",
     "subCategory": "Cartridge pro PMU",
-    "revenue": 16623.760000000002,
-    "purchaseCost": 35329.05,
-    "quantity": 517
+    "revenue": 19593.18,
+    "purchaseCost": 36666.630000000005,
+    "quantity": 608
   },
   {
     "date": "2026-04-07",
-    "category": "Spotřební materiál pro studia",
-    "subCategory": "",
-    "revenue": 10059.239999999998,
-    "purchaseCost": 5386.879999999998,
-    "quantity": 46
+    "category": "Tetování",
+    "subCategory": "Péče o tetování",
+    "revenue": 5330.080000000001,
+    "purchaseCost": 2507.71,
+    "quantity": 52
   },
   {
     "date": "2026-04-07",
@@ -2258,14 +17994,6 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "revenue": 2802.8999999999996,
     "purchaseCost": 1768.0500000000002,
     "quantity": 4
-  },
-  {
-    "date": "2026-04-07",
-    "category": "Tetování",
-    "subCategory": "Péče o tetování",
-    "revenue": 3933.3899999999994,
-    "purchaseCost": 1976.8200000000002,
-    "quantity": 51
   },
   {
     "date": "2026-04-07",
@@ -2314,14 +18042,6 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "revenue": 363.64,
     "purchaseCost": 242.2,
     "quantity": 4
-  },
-  {
-    "date": "2026-04-07",
-    "category": "Tetování",
-    "subCategory": "Vybavení tetovacího studia",
-    "revenue": 1446.28,
-    "purchaseCost": 743.11,
-    "quantity": 1
   },
   {
     "date": "2026-04-08",
@@ -2439,9 +18159,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-08",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Ostatní",
-    "revenue": 3339.85,
-    "purchaseCost": 1174.7400000000002,
-    "quantity": 69
+    "revenue": 4015.89,
+    "purchaseCost": 1410.63,
+    "quantity": 71
   },
   {
     "date": "2026-04-08",
@@ -2487,9 +18207,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-08",
     "category": "Permanentní make-up",
     "subCategory": "Cartridge pro PMU",
-    "revenue": 15678.869999999999,
-    "purchaseCost": 13002.880000000001,
-    "quantity": 446
+    "revenue": 15926.8,
+    "purchaseCost": 13149.43,
+    "quantity": 451
   },
   {
     "date": "2026-04-08",
@@ -2522,6 +18242,14 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "revenue": 106.60999999999999,
     "purchaseCost": 29.42,
     "quantity": 2
+  },
+  {
+    "date": "2026-04-08",
+    "category": "Tetování",
+    "subCategory": "Vybavení tetovacího studia",
+    "revenue": 4466.61,
+    "purchaseCost": 2452.46,
+    "quantity": 4
   },
   {
     "date": "2026-04-08",
@@ -2570,14 +18298,6 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "revenue": 908.27,
     "purchaseCost": 460.02,
     "quantity": 44
-  },
-  {
-    "date": "2026-04-08",
-    "category": "Tetování",
-    "subCategory": "Vybavení tetovacího studia",
-    "revenue": 2491.3999999999996,
-    "purchaseCost": 1243.46,
-    "quantity": 3
   },
   {
     "date": "2026-04-08",
@@ -4919,9 +20639,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-18",
     "category": "Barvy na tetování",
     "subCategory": "EU schválené tetovací barvy",
-    "revenue": 1735.54,
-    "purchaseCost": 1054.28,
-    "quantity": 5
+    "revenue": 2981.82,
+    "purchaseCost": 1830.5,
+    "quantity": 8
   },
   {
     "date": "2026-04-18",
@@ -4959,9 +20679,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-18",
     "category": "Spotřební materiál pro studia",
     "subCategory": "Pomůcky pro přenos motivu",
-    "revenue": 1314.05,
-    "purchaseCost": 694.85,
-    "quantity": 1
+    "revenue": 2153.7200000000003,
+    "purchaseCost": 1228.77,
+    "quantity": 5
   },
   {
     "date": "2026-04-18",
@@ -4991,9 +20711,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-18",
     "category": "Tetování",
     "subCategory": "Tetovací cartridge",
-    "revenue": 1707.4499999999998,
-    "purchaseCost": 891.9100000000001,
-    "quantity": 53
+    "revenue": 4823.13,
+    "purchaseCost": 2257.9900000000002,
+    "quantity": 155
   },
   {
     "date": "2026-04-18",
@@ -5015,9 +20735,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-18",
     "category": "Tetování",
     "subCategory": "",
-    "revenue": 216.52999999999997,
-    "purchaseCost": 64.22999999999999,
-    "quantity": 8
+    "revenue": 480.98999999999995,
+    "purchaseCost": 147.32999999999998,
+    "quantity": 18
   },
   {
     "date": "2026-04-18",
@@ -5047,9 +20767,9 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "date": "2026-04-18",
     "category": "Piercing",
     "subCategory": "Piercingové jehly - Kanyly",
-    "revenue": 54.54,
-    "purchaseCost": 24.700000000000003,
-    "quantity": 3
+    "revenue": 127.26,
+    "purchaseCost": 57.540000000000006,
+    "quantity": 7
   },
   {
     "date": "2026-04-18",
@@ -5057,6 +20777,30 @@ export const categoryDataCZ: CategoryRevenueRecord[] = [
     "subCategory": "Piercingové šperky",
     "revenue": 61.98,
     "purchaseCost": 45.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-18",
+    "category": "Piercing",
+    "subCategory": "Péče o piercing",
+    "revenue": 481.81,
+    "purchaseCost": 226.89999999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-04-18",
+    "category": "Spotřební materiál pro studia",
+    "subCategory": "Kalíšky, kelímky",
+    "revenue": 157.02,
+    "purchaseCost": 109.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-18",
+    "category": "Barvy na tetování",
+    "subCategory": "Umělecké barvy",
+    "revenue": 825.62,
+    "purchaseCost": 387.79,
     "quantity": 1
   }
 ];

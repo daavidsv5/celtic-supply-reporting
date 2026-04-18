@@ -60,270 +60,26702 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "quantity": 2
   },
   {
-    "date": "2026-01-07",
-    "brand": "3M",
-    "revenue": 72.89,
-    "purchaseCost": 40.16,
-    "quantity": 2
-  },
-  {
-    "date": "2026-01-07",
-    "brand": "UNIGLOVES",
-    "revenue": 400.15999999999997,
-    "purchaseCost": 290.74,
-    "quantity": 2
-  },
-  {
-    "date": "2026-01-07",
-    "brand": "ELITE",
-    "revenue": 800,
-    "purchaseCost": 319.2,
-    "quantity": 40
-  },
-  {
-    "date": "2026-01-07",
-    "brand": "Ostatní",
-    "revenue": 537.77,
-    "purchaseCost": 379.36999999999995,
-    "quantity": 3
-  },
-  {
-    "date": "2026-01-07",
+    "date": "2026-01-27",
     "brand": "KWADRON",
-    "revenue": 929.74,
-    "purchaseCost": 584.17,
-    "quantity": 22
+    "revenue": 1590.33,
+    "purchaseCost": 970.5899999999999,
+    "quantity": 32
   },
   {
-    "date": "2026-01-07",
-    "brand": "UNISTAR",
-    "revenue": 519.92,
-    "purchaseCost": 315.5,
+    "date": "2026-01-27",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 736.29,
     "quantity": 1
   },
   {
-    "date": "2026-03-11",
-    "brand": "Biotat",
-    "revenue": 561.28,
-    "purchaseCost": 374.26,
+    "date": "2026-01-27",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 5887.64,
+    "purchaseCost": 4351.94,
     "quantity": 1
   },
   {
-    "date": "2026-03-11",
-    "brand": "UNIGLOVES",
-    "revenue": 105.38,
-    "purchaseCost": 76.8,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-11",
-    "brand": "Ostatní",
-    "revenue": 147.52,
-    "purchaseCost": 67.42,
-    "quantity": 6
-  },
-  {
-    "date": "2026-03-11",
-    "brand": "Spirit",
-    "revenue": 252.89,
-    "purchaseCost": 264,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-11",
-    "brand": "PEPAX",
-    "revenue": 1026.4499999999998,
-    "purchaseCost": 512.8,
-    "quantity": 60
-  },
-  {
-    "date": "2026-03-11",
-    "brand": "Panthera",
-    "revenue": 210.04,
-    "purchaseCost": 148.95,
+    "date": "2026-01-27",
+    "brand": "FK IRONS",
+    "revenue": 14124.38,
+    "purchaseCost": 9155.18,
     "quantity": 1
   },
   {
-    "date": "2026-03-15",
+    "date": "2026-01-27",
     "brand": "Nezařazeno",
-    "revenue": 491.03,
-    "purchaseCost": 413.01,
+    "revenue": 884.0399999999998,
+    "purchaseCost": 452.13,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-27",
+    "brand": "Panthera",
+    "revenue": 234.75,
+    "purchaseCost": 149.06,
     "quantity": 1
   },
   {
-    "date": "2026-03-15",
-    "brand": "Hornet Art tattoo Supplies",
-    "revenue": 1250.41,
-    "purchaseCost": 841,
+    "date": "2026-01-27",
+    "brand": "Ostatní",
+    "revenue": 94.21,
+    "purchaseCost": 27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-27",
+    "brand": "UNIGLOVES",
+    "revenue": 250.45,
+    "purchaseCost": 178.74,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-27",
+    "brand": "Bishop Rotary",
+    "revenue": 624.79,
+    "purchaseCost": 436.59999999999997,
     "quantity": 20
   },
   {
-    "date": "2026-03-15",
+    "date": "2026-01-27",
+    "brand": "ETERNAL",
+    "revenue": 361.16,
+    "purchaseCost": 254.89,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 2024.7899999999997,
+    "purchaseCost": 1121.98,
+    "quantity": 14
+  },
+  {
+    "date": "2026-01-28",
     "brand": "UNIGLOVES",
-    "revenue": 266.94,
-    "purchaseCost": 200,
+    "revenue": 4076.9599999999996,
+    "purchaseCost": 2675.9799999999996,
+    "quantity": 34
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "KWADRON",
+    "revenue": 31770.970000000005,
+    "purchaseCost": 20499.160000000007,
+    "quantity": 974
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Killer Ink",
+    "revenue": 738.84,
+    "purchaseCost": 398.03000000000003,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 12297.52,
+    "purchaseCost": 6918.74,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 794.2,
+    "purchaseCost": 211.01999999999998,
+    "quantity": 25
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Etalon Mix",
+    "revenue": 10735.899999999998,
+    "purchaseCost": 7517.000000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Nezařazeno",
+    "revenue": 8334.3,
+    "purchaseCost": 4308.999999999999,
+    "quantity": 75
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "SKULLDNA",
+    "revenue": 1118.58,
+    "purchaseCost": 448.02000000000004,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Lamajja",
+    "revenue": 685.95,
+    "purchaseCost": 458.65999999999997,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 6900.419999999999,
+    "purchaseCost": 2754.3300000000004,
+    "quantity": 133
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Bishop Rotary",
+    "revenue": 3216.04,
+    "purchaseCost": 2284.87,
+    "quantity": 89
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "ELITE",
+    "revenue": 15452.7,
+    "purchaseCost": 6401.83,
+    "quantity": 396
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "POPU",
+    "revenue": 225.62,
+    "purchaseCost": 55.86,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Panthera",
+    "revenue": 3231.3199999999997,
+    "purchaseCost": 1952.78,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Biotat",
+    "revenue": 1860.3500000000001,
+    "purchaseCost": 1111.1,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Emalla",
+    "revenue": 731.4100000000001,
+    "purchaseCost": 279.40000000000003,
+    "quantity": 25
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "3M",
+    "revenue": 267.28,
+    "purchaseCost": 139.93,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Piranha",
+    "revenue": 5655.29,
+    "purchaseCost": 3216.23,
+    "quantity": 53
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 757.03,
+    "purchaseCost": 451,
     "quantity": 4
   },
   {
-    "date": "2026-03-23",
-    "brand": "DRAGONHAWK TATTOO SUPPLY",
-    "revenue": 0,
-    "purchaseCost": 2268,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-24",
-    "brand": "Nezařazeno",
-    "revenue": 617.36,
-    "purchaseCost": 384.63,
-    "quantity": 3
-  },
-  {
-    "date": "2026-03-25",
-    "brand": "Nezařazeno",
-    "revenue": 548.8,
-    "purchaseCost": 413.01,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-25",
-    "brand": "KWADRON",
-    "revenue": 2137.6,
-    "purchaseCost": 1172.6000000000001,
-    "quantity": 60
-  },
-  {
-    "date": "2026-03-27",
-    "brand": "ELITE",
-    "revenue": 3790.9100000000008,
-    "purchaseCost": 1802.6,
-    "quantity": 200
-  },
-  {
-    "date": "2026-03-27",
-    "brand": "UNIGLOVES",
-    "revenue": 245.87,
-    "purchaseCost": 160.85,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-27",
-    "brand": "Hornet Art tattoo Supplies",
-    "revenue": 1250.41,
-    "purchaseCost": 841,
-    "quantity": 20
-  },
-  {
-    "date": "2026-03-27",
-    "brand": "INTENZE",
-    "revenue": 414.46,
-    "purchaseCost": 352.71,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-27",
-    "brand": "Piranha",
-    "revenue": 108.3,
-    "purchaseCost": 82.86,
-    "quantity": 6
-  },
-  {
-    "date": "2026-03-27",
-    "brand": "Panthera",
-    "revenue": 1017.19,
-    "purchaseCost": 684.23,
+    "date": "2026-01-28",
+    "brand": "Celtic Supply",
+    "revenue": 320.70000000000005,
+    "purchaseCost": 127.22,
     "quantity": 2
   },
   {
-    "date": "2026-03-27",
-    "brand": "The Inked Army",
-    "revenue": 343.51,
-    "purchaseCost": 251.09,
+    "date": "2026-01-28",
+    "brand": "Braun",
+    "revenue": 1321.4899999999998,
+    "purchaseCost": 1100.1000000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Sanytol",
+    "revenue": 65.29,
+    "purchaseCost": 46.87,
     "quantity": 1
   },
   {
-    "date": "2026-03-27",
-    "brand": "KWADRON",
-    "revenue": 2026.3,
-    "purchaseCost": 1087.1699999999998,
-    "quantity": 57
+    "date": "2026-01-28",
+    "brand": "Ostatní",
+    "revenue": 6923.13,
+    "purchaseCost": 20456.480000000003,
+    "quantity": 55
   },
   {
-    "date": "2026-03-27",
-    "brand": "Nezařazeno",
-    "revenue": 55.78,
-    "purchaseCost": 35.16,
+    "date": "2026-01-28",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 2086.08,
+    "purchaseCost": 1588.6000000000001,
+    "quantity": 11
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Cheyenne",
+    "revenue": 2466.5299999999997,
+    "purchaseCost": 1258.1,
+    "quantity": 72
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "DYNAMIC",
+    "revenue": 5688.030000000002,
+    "purchaseCost": 3287.170000000001,
+    "quantity": 23
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "ETERNAL",
+    "revenue": 1114.1,
+    "purchaseCost": 752.92,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "ECOLAB",
+    "revenue": 740.84,
+    "purchaseCost": 504.31000000000006,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 4853.62,
+    "purchaseCost": 2935.9999999999995,
+    "quantity": 32
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Spirit",
+    "revenue": 4408.68,
+    "purchaseCost": 3442.28,
+    "quantity": 22
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "REVOLUTION",
+    "revenue": 362.81,
+    "purchaseCost": 210.08999999999997,
+    "quantity": 13
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1809.0999999999997,
+    "purchaseCost": 1095.73,
     "quantity": 9
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-01-28",
+    "brand": "UNISTAR",
+    "revenue": 1933,
+    "purchaseCost": 1030.67,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Biotek",
+    "revenue": 3428.9099999999994,
+    "purchaseCost": 555.22,
+    "quantity": 47
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "SWAVGO",
+    "revenue": 681.8100000000001,
+    "purchaseCost": 315.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Nuva Colors",
+    "revenue": 2888.44,
+    "purchaseCost": 1908.82,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "PEPAX",
+    "revenue": 1403.3999999999999,
+    "purchaseCost": 587.5400000000001,
+    "quantity": 22
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "TattooMed®",
+    "revenue": 1197.52,
+    "purchaseCost": 657.23,
+    "quantity": 41
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Tombow",
+    "revenue": 81.82,
+    "purchaseCost": 42.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "BLOW ICE",
+    "revenue": 927.2399999999999,
+    "purchaseCost": 517.58,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Rosa",
+    "revenue": 558.84,
+    "purchaseCost": 400.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "The Pigment",
+    "revenue": 1174.38,
+    "purchaseCost": 657.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "World Famous",
+    "revenue": 2152.89,
+    "purchaseCost": 1466.37,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Tattoo Stuff",
+    "revenue": 469.41,
+    "purchaseCost": 221.69,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "DC Invention Company",
+    "revenue": 3401.4700000000003,
+    "purchaseCost": 2349.81,
+    "quantity": 8
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Dermalize",
+    "revenue": 296.78,
+    "purchaseCost": 232.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "INTENZE",
+    "revenue": 1365.28,
+    "purchaseCost": 1025.29,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "The Inked Army",
+    "revenue": 666.9300000000001,
+    "purchaseCost": 403.59000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "ALOE TATTOO",
+    "revenue": 329.75,
+    "purchaseCost": 225.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "I AM INK",
+    "revenue": 652.89,
+    "purchaseCost": 627.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 526.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Proton",
+    "revenue": 1012.9299999999998,
+    "purchaseCost": 512.88,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 6197.52,
+    "purchaseCost": 4351.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Forte",
+    "revenue": 335.59000000000003,
+    "purchaseCost": 246.67999999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "FK IRONS",
+    "revenue": 809.92,
+    "purchaseCost": 582.8,
+    "quantity": 20
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "AVA Machine",
+    "revenue": 1925.6100000000001,
+    "purchaseCost": 821.3299999999999,
+    "quantity": 119
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Electrum",
+    "revenue": 183.72,
+    "purchaseCost": 68.42,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Reelskin",
+    "revenue": 1363.65,
+    "purchaseCost": 871.8000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "FineLine",
+    "revenue": 219.83,
+    "purchaseCost": 126.49000000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Saferly",
+    "revenue": 494.21,
+    "purchaseCost": 252.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 468.63,
+    "purchaseCost": 370.91999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "SKINz",
+    "revenue": 206.61,
+    "purchaseCost": 120.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Wildcat",
+    "revenue": 990.08,
+    "purchaseCost": 438.01,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "The Perma",
+    "revenue": 479.34,
+    "purchaseCost": 263.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Sharpie",
+    "revenue": 146.28,
+    "purchaseCost": 70.7,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Xtreme Ink",
+    "revenue": 386.78,
+    "purchaseCost": 262.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "OZER",
+    "revenue": 313.26,
+    "purchaseCost": 143.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "RENOVA",
+    "revenue": 268.6,
+    "purchaseCost": 202.37,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-28",
+    "brand": "Studex",
+    "revenue": 247.11,
+    "purchaseCost": 168.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Nezařazeno",
+    "revenue": 7075.350000000001,
+    "purchaseCost": 4008.1099999999988,
+    "quantity": 70
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "3M",
+    "revenue": 242.98,
+    "purchaseCost": 119.93999999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Tattoo Stuff",
+    "revenue": 542.97,
+    "purchaseCost": 241.82999999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Ostatní",
+    "revenue": 3111.5300000000007,
+    "purchaseCost": 1240.92,
+    "quantity": 95
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 688.43,
+    "purchaseCost": 403.25,
+    "quantity": 8
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Panthera",
+    "revenue": 3515.7499999999995,
+    "purchaseCost": 2079.78,
+    "quantity": 9
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Killer Ink",
+    "revenue": 784.2900000000001,
+    "purchaseCost": 188.94,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 3512.5000000000005,
+    "purchaseCost": 1044.7200000000003,
+    "quantity": 121
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "ALOE TATTOO",
+    "revenue": 659.5,
+    "purchaseCost": 394.70000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Proton",
+    "revenue": 2252.06,
+    "purchaseCost": 1232.67,
+    "quantity": 14
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "ELITE",
+    "revenue": 15333.869999999995,
+    "purchaseCost": 5943.390000000001,
+    "quantity": 615
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "KWADRON",
+    "revenue": 23651.190000000006,
+    "purchaseCost": 15553,
+    "quantity": 904
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Prime",
+    "revenue": 239.67,
+    "purchaseCost": 121.5,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "PEPAX",
+    "revenue": 2388.15,
+    "purchaseCost": 1095.6,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Cheyenne",
+    "revenue": 4040.470000000001,
+    "purchaseCost": 2241.8300000000004,
+    "quantity": 153
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "UNIGLOVES",
+    "revenue": 3516.97,
+    "purchaseCost": 2256.31,
+    "quantity": 28
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Piranha",
+    "revenue": 2516.96,
+    "purchaseCost": 1428.38,
+    "quantity": 30
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 30.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Spirit",
+    "revenue": 3132.2300000000005,
+    "purchaseCost": 2059.6,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.48,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "OZER",
+    "revenue": 1971.8899999999999,
+    "purchaseCost": 802.77,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "ECOLAB",
+    "revenue": 1020.6700000000001,
+    "purchaseCost": 664.6700000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "DYNAMIC",
+    "revenue": 6819.88,
+    "purchaseCost": 3212.65,
+    "quantity": 15
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Emalla",
+    "revenue": 1709.92,
+    "purchaseCost": 622.72,
+    "quantity": 62
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "UNISTAR",
+    "revenue": 4327.59,
+    "purchaseCost": 2257.9399999999996,
+    "quantity": 11
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Xtreme Ink",
+    "revenue": 795.04,
+    "purchaseCost": 591.3599999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Biotek",
+    "revenue": 1115.7,
+    "purchaseCost": 634.42,
+    "quantity": 22
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Rosa",
+    "revenue": 493.39,
+    "purchaseCost": 358.43,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "TattooMed®",
+    "revenue": 812.4399999999999,
+    "purchaseCost": 513.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 595.86,
+    "purchaseCost": 477.92999999999995,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "BLOW ICE",
+    "revenue": 565.33,
+    "purchaseCost": 491.36,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Braun",
+    "revenue": 383.93,
+    "purchaseCost": 294.03,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "AVA Machine",
+    "revenue": 793.38,
+    "purchaseCost": 307.45000000000005,
+    "quantity": 49
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1432.2400000000002,
+    "purchaseCost": 818.9699999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Reelskin",
+    "revenue": 3809.1,
+    "purchaseCost": 2613.99,
+    "quantity": 8
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "The Inked Army",
+    "revenue": 1665.6100000000001,
+    "purchaseCost": 1046.6299999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "FK IRONS",
+    "revenue": 14289.26,
+    "purchaseCost": 10931.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "FineLine",
+    "revenue": 596.69,
+    "purchaseCost": 361.4,
+    "quantity": 20
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Biotat",
+    "revenue": 754.55,
+    "purchaseCost": 407.53,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 325.62,
+    "purchaseCost": 227.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 8559.339999999998,
+    "purchaseCost": 3695.7200000000003,
+    "quantity": 100
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Nuva Colors",
+    "revenue": 495.04,
+    "purchaseCost": 383.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "INTENZE",
+    "revenue": 975.2,
+    "purchaseCost": 677.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "SKULLDNA",
+    "revenue": 73.55,
+    "purchaseCost": 18.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "ETERNAL",
+    "revenue": 742.98,
+    "purchaseCost": 483.4,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "PERMA BLEND",
+    "revenue": 7514.06,
+    "purchaseCost": 5836.39,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "World Famous",
+    "revenue": 859.5,
+    "purchaseCost": 565.7,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Bishop Rotary",
+    "revenue": 1039.68,
+    "purchaseCost": 666.9499999999999,
+    "quantity": 29
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 3353.8100000000013,
+    "purchaseCost": 2124.88,
+    "quantity": 11
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Electrum",
+    "revenue": 161.16,
+    "purchaseCost": 67.86,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "RENOVA",
+    "revenue": 163.64,
+    "purchaseCost": 64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Allegory Ink",
+    "revenue": 735.54,
+    "purchaseCost": 364.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "The Perma",
+    "revenue": 479.34,
+    "purchaseCost": 255.2,
+    "quantity": 20
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "KURO SUMI",
+    "revenue": 1648.75,
+    "purchaseCost": 1071.95,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "DC Invention Company",
+    "revenue": 487.6,
+    "purchaseCost": 333.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "I AM INK",
+    "revenue": 652.89,
+    "purchaseCost": 627.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-29",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 577.69,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Nezařazeno",
+    "revenue": 10940.069999999998,
+    "purchaseCost": 6139.649999999998,
+    "quantity": 41
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Bishop Rotary",
+    "revenue": 3151.2300000000005,
+    "purchaseCost": 2070.04,
+    "quantity": 39
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Piranha",
+    "revenue": 2726.27,
+    "purchaseCost": 1828.0100000000002,
+    "quantity": 50
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3137.76,
+    "purchaseCost": 1823.92,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 267.77,
+    "purchaseCost": 146,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "KWADRON",
+    "revenue": 29969.97,
+    "purchaseCost": 18796.500000000004,
+    "quantity": 746
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Cheyenne",
+    "revenue": 6570.24,
+    "purchaseCost": 3638.9700000000003,
+    "quantity": 233
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "DYNAMIC",
+    "revenue": 2669.4500000000003,
+    "purchaseCost": 1471.96,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Dermalize",
+    "revenue": 329.75,
+    "purchaseCost": 232.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "UNIGLOVES",
+    "revenue": 3635.0999999999995,
+    "purchaseCost": 2213.47,
+    "quantity": 33
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "INTENZE",
+    "revenue": 5363.610000000001,
+    "purchaseCost": 3787.96,
+    "quantity": 11
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Panthera",
+    "revenue": 3989.3800000000006,
+    "purchaseCost": 2318.7799999999997,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Proton",
+    "revenue": 1995.03,
+    "purchaseCost": 993.5200000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Biotek",
+    "revenue": 4419,
+    "purchaseCost": 2604.2299999999996,
+    "quantity": 22
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Etalon Mix",
+    "revenue": 5369.42,
+    "purchaseCost": 3758.5899999999997,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 399.16999999999996,
+    "purchaseCost": 220.54000000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "OZER",
+    "revenue": 1188.43,
+    "purchaseCost": 530.65,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Ostatní",
+    "revenue": 1522.4299999999998,
+    "purchaseCost": 507.6599999999999,
+    "quantity": 42
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 5115.7,
+    "purchaseCost": 3402.02,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "FK IRONS",
+    "revenue": 28025.620000000003,
+    "purchaseCost": 19767.29,
+    "quantity": 22
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Biotat",
+    "revenue": 1494.2200000000003,
+    "purchaseCost": 911.23,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "ECOLAB",
+    "revenue": 2081.8199999999997,
+    "purchaseCost": 1332.9800000000002,
+    "quantity": 11
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Spirit",
+    "revenue": 1038.02,
+    "purchaseCost": 740.04,
+    "quantity": 7
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 9064.47,
+    "purchaseCost": 4302.1900000000005,
+    "quantity": 50
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Reelskin",
+    "revenue": 239.67,
+    "purchaseCost": 144.24,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "UNISTAR",
+    "revenue": 700.83,
+    "purchaseCost": 400.65999999999997,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2527.2599999999998,
+    "purchaseCost": 836.4499999999999,
+    "quantity": 98
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "ELITE",
+    "revenue": 12070.230000000001,
+    "purchaseCost": 5211.55,
+    "quantity": 286
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "KURO SUMI",
+    "revenue": 980.99,
+    "purchaseCost": 617.96,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "3M",
+    "revenue": 161.99,
+    "purchaseCost": 79.96,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "EIKON",
+    "revenue": 56.2,
+    "purchaseCost": 17.91,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Killer Ink",
+    "revenue": 626.45,
+    "purchaseCost": 335.57000000000005,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Saferly",
+    "revenue": 247.11,
+    "purchaseCost": 170.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1189.25,
+    "purchaseCost": 871.53,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Lamajja",
+    "revenue": 272.73,
+    "purchaseCost": 190.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 198.35,
+    "purchaseCost": 116.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 219.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "AVA Machine",
+    "revenue": 49.59,
+    "purchaseCost": 20.43,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Emalla",
+    "revenue": 1629.76,
+    "purchaseCost": 604.7399999999999,
+    "quantity": 42
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Buff Browz",
+    "revenue": 181.82,
+    "purchaseCost": 107.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "LASKIN",
+    "revenue": 206.61,
+    "purchaseCost": 154.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "TattooMed®",
+    "revenue": 412.4,
+    "purchaseCost": 298.84,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "World Famous",
+    "revenue": 429.75,
+    "purchaseCost": 282.79,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Tattoo Stuff",
+    "revenue": 644.62,
+    "purchaseCost": 362.82,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "The Inked Army",
+    "revenue": 1034.71,
+    "purchaseCost": 645.4499999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Celtic Supply",
+    "revenue": 408.26,
+    "purchaseCost": 204.86,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 247.11,
+    "purchaseCost": 186.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Premier Products",
+    "revenue": 902.88,
+    "purchaseCost": 554.96,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Xtreme Ink",
+    "revenue": 635.54,
+    "purchaseCost": 413.43999999999994,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Rosa",
+    "revenue": 452.89,
+    "purchaseCost": 313.85,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "BLOW ICE",
+    "revenue": 304.96,
+    "purchaseCost": 170.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "PERMA BLEND",
+    "revenue": 3132.23,
+    "purchaseCost": 2262.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Electrum",
+    "revenue": 53.72,
+    "purchaseCost": 22.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "DC Invention Company",
+    "revenue": 487.6,
+    "purchaseCost": 333.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-30",
+    "brand": "Believa Cosmetics",
+    "revenue": 702.48,
+    "purchaseCost": 434.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "ECOLAB",
+    "revenue": 558.31,
+    "purchaseCost": 363.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Proton",
+    "revenue": 177.26999999999998,
+    "purchaseCost": 123.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Nezařazeno",
+    "revenue": 2378.9100000000003,
+    "purchaseCost": 1050.35,
+    "quantity": 18
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 361.16,
+    "purchaseCost": 218.19,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "UNIGLOVES",
+    "revenue": 1816.5300000000002,
+    "purchaseCost": 1127.58,
+    "quantity": 9
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Ostatní",
+    "revenue": 1523.1500000000003,
+    "purchaseCost": 1016.9800000000002,
+    "quantity": 19
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Studex",
+    "revenue": 247.11,
+    "purchaseCost": 168.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Biotat",
+    "revenue": 1286.78,
+    "purchaseCost": 771.9200000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "ELITE",
+    "revenue": 3886.739999999999,
+    "purchaseCost": 1334.8799999999999,
+    "quantity": 155
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Panthera",
+    "revenue": 998.3500000000001,
+    "purchaseCost": 546.46,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "DYNAMIC",
+    "revenue": 3161.1900000000005,
+    "purchaseCost": 1770.49,
+    "quantity": 10
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "3M",
+    "revenue": 161.98,
+    "purchaseCost": 79.96,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "KWADRON",
+    "revenue": 9959.56,
+    "purchaseCost": 6729.090000000004,
+    "quantity": 347
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Piranha",
+    "revenue": 1406.74,
+    "purchaseCost": 803.39,
+    "quantity": 26
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 777.69,
+    "purchaseCost": 425,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "DC Invention Company",
+    "revenue": 1642.9699999999998,
+    "purchaseCost": 1187.62,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Sanytol",
+    "revenue": 61.98,
+    "purchaseCost": 42.3,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Cheyenne",
+    "revenue": 241.32,
+    "purchaseCost": 123.21000000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1050.4099999999999,
+    "purchaseCost": 635.1099999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "UNISTAR",
+    "revenue": 1585.1400000000003,
+    "purchaseCost": 776.9199999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 163.64,
+    "purchaseCost": 85.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 972.72,
+    "purchaseCost": 303.38,
+    "quantity": 25
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Braun",
+    "revenue": 125.62,
+    "purchaseCost": 94.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Bishop Rotary",
+    "revenue": 1381.81,
+    "purchaseCost": 977.4,
+    "quantity": 40
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "KURO SUMI",
+    "revenue": 989.25,
+    "purchaseCost": 639.41,
+    "quantity": 3
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Forte",
+    "revenue": 9.99,
+    "purchaseCost": 7.14,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 5.98,
+    "purchaseCost": 4.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Tattoo Goo",
+    "revenue": 271.07,
+    "purchaseCost": 210.51999999999998,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "TattooMed®",
+    "revenue": 1011.5700000000002,
+    "purchaseCost": 588.4200000000001,
+    "quantity": 36
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "AVA Machine",
+    "revenue": 2082.65,
+    "purchaseCost": 865.52,
+    "quantity": 129
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 94.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Tattoo Stuff",
+    "revenue": 322.31,
+    "purchaseCost": 181.41,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Etalon Mix",
+    "revenue": 3798.35,
+    "purchaseCost": 2658.8299999999995,
+    "quantity": 4
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Rosa",
+    "revenue": 570.25,
+    "purchaseCost": 373.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Xtreme Ink",
+    "revenue": 429.75,
+    "purchaseCost": 291.84,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "OZER",
+    "revenue": 411.57,
+    "purchaseCost": 162.17,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "The Inked Army",
+    "revenue": 222.31,
+    "purchaseCost": 134.53,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Spirit",
+    "revenue": 206.61,
+    "purchaseCost": 200,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Killer Ink",
+    "revenue": 132.23,
+    "purchaseCost": 48.34,
+    "quantity": 1
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Celtic Supply",
+    "revenue": 328.93,
+    "purchaseCost": 127.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-01-31",
+    "brand": "Wildcat",
+    "revenue": 164.46,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 94.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "The Inked Army",
+    "revenue": 481.82,
+    "purchaseCost": 263.55999999999995,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 4950.41,
+    "purchaseCost": 1683.79,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Bishop Rotary",
+    "revenue": 2072.2200000000003,
+    "purchaseCost": 1121.7099999999998,
+    "quantity": 59
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "UNIGLOVES",
+    "revenue": 2645.01,
+    "purchaseCost": 1722.11,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Spirit",
+    "revenue": 2413.23,
+    "purchaseCost": 1778.8600000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Cheyenne",
+    "revenue": 2584.6300000000006,
+    "purchaseCost": 1249.9999999999998,
+    "quantity": 69
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "DYNAMIC",
+    "revenue": 5562.84,
+    "purchaseCost": 2567.57,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Ostatní",
+    "revenue": 1950.37,
+    "purchaseCost": 1020.8499999999999,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "KWADRON",
+    "revenue": 26732.440000000002,
+    "purchaseCost": 16918.34,
+    "quantity": 1019
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Nezařazeno",
+    "revenue": 5366.039999999998,
+    "purchaseCost": 3040.660000000001,
+    "quantity": 63
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "OZER",
+    "revenue": 164.46,
+    "purchaseCost": 57.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1111.2,
+    "purchaseCost": 721.72,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 579.34,
+    "purchaseCost": 184.10000000000002,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "ELITE",
+    "revenue": 6632.859999999999,
+    "purchaseCost": 2643.21,
+    "quantity": 268
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 163.64,
+    "purchaseCost": 85.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Braun",
+    "revenue": 662.8100000000001,
+    "purchaseCost": 492.01000000000005,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Piranha",
+    "revenue": 5102.470000000001,
+    "purchaseCost": 3110.4600000000005,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Proton",
+    "revenue": 1414.12,
+    "purchaseCost": 906.53,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "FineLine",
+    "revenue": 282.64,
+    "purchaseCost": 173.2,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1859.44,
+    "purchaseCost": 1179.92,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "World Famous",
+    "revenue": 1723.1399999999999,
+    "purchaseCost": 1166.32,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "BD Insyte",
+    "revenue": 532.24,
+    "purchaseCost": 483.29999999999995,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 443.8,
+    "purchaseCost": 335.15999999999997,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Etalon Mix",
+    "revenue": 10771.240000000002,
+    "purchaseCost": 7847.13,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Electrum",
+    "revenue": 2159.5099999999998,
+    "purchaseCost": 1372.0900000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-01",
     "brand": "Biotat",
     "revenue": 768.6,
     "purchaseCost": 474.06,
     "quantity": 1
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-02-01",
+    "brand": "Celtic Supply",
+    "revenue": 652.0600000000001,
+    "purchaseCost": 346.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "ALOE TATTOO",
+    "revenue": 510.74,
+    "purchaseCost": 345.81,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 973.5600000000001,
+    "purchaseCost": 252.05,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "ECOLAB",
+    "revenue": 403.31,
+    "purchaseCost": 261.95000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 361.15999999999997,
+    "purchaseCost": 165.65,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Tattoo Stuff",
+    "revenue": 379.33,
+    "purchaseCost": 208.82999999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Xtreme Ink",
+    "revenue": 2346.29,
+    "purchaseCost": 1096.4,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "UNISTAR",
+    "revenue": 2833.94,
+    "purchaseCost": 1564.8799999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Saferly",
+    "revenue": 247.11,
+    "purchaseCost": 126.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "FK IRONS",
+    "revenue": 16860.74,
+    "purchaseCost": 13053.820000000002,
+    "quantity": 73
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "INTENZE",
+    "revenue": 487.6,
+    "purchaseCost": 349.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "TattooMed®",
+    "revenue": 533.06,
+    "purchaseCost": 296.09999999999997,
+    "quantity": 45
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Lamajja",
+    "revenue": 413.22,
+    "purchaseCost": 267.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "3M",
+    "revenue": 40.5,
+    "purchaseCost": 19.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 971.0799999999999,
+    "purchaseCost": 582.5999999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 247.11,
+    "purchaseCost": 186.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Panthera",
+    "revenue": 380.17,
+    "purchaseCost": 201.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "REVOLUTION",
+    "revenue": 66.12,
+    "purchaseCost": 32.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Reelskin",
+    "revenue": 1570.25,
+    "purchaseCost": 1047.12,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Biotek",
+    "revenue": 144.63,
+    "purchaseCost": 86.47,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "PEPAX",
+    "revenue": 1444.6299999999999,
+    "purchaseCost": 370.1,
+    "quantity": 60
+  },
+  {
+    "date": "2026-02-01",
+    "brand": "Tattoo Goo",
+    "revenue": 408.26,
+    "purchaseCost": 337,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Bishop Rotary",
+    "revenue": 5176.869999999999,
+    "purchaseCost": 3305.74,
+    "quantity": 148
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "UNIGLOVES",
+    "revenue": 3099.85,
+    "purchaseCost": 2085.67,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-02",
     "brand": "ELITE",
-    "revenue": 1163.63,
-    "purchaseCost": 449.32,
+    "revenue": 13303.3,
+    "purchaseCost": 5130.06,
+    "quantity": 473
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Sharpie",
+    "revenue": 46.32,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Ostatní",
+    "revenue": 1410.7399999999998,
+    "purchaseCost": 679.9599999999999,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Nezařazeno",
+    "revenue": 13842.949999999999,
+    "purchaseCost": 6578.54,
+    "quantity": 159
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "PEPAX",
+    "revenue": 4784.280000000001,
+    "purchaseCost": 1655.65,
+    "quantity": 81
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "KWADRON",
+    "revenue": 22256.24000000001,
+    "purchaseCost": 12059.229999999996,
+    "quantity": 594
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "PERMA BLEND",
+    "revenue": 4065.3,
+    "purchaseCost": 2709.4000000000005,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "DYNAMIC",
+    "revenue": 4990.12,
+    "purchaseCost": 2859.53,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "EIKON",
+    "revenue": 818.18,
+    "purchaseCost": 603.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Proton",
+    "revenue": 1442.15,
+    "purchaseCost": 756.6800000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "FK IRONS",
+    "revenue": 578.52,
+    "purchaseCost": 412.35,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Believa Cosmetics",
+    "revenue": 395.86,
+    "purchaseCost": 231.17000000000002,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "DC Invention Company",
+    "revenue": 1428.0900000000001,
+    "purchaseCost": 967.45,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 369.04999999999995,
+    "purchaseCost": 225.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Xtreme Ink",
+    "revenue": 1559.5,
+    "purchaseCost": 985.4,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2730.58,
+    "purchaseCost": 1574.71,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 247.11,
+    "purchaseCost": 186.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 781.91,
+    "purchaseCost": 491.65999999999997,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 947.9399999999999,
+    "purchaseCost": 196.3,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 21418.579999999998,
+    "purchaseCost": 10364,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Spirit",
+    "revenue": 3975.21,
+    "purchaseCost": 2549.81,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Studex",
+    "revenue": 74.38,
+    "purchaseCost": 45.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "3M",
+    "revenue": 40.5,
+    "purchaseCost": 19.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Emalla",
+    "revenue": 2790.91,
+    "purchaseCost": 1007.7,
+    "quantity": 100
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Panthera",
+    "revenue": 4219.25,
+    "purchaseCost": 2622.2999999999997,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Etalon Mix",
+    "revenue": 8012.4,
+    "purchaseCost": 5649.95,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Lamajja",
+    "revenue": 545.46,
+    "purchaseCost": 381.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "The Perma",
+    "revenue": 71.9,
+    "purchaseCost": 38.28,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Killer Ink",
+    "revenue": 338.84000000000003,
+    "purchaseCost": 131.14,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "UNISTAR",
+    "revenue": 2318.2100000000005,
+    "purchaseCost": 948.8799999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "World Famous",
+    "revenue": 4223.139999999999,
+    "purchaseCost": 2709.7599999999998,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "ECOLAB",
+    "revenue": 403.31,
+    "purchaseCost": 261.95000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "I AM INK",
+    "revenue": 1958.67,
+    "purchaseCost": 1885.3899999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "TattooMed®",
+    "revenue": 61.98,
+    "purchaseCost": 34.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Cheyenne",
+    "revenue": 5318.180000000001,
+    "purchaseCost": 2863.2300000000005,
+    "quantity": 203
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Biotek",
+    "revenue": 1941.3200000000002,
+    "purchaseCost": 1154.1200000000001,
+    "quantity": 75
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2665.79,
+    "purchaseCost": 764.08,
+    "quantity": 101
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Piranha",
+    "revenue": 3392.59,
+    "purchaseCost": 2099.67,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "INTENZE",
+    "revenue": 197.52,
+    "purchaseCost": 138.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Tattoo Stuff",
+    "revenue": 1544.4199999999998,
+    "purchaseCost": 808.3999999999999,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "BLOW ICE",
+    "revenue": 578.97,
+    "purchaseCost": 582.98,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1537.23,
+    "purchaseCost": 1220.4,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "The Inked Army",
+    "revenue": 666.9300000000001,
+    "purchaseCost": 403.59000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "AVA Machine",
+    "revenue": 942.14,
+    "purchaseCost": 358.8,
+    "quantity": 60
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 94.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 983.47,
+    "purchaseCost": 602.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 317.34999999999997,
+    "purchaseCost": 149.14,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "RENOVA",
+    "revenue": 239.67,
+    "purchaseCost": 156,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Electrum",
+    "revenue": 236.49,
+    "purchaseCost": 69.53999999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Biotat",
+    "revenue": 467.44,
+    "purchaseCost": 237.31,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "OZER",
+    "revenue": 886.02,
+    "purchaseCost": 306.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 389.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "Rosa",
+    "revenue": 570.25,
+    "purchaseCost": 373.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "The Pigment",
+    "revenue": 454.55,
+    "purchaseCost": 248.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-02",
+    "brand": "ELEPHANT",
+    "revenue": 387.6,
+    "purchaseCost": 217.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Aloe Micro",
+    "revenue": 288.43,
+    "purchaseCost": 194.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "BLOW ICE",
+    "revenue": 1359.5099999999998,
+    "purchaseCost": 840.35,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Nezařazeno",
+    "revenue": 22605.969999999998,
+    "purchaseCost": 11737.87,
+    "quantity": 158
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Piranha",
+    "revenue": 5649.7300000000005,
+    "purchaseCost": 3158.6300000000006,
+    "quantity": 49
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Proton",
+    "revenue": 832.2299999999999,
+    "purchaseCost": 440.09000000000003,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "KWADRON",
+    "revenue": 24349.85999999999,
+    "purchaseCost": 13160.780000000004,
+    "quantity": 809
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 2680.9399999999996,
+    "purchaseCost": 2145.8299999999995,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 7608.27,
+    "purchaseCost": 3102.9,
+    "quantity": 148
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Etalon Mix",
+    "revenue": 12745.699999999999,
+    "purchaseCost": 9061.21,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Killer Ink",
+    "revenue": 309.91,
+    "purchaseCost": 108.86,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Rosa",
+    "revenue": 3272.73,
+    "purchaseCost": 2343.3,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Ostatní",
+    "revenue": 8223.849999999997,
+    "purchaseCost": 5149.940000000003,
+    "quantity": 90
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "KYBROWS",
+    "revenue": 903.8000000000001,
+    "purchaseCost": 593.02,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Biotek",
+    "revenue": 7015.989999999999,
+    "purchaseCost": 4208.6900000000005,
+    "quantity": 115
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "ELITE",
+    "revenue": 23002.11,
+    "purchaseCost": 9024.009999999997,
+    "quantity": 672
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "UNISTAR",
+    "revenue": 1630.58,
+    "purchaseCost": 679.8199999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Spirit",
+    "revenue": 9014.96,
+    "purchaseCost": 5679.36,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Biotat",
+    "revenue": 3371.9,
+    "purchaseCost": 2048.5899999999997,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Bishop Rotary",
+    "revenue": 14856.159999999996,
+    "purchaseCost": 10036.309999999998,
+    "quantity": 447
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Cheyenne",
+    "revenue": 21861.969999999998,
+    "purchaseCost": 15583.809999999998,
+    "quantity": 148
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "ETERNAL",
+    "revenue": 3421.53,
+    "purchaseCost": 2282.33,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "UNIGLOVES",
+    "revenue": 5703.000000000001,
+    "purchaseCost": 3764.109999999999,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 4231.42,
+    "purchaseCost": 1693.3799999999997,
+    "quantity": 167
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 5546.34,
+    "purchaseCost": 3456.7,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 558.31,
+    "purchaseCost": 338.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "PEPAX",
+    "revenue": 3897.0700000000006,
+    "purchaseCost": 1472.0900000000001,
+    "quantity": 163
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "3M",
+    "revenue": 159.97,
+    "purchaseCost": 79.96,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 456.2,
+    "purchaseCost": 291.03,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "DYNAMIC",
+    "revenue": 5495.89,
+    "purchaseCost": 3055.05,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "The Inked Army",
+    "revenue": 1317.38,
+    "purchaseCost": 814.58,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "ACUS",
+    "revenue": 1248.35,
+    "purchaseCost": 966.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 14768.59,
+    "purchaseCost": 7072.76,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "OZER",
+    "revenue": 1180.58,
+    "purchaseCost": 496.61,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1558.2599999999998,
+    "purchaseCost": 784.9599999999998,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Tattoo Stuff",
+    "revenue": 816.47,
+    "purchaseCost": 433.88,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Emalla",
+    "revenue": 1433.89,
+    "purchaseCost": 519.63,
+    "quantity": 53
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "TattooMed®",
+    "revenue": 409.09,
+    "purchaseCost": 216.87,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "I AM INK",
+    "revenue": 1735.4499999999998,
+    "purchaseCost": 1667.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "INTENZE",
+    "revenue": 482.29,
+    "purchaseCost": 356.35,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Celtic Supply",
+    "revenue": 450.41,
+    "purchaseCost": 280.87,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Panthera",
+    "revenue": 4008.1800000000007,
+    "purchaseCost": 2306.3300000000004,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 715.7,
+    "purchaseCost": 533.85,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Electrum",
+    "revenue": 215.70999999999998,
+    "purchaseCost": 68.98,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "RENOVA",
+    "revenue": 1416.53,
+    "purchaseCost": 930,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "FK IRONS",
+    "revenue": 2847.2799999999993,
+    "purchaseCost": 2117.64,
+    "quantity": 73
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Sanytol",
+    "revenue": 246.28,
+    "purchaseCost": 182.7,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "ECOLAB",
+    "revenue": 403.31,
+    "purchaseCost": 261.95000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "SWAVGO",
+    "revenue": 18.72,
+    "purchaseCost": 8.64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Xtreme Ink",
+    "revenue": 2587.94,
+    "purchaseCost": 1729.77,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "AVA Machine",
+    "revenue": 358.70000000000005,
+    "purchaseCost": 141.25,
     "quantity": 22
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-02-03",
+    "brand": "Prime",
+    "revenue": 239.67,
+    "purchaseCost": 121.4,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Anios",
+    "revenue": 531.47,
+    "purchaseCost": 439.09,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 308.43,
+    "purchaseCost": 158.34,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Allegory Ink",
+    "revenue": 1748.35,
+    "purchaseCost": 1092.15,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.48,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Nuva Colors",
+    "revenue": 2772.9,
+    "purchaseCost": 1957.68,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Braun",
+    "revenue": 205.79,
+    "purchaseCost": 152.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "World Famous",
+    "revenue": 454.55,
+    "purchaseCost": 308.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "FineLine",
+    "revenue": 188.42,
+    "purchaseCost": 108.96000000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "KURO SUMI",
+    "revenue": 659.5,
+    "purchaseCost": 427.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Believa Cosmetics",
+    "revenue": 262.81,
+    "purchaseCost": 86.18,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 163.64,
+    "purchaseCost": 85.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "DC Invention Company",
+    "revenue": 922.77,
+    "purchaseCost": 656.81,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-03",
+    "brand": "LASKIN",
+    "revenue": 6.69,
+    "purchaseCost": 6.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Bishop Rotary",
+    "revenue": 3345.4600000000005,
+    "purchaseCost": 2145.62,
+    "quantity": 101
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "DYNAMIC",
+    "revenue": 11188.989999999996,
+    "purchaseCost": 6647.070000000001,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "ELITE",
+    "revenue": 19401.649999999994,
+    "purchaseCost": 7461.289999999998,
+    "quantity": 742
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "UNIGLOVES",
+    "revenue": 5369.099999999999,
+    "purchaseCost": 3647.7099999999987,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "KWADRON",
+    "revenue": 26066.06000000001,
+    "purchaseCost": 13941.520000000004,
+    "quantity": 732
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Nezařazeno",
+    "revenue": 11703.48,
+    "purchaseCost": 6375.109999999998,
+    "quantity": 105
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "SKINz",
+    "revenue": 1900.83,
+    "purchaseCost": 1058.3500000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Proton",
+    "revenue": 1419.45,
+    "purchaseCost": 631.52,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Tattoo Stuff",
+    "revenue": 851.2199999999999,
+    "purchaseCost": 448.40999999999997,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "ECOLAB",
+    "revenue": 971.0799999999999,
+    "purchaseCost": 625.49,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Ostatní",
+    "revenue": 10735.119999999999,
+    "purchaseCost": 3247.4500000000016,
+    "quantity": 120
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Cheyenne",
+    "revenue": 6483.789999999999,
+    "purchaseCost": 3286.85,
+    "quantity": 164
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 5885.539999999999,
+    "purchaseCost": 3431.9699999999993,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "TattooMed®",
+    "revenue": 1123.97,
+    "purchaseCost": 645.4499999999999,
+    "quantity": 85
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "UNISTAR",
+    "revenue": 2038.2700000000004,
+    "purchaseCost": 936.3899999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 4118.22,
+    "purchaseCost": 2452.6599999999994,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Piranha",
+    "revenue": 5129.379999999999,
+    "purchaseCost": 2816.3900000000003,
+    "quantity": 109
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Spirit",
+    "revenue": 3525.6299999999997,
+    "purchaseCost": 2357.13,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Etalon Mix",
+    "revenue": 5119.84,
+    "purchaseCost": 3583.8699999999994,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Panthera",
+    "revenue": 4053.8,
+    "purchaseCost": 2631.1,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2847.71,
+    "purchaseCost": 873.7500000000001,
+    "quantity": 84
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "SWAVGO",
+    "revenue": 1081.81,
+    "purchaseCost": 525.2,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2639.67,
+    "purchaseCost": 940.1599999999999,
+    "quantity": 65
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Celtic Supply",
+    "revenue": 164.46,
+    "purchaseCost": 63.61,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "AVA Machine",
+    "revenue": 2859.479999999999,
+    "purchaseCost": 1263.2,
+    "quantity": 180
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Biotat",
+    "revenue": 524.1899999999999,
+    "purchaseCost": 295.24,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Killer Ink",
+    "revenue": 431.4,
+    "purchaseCost": 268.78,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "MAPO Medical",
+    "revenue": 577.69,
+    "purchaseCost": 400,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Xtreme Ink",
+    "revenue": 1793.39,
+    "purchaseCost": 1103.97,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "FK IRONS",
+    "revenue": 3471.9,
+    "purchaseCost": 2663,
+    "quantity": 92
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1847.0900000000001,
+    "purchaseCost": 1389.9299999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "DC Invention Company",
+    "revenue": 973.8000000000001,
+    "purchaseCost": 700.29,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Nuva Colors",
+    "revenue": 2888.4500000000003,
+    "purchaseCost": 1950.4,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Braun",
+    "revenue": 205.79,
+    "purchaseCost": 152.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "The Perma",
+    "revenue": 1102.48,
+    "purchaseCost": 602.8,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Premier Products",
+    "revenue": 1373.13,
+    "purchaseCost": 832.44,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Electrum",
+    "revenue": 715.11,
+    "purchaseCost": 299.72,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.49,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "PEPAX",
+    "revenue": 1859.1000000000001,
+    "purchaseCost": 724.76,
+    "quantity": 64
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Reelskin",
+    "revenue": 239.67,
+    "purchaseCost": 149.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Wildcat",
+    "revenue": 164.46,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Nikko Hurtado",
+    "revenue": 677.69,
+    "purchaseCost": 403.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 714.88,
+    "purchaseCost": 547.12,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "I AM INK",
+    "revenue": 1198.35,
+    "purchaseCost": 1165.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "SUNSKIN",
+    "revenue": 453.72,
+    "purchaseCost": 322.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 738.0999999999999,
+    "purchaseCost": 451,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "ETERNAL",
+    "revenue": 3709.09,
+    "purchaseCost": 2613.39,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 470.89,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "3M",
+    "revenue": 157.94,
+    "purchaseCost": 79.96,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 657.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "KURO SUMI",
+    "revenue": 329.75,
+    "purchaseCost": 212.43,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Oxxolon",
+    "revenue": 329.75,
+    "purchaseCost": 159.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 499.16999999999996,
+    "purchaseCost": 246.14,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 77.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "The Inked Army",
+    "revenue": 222.31,
+    "purchaseCost": 134.53,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "BLOW ICE",
+    "revenue": 485.95,
+    "purchaseCost": 291.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Emalla",
+    "revenue": 3300.5099999999998,
+    "purchaseCost": 1308.0000000000002,
+    "quantity": 130
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Biotek",
+    "revenue": 5495.05,
+    "purchaseCost": 2682.15,
+    "quantity": 46
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "EasyTattoo",
+    "revenue": 247.11,
+    "purchaseCost": 153.14,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "OZER",
+    "revenue": 823.96,
+    "purchaseCost": 343.91999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Starbrite",
+    "revenue": 1169.83,
+    "purchaseCost": 632.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "INKTROX",
+    "revenue": 156.2,
+    "purchaseCost": 109.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "World Famous",
+    "revenue": 1471.08,
+    "purchaseCost": 786.8199999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Inkjecta",
+    "revenue": 1039.84,
+    "purchaseCost": 821.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "Believa Cosmetics",
+    "revenue": 26.45,
+    "purchaseCost": 14.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-04",
+    "brand": "POPU",
+    "revenue": 57.02,
+    "purchaseCost": 12.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Xtreme Ink",
+    "revenue": 2680.17,
+    "purchaseCost": 1682.8799999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "BLOW ICE",
+    "revenue": 1240.06,
+    "purchaseCost": 843.3699999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Bishop Rotary",
+    "revenue": 2938.01,
+    "purchaseCost": 1837.9399999999998,
+    "quantity": 88
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Cheyenne",
+    "revenue": 26480.2,
+    "purchaseCost": 16565.249999999996,
+    "quantity": 455
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Emalla",
+    "revenue": 919.84,
+    "purchaseCost": 382.62,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "ELITE",
+    "revenue": 22735.760000000013,
+    "purchaseCost": 9246.939999999999,
+    "quantity": 1035
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Sharpie",
+    "revenue": 241.35999999999999,
+    "purchaseCost": 134.35,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Ostatní",
+    "revenue": 7635.11,
+    "purchaseCost": 5028.54,
+    "quantity": 69
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Spirit",
+    "revenue": 2076.8599999999997,
+    "purchaseCost": 1764.02,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1309.64,
+    "purchaseCost": 1067.58,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Nezařazeno",
+    "revenue": 22313.009999999995,
+    "purchaseCost": 13375.050000000005,
+    "quantity": 63
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "UNISTAR",
+    "revenue": 2486.86,
+    "purchaseCost": 1301.9699999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "OZER",
+    "revenue": 8118.63,
+    "purchaseCost": 3709.9500000000003,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 3303.54,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 3185.9,
+    "purchaseCost": 996.9300000000001,
+    "quantity": 116
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "UNIGLOVES",
+    "revenue": 1530.3200000000002,
+    "purchaseCost": 953.7800000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Panthera",
+    "revenue": 3778.6600000000003,
+    "purchaseCost": 2240.85,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Piranha",
+    "revenue": 4973.310000000001,
+    "purchaseCost": 2717.71,
+    "quantity": 58
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "KWADRON",
+    "revenue": 32673.78999999999,
+    "purchaseCost": 18756.960000000006,
+    "quantity": 689
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Tattoo Stuff",
+    "revenue": 1949.5800000000002,
+    "purchaseCost": 1187.77,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "The Inked Army",
+    "revenue": 889.24,
+    "purchaseCost": 538.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "FK IRONS",
+    "revenue": 1304.96,
+    "purchaseCost": 951.38,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Electrum",
+    "revenue": 107.44,
+    "purchaseCost": 45.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "3M",
+    "revenue": 719.21,
+    "purchaseCost": 359.81999999999994,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "DYNAMIC",
+    "revenue": 6653.750000000001,
+    "purchaseCost": 3846.13,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Forte",
+    "revenue": 411.57000000000005,
+    "purchaseCost": 295.68,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "PEPAX",
+    "revenue": 3179.43,
+    "purchaseCost": 1315.45,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "INTENZE",
+    "revenue": 950.82,
+    "purchaseCost": 678.0899999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Killer Ink",
+    "revenue": 329.75,
+    "purchaseCost": 216.42,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "TattooMed®",
+    "revenue": 453.72,
+    "purchaseCost": 245.58,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "ALOE TATTOO",
+    "revenue": 684.3,
+    "purchaseCost": 464.73,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 741.33,
+    "purchaseCost": 602.49,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "ECOLAB",
+    "revenue": 971.0899999999999,
+    "purchaseCost": 625.49,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "SWAVGO",
+    "revenue": 1784.08,
+    "purchaseCost": 840.3199999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1467.47,
+    "purchaseCost": 855.79,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 946.28,
+    "purchaseCost": 563.75,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Proton",
+    "revenue": 1285.9399999999998,
+    "purchaseCost": 632.2500000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "World Famous",
+    "revenue": 2968.58,
+    "purchaseCost": 2010.9299999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 6582.320000000003,
+    "purchaseCost": 3982.2799999999997,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Biotek",
+    "revenue": 214.88,
+    "purchaseCost": 108.12,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Biotat",
+    "revenue": 1155.37,
+    "purchaseCost": 690.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "MUSOTOKU",
+    "revenue": 7842.98,
+    "purchaseCost": 5509.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 612.4,
+    "purchaseCost": 325.54,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Wildcat",
+    "revenue": 289.26,
+    "purchaseCost": 170.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Etalon Mix",
+    "revenue": 5779.34,
+    "purchaseCost": 4086.7999999999993,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "BD Insyte",
+    "revenue": 590.09,
+    "purchaseCost": 494.2,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "FineLine",
+    "revenue": 2559.49,
+    "purchaseCost": 1538.8,
+    "quantity": 85
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "KURO SUMI",
+    "revenue": 1361.1599999999999,
+    "purchaseCost": 928.0100000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 577.69,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "ETERNAL",
+    "revenue": 2281.02,
+    "purchaseCost": 1498.69,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2347.52,
+    "purchaseCost": 1108.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "ECOTAT",
+    "revenue": 476.94000000000005,
+    "purchaseCost": 230.31,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "DC Invention Company",
+    "revenue": 528.93,
+    "purchaseCost": 313.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "RENOVA",
+    "revenue": 53.72,
+    "purchaseCost": 36.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "KYBROWS",
+    "revenue": 694.22,
+    "purchaseCost": 439.12,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Rosa",
+    "revenue": 986.77,
+    "purchaseCost": 728.0500000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Lamajja",
+    "revenue": 272.73,
+    "purchaseCost": 190.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 526.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Inox Prime",
+    "revenue": 247.11,
+    "purchaseCost": 204.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-05",
+    "brand": "Radiant Colors USA",
+    "revenue": 1648.75,
+    "purchaseCost": 1033.9,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Biotek",
+    "revenue": 8736.939999999997,
+    "purchaseCost": 5083.160000000001,
+    "quantity": 92
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "World Famous",
+    "revenue": 1768.6,
+    "purchaseCost": 1169.01,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 386.77,
+    "purchaseCost": 248.04000000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Piranha",
+    "revenue": 2960.35,
+    "purchaseCost": 1717.2800000000002,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Spirit",
+    "revenue": 429.75,
+    "purchaseCost": 404,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "KWADRON",
+    "revenue": 19561.030000000002,
+    "purchaseCost": 10986.55,
+    "quantity": 545
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "DYNAMIC",
+    "revenue": 4430.93,
+    "purchaseCost": 2486.31,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "ELITE",
+    "revenue": 4110.299999999999,
+    "purchaseCost": 1370.1800000000003,
+    "quantity": 170
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "UNISTAR",
+    "revenue": 2958.89,
+    "purchaseCost": 1260.4,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "3M",
+    "revenue": 380.68,
+    "purchaseCost": 199.9,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Ostatní",
+    "revenue": 3388.7100000000005,
+    "purchaseCost": 2195.22,
+    "quantity": 49
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Reelskin",
+    "revenue": 239.67,
+    "purchaseCost": 149.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "FK IRONS",
+    "revenue": 1509.99,
+    "purchaseCost": 1034.15,
+    "quantity": 93
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 3323.59,
+    "purchaseCost": 820.1699999999998,
+    "quantity": 154
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Proton",
+    "revenue": 1072.72,
+    "purchaseCost": 525.65,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "FineLine",
+    "revenue": 1695.8500000000001,
+    "purchaseCost": 1016.3600000000001,
+    "quantity": 56
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 7429.75,
+    "purchaseCost": 3263.79,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Biotat",
+    "revenue": 1687.69,
+    "purchaseCost": 983.54,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Cheyenne",
+    "revenue": 2156.3,
+    "purchaseCost": 1107.54,
+    "quantity": 48
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Nezařazeno",
+    "revenue": 6233.2,
+    "purchaseCost": 3777.230000000001,
+    "quantity": 110
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "UNIGLOVES",
+    "revenue": 4980.240000000001,
+    "purchaseCost": 3367.2299999999996,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "The Inked Army",
+    "revenue": 826.52,
+    "purchaseCost": 531.77,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 691.9,
+    "purchaseCost": 560.4000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Etalon Mix",
+    "revenue": 13103.130000000001,
+    "purchaseCost": 9173.710000000003,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "SKULLDNA",
+    "revenue": 157.02,
+    "purchaseCost": 45.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Emalla",
+    "revenue": 4388.429999999999,
+    "purchaseCost": 1638.45,
+    "quantity": 165
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3086.73,
+    "purchaseCost": 1896.0200000000002,
+    "quantity": 31
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "OZER",
+    "revenue": 944.6299999999999,
+    "purchaseCost": 375.09,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 253.26,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "ACUS",
+    "revenue": 1314.05,
+    "purchaseCost": 1031.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Allegory Ink",
+    "revenue": 1066.12,
+    "purchaseCost": 729,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2709.3,
+    "purchaseCost": 746.5,
+    "quantity": 113
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "ECOLAB",
+    "revenue": 378.52,
+    "purchaseCost": 242.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "TattooMed®",
+    "revenue": 281.89,
+    "purchaseCost": 162.51999999999998,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "POPU",
+    "revenue": 204.95000000000002,
+    "purchaseCost": 45.93,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "PEPAX",
+    "revenue": 577.69,
+    "purchaseCost": 174.48,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Anios",
+    "revenue": 577.69,
+    "purchaseCost": 439.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Xtreme Ink",
+    "revenue": 742.98,
+    "purchaseCost": 395.26,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 567.77,
+    "purchaseCost": 338.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Panthera",
+    "revenue": 1971.9,
+    "purchaseCost": 1194.48,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "TATSoul",
+    "revenue": 74.38,
+    "purchaseCost": 49.51,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "DC Invention Company",
+    "revenue": 759.5,
+    "purchaseCost": 523.86,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 164.46,
+    "purchaseCost": 129.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Bishop Rotary",
+    "revenue": 1538.42,
+    "purchaseCost": 971.6099999999999,
+    "quantity": 51
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Premier Products",
+    "revenue": 846.45,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "I AM INK",
+    "revenue": 809.92,
+    "purchaseCost": 824.4200000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Rosa",
+    "revenue": 23.45,
+    "purchaseCost": 16.48,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Tattoo Stuff",
+    "revenue": 595.04,
+    "purchaseCost": 519.47,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "RENOVA",
+    "revenue": 409.92,
+    "purchaseCost": 258.2,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "AVA Machine",
+    "revenue": 1033.04,
+    "purchaseCost": 409.96,
+    "quantity": 63
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Electrum",
+    "revenue": 72.72999999999999,
+    "purchaseCost": 23.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 205.79,
+    "purchaseCost": 97.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Studex",
+    "revenue": 1644.63,
+    "purchaseCost": 958.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-06",
+    "brand": "Braun",
+    "revenue": 1239.67,
+    "purchaseCost": 926,
+    "quantity": 50
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Nezařazeno",
+    "revenue": 10640.159999999996,
+    "purchaseCost": 5434.64,
+    "quantity": 185
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "ELITE",
+    "revenue": 5702.47,
+    "purchaseCost": 2312.4999999999995,
+    "quantity": 178
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3309.92,
+    "purchaseCost": 1922.53,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2448.78,
+    "purchaseCost": 1488.87,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "SWAVGO",
+    "revenue": 681.8100000000001,
+    "purchaseCost": 315.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2640.5099999999998,
+    "purchaseCost": 752.2999999999998,
+    "quantity": 66
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1171.89,
+    "purchaseCost": 915.39,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "OZER",
+    "revenue": 657.85,
+    "purchaseCost": 229.84,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 995.0399999999997,
+    "purchaseCost": 479.4599999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "BLOW ICE",
+    "revenue": 609.92,
+    "purchaseCost": 340.38,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Forte",
+    "revenue": 412.4,
+    "purchaseCost": 326.3,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Spirit",
+    "revenue": 429.76,
+    "purchaseCost": 404,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "KWADRON",
+    "revenue": 10425.419999999996,
+    "purchaseCost": 4970.35,
+    "quantity": 287
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Biotek",
+    "revenue": 379.35,
+    "purchaseCost": 221.62,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "The Pigment",
+    "revenue": 4.13,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "DYNAMIC",
+    "revenue": 6095.59,
+    "purchaseCost": 3669.640000000001,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Tattoo Stuff",
+    "revenue": 937.1800000000001,
+    "purchaseCost": 530.8499999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "UNIGLOVES",
+    "revenue": 1895.87,
+    "purchaseCost": 1032,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Etalon Mix",
+    "revenue": 11397.54,
+    "purchaseCost": 7978.25,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "PERMA BLEND",
+    "revenue": 8924.82,
+    "purchaseCost": 5906.21,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Electrum",
+    "revenue": 147.94,
+    "purchaseCost": 56.82000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Ostatní",
+    "revenue": 1244.63,
+    "purchaseCost": 551.1899999999999,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Piranha",
+    "revenue": 680.99,
+    "purchaseCost": 423.25,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Killer Ink",
+    "revenue": 12.15,
+    "purchaseCost": 6.57,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "TattooMed®",
+    "revenue": 52.89,
+    "purchaseCost": 37.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Proton",
+    "revenue": 800,
+    "purchaseCost": 449.59,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Studex",
+    "revenue": 267.77,
+    "purchaseCost": 177.52000000000004,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "FineLine",
+    "revenue": 314.05,
+    "purchaseCost": 181.6,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "ALOE TATTOO",
+    "revenue": 510.74,
+    "purchaseCost": 346.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 307.44,
+    "purchaseCost": 81.88,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Reelskin",
+    "revenue": 909.1,
+    "purchaseCost": 581.2,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Celtic Supply",
+    "revenue": 731.4000000000001,
+    "purchaseCost": 423.75,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Panthera",
+    "revenue": 247.11,
+    "purchaseCost": 149.06,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Cheyenne",
+    "revenue": 3432.23,
+    "purchaseCost": 1932.3999999999999,
+    "quantity": 85
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "PEPAX",
+    "revenue": 227.27,
+    "purchaseCost": 86.56,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Biotat",
+    "revenue": 387.61,
+    "purchaseCost": 249.76999999999998,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Bishop Rotary",
+    "revenue": 2422.31,
+    "purchaseCost": 1420.3500000000001,
+    "quantity": 70
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Emalla",
+    "revenue": 891.74,
+    "purchaseCost": 432.63,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Rosa",
+    "revenue": 995.0400000000001,
+    "purchaseCost": 709.0600000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 619.01,
+    "purchaseCost": 400.09,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Lamajja",
+    "revenue": 206.61,
+    "purchaseCost": 133.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "MAPO Medical",
+    "revenue": 280.99,
+    "purchaseCost": 185,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "World Famous",
+    "revenue": 2900.82,
+    "purchaseCost": 1938.75,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Xtreme Ink",
+    "revenue": 429.75,
+    "purchaseCost": 291.84,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Braun",
+    "revenue": 49.59,
+    "purchaseCost": 37.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "AVA Machine",
+    "revenue": 264.47,
+    "purchaseCost": 115.10000000000001,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 388.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Tombow",
+    "revenue": 327.28,
+    "purchaseCost": 192.74,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 30.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "UNISTAR",
+    "revenue": 577.69,
+    "purchaseCost": 237.07,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-07",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 3303.54,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3394.5800000000004,
+    "purchaseCost": 2010.9499999999998,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "KURO SUMI",
+    "revenue": 9075.17,
+    "purchaseCost": 5911.04,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "DYNAMIC",
+    "revenue": 11171.53,
+    "purchaseCost": 6080.889999999999,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "OZER",
+    "revenue": 7055.41,
+    "purchaseCost": 3201.71,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 10937.99,
+    "purchaseCost": 4104.61,
+    "quantity": 106
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Nezařazeno",
+    "revenue": 5665.750000000001,
+    "purchaseCost": 2833.2100000000005,
+    "quantity": 52
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "KWADRON",
+    "revenue": 14343.019999999997,
+    "purchaseCost": 7581.42,
+    "quantity": 393
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Ostatní",
+    "revenue": 2295.849999999999,
+    "purchaseCost": 862.0399999999998,
+    "quantity": 47
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "UNISTAR",
+    "revenue": 4026.46,
+    "purchaseCost": 1671.6,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "ELITE",
+    "revenue": 8333.83,
+    "purchaseCost": 3368.0199999999995,
+    "quantity": 290
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Cheyenne",
+    "revenue": 6572.7300000000005,
+    "purchaseCost": 3861.310000000001,
+    "quantity": 110
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "SWAVGO",
+    "revenue": 454.54,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "UNIGLOVES",
+    "revenue": 1970.5800000000002,
+    "purchaseCost": 1253.0700000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Sanytol",
+    "revenue": 188.43,
+    "purchaseCost": 138.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Killer Ink",
+    "revenue": 289.25,
+    "purchaseCost": 172.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Wildcat",
+    "revenue": 64.46,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Braun",
+    "revenue": 584.43,
+    "purchaseCost": 457.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 522.61,
+    "purchaseCost": 446.80999999999995,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Piranha",
+    "revenue": 1201.35,
+    "purchaseCost": 732.19,
+    "quantity": 31
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Amiea",
+    "revenue": 818.18,
+    "purchaseCost": 578.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Spirit",
+    "revenue": 1313.23,
+    "purchaseCost": 1007.65,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1242.9700000000003,
+    "purchaseCost": 830.1600000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Biotat",
+    "revenue": 1391.74,
+    "purchaseCost": 788.13,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Etalon Mix",
+    "revenue": 2476.86,
+    "purchaseCost": 1733.79,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Bishop Rotary",
+    "revenue": 24939.670000000002,
+    "purchaseCost": 18550.539999999997,
+    "quantity": 112
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 3431.5899999999992,
+    "purchaseCost": 2083.8199999999997,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 10190.919999999998,
+    "purchaseCost": 3300.44,
+    "quantity": 63
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "World Famous",
+    "revenue": 1633.06,
+    "purchaseCost": 1139.18,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "BLOW ICE",
+    "revenue": 304.96,
+    "purchaseCost": 170.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Tattoo Stuff",
+    "revenue": 469.40999999999997,
+    "purchaseCost": 222.53,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Panthera",
+    "revenue": 2633.88,
+    "purchaseCost": 1588.5599999999997,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Proton",
+    "revenue": 757.85,
+    "purchaseCost": 338.53999999999996,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Tattoo Goo",
+    "revenue": 246.28,
+    "purchaseCost": 162.34,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
     "brand": "Forte",
     "revenue": 164.46,
     "purchaseCost": 122.04,
     "quantity": 1
   },
   {
-    "date": "2026-03-28",
-    "brand": "Hornet Art tattoo Supplies",
+    "date": "2026-02-08",
+    "brand": "Oxxolon",
+    "revenue": 329.75,
+    "purchaseCost": 159.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Reelskin",
+    "revenue": 1628.1,
+    "purchaseCost": 1029.37,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "AVA Machine",
+    "revenue": 1157.0000000000002,
+    "purchaseCost": 471.11999999999995,
+    "quantity": 70
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Rosa",
+    "revenue": 1633.8899999999999,
+    "purchaseCost": 1112.19,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "DC Invention Company",
+    "revenue": 1057.85,
+    "purchaseCost": 626.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "3M",
+    "revenue": 81,
+    "purchaseCost": 39.98,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 258.3,
+    "purchaseCost": 146,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 428.92,
+    "purchaseCost": 330.45,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "I AM INK",
+    "revenue": 1004.96,
+    "purchaseCost": 1044.25,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "PERMA BLEND",
+    "revenue": 1619.84,
+    "purchaseCost": 1059.81,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Electrum",
+    "revenue": 40.5,
+    "purchaseCost": 11.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Lamajja",
+    "revenue": 471.08000000000004,
+    "purchaseCost": 313.84000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 5115.7,
+    "purchaseCost": 3377.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Inkjecta",
+    "revenue": 12388.43,
+    "purchaseCost": 8655,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "POPU",
     "revenue": 106.61,
-    "purchaseCost": 69.77,
+    "purchaseCost": 66.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "RENOVA",
+    "revenue": 196.69,
+    "purchaseCost": 144,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "ALOE TATTOO",
+    "revenue": 510.74,
+    "purchaseCost": 346.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "PEPAX",
+    "revenue": 3593.39,
+    "purchaseCost": 1647.4099999999999,
+    "quantity": 103
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Studex",
+    "revenue": 570.25,
+    "purchaseCost": 335.34,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Premier Products",
+    "revenue": 271.9,
+    "purchaseCost": 186.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Celtic Supply",
+    "revenue": 243.8,
+    "purchaseCost": 141.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "FK IRONS",
+    "revenue": 1012.4,
+    "purchaseCost": 730.25,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Emalla",
+    "revenue": 1476.04,
+    "purchaseCost": 544.8,
+    "quantity": 57
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Xtreme Ink",
+    "revenue": 205.79,
+    "purchaseCost": 124.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "SKINz",
+    "revenue": 206.61,
+    "purchaseCost": 120.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "INTENZE",
+    "revenue": 438.84,
+    "purchaseCost": 339.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "The Inked Army",
+    "revenue": 395.87,
+    "purchaseCost": 251.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Believa Cosmetics",
+    "revenue": 632.23,
+    "purchaseCost": 434.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Radiant Colors USA",
+    "revenue": 2192.8199999999997,
+    "purchaseCost": 1446.7600000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-08",
+    "brand": "Biotek",
+    "revenue": 247.93,
+    "purchaseCost": 159.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "UNIGLOVES",
+    "revenue": 4688.84,
+    "purchaseCost": 3087.58,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Nezařazeno",
+    "revenue": 9810.639999999998,
+    "purchaseCost": 6529.9,
+    "quantity": 92
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "KWADRON",
+    "revenue": 25644.19000000001,
+    "purchaseCost": 13928.899999999992,
+    "quantity": 679
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Ostatní",
+    "revenue": 3472.170000000001,
+    "purchaseCost": 1678.1099999999997,
+    "quantity": 72
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "UNISTAR",
+    "revenue": 5094.140000000001,
+    "purchaseCost": 2120.5699999999997,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Biotek",
+    "revenue": 5201.640000000001,
+    "purchaseCost": 3068.5200000000004,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "PERMA BLEND",
+    "revenue": 6495.0599999999995,
+    "purchaseCost": 4272.29,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Bishop Rotary",
+    "revenue": 12211.43,
+    "purchaseCost": 11030.830000000004,
+    "quantity": 455
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 5127.35,
+    "purchaseCost": 1432.11,
+    "quantity": 167
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "FRAKTAL",
+    "revenue": 931.41,
+    "purchaseCost": 597.6700000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "3M",
+    "revenue": 281.46000000000004,
+    "purchaseCost": 139.92999999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Piranha",
+    "revenue": 5411.260000000001,
+    "purchaseCost": 3086.52,
+    "quantity": 68
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Studex",
+    "revenue": 81.82,
+    "purchaseCost": 44.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 3753.2999999999997,
+    "purchaseCost": 1091.52,
+    "quantity": 160
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "POPU",
+    "revenue": 386.77,
+    "purchaseCost": 99.52000000000001,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Etalon Mix",
+    "revenue": 9414.060000000001,
+    "purchaseCost": 6589.810000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "ELITE",
+    "revenue": 18055.729999999992,
+    "purchaseCost": 7615.08,
+    "quantity": 824
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Emalla",
+    "revenue": 2328.93,
+    "purchaseCost": 970.6700000000001,
+    "quantity": 72
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Celtic Supply",
+    "revenue": 652.06,
+    "purchaseCost": 346.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "ECOLAB",
+    "revenue": 946.3,
+    "purchaseCost": 605.9000000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "ALOE TATTOO",
+    "revenue": 1324.04,
+    "purchaseCost": 877.79,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Cheyenne",
+    "revenue": 4258.0599999999995,
+    "purchaseCost": 2247.6899999999996,
+    "quantity": 148
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "DYNAMIC",
+    "revenue": 5020.300000000001,
+    "purchaseCost": 2954.47,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Spirit",
+    "revenue": 5926.44,
+    "purchaseCost": 3869.6400000000003,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Panthera",
+    "revenue": 4796.140000000001,
+    "purchaseCost": 2760.64,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "The Inked Army",
+    "revenue": 1311.04,
+    "purchaseCost": 877.5,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Proton",
+    "revenue": 624.0099999999999,
+    "purchaseCost": 321.46999999999997,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "KYBROWS",
+    "revenue": 636.37,
+    "purchaseCost": 464.85,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Lamajja",
+    "revenue": 1421.5,
+    "purchaseCost": 952.46,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Xtreme Ink",
+    "revenue": 6122.629999999999,
+    "purchaseCost": 3810.0199999999995,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "EGO tattoo machines",
+    "revenue": 644.63,
+    "purchaseCost": 332.2,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "EasyTattoo",
+    "revenue": 205.79,
+    "purchaseCost": 110.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Forte",
+    "revenue": 328.92,
+    "purchaseCost": 244.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "INTENZE",
+    "revenue": 1679.18,
+    "purchaseCost": 1187.2,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "World Famous",
+    "revenue": 1289.25,
+    "purchaseCost": 849.8900000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 944.7399999999999,
+    "purchaseCost": 552.8,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Starbrite",
+    "revenue": 1169.83,
+    "purchaseCost": 632.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Killer Ink",
+    "revenue": 1182.68,
+    "purchaseCost": 802.29,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "OZER",
+    "revenue": 8411.56,
+    "purchaseCost": 3353.64,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3570.53,
+    "purchaseCost": 2123.16,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "FK IRONS",
+    "revenue": 5166.529999999999,
+    "purchaseCost": 3647.81,
+    "quantity": 128
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "DC Invention Company",
+    "revenue": 1252.07,
+    "purchaseCost": 775.47,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "BLOW ICE",
+    "revenue": 919.4300000000001,
+    "purchaseCost": 568.8199999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "PEPAX",
+    "revenue": 2429.01,
+    "purchaseCost": 1053.28,
+    "quantity": 47
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Electrum",
+    "revenue": 118.17999999999999,
+    "purchaseCost": 47.260000000000005,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 11219.42,
+    "purchaseCost": 4816.29,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "AVA Machine",
+    "revenue": 1223.1100000000001,
+    "purchaseCost": 539.2,
+    "quantity": 74
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 426.45,
+    "purchaseCost": 262,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "BD Insyte",
+    "revenue": 144.64000000000001,
+    "purchaseCost": 109.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Saferly",
+    "revenue": 214.88,
+    "purchaseCost": 118.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Nuva Colors",
+    "revenue": 6850.41,
+    "purchaseCost": 4472.48,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Tattoo Stuff",
+    "revenue": 1481.82,
+    "purchaseCost": 879.4499999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Tattoo Goo",
+    "revenue": 81.82,
+    "purchaseCost": 48.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 997.5100000000001,
+    "purchaseCost": 780.25,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "ETERNAL",
+    "revenue": 349.75,
+    "purchaseCost": 255.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "KURO SUMI",
+    "revenue": 833.72,
+    "purchaseCost": 537.96,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Believa Cosmetics",
+    "revenue": 517.02,
+    "purchaseCost": 386.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Dermalize",
+    "revenue": 737.52,
+    "purchaseCost": 413.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 2154.59,
+    "purchaseCost": 1323.74,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 392.73,
+    "purchaseCost": 213.2,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1729.75,
+    "purchaseCost": 1307.6000000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "SWAVGO",
+    "revenue": 9.22,
+    "purchaseCost": 4.33,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Biotat",
+    "revenue": 329.75,
+    "purchaseCost": 189.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "TattooMed®",
+    "revenue": 657.85,
+    "purchaseCost": 438.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-09",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 577.69,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Bishop Rotary",
+    "revenue": 14158.839999999995,
+    "purchaseCost": 12592.5,
+    "quantity": 489
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "FineLine",
+    "revenue": 3990.93,
+    "purchaseCost": 2503.38,
+    "quantity": 138
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Sharpie",
+    "revenue": 220.66,
+    "purchaseCost": 130.59,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "UNIGLOVES",
+    "revenue": 7905.940000000001,
+    "purchaseCost": 5096.839999999999,
+    "quantity": 61
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "ETERNAL",
+    "revenue": 2627.29,
+    "purchaseCost": 1763.31,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Nezařazeno",
+    "revenue": 9911.960000000003,
+    "purchaseCost": 5145.9400000000005,
+    "quantity": 95
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Reelskin",
+    "revenue": 1479.34,
+    "purchaseCost": 964.62,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Tattoo Stuff",
+    "revenue": 1497.5100000000002,
+    "purchaseCost": 868.44,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "UNISTAR",
+    "revenue": 7964.950000000003,
+    "purchaseCost": 3306.1800000000003,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Tattoo Goo",
+    "revenue": 123.14,
+    "purchaseCost": 81.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2797.51,
+    "purchaseCost": 788.4499999999999,
+    "quantity": 81
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "KWADRON",
+    "revenue": 38234.52000000002,
+    "purchaseCost": 20690.400000000005,
+    "quantity": 1092
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Ostatní",
+    "revenue": 5556.760000000001,
+    "purchaseCost": 2402.5400000000004,
+    "quantity": 70
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 2254.53,
+    "purchaseCost": 1769.5800000000002,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "KURO SUMI",
+    "revenue": 1652.07,
+    "purchaseCost": 1004.1600000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "ELITE",
+    "revenue": 37111.29000000002,
+    "purchaseCost": 15008.479999999996,
+    "quantity": 1365
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Panthera",
+    "revenue": 4971.67,
+    "purchaseCost": 2946.89,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Celtic Supply",
+    "revenue": 1582.63,
+    "purchaseCost": 845.87,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Biotek",
+    "revenue": 1679.5900000000001,
+    "purchaseCost": 875.0900000000001,
+    "quantity": 34
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Buff Browz",
+    "revenue": 345.46,
+    "purchaseCost": 340.04,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "TattooMed®",
+    "revenue": 1307.44,
+    "purchaseCost": 913.8899999999999,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1190.08,
+    "purchaseCost": 775.86,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Cheyenne",
+    "revenue": 3161.17,
+    "purchaseCost": 1463.8799999999999,
+    "quantity": 100
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "DYNAMIC",
+    "revenue": 10585.189999999997,
+    "purchaseCost": 6108.230000000001,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Emalla",
+    "revenue": 9948.779999999999,
+    "purchaseCost": 3902.9900000000002,
+    "quantity": 308
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "World Famous",
+    "revenue": 2922.71,
+    "purchaseCost": 1864.6000000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Xtreme Ink",
+    "revenue": 2932.2200000000003,
+    "purchaseCost": 1977.36,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Rosa",
+    "revenue": 817.36,
+    "purchaseCost": 650,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "FK IRONS",
+    "revenue": 3826.439999999999,
+    "purchaseCost": 2802.79,
+    "quantity": 96
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Piranha",
+    "revenue": 5367.330000000002,
+    "purchaseCost": 2485.589999999999,
+    "quantity": 67
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "3M",
+    "revenue": 583.14,
+    "purchaseCost": 299.85,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "SWAVGO",
+    "revenue": 1500,
+    "purchaseCost": 735.2800000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Proton",
+    "revenue": 956.6399999999999,
+    "purchaseCost": 430.1600000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 704.26,
+    "purchaseCost": 560.4000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 6760.33,
+    "purchaseCost": 3939.3199999999997,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "AVA Machine",
+    "revenue": 347.11,
+    "purchaseCost": 131.8,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "PEPAX",
+    "revenue": 4676.02,
+    "purchaseCost": 2107.93,
+    "quantity": 137
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "DC Invention Company",
+    "revenue": 247.11,
+    "purchaseCost": 173.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Tattoo Armour",
+    "revenue": 329.75,
+    "purchaseCost": 289.54,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Premier Products",
+    "revenue": 940.5,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 25373.57,
+    "purchaseCost": 9558.92,
+    "quantity": 103
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2800.9299999999994,
+    "purchaseCost": 1748.6899999999996,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "OZER",
+    "revenue": 10066.1,
+    "purchaseCost": 5147.65,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Electrum",
+    "revenue": 258.69,
+    "purchaseCost": 144.65,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Allegory Ink",
+    "revenue": 2116.52,
+    "purchaseCost": 1701,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 5093.21,
+    "purchaseCost": 3375.0299999999997,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Biotat",
+    "revenue": 1229.83,
+    "purchaseCost": 700.74,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 388.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 1078.76,
+    "purchaseCost": 676.5,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "TATSoul",
+    "revenue": 148.76,
+    "purchaseCost": 99.02,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Spirit",
+    "revenue": 4407.86,
+    "purchaseCost": 3077.75,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Killer Ink",
+    "revenue": 789.25,
+    "purchaseCost": 516.5,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Believa Cosmetics",
+    "revenue": 262.8,
+    "purchaseCost": 172.34,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "The Inked Army",
+    "revenue": 1055.37,
+    "purchaseCost": 625.15,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "ALOE TATTOO",
+    "revenue": 495.04,
+    "purchaseCost": 284.31,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "BLOW ICE",
+    "revenue": 734.3399999999999,
+    "purchaseCost": 499.97,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Lamajja",
+    "revenue": 198.35,
+    "purchaseCost": 122.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 327.27,
+    "purchaseCost": 170.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "PERMA BLEND",
+    "revenue": 4065.3,
+    "purchaseCost": 2667.55,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Tombow",
+    "revenue": 163.64,
+    "purchaseCost": 96.37,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "SKINz",
+    "revenue": 371.9,
+    "purchaseCost": 187.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "MAPO Medical",
+    "revenue": 844.6300000000001,
+    "purchaseCost": 585,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "I AM INK",
+    "revenue": 1948.3500000000001,
+    "purchaseCost": 1989.2,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Etalon Mix",
+    "revenue": 6111.58,
+    "purchaseCost": 4279.65,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Dermalize",
+    "revenue": 785.12,
+    "purchaseCost": 437.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "INTENZE",
+    "revenue": 975.21,
+    "purchaseCost": 679.42,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Prime",
+    "revenue": 431.39,
+    "purchaseCost": 218.56,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Coal Black",
+    "revenue": 391.78,
+    "purchaseCost": 291.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "INK-EEZE",
+    "revenue": 281.86,
+    "purchaseCost": 173.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Braun",
+    "revenue": 383.93,
+    "purchaseCost": 294.03,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Saferly",
+    "revenue": 247.11,
+    "purchaseCost": 170.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Studex",
+    "revenue": 247.11,
+    "purchaseCost": 168.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "ECOLAB",
+    "revenue": 378.52,
+    "purchaseCost": 242.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-10",
+    "brand": "Wildcat",
+    "revenue": 32.23,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "ELITE",
+    "revenue": 18987.57,
+    "purchaseCost": 7416.099999999997,
+    "quantity": 635
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "KWADRON",
+    "revenue": 36671.56000000003,
+    "purchaseCost": 21414.119999999995,
+    "quantity": 614
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "UNISTAR",
+    "revenue": 5031.09,
+    "purchaseCost": 2008.2399999999998,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "UNIGLOVES",
+    "revenue": 4011.62,
+    "purchaseCost": 2508.65,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 8863.639999999998,
+    "purchaseCost": 2955.96,
+    "quantity": 340
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "FineLine",
+    "revenue": 471.06,
+    "purchaseCost": 272.40000000000003,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Ostatní",
+    "revenue": 2650.45,
+    "purchaseCost": 1389.08,
+    "quantity": 73
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1226.7,
+    "purchaseCost": 1007.21,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Sanytol",
+    "revenue": 123.14,
+    "purchaseCost": 91.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "DYNAMIC",
+    "revenue": 13752.219999999994,
+    "purchaseCost": 7577.580000000001,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Proton",
+    "revenue": 1847.9999999999998,
+    "purchaseCost": 928.6299999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Nezařazeno",
+    "revenue": 10005.82,
+    "purchaseCost": 5226.490000000001,
+    "quantity": 120
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Bishop Rotary",
+    "revenue": 62552.719999999994,
+    "purchaseCost": 49861.05999999999,
+    "quantity": 919
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "PERMA BLEND",
+    "revenue": 1619.84,
+    "purchaseCost": 1080.7800000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Biotek",
+    "revenue": 2036.5,
+    "purchaseCost": 1170.08,
+    "quantity": 46
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1267.76,
+    "purchaseCost": 786.3499999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 5404.7300000000005,
+    "purchaseCost": 2207.86,
+    "quantity": 85
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Etalon Mix",
+    "revenue": 8422.32,
+    "purchaseCost": 6242.700000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Emalla",
+    "revenue": 142.55,
+    "purchaseCost": 53.08,
+    "quantity": 34
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Electrum",
+    "revenue": 243.43,
+    "purchaseCost": 105.27,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "I AM INK",
+    "revenue": 1198.35,
+    "purchaseCost": 1165.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Killer Ink",
+    "revenue": 495.94,
+    "purchaseCost": 349.77000000000004,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Piranha",
+    "revenue": 3113.349999999999,
+    "purchaseCost": 1684.5300000000004,
+    "quantity": 49
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Lamajja",
+    "revenue": 773.55,
+    "purchaseCost": 478.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "KYBROWS",
+    "revenue": 208.26,
+    "purchaseCost": 146.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Wildcat",
+    "revenue": 868.77,
+    "purchaseCost": 558.03,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "LASKIN",
+    "revenue": 413.22,
+    "purchaseCost": 309.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Tattoo Stuff",
+    "revenue": 991.72,
+    "purchaseCost": 574.14,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "INTENZE",
+    "revenue": 487.6,
+    "purchaseCost": 339.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Xiantao Xingrong",
+    "revenue": 81.82,
+    "purchaseCost": 60.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Prime",
+    "revenue": 766.9200000000001,
+    "purchaseCost": 340.2,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "MAPO Medical",
+    "revenue": 229.76,
+    "purchaseCost": 150,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "ECOLAB",
+    "revenue": 757.04,
+    "purchaseCost": 484.72,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1954.68,
+    "purchaseCost": 1285.78,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Forte",
+    "revenue": 320.70000000000005,
+    "purchaseCost": 244.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "PEPAX",
+    "revenue": 1632.24,
+    "purchaseCost": 762.95,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Cheyenne",
+    "revenue": 1005.79,
+    "purchaseCost": 432.5,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 246.28,
+    "purchaseCost": 121.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Rosa",
+    "revenue": 1710.75,
+    "purchaseCost": 1148.6,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Braun",
+    "revenue": 461.99,
+    "purchaseCost": 341.92,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Biotat",
+    "revenue": 766.11,
+    "purchaseCost": 436.66,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 655.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Reelskin",
+    "revenue": 239.67,
+    "purchaseCost": 149.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 936.8199999999999,
+    "purchaseCost": 563.75,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Xtreme Ink",
+    "revenue": 2864.45,
+    "purchaseCost": 2019.9699999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "EasyTattoo",
+    "revenue": 264.46,
+    "purchaseCost": 190.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "OZER",
+    "revenue": 1428.51,
+    "purchaseCost": 467.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Spirit",
+    "revenue": 1009.0899999999999,
+    "purchaseCost": 936,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Dermalize",
+    "revenue": 295.86,
+    "purchaseCost": 155.52,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Panthera",
+    "revenue": 4122.82,
+    "purchaseCost": 2369.55,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "TattooMed®",
+    "revenue": 557.85,
+    "purchaseCost": 311.1,
+    "quantity": 45
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "FK IRONS",
+    "revenue": 1848.75,
+    "purchaseCost": 1180.58,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "3M",
+    "revenue": 281.44,
+    "purchaseCost": 139.92999999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "DC Invention Company",
+    "revenue": 1518.17,
+    "purchaseCost": 1010.8299999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "SUNSKIN",
+    "revenue": 907.44,
+    "purchaseCost": 644.42,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "KURO SUMI",
+    "revenue": 2621.51,
+    "purchaseCost": 1713.64,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Magic Moon",
+    "revenue": 404.13,
+    "purchaseCost": 265.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 443.8,
+    "purchaseCost": 335.15999999999997,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Tattoo Goo",
+    "revenue": 107.44,
+    "purchaseCost": 84.25,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 3395.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "EIKON",
+    "revenue": 56.2,
+    "purchaseCost": 17.91,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Studex",
+    "revenue": 975.2,
+    "purchaseCost": 586.03,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Celtic Supply",
+    "revenue": 321.48,
+    "purchaseCost": 63.61,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "BLOW ICE",
+    "revenue": 197.52,
+    "purchaseCost": 135.36,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "The Inked Army",
+    "revenue": 848.75,
+    "purchaseCost": 520.8199999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Sharpie",
+    "revenue": 346.28,
+    "purchaseCost": 240.16,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "RENOVA",
+    "revenue": 98.35,
+    "purchaseCost": 72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 308.3,
+    "purchaseCost": 184.52999999999997,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 409.09,
+    "purchaseCost": 213.2,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-11",
+    "brand": "AVA Machine",
+    "revenue": 132.23000000000002,
+    "purchaseCost": 48.39999999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Piranha",
+    "revenue": 4861.249999999999,
+    "purchaseCost": 2889.11,
+    "quantity": 64
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Bishop Rotary",
+    "revenue": 5618.209999999998,
+    "purchaseCost": 4085.2200000000003,
+    "quantity": 204
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "KURO SUMI",
+    "revenue": 2258.79,
+    "purchaseCost": 1499.6800000000003,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "KWADRON",
+    "revenue": 31650.020000000008,
+    "purchaseCost": 17216.849999999995,
+    "quantity": 720
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "OZER",
+    "revenue": 444.75,
+    "purchaseCost": 200.69,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Etalon Mix",
+    "revenue": 7186.78,
+    "purchaseCost": 5030.74,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Dermalize",
+    "revenue": 785.12,
+    "purchaseCost": 437.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "UNIGLOVES",
+    "revenue": 2260.81,
+    "purchaseCost": 1436.0400000000002,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "DYNAMIC",
+    "revenue": 5224.02,
+    "purchaseCost": 2946.3000000000006,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Ostatní",
+    "revenue": 2414.86,
+    "purchaseCost": 756.5999999999999,
+    "quantity": 84
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Reelskin",
+    "revenue": 694.22,
+    "purchaseCost": 439.99,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 8678.489999999998,
+    "purchaseCost": 2576.43,
+    "quantity": 279
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Tattoo Armour",
+    "revenue": 742.15,
+    "purchaseCost": 656.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "SKINz",
+    "revenue": 371.9,
+    "purchaseCost": 187.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Xtreme Ink",
+    "revenue": 429.75,
+    "purchaseCost": 263.41,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "ELITE",
+    "revenue": 7531.360000000002,
+    "purchaseCost": 3031.240000000001,
+    "quantity": 288
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Celtic Supply",
+    "revenue": 572.72,
+    "purchaseCost": 268.47,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Biotat",
+    "revenue": 262.8,
+    "purchaseCost": 133.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 540.5,
+    "purchaseCost": 334.81,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Nezařazeno",
+    "revenue": 8515.150000000001,
+    "purchaseCost": 5383.83,
+    "quantity": 178
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Proton",
+    "revenue": 495.03999999999996,
+    "purchaseCost": 286.14,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "UNISTAR",
+    "revenue": 3816.83,
+    "purchaseCost": 1616.8600000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "SWAVGO",
+    "revenue": 1113.63,
+    "purchaseCost": 525.2,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Tattoo Goo",
+    "revenue": 807.4300000000001,
+    "purchaseCost": 684.71,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "TattooMed®",
+    "revenue": 263.64,
+    "purchaseCost": 119.07,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Tattoo Stuff",
+    "revenue": 644.62,
+    "purchaseCost": 364.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "The Inked Army",
+    "revenue": 444.62,
+    "purchaseCost": 279,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "3M",
+    "revenue": 265.26,
+    "purchaseCost": 139.92999999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "KILLERBLACK",
+    "revenue": 1531.4,
+    "purchaseCost": 1179.05,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Panthera",
+    "revenue": 2534.8399999999997,
+    "purchaseCost": 1504.76,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 4950.41,
+    "purchaseCost": 2052.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "World Famous",
+    "revenue": 4655.360000000001,
+    "purchaseCost": 3094.91,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Killer Ink",
+    "revenue": 693.38,
+    "purchaseCost": 422.6,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 14721.490000000003,
+    "purchaseCost": 6976.25,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "AVA Machine",
+    "revenue": 1289.2599999999998,
+    "purchaseCost": 506.2,
+    "quantity": 80
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Electrum",
+    "revenue": 698.36,
+    "purchaseCost": 369.25,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Premier Products",
+    "revenue": 783.47,
+    "purchaseCost": 453.08000000000004,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 629.75,
+    "purchaseCost": 391.11,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 81.82,
+    "purchaseCost": 42.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "SKULLDNA",
+    "revenue": 62.52,
+    "purchaseCost": 18.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Biotek",
+    "revenue": 2106.61,
+    "purchaseCost": 1148.16,
+    "quantity": 46
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "EIKON",
+    "revenue": 56.2,
+    "purchaseCost": 17.91,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Cheyenne",
+    "revenue": 2769.4300000000003,
+    "purchaseCost": 2692.1600000000003,
+    "quantity": 74
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "ALOE TATTOO",
+    "revenue": 238.84,
+    "purchaseCost": 148.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2709.9199999999996,
+    "purchaseCost": 1568.45,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Spirit",
+    "revenue": 4403.719999999999,
+    "purchaseCost": 2776.66,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "FK IRONS",
+    "revenue": 986.79,
+    "purchaseCost": 765.7199999999999,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 12388.43,
+    "purchaseCost": 9950.61,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Radiant Colors USA",
+    "revenue": 1319,
+    "purchaseCost": 826.72,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "ECOLAB",
+    "revenue": 567.78,
+    "purchaseCost": 363.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Rosa",
+    "revenue": 300.82000000000005,
+    "purchaseCost": 237.38,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "PEPAX",
+    "revenue": 630.58,
+    "purchaseCost": 303,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "DC Invention Company",
+    "revenue": 975.2,
+    "purchaseCost": 668.26,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "FineLine",
+    "revenue": 314.05,
+    "purchaseCost": 180.7,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 528.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 253.26,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "POPU",
+    "revenue": 106.61,
+    "purchaseCost": 66.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "BLOW ICE",
+    "revenue": 119.01,
+    "purchaseCost": 106.32,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "The Perma",
+    "revenue": 884.3,
+    "purchaseCost": 558.15,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "The Pigment",
+    "revenue": 3595.04,
+    "purchaseCost": 1945.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "Sanytol",
+    "revenue": 123.14,
+    "purchaseCost": 91.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-12",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "OZER",
+    "revenue": 1070.24,
+    "purchaseCost": 573.57,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Nezařazeno",
+    "revenue": 7575.43,
+    "purchaseCost": 3630.3899999999994,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Forte",
+    "revenue": 493.38,
+    "purchaseCost": 366.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "UNIGLOVES",
+    "revenue": 3796.97,
+    "purchaseCost": 2456.7200000000003,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "ECOLAB",
+    "revenue": 1374.3999999999999,
+    "purchaseCost": 887.44,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "DYNAMIC",
+    "revenue": 9421.550000000001,
+    "purchaseCost": 5205.520000000001,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Electrum",
+    "revenue": 780.1700000000001,
+    "purchaseCost": 295.28,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Ostatní",
+    "revenue": 3684.2999999999993,
+    "purchaseCost": 1280.08,
+    "quantity": 78
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "KWADRON",
+    "revenue": 15460.990000000009,
+    "purchaseCost": 7812.990000000002,
+    "quantity": 430
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "EIKON",
+    "revenue": 818.18,
+    "purchaseCost": 603.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Bishop Rotary",
+    "revenue": 14840.460000000001,
+    "purchaseCost": 11325.640000000001,
+    "quantity": 549
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 1793.3999999999999,
+    "purchaseCost": 484.90000000000003,
+    "quantity": 73
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "ELITE",
+    "revenue": 23843.99999999998,
+    "purchaseCost": 10497.639999999996,
+    "quantity": 523
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Piranha",
+    "revenue": 3341.3199999999997,
+    "purchaseCost": 1814.5000000000005,
+    "quantity": 61
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Spirit",
+    "revenue": 3538.84,
+    "purchaseCost": 2822.86,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2819.83,
+    "purchaseCost": 893.6,
+    "quantity": 115
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Cheyenne",
+    "revenue": 1209.09,
+    "purchaseCost": 588.8,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "SWAVGO",
+    "revenue": 874.99,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "INTENZE",
+    "revenue": 1462.8000000000002,
+    "purchaseCost": 1016.4699999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Panthera",
+    "revenue": 6069.629999999999,
+    "purchaseCost": 3560.3999999999996,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Etalon Mix",
+    "revenue": 7926.45,
+    "purchaseCost": 5548.4800000000005,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Biotat",
+    "revenue": 718.5999999999999,
+    "purchaseCost": 440.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "I AM INK",
+    "revenue": 1057.85,
+    "purchaseCost": 1044.48,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 1677.2699999999998,
+    "purchaseCost": 895.4399999999999,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "PERMA BLEND",
+    "revenue": 13299.929999999998,
+    "purchaseCost": 10023.359999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Sharpie",
+    "revenue": 429.01,
+    "purchaseCost": 254.09,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "World Famous",
+    "revenue": 7832.2300000000005,
+    "purchaseCost": 4796.780000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Reelskin",
+    "revenue": 2438.02,
+    "purchaseCost": 1562.18,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Allegory Ink",
+    "revenue": 1231.4,
+    "purchaseCost": 972,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Dermalize",
+    "revenue": 773.54,
+    "purchaseCost": 465.86,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 839.6700000000001,
+    "purchaseCost": 583.13,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "DC Invention Company",
+    "revenue": 869.4200000000001,
+    "purchaseCost": 668.26,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 1185.6599999999999,
+    "purchaseCost": 709.75,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Proton",
+    "revenue": 1099.25,
+    "purchaseCost": 542.66,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "FK IRONS",
+    "revenue": 2126.43,
+    "purchaseCost": 1834.57,
+    "quantity": 63
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 280.99,
+    "purchaseCost": 218.73,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "ALOE TATTOO",
+    "revenue": 205.79,
+    "purchaseCost": 129.06,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "3M",
+    "revenue": 315.88,
+    "purchaseCost": 159.92,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "The Inked Army",
+    "revenue": 691.73,
+    "purchaseCost": 400.63,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Xtreme Ink",
+    "revenue": 625.25,
+    "purchaseCost": 387.46000000000004,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2051.23,
+    "purchaseCost": 1214.97,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "TattooMed®",
+    "revenue": 256.19,
+    "purchaseCost": 161.75,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Studex",
+    "revenue": 1793.3899999999999,
+    "purchaseCost": 1135.1799999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "KURO SUMI",
+    "revenue": 329.75,
+    "purchaseCost": 213.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "FineLine",
+    "revenue": 690.9000000000001,
+    "purchaseCost": 417.68,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Tattoo Stuff",
+    "revenue": 937.1800000000001,
+    "purchaseCost": 530.8499999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "PEPAX",
+    "revenue": 1997.5599999999997,
+    "purchaseCost": 1038.77,
+    "quantity": 91
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "SKULLDNA",
+    "revenue": 660.33,
+    "purchaseCost": 316.43,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Emalla",
+    "revenue": 1004.13,
+    "purchaseCost": 340.5,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "UNISTAR",
+    "revenue": 633.89,
+    "purchaseCost": 186.59,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "BLOW ICE",
+    "revenue": 404.13,
+    "purchaseCost": 258.78999999999996,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Biotek",
+    "revenue": 350.42,
+    "purchaseCost": 221.34,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1219.01,
+    "purchaseCost": 757.94,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Nuva Colors",
+    "revenue": 3466.1400000000003,
+    "purchaseCost": 2332.69,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Rosa",
+    "revenue": 164.46,
+    "purchaseCost": 120.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Celtic Supply",
+    "revenue": 487.6,
+    "purchaseCost": 282.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Lamajja",
+    "revenue": 198.35,
+    "purchaseCost": 122.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "MAPO Medical",
+    "revenue": 577.69,
+    "purchaseCost": 400,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Braun",
+    "revenue": 49.59,
+    "purchaseCost": 37.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "Killer Ink",
+    "revenue": 453.72,
+    "purchaseCost": 283.84,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "RENOVA",
+    "revenue": 409.09,
+    "purchaseCost": 160,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-13",
+    "brand": "The Perma",
+    "revenue": 884.2900000000001,
+    "purchaseCost": 490.07,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "DYNAMIC",
+    "revenue": 3867.8300000000013,
+    "purchaseCost": 2237.77,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "AVA Machine",
+    "revenue": 2198.35,
+    "purchaseCost": 968.1,
+    "quantity": 140
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Nezařazeno",
+    "revenue": 4419.63,
+    "purchaseCost": 2575.9400000000005,
+    "quantity": 72
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Spirit",
+    "revenue": 2041.33,
+    "purchaseCost": 1362.26,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "UNIGLOVES",
+    "revenue": 2650.39,
+    "purchaseCost": 1722.86,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Etalon Mix",
+    "revenue": 6111.58,
+    "purchaseCost": 4279.66,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "KWADRON",
+    "revenue": 10581.47,
+    "purchaseCost": 5517.460000000001,
+    "quantity": 251
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Proton",
+    "revenue": 791.7399999999999,
+    "purchaseCost": 437.81,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Believa Cosmetics",
+    "revenue": 131.4,
+    "purchaseCost": 86.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 886.78,
+    "purchaseCost": 542.3299999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Ostatní",
+    "revenue": 1395.04,
+    "purchaseCost": 579.2800000000001,
+    "quantity": 52
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "TattooMed®",
+    "revenue": 300.83000000000004,
+    "purchaseCost": 175.56,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "UNISTAR",
+    "revenue": 1893.55,
+    "purchaseCost": 899,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Cheyenne",
+    "revenue": 462.80999999999995,
+    "purchaseCost": 209.39999999999998,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "FineLine",
+    "revenue": 251.23000000000002,
+    "purchaseCost": 145.1,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "The Inked Army",
+    "revenue": 494.22,
+    "purchaseCost": 242.6,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "FK IRONS",
+    "revenue": 2485.109999999999,
+    "purchaseCost": 1977.76,
+    "quantity": 68
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1271.8900000000003,
+    "purchaseCost": 610.35,
+    "quantity": 65
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 412.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Xtreme Ink",
+    "revenue": 205.79,
+    "purchaseCost": 121.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Piranha",
+    "revenue": 1263.64,
+    "purchaseCost": 653.83,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "BD Insyte",
+    "revenue": 86.78,
+    "purchaseCost": 55.800000000000004,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Biotat",
+    "revenue": 256.2,
+    "purchaseCost": 153.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 334.71,
+    "purchaseCost": 146.56,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "PERMA BLEND",
+    "revenue": 4859.5199999999995,
+    "purchaseCost": 3194.96,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "ELITE",
+    "revenue": 2372.8,
+    "purchaseCost": 1022.2500000000001,
+    "quantity": 49
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Emalla",
+    "revenue": 2765.31,
+    "purchaseCost": 987.22,
+    "quantity": 81
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Panthera",
+    "revenue": 2738.84,
+    "purchaseCost": 1579.25,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "ETERNAL",
+    "revenue": 760.34,
+    "purchaseCost": 520.56,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "OZER",
+    "revenue": 659.5,
+    "purchaseCost": 286.46,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 4585.13,
+    "purchaseCost": 2195.46,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Prime",
+    "revenue": 910.74,
+    "purchaseCost": 485.8,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "EIKON",
+    "revenue": 56.2,
+    "purchaseCost": 17.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "World Famous",
+    "revenue": 429.75,
+    "purchaseCost": 284.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 251.24,
+    "purchaseCost": 173.42000000000002,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "KURO SUMI",
+    "revenue": 329.75,
+    "purchaseCost": 211.91,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Starbrite",
+    "revenue": 1169.83,
+    "purchaseCost": 632.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 240.07999999999998,
+    "purchaseCost": 149.57999999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "PEPAX",
+    "revenue": 653.35,
+    "purchaseCost": 307.47,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 737.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Tattoo Goo",
+    "revenue": 81.82,
+    "purchaseCost": 48.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "Bishop Rotary",
+    "revenue": 265.29,
+    "purchaseCost": 157.22,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "POPU",
+    "revenue": 96.69,
+    "purchaseCost": 23.009999999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-14",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Cheyenne",
+    "revenue": 6596.950000000001,
+    "purchaseCost": 3432.890000000001,
+    "quantity": 238
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Spirit",
+    "revenue": 1513.6399999999999,
+    "purchaseCost": 1348.01,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "KWADRON",
+    "revenue": 23645.500000000004,
+    "purchaseCost": 14045.199999999997,
+    "quantity": 310
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Nezařazeno",
+    "revenue": 11450.079999999998,
+    "purchaseCost": 6413.019999999998,
+    "quantity": 86
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Piranha",
+    "revenue": 1722.7000000000005,
+    "purchaseCost": 925.58,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Premier Products",
+    "revenue": 446.74,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "UNISTAR",
+    "revenue": 2753.0400000000004,
+    "purchaseCost": 1098.47,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "3M",
+    "revenue": 356.38,
+    "purchaseCost": 179.91,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Panthera",
+    "revenue": 1391.8200000000002,
+    "purchaseCost": 866.6400000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "FK IRONS",
+    "revenue": 2564.47,
+    "purchaseCost": 2623.21,
+    "quantity": 92
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2124.87,
+    "purchaseCost": 555.84,
+    "quantity": 62
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "KURO SUMI",
+    "revenue": 659.5,
+    "purchaseCost": 432.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "UNIGLOVES",
+    "revenue": 2668.75,
+    "purchaseCost": 1731.63,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 280.99,
+    "purchaseCost": 218.73,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "The Inked Army",
+    "revenue": 423.06,
+    "purchaseCost": 286.4,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Biotat",
+    "revenue": 873.5600000000001,
+    "purchaseCost": 526.96,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Tattoo Goo",
+    "revenue": 81.82,
+    "purchaseCost": 48.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Believa Cosmetics",
+    "revenue": 561.98,
+    "purchaseCost": 386.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "DYNAMIC",
+    "revenue": 4881.8600000000015,
+    "purchaseCost": 2723.2900000000004,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "ELITE",
+    "revenue": 11516.519999999999,
+    "purchaseCost": 4597.33,
+    "quantity": 466
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "DC Invention Company",
+    "revenue": 1469.42,
+    "purchaseCost": 948.86,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 1156.2,
+    "purchaseCost": 757.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Etalon Mix",
+    "revenue": 2663.71,
+    "purchaseCost": 1881.54,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1476.5700000000002,
+    "purchaseCost": 906.29,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 701.79,
+    "purchaseCost": 560.58,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "ECOLAB",
+    "revenue": 573.6400000000001,
+    "purchaseCost": 383.13,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Ostatní",
+    "revenue": 2627.1,
+    "purchaseCost": 1263.4399999999998,
+    "quantity": 56
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "INKTROX",
+    "revenue": 296.78,
+    "purchaseCost": 218.84,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "SKULLDNA",
+    "revenue": 145.25,
+    "purchaseCost": 45.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Tattoo Stuff",
+    "revenue": 831.4000000000001,
+    "purchaseCost": 510.71,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Killer Ink",
+    "revenue": 433.06,
+    "purchaseCost": 288.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 4905.85,
+    "purchaseCost": 2904.8000000000006,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Xtreme Ink",
+    "revenue": 2891.76,
+    "purchaseCost": 1993.0700000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 896.6900000000002,
+    "purchaseCost": 592.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "AVA Machine",
+    "revenue": 1188.43,
+    "purchaseCost": 505.7100000000001,
+    "quantity": 76
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "BLOW ICE",
+    "revenue": 552.0699999999999,
+    "purchaseCost": 364.61,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Emalla",
+    "revenue": 5264.460000000001,
+    "purchaseCost": 1961.0199999999998,
+    "quantity": 166
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "SWAVGO",
+    "revenue": 636.36,
+    "purchaseCost": 315.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 6250.429999999999,
+    "purchaseCost": 2643.0199999999995,
+    "quantity": 87
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "TattooMed®",
+    "revenue": 263.63,
+    "purchaseCost": 146.19,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Bishop Rotary",
+    "revenue": 2460.33,
+    "purchaseCost": 1226.3899999999999,
+    "quantity": 71
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Proton",
+    "revenue": 815.29,
+    "purchaseCost": 424.03999999999996,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Studex",
+    "revenue": 531.4,
+    "purchaseCost": 355.37,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Biotek",
+    "revenue": 9276.860000000002,
+    "purchaseCost": 5755.789999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Tombow",
+    "revenue": 294.54,
+    "purchaseCost": 168.64,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Reelskin",
+    "revenue": 479.34,
+    "purchaseCost": 298.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Saferly",
+    "revenue": 247.11,
+    "purchaseCost": 170.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Sanytol",
+    "revenue": 311.57,
+    "purchaseCost": 229.57,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "FineLine",
+    "revenue": 1240.5,
+    "purchaseCost": 762.72,
+    "quantity": 42
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "INTENZE",
+    "revenue": 1462.8000000000002,
+    "purchaseCost": 1037.4699999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "ALOE TATTOO",
+    "revenue": 329.75,
+    "purchaseCost": 168.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "OZER",
+    "revenue": 1071.07,
+    "purchaseCost": 448.63,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Nuva Colors",
+    "revenue": 3466.1400000000003,
+    "purchaseCost": 2333.79,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 528.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Prime",
+    "revenue": 71.9,
+    "purchaseCost": 36.45,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "EasyTattoo",
+    "revenue": 234.75,
+    "purchaseCost": 153.14,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "World Famous",
+    "revenue": 454.55,
+    "purchaseCost": 300.11,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Celtic Supply",
+    "revenue": 1065.28,
+    "purchaseCost": 625.35,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "Braun",
+    "revenue": 205.79,
+    "purchaseCost": 152.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "POPU",
+    "revenue": 147.93,
+    "purchaseCost": 33.07,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-15",
+    "brand": "PEPAX",
+    "revenue": 780.99,
+    "purchaseCost": 331.95,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "ETERNAL",
+    "revenue": 3387.63,
+    "purchaseCost": 2275.87,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "DC Invention Company",
+    "revenue": 1847.27,
+    "purchaseCost": 1350.7,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Wildcat",
+    "revenue": 80.99,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Piranha",
+    "revenue": 6824.810000000001,
+    "purchaseCost": 3782.86,
+    "quantity": 74
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Studex",
+    "revenue": 493.39,
+    "purchaseCost": 306.46999999999997,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1858.0400000000002,
+    "purchaseCost": 1222.38,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Nezařazeno",
+    "revenue": 21721.300000000003,
+    "purchaseCost": 16274.230000000003,
+    "quantity": 104
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Cheyenne",
+    "revenue": 3530.7000000000003,
+    "purchaseCost": 1990.69,
+    "quantity": 189
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "AVA Machine",
+    "revenue": 2504.14,
+    "purchaseCost": 1043.9200000000003,
+    "quantity": 160
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "MAPO Medical",
+    "revenue": 304.14,
+    "purchaseCost": 195,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Biotat",
+    "revenue": 1312.4299999999998,
+    "purchaseCost": 761.0699999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Bishop Rotary",
+    "revenue": 9447.750000000002,
+    "purchaseCost": 5609.83,
+    "quantity": 227
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Ostatní",
+    "revenue": 4086.5599999999995,
+    "purchaseCost": 1676.32,
+    "quantity": 98
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Premier Products",
+    "revenue": 783.47,
+    "purchaseCost": 453.08000000000004,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Tattoo Stuff",
+    "revenue": 1190.08,
+    "purchaseCost": 1038.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 2527.26,
+    "purchaseCost": 2003.3400000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "UNIGLOVES",
+    "revenue": 5055.180000000001,
+    "purchaseCost": 3333.5,
+    "quantity": 47
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1446.35,
+    "purchaseCost": 1124.25,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Braun",
+    "revenue": 307.44,
+    "purchaseCost": 227.45999999999998,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Panthera",
+    "revenue": 6078.16,
+    "purchaseCost": 3645,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "The Inked Army",
+    "revenue": 1277.6799999999998,
+    "purchaseCost": 763.3100000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "DYNAMIC",
+    "revenue": 9767.29,
+    "purchaseCost": 5461.359999999999,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Inkjecta",
+    "revenue": 25173.64,
+    "purchaseCost": 19469.75,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "KWADRON",
+    "revenue": 45892.800000000025,
+    "purchaseCost": 25052.130000000012,
+    "quantity": 1042
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1929.09,
+    "purchaseCost": 626.4,
+    "quantity": 54
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "FineLine",
+    "revenue": 628.09,
+    "purchaseCost": 381.36,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "ELITE",
+    "revenue": 40305.80999999998,
+    "purchaseCost": 17857.769999999997,
+    "quantity": 1260
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Spirit",
+    "revenue": 3499.01,
+    "purchaseCost": 2285.13,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "UNISTAR",
+    "revenue": 3522.6800000000003,
+    "purchaseCost": 1491.03,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "FK IRONS",
+    "revenue": 2161.16,
+    "purchaseCost": 1530.4,
+    "quantity": 50
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Believa Cosmetics",
+    "revenue": 517.02,
+    "purchaseCost": 386.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "PEPAX",
+    "revenue": 8377.599999999999,
+    "purchaseCost": 3851.42,
+    "quantity": 329
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Killer Ink",
+    "revenue": 444.20000000000005,
+    "purchaseCost": 267.62,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "ALOE TATTOO",
+    "revenue": 433.95000000000005,
+    "purchaseCost": 228.33,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Etalon Mix",
+    "revenue": 16432.420000000002,
+    "purchaseCost": 11618.220000000001,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "SWAVGO",
+    "revenue": 1363.63,
+    "purchaseCost": 630.24,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 1737.7600000000002,
+    "purchaseCost": 1066.75,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2311.03,
+    "purchaseCost": 1395.0900000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Electrum",
+    "revenue": 1191,
+    "purchaseCost": 584.6,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "ECOLAB",
+    "revenue": 766.69,
+    "purchaseCost": 504.31000000000006,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "3M",
+    "revenue": 202.49,
+    "purchaseCost": 99.94999999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "The Pigment",
+    "revenue": 454.55,
+    "purchaseCost": 248.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "INTENZE",
+    "revenue": 950.82,
+    "purchaseCost": 678.0899999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1253.6899999999998,
+    "purchaseCost": 771.7299999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "REVOLUTION",
+    "revenue": 132.24,
+    "purchaseCost": 45.67,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Celtic Supply",
+    "revenue": 487.6,
+    "purchaseCost": 282.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Biotek",
+    "revenue": 1955.83,
+    "purchaseCost": 1173.16,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "PERMA BLEND",
+    "revenue": 4065.2999999999997,
+    "purchaseCost": 2710.05,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Radiant Colors USA",
+    "revenue": 280.29,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "World Famous",
+    "revenue": 5856.52,
+    "purchaseCost": 4031.2999999999997,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Proton",
+    "revenue": 850.41,
+    "purchaseCost": 442.54999999999995,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Emalla",
+    "revenue": 832.23,
+    "purchaseCost": 295.06,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "LASKIN",
+    "revenue": 17.04,
+    "purchaseCost": 12.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2152.08,
+    "purchaseCost": 567,
+    "quantity": 90
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Tattoo Goo",
+    "revenue": 452.89,
+    "purchaseCost": 358.57,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "TattooMed®",
+    "revenue": 1095.45,
+    "purchaseCost": 780.46,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 519.92,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "SKULLDNA",
+    "revenue": 594.3,
+    "purchaseCost": 316.43,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Xtreme Ink",
+    "revenue": 429.75,
+    "purchaseCost": 291.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "RENOVA",
+    "revenue": 132.85,
+    "purchaseCost": 64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Reelskin",
+    "revenue": 454.55,
+    "purchaseCost": 290.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "OZER",
+    "revenue": 6792.63,
+    "purchaseCost": 2169.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Lamajja",
+    "revenue": 272.73,
+    "purchaseCost": 190.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "Prime",
+    "revenue": 239.67,
+    "purchaseCost": 121.5,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-16",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "UNIGLOVES",
+    "revenue": 6073.560000000001,
+    "purchaseCost": 3990.5999999999995,
+    "quantity": 44
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 3415.29,
+    "purchaseCost": 1107.44,
+    "quantity": 113
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "ELITE",
+    "revenue": 14306.340000000002,
+    "purchaseCost": 5181.240000000001,
+    "quantity": 550
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Nezařazeno",
+    "revenue": 17051.87,
+    "purchaseCost": 8593.660000000003,
+    "quantity": 128
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Saferly",
+    "revenue": 527.28,
+    "purchaseCost": 310.34000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Spirit",
+    "revenue": 3620.3300000000004,
+    "purchaseCost": 2862.87,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Tattoo Stuff",
+    "revenue": 628.5899999999999,
+    "purchaseCost": 375.99,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 327.27,
+    "purchaseCost": 170.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "UNISTAR",
+    "revenue": 5484.5199999999995,
+    "purchaseCost": 2265.51,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Etalon Mix",
+    "revenue": 9414.060000000001,
+    "purchaseCost": 6589.820000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "KWADRON",
+    "revenue": 35604.80000000001,
+    "purchaseCost": 19467.57999999999,
+    "quantity": 1016
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Allegory Ink",
+    "revenue": 1066.12,
+    "purchaseCost": 729,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "REVOLUTION",
+    "revenue": 2033.06,
+    "purchaseCost": 898.2,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Emalla",
+    "revenue": 2196.9700000000003,
+    "purchaseCost": 845.7300000000001,
+    "quantity": 84
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "I AM INK",
+    "revenue": 2008.27,
+    "purchaseCost": 1992.18,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "FK IRONS",
+    "revenue": 1263.63,
+    "purchaseCost": 1150.2399999999998,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 709.9200000000001,
+    "purchaseCost": 380.83000000000004,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "World Famous",
+    "revenue": 2606.6099999999997,
+    "purchaseCost": 1739.1699999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "DYNAMIC",
+    "revenue": 4713.830000000001,
+    "purchaseCost": 2766.67,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "DC Invention Company",
+    "revenue": 1533.85,
+    "purchaseCost": 870.47,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Ostatní",
+    "revenue": 2679.9300000000003,
+    "purchaseCost": 1219.52,
+    "quantity": 79
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2860.3599999999997,
+    "purchaseCost": 1747.6499999999996,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "PEPAX",
+    "revenue": 1488.5,
+    "purchaseCost": 688.7700000000001,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "3M",
+    "revenue": 202.5,
+    "purchaseCost": 99.94999999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "EIKON",
+    "revenue": 56.2,
+    "purchaseCost": 17.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 567.78,
+    "purchaseCost": 338.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Piranha",
+    "revenue": 3855.77,
+    "purchaseCost": 2121.09,
+    "quantity": 65
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Bishop Rotary",
+    "revenue": 8332.2,
+    "purchaseCost": 4975.110000000001,
+    "quantity": 228
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "SWAVGO",
+    "revenue": 681.8100000000001,
+    "purchaseCost": 315.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Xtreme Ink",
+    "revenue": 1476.8600000000001,
+    "purchaseCost": 950.21,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "AVA Machine",
+    "revenue": 991.73,
+    "purchaseCost": 349.22,
+    "quantity": 62
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Panthera",
+    "revenue": 3062.67,
+    "purchaseCost": 1878.83,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Killer Ink",
+    "revenue": 453.71,
+    "purchaseCost": 236.75,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "The Perma",
+    "revenue": 359.5,
+    "purchaseCost": 193.54,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Biotek",
+    "revenue": 4482.64,
+    "purchaseCost": 2622.2400000000002,
+    "quantity": 45
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Lamajja",
+    "revenue": 371.07000000000005,
+    "purchaseCost": 250,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 4876.45,
+    "purchaseCost": 2159.9300000000003,
+    "quantity": 48
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "INTENZE",
+    "revenue": 463.22,
+    "purchaseCost": 339.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Cheyenne",
+    "revenue": 7336.37,
+    "purchaseCost": 3453.8600000000006,
+    "quantity": 210
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "RENOVA",
+    "revenue": 228.1,
+    "purchaseCost": 128,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 967.5300000000001,
+    "purchaseCost": 742.87,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Sharpie",
+    "revenue": 146.28,
+    "purchaseCost": 59.47,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Rosa",
+    "revenue": 328.92,
+    "purchaseCost": 233.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Celtic Supply",
+    "revenue": 408.26,
+    "purchaseCost": 204.86,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 6429.76,
+    "purchaseCost": 2668.52,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Proton",
+    "revenue": 3474.8900000000003,
+    "purchaseCost": 1769.8799999999997,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "TattooMed®",
+    "revenue": 886.7800000000002,
+    "purchaseCost": 591.5,
+    "quantity": 18
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 388.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "POPU",
+    "revenue": 6410.74,
+    "purchaseCost": 2414.1800000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1891.7900000000002,
+    "purchaseCost": 1502.19,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Braun",
+    "revenue": 547.9399999999999,
+    "purchaseCost": 468.28000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1749.65,
+    "purchaseCost": 1007.73,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Premier Products",
+    "revenue": 916.99,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "SUNSKIN",
+    "revenue": 23.55,
+    "purchaseCost": 180,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "ALOE TATTOO",
+    "revenue": 387.6,
+    "purchaseCost": 219.56,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "FineLine",
+    "revenue": 157.02,
+    "purchaseCost": 90.8,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "OZER",
+    "revenue": 905.78,
+    "purchaseCost": 362.86,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "TATSoul",
+    "revenue": 446.28,
+    "purchaseCost": 297.06,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "The Pigment",
+    "revenue": 1078.51,
+    "purchaseCost": 736.29,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 197.52,
+    "purchaseCost": 73.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Tattoo Goo",
+    "revenue": 329.75,
+    "purchaseCost": 277.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "ECOLAB",
+    "revenue": 567.78,
+    "purchaseCost": 363.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Sanytol",
+    "revenue": 65.29,
+    "purchaseCost": 46.87,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 525.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "MAPO Medical",
+    "revenue": 280.99,
+    "purchaseCost": 185,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Forte",
+    "revenue": 247.11,
+    "purchaseCost": 173.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "BLOW ICE",
+    "revenue": 304.96,
+    "purchaseCost": 170.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Tombow",
+    "revenue": 245.45999999999998,
+    "purchaseCost": 126.47999999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "The Inked Army",
+    "revenue": 433.51,
+    "purchaseCost": 279,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Dermalize",
+    "revenue": 801.65,
+    "purchaseCost": 413.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-17",
+    "brand": "Believa Cosmetics",
+    "revenue": 131.4,
+    "purchaseCost": 86.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "ELITE",
+    "revenue": 20102.94,
+    "purchaseCost": 8043.899999999997,
+    "quantity": 770
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Celtic Supply",
+    "revenue": 408.26,
+    "purchaseCost": 204.86,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Spirit",
+    "revenue": 2344.63,
+    "purchaseCost": 1774.8600000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 10550.43,
+    "purchaseCost": 4642.88,
+    "quantity": 111
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "UNIGLOVES",
+    "revenue": 7860.07,
+    "purchaseCost": 5571.429999999999,
+    "quantity": 50
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Sharpie",
+    "revenue": 171.9,
+    "purchaseCost": 100.45,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Ostatní",
+    "revenue": 2667.0699999999993,
+    "purchaseCost": 1240.6,
+    "quantity": 66
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Nezařazeno",
+    "revenue": 11728.580000000004,
+    "purchaseCost": 7374.619999999998,
+    "quantity": 117
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "KWADRON",
+    "revenue": 23627.930000000004,
+    "purchaseCost": 13141.390000000003,
+    "quantity": 620
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Panthera",
+    "revenue": 3672.8599999999997,
+    "purchaseCost": 2202.77,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Proton",
+    "revenue": 2176.56,
+    "purchaseCost": 952.22,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 701.79,
+    "purchaseCost": 560.58,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Piranha",
+    "revenue": 5355.109999999999,
+    "purchaseCost": 2979.3500000000004,
+    "quantity": 101
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "DYNAMIC",
+    "revenue": 9026.47,
+    "purchaseCost": 5131.849999999999,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Prime",
+    "revenue": 1509.9,
+    "purchaseCost": 789.53,
+    "quantity": 65
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "ALOE TATTOO",
+    "revenue": 1176.44,
+    "purchaseCost": 714.95,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "DC Invention Company",
+    "revenue": 787.24,
+    "purchaseCost": 500.54,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Saferly",
+    "revenue": 809.09,
+    "purchaseCost": 362.93999999999994,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Biotat",
+    "revenue": 1447.35,
+    "purchaseCost": 848.8599999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Electrum",
+    "revenue": 218.19,
+    "purchaseCost": 133.07000000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "KURO SUMI",
+    "revenue": 989.25,
+    "purchaseCost": 642.62,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Tattoo Stuff",
+    "revenue": 2180.62,
+    "purchaseCost": 1790.0700000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2740.1499999999996,
+    "purchaseCost": 1748.2499999999995,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Dermalize",
+    "revenue": 1075.62,
+    "purchaseCost": 669.98,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "REVOLUTION",
+    "revenue": 865.71,
+    "purchaseCost": 394.26,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "FineLine",
+    "revenue": 1758.6599999999999,
+    "purchaseCost": 1161.85,
+    "quantity": 66
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "UNISTAR",
+    "revenue": 3388.5000000000005,
+    "purchaseCost": 1335.54,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Biotek",
+    "revenue": 2438.0299999999997,
+    "purchaseCost": 1443.3,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Bishop Rotary",
+    "revenue": 6060.659999999999,
+    "purchaseCost": 3367.939999999999,
+    "quantity": 179
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 700.25,
+    "purchaseCost": 451,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "TattooMed®",
+    "revenue": 1284.71,
+    "purchaseCost": 713.9000000000001,
+    "quantity": 70
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 8183.47,
+    "purchaseCost": 2503.15,
+    "quantity": 294
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "I AM INK",
+    "revenue": 554.96,
+    "purchaseCost": 631.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Killer Ink",
+    "revenue": 523.97,
+    "purchaseCost": 334.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Etalon Mix",
+    "revenue": 15429.100000000002,
+    "purchaseCost": 10985.36,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Cheyenne",
+    "revenue": 2616.5299999999997,
+    "purchaseCost": 1428.51,
+    "quantity": 102
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "FRAKTAL",
+    "revenue": 256.2,
+    "purchaseCost": 162.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 139.67,
+    "purchaseCost": 73.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "SKINz",
+    "revenue": 3016.53,
+    "purchaseCost": 1451.55,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "BLOW ICE",
+    "revenue": 82.64,
+    "purchaseCost": 70.88,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "3M",
+    "revenue": 741.0799999999999,
+    "purchaseCost": 399.79999999999995,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "OZER",
+    "revenue": 16655.339999999997,
+    "purchaseCost": 8791.899999999998,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Tattoo Armour",
+    "revenue": 1319.01,
+    "purchaseCost": 1158.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "The Inked Army",
+    "revenue": 896.4000000000001,
+    "purchaseCost": 547.53,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "The Perma",
+    "revenue": 958.68,
+    "purchaseCost": 527.52,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "FK IRONS",
+    "revenue": 20166.120000000003,
+    "purchaseCost": 13488.2,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2630.53,
+    "purchaseCost": 1612.82,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 537.19,
+    "purchaseCost": 357.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Emalla",
+    "revenue": 388.44,
+    "purchaseCost": 149.34,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 476.85,
+    "purchaseCost": 366.84000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Lamajja",
+    "revenue": 305.79,
+    "purchaseCost": 214.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "ECOLAB",
+    "revenue": 814.89,
+    "purchaseCost": 554.79,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "SWAVGO",
+    "revenue": 431.82000000000005,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "RENOVA",
+    "revenue": 223.05999999999997,
+    "purchaseCost": 125.44,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "BD Insyte",
+    "revenue": 1330.58,
+    "purchaseCost": 1185.5,
+    "quantity": 50
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "SKULLDNA",
+    "revenue": 801.36,
+    "purchaseCost": 357.94,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "PERMA BLEND",
+    "revenue": 2429.7599999999998,
+    "purchaseCost": 1605.4,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Wildcat",
+    "revenue": 74.38,
+    "purchaseCost": 45.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Rosa",
+    "revenue": 386.78,
+    "purchaseCost": 308.93,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Premier Products",
+    "revenue": 266.24,
+    "purchaseCost": 175.83,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "World Famous",
+    "revenue": 1116.94,
+    "purchaseCost": 863.96,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 402.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "AVA Machine",
+    "revenue": 264.48,
+    "purchaseCost": 103.12,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 940.5,
+    "purchaseCost": 545.13,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "PEPAX",
+    "revenue": 119.34,
+    "purchaseCost": 34.88,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Xtreme Ink",
+    "revenue": 2140.5,
+    "purchaseCost": 1397.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Braun",
+    "revenue": 205.79,
+    "purchaseCost": 154.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "POPU",
+    "revenue": 6254.540000000001,
+    "purchaseCost": 2294.48,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-18",
+    "brand": "Believa Cosmetics",
+    "revenue": 313.26,
+    "purchaseCost": 183.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "KWADRON",
+    "revenue": 23448.910000000007,
+    "purchaseCost": 13251.250000000007,
+    "quantity": 631
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Piranha",
+    "revenue": 5085.420000000001,
+    "purchaseCost": 2786.909999999999,
+    "quantity": 78
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "ELITE",
+    "revenue": 13129.299999999997,
+    "purchaseCost": 4942.120000000001,
+    "quantity": 503
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Tattoo Goo",
+    "revenue": 246.28,
+    "purchaseCost": 161.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "TattooMed®",
+    "revenue": 1828.93,
+    "purchaseCost": 1098.9399999999998,
+    "quantity": 36
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "DYNAMIC",
+    "revenue": 9285.219999999998,
+    "purchaseCost": 5428.620000000001,
+    "quantity": 34
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Sharpie",
+    "revenue": 87.77,
+    "purchaseCost": 48.02,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "SWAVGO",
+    "revenue": 431.82000000000005,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "RENOVA",
+    "revenue": 676.28,
+    "purchaseCost": 435,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 750.6600000000001,
+    "purchaseCost": 631.5300000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "World Famous",
+    "revenue": 386.78,
+    "purchaseCost": 284.31,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "AVA Machine",
+    "revenue": 740.4900000000001,
+    "purchaseCost": 288.63,
+    "quantity": 45
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Spirit",
+    "revenue": 8058.689999999999,
+    "purchaseCost": 4947.02,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Panthera",
+    "revenue": 2417.4000000000005,
+    "purchaseCost": 1509.04,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "OZER",
+    "revenue": 823.1300000000001,
+    "purchaseCost": 315.60999999999996,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Xtreme Ink",
+    "revenue": 1989.25,
+    "purchaseCost": 1298.52,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 528.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Nezařazeno",
+    "revenue": 15032.3,
+    "purchaseCost": 7929.89,
+    "quantity": 82
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2704.5599999999995,
+    "purchaseCost": 767.0699999999998,
+    "quantity": 89
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Electrum",
+    "revenue": 309.92,
+    "purchaseCost": 129.91,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "PEPAX",
+    "revenue": 2177.3,
+    "purchaseCost": 942.2900000000001,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "3M",
+    "revenue": 242.98000000000002,
+    "purchaseCost": 119.94,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "UNIGLOVES",
+    "revenue": 3078.75,
+    "purchaseCost": 1861.3500000000004,
+    "quantity": 38
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Ostatní",
+    "revenue": 1371.0799999999997,
+    "purchaseCost": 620.7699999999998,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Sanytol",
+    "revenue": 106.61,
+    "purchaseCost": 63.53,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 0,
+    "purchaseCost": 19317.41,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Bishop Rotary",
+    "revenue": 7084.3200000000015,
+    "purchaseCost": 3578.1499999999996,
+    "quantity": 193
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Reelskin",
+    "revenue": 3764.88,
+    "purchaseCost": 2425.8,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Tattoo Stuff",
+    "revenue": 414.87,
+    "purchaseCost": 211.51999999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "The Inked Army",
+    "revenue": 1300.54,
+    "purchaseCost": 837,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Tombow",
+    "revenue": 81.82,
+    "purchaseCost": 42.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "UNISTAR",
+    "revenue": 2637.2500000000005,
+    "purchaseCost": 1091.25,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1520.0999999999997,
+    "purchaseCost": 960.8399999999997,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "ECOLAB",
+    "revenue": 617.36,
+    "purchaseCost": 402.72,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Biotat",
+    "revenue": 696.7,
+    "purchaseCost": 357.66,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "TATSoul",
+    "revenue": 227.27,
+    "purchaseCost": 145.05,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 643.8399999999999,
+    "purchaseCost": 375.59,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Proton",
+    "revenue": 313.22,
+    "purchaseCost": 163.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Emalla",
+    "revenue": 2176.03,
+    "purchaseCost": 886.2800000000001,
+    "quantity": 83
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Biotek",
+    "revenue": 1362.81,
+    "purchaseCost": 813.13,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 4815.3,
+    "purchaseCost": 1736.8600000000001,
+    "quantity": 97
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Killer Ink",
+    "revenue": 123.96000000000001,
+    "purchaseCost": 74.74000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Lamajja",
+    "revenue": 676.86,
+    "purchaseCost": 446.29,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "FineLine",
+    "revenue": 471.07,
+    "purchaseCost": 272.40000000000003,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Cheyenne",
+    "revenue": 1163.64,
+    "purchaseCost": 493.44,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Etalon Mix",
+    "revenue": 2972.73,
+    "purchaseCost": 2080.8999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 77.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "REVOLUTION",
+    "revenue": 623.96,
+    "purchaseCost": 293.99,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "SKINz",
+    "revenue": 371.9,
+    "purchaseCost": 187.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "FK IRONS",
+    "revenue": 1180.18,
+    "purchaseCost": 706.53,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "The Perma",
+    "revenue": 838.84,
+    "purchaseCost": 461.58,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "ALOE TATTOO",
+    "revenue": 355.37,
+    "purchaseCost": 225.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "KURO SUMI",
+    "revenue": 643.01,
+    "purchaseCost": 427.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Nuva Colors",
+    "revenue": 1155.38,
+    "purchaseCost": 799.6,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Celtic Supply",
+    "revenue": 400.82000000000005,
+    "purchaseCost": 141.25,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Studex",
+    "revenue": 1644.63,
+    "purchaseCost": 958.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "SKULLDNA",
+    "revenue": 660.33,
+    "purchaseCost": 316.43,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Prime",
+    "revenue": 503.31000000000006,
+    "purchaseCost": 255.12,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 493.38,
+    "purchaseCost": 382.68,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Inkjecta",
+    "revenue": 577.69,
+    "purchaseCost": 417.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 788.43,
+    "purchaseCost": 453.61999999999995,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Braun",
+    "revenue": 205.79,
+    "purchaseCost": 154.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "Rosa",
+    "revenue": 570.25,
+    "purchaseCost": 400.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-19",
+    "brand": "POPU",
+    "revenue": 128.93,
+    "purchaseCost": 31.92,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "DYNAMIC",
+    "revenue": 5858.71,
+    "purchaseCost": 3340.2000000000003,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Bishop Rotary",
+    "revenue": 6193.39,
+    "purchaseCost": 4341.64,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Rosa",
+    "revenue": 31.35,
+    "purchaseCost": 24.45,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Lamajja",
+    "revenue": 434.35,
+    "purchaseCost": 284.46999999999997,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2827.5699999999997,
+    "purchaseCost": 771.55,
+    "quantity": 124
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "KWADRON",
+    "revenue": 12681.700000000003,
+    "purchaseCost": 7292.32,
+    "quantity": 201
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "LASKIN",
+    "revenue": 221.69000000000003,
+    "purchaseCost": 167.74,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "FK IRONS",
+    "revenue": 754.04,
+    "purchaseCost": 585.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "KYBROWS",
+    "revenue": 12.67,
+    "purchaseCost": 9.06,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Proton",
+    "revenue": 618.1800000000001,
+    "purchaseCost": 297.76,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Believa Cosmetics",
+    "revenue": 131.4,
+    "purchaseCost": 86.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Cheyenne",
+    "revenue": 2804.98,
+    "purchaseCost": 1407.4399999999998,
+    "quantity": 94
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Electrum",
+    "revenue": 404.14,
+    "purchaseCost": 137.34,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Spirit",
+    "revenue": 1983.8899999999999,
+    "purchaseCost": 1358.26,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "OZER",
+    "revenue": 13015.72,
+    "purchaseCost": 8760.74,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "UNIGLOVES",
+    "revenue": 639.87,
+    "purchaseCost": 375.28,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Panthera",
+    "revenue": 1634.7200000000003,
+    "purchaseCost": 902.6800000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1115.7,
+    "purchaseCost": 889.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Premier Products",
+    "revenue": 916.99,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Etalon Mix",
+    "revenue": 7929.76,
+    "purchaseCost": 5550.83,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1337.3600000000001,
+    "purchaseCost": 808.3,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Piranha",
+    "revenue": 2197.54,
+    "purchaseCost": 1283.9400000000003,
+    "quantity": 27
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Nezařazeno",
+    "revenue": 5293.519999999999,
+    "purchaseCost": 2960.4199999999996,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "UNISTAR",
+    "revenue": 429.76,
+    "purchaseCost": 131.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Biotek",
+    "revenue": 3815.9599999999996,
+    "purchaseCost": 2447.39,
+    "quantity": 34
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1985.1299999999999,
+    "purchaseCost": 626.24,
+    "quantity": 77
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "DC Invention Company",
+    "revenue": 1504.13,
+    "purchaseCost": 978.4300000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Biotat",
+    "revenue": 1625.6100000000001,
+    "purchaseCost": 961.01,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "BLOW ICE",
+    "revenue": 749.5899999999999,
+    "purchaseCost": 499.97,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "ELITE",
+    "revenue": 5159.09,
+    "purchaseCost": 1973.28,
+    "quantity": 98
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Ostatní",
+    "revenue": 1542.2000000000005,
+    "purchaseCost": 790.11,
+    "quantity": 69
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1305.0499999999997,
+    "purchaseCost": 1018.21,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Nuva Colors",
+    "revenue": 3960.76,
+    "purchaseCost": 2804.33,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Studex",
+    "revenue": 37.19,
+    "purchaseCost": 26.67,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Tombow",
+    "revenue": 163.64,
+    "purchaseCost": 84.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 342.15,
+    "purchaseCost": 218.43,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Xtreme Ink",
+    "revenue": 1752.06,
+    "purchaseCost": 1015.25,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 525.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "PEPAX",
+    "revenue": 1171.9,
+    "purchaseCost": 413.68,
+    "quantity": 47
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "EasyTattoo",
+    "revenue": 247.11,
+    "purchaseCost": 153.14,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Wildcat",
+    "revenue": 146.28,
+    "purchaseCost": 0,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 366.10999999999996,
+    "purchaseCost": 232.98,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Tattoo Goo",
+    "revenue": 2581.8100000000004,
+    "purchaseCost": 1612.6399999999999,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Killer Ink",
+    "revenue": 234.75,
+    "purchaseCost": 166.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Tattoo Stuff",
+    "revenue": 322.31,
+    "purchaseCost": 182.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "World Famous",
+    "revenue": 1719,
+    "purchaseCost": 1138.3600000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "RENOVA",
+    "revenue": 161.16,
+    "purchaseCost": 98.08,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 619.01,
+    "purchaseCost": 304.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "TattooMed®",
+    "revenue": 203.31,
+    "purchaseCost": 124.69,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "ALOE TATTOO",
+    "revenue": 329.75,
+    "purchaseCost": 225.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "3M",
+    "revenue": 161.99,
+    "purchaseCost": 79.96,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "ECOLAB",
+    "revenue": 625.63,
+    "purchaseCost": 433.61,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 81.82,
+    "purchaseCost": 42.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "The Perma",
+    "revenue": 119.83,
+    "purchaseCost": 65.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Reelskin",
+    "revenue": 909.09,
+    "purchaseCost": 581.2,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "POPU",
+    "revenue": 57.02,
+    "purchaseCost": 12.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "MAPO Medical",
+    "revenue": 189.26,
+    "purchaseCost": 120,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "AVA Machine",
+    "revenue": 82.65,
+    "purchaseCost": 32.650000000000006,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "The Inked Army",
+    "revenue": 222.31,
+    "purchaseCost": 139.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "FineLine",
+    "revenue": 94.21,
+    "purchaseCost": 54.480000000000004,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Prime",
+    "revenue": 71.9,
+    "purchaseCost": 36.45,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-20",
+    "brand": "Celtic Supply",
+    "revenue": 157.02,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Peak",
+    "revenue": 7429.75,
+    "purchaseCost": 5327.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "UNIGLOVES",
+    "revenue": 1675.19,
+    "purchaseCost": 1089.26,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 460.33,
+    "purchaseCost": 276.73,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "DYNAMIC",
+    "revenue": 2859.52,
+    "purchaseCost": 1474.6100000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "The Inked Army",
+    "revenue": 444.62,
+    "purchaseCost": 279,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Tattoo Goo",
+    "revenue": 655.37,
+    "purchaseCost": 402.73,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 412.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1047.93,
+    "purchaseCost": 628.26,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "KWADRON",
+    "revenue": 6626.040000000001,
+    "purchaseCost": 3682.83,
+    "quantity": 129
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "ELITE",
+    "revenue": 1979.7799999999997,
+    "purchaseCost": 697.76,
+    "quantity": 81
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Tombow",
+    "revenue": 245.45999999999998,
+    "purchaseCost": 126.47999999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 763.63,
+    "purchaseCost": 189.09000000000003,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "World Famous",
+    "revenue": 2223.15,
+    "purchaseCost": 1468.32,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Cheyenne",
+    "revenue": 185.13,
+    "purchaseCost": 115.25999999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Ostatní",
+    "revenue": 1792.56,
+    "purchaseCost": 980.86,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Celtic Supply",
+    "revenue": 164.46,
+    "purchaseCost": 63.61,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 384.29999999999995,
+    "purchaseCost": 101.35,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Panthera",
+    "revenue": 2005.7899999999997,
+    "purchaseCost": 1178.87,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1100.83,
+    "purchaseCost": 626.42,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Nezařazeno",
+    "revenue": 1652.9,
+    "purchaseCost": 755.5799999999999,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "RENOVA",
+    "revenue": 81.82,
+    "purchaseCost": 32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Proton",
+    "revenue": 313.22,
+    "purchaseCost": 153.86,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "ALOE TATTOO",
+    "revenue": 206.61,
+    "purchaseCost": 99.47,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Piranha",
+    "revenue": 1087.6000000000001,
+    "purchaseCost": 807.9399999999999,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Sanytol",
+    "revenue": 106.61,
+    "purchaseCost": 63.53,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 389.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Killer Ink",
+    "revenue": 33.06,
+    "purchaseCost": 22.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "UNISTAR",
+    "revenue": 2137.4500000000003,
+    "purchaseCost": 948.28,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "AVA Machine",
+    "revenue": 892.56,
+    "purchaseCost": 349.03,
+    "quantity": 55
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Spirit",
+    "revenue": 2233.88,
+    "purchaseCost": 1388.52,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Premier Products",
+    "revenue": 399.71,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "ACUS",
+    "revenue": 12049.59,
+    "purchaseCost": 8499.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "ECOLAB",
+    "revenue": 378.52,
+    "purchaseCost": 242.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 219.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "REVOLUTION",
+    "revenue": 99.18,
+    "purchaseCost": 40.81,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Bishop Rotary",
+    "revenue": 1917.35,
+    "purchaseCost": 1089.7,
+    "quantity": 46
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Lamajja",
+    "revenue": 545.45,
+    "purchaseCost": 381.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "FK IRONS",
+    "revenue": 544.63,
+    "purchaseCost": 407.56,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1013.22,
+    "purchaseCost": 743.5400000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Dermalize",
+    "revenue": 329.75,
+    "purchaseCost": 232.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 280.99,
+    "purchaseCost": 221.72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Emalla",
+    "revenue": 518.18,
+    "purchaseCost": 178.4,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "PEPAX",
+    "revenue": 920.6600000000001,
+    "purchaseCost": 354.4100000000001,
+    "quantity": 43
+  },
+  {
+    "date": "2026-02-21",
+    "brand": "Forte",
+    "revenue": 247.11,
+    "purchaseCost": 173.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Bishop Rotary",
+    "revenue": 3210.73,
+    "purchaseCost": 1836.8000000000002,
+    "quantity": 63
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "ECOLAB",
+    "revenue": 1020.67,
+    "purchaseCost": 664.6700000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "SWAVGO",
+    "revenue": 897.72,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Nezařazeno",
+    "revenue": 11286.649999999998,
+    "purchaseCost": 5758.93,
+    "quantity": 72
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "UNISTAR",
+    "revenue": 2509.9500000000003,
+    "purchaseCost": 973.1400000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 7187.589999999999,
+    "purchaseCost": 2855.75,
+    "quantity": 148
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "ELITE",
+    "revenue": 10150.349999999999,
+    "purchaseCost": 4801.830000000002,
+    "quantity": 153
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Piranha",
+    "revenue": 4969.209999999999,
+    "purchaseCost": 2806.96,
+    "quantity": 249
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2224.06,
+    "purchaseCost": 1361.9699999999996,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Ostatní",
+    "revenue": 2092.6400000000003,
+    "purchaseCost": 918.9199999999998,
+    "quantity": 49
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 254.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Biotat",
+    "revenue": 812.4000000000001,
+    "purchaseCost": 440.83000000000004,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "KWADRON",
+    "revenue": 12117.02,
+    "purchaseCost": 6216.040000000001,
+    "quantity": 268
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Panthera",
+    "revenue": 6938.85,
+    "purchaseCost": 5117.6900000000005,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Proton",
+    "revenue": 222.31,
+    "purchaseCost": 92.34,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Tattoo Stuff",
+    "revenue": 469.42,
+    "purchaseCost": 222.53,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "The Inked Army",
+    "revenue": 329.75,
+    "purchaseCost": 184.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "UNIGLOVES",
+    "revenue": 2115.35,
+    "purchaseCost": 1407.67,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Cheyenne",
+    "revenue": 5693.39,
+    "purchaseCost": 3191.5300000000007,
+    "quantity": 215
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "DYNAMIC",
+    "revenue": 5571.01,
+    "purchaseCost": 3179.4300000000003,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "RENOVA",
+    "revenue": 196.69,
+    "purchaseCost": 144,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 716.61,
+    "purchaseCost": 560.58,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "TattooMed®",
+    "revenue": 52.89,
+    "purchaseCost": 37.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 395.03,
+    "purchaseCost": 288.64,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 387.6,
+    "purchaseCost": 196.24,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "AVA Machine",
+    "revenue": 958.67,
+    "purchaseCost": 379.76,
+    "quantity": 59
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 3537.17,
+    "purchaseCost": 1062.7100000000003,
+    "quantity": 126
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "World Famous",
+    "revenue": 2504.12,
+    "purchaseCost": 1618.6,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Xtreme Ink",
+    "revenue": 429.75,
+    "purchaseCost": 291.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "ALOE TATTOO",
+    "revenue": 947.93,
+    "purchaseCost": 448.69000000000005,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "OZER",
+    "revenue": 6171.89,
+    "purchaseCost": 2746.0400000000004,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "3M",
+    "revenue": 308.98,
+    "purchaseCost": 159.92,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "LASKIN",
+    "revenue": 206.61,
+    "purchaseCost": 154.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2593.53,
+    "purchaseCost": 1523.9700000000003,
+    "quantity": 28
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Emalla",
+    "revenue": 1955.9299999999998,
+    "purchaseCost": 713.49,
+    "quantity": 72
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "INTENZE",
+    "revenue": 448.6,
+    "purchaseCost": 338.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "BD Insyte",
+    "revenue": 421.98,
+    "purchaseCost": 333.9,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "PEPAX",
+    "revenue": 6586.31,
+    "purchaseCost": 2862.1600000000003,
+    "quantity": 287
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Killer Ink",
+    "revenue": 846.36,
+    "purchaseCost": 605.39,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Prime",
+    "revenue": 479.33000000000004,
+    "purchaseCost": 242.97,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 1135.54,
+    "purchaseCost": 676.5,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "MAPO Medical",
+    "revenue": 114.88,
+    "purchaseCost": 75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "POPU",
+    "revenue": 147.93,
+    "purchaseCost": 31.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Allegory Ink",
+    "revenue": 470.25,
+    "purchaseCost": 461.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Biotek",
+    "revenue": 4252.89,
+    "purchaseCost": 2460.4,
+    "quantity": 41
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "BLOW ICE",
+    "revenue": 304.96,
+    "purchaseCost": 170.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 412.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "DC Invention Company",
+    "revenue": 487.6,
+    "purchaseCost": 333.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Rosa",
+    "revenue": 1717.3600000000001,
+    "purchaseCost": 1159.47,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Celtic Supply",
+    "revenue": 243.8,
+    "purchaseCost": 141.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "KYBROWS",
+    "revenue": 694.22,
+    "purchaseCost": 438.49,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "PERMA BLEND",
+    "revenue": 1139.67,
+    "purchaseCost": 774.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "FK IRONS",
+    "revenue": 2123.96,
+    "purchaseCost": 1580.1799999999998,
+    "quantity": 54
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Lamajja",
+    "revenue": 479.34000000000003,
+    "purchaseCost": 324.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "The Perma",
+    "revenue": 2396.69,
+    "purchaseCost": 1318.8,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Tombow",
+    "revenue": 81.82,
+    "purchaseCost": 42.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Etalon Mix",
+    "revenue": 6111.58,
+    "purchaseCost": 4278.09,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-22",
+    "brand": "Wildcat",
+    "revenue": 297.52,
+    "purchaseCost": 183.8,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "ALOE TATTOO",
+    "revenue": 576.86,
+    "purchaseCost": 297.79,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Nezařazeno",
+    "revenue": 17092.039999999997,
+    "purchaseCost": 9017.239999999998,
+    "quantity": 214
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "World Famous",
+    "revenue": 16425.609999999997,
+    "purchaseCost": 10479.330000000002,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Bishop Rotary",
+    "revenue": 5001.670000000001,
+    "purchaseCost": 2851.13,
+    "quantity": 110
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 801.48,
+    "purchaseCost": 484.25,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Killer Ink",
+    "revenue": 424.91999999999996,
+    "purchaseCost": 307.52,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Biotek",
+    "revenue": 8954.8,
+    "purchaseCost": 5902.47,
+    "quantity": 93
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "UNISTAR",
+    "revenue": 4224.16,
+    "purchaseCost": 1737.2799999999997,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "KWADRON",
+    "revenue": 22782.539999999997,
+    "purchaseCost": 12613.21,
+    "quantity": 646
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "PERMA BLEND",
+    "revenue": 1651.24,
+    "purchaseCost": 1104.52,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "UNIGLOVES",
+    "revenue": 2821.7299999999996,
+    "purchaseCost": 1867.18,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3546.87,
+    "purchaseCost": 2073.75,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Cheyenne",
+    "revenue": 4026.4300000000017,
+    "purchaseCost": 2004.7899999999997,
+    "quantity": 140
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "ELITE",
+    "revenue": 23296.640000000014,
+    "purchaseCost": 10295.419999999996,
+    "quantity": 550
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Celtic Supply",
+    "revenue": 164.46,
+    "purchaseCost": 63.61,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Proton",
+    "revenue": 1887.6100000000001,
+    "purchaseCost": 930.2,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "DYNAMIC",
+    "revenue": 10003.699999999997,
+    "purchaseCost": 5547.74,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Tattoo Stuff",
+    "revenue": 57.03,
+    "purchaseCost": 27.39,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "RENOVA",
+    "revenue": 217.69,
+    "purchaseCost": 136.88,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 3374.579999999999,
+    "purchaseCost": 2061.1,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Piranha",
+    "revenue": 3589.399999999999,
+    "purchaseCost": 2086.0499999999997,
+    "quantity": 61
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 2289.26,
+    "purchaseCost": 1755.78,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 4013.21,
+    "purchaseCost": 3177.02,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 6311.159999999999,
+    "purchaseCost": 2552.8300000000004,
+    "quantity": 108
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Rosa",
+    "revenue": 1147.1100000000001,
+    "purchaseCost": 778.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Biotat",
+    "revenue": 773.79,
+    "purchaseCost": 470.56,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 3893.76,
+    "purchaseCost": 1172.6699999999998,
+    "quantity": 130
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "TattooMed®",
+    "revenue": 769.49,
+    "purchaseCost": 559.46,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Spirit",
+    "revenue": 4282.640000000001,
+    "purchaseCost": 3013.12,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Forte",
+    "revenue": 494.22,
+    "purchaseCost": 347.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "OZER",
+    "revenue": 16408.239999999998,
+    "purchaseCost": 8695.919999999998,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Ostatní",
+    "revenue": 5645.669999999998,
+    "purchaseCost": 2523.850000000001,
+    "quantity": 76
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Wildcat",
+    "revenue": 80.99,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "ITC Piercing",
+    "revenue": 41.32,
+    "purchaseCost": 19.2,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Prime",
+    "revenue": 575.1899999999999,
+    "purchaseCost": 315.90000000000003,
+    "quantity": 26
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "ETERNAL",
+    "revenue": 4127.360000000001,
+    "purchaseCost": 2737.3100000000004,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Lamajja",
+    "revenue": 413.22,
+    "purchaseCost": 267.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 490.08,
+    "purchaseCost": 295.74,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Xtreme Ink",
+    "revenue": 3000,
+    "purchaseCost": 1934.71,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Magic Moon",
+    "revenue": 404.13,
+    "purchaseCost": 265.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "PEPAX",
+    "revenue": 533.06,
+    "purchaseCost": 236.85000000000002,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Emalla",
+    "revenue": 8263.06,
+    "purchaseCost": 3206.17,
+    "quantity": 294
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "INTENZE",
+    "revenue": 2040.4900000000002,
+    "purchaseCost": 1413.0900000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "KURO SUMI",
+    "revenue": 329.75,
+    "purchaseCost": 213.13,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "ECOLAB",
+    "revenue": 781.8299999999999,
+    "purchaseCost": 504.31,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "The Inked Army",
+    "revenue": 804.1299999999999,
+    "purchaseCost": 493.19,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "DC Invention Company",
+    "revenue": 1647.1000000000001,
+    "purchaseCost": 1070.21,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "3M",
+    "revenue": 323.98,
+    "purchaseCost": 159.92,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "AVA Machine",
+    "revenue": 413.22,
+    "purchaseCost": 162.35,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Panthera",
+    "revenue": 3007.52,
+    "purchaseCost": 1833.0900000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "MAPO Medical",
+    "revenue": 114.88,
+    "purchaseCost": 75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "SWAVGO",
+    "revenue": 886.36,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Dermalize",
+    "revenue": 2404.96,
+    "purchaseCost": 1239.3000000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Radiant Colors USA",
+    "revenue": 2275.27,
+    "purchaseCost": 1446.7600000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Etalon Mix",
+    "revenue": 7266.95,
+    "purchaseCost": 5086.839999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "FK IRONS",
+    "revenue": 941.33,
+    "purchaseCost": 610.8899999999999,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Believa Cosmetics",
+    "revenue": 561.98,
+    "purchaseCost": 386.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 619.01,
+    "purchaseCost": 400.09,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Premier Products",
+    "revenue": 940.5,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Studex",
+    "revenue": 111.57,
+    "purchaseCost": 57.81,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Electrum",
+    "revenue": 40.5,
+    "purchaseCost": 11.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 412.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "BLOW ICE",
+    "revenue": 304.96,
+    "purchaseCost": 170.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "The Pigment",
+    "revenue": 2396.7,
+    "purchaseCost": 1392.25,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-23",
+    "brand": "Tattoo Goo",
+    "revenue": 123.14,
+    "purchaseCost": 80.89,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "ECOLAB",
+    "revenue": 781.8299999999999,
+    "purchaseCost": 504.31000000000006,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2411.99,
+    "purchaseCost": 1538.3899999999999,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "AVA Machine",
+    "revenue": 2661.15,
+    "purchaseCost": 1092.2299999999998,
+    "quantity": 171
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "KWADRON",
+    "revenue": 27537.62999999999,
+    "purchaseCost": 14269.63,
+    "quantity": 694
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "DYNAMIC",
+    "revenue": 9143.87,
+    "purchaseCost": 5266.4400000000005,
+    "quantity": 32
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "FK IRONS",
+    "revenue": 2804.1299999999997,
+    "purchaseCost": 1353.44,
+    "quantity": 57
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Biotek",
+    "revenue": 4857.85,
+    "purchaseCost": 2749.8,
+    "quantity": 65
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 2500.82,
+    "purchaseCost": 1550.21,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Etalon Mix",
+    "revenue": 18334.73,
+    "purchaseCost": 12834.27,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Nezařazeno",
+    "revenue": 12225.220000000005,
+    "purchaseCost": 7094.409999999998,
+    "quantity": 235
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "PERMA BLEND",
+    "revenue": 8666.15,
+    "purchaseCost": 5787.030000000001,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 171.07,
+    "purchaseCost": 44.099999999999994,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "The Perma",
+    "revenue": 119.83,
+    "purchaseCost": 65.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Proton",
+    "revenue": 882.65,
+    "purchaseCost": 500.24,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "OZER",
+    "revenue": 4830.15,
+    "purchaseCost": 2544.23,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "UNIGLOVES",
+    "revenue": 3422.4100000000003,
+    "purchaseCost": 2194.97,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "ELITE",
+    "revenue": 13382.960000000001,
+    "purchaseCost": 5134.650000000001,
+    "quantity": 604
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1293.3999999999996,
+    "purchaseCost": 386.71000000000004,
+    "quantity": 44
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Emalla",
+    "revenue": 6016.66,
+    "purchaseCost": 2610.28,
+    "quantity": 261
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "ETERNAL",
+    "revenue": 757.6500000000001,
+    "purchaseCost": 508.03999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "FineLine",
+    "revenue": 34.46,
+    "purchaseCost": 22.5,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Ostatní",
+    "revenue": 2330.3000000000006,
+    "purchaseCost": 1194.8700000000001,
+    "quantity": 73
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Bishop Rotary",
+    "revenue": 3828.1699999999996,
+    "purchaseCost": 2114.39,
+    "quantity": 83
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Lamajja",
+    "revenue": 752.07,
+    "purchaseCost": 497.91999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "POPU",
+    "revenue": 797.52,
+    "purchaseCost": 225.64999999999998,
+    "quantity": 15
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "INTENZE",
+    "revenue": 3141.98,
+    "purchaseCost": 2210.18,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Panthera",
+    "revenue": 4088.2999999999997,
+    "purchaseCost": 2457.04,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "World Famous",
+    "revenue": 3914.05,
+    "purchaseCost": 2334.35,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Xtreme Ink",
+    "revenue": 1216.53,
+    "purchaseCost": 719.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Piranha",
+    "revenue": 4875.860000000001,
+    "purchaseCost": 2722.12,
+    "quantity": 83
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 705.0300000000001,
+    "purchaseCost": 563.6700000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Biotat",
+    "revenue": 1006.62,
+    "purchaseCost": 664.01,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 931.14,
+    "purchaseCost": 563.75,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Spirit",
+    "revenue": 6363.890000000001,
+    "purchaseCost": 4253.64,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 845.94,
+    "purchaseCost": 698.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "UNISTAR",
+    "revenue": 3170.28,
+    "purchaseCost": 1212.04,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Dermalize",
+    "revenue": 300.82,
+    "purchaseCost": 173.91000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 817.3599999999999,
+    "purchaseCost": 509.32,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "TattooMed®",
+    "revenue": 409.08000000000004,
+    "purchaseCost": 228.02999999999997,
+    "quantity": 33
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Electrum",
+    "revenue": 412.4,
+    "purchaseCost": 253.53,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "BLOW ICE",
+    "revenue": 967.8499999999999,
+    "purchaseCost": 693.8100000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Tattoo Stuff",
+    "revenue": 379.33,
+    "purchaseCost": 209.64,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "KURO SUMI",
+    "revenue": 1345.29,
+    "purchaseCost": 909.65,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Braun",
+    "revenue": 1047.84,
+    "purchaseCost": 787.6100000000001,
+    "quantity": 13
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "SKULLDNA",
+    "revenue": 72.23,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Saferly",
+    "revenue": 328.1,
+    "purchaseCost": 117.81,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "REVOLUTION",
+    "revenue": 198.36,
+    "purchaseCost": 97.84,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "EIKON",
+    "revenue": 537.19,
+    "purchaseCost": 500,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Starbrite",
+    "revenue": 1538.43,
+    "purchaseCost": 1010.74,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Tombow",
+    "revenue": 654.56,
+    "purchaseCost": 337.28,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Celtic Supply",
+    "revenue": 652.0600000000001,
+    "purchaseCost": 346.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Forte",
+    "revenue": 576.86,
+    "purchaseCost": 448.34000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "PEPAX",
+    "revenue": 940.5,
+    "purchaseCost": 458.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Killer Ink",
+    "revenue": 486.78000000000003,
+    "purchaseCost": 318.15,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 1588.4399999999998,
+    "purchaseCost": 427.5,
+    "quantity": 65
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 657.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 219.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Rosa",
+    "revenue": 3998.3499999999995,
+    "purchaseCost": 2754.8599999999997,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "The Inked Army",
+    "revenue": 284.29,
+    "purchaseCost": 176.5,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Reelskin",
+    "revenue": 1363.64,
+    "purchaseCost": 871.8000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Cheyenne",
+    "revenue": 1352.89,
+    "purchaseCost": 627.79,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Tattoo Goo",
+    "revenue": 246.28,
+    "purchaseCost": 161.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "3M",
+    "revenue": 121.49,
+    "purchaseCost": 59.97,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "INKTROX",
+    "revenue": 156.2,
+    "purchaseCost": 109.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "RENOVA",
+    "revenue": 135.54,
+    "purchaseCost": 61.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 388.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Prime",
+    "revenue": 119.83,
+    "purchaseCost": 60.75,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 736.36,
+    "purchaseCost": 426.4,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-24",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "UNIGLOVES",
+    "revenue": 4170.32,
+    "purchaseCost": 2642.6600000000008,
+    "quantity": 35
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "OZER",
+    "revenue": 4122.3099999999995,
+    "purchaseCost": 2173.82,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "ELITE",
+    "revenue": 18461.920000000006,
+    "purchaseCost": 7106.260000000001,
+    "quantity": 604
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "INTENZE",
+    "revenue": 3631.43,
+    "purchaseCost": 2568.2000000000003,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Nezařazeno",
+    "revenue": 10666.339999999998,
+    "purchaseCost": 5026.959999999998,
+    "quantity": 114
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "UNISTAR",
+    "revenue": 2959.15,
+    "purchaseCost": 1289.88,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "REVOLUTION",
+    "revenue": 1237.6000000000001,
+    "purchaseCost": 709.62,
+    "quantity": 43
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Proton",
+    "revenue": 2376.04,
+    "purchaseCost": 1341.8100000000002,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "KWADRON",
+    "revenue": 29717.95000000002,
+    "purchaseCost": 15717.919999999996,
+    "quantity": 801
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Killer Ink",
+    "revenue": 445.45,
+    "purchaseCost": 291.22,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "TattooMed®",
+    "revenue": 132.23,
+    "purchaseCost": 92.65,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Ostatní",
+    "revenue": 2733.73,
+    "purchaseCost": 1030.3100000000002,
+    "quantity": 63
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Panthera",
+    "revenue": 5445.22,
+    "purchaseCost": 3304.85,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 1387.32,
+    "purchaseCost": 835.5,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "ECOLAB",
+    "revenue": 781.8299999999999,
+    "purchaseCost": 504.31000000000006,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Cheyenne",
+    "revenue": 4812.41,
+    "purchaseCost": 2475.98,
+    "quantity": 144
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 4305.879999999999,
+    "purchaseCost": 1317.9699999999998,
+    "quantity": 138
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "DYNAMIC",
+    "revenue": 14170.709999999992,
+    "purchaseCost": 6185.790000000003,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Wildcat",
+    "revenue": 411.08,
+    "purchaseCost": 0,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1011.5699999999999,
+    "purchaseCost": 499.8,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 737.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "BLOW ICE",
+    "revenue": 609.92,
+    "purchaseCost": 340.38,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "FK IRONS",
+    "revenue": 2244.62,
+    "purchaseCost": 1488.37,
+    "quantity": 65
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Bishop Rotary",
+    "revenue": 4061.4900000000002,
+    "purchaseCost": 2355.2000000000003,
+    "quantity": 114
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1803.3099999999997,
+    "purchaseCost": 1106.9499999999998,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Biotek",
+    "revenue": 3040.6400000000003,
+    "purchaseCost": 1859.53,
+    "quantity": 36
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 7916.53,
+    "purchaseCost": 2494.61,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "ELEPHANT",
+    "revenue": 387.6,
+    "purchaseCost": 217.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Piranha",
+    "revenue": 5587.97,
+    "purchaseCost": 3135.4900000000002,
+    "quantity": 84
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Spirit",
+    "revenue": 1467.36,
+    "purchaseCost": 979.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 1268.1799999999998,
+    "purchaseCost": 682.2399999999999,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "World Famous",
+    "revenue": 6909.92,
+    "purchaseCost": 4656.27,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "ETERNAL",
+    "revenue": 2529.77,
+    "purchaseCost": 1764.99,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "PEPAX",
+    "revenue": 656.21,
+    "purchaseCost": 315.02,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 7227.5,
+    "purchaseCost": 4209.82,
+    "quantity": 44
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Tattoo Stuff",
+    "revenue": 1265.6100000000001,
+    "purchaseCost": 904.11,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Tombow",
+    "revenue": 147.27,
+    "purchaseCost": 84.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Nuva Colors",
+    "revenue": 2310.76,
+    "purchaseCost": 1507.1599999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "KURO SUMI",
+    "revenue": 593.56,
+    "purchaseCost": 429.29999999999995,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "ALOE TATTOO",
+    "revenue": 550.49,
+    "purchaseCost": 339.65,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "3M",
+    "revenue": 40.5,
+    "purchaseCost": 19.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "SKINz",
+    "revenue": 743.8,
+    "purchaseCost": 374.54,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Celtic Supply",
+    "revenue": 757.96,
+    "purchaseCost": 408.09000000000003,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Tattoo Goo",
+    "revenue": 1107.02,
+    "purchaseCost": 759.5799999999999,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Saferly",
+    "revenue": 197.52,
+    "purchaseCost": 70.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Etalon Mix",
+    "revenue": 5449.59,
+    "purchaseCost": 3814.689999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Rosa",
+    "revenue": 564.46,
+    "purchaseCost": 429.79,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1072.72,
+    "purchaseCost": 780.3599999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Electrum",
+    "revenue": 53.72,
+    "purchaseCost": 22.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Lamajja",
+    "revenue": 198.35,
+    "purchaseCost": 122.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Xtreme Ink",
+    "revenue": 1203.31,
+    "purchaseCost": 828.06,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Biotat",
+    "revenue": 1342.9699999999998,
+    "purchaseCost": 723.77,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "SWAVGO",
+    "revenue": 1118.17,
+    "purchaseCost": 525.2,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "PERMA BLEND",
+    "revenue": 1619.84,
+    "purchaseCost": 1057.63,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "ECOTAT",
+    "revenue": 156.24,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "KYBROWS",
+    "revenue": 708.32,
+    "purchaseCost": 448.19,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "I AM INK",
+    "revenue": 1214.8799999999999,
+    "purchaseCost": 1236.8400000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Emalla",
+    "revenue": 2127.2,
+    "purchaseCost": 777.2600000000001,
+    "quantity": 85
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "AVA Machine",
+    "revenue": 413.21,
+    "purchaseCost": 158.60000000000002,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "RENOVA",
+    "revenue": 347.11,
+    "purchaseCost": 229.28,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "MAPO Medical",
+    "revenue": 189.26,
+    "purchaseCost": 120,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 577.69,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-25",
+    "brand": "INKTROX",
+    "revenue": 156.2,
+    "purchaseCost": 109.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 319.83,
+    "purchaseCost": 209.47999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Nezařazeno",
+    "revenue": 6750.519999999999,
+    "purchaseCost": 3318.609999999999,
+    "quantity": 83
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Lamajja",
+    "revenue": 752.07,
+    "purchaseCost": 497.92,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "DYNAMIC",
+    "revenue": 5476.879999999999,
+    "purchaseCost": 3077.2899999999995,
+    "quantity": 12
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "ELITE",
+    "revenue": 15368.550000000001,
+    "purchaseCost": 6219.199999999999,
+    "quantity": 681
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Killer Ink",
+    "revenue": 20.66,
+    "purchaseCost": 11.82,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 9800.7,
+    "purchaseCost": 3001.73,
+    "quantity": 136
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "KWADRON",
+    "revenue": 18085.390000000003,
+    "purchaseCost": 9746.869999999997,
+    "quantity": 515
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "UNISTAR",
+    "revenue": 6785.68,
+    "purchaseCost": 3547.2200000000003,
+    "quantity": 16
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "UNIGLOVES",
+    "revenue": 4097.15,
+    "purchaseCost": 2614.4599999999996,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Piranha",
+    "revenue": 3076.1299999999997,
+    "purchaseCost": 1707.6100000000004,
+    "quantity": 77
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "BD Insyte",
+    "revenue": 57.85,
+    "purchaseCost": 37.2,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Proton",
+    "revenue": 1971.1999999999998,
+    "purchaseCost": 964.46,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Wildcat",
+    "revenue": 297.52,
+    "purchaseCost": 183.8,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "RENOVA",
+    "revenue": 594.22,
+    "purchaseCost": 376.55,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 761.65,
+    "purchaseCost": 477,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "KURO SUMI",
+    "revenue": 329.75,
+    "purchaseCost": 213.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "3M",
+    "revenue": 443.42999999999995,
+    "purchaseCost": 219.89000000000001,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Ostatní",
+    "revenue": 1138.92,
+    "purchaseCost": 475.10999999999996,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Panthera",
+    "revenue": 3066.95,
+    "purchaseCost": 1818.72,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "ETERNAL",
+    "revenue": 760.34,
+    "purchaseCost": 502.18,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Biotek",
+    "revenue": 2596.7,
+    "purchaseCost": 1504.78,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Bishop Rotary",
+    "revenue": 4142.130000000001,
+    "purchaseCost": 2472.85,
+    "quantity": 100
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 876.8500000000001,
+    "purchaseCost": 203.64,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "FK IRONS",
+    "revenue": 2273.3399999999992,
+    "purchaseCost": 1799.3000000000002,
+    "quantity": 58
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "LASKIN",
+    "revenue": 619.83,
+    "purchaseCost": 464.88,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Etalon Mix",
+    "revenue": 23570.34000000001,
+    "purchaseCost": 16501.58000000001,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "POPU",
+    "revenue": 147.93,
+    "purchaseCost": 31.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "PERMA BLEND",
+    "revenue": 3172.7400000000002,
+    "purchaseCost": 2112,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Cheyenne",
+    "revenue": 20527.44,
+    "purchaseCost": 15145.130000000003,
+    "quantity": 146
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Spirit",
+    "revenue": 4331.82,
+    "purchaseCost": 2976.52,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 466.16,
+    "purchaseCost": 376.81,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 2231.4,
+    "purchaseCost": 1779.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "TattooMed®",
+    "revenue": 329.75,
+    "purchaseCost": 219.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Emalla",
+    "revenue": 863.64,
+    "purchaseCost": 304.4,
+    "quantity": 30
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "PEPAX",
+    "revenue": 2333.9700000000003,
+    "purchaseCost": 1021.1700000000001,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "The Inked Army",
+    "revenue": 420.66,
+    "purchaseCost": 265.89,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Xtreme Ink",
+    "revenue": 1033.51,
+    "purchaseCost": 708.1500000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Celtic Supply",
+    "revenue": 1693.3899999999999,
+    "purchaseCost": 139.62,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 378.51,
+    "purchaseCost": 247.78000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Dermalize",
+    "revenue": 295.86,
+    "purchaseCost": 179.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 81.82,
+    "purchaseCost": 42.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "SWAVGO",
+    "revenue": 454.54,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "OZER",
+    "revenue": 11172.72,
+    "purchaseCost": 6088.49,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Sanytol",
+    "revenue": 61.98,
+    "purchaseCost": 42.3,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "DC Invention Company",
+    "revenue": 1156.6100000000001,
+    "purchaseCost": 708.86,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Tattoo Goo",
+    "revenue": 123.14,
+    "purchaseCost": 80.89,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "World Famous",
+    "revenue": 429.75,
+    "purchaseCost": 285.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Biotat",
+    "revenue": 10.04,
+    "purchaseCost": 6.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "ECOLAB",
+    "revenue": 369.04999999999995,
+    "purchaseCost": 242.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 228.1,
+    "purchaseCost": 145.42000000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Sharpie",
+    "revenue": 123.14,
+    "purchaseCost": 76.29,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-26",
+    "brand": "Tattoo Stuff",
+    "revenue": 322.31,
+    "purchaseCost": 182.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "DYNAMIC",
+    "revenue": 3516.5500000000006,
+    "purchaseCost": 2411.4300000000003,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "FineLine",
+    "revenue": 3313.21,
+    "purchaseCost": 1745.3600000000001,
+    "quantity": 113
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 394.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Ostatní",
+    "revenue": 1821.9300000000003,
+    "purchaseCost": 847.62,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Braun",
+    "revenue": 776.03,
+    "purchaseCost": 605.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 447.55999999999995,
+    "purchaseCost": 258.75,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "KWADRON",
+    "revenue": 16854.640000000003,
+    "purchaseCost": 9555.15,
+    "quantity": 290
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Nezařazeno",
+    "revenue": 11400.18,
+    "purchaseCost": 5445.26,
+    "quantity": 108
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 1716.54,
+    "purchaseCost": 462.8,
+    "quantity": 70
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1651.23,
+    "purchaseCost": 937.5,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "ELITE",
+    "revenue": 1666.4400000000005,
+    "purchaseCost": 578.7,
+    "quantity": 71
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "PEPAX",
+    "revenue": 690.9100000000001,
+    "purchaseCost": 215.4,
+    "quantity": 24
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Cheyenne",
+    "revenue": 39552.8,
+    "purchaseCost": 41256.25000000001,
+    "quantity": 295
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "World Famous",
+    "revenue": 7246.68,
+    "purchaseCost": 4866.35,
+    "quantity": 17
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "ECOLAB",
+    "revenue": 1156.74,
+    "purchaseCost": 766.26,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "UNIGLOVES",
+    "revenue": 3237.1500000000005,
+    "purchaseCost": 2083.62,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1370.23,
+    "purchaseCost": 547.29,
+    "quantity": 36
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Piranha",
+    "revenue": 1849.22,
+    "purchaseCost": 1144.39,
+    "quantity": 23
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 3547.9399999999996,
+    "purchaseCost": 2223.0499999999997,
+    "quantity": 25
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "UNISTAR",
+    "revenue": 4279.570000000001,
+    "purchaseCost": 1923.25,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "PERMA BLEND",
+    "revenue": 1619.84,
+    "purchaseCost": 1102.75,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Biotat",
+    "revenue": 1110,
+    "purchaseCost": 586.34,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Sharpie",
+    "revenue": 171.9,
+    "purchaseCost": 87.74000000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Saferly",
+    "revenue": 741.32,
+    "purchaseCost": 378.36,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Panthera",
+    "revenue": 1146.28,
+    "purchaseCost": 666.96,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Reelskin",
+    "revenue": 454.55,
+    "purchaseCost": 290.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Softasept B. Braun",
+    "revenue": 1156.2,
+    "purchaseCost": 919.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Biotek",
+    "revenue": 792.57,
+    "purchaseCost": 436.16999999999996,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "3M",
+    "revenue": 194.38,
+    "purchaseCost": 99.94999999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Electrum",
+    "revenue": 240.13,
+    "purchaseCost": 91.02000000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "OZER",
+    "revenue": 15832.21,
+    "purchaseCost": 8311.4,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Killer Ink",
+    "revenue": 412.4,
+    "purchaseCost": 285.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "FK IRONS",
+    "revenue": 2510.7400000000002,
+    "purchaseCost": 1862.96,
+    "quantity": 64
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Spirit",
+    "revenue": 1530.16,
+    "purchaseCost": 979.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "ETERNAL",
+    "revenue": 7359.21,
+    "purchaseCost": 5327.990000000001,
+    "quantity": 21
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 442.71000000000004,
+    "purchaseCost": 379.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 2052.89,
+    "purchaseCost": 1779.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Proton",
+    "revenue": 981.8199999999999,
+    "purchaseCost": 556.33,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Etalon Mix",
+    "revenue": 3302.48,
+    "purchaseCost": 2311.72,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Celtic Supply",
+    "revenue": 157.02,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Bishop Rotary",
+    "revenue": 1928.1,
+    "purchaseCost": 1303.53,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Rosa",
+    "revenue": 570.25,
+    "purchaseCost": 373.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 3395.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "TattooMed®",
+    "revenue": 1138.03,
+    "purchaseCost": 659.3199999999999,
+    "quantity": 37
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Emalla",
+    "revenue": 139.66,
+    "purchaseCost": 50.56999999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Sanytol",
+    "revenue": 61.98,
+    "purchaseCost": 42.3,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Forte",
+    "revenue": 247.11,
+    "purchaseCost": 173.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "ALOE TATTOO",
+    "revenue": 238.84,
+    "purchaseCost": 148.26,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "DC Invention Company",
+    "revenue": 758.6800000000001,
+    "purchaseCost": 540.67,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "RENOVA",
+    "revenue": 163.64,
+    "purchaseCost": 64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 955.4100000000001,
+    "purchaseCost": 540.55,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "KURO SUMI",
+    "revenue": 7453.68,
+    "purchaseCost": 4851.7699999999995,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "BLOW ICE",
+    "revenue": 73.55,
+    "purchaseCost": 50.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "The Pigment",
+    "revenue": 458.68,
+    "purchaseCost": 248.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Lamajja",
+    "revenue": 164.46,
+    "purchaseCost": 116.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Xtreme Ink",
+    "revenue": 1719,
+    "purchaseCost": 1134.79,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "POPU",
+    "revenue": 1224.8,
+    "purchaseCost": 346.6,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "SKINz",
+    "revenue": 371.9,
+    "purchaseCost": 187.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 163.64,
+    "purchaseCost": 85.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-27",
+    "brand": "Tattoo Stuff",
+    "revenue": 38.02,
+    "purchaseCost": 18.26,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "OZER",
+    "revenue": 13726.06,
+    "purchaseCost": 7079.52,
+    "quantity": 11
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Nezařazeno",
+    "revenue": 3417.41,
+    "purchaseCost": 1371.17,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 623.9599999999999,
+    "purchaseCost": 354.54,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "ETERNAL",
+    "revenue": 2549.65,
+    "purchaseCost": 1774.8200000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Allegory Ink",
+    "revenue": 1066.12,
+    "purchaseCost": 727.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Biotek",
+    "revenue": 98.39,
+    "purchaseCost": 10.15,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "KWADRON",
+    "revenue": 9172.12,
+    "purchaseCost": 5057.280000000001,
+    "quantity": 264
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1134.71,
+    "purchaseCost": 627.53,
+    "quantity": 8
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "PERMA BLEND",
+    "revenue": 2445.46,
+    "purchaseCost": 1548.9299999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Piranha",
+    "revenue": 2255.4100000000003,
+    "purchaseCost": 1193.74,
+    "quantity": 22
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "FK IRONS",
+    "revenue": 364.47,
+    "purchaseCost": 261.81,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Bishop Rotary",
+    "revenue": 1713.5899999999997,
+    "purchaseCost": 948.9499999999998,
+    "quantity": 43
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "DYNAMIC",
+    "revenue": 3752.940000000001,
+    "purchaseCost": 2208.5200000000004,
+    "quantity": 14
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Reelskin",
+    "revenue": 1216.94,
+    "purchaseCost": 814.16,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Biotat",
+    "revenue": 1285.95,
+    "purchaseCost": 740.1899999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Lamajja",
+    "revenue": 272.73,
+    "purchaseCost": 190.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Saferly",
+    "revenue": 81.82,
+    "purchaseCost": 30.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Panthera",
+    "revenue": 3596.86,
+    "purchaseCost": 2143.52,
+    "quantity": 9
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Ostatní",
+    "revenue": 1553.6,
+    "purchaseCost": 739.81,
+    "quantity": 29
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "RENOVA",
+    "revenue": 515.7,
+    "purchaseCost": 324.88,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "AVA Machine",
+    "revenue": 970.32,
+    "purchaseCost": 386.38000000000005,
+    "quantity": 64
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1641.9699999999996,
+    "purchaseCost": 525.05,
+    "quantity": 73
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "KURO SUMI",
+    "revenue": 329.75,
+    "purchaseCost": 212.65,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "The Inked Army",
+    "revenue": 902.93,
+    "purchaseCost": 540.13,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Rosa",
+    "revenue": 164.46,
+    "purchaseCost": 118.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Etalon Mix",
+    "revenue": 5617.36,
+    "purchaseCost": 3932.1400000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "LASKIN",
+    "revenue": 619.83,
+    "purchaseCost": 464.88,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Tattoo Stuff",
+    "revenue": 788.05,
+    "purchaseCost": 404.78,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "TattooMed®",
+    "revenue": 79.34,
+    "purchaseCost": 55.59,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "UNISTAR",
+    "revenue": 1789.2700000000004,
+    "purchaseCost": 671.96,
+    "quantity": 5
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Tattoo Goo",
+    "revenue": 123.14,
+    "purchaseCost": 80.89,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 738.85,
+    "purchaseCost": 526.1600000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Spirit",
+    "revenue": 5256.2,
+    "purchaseCost": 2777.04,
+    "quantity": 4
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "3M",
+    "revenue": 121.49,
+    "purchaseCost": 59.97,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "ELITE",
+    "revenue": 5959.329999999999,
+    "purchaseCost": 2972.5900000000006,
+    "quantity": 19
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Sharpie",
+    "revenue": 220.66,
+    "purchaseCost": 99.19,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Killer Ink",
+    "revenue": 62.81,
+    "purchaseCost": 43.58,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "UNIGLOVES",
+    "revenue": 1051.43,
+    "purchaseCost": 651.3900000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "SKINz",
+    "revenue": 196.28,
+    "purchaseCost": 120.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "PEPAX",
+    "revenue": 392.56,
+    "purchaseCost": 156,
+    "quantity": 20
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "ECOLAB",
+    "revenue": 403.31,
+    "purchaseCost": 261.95000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "SWAVGO",
+    "revenue": 454.54,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 342.15,
+    "purchaseCost": 218.07999999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Cheyenne",
+    "revenue": 1664.45,
+    "purchaseCost": 667.1100000000001,
+    "quantity": 44
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 81.82,
+    "purchaseCost": 42.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "POPU",
+    "revenue": 106.61,
+    "purchaseCost": 66.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 164.46,
+    "purchaseCost": 127.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Celtic Supply",
+    "revenue": 149.17,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "SKULLDNA",
+    "revenue": 74.59,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "DC Invention Company",
+    "revenue": 452.89,
+    "purchaseCost": 302.66,
+    "quantity": 2
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "World Famous",
+    "revenue": 1363.64,
+    "purchaseCost": 900.82,
+    "quantity": 3
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 3395.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "ALOE TATTOO",
+    "revenue": 206.61,
+    "purchaseCost": 99.47,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Emalla",
+    "revenue": 1123.98,
+    "purchaseCost": 338.7,
+    "quantity": 40
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "FineLine",
+    "revenue": 314.04,
+    "purchaseCost": 153.2,
+    "quantity": 10
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Electrum",
+    "revenue": 40.5,
+    "purchaseCost": 11.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "Proton",
+    "revenue": 304.96,
+    "purchaseCost": 144.59,
+    "quantity": 1
+  },
+  {
+    "date": "2026-02-28",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "INKTROX",
+    "revenue": 312.4,
+    "purchaseCost": 218.84,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Nezařazeno",
+    "revenue": 3119.730000000001,
+    "purchaseCost": 2185.0200000000004,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Spirit",
+    "revenue": 2900.83,
+    "purchaseCost": 2075.08,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "KWADRON",
+    "revenue": 31721.49000000001,
+    "purchaseCost": 18673.38,
+    "quantity": 703
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Proton",
+    "revenue": 1821.28,
+    "purchaseCost": 1060.48,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Piranha",
+    "revenue": 8990.409999999998,
+    "purchaseCost": 5103.64,
+    "quantity": 119
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "OZER",
+    "revenue": 12269.44,
+    "purchaseCost": 6413.469999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "TattooMed®",
+    "revenue": 1229.76,
+    "purchaseCost": 804.78,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Tattoo Goo",
+    "revenue": 394.21000000000004,
+    "purchaseCost": 291.13,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "UNIGLOVES",
+    "revenue": 2591.5699999999997,
+    "purchaseCost": 1547.11,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "ELITE",
+    "revenue": 15803.290000000003,
+    "purchaseCost": 6022.359999999999,
+    "quantity": 509
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "DYNAMIC",
+    "revenue": 6679.88,
+    "purchaseCost": 4079.6500000000005,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Prime",
+    "revenue": 311.57,
+    "purchaseCost": 157.9,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "FineLine",
+    "revenue": 1067.76,
+    "purchaseCost": 551.52,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "FK IRONS",
+    "revenue": 20710.019999999993,
+    "purchaseCost": 12567.23,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1500.9999999999995,
+    "purchaseCost": 951.48,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Premier Products",
+    "revenue": 423.22,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "World Famous",
+    "revenue": 5148.349999999999,
+    "purchaseCost": 3778.4100000000008,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "ALOE TATTOO",
+    "revenue": 180.99,
+    "purchaseCost": 120.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Etalon Mix",
+    "revenue": 14792.489999999998,
+    "purchaseCost": 10402.73,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "3M",
+    "revenue": 242.98000000000002,
+    "purchaseCost": 119.94,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Celtic Supply",
+    "revenue": 1549.5,
+    "purchaseCost": 717.84,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1455.37,
+    "purchaseCost": 915.37,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Ostatní",
+    "revenue": 1484.2599999999998,
+    "purchaseCost": 719.8599999999999,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Killer Ink",
+    "revenue": 494.97,
+    "purchaseCost": 331.89,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Braun",
+    "revenue": 1123.21,
+    "purchaseCost": 858.6700000000001,
+    "quantity": 46
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "UNISTAR",
+    "revenue": 8517.300000000001,
+    "purchaseCost": 4139.17,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Biotek",
+    "revenue": 1238.84,
+    "purchaseCost": 682.16,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 1066.12,
+    "purchaseCost": 483.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1928.1100000000001,
+    "purchaseCost": 572.96,
+    "quantity": 62
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1330.57,
+    "purchaseCost": 773.78,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "PEPAX",
+    "revenue": 796.7,
+    "purchaseCost": 380.72,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Believa Cosmetics",
+    "revenue": 131.4,
+    "purchaseCost": 86.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 255.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 77.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Electrum",
+    "revenue": 161.99,
+    "purchaseCost": 46.32,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Panthera",
+    "revenue": 2101.38,
+    "purchaseCost": 1293.1,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 401.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Emalla",
+    "revenue": 2171.92,
+    "purchaseCost": 800.82,
+    "quantity": 83
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 451.46000000000004,
+    "purchaseCost": 354.53999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Biotat",
+    "revenue": 1385.9499999999998,
+    "purchaseCost": 818.05,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "AVA Machine",
+    "revenue": 314.05,
+    "purchaseCost": 158,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Saferly",
+    "revenue": 164.46,
+    "purchaseCost": 56.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 777.27,
+    "purchaseCost": 426.4,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Bishop Rotary",
+    "revenue": 2237.1900000000005,
+    "purchaseCost": 1062.98,
+    "quantity": 66
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 604.3,
+    "purchaseCost": 452.56000000000006,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "DC Invention Company",
+    "revenue": 505.40000000000003,
+    "purchaseCost": 347.19,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Cheyenne",
+    "revenue": 1223.14,
+    "purchaseCost": 725.3,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "INTENZE",
+    "revenue": 487.6,
+    "purchaseCost": 342.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Tattoo Bull",
+    "revenue": 436.36,
+    "purchaseCost": 251.89,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Lamajja",
+    "revenue": 30.48,
+    "purchaseCost": 23.66,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Rosa",
+    "revenue": 360.28000000000003,
+    "purchaseCost": 261.46,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "LASKIN",
+    "revenue": 244.33,
+    "purchaseCost": 186.91,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 4.5,
+    "purchaseCost": 2.51,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 4.17,
+    "purchaseCost": 1.2,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Tattoo Stuff",
+    "revenue": 73.55,
+    "purchaseCost": 20.14,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 307.44,
+    "purchaseCost": 78.4,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "RENOVA",
+    "revenue": 102.47999999999999,
+    "purchaseCost": 64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "Tombow",
+    "revenue": 81.82,
+    "purchaseCost": 42.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 412.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "The Inked Army",
+    "revenue": 222.31,
+    "purchaseCost": 139.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-01",
+    "brand": "The Perma",
+    "revenue": 119.83,
+    "purchaseCost": 71.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "DYNAMIC",
+    "revenue": 12003.059999999996,
+    "purchaseCost": 7032.470000000002,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Nezařazeno",
+    "revenue": 16701.020000000004,
+    "purchaseCost": 11785.750000000002,
+    "quantity": 75
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Ostatní",
+    "revenue": 2361.98,
+    "purchaseCost": 1054.77,
+    "quantity": 54
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "KWADRON",
+    "revenue": 32663.999999999996,
+    "purchaseCost": 17734.73,
+    "quantity": 898
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Xtreme Ink",
+    "revenue": 5120.25,
+    "purchaseCost": 4004.57,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "DC Invention Company",
+    "revenue": 3292.5599999999995,
+    "purchaseCost": 2069.69,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "ELITE",
+    "revenue": 23186.38000000002,
+    "purchaseCost": 9900.39,
+    "quantity": 587
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 5063.62,
+    "purchaseCost": 1490.19,
+    "quantity": 179
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1903.0499999999997,
+    "purchaseCost": 1076.8500000000001,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Nuva Colors",
+    "revenue": 1733.0700000000002,
+    "purchaseCost": 1172.15,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "PERMA BLEND",
+    "revenue": 1485.12,
+    "purchaseCost": 998.45,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "UNIGLOVES",
+    "revenue": 9323.730000000001,
+    "purchaseCost": 5950.510000000001,
+    "quantity": 73
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Spirit",
+    "revenue": 4677.68,
+    "purchaseCost": 3252.52,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Killer Ink",
+    "revenue": 1467.7800000000002,
+    "purchaseCost": 899.98,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "RENOVA",
+    "revenue": 161.16,
+    "purchaseCost": 90.88,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Bishop Rotary",
+    "revenue": 9633.55,
+    "purchaseCost": 6004.870000000001,
+    "quantity": 218
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Panthera",
+    "revenue": 5788.5,
+    "purchaseCost": 3454.9699999999993,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Celtic Supply",
+    "revenue": 1431.4,
+    "purchaseCost": 754.2,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "ETERNAL",
+    "revenue": 1900.8500000000001,
+    "purchaseCost": 1262.1,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Cheyenne",
+    "revenue": 6186.4,
+    "purchaseCost": 3217.0899999999992,
+    "quantity": 211
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 675.2099999999999,
+    "purchaseCost": 544.77,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 657.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "PEPAX",
+    "revenue": 1922.82,
+    "purchaseCost": 866.71,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1515.69,
+    "purchaseCost": 1177.12,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Tattoo Goo",
+    "revenue": 409.09,
+    "purchaseCost": 240.95,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "3M",
+    "revenue": 121.5,
+    "purchaseCost": 59.97,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Proton",
+    "revenue": 1276.85,
+    "purchaseCost": 593.6500000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Electrum",
+    "revenue": 301.87,
+    "purchaseCost": 103.14,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "INK-EEZE",
+    "revenue": 550.41,
+    "purchaseCost": 364.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 378.52,
+    "purchaseCost": 225.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Piranha",
+    "revenue": 2300.8999999999996,
+    "purchaseCost": 1254.7300000000002,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "UNISTAR",
+    "revenue": 3871.1,
+    "purchaseCost": 1534.1299999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Sharpie",
+    "revenue": 195.04,
+    "purchaseCost": 96.04,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Wildcat",
+    "revenue": 202.48,
+    "purchaseCost": 0,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "AVA Machine",
+    "revenue": 2654.7100000000005,
+    "purchaseCost": 1136.3500000000001,
+    "quantity": 166
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Emalla",
+    "revenue": 3183.48,
+    "purchaseCost": 1065.24,
+    "quantity": 105
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "SWAVGO",
+    "revenue": 909.08,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Biotat",
+    "revenue": 1296.6899999999998,
+    "purchaseCost": 701.1700000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Etalon Mix",
+    "revenue": 9909.93,
+    "purchaseCost": 6936.92,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 7789.459999999999,
+    "purchaseCost": 3405.5600000000004,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "TattooMed®",
+    "revenue": 577.69,
+    "purchaseCost": 391.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2676.2200000000003,
+    "purchaseCost": 1633.1599999999999,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "The Inked Army",
+    "revenue": 222.31,
+    "purchaseCost": 139.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Saferly",
+    "revenue": 527.27,
+    "purchaseCost": 355.16999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "OZER",
+    "revenue": 8790.189999999999,
+    "purchaseCost": 4464.329999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Coal Black",
+    "revenue": 662.81,
+    "purchaseCost": 654.67,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "FK IRONS",
+    "revenue": 59348.520000000004,
+    "purchaseCost": 39379.39,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Believa Cosmetics",
+    "revenue": 965.29,
+    "purchaseCost": 608.0600000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Rosa",
+    "revenue": 288.43,
+    "purchaseCost": 192.41,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "ECOLAB",
+    "revenue": 567.78,
+    "purchaseCost": 363.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Sanytol",
+    "revenue": 106.61,
+    "purchaseCost": 63.53,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Tattoo Stuff",
+    "revenue": 414.87,
+    "purchaseCost": 211.52,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 4950.41,
+    "purchaseCost": 2052.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 537.19,
+    "purchaseCost": 357.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "ALOE TATTOO",
+    "revenue": 717.35,
+    "purchaseCost": 445.48,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "DEISS",
+    "revenue": 90.91,
+    "purchaseCost": 68,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Anios",
+    "revenue": 577.69,
+    "purchaseCost": 439.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "World Famous",
+    "revenue": 429.75,
+    "purchaseCost": 283.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "FineLine",
+    "revenue": 314.05,
+    "purchaseCost": 153.2,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "KURO SUMI",
+    "revenue": 659.5,
+    "purchaseCost": 430.7,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "INTENZE",
+    "revenue": 975.2,
+    "purchaseCost": 677.46,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "ACUS",
+    "revenue": 0.83,
+    "purchaseCost": 22163.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Tombow",
+    "revenue": 157.08999999999997,
+    "purchaseCost": 84.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 77.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Prime",
+    "revenue": 71.9,
+    "purchaseCost": 36.45,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Bode Chemie",
+    "revenue": 214.05,
+    "purchaseCost": 164.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Tattoo Bull",
+    "revenue": 289.26,
+    "purchaseCost": 175.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Lamajja",
+    "revenue": 578.52,
+    "purchaseCost": 404.95000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "Reelskin",
+    "revenue": 454.55,
+    "purchaseCost": 290.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 230.58,
+    "purchaseCost": 189.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-02",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "UNIGLOVES",
+    "revenue": 5506.710000000001,
+    "purchaseCost": 3567.879999999999,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Ostatní",
+    "revenue": 6028.370000000002,
+    "purchaseCost": 2975.16,
+    "quantity": 96
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "DYNAMIC",
+    "revenue": 3763.67,
+    "purchaseCost": 2100.25,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "OZER",
+    "revenue": 24069,
+    "purchaseCost": 12097.14,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "ECOLAB",
+    "revenue": 1348.15,
+    "purchaseCost": 907.0300000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 11775.29,
+    "purchaseCost": 13046.419999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "KWADRON",
+    "revenue": 49029.50000000001,
+    "purchaseCost": 26932.400000000012,
+    "quantity": 1216
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 4349.639999999999,
+    "purchaseCost": 1462.38,
+    "quantity": 166
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "ELITE",
+    "revenue": 10305.189999999999,
+    "purchaseCost": 4022.2200000000007,
+    "quantity": 349
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Nezařazeno",
+    "revenue": 17248.949999999997,
+    "purchaseCost": 9943.879999999994,
+    "quantity": 300
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "World Famous",
+    "revenue": 1657.85,
+    "purchaseCost": 1152.33,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Cheyenne",
+    "revenue": 6157.36,
+    "purchaseCost": 3071.6900000000005,
+    "quantity": 187
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1684.2999999999997,
+    "purchaseCost": 1018.8999999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Reelskin",
+    "revenue": 454.55,
+    "purchaseCost": 290.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Killer Ink",
+    "revenue": 959.05,
+    "purchaseCost": 675.96,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "ETERNAL",
+    "revenue": 1785.14,
+    "purchaseCost": 1181.73,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "3M",
+    "revenue": 463.69,
+    "purchaseCost": 239.88000000000002,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Spirit",
+    "revenue": 1662,
+    "purchaseCost": 1604,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Sharpie",
+    "revenue": 297.52,
+    "purchaseCost": 191.09,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Tattoo Stuff",
+    "revenue": 1579.32,
+    "purchaseCost": 911.25,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1720.73,
+    "purchaseCost": 1381.28,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "The Inked Army",
+    "revenue": 1221.56,
+    "purchaseCost": 725.12,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "UNISTAR",
+    "revenue": 1222.33,
+    "purchaseCost": 434.89,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Xtreme Ink",
+    "revenue": 676.86,
+    "purchaseCost": 402.95,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Biotek",
+    "revenue": 950.3999999999999,
+    "purchaseCost": 740.12,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 757.04,
+    "purchaseCost": 451,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Piranha",
+    "revenue": 6264.450000000002,
+    "purchaseCost": 3797.53,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Premier Products",
+    "revenue": 940.5,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Inkjecta",
+    "revenue": 1148.76,
+    "purchaseCost": 688.92,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "DC Invention Company",
+    "revenue": 1086.6100000000001,
+    "purchaseCost": 687.1600000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 623.8000000000001,
+    "purchaseCost": 508.87,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Panthera",
+    "revenue": 6199.059999999999,
+    "purchaseCost": 3681.28,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "INTENZE",
+    "revenue": 1718.1799999999998,
+    "purchaseCost": 1186.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "AVA Machine",
+    "revenue": 1102.48,
+    "purchaseCost": 459.66,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "FineLine",
+    "revenue": 1742.9699999999998,
+    "purchaseCost": 857.92,
+    "quantity": 56
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "PERMA BLEND",
+    "revenue": 1653.3,
+    "purchaseCost": 1100.74,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1495.12,
+    "purchaseCost": 919.4399999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 1247.73,
+    "purchaseCost": 682.24,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "RENOVA",
+    "revenue": 328.84000000000003,
+    "purchaseCost": 189.44,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Bishop Rotary",
+    "revenue": 20005.109999999993,
+    "purchaseCost": 11604.949999999999,
+    "quantity": 547
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Proton",
+    "revenue": 444.62,
+    "purchaseCost": 203.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "KURO SUMI",
+    "revenue": 2895.0499999999997,
+    "purchaseCost": 1951.8200000000002,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Allegory Ink",
+    "revenue": 1012.81,
+    "purchaseCost": 727.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "FK IRONS",
+    "revenue": 39986.72,
+    "purchaseCost": 26951.590000000004,
+    "quantity": 93
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Biotat",
+    "revenue": 1147.1100000000001,
+    "purchaseCost": 690.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Prime",
+    "revenue": 143.8,
+    "purchaseCost": 72.87,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3931.87,
+    "purchaseCost": 2541.04,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "TattooMed®",
+    "revenue": 577.69,
+    "purchaseCost": 361.72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "SKULLDNA",
+    "revenue": 72.23,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 3395.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 228.1,
+    "purchaseCost": 58.8,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Emalla",
+    "revenue": 2519.82,
+    "purchaseCost": 978.91,
+    "quantity": 81
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2875.83,
+    "purchaseCost": 807.5,
+    "quantity": 123
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "I AM INK",
+    "revenue": 511.57,
+    "purchaseCost": 479.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Dermalize",
+    "revenue": 745.87,
+    "purchaseCost": 437.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Softasept B. Braun",
+    "revenue": 1156.2,
+    "purchaseCost": 919.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Electrum",
+    "revenue": 164.46,
+    "purchaseCost": 82.11,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Believa Cosmetics",
+    "revenue": 1219.5,
+    "purchaseCost": 823,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 531.47,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Etalon Mix",
+    "revenue": 13363.810000000001,
+    "purchaseCost": 9539.66,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "ALOE TATTOO",
+    "revenue": 1113.22,
+    "purchaseCost": 680.0500000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Celtic Supply",
+    "revenue": 682.64,
+    "purchaseCost": 423.75,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "POPU",
+    "revenue": 574.09,
+    "purchaseCost": 185.98000000000002,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "INK-EEZE",
+    "revenue": 3301.65,
+    "purchaseCost": 1821.75,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "PEPAX",
+    "revenue": 1763.23,
+    "purchaseCost": 743.08,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "BLOW ICE",
+    "revenue": 197.52,
+    "purchaseCost": 135.36,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Coal Black",
+    "revenue": 461.15999999999997,
+    "purchaseCost": 455.83,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "The Perma",
+    "revenue": 119.83,
+    "purchaseCost": 65.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "REVOLUTION",
+    "revenue": 871.9,
+    "purchaseCost": 488.65000000000003,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Tombow",
+    "revenue": 556.3799999999999,
+    "purchaseCost": 295.12,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Rosa",
+    "revenue": 1428.93,
+    "purchaseCost": 932.9,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Lamajja",
+    "revenue": 471.08000000000004,
+    "purchaseCost": 313.84000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-03",
+    "brand": "Buff Browz",
+    "revenue": 181.82,
+    "purchaseCost": 107.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "KWADRON",
+    "revenue": 30420.030000000002,
+    "purchaseCost": 16881.08,
+    "quantity": 639
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "UNIGLOVES",
+    "revenue": 6387.070000000001,
+    "purchaseCost": 4247.58,
+    "quantity": 54
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1643.0299999999997,
+    "purchaseCost": 1014.0300000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Ostatní",
+    "revenue": 1738.8200000000002,
+    "purchaseCost": 724.3199999999998,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Spirit",
+    "revenue": 4039.7499999999995,
+    "purchaseCost": 2858.7700000000004,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Bishop Rotary",
+    "revenue": 666.94,
+    "purchaseCost": 426.66999999999996,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "ELITE",
+    "revenue": 16883.020000000004,
+    "purchaseCost": 7505.64,
+    "quantity": 660
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Forte",
+    "revenue": 411.57000000000005,
+    "purchaseCost": 295.68,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Nezařazeno",
+    "revenue": 4608.31,
+    "purchaseCost": 2278.1,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "UNISTAR",
+    "revenue": 2007.4700000000003,
+    "purchaseCost": 696.78,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Biotat",
+    "revenue": 1645.6599999999999,
+    "purchaseCost": 993.88,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Etalon Mix",
+    "revenue": 15689.270000000008,
+    "purchaseCost": 10983.990000000002,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1104.1200000000001,
+    "purchaseCost": 606.02,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Dermalize",
+    "revenue": 443.8,
+    "purchaseCost": 257.26,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Cheyenne",
+    "revenue": 1831.4199999999998,
+    "purchaseCost": 1066.6999999999998,
+    "quantity": 79
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2801.72,
+    "purchaseCost": 987.62,
+    "quantity": 93
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "DYNAMIC",
+    "revenue": 6500.720000000001,
+    "purchaseCost": 3877.0500000000006,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Xtreme Ink",
+    "revenue": 2076.0299999999997,
+    "purchaseCost": 1311.29,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Lamajja",
+    "revenue": 1504.13,
+    "purchaseCost": 1031.3600000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Panthera",
+    "revenue": 1823.9400000000003,
+    "purchaseCost": 1070.57,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 245.45999999999998,
+    "purchaseCost": 127.92,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "TattooMed®",
+    "revenue": 942.1500000000001,
+    "purchaseCost": 316.54,
+    "quantity": 56
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "FineLine",
+    "revenue": 5809.91,
+    "purchaseCost": 3370.4,
+    "quantity": 220
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2815.2900000000004,
+    "purchaseCost": 1774.83,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1403.58,
+    "purchaseCost": 1121.16,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "DC Invention Company",
+    "revenue": 709.92,
+    "purchaseCost": 425.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Celtic Supply",
+    "revenue": 975.2,
+    "purchaseCost": 565,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "PERMA BLEND",
+    "revenue": 10206.63,
+    "purchaseCost": 6881.13,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "REVOLUTION",
+    "revenue": 130.58,
+    "purchaseCost": 78.96000000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Premier Products",
+    "revenue": 1429.08,
+    "purchaseCost": 843.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "World Famous",
+    "revenue": 3944.1199999999994,
+    "purchaseCost": 2703.81,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "BLOW ICE",
+    "revenue": 609.92,
+    "purchaseCost": 340.38,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Piranha",
+    "revenue": 1062.1,
+    "purchaseCost": 618.8100000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1097.71,
+    "purchaseCost": 852.77,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Killer Ink",
+    "revenue": 3.22,
+    "purchaseCost": 2.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "RENOVA",
+    "revenue": 677.69,
+    "purchaseCost": 317.44,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2638.8499999999995,
+    "purchaseCost": 708.9,
+    "quantity": 107
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "I AM INK",
+    "revenue": 1603.31,
+    "purchaseCost": 1576.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Proton",
+    "revenue": 1542.57,
+    "purchaseCost": 908.4399999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Tattoo Bull",
+    "revenue": 758.6800000000001,
+    "purchaseCost": 448.08000000000004,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "OZER",
+    "revenue": 1425.78,
+    "purchaseCost": 630.38,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 78.51,
+    "purchaseCost": 33.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "The Inked Army",
+    "revenue": 444.62,
+    "purchaseCost": 279,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "AVA Machine",
+    "revenue": 1363.6299999999999,
+    "purchaseCost": 539.4000000000001,
+    "quantity": 90
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "KURO SUMI",
+    "revenue": 1302.51,
+    "purchaseCost": 853.9300000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "INTENZE",
+    "revenue": 950.82,
+    "purchaseCost": 680.75,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "PEPAX",
+    "revenue": 1436.3600000000001,
+    "purchaseCost": 644.3,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "ETERNAL",
+    "revenue": 699.5,
+    "purchaseCost": 485.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "FK IRONS",
+    "revenue": 1066.12,
+    "purchaseCost": 731.74,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Biotek",
+    "revenue": 495.87,
+    "purchaseCost": 309.84,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Emalla",
+    "revenue": 1459.52,
+    "purchaseCost": 491.8,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Reelskin",
+    "revenue": 785.12,
+    "purchaseCost": 523.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Tombow",
+    "revenue": 409.09999999999997,
+    "purchaseCost": 212.36999999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "ECOLAB",
+    "revenue": 625.62,
+    "purchaseCost": 433.61,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Prime",
+    "revenue": 1198.35,
+    "purchaseCost": 607.3,
+    "quantity": 50
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "ALOE TATTOO",
+    "revenue": 361.98,
+    "purchaseCost": 240.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Studex",
+    "revenue": 247.11,
+    "purchaseCost": 168.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "The Pigment",
+    "revenue": 1657.03,
+    "purchaseCost": 902.03,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Tattoo Stuff",
+    "revenue": 541.32,
+    "purchaseCost": 328.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Nuva Colors",
+    "revenue": 1733.0700000000002,
+    "purchaseCost": 1164.3899999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "3M",
+    "revenue": 81,
+    "purchaseCost": 39.98,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "DEISS",
+    "revenue": 45.45,
+    "purchaseCost": 34,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Electrum",
+    "revenue": 80.99,
+    "purchaseCost": 23.16,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Braun",
+    "revenue": 404.13,
+    "purchaseCost": 289.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "The Perma",
+    "revenue": 599.17,
+    "purchaseCost": 329.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 577.69,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "POPU",
+    "revenue": 64.46,
+    "purchaseCost": 15.34,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-04",
+    "brand": "EasyTattoo",
+    "revenue": 164.46,
+    "purchaseCost": 95.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "ECOLAB",
+    "revenue": 378.52,
+    "purchaseCost": 242.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Electrum",
+    "revenue": 134.70999999999998,
+    "purchaseCost": 45.78,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Piranha",
+    "revenue": 5046.289999999999,
+    "purchaseCost": 2821.1400000000003,
+    "quantity": 110
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "UNIGLOVES",
+    "revenue": 5297.23,
+    "purchaseCost": 3485.0800000000004,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Nezařazeno",
+    "revenue": 6251.249999999999,
+    "purchaseCost": 4270.2699999999995,
+    "quantity": 62
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "KWADRON",
+    "revenue": 16549.22,
+    "purchaseCost": 8992.170000000004,
+    "quantity": 413
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 14004.950000000003,
+    "purchaseCost": 4752.540000000001,
+    "quantity": 201
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Biotat",
+    "revenue": 384.98,
+    "purchaseCost": 220.43,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Bishop Rotary",
+    "revenue": 9958.52,
+    "purchaseCost": 6091.15,
+    "quantity": 248
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "BD Insyte",
+    "revenue": 295.62,
+    "purchaseCost": 215.35,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1189.28,
+    "purchaseCost": 907.94,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Xtreme Ink",
+    "revenue": 6340.67,
+    "purchaseCost": 3611.2,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Cheyenne",
+    "revenue": 2399.17,
+    "purchaseCost": 1134.74,
+    "quantity": 85
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Ostatní",
+    "revenue": 2262.2400000000002,
+    "purchaseCost": 899.3099999999998,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "ALOE TATTOO",
+    "revenue": 676.12,
+    "purchaseCost": 357.19000000000005,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1220.65,
+    "purchaseCost": 892.0799999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "DYNAMIC",
+    "revenue": 4819.05,
+    "purchaseCost": 2772.7000000000003,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "INK-EEZE",
+    "revenue": 296.69,
+    "purchaseCost": 173.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "DC Invention Company",
+    "revenue": 709.92,
+    "purchaseCost": 425.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "The Inked Army",
+    "revenue": 666.9300000000001,
+    "purchaseCost": 418.5,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 544.63,
+    "purchaseCost": 322,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "SWAVGO",
+    "revenue": 443.18,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "OZER",
+    "revenue": 823.96,
+    "purchaseCost": 343.91999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 597.52,
+    "purchaseCost": 358.97999999999996,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "UNISTAR",
+    "revenue": 5115.389999999999,
+    "purchaseCost": 2311.87,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "PERMA BLEND",
+    "revenue": 2429.7599999999998,
+    "purchaseCost": 1610.79,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Panthera",
+    "revenue": 4928.19,
+    "purchaseCost": 4110.82,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "SKINz",
+    "revenue": 206.61,
+    "purchaseCost": 120.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Killer Ink",
+    "revenue": 305.78,
+    "purchaseCost": 206.29000000000002,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 558.3,
+    "purchaseCost": 338.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Celtic Supply",
+    "revenue": 362.85,
+    "purchaseCost": 203.23000000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Reelskin",
+    "revenue": 454.55,
+    "purchaseCost": 290.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Biotek",
+    "revenue": 2923.15,
+    "purchaseCost": 1682.06,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "FK IRONS",
+    "revenue": 2991.9799999999996,
+    "purchaseCost": 2267.38,
+    "quantity": 77
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "EIKON",
+    "revenue": 1606.62,
+    "purchaseCost": 887.1600000000001,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "ELITE",
+    "revenue": 17645.760000000002,
+    "purchaseCost": 7907.980000000004,
+    "quantity": 796
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "KURO SUMI",
+    "revenue": 296.78,
+    "purchaseCost": 213.84,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Proton",
+    "revenue": 1167.1100000000001,
+    "purchaseCost": 594.66,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "World Famous",
+    "revenue": 5035.569999999999,
+    "purchaseCost": 3645.4800000000005,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2818.1899999999996,
+    "purchaseCost": 768.9,
+    "quantity": 116
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Braun",
+    "revenue": 24.79,
+    "purchaseCost": 18.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "PEPAX",
+    "revenue": 3302.48,
+    "purchaseCost": 1591.2,
+    "quantity": 180
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "INTENZE",
+    "revenue": 1462.8000000000002,
+    "purchaseCost": 1026.13,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Prime",
+    "revenue": 215.7,
+    "purchaseCost": 121.5,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Spirit",
+    "revenue": 2685.95,
+    "purchaseCost": 1646.32,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Lamajja",
+    "revenue": 272.73,
+    "purchaseCost": 190.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Emalla",
+    "revenue": 2082.65,
+    "purchaseCost": 788.8,
+    "quantity": 80
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "ELEPHANT",
+    "revenue": 775.2,
+    "purchaseCost": 435.2,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 1636.36,
+    "purchaseCost": 852.8,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Nuva Colors",
+    "revenue": 907.44,
+    "purchaseCost": 475.97,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Tattoo Stuff",
+    "revenue": 296.53,
+    "purchaseCost": 182.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Rosa",
+    "revenue": 1140.5,
+    "purchaseCost": 747.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Buff Browz",
+    "revenue": 247.11,
+    "purchaseCost": 168.67,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 171.07,
+    "purchaseCost": 44.099999999999994,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "RENOVA",
+    "revenue": 239.67,
+    "purchaseCost": 156,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 4950.41,
+    "purchaseCost": 2052.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 499.17,
+    "purchaseCost": 246.14000000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Etalon Mix",
+    "revenue": 2476.86,
+    "purchaseCost": 1733.79,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "TattooMed®",
+    "revenue": 940.5100000000001,
+    "purchaseCost": 554.55,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Aloe Micro",
+    "revenue": 288.43,
+    "purchaseCost": 194.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Forte",
+    "revenue": 411.57000000000005,
+    "purchaseCost": 295.68,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-05",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "KWADRON",
+    "revenue": 11119.099999999999,
+    "purchaseCost": 5905.299999999998,
+    "quantity": 286
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "BLOW ICE",
+    "revenue": 399.17,
+    "purchaseCost": 238.53,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Celtic Supply",
+    "revenue": 790.2,
+    "purchaseCost": 254.44,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "PEPAX",
+    "revenue": 1130.58,
+    "purchaseCost": 507.54999999999995,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "The Inked Army",
+    "revenue": 657.1,
+    "purchaseCost": 425.9,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Ostatní",
+    "revenue": 1602.7400000000002,
+    "purchaseCost": 789.6600000000001,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Bishop Rotary",
+    "revenue": 3269.4100000000008,
+    "purchaseCost": 1760.93,
+    "quantity": 93
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "DYNAMIC",
+    "revenue": 5694.259999999999,
+    "purchaseCost": 3319.6700000000005,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Nezařazeno",
+    "revenue": 5333.41,
+    "purchaseCost": 5510.24,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "UNISTAR",
+    "revenue": 5713.090000000002,
+    "purchaseCost": 3191.54,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Lamajja",
+    "revenue": 3023.98,
+    "purchaseCost": 2064.45,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Etalon Mix",
+    "revenue": 16438.85,
+    "purchaseCost": 11508.74,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "ELITE",
+    "revenue": 9052.849999999999,
+    "purchaseCost": 3676.6999999999994,
+    "quantity": 388
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "UNIGLOVES",
+    "revenue": 1824.47,
+    "purchaseCost": 1153.82,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Panthera",
+    "revenue": 2302.1600000000003,
+    "purchaseCost": 1376.3000000000002,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Piranha",
+    "revenue": 4728.77,
+    "purchaseCost": 2666.31,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 995.88,
+    "purchaseCost": 615.75,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Xtreme Ink",
+    "revenue": 2983.4700000000003,
+    "purchaseCost": 1975.7199999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2419.62,
+    "purchaseCost": 1507.36,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Biotat",
+    "revenue": 661.16,
+    "purchaseCost": 423.12,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 230.58,
+    "purchaseCost": 189.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Spirit",
+    "revenue": 2935.5299999999997,
+    "purchaseCost": 1930.77,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "INK-EEZE",
+    "revenue": 550.41,
+    "purchaseCost": 364.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "SWAVGO",
+    "revenue": 413.64,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Biotek",
+    "revenue": 6343.389999999999,
+    "purchaseCost": 3565.0799999999995,
+    "quantity": 139
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "FK IRONS",
+    "revenue": 6037.19,
+    "purchaseCost": 4603.9,
+    "quantity": 117
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 214.05,
+    "purchaseCost": 145.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Nuva Colors",
+    "revenue": 14376.120000000006,
+    "purchaseCost": 9722.479999999998,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Coal Black",
+    "revenue": 288.43,
+    "purchaseCost": 291.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "AVA Machine",
+    "revenue": 628.11,
+    "purchaseCost": 259.03,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 4080.97,
+    "purchaseCost": 1911.7900000000002,
+    "quantity": 228
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 4083.47,
+    "purchaseCost": 1919.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Emalla",
+    "revenue": 697.69,
+    "purchaseCost": 278.22,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "OZER",
+    "revenue": 885.12,
+    "purchaseCost": 266.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Proton",
+    "revenue": 686.53,
+    "purchaseCost": 420.44,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Cheyenne",
+    "revenue": 1803.31,
+    "purchaseCost": 1018.4000000000001,
+    "quantity": 72
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 710.74,
+    "purchaseCost": 556.88,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 256.2,
+    "purchaseCost": 67,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Sorry Mom",
+    "revenue": 364.46,
+    "purchaseCost": 357.83,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Premier Products",
+    "revenue": 423.22,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "I AM INK",
+    "revenue": 1198.35,
+    "purchaseCost": 1169.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 198.35,
+    "purchaseCost": 116.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "3M",
+    "revenue": 40.5,
+    "purchaseCost": 19.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "Tattoo Stuff",
+    "revenue": 541.32,
+    "purchaseCost": 328.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "PERMA BLEND",
+    "revenue": 3239.68,
+    "purchaseCost": 2116.8,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "MAPO Medical",
+    "revenue": 519.92,
+    "purchaseCost": 400,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "FineLine",
+    "revenue": 62.81,
+    "purchaseCost": 30.64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-06",
+    "brand": "INTENZE",
+    "revenue": 487.6,
+    "purchaseCost": 339.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 396.7,
+    "purchaseCost": 234.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "DYNAMIC",
+    "revenue": 7405.030000000002,
+    "purchaseCost": 3882.7200000000016,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 7429.75,
+    "purchaseCost": 3263.79,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "ELITE",
+    "revenue": 5712.400000000001,
+    "purchaseCost": 2294.58,
+    "quantity": 218
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Cheyenne",
+    "revenue": 1099.99,
+    "purchaseCost": 580.0799999999999,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Coal Black",
+    "revenue": 662.81,
+    "purchaseCost": 654.67,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "KWADRON",
+    "revenue": 7858.700000000001,
+    "purchaseCost": 4466.6500000000015,
+    "quantity": 215
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 757.84,
+    "purchaseCost": 588.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "World Famous",
+    "revenue": 859.5,
+    "purchaseCost": 567.5699999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Nezařazeno",
+    "revenue": 6566.090000000001,
+    "purchaseCost": 2841.7,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "3M",
+    "revenue": 40.5,
+    "purchaseCost": 19.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "DC Invention Company",
+    "revenue": 487.6,
+    "purchaseCost": 333.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "RENOVA",
+    "revenue": 280.99,
+    "purchaseCost": 178.64,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Piranha",
+    "revenue": 3223.1400000000003,
+    "purchaseCost": 1861.9500000000003,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 839.67,
+    "purchaseCost": 628.44,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Electrum",
+    "revenue": 204.96,
+    "purchaseCost": 93.69,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Prime",
+    "revenue": 311.57,
+    "purchaseCost": 157.95,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Panthera",
+    "revenue": 1245.46,
+    "purchaseCost": 691.5,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1523.97,
+    "purchaseCost": 436.1,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "UNIGLOVES",
+    "revenue": 2543.79,
+    "purchaseCost": 1730.45,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "ECOLAB",
+    "revenue": 781.8299999999999,
+    "purchaseCost": 504.31000000000006,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 77.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Spirit",
+    "revenue": 280.99,
+    "purchaseCost": 272,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Ostatní",
+    "revenue": 1083.48,
+    "purchaseCost": 535.61,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Tattoo Stuff",
+    "revenue": 322.31,
+    "purchaseCost": 182.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "BLOW ICE",
+    "revenue": 73.55,
+    "purchaseCost": 50.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Proton",
+    "revenue": 181.82,
+    "purchaseCost": 121.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "ACUS",
+    "revenue": 26851.24,
+    "purchaseCost": 22163.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Biotek",
+    "revenue": 4707.43,
+    "purchaseCost": 2793.13,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "UNISTAR",
+    "revenue": 1007.45,
+    "purchaseCost": 462.84000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1305.78,
+    "purchaseCost": 785.8799999999999,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "The Inked Army",
+    "revenue": 444.63,
+    "purchaseCost": 279,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 576.86,
+    "purchaseCost": 335.07,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Killer Ink",
+    "revenue": 165.29,
+    "purchaseCost": 102.26,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "PEPAX",
+    "revenue": 676.86,
+    "purchaseCost": 307.47,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Etalon Mix",
+    "revenue": 1321.49,
+    "purchaseCost": 925.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 529.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Sanytol",
+    "revenue": 168.60000000000002,
+    "purchaseCost": 106.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "ALOE TATTOO",
+    "revenue": 205.79,
+    "purchaseCost": 129.06,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Wildcat",
+    "revenue": 824.79,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "OZER",
+    "revenue": 329.75,
+    "purchaseCost": 143.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "The Perma",
+    "revenue": 479.34,
+    "purchaseCost": 255.2,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Studex",
+    "revenue": 81.82,
+    "purchaseCost": 44.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Tattoo Goo",
+    "revenue": 123.14,
+    "purchaseCost": 80.89,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-07",
+    "brand": "Sharpie",
+    "revenue": 97.52,
+    "purchaseCost": 35.46,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Proton",
+    "revenue": 981.02,
+    "purchaseCost": 536.62,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "KWADRON",
+    "revenue": 15188.130000000001,
+    "purchaseCost": 8389.46,
+    "quantity": 447
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "3M",
+    "revenue": 311.01,
+    "purchaseCost": 159.92000000000002,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "OZER",
+    "revenue": 824.79,
+    "purchaseCost": 352.17999999999995,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Nezařazeno",
+    "revenue": 3637.56,
+    "purchaseCost": 1697.87,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "ELITE",
+    "revenue": 7913.27,
+    "purchaseCost": 3267.879999999999,
+    "quantity": 249
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 263.64,
+    "purchaseCost": 190.75,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Panthera",
+    "revenue": 634.71,
+    "purchaseCost": 349.37,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "SKULLDNA",
+    "revenue": 157.02,
+    "purchaseCost": 45.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Biotat",
+    "revenue": 966.11,
+    "purchaseCost": 563.49,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1279.35,
+    "purchaseCost": 788.1800000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Bishop Rotary",
+    "revenue": 24305.79,
+    "purchaseCost": 15751.99,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1563.6399999999999,
+    "purchaseCost": 611.1899999999999,
+    "quantity": 69
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "FK IRONS",
+    "revenue": 1021.5,
+    "purchaseCost": 621.12,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 548.8,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 327.27,
+    "purchaseCost": 170.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Electrum",
+    "revenue": 351.32,
+    "purchaseCost": 189.89000000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "SWAVGO",
+    "revenue": 652.27,
+    "purchaseCost": 315.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2358.47,
+    "purchaseCost": 1390.84,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "UNIGLOVES",
+    "revenue": 2787.480000000001,
+    "purchaseCost": 1797.0899999999997,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Ostatní",
+    "revenue": 2759.9100000000008,
+    "purchaseCost": 1195.1399999999999,
+    "quantity": 74
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "UNISTAR",
+    "revenue": 2265.34,
+    "purchaseCost": 1171.72,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Spirit",
+    "revenue": 3321.6400000000003,
+    "purchaseCost": 2336.14,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Sanytol",
+    "revenue": 65.29,
+    "purchaseCost": 36.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "DC Invention Company",
+    "revenue": 180.99,
+    "purchaseCost": 113.67,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Tattoo Goo",
+    "revenue": 180.99,
+    "purchaseCost": 79.41,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Celtic Supply",
+    "revenue": 206.61,
+    "purchaseCost": 139.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Nuva Colors",
+    "revenue": 1155.38,
+    "purchaseCost": 777.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Lamajja",
+    "revenue": 1074.38,
+    "purchaseCost": 712.8100000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Cheyenne",
+    "revenue": 1584.1299999999999,
+    "purchaseCost": 981.0199999999999,
+    "quantity": 64
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "BD Insyte",
+    "revenue": 288.92,
+    "purchaseCost": 241.25,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "DYNAMIC",
+    "revenue": 6411.6100000000015,
+    "purchaseCost": 3731.94,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "ECOLAB",
+    "revenue": 378.52,
+    "purchaseCost": 242.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Emalla",
+    "revenue": 1330.26,
+    "purchaseCost": 583.71,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Piranha",
+    "revenue": 1281.0000000000002,
+    "purchaseCost": 720.13,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Tattoo Stuff",
+    "revenue": 917.3499999999999,
+    "purchaseCost": 609,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 267.69,
+    "purchaseCost": 202.91000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "KYBROWS",
+    "revenue": 636.37,
+    "purchaseCost": 463.27,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1114.04,
+    "purchaseCost": 575,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "KURO SUMI",
+    "revenue": 661.1600000000001,
+    "purchaseCost": 347.4,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Killer Ink",
+    "revenue": 484.46000000000004,
+    "purchaseCost": 287.14,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Tombow",
+    "revenue": 163.64,
+    "purchaseCost": 84.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 3395.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "INTENZE",
+    "revenue": 1380.1599999999999,
+    "purchaseCost": 1039.78,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "TattooMed®",
+    "revenue": 557.03,
+    "purchaseCost": 382.69999999999993,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 9900.82,
+    "purchaseCost": 3494.2400000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "RENOVA",
+    "revenue": 135.54,
+    "purchaseCost": 61.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Etalon Mix",
+    "revenue": 8312.84,
+    "purchaseCost": 5818.959999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "PERMA BLEND",
+    "revenue": 1651.24,
+    "purchaseCost": 1125.45,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 57.85,
+    "purchaseCost": 13.57,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "World Famous",
+    "revenue": 859.5,
+    "purchaseCost": 584.85,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Reelskin",
+    "revenue": 49.09,
+    "purchaseCost": 31.8,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "Premier Products",
+    "revenue": 432.63,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-08",
+    "brand": "AVA Machine",
+    "revenue": 165.29,
+    "purchaseCost": 69.73,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "ALOE TATTOO",
+    "revenue": 717.35,
+    "purchaseCost": 403.27,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "AVA Machine",
+    "revenue": 905.77,
+    "purchaseCost": 412.15,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "DYNAMIC",
+    "revenue": 7761.200000000002,
+    "purchaseCost": 4409.14,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 4588.49,
+    "purchaseCost": 1793.99,
+    "quantity": 209
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1932.2399999999998,
+    "purchaseCost": 1194.1299999999997,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "KURO SUMI",
+    "revenue": 1798.4699999999998,
+    "purchaseCost": 1214.8,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Panthera",
+    "revenue": 4162.4400000000005,
+    "purchaseCost": 2619.7000000000003,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "UNIGLOVES",
+    "revenue": 2954.73,
+    "purchaseCost": 1852.49,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 971.9000000000001,
+    "purchaseCost": 750.53,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 8644.640000000001,
+    "purchaseCost": 2823.9,
+    "quantity": 85
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "KWADRON",
+    "revenue": 41481.100000000006,
+    "purchaseCost": 23899.5,
+    "quantity": 613
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Nezařazeno",
+    "revenue": 17113.24,
+    "purchaseCost": 7354.31,
+    "quantity": 62
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "ELITE",
+    "revenue": 24698.65000000001,
+    "purchaseCost": 9723.760000000002,
+    "quantity": 990
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Spirit",
+    "revenue": 3870.25,
+    "purchaseCost": 2760.54,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Ostatní",
+    "revenue": 1695.8599999999997,
+    "purchaseCost": 550.11,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Proton",
+    "revenue": 626.44,
+    "purchaseCost": 324.53999999999996,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Cheyenne",
+    "revenue": 16691.72,
+    "purchaseCost": 10626.319999999998,
+    "quantity": 214
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Electrum",
+    "revenue": 134.70999999999998,
+    "purchaseCost": 45.78,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "TattooMed®",
+    "revenue": 1138.8500000000001,
+    "purchaseCost": 664.79,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 2280.99,
+    "purchaseCost": 1459.66,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Piranha",
+    "revenue": 5927.650000000001,
+    "purchaseCost": 3133.49,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "World Famous",
+    "revenue": 395.37,
+    "purchaseCost": 282.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "The Inked Army",
+    "revenue": 618.1800000000001,
+    "purchaseCost": 390.59000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Xtreme Ink",
+    "revenue": 4098.35,
+    "purchaseCost": 2696.13,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Etalon Mix",
+    "revenue": 2972.73,
+    "purchaseCost": 2080.8999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Nuva Colors",
+    "revenue": 2310.76,
+    "purchaseCost": 1567.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Bishop Rotary",
+    "revenue": 6106.590000000001,
+    "purchaseCost": 3572.1899999999996,
+    "quantity": 135
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 1658.27,
+    "purchaseCost": 1066.75,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "UNISTAR",
+    "revenue": 4234.0700000000015,
+    "purchaseCost": 2094.96,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1514.16,
+    "purchaseCost": 1141.98,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "ECOLAB",
+    "revenue": 617.36,
+    "purchaseCost": 402.72,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Biotek",
+    "revenue": 6323.960000000001,
+    "purchaseCost": 3793.12,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Rosa",
+    "revenue": 734.71,
+    "purchaseCost": 488.45,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "PERMA BLEND",
+    "revenue": 6542.16,
+    "purchaseCost": 4341.27,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Wildcat",
+    "revenue": 81,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "SWAVGO",
+    "revenue": 840.9,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "OZER",
+    "revenue": 1064.46,
+    "purchaseCost": 398.53,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "FK IRONS",
+    "revenue": 1947.1100000000001,
+    "purchaseCost": 1513.78,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "PEPAX",
+    "revenue": 3222.7799999999997,
+    "purchaseCost": 1558.1499999999999,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "FineLine",
+    "revenue": 1554.54,
+    "purchaseCost": 781.32,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 5280.15,
+    "purchaseCost": 3085.18,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Killer Ink",
+    "revenue": 652.06,
+    "purchaseCost": 345.28000000000003,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Believa Cosmetics",
+    "revenue": 329.75,
+    "purchaseCost": 171.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 412.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 818.18,
+    "purchaseCost": 426.4,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Magic Moon",
+    "revenue": 404.13,
+    "purchaseCost": 265.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Emalla",
+    "revenue": 2117.35,
+    "purchaseCost": 802.8500000000001,
+    "quantity": 75
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "BLOW ICE",
+    "revenue": 304.96,
+    "purchaseCost": 170.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "LASKIN",
+    "revenue": 619.83,
+    "purchaseCost": 464.88,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Allegory Ink",
+    "revenue": 1066.12,
+    "purchaseCost": 727.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Tattoo Bull",
+    "revenue": 164.46,
+    "purchaseCost": 96.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Braun",
+    "revenue": 205.79,
+    "purchaseCost": 154.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "RENOVA",
+    "revenue": 53.72,
+    "purchaseCost": 32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Sharpie",
+    "revenue": 171.9,
+    "purchaseCost": 100.30000000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Lamajja",
+    "revenue": 1173.56,
+    "purchaseCost": 773.7700000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "INTENZE",
+    "revenue": 909.09,
+    "purchaseCost": 630.87,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "3M",
+    "revenue": 283.48,
+    "purchaseCost": 139.93,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Biotat",
+    "revenue": 247.11,
+    "purchaseCost": 149.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Celtic Supply",
+    "revenue": 243.8,
+    "purchaseCost": 141.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Tombow",
+    "revenue": 81.82,
+    "purchaseCost": 42.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Reelskin",
+    "revenue": 1719.01,
+    "purchaseCost": 1124.4,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Coal Black",
+    "revenue": 404.13,
+    "purchaseCost": 396.3,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Studex",
+    "revenue": 247.11,
+    "purchaseCost": 168.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-09",
+    "brand": "Prime",
+    "revenue": 862.81,
+    "purchaseCost": 484.79999999999995,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "DC Invention Company",
+    "revenue": 209.91,
+    "purchaseCost": 145.7,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Panthera",
+    "revenue": 5157.5199999999995,
+    "purchaseCost": 2967.4500000000003,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "AVA Machine",
+    "revenue": 6669.41,
+    "purchaseCost": 3936.52,
+    "quantity": 55
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Biotat",
+    "revenue": 1605.24,
+    "purchaseCost": 875.3700000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "UNIGLOVES",
+    "revenue": 6558.570000000001,
+    "purchaseCost": 4177.92,
+    "quantity": 42
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "EasyTattoo",
+    "revenue": 164.46,
+    "purchaseCost": 95.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Proton",
+    "revenue": 1124.87,
+    "purchaseCost": 608.0400000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1788.4499999999998,
+    "purchaseCost": 1472.7000000000003,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "OZER",
+    "revenue": 2348.75,
+    "purchaseCost": 1074.55,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Bishop Rotary",
+    "revenue": 5092.530000000001,
+    "purchaseCost": 3023.7699999999995,
+    "quantity": 129
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Emalla",
+    "revenue": 4347.99,
+    "purchaseCost": 1446.5600000000002,
+    "quantity": 147
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 255.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "KWADRON",
+    "revenue": 25648.610000000015,
+    "purchaseCost": 14261.570000000002,
+    "quantity": 458
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "PERMA BLEND",
+    "revenue": 3577.7,
+    "purchaseCost": 2573.8,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "World Famous",
+    "revenue": 4197.51,
+    "purchaseCost": 3334.6899999999996,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Nezařazeno",
+    "revenue": 6886.5099999999975,
+    "purchaseCost": 3525.5599999999995,
+    "quantity": 91
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "DYNAMIC",
+    "revenue": 8396.740000000002,
+    "purchaseCost": 4981.6,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "ELITE",
+    "revenue": 13508.02,
+    "purchaseCost": 5110.44,
+    "quantity": 472
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Spirit",
+    "revenue": 2704.13,
+    "purchaseCost": 1849,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Cheyenne",
+    "revenue": 21770.72,
+    "purchaseCost": 14092.099999999999,
+    "quantity": 261
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Ostatní",
+    "revenue": 2412.1399999999994,
+    "purchaseCost": 995.7199999999999,
+    "quantity": 91
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 9683.529999999999,
+    "purchaseCost": 3935.2500000000005,
+    "quantity": 441
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 937.1999999999998,
+    "purchaseCost": 567.57,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "ECOLAB",
+    "revenue": 350.12,
+    "purchaseCost": 242.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "RENOVA",
+    "revenue": 132.85,
+    "purchaseCost": 61.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 633.09,
+    "purchaseCost": 494.40000000000003,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "SWAVGO",
+    "revenue": 454.54,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "UNISTAR",
+    "revenue": 3634.73,
+    "purchaseCost": 1887.66,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "FK IRONS",
+    "revenue": 1314.05,
+    "purchaseCost": 939.35,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "FineLine",
+    "revenue": 628.0899999999999,
+    "purchaseCost": 314.92,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3025.12,
+    "purchaseCost": 1781.4399999999998,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 558.31,
+    "purchaseCost": 338.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Premier Products",
+    "revenue": 940.5,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "MUSOTOKU",
+    "revenue": 19826.45,
+    "purchaseCost": 13446.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "The Inked Army",
+    "revenue": 2063.6699999999996,
+    "purchaseCost": 1374.49,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1112.3899999999999,
+    "purchaseCost": 614.7900000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Braun",
+    "revenue": 391,
+    "purchaseCost": 308.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "INTENZE",
+    "revenue": 2196.249999999999,
+    "purchaseCost": 1845.5799999999995,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Tattoo Stuff",
+    "revenue": 1636.34,
+    "purchaseCost": 940.8900000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "KURO SUMI",
+    "revenue": 4686.7699999999995,
+    "purchaseCost": 2969.71,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Allegory Ink",
+    "revenue": 1066.12,
+    "purchaseCost": 727.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 5768.59,
+    "purchaseCost": 2612.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Lamajja",
+    "revenue": 1032.23,
+    "purchaseCost": 712.8100000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Etalon Mix",
+    "revenue": 9081.820000000002,
+    "purchaseCost": 6357.2300000000005,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "PEPAX",
+    "revenue": 2671.3800000000006,
+    "purchaseCost": 1076.14,
+    "quantity": 129
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Tattoo Bull",
+    "revenue": 271.9,
+    "purchaseCost": 155.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Anios",
+    "revenue": 577.69,
+    "purchaseCost": 439.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Biotek",
+    "revenue": 648.77,
+    "purchaseCost": 380.48,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Nuva Colors",
+    "revenue": 1155.38,
+    "purchaseCost": 777.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Electrum",
+    "revenue": 6.33,
+    "purchaseCost": 5.54,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Killer Ink",
+    "revenue": 872.6800000000001,
+    "purchaseCost": 576.99,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Dermalize",
+    "revenue": 1388.5099999999998,
+    "purchaseCost": 760.9200000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 81.82,
+    "purchaseCost": 42.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Piranha",
+    "revenue": 2258.6599999999994,
+    "purchaseCost": 1238.4600000000003,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 660.33,
+    "purchaseCost": 328.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "TattooMed®",
+    "revenue": 453.72,
+    "purchaseCost": 283.96999999999997,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "3M",
+    "revenue": 240.96,
+    "purchaseCost": 119.93999999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "INKTROX",
+    "revenue": 156.2,
+    "purchaseCost": 109.42,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "MAPO Medical",
+    "revenue": 114.88,
+    "purchaseCost": 75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Forte",
+    "revenue": 576.0300000000001,
+    "purchaseCost": 417.72,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 6429.76,
+    "purchaseCost": 2668.52,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Believa Cosmetics",
+    "revenue": 131.4,
+    "purchaseCost": 86.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Prime",
+    "revenue": 383.46000000000004,
+    "purchaseCost": 194.40000000000003,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Xtreme Ink",
+    "revenue": 535.54,
+    "purchaseCost": 413.07,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Celtic Supply",
+    "revenue": 243.8,
+    "purchaseCost": 141.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Rosa",
+    "revenue": 1435.5400000000002,
+    "purchaseCost": 936.36,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "REVOLUTION",
+    "revenue": 165.29,
+    "purchaseCost": 82.2,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "KYBROWS",
+    "revenue": 694.22,
+    "purchaseCost": 435.96,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "ALOE TATTOO",
+    "revenue": 659.5,
+    "purchaseCost": 394.79,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "BLOW ICE",
+    "revenue": 274.46,
+    "purchaseCost": 170.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Sanytol",
+    "revenue": 58.76,
+    "purchaseCost": 36.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "I AM INK",
+    "revenue": 652.89,
+    "purchaseCost": 633.36,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-10",
+    "brand": "Tombow",
+    "revenue": 77.73,
+    "purchaseCost": 42.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "AVA Machine",
+    "revenue": 1110.75,
+    "purchaseCost": 475.79,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 9649.289999999994,
+    "purchaseCost": 3665.8699999999994,
+    "quantity": 472
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Panthera",
+    "revenue": 2848.88,
+    "purchaseCost": 1914.01,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Piranha",
+    "revenue": 6985.940000000003,
+    "purchaseCost": 3792.9599999999996,
+    "quantity": 123
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Tattoo Bull",
+    "revenue": 436.36,
+    "purchaseCost": 348.77,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1486.78,
+    "purchaseCost": 915.46,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Tattoo Goo",
+    "revenue": 246.28,
+    "purchaseCost": 161.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 7952.469999999999,
+    "purchaseCost": 5309.9,
+    "quantity": 130
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "ETERNAL",
+    "revenue": 1140.51,
+    "purchaseCost": 767.66,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 552.07,
+    "purchaseCost": 456.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Biotat",
+    "revenue": 1503.4200000000003,
+    "purchaseCost": 969.3799999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "EasyTattoo",
+    "revenue": 247.11,
+    "purchaseCost": 153.14,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "KWADRON",
+    "revenue": 30477.34,
+    "purchaseCost": 18116.06000000001,
+    "quantity": 642
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Ostatní",
+    "revenue": 3630.2200000000007,
+    "purchaseCost": 2041.8700000000003,
+    "quantity": 105
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "LASKIN",
+    "revenue": 413.22,
+    "purchaseCost": 309.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Biotek",
+    "revenue": 2893.3800000000006,
+    "purchaseCost": 1633.2599999999998,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Killer Ink",
+    "revenue": 734.7,
+    "purchaseCost": 453.01,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Bishop Rotary",
+    "revenue": 3176.0299999999997,
+    "purchaseCost": 1758.86,
+    "quantity": 80
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "FK IRONS",
+    "revenue": 12388.43,
+    "purchaseCost": 9977.36,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Saferly",
+    "revenue": 197.52,
+    "purchaseCost": 70.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Nezařazeno",
+    "revenue": 11776.380000000001,
+    "purchaseCost": 6094.329999999999,
+    "quantity": 154
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Spirit",
+    "revenue": 3361.15,
+    "purchaseCost": 2132.5299999999997,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "UNIGLOVES",
+    "revenue": 3698.75,
+    "purchaseCost": 2287.8700000000003,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "ELITE",
+    "revenue": 13269.77,
+    "purchaseCost": 5816.67,
+    "quantity": 259
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1501.64,
+    "purchaseCost": 1113.8,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Etalon Mix",
+    "revenue": 14989.600000000002,
+    "purchaseCost": 10926.329999999998,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "The Pigment",
+    "revenue": 2396.7,
+    "purchaseCost": 1475.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "BLOW ICE",
+    "revenue": 791.74,
+    "purchaseCost": 715.35,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Cheyenne",
+    "revenue": 5156.19,
+    "purchaseCost": 2761.7799999999997,
+    "quantity": 188
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "DYNAMIC",
+    "revenue": 6403.3600000000015,
+    "purchaseCost": 3572.6100000000006,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Proton",
+    "revenue": 4531.4,
+    "purchaseCost": 2286.7799999999997,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "UNISTAR",
+    "revenue": 4595.13,
+    "purchaseCost": 2391.05,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "DC Invention Company",
+    "revenue": 2919.6599999999994,
+    "purchaseCost": 1872.78,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "RENOVA",
+    "revenue": 244.63,
+    "purchaseCost": 168,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "ELEPHANT",
+    "revenue": 348.84,
+    "purchaseCost": 217.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "POPU",
+    "revenue": 672.81,
+    "purchaseCost": 166.74,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 428.11,
+    "purchaseCost": 277.5,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Electrum",
+    "revenue": 271.9,
+    "purchaseCost": 127.35000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Tattoo Stuff",
+    "revenue": 1532.22,
+    "purchaseCost": 958,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 490.90999999999997,
+    "purchaseCost": 257.34,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 906.61,
+    "purchaseCost": 701.57,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "The Inked Army",
+    "revenue": 1390.48,
+    "purchaseCost": 904.6899999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "ALOE TATTOO",
+    "revenue": 0,
+    "purchaseCost": 128.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Tattoo Armour",
+    "revenue": 1401.65,
+    "purchaseCost": 1235.8799999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "FineLine",
+    "revenue": 1224.7800000000002,
+    "purchaseCost": 630.9599999999999,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "INTENZE",
+    "revenue": 487.6,
+    "purchaseCost": 339.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Sharpie",
+    "revenue": 246.28,
+    "purchaseCost": 152.58,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Emalla",
+    "revenue": 2474.3999999999996,
+    "purchaseCost": 861.88,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "World Famous",
+    "revenue": 3618.18,
+    "purchaseCost": 2399.45,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1026.4499999999998,
+    "purchaseCost": 655.13,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "ECOLAB",
+    "revenue": 567.77,
+    "purchaseCost": 363.54,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Celtic Supply",
+    "revenue": 1151.23,
+    "purchaseCost": 445.27,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "PEPAX",
+    "revenue": 2314.06,
+    "purchaseCost": 1082.2,
+    "quantity": 120
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "3M",
+    "revenue": 323.98,
+    "purchaseCost": 159.92,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 555.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "OZER",
+    "revenue": 1642.1399999999999,
+    "purchaseCost": 666.05,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1761.15,
+    "purchaseCost": 1013.31,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Xtreme Ink",
+    "revenue": 816.53,
+    "purchaseCost": 584.64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "INKTROX",
+    "revenue": 478.51,
+    "purchaseCost": 328.62,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "KURO SUMI",
+    "revenue": 4799.99,
+    "purchaseCost": 3074.7300000000005,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "TattooMed®",
+    "revenue": 1236.3600000000001,
+    "purchaseCost": 794.29,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 101.74,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Nuva Colors",
+    "revenue": 3185.96,
+    "purchaseCost": 2073.27,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "MAPO Medical",
+    "revenue": 189.26,
+    "purchaseCost": 120,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Allegory Ink",
+    "revenue": 735.54,
+    "purchaseCost": 485.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "Prime",
+    "revenue": 143.79,
+    "purchaseCost": 72.88,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-11",
+    "brand": "INK-EEZE",
+    "revenue": 660.33,
+    "purchaseCost": 364.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "ECOLAB",
+    "revenue": 1160.35,
+    "purchaseCost": 746.6700000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Piranha",
+    "revenue": 3932.3099999999995,
+    "purchaseCost": 2181.13,
+    "quantity": 64
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Spirit",
+    "revenue": 8326.869999999999,
+    "purchaseCost": 5302.52,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "KWADRON",
+    "revenue": 38195.06999999999,
+    "purchaseCost": 22626.48,
+    "quantity": 876
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Braun",
+    "revenue": 404.13,
+    "purchaseCost": 289.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "ELITE",
+    "revenue": 27357.89000000001,
+    "purchaseCost": 10794.870000000003,
+    "quantity": 771
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Ostatní",
+    "revenue": 8571.92,
+    "purchaseCost": 5242.119999999999,
+    "quantity": 91
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "SWAVGO",
+    "revenue": 897.72,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Bishop Rotary",
+    "revenue": 7094.22,
+    "purchaseCost": 4096.929999999999,
+    "quantity": 231
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Nezařazeno",
+    "revenue": 20209.559999999998,
+    "purchaseCost": 9298.049999999997,
+    "quantity": 97
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "KURO SUMI",
+    "revenue": 2087.59,
+    "purchaseCost": 1478.4,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Cheyenne",
+    "revenue": 1742.32,
+    "purchaseCost": 1046.26,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3003.55,
+    "purchaseCost": 1746.87,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2998.0299999999997,
+    "purchaseCost": 1819.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Sharpie",
+    "revenue": 405.78,
+    "purchaseCost": 286.01,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Tattoo Stuff",
+    "revenue": 1064.4499999999998,
+    "purchaseCost": 649.28,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Biotek",
+    "revenue": 3214.8599999999997,
+    "purchaseCost": 1798.5700000000002,
+    "quantity": 42
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "The Pigment",
+    "revenue": 2413.2299999999996,
+    "purchaseCost": 1393.91,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "DYNAMIC",
+    "revenue": 4559.55,
+    "purchaseCost": 2756.27,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "UNIGLOVES",
+    "revenue": 4323.169999999999,
+    "purchaseCost": 2668.8100000000004,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Sanytol",
+    "revenue": 130.58,
+    "purchaseCost": 72.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 345.46000000000004,
+    "purchaseCost": 254.72000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "3M",
+    "revenue": 323.98,
+    "purchaseCost": 159.92,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "INTENZE",
+    "revenue": 4755.34,
+    "purchaseCost": 11225.310000000001,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "AVA Machine",
+    "revenue": 561.97,
+    "purchaseCost": 229.53,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Xtreme Ink",
+    "revenue": 2214.05,
+    "purchaseCost": 1510.73,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Believa Cosmetics",
+    "revenue": 561.98,
+    "purchaseCost": 387.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 7221.889999999998,
+    "purchaseCost": 2225.5000000000005,
+    "quantity": 283
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "ALOE TATTOO",
+    "revenue": 621.53,
+    "purchaseCost": 359.39,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Panthera",
+    "revenue": 5252.54,
+    "purchaseCost": 3061.5900000000006,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Killer Ink",
+    "revenue": 638.85,
+    "purchaseCost": 435.3,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Biotat",
+    "revenue": 1043.47,
+    "purchaseCost": 607.6400000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Starbrite",
+    "revenue": 1231.4,
+    "purchaseCost": 632.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 328.93,
+    "purchaseCost": 194.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "UNISTAR",
+    "revenue": 3549.79,
+    "purchaseCost": 1938.08,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Celtic Supply",
+    "revenue": 1536.3400000000001,
+    "purchaseCost": 625.35,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Emalla",
+    "revenue": 1186.39,
+    "purchaseCost": 490.5799999999999,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "PERMA BLEND",
+    "revenue": 4859.51,
+    "purchaseCost": 3179.0099999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Proton",
+    "revenue": 734.7099999999999,
+    "purchaseCost": 384.37,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Etalon Mix",
+    "revenue": 18831.420000000002,
+    "purchaseCost": 13181.970000000001,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Rosa",
+    "revenue": 156.2,
+    "purchaseCost": 109.71,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "World Famous",
+    "revenue": 2046.6899999999998,
+    "purchaseCost": 1490.35,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Electrum",
+    "revenue": 107.44,
+    "purchaseCost": 45.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "DC Invention Company",
+    "revenue": 180.99,
+    "purchaseCost": 114.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Wildcat",
+    "revenue": 164.46,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Prime",
+    "revenue": 563.22,
+    "purchaseCost": 291.6,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Saferly",
+    "revenue": 164.46,
+    "purchaseCost": 56.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 5251.249999999999,
+    "purchaseCost": 2398.06,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "The Inked Army",
+    "revenue": 2042.96,
+    "purchaseCost": 1269.97,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "BLOW ICE",
+    "revenue": 366.94,
+    "purchaseCost": 221.52,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "FineLine",
+    "revenue": 439.65999999999997,
+    "purchaseCost": 228.68,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "RENOVA",
+    "revenue": 471.90999999999997,
+    "purchaseCost": 252,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "TattooMed®",
+    "revenue": 466.11,
+    "purchaseCost": 277.06,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 479.38,
+    "purchaseCost": 295.74,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Lamajja",
+    "revenue": 305.79,
+    "purchaseCost": 214.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "PEPAX",
+    "revenue": 577.69,
+    "purchaseCost": 174.48,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 493.38,
+    "purchaseCost": 382.68,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "OZER",
+    "revenue": 823.96,
+    "purchaseCost": 343.91999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "EasyTattoo",
+    "revenue": 164.46,
+    "purchaseCost": 95.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Reelskin",
+    "revenue": 239.67,
+    "purchaseCost": 155.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "FK IRONS",
+    "revenue": 2004.1399999999996,
+    "purchaseCost": 1370.52,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 564.17,
+    "purchaseCost": 364.25,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Tombow",
+    "revenue": 77.73,
+    "purchaseCost": 42.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 256.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "POPU",
+    "revenue": 114.04,
+    "purchaseCost": 25.72,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "SKULLDNA",
+    "revenue": 157.02,
+    "purchaseCost": 45.04,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 388.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-12",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 7429.75,
+    "purchaseCost": 3263.79,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 3211.91,
+    "purchaseCost": 1223.7199999999998,
+    "quantity": 133
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "ELITE",
+    "revenue": 19054.289999999994,
+    "purchaseCost": 7969.300000000003,
+    "quantity": 578
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Ostatní",
+    "revenue": 2299.8399999999997,
+    "purchaseCost": 964.6800000000001,
+    "quantity": 69
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Etalon Mix",
+    "revenue": 4409.26,
+    "purchaseCost": 3583.8699999999994,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Biotek",
+    "revenue": 814.0500000000001,
+    "purchaseCost": 415.39,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "ALOE TATTOO",
+    "revenue": 433.06,
+    "purchaseCost": 228.33,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 971.0799999999999,
+    "purchaseCost": 587.54,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Piranha",
+    "revenue": 7079.200000000001,
+    "purchaseCost": 3958.89,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Bishop Rotary",
+    "revenue": 13032.869999999999,
+    "purchaseCost": 8541.25,
+    "quantity": 338
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Spirit",
+    "revenue": 1909.09,
+    "purchaseCost": 1178.27,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "PEPAX",
+    "revenue": 3305.7199999999993,
+    "purchaseCost": 1421.8300000000002,
+    "quantity": 168
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Panthera",
+    "revenue": 5291.74,
+    "purchaseCost": 3069.32,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Reelskin",
+    "revenue": 4314.06,
+    "purchaseCost": 2850.2,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "AVA Machine",
+    "revenue": 330.56,
+    "purchaseCost": 148,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "KWADRON",
+    "revenue": 22988.160000000007,
+    "purchaseCost": 13142.219999999998,
+    "quantity": 485
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "UNIGLOVES",
+    "revenue": 5850.14,
+    "purchaseCost": 3792.1600000000008,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Nezařazeno",
+    "revenue": 11623.989999999998,
+    "purchaseCost": 6333.179999999999,
+    "quantity": 94
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "The Inked Army",
+    "revenue": 1518.2599999999998,
+    "purchaseCost": 930.72,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1219.09,
+    "purchaseCost": 933.49,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Dermalize",
+    "revenue": 4685.2,
+    "purchaseCost": 2636.5499999999997,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 805.87,
+    "purchaseCost": 583.63,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Proton",
+    "revenue": 979,
+    "purchaseCost": 510.62,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "DYNAMIC",
+    "revenue": 4750.42,
+    "purchaseCost": 2703.02,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "3M",
+    "revenue": 76.95,
+    "purchaseCost": 39.98,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "BLOW ICE",
+    "revenue": 1271.9,
+    "purchaseCost": 842.92,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Studex",
+    "revenue": 133.88,
+    "purchaseCost": 106.68,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Cheyenne",
+    "revenue": 1727.2699999999998,
+    "purchaseCost": 820.94,
+    "quantity": 54
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Braun",
+    "revenue": 815.7099999999999,
+    "purchaseCost": 598.3100000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "TattooMed®",
+    "revenue": 2428.93,
+    "purchaseCost": 1551.54,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "INTENZE",
+    "revenue": 1396.3499999999997,
+    "purchaseCost": 1000.2600000000001,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "FK IRONS",
+    "revenue": 1296.38,
+    "purchaseCost": 846.16,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Killer Ink",
+    "revenue": 949.5799999999999,
+    "purchaseCost": 610.6099999999999,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "DC Invention Company",
+    "revenue": 1765.2800000000002,
+    "purchaseCost": 1303.69,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 179.79,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Sanytol",
+    "revenue": 225.32999999999998,
+    "purchaseCost": 127.49,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 437.23,
+    "purchaseCost": 349.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "ECOLAB",
+    "revenue": 403.31,
+    "purchaseCost": 261.95000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "FineLine",
+    "revenue": 1570.2400000000002,
+    "purchaseCost": 802.3199999999999,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Tattoo Stuff",
+    "revenue": 1204.95,
+    "purchaseCost": 703.39,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Softasept B. Braun",
+    "revenue": 1156.2,
+    "purchaseCost": 919.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "UNISTAR",
+    "revenue": 2955.4000000000005,
+    "purchaseCost": 1485.96,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Premier Products",
+    "revenue": 313.22,
+    "purchaseCost": 175.83,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Tattoo Armour",
+    "revenue": 371.07,
+    "purchaseCost": 328.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Sorry Mom",
+    "revenue": 364.46,
+    "purchaseCost": 357.83,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "OZER",
+    "revenue": 329.75,
+    "purchaseCost": 143.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Emalla",
+    "revenue": 2658.6699999999996,
+    "purchaseCost": 1079.5,
+    "quantity": 62
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Allegory Ink",
+    "revenue": 735.54,
+    "purchaseCost": 363.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Xtreme Ink",
+    "revenue": 1289.25,
+    "purchaseCost": 845.35,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "SWAVGO",
+    "revenue": 443.18,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Wildcat",
+    "revenue": 323.96,
+    "purchaseCost": 0,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1100.82,
+    "purchaseCost": 625,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Saferly",
+    "revenue": 988.4300000000001,
+    "purchaseCost": 504.48,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 11222.81,
+    "purchaseCost": 51158.89,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "PERMA BLEND",
+    "revenue": 728.93,
+    "purchaseCost": 531.43,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Celtic Supply",
+    "revenue": 652.0600000000001,
+    "purchaseCost": 346.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Electrum",
+    "revenue": 40.5,
+    "purchaseCost": 11.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 11.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 389.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 1584.71,
+    "purchaseCost": 1070.91,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Forte",
+    "revenue": 328.92,
+    "purchaseCost": 244.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Biotat",
+    "revenue": 659.5,
+    "purchaseCost": 385.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "KURO SUMI",
+    "revenue": 643.8,
+    "purchaseCost": 370.08000000000004,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Rosa",
+    "revenue": 1055.3700000000001,
+    "purchaseCost": 724.1600000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Amiea",
+    "revenue": 1636.36,
+    "purchaseCost": 1122.26,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "SKINz",
+    "revenue": 371.9,
+    "purchaseCost": 187.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "RENOVA",
+    "revenue": 53.72,
+    "purchaseCost": 32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "Coal Black",
+    "revenue": 412.4,
+    "purchaseCost": 291.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-13",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "3M",
+    "revenue": 242.99,
+    "purchaseCost": 119.83999999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "DYNAMIC",
+    "revenue": 2322.3500000000004,
+    "purchaseCost": 1338.96,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Nezařazeno",
+    "revenue": 3008.2600000000007,
+    "purchaseCost": 1831.0299999999997,
+    "quantity": 76
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Piranha",
+    "revenue": 2009.9099999999999,
+    "purchaseCost": 1116.47,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Ostatní",
+    "revenue": 1704.88,
+    "purchaseCost": 564.94,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2121.5099999999998,
+    "purchaseCost": 1261.35,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "KWADRON",
+    "revenue": 5101.66,
+    "purchaseCost": 2521.37,
+    "quantity": 130
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Etalon Mix",
+    "revenue": 3468.6,
+    "purchaseCost": 2428.0099999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "The Pigment",
+    "revenue": 454.55,
+    "purchaseCost": 248.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "AVA Machine",
+    "revenue": 504.16,
+    "purchaseCost": 225.64000000000001,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1320.64,
+    "purchaseCost": 407.59,
+    "quantity": 50
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 846.28,
+    "purchaseCost": 448.47999999999996,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "ELITE",
+    "revenue": 5215.95,
+    "purchaseCost": 1913.6899999999996,
+    "quantity": 218
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2439.67,
+    "purchaseCost": 1389.1399999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Biotat",
+    "revenue": 321.49,
+    "purchaseCost": 187.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Panthera",
+    "revenue": 2134.3,
+    "purchaseCost": 1395.5,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "RENOVA",
+    "revenue": 245.45999999999998,
+    "purchaseCost": 96,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Prime",
+    "revenue": 503.31,
+    "purchaseCost": 255.10999999999999,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "INTENZE",
+    "revenue": 166.10999999999999,
+    "purchaseCost": 122.97,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Spirit",
+    "revenue": 2049.59,
+    "purchaseCost": 1358.26,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "ALOE TATTOO",
+    "revenue": 391.78,
+    "purchaseCost": 164.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Bishop Rotary",
+    "revenue": 511.98,
+    "purchaseCost": 232.95,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Proton",
+    "revenue": 605,
+    "purchaseCost": 423.85,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "UNIGLOVES",
+    "revenue": 1722.31,
+    "purchaseCost": 1106.99,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 8487.6,
+    "purchaseCost": 50197.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "POPU",
+    "revenue": 294.55,
+    "purchaseCost": 96.04,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Tattoo Stuff",
+    "revenue": 541.32,
+    "purchaseCost": 328.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "UNISTAR",
+    "revenue": 1585.1400000000003,
+    "purchaseCost": 779.5200000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "PERMA BLEND",
+    "revenue": 2445.46,
+    "purchaseCost": 1630.87,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Biotek",
+    "revenue": 247.93,
+    "purchaseCost": 145.02,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Cheyenne",
+    "revenue": 962,
+    "purchaseCost": 466.53000000000003,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "FineLine",
+    "revenue": 596.69,
+    "purchaseCost": 306.4,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "TattooMed®",
+    "revenue": 74.38,
+    "purchaseCost": 41.64,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "OZER",
+    "revenue": 164.46,
+    "purchaseCost": 57.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "INK-EEZE",
+    "revenue": 296.69,
+    "purchaseCost": 173.12,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 378.51,
+    "purchaseCost": 225.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Sanytol",
+    "revenue": 81.82,
+    "purchaseCost": 54.33,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Reelskin",
+    "revenue": 454.55,
+    "purchaseCost": 290.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "DC Invention Company",
+    "revenue": 180.99,
+    "purchaseCost": 114.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "MAPO Medical",
+    "revenue": 114.88,
+    "purchaseCost": 75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 164.46,
+    "purchaseCost": 127.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-14",
+    "brand": "Lamajja",
+    "revenue": 206.61,
+    "purchaseCost": 133.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "INTENZE",
+    "revenue": 1307.42,
+    "purchaseCost": 924.0999999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Ostatní",
+    "revenue": 2484.2,
+    "purchaseCost": 1252.0499999999997,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "KWADRON",
+    "revenue": 14770.27,
+    "purchaseCost": 7982.68,
+    "quantity": 391
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "FK IRONS",
+    "revenue": 2876.85,
+    "purchaseCost": 2305.85,
+    "quantity": 85
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Nezařazeno",
+    "revenue": 5381.2,
+    "purchaseCost": 2979.1200000000003,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 114.05,
+    "purchaseCost": 72.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Piranha",
+    "revenue": 5976.410000000002,
+    "purchaseCost": 3606.95,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Tattoo Goo",
+    "revenue": 833.06,
+    "purchaseCost": 634.94,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "The Inked Army",
+    "revenue": 1559.5099999999998,
+    "purchaseCost": 953.3000000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "PERMA BLEND",
+    "revenue": 3271.08,
+    "purchaseCost": 2169.3999999999996,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Proton",
+    "revenue": 1701.3300000000002,
+    "purchaseCost": 903.34,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 8822.779999999999,
+    "purchaseCost": 3855.6899999999987,
+    "quantity": 463
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1130.08,
+    "purchaseCost": 562.86,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Electrum",
+    "revenue": 713.26,
+    "purchaseCost": 470.75,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "UNIGLOVES",
+    "revenue": 2211.12,
+    "purchaseCost": 1436.7199999999996,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Prime",
+    "revenue": 551.23,
+    "purchaseCost": 291.40000000000003,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "UNISTAR",
+    "revenue": 2162.8300000000004,
+    "purchaseCost": 1096.2,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Celtic Supply",
+    "revenue": 714.8600000000001,
+    "purchaseCost": 141.25,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Reelskin",
+    "revenue": 785.12,
+    "purchaseCost": 523.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 1409.1,
+    "purchaseCost": 380.76,
+    "quantity": 56
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Wildcat",
+    "revenue": 145.45999999999998,
+    "purchaseCost": 0,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "DC Invention Company",
+    "revenue": 1016.53,
+    "purchaseCost": 644.99,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Believa Cosmetics",
+    "revenue": 131.4,
+    "purchaseCost": 86.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "DYNAMIC",
+    "revenue": 5726.9,
+    "purchaseCost": 2739.1200000000003,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Cheyenne",
+    "revenue": 2827.93,
+    "purchaseCost": 1662.48,
+    "quantity": 123
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Panthera",
+    "revenue": 3726.8899999999994,
+    "purchaseCost": 2190.12,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Xtreme Ink",
+    "revenue": 1942.9800000000002,
+    "purchaseCost": 1475.0399999999997,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "AVA Machine",
+    "revenue": 725.6199999999998,
+    "purchaseCost": 276.74,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "ELITE",
+    "revenue": 6126.400000000001,
+    "purchaseCost": 2234.6800000000003,
+    "quantity": 235
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 4350.400000000001,
+    "purchaseCost": 2674.9900000000002,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "KURO SUMI",
+    "revenue": 659.5,
+    "purchaseCost": 425.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Nuva Colors",
+    "revenue": 4043.8300000000004,
+    "purchaseCost": 2720.87,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Spirit",
+    "revenue": 1514.72,
+    "purchaseCost": 914.27,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "BD Insyte",
+    "revenue": 433.39,
+    "purchaseCost": 360.15,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 517.02,
+    "purchaseCost": 443.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 454.68,
+    "purchaseCost": 373.72,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 256.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "FineLine",
+    "revenue": 895.04,
+    "purchaseCost": 459.6,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Emalla",
+    "revenue": 4111.59,
+    "purchaseCost": 1348.5000000000002,
+    "quantity": 150
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Killer Ink",
+    "revenue": 20.66,
+    "purchaseCost": 11.82,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Tattoo Bull",
+    "revenue": 271.9,
+    "purchaseCost": 155.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "OZER",
+    "revenue": 164.46,
+    "purchaseCost": 57.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "3M",
+    "revenue": 121.49,
+    "purchaseCost": 59.91,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Bishop Rotary",
+    "revenue": 6968.830000000002,
+    "purchaseCost": 4221.5599999999995,
+    "quantity": 216
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "World Famous",
+    "revenue": 1314.05,
+    "purchaseCost": 867.53,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Tattoo Stuff",
+    "revenue": 363.21999999999997,
+    "purchaseCost": 210.08999999999997,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Rosa",
+    "revenue": 570.25,
+    "purchaseCost": 402.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 99.17,
+    "purchaseCost": 104,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "MAPO Medical",
+    "revenue": 189.26,
+    "purchaseCost": 120,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "ALOE TATTOO",
+    "revenue": 247.11,
+    "purchaseCost": 128.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "SWAVGO",
+    "revenue": 443.18,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Biotat",
+    "revenue": 742.98,
+    "purchaseCost": 484.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Etalon Mix",
+    "revenue": 3964.4700000000003,
+    "purchaseCost": 2775.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Biotek",
+    "revenue": 1569.42,
+    "purchaseCost": 938.5,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "PEPAX",
+    "revenue": 577.69,
+    "purchaseCost": 174.48,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-15",
+    "brand": "Xiantao Xingrong",
+    "revenue": 57.02,
+    "purchaseCost": 12.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "ELITE",
+    "revenue": 26461.500000000004,
+    "purchaseCost": 11588.300000000001,
+    "quantity": 524
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Panthera",
+    "revenue": 6136.35,
+    "purchaseCost": 3750.43,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 1767.78,
+    "purchaseCost": 462.84999999999997,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Spirit",
+    "revenue": 5340.4800000000005,
+    "purchaseCost": 3429.83,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Tattoo Stuff",
+    "revenue": 990.9,
+    "purchaseCost": 629.14,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 2547.56,
+    "purchaseCost": 2021.31,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "UNIGLOVES",
+    "revenue": 4681.41,
+    "purchaseCost": 2967.4200000000005,
+    "quantity": 46
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "KWADRON",
+    "revenue": 38317.07999999998,
+    "purchaseCost": 21466.809999999998,
+    "quantity": 938
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Biotat",
+    "revenue": 3771.07,
+    "purchaseCost": 2326.38,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Proton",
+    "revenue": 3360.4099999999994,
+    "purchaseCost": 1750.39,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 8166.609999999998,
+    "purchaseCost": 3011.5,
+    "quantity": 366
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Nezařazeno",
+    "revenue": 19612.489999999994,
+    "purchaseCost": 9463.189999999999,
+    "quantity": 126
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "UNISTAR",
+    "revenue": 7805.36,
+    "purchaseCost": 4299.49,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1857.1099999999997,
+    "purchaseCost": 1141,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "DYNAMIC",
+    "revenue": 23961.24,
+    "purchaseCost": 13571.750000000002,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Etalon Mix",
+    "revenue": 18166.22,
+    "purchaseCost": 12774.080000000002,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Sanytol",
+    "revenue": 65.29,
+    "purchaseCost": 36.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Biotek",
+    "revenue": 3980.9899999999993,
+    "purchaseCost": 2240,
+    "quantity": 60
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Piranha",
+    "revenue": 15986.029999999997,
+    "purchaseCost": 10541.6,
+    "quantity": 82
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Lamajja",
+    "revenue": 1090.91,
+    "purchaseCost": 763.6,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Rosa",
+    "revenue": 817.36,
+    "purchaseCost": 617.95,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "KYBROWS",
+    "revenue": 694.22,
+    "purchaseCost": 435.96,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Cheyenne",
+    "revenue": 5511.06,
+    "purchaseCost": 2653.5799999999995,
+    "quantity": 169
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "ETERNAL",
+    "revenue": 1900.8400000000001,
+    "purchaseCost": 1259.6,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 247.93,
+    "purchaseCost": 260,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Prime",
+    "revenue": 311.56,
+    "purchaseCost": 157.90000000000003,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "PERMA BLEND",
+    "revenue": 6824.8099999999995,
+    "purchaseCost": 4479.610000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3404.96,
+    "purchaseCost": 1963.6599999999999,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 413.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "INTENZE",
+    "revenue": 2171.88,
+    "purchaseCost": 1522.73,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 2478.51,
+    "purchaseCost": 1185.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Emalla",
+    "revenue": 4218.999999999999,
+    "purchaseCost": 1468.1200000000003,
+    "quantity": 156
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Ostatní",
+    "revenue": 2796.13,
+    "purchaseCost": 1185.6200000000001,
+    "quantity": 73
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 7429.75,
+    "purchaseCost": 3263.79,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "FineLine",
+    "revenue": 1695.86,
+    "purchaseCost": 912.4,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "FK IRONS",
+    "revenue": 12544.629999999996,
+    "purchaseCost": 7307.809999999998,
+    "quantity": 99
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1023.97,
+    "purchaseCost": 656.95,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "World Famous",
+    "revenue": 12002.5,
+    "purchaseCost": 7738.1900000000005,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Studex",
+    "revenue": 9161.16,
+    "purchaseCost": 4676.47,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Electrum",
+    "revenue": 348.76,
+    "purchaseCost": 208.00000000000003,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "RENOVA",
+    "revenue": 689.26,
+    "purchaseCost": 345.44,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Xiantao Xingrong",
+    "revenue": 57.02,
+    "purchaseCost": 12.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "The Inked Army",
+    "revenue": 700.8199999999999,
+    "purchaseCost": 431.81,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "AVA Machine",
+    "revenue": 528.91,
+    "purchaseCost": 205.98999999999998,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Sharpie",
+    "revenue": 132.23,
+    "purchaseCost": 120.05000000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Bishop Rotary",
+    "revenue": 3357.02,
+    "purchaseCost": 1587.62,
+    "quantity": 96
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "FRAKTAL",
+    "revenue": 391.78,
+    "purchaseCost": 266.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Celtic Supply",
+    "revenue": 1041.44,
+    "purchaseCost": 459.3,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "SKULLDNA",
+    "revenue": 74.59,
+    "purchaseCost": 22.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "DC Invention Company",
+    "revenue": 752.07,
+    "purchaseCost": 636.81,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Killer Ink",
+    "revenue": 1072.73,
+    "purchaseCost": 690.18,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Tattoo Bull",
+    "revenue": 164.46,
+    "purchaseCost": 96.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "PEPAX",
+    "revenue": 2315.7099999999996,
+    "purchaseCost": 928.3799999999999,
+    "quantity": 81
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "OZER",
+    "revenue": 328.92,
+    "purchaseCost": 114.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 818.18,
+    "purchaseCost": 438.5,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Wildcat",
+    "revenue": 74.38,
+    "purchaseCost": 45.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Tombow",
+    "revenue": 327.28,
+    "purchaseCost": 170.20999999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Xtreme Ink",
+    "revenue": 7181.82,
+    "purchaseCost": 4867.26,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "KURO SUMI",
+    "revenue": 1319,
+    "purchaseCost": 861.9599999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "3M",
+    "revenue": 202.48,
+    "purchaseCost": 99.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "ALOE TATTOO",
+    "revenue": 387.6,
+    "purchaseCost": 219.62,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "TattooMed®",
+    "revenue": 329.75,
+    "purchaseCost": 215.07,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 737.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "POPU",
+    "revenue": 483.47,
+    "purchaseCost": 138.5,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "BLOW ICE",
+    "revenue": 73.55,
+    "purchaseCost": 50.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Saferly",
+    "revenue": 164.46,
+    "purchaseCost": 56.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "Forte",
+    "revenue": 328.92,
+    "purchaseCost": 244.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-16",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 247.11,
+    "purchaseCost": 186.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "DYNAMIC",
+    "revenue": 15344.159999999987,
+    "purchaseCost": 9020.359999999999,
+    "quantity": 44
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "ELITE",
+    "revenue": 19315.50999999999,
+    "purchaseCost": 7568.190000000002,
+    "quantity": 716
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 3097.6200000000017,
+    "purchaseCost": 1929.9999999999998,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "The Inked Army",
+    "revenue": 947.9300000000001,
+    "purchaseCost": 587.16,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Bishop Rotary",
+    "revenue": 6555.149999999999,
+    "purchaseCost": 3644.4900000000007,
+    "quantity": 147
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "FineLine",
+    "revenue": 1617.35,
+    "purchaseCost": 827.28,
+    "quantity": 54
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Ostatní",
+    "revenue": 1677.7000000000003,
+    "purchaseCost": 814.44,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "UNISTAR",
+    "revenue": 4283.84,
+    "purchaseCost": 2020.6200000000001,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "AVA Machine",
+    "revenue": 6768.580000000001,
+    "purchaseCost": 3924.2500000000005,
+    "quantity": 65
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Cheyenne",
+    "revenue": 21763.980000000003,
+    "purchaseCost": 17361.54,
+    "quantity": 184
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "UNIGLOVES",
+    "revenue": 6029.27,
+    "purchaseCost": 3873.3800000000006,
+    "quantity": 48
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2775.2500000000005,
+    "purchaseCost": 802.6500000000002,
+    "quantity": 74
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 313.23,
+    "purchaseCost": 242.75,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Piranha",
+    "revenue": 6270.350000000002,
+    "purchaseCost": 3332.2899999999995,
+    "quantity": 79
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "KWADRON",
+    "revenue": 29948.789999999997,
+    "purchaseCost": 16517.039999999997,
+    "quantity": 689
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Biotek",
+    "revenue": 1012.3900000000001,
+    "purchaseCost": 537.13,
+    "quantity": 43
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 4498.359999999999,
+    "purchaseCost": 1691.8999999999999,
+    "quantity": 98
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Nezařazeno",
+    "revenue": 22285.869999999995,
+    "purchaseCost": 15288.58,
+    "quantity": 217
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Etalon Mix",
+    "revenue": 15938.850000000004,
+    "purchaseCost": 11157.150000000001,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Panthera",
+    "revenue": 3990.51,
+    "purchaseCost": 2526.13,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "3M",
+    "revenue": 202.49,
+    "purchaseCost": 99.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Biotat",
+    "revenue": 1261.99,
+    "purchaseCost": 765.8499999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Electrum",
+    "revenue": 285.95,
+    "purchaseCost": 116.85,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Spirit",
+    "revenue": 3362.8199999999997,
+    "purchaseCost": 2410.21,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Killer Ink",
+    "revenue": 1144.2199999999998,
+    "purchaseCost": 692.55,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "PEPAX",
+    "revenue": 1289.26,
+    "purchaseCost": 516.03,
+    "quantity": 36
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 164.46,
+    "purchaseCost": 97.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "World Famous",
+    "revenue": 4860.49,
+    "purchaseCost": 3488.1499999999996,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "DC Invention Company",
+    "revenue": 1858.69,
+    "purchaseCost": 1458.0700000000002,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 554.65,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Forte",
+    "revenue": 328.92,
+    "purchaseCost": 244.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 2402.4700000000003,
+    "purchaseCost": 1378.9,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "KURO SUMI",
+    "revenue": 313.26,
+    "purchaseCost": 213.84,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "REVOLUTION",
+    "revenue": 604.54,
+    "purchaseCost": 332.06,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Proton",
+    "revenue": 1246.35,
+    "purchaseCost": 592.96,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "RENOVA",
+    "revenue": 533.06,
+    "purchaseCost": 341.44,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "OZER",
+    "revenue": 1214.95,
+    "purchaseCost": 659.34,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Emalla",
+    "revenue": 8187.58,
+    "purchaseCost": 3064.6200000000003,
+    "quantity": 291
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Reelskin",
+    "revenue": 785.12,
+    "purchaseCost": 523.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Rosa",
+    "revenue": 288.43,
+    "purchaseCost": 195.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "INTENZE",
+    "revenue": 1141.3099999999997,
+    "purchaseCost": 812.6800000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Braun",
+    "revenue": 404.13,
+    "purchaseCost": 289.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3197.51,
+    "purchaseCost": 1861.2599999999998,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 494.21,
+    "purchaseCost": 373.72,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "ECOLAB",
+    "revenue": 971.0899999999999,
+    "purchaseCost": 625.49,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Studex",
+    "revenue": 1726.45,
+    "purchaseCost": 1003.02,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Coal Black",
+    "revenue": 412.4,
+    "purchaseCost": 291.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 17330.57,
+    "purchaseCost": 7369.19,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Nuva Colors",
+    "revenue": 1733.0700000000002,
+    "purchaseCost": 1168.32,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Dermalize",
+    "revenue": 329.75,
+    "purchaseCost": 236.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "TattooMed®",
+    "revenue": 681.81,
+    "purchaseCost": 297.4,
+    "quantity": 55
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 757.8400000000001,
+    "purchaseCost": 588.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "KYBROWS",
+    "revenue": 206.61,
+    "purchaseCost": 150.24,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Xtreme Ink",
+    "revenue": 759.5,
+    "purchaseCost": 526.07,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "FK IRONS",
+    "revenue": 16726.85,
+    "purchaseCost": 7528.35,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Tattoo Stuff",
+    "revenue": 598.34,
+    "purchaseCost": 356.25,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "ALOE TATTOO",
+    "revenue": 510.74,
+    "purchaseCost": 289.08000000000004,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "SWAVGO",
+    "revenue": 443.18,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Tattoo Goo",
+    "revenue": 246.28,
+    "purchaseCost": 161.78,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "BLOW ICE",
+    "revenue": 485.95,
+    "purchaseCost": 287.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Saferly",
+    "revenue": 33.06,
+    "purchaseCost": 13.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Xiantao Xingrong",
+    "revenue": 57.02,
+    "purchaseCost": 12.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Sanytol",
+    "revenue": 65.29,
+    "purchaseCost": 36.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "ECOTAT",
+    "revenue": 836.36,
+    "purchaseCost": 535.38,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Sharpie",
+    "revenue": 408.3,
+    "purchaseCost": 250.56,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Tombow",
+    "revenue": 150.54,
+    "purchaseCost": 84.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "ELEPHANT",
+    "revenue": 356.6,
+    "purchaseCost": 217.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 243.52,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-17",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 163.64,
+    "purchaseCost": 85.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "KWADRON",
+    "revenue": 26724.820000000003,
+    "purchaseCost": 13882.900000000001,
+    "quantity": 699
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 3068.6099999999997,
+    "purchaseCost": 872.3300000000003,
+    "quantity": 77
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1585.53,
+    "purchaseCost": 1201.41,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "The Perma",
+    "revenue": 644.63,
+    "purchaseCost": 426.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Killer Ink",
+    "revenue": 309.92,
+    "purchaseCost": 167.4,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "ELITE",
+    "revenue": 22286.749999999996,
+    "purchaseCost": 9543.26,
+    "quantity": 581
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Etalon Mix",
+    "revenue": 13088.570000000002,
+    "purchaseCost": 9248.64,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Nezařazeno",
+    "revenue": 12153.919999999998,
+    "purchaseCost": 6402.999999999997,
+    "quantity": 94
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Ostatní",
+    "revenue": 2904.3899999999994,
+    "purchaseCost": 1234.5199999999998,
+    "quantity": 76
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "The Inked Army",
+    "revenue": 1003.4199999999998,
+    "purchaseCost": 669.59,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Biotat",
+    "revenue": 2166.1000000000004,
+    "purchaseCost": 1218.09,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "SWAVGO",
+    "revenue": 1363.6200000000001,
+    "purchaseCost": 630.24,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "UNISTAR",
+    "revenue": 2638.05,
+    "purchaseCost": 1144.9199999999998,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "DYNAMIC",
+    "revenue": 8005.850000000001,
+    "purchaseCost": 4590.7699999999995,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 6445.429999999999,
+    "purchaseCost": 3897.7999999999997,
+    "quantity": 55
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "POPU",
+    "revenue": 213.22,
+    "purchaseCost": 132.56,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Panthera",
+    "revenue": 2889.270000000001,
+    "purchaseCost": 1630.1399999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "KURO SUMI",
+    "revenue": 1387.61,
+    "purchaseCost": 752.15,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Bishop Rotary",
+    "revenue": 12345.41,
+    "purchaseCost": 6797.020000000001,
+    "quantity": 297
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "UNIGLOVES",
+    "revenue": 2406.7000000000007,
+    "purchaseCost": 1584.8200000000002,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1334.7000000000003,
+    "purchaseCost": 1033.72,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1823.9799999999996,
+    "purchaseCost": 1111.95,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Biotek",
+    "revenue": 2593.39,
+    "purchaseCost": 1446.8899999999999,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "OZER",
+    "revenue": 2440.6,
+    "purchaseCost": 981.6600000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Studex",
+    "revenue": 74.38,
+    "purchaseCost": 45.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Piranha",
+    "revenue": 5602.4400000000005,
+    "purchaseCost": 3088.4599999999987,
+    "quantity": 140
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Proton",
+    "revenue": 623.9699999999999,
+    "purchaseCost": 352.15000000000003,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "ETERNAL",
+    "revenue": 1256.2,
+    "purchaseCost": 837.55,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Wildcat",
+    "revenue": 238.01999999999998,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "RENOVA",
+    "revenue": 379.34,
+    "purchaseCost": 243.44,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 3960.83,
+    "purchaseCost": 1127.1,
+    "quantity": 170
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "PEPAX",
+    "revenue": 3090.8900000000003,
+    "purchaseCost": 1367.6000000000001,
+    "quantity": 145
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Cheyenne",
+    "revenue": 31145.610000000004,
+    "purchaseCost": 23185.969999999998,
+    "quantity": 257
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "DC Invention Company",
+    "revenue": 1934.72,
+    "purchaseCost": 1586.64,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "ALOE TATTOO",
+    "revenue": 790.95,
+    "purchaseCost": 429.27,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 389.76,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Believa Cosmetics",
+    "revenue": 614.87,
+    "purchaseCost": 416.76,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "3M",
+    "revenue": 40.5,
+    "purchaseCost": 19.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "PERMA BLEND",
+    "revenue": 3436.36,
+    "purchaseCost": 2478.8199999999997,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "FK IRONS",
+    "revenue": 495.87,
+    "purchaseCost": 293.09999999999997,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Spirit",
+    "revenue": 4563.63,
+    "purchaseCost": 2720.9,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "EIKON",
+    "revenue": 56.2,
+    "purchaseCost": 17.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 527.28,
+    "purchaseCost": 381.5,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 16504.129999999997,
+    "purchaseCost": 6907.65,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "I AM INK",
+    "revenue": 2389.34,
+    "purchaseCost": 2532.82,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "SKULLDNA",
+    "revenue": 235.53000000000003,
+    "purchaseCost": 67.56,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Sanytol",
+    "revenue": 233.89000000000004,
+    "purchaseCost": 142.37,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Premier Products",
+    "revenue": 893.47,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "World Famous",
+    "revenue": 1289.25,
+    "purchaseCost": 851.77,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "ECOLAB",
+    "revenue": 428.1,
+    "purchaseCost": 281.54,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 2114.04,
+    "purchaseCost": 1260.03,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Electrum",
+    "revenue": 161.16,
+    "purchaseCost": 67.86,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Tattoo Stuff",
+    "revenue": 933.88,
+    "purchaseCost": 645.52,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "AVA Machine",
+    "revenue": 1166.94,
+    "purchaseCost": 462.7699999999999,
+    "quantity": 71
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Tombow",
+    "revenue": 490.91999999999996,
+    "purchaseCost": 252.95999999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Dermalize",
+    "revenue": 295.87,
+    "purchaseCost": 203.48,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 537.19,
+    "purchaseCost": 356.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "TattooMed®",
+    "revenue": 515.7,
+    "purchaseCost": 318.41999999999996,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Emalla",
+    "revenue": 577.69,
+    "purchaseCost": 206.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 700,
+    "purchaseCost": 392.2,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Lamajja",
+    "revenue": 272.73,
+    "purchaseCost": 190.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Radiant Colors USA",
+    "revenue": 989.25,
+    "purchaseCost": 620.04,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Tattoo Bull",
+    "revenue": 578.52,
+    "purchaseCost": 359.66999999999996,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "Celtic Supply",
+    "revenue": 206.61,
+    "purchaseCost": 139.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-18",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "World Famous",
+    "revenue": 3772.3,
+    "purchaseCost": 2545.2599999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 3497.1199999999994,
+    "purchaseCost": 963.51,
+    "quantity": 146
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "UNIGLOVES",
+    "revenue": 4718.060000000001,
+    "purchaseCost": 2940.2999999999997,
+    "quantity": 31
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Nezařazeno",
+    "revenue": 15472.99,
+    "purchaseCost": 17971.289999999997,
+    "quantity": 101
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "KWADRON",
+    "revenue": 26060.49000000001,
+    "purchaseCost": 15356.640000000003,
+    "quantity": 714
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Piranha",
+    "revenue": 3985.5799999999986,
+    "purchaseCost": 2218.0699999999993,
+    "quantity": 63
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Prime",
+    "revenue": 455.36999999999995,
+    "purchaseCost": 230.85,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "ELITE",
+    "revenue": 21428.019999999993,
+    "purchaseCost": 9215.46,
+    "quantity": 588
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "PEPAX",
+    "revenue": 1266.95,
+    "purchaseCost": 401.53999999999996,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "RENOVA",
+    "revenue": 119.83,
+    "purchaseCost": 78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Tattoo Stuff",
+    "revenue": 541.32,
+    "purchaseCost": 328.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "The Inked Army",
+    "revenue": 855.9100000000001,
+    "purchaseCost": 558,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Biotek",
+    "revenue": 2089.42,
+    "purchaseCost": 1365.9,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "DC Invention Company",
+    "revenue": 534.71,
+    "purchaseCost": 450.52000000000004,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 559.51,
+    "purchaseCost": 335.63,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "PERMA BLEND",
+    "revenue": 16702.5,
+    "purchaseCost": 12050.400000000001,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "REVOLUTION",
+    "revenue": 165.29,
+    "purchaseCost": 81.64999999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Spirit",
+    "revenue": 2070.3399999999997,
+    "purchaseCost": 1411.08,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "POPU",
+    "revenue": 229.75,
+    "purchaseCost": 57.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 735.1500000000001,
+    "purchaseCost": 637.8,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Panthera",
+    "revenue": 6078.59,
+    "purchaseCost": 3543.51,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Etalon Mix",
+    "revenue": 11866.98,
+    "purchaseCost": 8325.36,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 1479.41,
+    "purchaseCost": 760.03,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Cheyenne",
+    "revenue": 2992.58,
+    "purchaseCost": 1491.6100000000001,
+    "quantity": 96
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "DYNAMIC",
+    "revenue": 5769.470000000001,
+    "purchaseCost": 3171.0500000000006,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Ostatní",
+    "revenue": 8216.3,
+    "purchaseCost": 5293.159999999999,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Xiantao Xingrong",
+    "revenue": 57.02,
+    "purchaseCost": 12.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "EasyTattoo",
+    "revenue": 156.24,
+    "purchaseCost": 95.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Proton",
+    "revenue": 2083.4800000000005,
+    "purchaseCost": 1213.8200000000002,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "MAPO Medical",
+    "revenue": 1328.93,
+    "purchaseCost": 890,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Braun",
+    "revenue": 1180.1599999999999,
+    "purchaseCost": 895.29,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Sanytol",
+    "revenue": 106.61,
+    "purchaseCost": 55.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "AVA Machine",
+    "revenue": 826.4499999999998,
+    "purchaseCost": 314.54999999999995,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2912.39,
+    "purchaseCost": 1009.7,
+    "quantity": 121
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2107.14,
+    "purchaseCost": 1243.71,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "UNISTAR",
+    "revenue": 5066.050000000001,
+    "purchaseCost": 2742.2099999999996,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Bishop Rotary",
+    "revenue": 25795.880000000005,
+    "purchaseCost": 16517.54,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Reelskin",
+    "revenue": 2264.4700000000003,
+    "purchaseCost": 1492.8399999999997,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Killer Ink",
+    "revenue": 1171.9,
+    "purchaseCost": 734.59,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 961.98,
+    "purchaseCost": 515.37,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "SWAVGO",
+    "revenue": 1261.37,
+    "purchaseCost": 630.24,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Xtreme Ink",
+    "revenue": 2397.52,
+    "purchaseCost": 1519.2700000000002,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "FK IRONS",
+    "revenue": 80.99,
+    "purchaseCost": 58.62,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "DERM X",
+    "revenue": 280.29,
+    "purchaseCost": 228.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "SKULLDNA",
+    "revenue": 217.07,
+    "purchaseCost": 165.29,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "The Perma",
+    "revenue": 117.44,
+    "purchaseCost": 65.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Softasept B. Braun",
+    "revenue": 1156.2,
+    "purchaseCost": 919.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "3M",
+    "revenue": 40.5,
+    "purchaseCost": 19.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "BLOW ICE",
+    "revenue": 73.55,
+    "purchaseCost": 50.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "The Pigment",
+    "revenue": 4.13,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Wildcat",
+    "revenue": 80.99,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 1148.76,
+    "purchaseCost": 525.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 363.38,
+    "purchaseCost": 225.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Tattoo Bull",
+    "revenue": 151.31,
+    "purchaseCost": 96.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Dermalize",
+    "revenue": 1131.4,
+    "purchaseCost": 649.25,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Premier Products",
+    "revenue": 916.99,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Forte",
+    "revenue": 412.4,
+    "purchaseCost": 326.3,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "OZER",
+    "revenue": 329.75,
+    "purchaseCost": 143.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Lamajja",
+    "revenue": 396.69,
+    "purchaseCost": 245.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Allegory Ink",
+    "revenue": 735.54,
+    "purchaseCost": 363.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "ELEPHANT",
+    "revenue": 387.6,
+    "purchaseCost": 217.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "TattooMed®",
+    "revenue": 576.86,
+    "purchaseCost": 327.68,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Biotat",
+    "revenue": 1502.48,
+    "purchaseCost": 941.52,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "FineLine",
+    "revenue": 314.05,
+    "purchaseCost": 153.2,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-19",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 81.82,
+    "purchaseCost": 42.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Nezařazeno",
+    "revenue": 10444.72,
+    "purchaseCost": 4446.749999999999,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "ELITE",
+    "revenue": 15393.699999999995,
+    "purchaseCost": 5989.570000000001,
+    "quantity": 659
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Spirit",
+    "revenue": 2389.67,
+    "purchaseCost": 1787.06,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Ostatní",
+    "revenue": 1979.0099999999998,
+    "purchaseCost": 810.09,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Panthera",
+    "revenue": 2536.36,
+    "purchaseCost": 1396.88,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "OZER",
+    "revenue": 7657.88,
+    "purchaseCost": 3163.19,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "The Inked Army",
+    "revenue": 1087.6000000000001,
+    "purchaseCost": 655.74,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "KWADRON",
+    "revenue": 13245.19,
+    "purchaseCost": 6894.9299999999985,
+    "quantity": 360
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "AVA Machine",
+    "revenue": 1213.2499999999998,
+    "purchaseCost": 491.53000000000003,
+    "quantity": 74
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Biotek",
+    "revenue": 3076.86,
+    "purchaseCost": 1797.27,
+    "quantity": 52
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Cheyenne",
+    "revenue": 4110.28,
+    "purchaseCost": 2337.31,
+    "quantity": 185
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Rosa",
+    "revenue": 570.25,
+    "purchaseCost": 373.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "DC Invention Company",
+    "revenue": 3439.54,
+    "purchaseCost": 2671.0099999999998,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Nuva Colors",
+    "revenue": 2888.4500000000003,
+    "purchaseCost": 1785.1999999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "PERMA BLEND",
+    "revenue": 2267.7799999999997,
+    "purchaseCost": 1584.3899999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "ALOE TATTOO",
+    "revenue": 1110.8,
+    "purchaseCost": 671.83,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1646.2699999999998,
+    "purchaseCost": 973.2599999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "UNIGLOVES",
+    "revenue": 1163.0400000000002,
+    "purchaseCost": 750.9,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "KURO SUMI",
+    "revenue": 2047.1099999999997,
+    "purchaseCost": 1341.53,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "REVOLUTION",
+    "revenue": 504.15,
+    "purchaseCost": 184,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 95.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Emalla",
+    "revenue": 3631,
+    "purchaseCost": 1334.27,
+    "quantity": 136
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Braun",
+    "revenue": 371.9,
+    "purchaseCost": 316.51,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Sanytol",
+    "revenue": 171.9,
+    "purchaseCost": 91.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "FK IRONS",
+    "revenue": 18221.489999999998,
+    "purchaseCost": 25647.420000000002,
+    "quantity": 143
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "SKINz",
+    "revenue": 702.48,
+    "purchaseCost": 332.65,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "DYNAMIC",
+    "revenue": 5072.76,
+    "purchaseCost": 2888.7000000000003,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Piranha",
+    "revenue": 9613.69,
+    "purchaseCost": 5835.769999999999,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Tattoo Stuff",
+    "revenue": 1139.66,
+    "purchaseCost": 685.11,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "World Famous",
+    "revenue": 2140.49,
+    "purchaseCost": 1374.79,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "BLOW ICE",
+    "revenue": 304.96,
+    "purchaseCost": 168.36,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1794.2299999999996,
+    "purchaseCost": 1091.58,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "DERM X",
+    "revenue": 329.75,
+    "purchaseCost": 228.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "FineLine",
+    "revenue": 1413.21,
+    "purchaseCost": 733.1999999999999,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 314.91999999999996,
+    "purchaseCost": 193.48000000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Proton",
+    "revenue": 1530.5600000000002,
+    "purchaseCost": 940.14,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1506.6299999999999,
+    "purchaseCost": 480.35,
+    "quantity": 57
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 139.79,
+    "purchaseCost": 127.56,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "PEPAX",
+    "revenue": 2542.98,
+    "purchaseCost": 975.2900000000001,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Reelskin",
+    "revenue": 1264.46,
+    "purchaseCost": 833.7199999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "ME™",
+    "revenue": 107.44,
+    "purchaseCost": 61.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "UNISTAR",
+    "revenue": 1068.6,
+    "purchaseCost": 578.05,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Celtic Supply",
+    "revenue": 328.93,
+    "purchaseCost": 127.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "3M",
+    "revenue": 356.37,
+    "purchaseCost": 179.73,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Electrum",
+    "revenue": 107.44,
+    "purchaseCost": 45.24,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Killer Ink",
+    "revenue": 185.12,
+    "purchaseCost": 108.24000000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 247.11,
+    "purchaseCost": 186.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Wildcat",
+    "revenue": 743.8,
+    "purchaseCost": 459.5,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Tattoo Bull",
+    "revenue": 490.90999999999997,
+    "purchaseCost": 270.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Saferly",
+    "revenue": 164.46,
+    "purchaseCost": 56.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Biotat",
+    "revenue": 494.22,
+    "purchaseCost": 303.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "INTENZE",
+    "revenue": 1030.5700000000002,
+    "purchaseCost": 719.15,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "I AM INK",
+    "revenue": 344.21,
+    "purchaseCost": 411.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 572.73,
+    "purchaseCost": 300.58,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "TattooMed®",
+    "revenue": 577.69,
+    "purchaseCost": 391.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Etalon Mix",
+    "revenue": 825.62,
+    "purchaseCost": 577.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-20",
+    "brand": "Bishop Rotary",
+    "revenue": 241.33000000000004,
+    "purchaseCost": 144.54000000000002,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Nezařazeno",
+    "revenue": 2053.73,
+    "purchaseCost": 1193.6399999999999,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1991.7300000000002,
+    "purchaseCost": 614.35,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "SWAVGO",
+    "revenue": 454.54,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Biotek",
+    "revenue": 3550.4,
+    "purchaseCost": 2090.1,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 1050.42,
+    "purchaseCost": 278.7,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Ostatní",
+    "revenue": 1212.5599999999997,
+    "purchaseCost": 524.6200000000001,
+    "quantity": 43
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "FK IRONS",
+    "revenue": 907.44,
+    "purchaseCost": 554.85,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Bishop Rotary",
+    "revenue": 2542.14,
+    "purchaseCost": 1669.8000000000002,
+    "quantity": 80
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "ELITE",
+    "revenue": 3884.29,
+    "purchaseCost": 1371.18,
+    "quantity": 169
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 879.34,
+    "purchaseCost": 551.12,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "KWADRON",
+    "revenue": 15917.94,
+    "purchaseCost": 9123.389999999998,
+    "quantity": 455
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Spirit",
+    "revenue": 1397.52,
+    "purchaseCost": 979.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Tattoo Stuff",
+    "revenue": 609.0899999999999,
+    "purchaseCost": 442.61,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "World Famous",
+    "revenue": 357.02,
+    "purchaseCost": 214.06,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "PEPAX",
+    "revenue": 987.5999999999999,
+    "purchaseCost": 433.34999999999997,
+    "quantity": 45
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "AVA Machine",
+    "revenue": 1085.9599999999998,
+    "purchaseCost": 447.64,
+    "quantity": 68
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "FineLine",
+    "revenue": 1695.87,
+    "purchaseCost": 919.2,
+    "quantity": 60
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 431.4,
+    "purchaseCost": 349.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Xtreme Ink",
+    "revenue": 408.26,
+    "purchaseCost": 249.24,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Dermalize",
+    "revenue": 147.93,
+    "purchaseCost": 95.16,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 494.22,
+    "purchaseCost": 373.72,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 12839.25,
+    "purchaseCost": 6609.469999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "3M",
+    "revenue": 80.99,
+    "purchaseCost": 39.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "UNIGLOVES",
+    "revenue": 1767.33,
+    "purchaseCost": 1047.93,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Prime",
+    "revenue": 119.83000000000001,
+    "purchaseCost": 60.730000000000004,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Piranha",
+    "revenue": 598.34,
+    "purchaseCost": 295.44,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "POPU",
+    "revenue": 257.84999999999997,
+    "purchaseCost": 63.86,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1405.0200000000002,
+    "purchaseCost": 918.6899999999998,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "UNISTAR",
+    "revenue": 429.76,
+    "purchaseCost": 146.62,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "DYNAMIC",
+    "revenue": 3677.6899999999996,
+    "purchaseCost": 1999.48,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Forte",
+    "revenue": 412.4,
+    "purchaseCost": 326.3,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "I AM INK",
+    "revenue": 1057.85,
+    "purchaseCost": 1363.4099999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Etalon Mix",
+    "revenue": 1238.02,
+    "purchaseCost": 866.6099999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "TattooMed®",
+    "revenue": 639.6700000000001,
+    "purchaseCost": 425.84999999999997,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Tattoo Bull",
+    "revenue": 164.46,
+    "purchaseCost": 96.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Panthera",
+    "revenue": 883.47,
+    "purchaseCost": 524.96,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Cheyenne",
+    "revenue": 17013.22,
+    "purchaseCost": 13428.759999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Softasept B. Braun",
+    "revenue": 1156.2,
+    "purchaseCost": 919.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Emalla",
+    "revenue": 314.05,
+    "purchaseCost": 116.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Proton",
+    "revenue": 404.13,
+    "purchaseCost": 241.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 123.14,
+    "purchaseCost": 60.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "RENOVA",
+    "revenue": 98.35,
+    "purchaseCost": 72,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 276.03,
+    "purchaseCost": 149.14000000000001,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "KURO SUMI",
+    "revenue": 643.01,
+    "purchaseCost": 428.77,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "Sanytol",
+    "revenue": 65.29,
+    "purchaseCost": 36.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "DC Invention Company",
+    "revenue": 217.36,
+    "purchaseCost": 190.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-21",
+    "brand": "INTENZE",
+    "revenue": 487.6,
+    "purchaseCost": 339.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "AVA Machine",
+    "revenue": 859.49,
+    "purchaseCost": 357.31999999999994,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "DYNAMIC",
+    "revenue": 4535.089999999999,
+    "purchaseCost": 2640.3999999999996,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Nezařazeno",
+    "revenue": 7677.820000000004,
+    "purchaseCost": 3632.9299999999994,
+    "quantity": 80
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "KWADRON",
+    "revenue": 16941.760000000002,
+    "purchaseCost": 9244.060000000001,
+    "quantity": 438
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Ostatní",
+    "revenue": 2111.5899999999997,
+    "purchaseCost": 1074.4499999999998,
+    "quantity": 37
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "UNISTAR",
+    "revenue": 1222.33,
+    "purchaseCost": 536.61,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "UNIGLOVES",
+    "revenue": 1943.66,
+    "purchaseCost": 1207.8500000000004,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Braun",
+    "revenue": 195.5,
+    "purchaseCost": 154.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Lamajja",
+    "revenue": 553.72,
+    "purchaseCost": 371.7,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Dermalize",
+    "revenue": 448.75,
+    "purchaseCost": 293.05,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1905.3799999999999,
+    "purchaseCost": 1179.4099999999999,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Etalon Mix",
+    "revenue": 24950.420000000002,
+    "purchaseCost": 17349.57,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Biotek",
+    "revenue": 4309.91,
+    "purchaseCost": 2736.1299999999997,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "POPU",
+    "revenue": 6197.52,
+    "purchaseCost": 2281.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Wildcat",
+    "revenue": 40.5,
+    "purchaseCost": 0,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "BLOW ICE",
+    "revenue": 691.74,
+    "purchaseCost": 531.92,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Electrum",
+    "revenue": 476.85999999999996,
+    "purchaseCost": 278.17,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Prime",
+    "revenue": 2636.32,
+    "purchaseCost": 1348.54,
+    "quantity": 111
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Spirit",
+    "revenue": 990.92,
+    "purchaseCost": 835.63,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Panthera",
+    "revenue": 2352.46,
+    "purchaseCost": 1382.01,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Bishop Rotary",
+    "revenue": 3521.8299999999995,
+    "purchaseCost": 1953.0299999999997,
+    "quantity": 113
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "DERM X",
+    "revenue": 329.75,
+    "purchaseCost": 228.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1717.3700000000001,
+    "purchaseCost": 537.67,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "FineLine",
+    "revenue": 157.02,
+    "purchaseCost": 76.6,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 2017.57,
+    "purchaseCost": 551.05,
+    "quantity": 80
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Cheyenne",
+    "revenue": 13452.32,
+    "purchaseCost": 10484.23,
+    "quantity": 50
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "ELITE",
+    "revenue": 6022.780000000002,
+    "purchaseCost": 2454.3799999999997,
+    "quantity": 225
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1319.9999999999998,
+    "purchaseCost": 739.1800000000001,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Rosa",
+    "revenue": 328.92,
+    "purchaseCost": 231.59,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "3M",
+    "revenue": 230.02,
+    "purchaseCost": 119.82,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 325.69,
+    "purchaseCost": 254.72000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1265.94,
+    "purchaseCost": 1014.44,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Piranha",
+    "revenue": 822.31,
+    "purchaseCost": 422.89,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "INTENZE",
+    "revenue": 55.37,
+    "purchaseCost": 40.99,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "RENOVA",
+    "revenue": 471.9,
+    "purchaseCost": 288,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Sanytol",
+    "revenue": 326.45,
+    "purchaseCost": 180.25,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "OZER",
+    "revenue": 982.64,
+    "purchaseCost": 379.59000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Biotat",
+    "revenue": 873.56,
+    "purchaseCost": 530.28,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "INKTROX",
+    "revenue": 32.23,
+    "purchaseCost": 21.92,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "KURO SUMI",
+    "revenue": 1253.71,
+    "purchaseCost": 861.66,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Saferly",
+    "revenue": 411.57000000000005,
+    "purchaseCost": 227.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1023.64,
+    "purchaseCost": 633.9,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Celtic Supply",
+    "revenue": 652.0600000000001,
+    "purchaseCost": 346.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "The Perma",
+    "revenue": 119.83000000000001,
+    "purchaseCost": 38.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Tattoo Stuff",
+    "revenue": 19.01,
+    "purchaseCost": 9.13,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Xtreme Ink",
+    "revenue": 990.08,
+    "purchaseCost": 775.1899999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Emalla",
+    "revenue": 6172.24,
+    "purchaseCost": 3625.3500000000004,
+    "quantity": 51
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Proton",
+    "revenue": 637.25,
+    "purchaseCost": 344.15,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "PERMA BLEND",
+    "revenue": 809.92,
+    "purchaseCost": 532.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "SWAVGO",
+    "revenue": 681.82,
+    "purchaseCost": 315.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "DC Invention Company",
+    "revenue": 1390.06,
+    "purchaseCost": 1122.95,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 413.65,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "ALOE TATTOO",
+    "revenue": 206.61,
+    "purchaseCost": 99.47,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-22",
+    "brand": "PEPAX",
+    "revenue": 206.61,
+    "purchaseCost": 79.1,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "DYNAMIC",
+    "revenue": 9199.249999999998,
+    "purchaseCost": 5201.04,
+    "quantity": 29
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "ELITE",
+    "revenue": 18760.52,
+    "purchaseCost": 7137.009999999999,
+    "quantity": 384
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "BLOW ICE",
+    "revenue": 1112.4,
+    "purchaseCost": 678.8000000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2731.8200000000006,
+    "purchaseCost": 1678.8699999999997,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Prime",
+    "revenue": 95.88,
+    "purchaseCost": 48.589999999999996,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "AVA Machine",
+    "revenue": 1454.56,
+    "purchaseCost": 649.26,
+    "quantity": 94
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Cheyenne",
+    "revenue": 8417.18,
+    "purchaseCost": 4187.890000000001,
+    "quantity": 244
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Nezařazeno",
+    "revenue": 10078.849999999999,
+    "purchaseCost": 5928.720000000001,
+    "quantity": 75
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Electrum",
+    "revenue": 2233.92,
+    "purchaseCost": 964.4300000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Spirit",
+    "revenue": 5547.79,
+    "purchaseCost": 3918.84,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Panthera",
+    "revenue": 4330.76,
+    "purchaseCost": 2527.3399999999997,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Tattoo Stuff",
+    "revenue": 1239.6599999999999,
+    "purchaseCost": 791.36,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Emalla",
+    "revenue": 1068.6,
+    "purchaseCost": 434.91,
+    "quantity": 19
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "OZER",
+    "revenue": 271.14,
+    "purchaseCost": 176.65,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1592.5500000000002,
+    "purchaseCost": 1256.79,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "The Inked Army",
+    "revenue": 1863.5299999999997,
+    "purchaseCost": 1117.18,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "UNIGLOVES",
+    "revenue": 2585.38,
+    "purchaseCost": 1650.5000000000002,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "UNISTAR",
+    "revenue": 3284.3600000000006,
+    "purchaseCost": 1596.1699999999998,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1619.5700000000002,
+    "purchaseCost": 1264.6100000000001,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "ITC Piercing",
+    "revenue": 20.66,
+    "purchaseCost": 9.57,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "KWADRON",
+    "revenue": 30183.280000000006,
+    "purchaseCost": 16035.079999999998,
+    "quantity": 788
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Bishop Rotary",
+    "revenue": 1871.0899999999997,
+    "purchaseCost": 986.2800000000001,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Ostatní",
+    "revenue": 2263.3500000000004,
+    "purchaseCost": 823.6100000000001,
+    "quantity": 73
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Etalon Mix",
+    "revenue": 7266.95,
+    "purchaseCost": 5086.84,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Biotek",
+    "revenue": 11571.880000000001,
+    "purchaseCost": 7069.46,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1429.85,
+    "purchaseCost": 1026.8300000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "SWAVGO",
+    "revenue": 854.54,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "PEPAX",
+    "revenue": 2939.67,
+    "purchaseCost": 1308.41,
+    "quantity": 143
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "World Famous",
+    "revenue": 9908.57,
+    "purchaseCost": 6801.719999999999,
+    "quantity": 23
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "FK IRONS",
+    "revenue": 2439.6699999999996,
+    "purchaseCost": 1499.6999999999998,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Biotat",
+    "revenue": 2527.07,
+    "purchaseCost": 1589.09,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Piranha",
+    "revenue": 10113.520000000004,
+    "purchaseCost": 5690.119999999999,
+    "quantity": 138
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 7447.980000000002,
+    "purchaseCost": 1960.7199999999998,
+    "quantity": 248
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "FineLine",
+    "revenue": 1915.69,
+    "purchaseCost": 973.6799999999998,
+    "quantity": 63
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Tattoo Armour",
+    "revenue": 723.5899999999999,
+    "purchaseCost": 656.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "3M",
+    "revenue": 560.88,
+    "purchaseCost": 279.58000000000004,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Braun",
+    "revenue": 540.5,
+    "purchaseCost": 470.97,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "PERMA BLEND",
+    "revenue": 11709.95,
+    "purchaseCost": 8222.289999999999,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Sanytol",
+    "revenue": 397.03999999999996,
+    "purchaseCost": 272.71,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 8937.41,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 13185.96,
+    "purchaseCost": 4538.26,
+    "quantity": 242
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Rosa",
+    "revenue": 740.5,
+    "purchaseCost": 599.5,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Tattoo Goo",
+    "revenue": 941.3199999999999,
+    "purchaseCost": 564.75,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "DC Invention Company",
+    "revenue": 2527.9399999999996,
+    "purchaseCost": 1920.2900000000002,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Proton",
+    "revenue": 627.27,
+    "purchaseCost": 423.85,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Sharpie",
+    "revenue": 401.65,
+    "purchaseCost": 242.65000000000003,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 916,
+    "purchaseCost": 563.75,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "POPU",
+    "revenue": 106.61,
+    "purchaseCost": 66.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Xtreme Ink",
+    "revenue": 705.79,
+    "purchaseCost": 413.64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "TattooMed®",
+    "revenue": 49.59,
+    "purchaseCost": 27.76,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "I AM INK",
+    "revenue": 404.96,
+    "purchaseCost": 411.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 1355.37,
+    "purchaseCost": 786.37,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2229.79,
+    "purchaseCost": 1304.52,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Killer Ink",
+    "revenue": 1165.3600000000001,
+    "purchaseCost": 745.87,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Celtic Supply",
+    "revenue": 707.5899999999999,
+    "purchaseCost": 332.08000000000004,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "INKTROX",
+    "revenue": 64.46,
+    "purchaseCost": 43.84,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "INTENZE",
+    "revenue": 1414.04,
+    "purchaseCost": 1021.1600000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Allegory Ink",
+    "revenue": 1231.4,
+    "purchaseCost": 972,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Forte",
+    "revenue": 576.86,
+    "purchaseCost": 448.34000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "DERM X",
+    "revenue": 659.5,
+    "purchaseCost": 457.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "SKULLDNA",
+    "revenue": 157.02,
+    "purchaseCost": 46.1,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Dermalize",
+    "revenue": 722.31,
+    "purchaseCost": 437.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Premier Products",
+    "revenue": 432.63,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "ALOE TATTOO",
+    "revenue": 413.22,
+    "purchaseCost": 198.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Tattoo Bull",
+    "revenue": 304.96,
+    "purchaseCost": 175.6,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Wildcat",
+    "revenue": 74.38,
+    "purchaseCost": 45.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Lamajja",
+    "revenue": 272.73,
+    "purchaseCost": 190.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "The Perma",
+    "revenue": 383.47,
+    "purchaseCost": 129,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "Saferly",
+    "revenue": 33.06,
+    "purchaseCost": 13.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-23",
+    "brand": "REVOLUTION",
+    "revenue": 132.24,
+    "purchaseCost": 65.53999999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Cheyenne",
+    "revenue": 15623.980000000001,
+    "purchaseCost": 11789.210000000001,
+    "quantity": 131
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "ECOLAB",
+    "revenue": 1218.2,
+    "purchaseCost": 816.74,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 378.52,
+    "purchaseCost": 225.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "DYNAMIC",
+    "revenue": 8231.5,
+    "purchaseCost": 4840.780000000001,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Biotek",
+    "revenue": 2707.43,
+    "purchaseCost": 1396.2800000000002,
+    "quantity": 77
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 12720.249999999998,
+    "purchaseCost": 3863.17,
+    "quantity": 224
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Nezařazeno",
+    "revenue": 20289.740000000005,
+    "purchaseCost": 10278.589999999998,
+    "quantity": 230
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 6535.619999999999,
+    "purchaseCost": 1890.1799999999994,
+    "quantity": 213
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "FK IRONS",
+    "revenue": 18420.579999999998,
+    "purchaseCost": 15358.329999999998,
+    "quantity": 48
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "KWADRON",
+    "revenue": 32602.510000000017,
+    "purchaseCost": 18002.85000000001,
+    "quantity": 956
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "UNIGLOVES",
+    "revenue": 7588.84,
+    "purchaseCost": 4888.949999999998,
+    "quantity": 49
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "ELITE",
+    "revenue": 17453.619999999995,
+    "purchaseCost": 6416.160000000002,
+    "quantity": 687
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Reelskin",
+    "revenue": 4169.41,
+    "purchaseCost": 2927.8799999999997,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Sorry Mom",
+    "revenue": 900,
+    "purchaseCost": 716.03,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Bishop Rotary",
+    "revenue": 2538.83,
+    "purchaseCost": 1468.2000000000003,
+    "quantity": 64
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3697.75,
+    "purchaseCost": 2192,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "TattooMed®",
+    "revenue": 1113.23,
+    "purchaseCost": 750.4899999999999,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Lamajja",
+    "revenue": 2735.55,
+    "purchaseCost": 1850.7800000000002,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Celtic Supply",
+    "revenue": 565.2800000000001,
+    "purchaseCost": 204.86,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "KYBROWS",
+    "revenue": 636.37,
+    "purchaseCost": 463.27,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 1808.27,
+    "purchaseCost": 1246.08,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "MAPO Medical",
+    "revenue": 224.01,
+    "purchaseCost": 150,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "BLOW ICE",
+    "revenue": 622.1999999999999,
+    "purchaseCost": 343.6,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Forte",
+    "revenue": 328.92,
+    "purchaseCost": 244.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "OZER",
+    "revenue": 1483.8799999999999,
+    "purchaseCost": 582.43,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 2506.6400000000003,
+    "purchaseCost": 1972.9099999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "UNISTAR",
+    "revenue": 4139.64,
+    "purchaseCost": 2172.0299999999997,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Ostatní",
+    "revenue": 3011.02,
+    "purchaseCost": 1443.0600000000002,
+    "quantity": 54
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "DC Invention Company",
+    "revenue": 1760.33,
+    "purchaseCost": 1325.3600000000001,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "ETERNAL",
+    "revenue": 1862.8300000000002,
+    "purchaseCost": 1285.9,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Proton",
+    "revenue": 840.4999999999999,
+    "purchaseCost": 424.45,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "DERM X",
+    "revenue": 329.75,
+    "purchaseCost": 228.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 3605.8,
+    "purchaseCost": 2115.0499999999997,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Spirit",
+    "revenue": 6344.63,
+    "purchaseCost": 3883.47,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "KURO SUMI",
+    "revenue": 3635.5599999999995,
+    "purchaseCost": 2192.2599999999998,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "PEPAX",
+    "revenue": 1783.4699999999998,
+    "purchaseCost": 786.9000000000001,
+    "quantity": 90
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Panthera",
+    "revenue": 4230.42,
+    "purchaseCost": 2529.0699999999997,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Nuva Colors",
+    "revenue": 8087.640000000001,
+    "purchaseCost": 4831.880000000001,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Piranha",
+    "revenue": 3495.879999999999,
+    "purchaseCost": 1699.5000000000005,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Biotat",
+    "revenue": 1580.17,
+    "purchaseCost": 943.8,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "World Famous",
+    "revenue": 1719,
+    "purchaseCost": 1138.32,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 847.9399999999999,
+    "purchaseCost": 449.30999999999995,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "The Inked Army",
+    "revenue": 1160.87,
+    "purchaseCost": 661.8,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Prime",
+    "revenue": 910.7500000000001,
+    "purchaseCost": 473.52000000000004,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Believa Cosmetics",
+    "revenue": 131.4,
+    "purchaseCost": 86.17,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "FineLine",
+    "revenue": 2669.4000000000005,
+    "purchaseCost": 1388.4399999999998,
+    "quantity": 87
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "ALOE TATTOO",
+    "revenue": 247.11,
+    "purchaseCost": 110.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Tattoo Stuff",
+    "revenue": 1010.73,
+    "purchaseCost": 544.0099999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "EasyTattoo",
+    "revenue": 234.75,
+    "purchaseCost": 153.14,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "INTENZE",
+    "revenue": 1250.3499999999997,
+    "purchaseCost": 923.4000000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "PERMA BLEND",
+    "revenue": 6470.259999999999,
+    "purchaseCost": 4307.13,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Etalon Mix",
+    "revenue": 3964.4700000000003,
+    "purchaseCost": 2775.13,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 409.09,
+    "purchaseCost": 214.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Electrum",
+    "revenue": 53.72,
+    "purchaseCost": 22.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Saferly",
+    "revenue": 66.12,
+    "purchaseCost": 26.54,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "SWAVGO",
+    "revenue": 659.09,
+    "purchaseCost": 315.12,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 114.05,
+    "purchaseCost": 29.4,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "ECOTAT",
+    "revenue": 328.92,
+    "purchaseCost": 153.54,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 987.5600000000001,
+    "purchaseCost": 811.6400000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "3M",
+    "revenue": 121.49,
+    "purchaseCost": 59.91,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "POPU",
+    "revenue": 547.1,
+    "purchaseCost": 123.09,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Wildcat",
+    "revenue": 446.28,
+    "purchaseCost": 275.70000000000005,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "AVA Machine",
+    "revenue": 479.33,
+    "purchaseCost": 179.65000000000003,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Killer Ink",
+    "revenue": 325.61,
+    "purchaseCost": 198.68,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Emalla",
+    "revenue": 823.9599999999999,
+    "purchaseCost": 207.55,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "The Pigment",
+    "revenue": 231.4,
+    "purchaseCost": 182.84,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "SKULLDNA",
+    "revenue": 78.51,
+    "purchaseCost": 23.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Rosa",
+    "revenue": 468.72,
+    "purchaseCost": 366,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Xiantao Xingrong",
+    "revenue": 57.02,
+    "purchaseCost": 12.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "RENOVA",
+    "revenue": 81.82,
+    "purchaseCost": 32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Braun",
+    "revenue": 383.93,
+    "purchaseCost": 289.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Premier Products",
+    "revenue": 446.74,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-24",
+    "brand": "Tattoo Goo",
+    "revenue": 21.49,
+    "purchaseCost": 16.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Biotat",
+    "revenue": 3437.82,
+    "purchaseCost": 2124.47,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "KWADRON",
+    "revenue": 41184.590000000004,
+    "purchaseCost": 22078.16000000001,
+    "quantity": 1129
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Nezařazeno",
+    "revenue": 19172.50999999999,
+    "purchaseCost": 10517.610000000004,
+    "quantity": 246
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Emalla",
+    "revenue": 6295.370000000001,
+    "purchaseCost": 2542.7599999999998,
+    "quantity": 184
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "ELITE",
+    "revenue": 14192.949999999997,
+    "purchaseCost": 5275.75,
+    "quantity": 502
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Piranha",
+    "revenue": 4265.61,
+    "purchaseCost": 2297.7,
+    "quantity": 67
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 1007.44,
+    "purchaseCost": 611.49,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "UNIGLOVES",
+    "revenue": 5497.780000000001,
+    "purchaseCost": 3495.5699999999997,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Ostatní",
+    "revenue": 9873.629999999997,
+    "purchaseCost": 6585.579999999999,
+    "quantity": 68
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Proton",
+    "revenue": 1436.3600000000001,
+    "purchaseCost": 878.94,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Tattoo Bull",
+    "revenue": 164.46,
+    "purchaseCost": 96.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "TattooMed®",
+    "revenue": 1436.37,
+    "purchaseCost": 965.0799999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Etalon Mix",
+    "revenue": 22957.120000000003,
+    "purchaseCost": 16360.95,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Bishop Rotary",
+    "revenue": 8011.58,
+    "purchaseCost": 4949.47,
+    "quantity": 167
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Cheyenne",
+    "revenue": 2041.3299999999997,
+    "purchaseCost": 1151.05,
+    "quantity": 88
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 5474.390000000003,
+    "purchaseCost": 3319.240000000001,
+    "quantity": 25
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 12801.65,
+    "purchaseCost": 8815.84,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "SWAVGO",
+    "revenue": 897.72,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "3M",
+    "revenue": 161.99,
+    "purchaseCost": 79.88,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "POPU",
+    "revenue": 106.61,
+    "purchaseCost": 66.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Tattoo Stuff",
+    "revenue": 322.31,
+    "purchaseCost": 182.53,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Lamajja",
+    "revenue": 198.35,
+    "purchaseCost": 122.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Panthera",
+    "revenue": 2879.04,
+    "purchaseCost": 1733.5500000000002,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Premier Products",
+    "revenue": 916.99,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "UNISTAR",
+    "revenue": 3045.55,
+    "purchaseCost": 1656.71,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "OZER",
+    "revenue": 3450.8499999999995,
+    "purchaseCost": 1221.54,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "The Inked Army",
+    "revenue": 1378.52,
+    "purchaseCost": 788.89,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "ETERNAL",
+    "revenue": 361.16,
+    "purchaseCost": 256.1,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "DC Invention Company",
+    "revenue": 4718.06,
+    "purchaseCost": 4266.6,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "FineLine",
+    "revenue": 2104.13,
+    "purchaseCost": 1091.2,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "KURO SUMI",
+    "revenue": 1465.28,
+    "purchaseCost": 997.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1102.48,
+    "purchaseCost": 714.5699999999999,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "PERMA BLEND",
+    "revenue": 13102.48,
+    "purchaseCost": 9736.310000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1500.8100000000002,
+    "purchaseCost": 1175.3999999999999,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "World Famous",
+    "revenue": 6092.569999999999,
+    "purchaseCost": 4385.799999999999,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Xtreme Ink",
+    "revenue": 788.4300000000001,
+    "purchaseCost": 600.88,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Killer Ink",
+    "revenue": 123.96000000000001,
+    "purchaseCost": 74.77000000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Biotek",
+    "revenue": 2526.4300000000003,
+    "purchaseCost": 1363.4799999999998,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2779.6099999999997,
+    "purchaseCost": 844.5899999999999,
+    "quantity": 89
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Rosa",
+    "revenue": 2161.99,
+    "purchaseCost": 1500.51,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "DYNAMIC",
+    "revenue": 6097.16,
+    "purchaseCost": 3438.3100000000004,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "FK IRONS",
+    "revenue": 3066.95,
+    "purchaseCost": 1888.1999999999998,
+    "quantity": 60
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Radiant Colors USA",
+    "revenue": 560.58,
+    "purchaseCost": 413.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Spirit",
+    "revenue": 1561.9899999999998,
+    "purchaseCost": 1084.05,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "BLOW ICE",
+    "revenue": 257.02,
+    "purchaseCost": 187.35999999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "EasyTattoo",
+    "revenue": 247.11,
+    "purchaseCost": 153.14,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "SKULLDNA",
+    "revenue": 147.11,
+    "purchaseCost": 37.98,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "RENOVA",
+    "revenue": 397.52,
+    "purchaseCost": 197.44,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "AIM TATTOO SUPPLY",
+    "revenue": 57.02,
+    "purchaseCost": 14.7,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "I AM INK",
+    "revenue": 384.71,
+    "purchaseCost": 414.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "DERM X",
+    "revenue": 329.75,
+    "purchaseCost": 228.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Saferly",
+    "revenue": 329.75,
+    "purchaseCost": 123.32,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Xiantao Xingrong",
+    "revenue": 171.07,
+    "purchaseCost": 36.45,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "ECOLAB",
+    "revenue": 403.31,
+    "purchaseCost": 261.95000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 552.63,
+    "purchaseCost": 338.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "INTENZE",
+    "revenue": 438.84,
+    "purchaseCost": 339.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Wildcat",
+    "revenue": 148.76,
+    "purchaseCost": 91.9,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 871.0799999999999,
+    "purchaseCost": 244.60000000000002,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "ME™",
+    "revenue": 0,
+    "purchaseCost": 13160.24,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Forte",
+    "revenue": 328.92,
+    "purchaseCost": 244.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Celtic Supply",
+    "revenue": 487.6,
+    "purchaseCost": 282.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 370.25,
+    "purchaseCost": 250.82,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Electrum",
+    "revenue": 404.96,
+    "purchaseCost": 115.8,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Sanytol",
+    "revenue": 747.1,
+    "purchaseCost": 468.64,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "REVOLUTION",
+    "revenue": 66.12,
+    "purchaseCost": 20.73,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 81.82,
+    "purchaseCost": 43.85,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "PEPAX",
+    "revenue": 1123.96,
+    "purchaseCost": 493,
+    "quantity": 50
+  },
+  {
+    "date": "2026-03-25",
+    "brand": "ALOE TATTOO",
+    "revenue": 180.99,
+    "purchaseCost": 120.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Bishop Rotary",
+    "revenue": 4932.250000000001,
+    "purchaseCost": 3198.1,
+    "quantity": 100
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "KWADRON",
+    "revenue": 16605.61,
+    "purchaseCost": 8955.029999999999,
+    "quantity": 405
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "The Pigment",
+    "revenue": 297.52,
+    "purchaseCost": 235.07999999999998,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "ALOE TATTOO",
+    "revenue": 428.1,
+    "purchaseCost": 249.01000000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 4668.88,
+    "purchaseCost": 1383.9800000000002,
+    "quantity": 154
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "UNIGLOVES",
+    "revenue": 3668.7999999999993,
+    "purchaseCost": 2424.67,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Etalon Mix",
+    "revenue": 19160.360000000004,
+    "purchaseCost": 13412.210000000003,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Wildcat",
+    "revenue": 1317.36,
+    "purchaseCost": 0,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Nezařazeno",
+    "revenue": 11643.05,
+    "purchaseCost": 6208.960000000001,
+    "quantity": 115
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Piranha",
+    "revenue": 4759.13,
+    "purchaseCost": 2539.15,
+    "quantity": 81
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "3M",
+    "revenue": 76.95,
+    "purchaseCost": 39.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "BLOW ICE",
+    "revenue": 274.46,
+    "purchaseCost": 168.36,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "ECOLAB",
+    "revenue": 384.38,
+    "purchaseCost": 261.95000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "DYNAMIC",
+    "revenue": 2349.27,
+    "purchaseCost": 1436.7499999999998,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Electrum",
+    "revenue": 313.23,
+    "purchaseCost": 178.31000000000003,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "ELITE",
+    "revenue": 19746.35000000001,
+    "purchaseCost": 7608.1900000000005,
+    "quantity": 751
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Ostatní",
+    "revenue": 2986.55,
+    "purchaseCost": 1478.96,
+    "quantity": 64
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1460.5599999999997,
+    "purchaseCost": 965.1400000000001,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Proton",
+    "revenue": 953.8799999999999,
+    "purchaseCost": 518.9399999999999,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "The Perma",
+    "revenue": 143.8,
+    "purchaseCost": 0,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Killer Ink",
+    "revenue": 738.8499999999999,
+    "purchaseCost": 356.97,
+    "quantity": 39
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2404.0499999999997,
+    "purchaseCost": 1483.28,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "FK IRONS",
+    "revenue": 4049.5899999999997,
+    "purchaseCost": 3179.3,
+    "quantity": 113
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Biotat",
+    "revenue": 1428.1,
+    "purchaseCost": 855.5799999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "RENOVA",
+    "revenue": 81.82,
+    "purchaseCost": 32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "UNISTAR",
+    "revenue": 3533.07,
+    "purchaseCost": 1803.33,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "OZER",
+    "revenue": 2249.41,
+    "purchaseCost": 952.51,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "AVA Machine",
+    "revenue": 793.39,
+    "purchaseCost": 317.5,
+    "quantity": 50
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Rosa",
+    "revenue": 764.27,
+    "purchaseCost": 525.3699999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Biotek",
+    "revenue": 4080.16,
+    "purchaseCost": 2593,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "PERMA BLEND",
+    "revenue": 8924.82,
+    "purchaseCost": 5926.47,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "SKULLDNA",
+    "revenue": 255.37,
+    "purchaseCost": 165.29,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "SKINz",
+    "revenue": 206.61,
+    "purchaseCost": 120.95,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 651.24,
+    "purchaseCost": 389.3,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "INTENZE",
+    "revenue": 487.6,
+    "purchaseCost": 342.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Panthera",
+    "revenue": 561.16,
+    "purchaseCost": 344.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "The Inked Army",
+    "revenue": 700.8299999999999,
+    "purchaseCost": 392.77,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "MAPO Medical",
+    "revenue": 304.14,
+    "purchaseCost": 195,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 1767.78,
+    "purchaseCost": 485.3,
+    "quantity": 70
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Sanytol",
+    "revenue": 65.29,
+    "purchaseCost": 36.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 328.92,
+    "purchaseCost": 255.12,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Xtreme Ink",
+    "revenue": 859.5,
+    "purchaseCost": 548.76,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Saferly",
+    "revenue": 247.11,
+    "purchaseCost": 127.03,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 477.69000000000005,
+    "purchaseCost": 376.75,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "INKTROX",
+    "revenue": 32.23,
+    "purchaseCost": 21.92,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Spirit",
+    "revenue": 1537.19,
+    "purchaseCost": 979.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Sharpie",
+    "revenue": 365.28999999999996,
+    "purchaseCost": 239.11,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "PEPAX",
+    "revenue": 2938.9599999999996,
+    "purchaseCost": 1320.14,
+    "quantity": 84
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "POPU",
+    "revenue": 342.14,
+    "purchaseCost": 163.86,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "World Famous",
+    "revenue": 2152.06,
+    "purchaseCost": 1450.67,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Celtic Supply",
+    "revenue": 371.07000000000005,
+    "purchaseCost": 203.23000000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 577.69,
+    "purchaseCost": 292.32,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Nuva Colors",
+    "revenue": 1155.38,
+    "purchaseCost": 664.64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Starbrite",
+    "revenue": 1231.4,
+    "purchaseCost": 632.44,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Cheyenne",
+    "revenue": 39523.95999999999,
+    "purchaseCost": 30769.349999999995,
+    "quantity": 71
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "DC Invention Company",
+    "revenue": 975.78,
+    "purchaseCost": 862.3100000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Braun",
+    "revenue": 205.79,
+    "purchaseCost": 154.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Emalla",
+    "revenue": 51.24,
+    "purchaseCost": 21.64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Believa Cosmetics",
+    "revenue": 517.02,
+    "purchaseCost": 387.28,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "SWAVGO",
+    "revenue": 209.09,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "KURO SUMI",
+    "revenue": 329.75,
+    "purchaseCost": 214.23,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Lamajja",
+    "revenue": 867.7700000000001,
+    "purchaseCost": 546.0799999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "SUNSKIN",
+    "revenue": 453.72,
+    "purchaseCost": 322.21,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Sorry Mom",
+    "revenue": 1113.84,
+    "purchaseCost": 1026.69,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "I AM INK",
+    "revenue": 1057.85,
+    "purchaseCost": 1048.05,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-26",
+    "brand": "Fusion Ink",
+    "revenue": 429.75,
+    "purchaseCost": 297.19,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 5694.21,
+    "purchaseCost": 3345.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Spirit",
+    "revenue": 1173.56,
+    "purchaseCost": 984.02,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Ostatní",
+    "revenue": 1335.63,
+    "purchaseCost": 437.35999999999996,
+    "quantity": 47
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Biotat",
+    "revenue": 1971.07,
+    "purchaseCost": 1231.48,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Emalla",
+    "revenue": 314.05,
+    "purchaseCost": 116.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Electrum",
+    "revenue": 725.63,
+    "purchaseCost": 269.56,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "UNIGLOVES",
+    "revenue": 2735.55,
+    "purchaseCost": 1793.3200000000002,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Nezařazeno",
+    "revenue": 13830.050000000003,
+    "purchaseCost": 10128.34,
+    "quantity": 59
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Piranha",
+    "revenue": 4692.199999999999,
+    "purchaseCost": 1773.07,
+    "quantity": 53
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Tattoo Stuff",
+    "revenue": 1239.6599999999999,
+    "purchaseCost": 791.36,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "UNISTAR",
+    "revenue": 2525.6400000000003,
+    "purchaseCost": 1340.0300000000002,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1915.0900000000001,
+    "purchaseCost": 1494.3999999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "ALOE TATTOO",
+    "revenue": 890.91,
+    "purchaseCost": 483.54,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Etalon Mix",
+    "revenue": 14038.03,
+    "purchaseCost": 9826.580000000002,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "KWADRON",
+    "revenue": 23364.760000000013,
+    "purchaseCost": 12349.439999999995,
+    "quantity": 649
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "DYNAMIC",
+    "revenue": 4033.1100000000006,
+    "purchaseCost": 1760.14,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "ELITE",
+    "revenue": 11389.830000000002,
+    "purchaseCost": 4669.59,
+    "quantity": 367
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Panthera",
+    "revenue": 2668.44,
+    "purchaseCost": 1657.87,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 6238.099999999999,
+    "purchaseCost": 1804.39,
+    "quantity": 207
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 445.45,
+    "purchaseCost": 243.66000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 9514.44,
+    "purchaseCost": 4013.2799999999997,
+    "quantity": 121
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Biotek",
+    "revenue": 7240.5,
+    "purchaseCost": 4617.779999999999,
+    "quantity": 26
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Bishop Rotary",
+    "revenue": 1927.28,
+    "purchaseCost": 1229.1499999999999,
+    "quantity": 64
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Braun",
+    "revenue": 404.13,
+    "purchaseCost": 289.39,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "OZER",
+    "revenue": 534.71,
+    "purchaseCost": 231.14999999999998,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Sanytol",
+    "revenue": 103.31,
+    "purchaseCost": 70.27,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "SWAVGO",
+    "revenue": 897.73,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "KURO SUMI",
+    "revenue": 940.5699999999999,
+    "purchaseCost": 588.44,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "PEPAX",
+    "revenue": 294.42,
+    "purchaseCost": 125.15,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 7163.770000000001,
+    "purchaseCost": 4626.020000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Tattoo Bull",
+    "revenue": 148.02,
+    "purchaseCost": 96.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Xtreme Ink",
+    "revenue": 5859.5,
+    "purchaseCost": 4035.56,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Cheyenne",
+    "revenue": 4517.76,
+    "purchaseCost": 2260.9500000000003,
+    "quantity": 145
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "INTENZE",
+    "revenue": 957.43,
+    "purchaseCost": 732.78,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "ETERNAL",
+    "revenue": 361.16,
+    "purchaseCost": 254.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2468.18,
+    "purchaseCost": 1562.9,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "FK IRONS",
+    "revenue": 4578.929999999999,
+    "purchaseCost": 3286.31,
+    "quantity": 117
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "The Inked Army",
+    "revenue": 1189.42,
+    "purchaseCost": 738.4,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "3M",
+    "revenue": 236.89999999999998,
+    "purchaseCost": 119.82,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Killer Ink",
+    "revenue": 234.75,
+    "purchaseCost": 120.37,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "World Famous",
+    "revenue": 861.5699999999999,
+    "purchaseCost": 584.56,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Proton",
+    "revenue": 800,
+    "purchaseCost": 391.94000000000005,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Xiantao Xingrong",
+    "revenue": 114.04,
+    "purchaseCost": 24.44,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 2042.96,
+    "purchaseCost": 1529.8799999999999,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 81.82,
+    "purchaseCost": 42.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "RENOVA",
+    "revenue": 200.82999999999998,
+    "purchaseCost": 136,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "ECOTAT",
+    "revenue": 328.93,
+    "purchaseCost": 153.54,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Lauro Paolini",
+    "revenue": 103.31,
+    "purchaseCost": 71.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 246.28,
+    "purchaseCost": 141.29,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "INK-EEZE",
+    "revenue": 660.33,
+    "purchaseCost": 364.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "DC Invention Company",
+    "revenue": 1083.81,
+    "purchaseCost": 847.0300000000001,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Forte",
+    "revenue": 164.46,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "MAPO Medical",
+    "revenue": 114.88,
+    "purchaseCost": 75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "KYBROWS",
+    "revenue": 834.71,
+    "purchaseCost": 609.72,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Lamajja",
+    "revenue": 198.35,
+    "purchaseCost": 122.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Anios",
+    "revenue": 577.69,
+    "purchaseCost": 439.09,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "ITC Piercing",
+    "revenue": 206.61,
+    "purchaseCost": 95.7,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "PERMA BLEND",
+    "revenue": 4065.3,
+    "purchaseCost": 2707.2400000000002,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Radiant Colors USA",
+    "revenue": 329.75,
+    "purchaseCost": 206.68,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 388.64,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 11.45,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "SOLID INK EUROPE",
+    "revenue": 1237.1999999999998,
+    "purchaseCost": 771.8399999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "Believa Cosmetics",
+    "revenue": 1123.97,
+    "purchaseCost": 774.56,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "FineLine",
+    "revenue": 628.1,
+    "purchaseCost": 306.4,
+    "quantity": 20
+  },
+  {
+    "date": "2026-03-27",
+    "brand": "GHOST",
+    "revenue": 785.12,
+    "purchaseCost": 474.39,
     "quantity": 1
   },
   {
     "date": "2026-03-28",
-    "brand": "KWADRON",
-    "revenue": 349.13,
-    "purchaseCost": 153.57999999999998,
-    "quantity": 3
+    "brand": "Nezařazeno",
+    "revenue": 9288.49,
+    "purchaseCost": 2908.3599999999997,
+    "quantity": 68
   },
   {
     "date": "2026-03-28",
-    "brand": "The Inked Army",
-    "revenue": 672.98,
-    "purchaseCost": 506.82,
+    "brand": "Electrum",
+    "revenue": 171.16,
+    "purchaseCost": 57.36,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "KWADRON",
+    "revenue": 7789.1799999999985,
+    "purchaseCost": 4550.35,
+    "quantity": 210
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "KURO SUMI",
+    "revenue": 2551.23,
+    "purchaseCost": 1666.21,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "DC Invention Company",
+    "revenue": 693.39,
+    "purchaseCost": 501.9,
     "quantity": 2
   },
   {
     "date": "2026-03-28",
-    "brand": "UNIGLOVES",
-    "revenue": 630.12,
-    "purchaseCost": 525.27,
-    "quantity": 3
+    "brand": "Proton",
+    "revenue": 2305.02,
+    "purchaseCost": 1415.0900000000001,
+    "quantity": 6
   },
   {
     "date": "2026-03-28",
     "brand": "Cheyenne",
-    "revenue": 518.18,
-    "purchaseCost": 340.5,
-    "quantity": 30
+    "revenue": 1123.96,
+    "purchaseCost": 623.3,
+    "quantity": 50
   },
   {
     "date": "2026-03-28",
-    "brand": "PEPAX",
-    "revenue": 413.22,
-    "purchaseCost": 171.2,
-    "quantity": 20
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 805.37,
+    "purchaseCost": 490.27,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Ostatní",
+    "revenue": 934.8,
+    "purchaseCost": 443.49,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "World Famous",
+    "revenue": 1224.78,
+    "purchaseCost": 852.02,
+    "quantity": 3
   },
   {
     "date": "2026-03-28",
     "brand": "DYNAMIC",
-    "revenue": 429.76,
-    "purchaseCost": 248.41,
+    "revenue": 1247.9499999999998,
+    "purchaseCost": 715.02,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Forte",
+    "revenue": 328.92,
+    "purchaseCost": 244.08,
     "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1966.93,
+    "purchaseCost": 520.5799999999999,
+    "quantity": 71
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Biotek",
+    "revenue": 984.29,
+    "purchaseCost": 615.3,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Nuva Colors",
+    "revenue": 1559.7599999999998,
+    "purchaseCost": 1110.8799999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "PERMA BLEND",
+    "revenue": 3741.3399999999997,
+    "purchaseCost": 2676.15,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 319.09,
+    "purchaseCost": 171.76,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "FK IRONS",
+    "revenue": 47.6,
+    "purchaseCost": 26.2,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "ALOE TATTOO",
+    "revenue": 222.4,
+    "purchaseCost": 128.86,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Biotat",
+    "revenue": 1396.7,
+    "purchaseCost": 848.3199999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "ELITE",
+    "revenue": 11375.58,
+    "purchaseCost": 4996.319999999999,
+    "quantity": 510
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "ECOLAB",
+    "revenue": 214.05,
+    "purchaseCost": 140.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "UNIGLOVES",
+    "revenue": 1635.0700000000002,
+    "purchaseCost": 1174.33,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "PEPAX",
+    "revenue": 2933.88,
+    "purchaseCost": 1164.23,
+    "quantity": 80
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Sanytol",
+    "revenue": 168.60000000000002,
+    "purchaseCost": 106.32,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "The Inked Army",
+    "revenue": 920.09,
+    "purchaseCost": 628.45,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "FineLine",
+    "revenue": 314.05,
+    "purchaseCost": 181.6,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Tattoo Goo",
+    "revenue": 550.4100000000001,
+    "purchaseCost": 323.54999999999995,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "SOLID INK EUROPE",
+    "revenue": 1649.5900000000001,
+    "purchaseCost": 1029.12,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Emalla",
+    "revenue": 715.7099999999999,
+    "purchaseCost": 272.36,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "INTENZE",
+    "revenue": 487.6,
+    "purchaseCost": 339.08,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Spirit",
+    "revenue": 1537.19,
+    "purchaseCost": 979.06,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 247.11,
+    "purchaseCost": 186.8,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Xtreme Ink",
+    "revenue": 429.75,
+    "purchaseCost": 237.94,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "The Perma",
+    "revenue": 23.97,
+    "purchaseCost": 12.9,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 662.81,
+    "purchaseCost": 414.24999999999994,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "OZER",
+    "revenue": 988.4300000000001,
+    "purchaseCost": 401.38,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 655.96,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Celtic Supply",
+    "revenue": 243.8,
+    "purchaseCost": 97.78,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Lamajja",
+    "revenue": 545.46,
+    "purchaseCost": 381.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 312.39,
+    "purchaseCost": 239.28,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Piranha",
+    "revenue": 1071.25,
+    "purchaseCost": 592.6,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 4482.650000000001,
+    "purchaseCost": 1523.27,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 595.05,
+    "purchaseCost": 352.73,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Bishop Rotary",
+    "revenue": 23958.68,
+    "purchaseCost": 15705.91,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Saferly",
+    "revenue": 247.11,
+    "purchaseCost": 127.03,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Braun",
+    "revenue": 477.69,
+    "purchaseCost": 392.23,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "MAPO Medical",
+    "revenue": 858.6800000000001,
+    "purchaseCost": 585,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Etalon Mix",
+    "revenue": 1321.49,
+    "purchaseCost": 925.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "TattooMed®",
+    "revenue": 263.64,
+    "purchaseCost": 119.07,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Prime",
+    "revenue": 239.66,
+    "purchaseCost": 121.45,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Panthera",
+    "revenue": 1072.72,
+    "purchaseCost": 647.8900000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Wildcat",
+    "revenue": 80.99,
+    "purchaseCost": 0,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "BLOW ICE",
+    "revenue": 304.96,
+    "purchaseCost": 168.36,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "UNISTAR",
+    "revenue": 792.57,
+    "purchaseCost": 389.99,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Xiantao Xingrong",
+    "revenue": 228.1,
+    "purchaseCost": 48.88,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "ProTect",
+    "revenue": 328.92,
+    "purchaseCost": 188.29000000000002,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "3M",
+    "revenue": 80.99,
+    "purchaseCost": 39.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "Tombow",
+    "revenue": 327.28,
+    "purchaseCost": 168.64,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-28",
+    "brand": "AVA Machine",
+    "revenue": 264.47,
+    "purchaseCost": 99.66,
+    "quantity": 16
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 769.02,
+    "purchaseCost": 450.95,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Nezařazeno",
+    "revenue": 5236.52,
+    "purchaseCost": 2116.0900000000006,
+    "quantity": 106
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "UNIGLOVES",
+    "revenue": 2396.8500000000004,
+    "purchaseCost": 1519.2499999999998,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Proton",
+    "revenue": 1931.09,
+    "purchaseCost": 1140.2299999999998,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "DYNAMIC",
+    "revenue": 6817.020000000001,
+    "purchaseCost": 3988.8700000000003,
+    "quantity": 21
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 812.4000000000001,
+    "purchaseCost": 480.73,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "ACQUA HEAL",
+    "revenue": 485.13,
+    "purchaseCost": 156.97,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "ECOLAB",
+    "revenue": 1160.34,
+    "purchaseCost": 746.6700000000001,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "KWADRON",
+    "revenue": 20515.22000000001,
+    "purchaseCost": 11438.93,
+    "quantity": 546
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Piranha",
+    "revenue": 3690.88,
+    "purchaseCost": 3534.21,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1071.95,
+    "purchaseCost": 641.34,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "UNISTAR",
+    "revenue": 2075.26,
+    "purchaseCost": 1036.5,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 5265.280000000001,
+    "purchaseCost": 1437.0100000000002,
+    "quantity": 184
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Biotat",
+    "revenue": 440.49,
+    "purchaseCost": 202.46999999999997,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Cheyenne",
+    "revenue": 1807.92,
+    "purchaseCost": 1015.24,
+    "quantity": 81
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Ostatní",
+    "revenue": 1581.47,
+    "purchaseCost": 604.48,
+    "quantity": 55
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "3M",
+    "revenue": 192.76999999999998,
+    "purchaseCost": 99.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "ELITE",
+    "revenue": 10057.43,
+    "purchaseCost": 4197.969999999999,
+    "quantity": 303
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Spirit",
+    "revenue": 1322.7399999999998,
+    "purchaseCost": 963.97,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "TattooMed®",
+    "revenue": 577.69,
+    "purchaseCost": 391.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "DC Invention Company",
+    "revenue": 2325.62,
+    "purchaseCost": 1934.63,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "ETERNAL",
+    "revenue": 380.17,
+    "purchaseCost": 243.4,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "The Perma",
+    "revenue": 479.34,
+    "purchaseCost": 263.76,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "FK IRONS",
+    "revenue": 16913.22,
+    "purchaseCost": 12875.189999999999,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "ProTect",
+    "revenue": 335.51,
+    "purchaseCost": 193.59000000000003,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "SWAVGO",
+    "revenue": 454.54,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Panthera",
+    "revenue": 2666.9100000000003,
+    "purchaseCost": 1582.24,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "BD Insyte",
+    "revenue": 1132.9,
+    "purchaseCost": 906.3,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 335.59,
+    "purchaseCost": 262.27000000000004,
+    "quantity": 3
   },
   {
     "date": "2026-03-29",
@@ -334,24 +26766,115 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-03-29",
-    "brand": "Nezařazeno",
-    "revenue": 377.5,
-    "purchaseCost": 109.42,
+    "brand": "The Inked Army",
+    "revenue": 1704.66,
+    "purchaseCost": 970.97,
     "quantity": 7
   },
   {
     "date": "2026-03-29",
-    "brand": "KWADRON",
-    "revenue": 1249.96,
-    "purchaseCost": 709.47,
-    "quantity": 39
+    "brand": "Tattoo Stuff",
+    "revenue": 1364.4600000000003,
+    "purchaseCost": 656.85,
+    "quantity": 14
   },
   {
     "date": "2026-03-29",
-    "brand": "The Inked Army",
-    "revenue": 422.4,
-    "purchaseCost": 239.96,
+    "brand": "Bishop Rotary",
+    "revenue": 3816.5200000000004,
+    "purchaseCost": 1872.74,
+    "quantity": 88
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "BLOW ICE",
+    "revenue": 320.66,
+    "purchaseCost": 255.58,
     "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Etalon Mix",
+    "revenue": 4790.09,
+    "purchaseCost": 3353.04,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Believa Cosmetics",
+    "revenue": 263.63,
+    "purchaseCost": 159.87,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Biotek",
+    "revenue": 1747.11,
+    "purchaseCost": 1027.68,
+    "quantity": 35
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Lamajja",
+    "revenue": 776.8700000000001,
+    "purchaseCost": 527.8900000000001,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "ECOTAT",
+    "revenue": 164.46,
+    "purchaseCost": 76.77,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Braun",
+    "revenue": 411.58,
+    "purchaseCost": 308.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "POPU",
+    "revenue": 228.1,
+    "purchaseCost": 51.44,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "EGO tattoo machines",
+    "revenue": 39.67,
+    "purchaseCost": 24.22,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Emalla",
+    "revenue": 429.75,
+    "purchaseCost": 167.06,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "ALOE TATTOO",
+    "revenue": 428.1,
+    "purchaseCost": 230.33,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "PEPAX",
+    "revenue": 171.08,
+    "purchaseCost": 70.11,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Tattoo Goo",
+    "revenue": 81.82,
+    "purchaseCost": 48.32,
+    "quantity": 1
   },
   {
     "date": "2026-03-29",
@@ -362,262 +26885,1165 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-03-29",
-    "brand": "ProTect",
-    "revenue": 6.59,
-    "purchaseCost": 5.3,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-29",
-    "brand": "Panthera",
-    "revenue": 570.2,
-    "purchaseCost": 395.65999999999997,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-29",
-    "brand": "PEPAX",
-    "revenue": 23.15,
-    "purchaseCost": 7.11,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-29",
-    "brand": "Proton",
-    "revenue": 38.03,
-    "purchaseCost": 21.11,
-    "quantity": 2
-  },
-  {
-    "date": "2026-03-29",
     "brand": "RENOVA",
-    "revenue": 4.8,
-    "purchaseCost": 3.18,
+    "revenue": 86.61999999999999,
+    "purchaseCost": 35.18,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Rosa",
+    "revenue": 1717.3600000000001,
+    "purchaseCost": 1195.6000000000001,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "LASKIN",
+    "revenue": 206.61,
+    "purchaseCost": 154.96,
     "quantity": 1
   },
   {
     "date": "2026-03-29",
-    "brand": "UNIGLOVES",
-    "revenue": 9.9,
-    "purchaseCost": 7.12,
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 153.72,
+    "purchaseCost": 41.13,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 328.92,
+    "purchaseCost": 255.12,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Saferly",
+    "revenue": 164.46,
+    "purchaseCost": 56.97,
     "quantity": 1
   },
   {
     "date": "2026-03-29",
-    "brand": "HARTMANN – RICO a.s.",
-    "revenue": 9.9,
-    "purchaseCost": 7.61,
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 1821.9399999999998,
+    "purchaseCost": 1615.2,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Tombow",
+    "revenue": 81.82,
+    "purchaseCost": 42.16,
     "quantity": 1
   },
   {
     "date": "2026-03-29",
-    "brand": "BLOW ICE",
-    "revenue": 247.11,
-    "purchaseCost": 204.96,
+    "brand": "KYBROWS",
+    "revenue": 1338.85,
+    "purchaseCost": 922.46,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Dermalize",
+    "revenue": 1603.31,
+    "purchaseCost": 826.2,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 245.45,
+    "purchaseCost": 128.82,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "FineLine",
+    "revenue": 157.02,
+    "purchaseCost": 90.5,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Reelskin",
+    "revenue": 239.67,
+    "purchaseCost": 155.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 2536.36,
+    "purchaseCost": 1199.1299999999999,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Killer Ink",
+    "revenue": 206.61,
+    "purchaseCost": 121.13,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Forte",
+    "revenue": 412.4,
+    "purchaseCost": 326.3,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Premier Products",
+    "revenue": 893.48,
+    "purchaseCost": 554.5,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "World Famous",
+    "revenue": 1633.04,
+    "purchaseCost": 1151.99,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Xtreme Ink",
+    "revenue": 816.52,
+    "purchaseCost": 565.99,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "INTENZE",
+    "revenue": 55.37,
+    "purchaseCost": 40.99,
     "quantity": 1
   },
   {
     "date": "2026-03-29",
     "brand": "Electrum",
-    "revenue": 94.22,
-    "purchaseCost": 34.2,
+    "revenue": 296.7,
+    "purchaseCost": 92.1,
+    "quantity": 7
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "PERMA BLEND",
+    "revenue": 1619.84,
+    "purchaseCost": 1063.5,
     "quantity": 2
   },
   {
-    "date": "2026-03-30",
-    "brand": "Piranha",
-    "revenue": 493.39,
-    "purchaseCost": 287.70000000000005,
+    "date": "2026-03-29",
+    "brand": "Radiant Colors USA",
+    "revenue": 1253.04,
+    "purchaseCost": 826.72,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Anios",
+    "revenue": 577.69,
+    "purchaseCost": 439.09,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Celtic Supply",
+    "revenue": 164.46,
+    "purchaseCost": 63.61,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-29",
+    "brand": "Sharpie",
+    "revenue": 146.28,
+    "purchaseCost": 72.03,
     "quantity": 3
   },
   {
     "date": "2026-03-30",
-    "brand": "Tattoo Stuff",
-    "revenue": 73.55,
-    "purchaseCost": 16.31,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-30",
-    "brand": "Prime",
-    "revenue": 934.7099999999999,
-    "purchaseCost": 473.78000000000003,
-    "quantity": 39
-  },
-  {
-    "date": "2026-03-30",
-    "brand": "World Famous",
-    "revenue": 859.5,
-    "purchaseCost": 570.2,
-    "quantity": 2
+    "brand": "DYNAMIC",
+    "revenue": 10454.75,
+    "purchaseCost": 6105.62,
+    "quantity": 25
   },
   {
     "date": "2026-03-30",
     "brand": "Bishop Rotary",
-    "revenue": 814.04,
-    "purchaseCost": 468.81,
-    "quantity": 21
+    "revenue": 11384.070000000003,
+    "purchaseCost": 6706.01,
+    "quantity": 287
   },
   {
     "date": "2026-03-30",
-    "brand": "ELITE",
-    "revenue": 2704.12,
-    "purchaseCost": 1100.82,
-    "quantity": 96
+    "brand": "PERMA BLEND",
+    "revenue": 1552.98,
+    "purchaseCost": 1101,
+    "quantity": 2
   },
   {
     "date": "2026-03-30",
-    "brand": "PEPAX",
-    "revenue": 206.61,
-    "purchaseCost": 85.60000000000001,
-    "quantity": 10
+    "brand": "The Pigment",
+    "revenue": 2157.02,
+    "purchaseCost": 1315.97,
+    "quantity": 2
   },
   {
     "date": "2026-03-30",
-    "brand": "Panthera",
-    "revenue": 371.9,
-    "purchaseCost": 237.36,
+    "brand": "Killer Ink",
+    "revenue": 926.61,
+    "purchaseCost": 503.69,
+    "quantity": 32
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Starbrite",
+    "revenue": 1809.92,
+    "purchaseCost": 1010.74,
     "quantity": 1
   },
   {
     "date": "2026-03-30",
-    "brand": "KWADRON",
-    "revenue": 1703.3099999999997,
-    "purchaseCost": 918.75,
-    "quantity": 44
+    "brand": "3M",
+    "revenue": 202.5,
+    "purchaseCost": 99.85,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Biotat",
+    "revenue": 1062.81,
+    "purchaseCost": 650.8600000000001,
+    "quantity": 5
   },
   {
     "date": "2026-03-30",
     "brand": "Nezařazeno",
-    "revenue": 123.14,
-    "purchaseCost": 59.53,
-    "quantity": 1
+    "revenue": 7893.019999999999,
+    "purchaseCost": 5097.07,
+    "quantity": 72
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "UNIGLOVES",
+    "revenue": 5555.59,
+    "purchaseCost": 3592.0899999999997,
+    "quantity": 40
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 1857.6700000000003,
+    "purchaseCost": 454.34,
+    "quantity": 60
   },
   {
     "date": "2026-03-30",
     "brand": "Ostatní",
-    "revenue": 82.64,
-    "purchaseCost": 43.82,
+    "revenue": 2898.7299999999987,
+    "purchaseCost": 1035.7999999999997,
+    "quantity": 86
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3555.37,
+    "purchaseCost": 2055.97,
+    "quantity": 17
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "KWADRON",
+    "revenue": 41292.28999999999,
+    "purchaseCost": 23162.41,
+    "quantity": 1115
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Panthera",
+    "revenue": 5070.37,
+    "purchaseCost": 3080.8399999999997,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "UNISTAR",
+    "revenue": 6630.709999999999,
+    "purchaseCost": 3545.98,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "ELITE",
+    "revenue": 23466.64,
+    "purchaseCost": 8937.299999999997,
+    "quantity": 600
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Emalla",
+    "revenue": 11183.47,
+    "purchaseCost": 4804,
+    "quantity": 43
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Cheyenne",
+    "revenue": 5532.85,
+    "purchaseCost": 2739.7599999999998,
+    "quantity": 185
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "I AM INK",
+    "revenue": 1198.35,
+    "purchaseCost": 1172.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "OZER",
+    "revenue": 1641.32,
+    "purchaseCost": 637.74,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "SWAVGO",
+    "revenue": 227.27,
+    "purchaseCost": 105.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 1135.54,
+    "purchaseCost": 676.5,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Piranha",
+    "revenue": 4500.23,
+    "purchaseCost": 2667.0399999999986,
+    "quantity": 73
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "World Famous",
+    "revenue": 2173.55,
+    "purchaseCost": 1438.56,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "POPU",
+    "revenue": 81.82,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "INK-EEZE",
+    "revenue": 550.41,
+    "purchaseCost": 364.35,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Rosa",
+    "revenue": 1713.23,
+    "purchaseCost": 1244.31,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Spirit",
+    "revenue": 3607.2799999999997,
+    "purchaseCost": 2342.1499999999996,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 493.45,
+    "purchaseCost": 304.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Believa Cosmetics",
+    "revenue": 79.34,
+    "purchaseCost": 44.22,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 641.3100000000001,
+    "purchaseCost": 494.40000000000003,
     "quantity": 4
   },
   {
     "date": "2026-03-30",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 13121.540000000005,
+    "purchaseCost": 51626.079999999994,
+    "quantity": 124
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 1963.6299999999999,
+    "purchaseCost": 1030.56,
+    "quantity": 24
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1129.06,
+    "purchaseCost": 856.62,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "DC Invention Company",
+    "revenue": 3065.51,
+    "purchaseCost": 2633.2999999999997,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "TattooMed®",
+    "revenue": 1369.42,
+    "purchaseCost": 851.0999999999999,
+    "quantity": 27
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Biotek",
+    "revenue": 1990.0800000000004,
+    "purchaseCost": 1175.6299999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Etalon Mix",
+    "revenue": 17466.18,
+    "purchaseCost": 12256.360000000004,
+    "quantity": 14
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Lamajja",
+    "revenue": 305.79,
+    "purchaseCost": 214.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "ETERNAL",
+    "revenue": 7105.000000000001,
+    "purchaseCost": 4803.030000000001,
+    "quantity": 15
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Celtic Supply",
+    "revenue": 164.46,
+    "purchaseCost": 63.61,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "ACQUA HEAL",
+    "revenue": 494.22,
+    "purchaseCost": 313.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2805.050000000001,
+    "purchaseCost": 1037.9699999999998,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Xtreme Ink",
+    "revenue": 1204.13,
+    "purchaseCost": 1011.3499999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Tattoo Stuff",
+    "revenue": 668.5899999999999,
+    "purchaseCost": 442.61,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Prime",
+    "revenue": 1653.6900000000003,
+    "purchaseCost": 838.12,
+    "quantity": 69
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 6677.68,
+    "purchaseCost": 3871.66,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Forte",
+    "revenue": 658.6800000000001,
+    "purchaseCost": 469.32,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Electrum",
+    "revenue": 40.5,
+    "purchaseCost": 11.58,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Tombow",
+    "revenue": 327.28,
+    "purchaseCost": 170.20999999999998,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "FK IRONS",
+    "revenue": 4519.84,
+    "purchaseCost": 3129.6299999999997,
+    "quantity": 107
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "ECOLAB",
+    "revenue": 189.26,
+    "purchaseCost": 121.18,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "PEPAX",
+    "revenue": 829.75,
+    "purchaseCost": 352.4,
+    "quantity": 38
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "ProTect",
+    "revenue": 164.46,
+    "purchaseCost": 129.93,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "YIWU",
+    "revenue": 1446.28,
+    "purchaseCost": 743.11,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
     "brand": "FineLine",
-    "revenue": 314.05,
-    "purchaseCost": 153.2,
+    "revenue": 376.86,
+    "purchaseCost": 183.83999999999997,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "DERM X",
+    "revenue": 659.5,
+    "purchaseCost": 457.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "INKTROX",
+    "revenue": 88.96,
+    "purchaseCost": 65.76,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Oxxolon",
+    "revenue": 329.75,
+    "purchaseCost": 159.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "KURO SUMI",
+    "revenue": 329.75,
+    "purchaseCost": 212.65,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Nuva Colors",
+    "revenue": 1155.38,
+    "purchaseCost": 664.64,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "The Perma",
+    "revenue": 1198.35,
+    "purchaseCost": 719.3000000000001,
     "quantity": 10
   },
   {
     "date": "2026-03-30",
     "brand": "Proton",
-    "revenue": 90.91,
-    "purchaseCost": 60.55,
+    "revenue": 626.4399999999999,
+    "purchaseCost": 324.54,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "INTENZE",
+    "revenue": 884.29,
+    "purchaseCost": 619.29,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 222.31,
+    "purchaseCost": 147.74,
     "quantity": 1
   },
   {
     "date": "2026-03-30",
-    "brand": "DERM X",
-    "revenue": 329.75,
-    "purchaseCost": 228.96,
+    "brand": "The Inked Army",
+    "revenue": 823.97,
+    "purchaseCost": 428.25,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "ALOE TATTOO",
+    "revenue": 206.61,
+    "purchaseCost": 99.47,
     "quantity": 1
   },
   {
     "date": "2026-03-30",
-    "brand": "Spirit",
-    "revenue": 148.76,
-    "purchaseCost": 132,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-30",
-    "brand": "UNISTAR",
+    "brand": "MAPO Medical",
     "revenue": 577.69,
-    "purchaseCost": 316.68,
+    "purchaseCost": 400,
     "quantity": 1
   },
   {
     "date": "2026-03-30",
     "brand": "AVA Machine",
-    "revenue": 165.29,
-    "purchaseCost": 68.5,
-    "quantity": 10
+    "revenue": 197.69,
+    "purchaseCost": 82.12,
+    "quantity": 12
   },
   {
     "date": "2026-03-30",
-    "brand": "Cheyenne",
-    "revenue": 206.61,
-    "purchaseCost": 114.39999999999999,
-    "quantity": 10
-  },
-  {
-    "date": "2026-03-31",
-    "brand": "Saferly",
-    "revenue": 247.11,
-    "purchaseCost": 127.03,
+    "brand": "Xiantao Xingrong",
+    "revenue": 57.02,
+    "purchaseCost": 12.22,
     "quantity": 1
   },
   {
-    "date": "2026-03-31",
-    "brand": "Tattoo Stuff",
-    "revenue": 322.31,
-    "purchaseCost": 182.53,
+    "date": "2026-03-30",
+    "brand": "Sorry Mom",
+    "revenue": 495.04,
+    "purchaseCost": 342.23,
     "quantity": 1
   },
   {
-    "date": "2026-03-31",
-    "brand": "The Inked Army",
+    "date": "2026-03-30",
+    "brand": "Tattoo Goo",
+    "revenue": 123.14,
+    "purchaseCost": 81.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-30",
+    "brand": "Buff Browz",
     "revenue": 222.31,
-    "purchaseCost": 119.98,
+    "purchaseCost": 116.12,
     "quantity": 1
   },
   {
     "date": "2026-03-31",
-    "brand": "EZ Tattoo Supply",
-    "revenue": 2091.73,
-    "purchaseCost": 593.58,
-    "quantity": 67
+    "brand": "3M",
+    "revenue": 520.38,
+    "purchaseCost": 259.61,
+    "quantity": 13
   },
   {
     "date": "2026-03-31",
-    "brand": "DYNAMIC",
-    "revenue": 408.27,
-    "purchaseCost": 247.76,
-    "quantity": 2
+    "brand": "Bishop Rotary",
+    "revenue": 53342.09,
+    "purchaseCost": 36169.50000000001,
+    "quantity": 147
   },
   {
     "date": "2026-03-31",
-    "brand": "ELITE",
-    "revenue": 1087.6,
-    "purchaseCost": 427.9,
-    "quantity": 50
+    "brand": "Piranha",
+    "revenue": 4326.949999999999,
+    "purchaseCost": 2623.3400000000006,
+    "quantity": 64
   },
   {
     "date": "2026-03-31",
-    "brand": "FineLine",
-    "revenue": 314.05,
-    "purchaseCost": 153.2,
-    "quantity": 10
+    "brand": "OZER",
+    "revenue": 1964.46,
+    "purchaseCost": 598.5500000000001,
+    "quantity": 5
   },
   {
     "date": "2026-03-31",
-    "brand": "SWAVGO",
-    "revenue": 454.55,
-    "purchaseCost": 210.08,
-    "quantity": 2
+    "brand": "Proton",
+    "revenue": 1527.35,
+    "purchaseCost": 774.61,
+    "quantity": 8
   },
   {
     "date": "2026-03-31",
     "brand": "UNIGLOVES",
-    "revenue": 394.28999999999996,
-    "purchaseCost": 231.32999999999998,
+    "revenue": 4914.990000000001,
+    "purchaseCost": 3218.6199999999994,
+    "quantity": 41
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Nezařazeno",
+    "revenue": 13207.439999999997,
+    "purchaseCost": 6901.040000000001,
+    "quantity": 113
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Saferly",
+    "revenue": 280.17,
+    "purchaseCost": 140.3,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Tattoo Stuff",
+    "revenue": 1692.5500000000002,
+    "purchaseCost": 1039.0900000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "The Inked Army",
+    "revenue": 1582.6399999999999,
+    "purchaseCost": 905.6,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "ACQUA HEAL",
+    "revenue": 494.22,
+    "purchaseCost": 313.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "BLOW ICE",
+    "revenue": 552.0699999999999,
+    "purchaseCost": 361.12,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 6619.850000000002,
+    "purchaseCost": 1811.35,
+    "quantity": 201
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Ostatní",
+    "revenue": 4457.42,
+    "purchaseCost": 1904.17,
+    "quantity": 99
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "DYNAMIC",
+    "revenue": 9184.36,
+    "purchaseCost": 4596.320000000001,
+    "quantity": 22
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1026.4499999999998,
+    "purchaseCost": 654.8499999999999,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "ELITE",
+    "revenue": 22477.78000000001,
+    "purchaseCost": 8656.700000000003,
+    "quantity": 846
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "UNISTAR",
+    "revenue": 7543.160000000001,
+    "purchaseCost": 3900.369999999999,
+    "quantity": 18
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Cheyenne",
+    "revenue": 41020.21,
+    "purchaseCost": 30464.12,
+    "quantity": 277
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "TattooMed®",
+    "revenue": 536.37,
+    "purchaseCost": 340.14,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 6609.959999999999,
+    "purchaseCost": 2365.07,
+    "quantity": 170
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Biotat",
+    "revenue": 3381.91,
+    "purchaseCost": 1965.67,
+    "quantity": 12
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "DERM X",
+    "revenue": 956.28,
+    "purchaseCost": 686.88,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 834.79,
+    "purchaseCost": 586.76,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "KWADRON",
+    "revenue": 20681.660000000003,
+    "purchaseCost": 11751.8,
+    "quantity": 543
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "RENOVA",
+    "revenue": 372.80999999999995,
+    "purchaseCost": 160,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Sorry Mom",
+    "revenue": 1849.58,
+    "purchaseCost": 1368.92,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 1992.8200000000002,
+    "purchaseCost": 1604.35,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Forte",
+    "revenue": 576.0300000000001,
+    "purchaseCost": 417.72,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 889.25,
+    "purchaseCost": 684.44,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Panthera",
+    "revenue": 4109.92,
+    "purchaseCost": 2479.0699999999997,
+    "quantity": 10
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Sanytol",
+    "revenue": 65.29,
+    "purchaseCost": 36.05,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Biotek",
+    "revenue": 5821.48,
+    "purchaseCost": 3603.22,
+    "quantity": 34
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "SWAVGO",
+    "revenue": 909.09,
+    "purchaseCost": 420.16,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 719.1700000000001,
+    "purchaseCost": 451,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Killer Ink",
+    "revenue": 1285.2000000000003,
+    "purchaseCost": 803.11,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "FK IRONS",
+    "revenue": 2045.46,
+    "purchaseCost": 1416.46,
+    "quantity": 46
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "ECOLAB",
+    "revenue": 592.5699999999999,
+    "purchaseCost": 383.13000000000005,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "ALOE TATTOO",
+    "revenue": 387.6,
+    "purchaseCost": 219.62,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 246.28,
+    "purchaseCost": 141.29,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Reelskin",
+    "revenue": 1148.76,
+    "purchaseCost": 736.24,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "AVA Machine",
+    "revenue": 991.73,
+    "purchaseCost": 413.62,
+    "quantity": 61
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "ETERNAL",
+    "revenue": 1520.68,
+    "purchaseCost": 996.8299999999999,
+    "quantity": 4
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "World Famous",
+    "revenue": 4688.42,
+    "purchaseCost": 3158.1900000000005,
+    "quantity": 11
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "FineLine",
+    "revenue": 910.74,
+    "purchaseCost": 459.59999999999997,
+    "quantity": 30
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Emalla",
+    "revenue": 5875.21,
+    "purchaseCost": 1994.81,
+    "quantity": 211
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Spirit",
+    "revenue": 2749.59,
+    "purchaseCost": 2397.9,
+    "quantity": 9
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "INTENZE",
+    "revenue": 742.98,
+    "purchaseCost": 508.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "I AM INK",
+    "revenue": 3611.58,
+    "purchaseCost": 3581.46,
     "quantity": 5
   },
   {
     "date": "2026-03-31",
     "brand": "Electrum",
-    "revenue": 1074.38,
-    "purchaseCost": 576,
+    "revenue": 1249.5900000000001,
+    "purchaseCost": 633.36,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Tombow",
+    "revenue": 245.45999999999998,
+    "purchaseCost": 126.47999999999999,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Celtic Supply",
+    "revenue": 652.06,
+    "purchaseCost": 259.16999999999996,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Tattoo Goo",
+    "revenue": 123.14,
+    "purchaseCost": 81.38,
     "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "KURO SUMI",
+    "revenue": 1190.09,
+    "purchaseCost": 741.96,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "ACUS",
+    "revenue": 23958.68,
+    "purchaseCost": 21155.66,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "PEPAX",
+    "revenue": 1416.52,
+    "purchaseCost": 263.5,
+    "quantity": 50
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Etalon Mix",
+    "revenue": 12220.670000000002,
+    "purchaseCost": 8554.42,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "DC Invention Company",
+    "revenue": 684.3,
+    "purchaseCost": 485.41999999999996,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "INKTROX",
+    "revenue": 161.16,
+    "purchaseCost": 109.60000000000001,
+    "quantity": 5
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Wildcat",
+    "revenue": 337.69,
+    "purchaseCost": 91.9,
+    "quantity": 8
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Studex",
+    "revenue": 1480.17,
+    "purchaseCost": 980.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Lamajja",
+    "revenue": 545.46,
+    "purchaseCost": 381.8,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2516.52,
+    "purchaseCost": 1457.41,
+    "quantity": 6
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 537.19,
+    "purchaseCost": 356.97,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Sharpie",
+    "revenue": 48.76,
+    "purchaseCost": 24.01,
+    "quantity": 1
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Rosa",
+    "revenue": 617.36,
+    "purchaseCost": 439.2,
+    "quantity": 3
   },
   {
     "date": "2026-03-31",
@@ -628,38 +28054,38 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-03-31",
-    "brand": "Nezařazeno",
-    "revenue": 1362.8000000000002,
-    "purchaseCost": 640.3400000000001,
-    "quantity": 14
+    "brand": "Xtreme Ink",
+    "revenue": 1077.69,
+    "purchaseCost": 706.44,
+    "quantity": 2
   },
   {
     "date": "2026-03-31",
-    "brand": "Biotek",
-    "revenue": 3710.74,
-    "purchaseCost": 2411.64,
+    "brand": "ProTect",
+    "revenue": 328.92,
+    "purchaseCost": 129.81,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Buff Browz",
+    "revenue": 328.93,
+    "purchaseCost": 284.78999999999996,
+    "quantity": 2
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "Nuva Colors",
+    "revenue": 577.69,
+    "purchaseCost": 340.52,
     "quantity": 1
   },
   {
     "date": "2026-03-31",
-    "brand": "DRAGON HAWK MAST",
-    "revenue": 2747.7500000000005,
-    "purchaseCost": 1192.01,
-    "quantity": 13
-  },
-  {
-    "date": "2026-03-31",
-    "brand": "HARTMANN – RICO a.s.",
-    "revenue": 98.35,
-    "purchaseCost": 67.86,
+    "brand": "INK-EEZE",
+    "revenue": 550.41,
+    "purchaseCost": 364.5,
     "quantity": 1
-  },
-  {
-    "date": "2026-03-31",
-    "brand": "KWADRON",
-    "revenue": 1577.01,
-    "purchaseCost": 683.6500000000001,
-    "quantity": 36
   },
   {
     "date": "2026-03-31",
@@ -677,38 +28103,31 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-03-31",
-    "brand": "UNISTAR",
-    "revenue": 214.88,
-    "purchaseCost": 73.31,
+    "brand": "The Perma",
+    "revenue": 311.57,
+    "purchaseCost": 0,
+    "quantity": 13
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "POPU",
+    "revenue": 96.69,
+    "purchaseCost": 29.58,
+    "quantity": 3
+  },
+  {
+    "date": "2026-03-31",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
     "quantity": 1
   },
   {
     "date": "2026-03-31",
-    "brand": "Celtic Supply",
-    "revenue": 243.8,
-    "purchaseCost": 97.78,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-31",
-    "brand": "Ostatní",
-    "revenue": 411.82,
-    "purchaseCost": 185.04,
-    "quantity": 7
-  },
-  {
-    "date": "2026-03-31",
-    "brand": "Bishop Rotary",
-    "revenue": 23958.68,
-    "purchaseCost": 15705.91,
-    "quantity": 1
-  },
-  {
-    "date": "2026-03-31",
-    "brand": "Etalon Mix",
-    "revenue": 6441.33,
-    "purchaseCost": 4508.91,
-    "quantity": 6
+    "brand": "Radiant Colors USA",
+    "revenue": 910.11,
+    "purchaseCost": 620.04,
+    "quantity": 3
   },
   {
     "date": "2026-03-31",
@@ -718,32 +28137,214 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "quantity": 1
   },
   {
-    "date": "2026-03-31",
-    "brand": "Hornet Art tattoo Supplies",
-    "revenue": 495.04,
-    "purchaseCost": 299.18,
-    "quantity": 1
+    "date": "2026-04-01",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 987.5999999999999,
+    "purchaseCost": 740.4000000000001,
+    "quantity": 5
   },
   {
     "date": "2026-04-01",
-    "brand": "UNIGLOVES",
-    "revenue": 1155.5000000000002,
-    "purchaseCost": 757.69,
-    "quantity": 7
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 1024.8,
+    "purchaseCost": 289.39,
+    "quantity": 40
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "LASKIN",
+    "revenue": 413.22,
+    "purchaseCost": 309.92,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Biotek",
+    "revenue": 388.42999999999995,
+    "purchaseCost": 176.76000000000002,
+    "quantity": 19
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Etalon Mix",
+    "revenue": 11560.330000000002,
+    "purchaseCost": 7918.66,
+    "quantity": 12
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "EZ Tattoo Supply",
+    "revenue": 6872.399999999999,
+    "purchaseCost": 1988.56,
+    "quantity": 261
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1311.57,
+    "purchaseCost": 844.81,
+    "quantity": 5
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Ostatní",
+    "revenue": 3079.5200000000004,
+    "purchaseCost": 1194.33,
+    "quantity": 62
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "UNISTAR",
+    "revenue": 5217.560000000001,
+    "purchaseCost": 2656.62,
+    "quantity": 13
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Proton",
+    "revenue": 2165.2999999999997,
+    "purchaseCost": 1295.95,
+    "quantity": 16
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Cheyenne",
+    "revenue": 4046.2799999999997,
+    "purchaseCost": 1848.9299999999998,
+    "quantity": 122
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "World Famous",
+    "revenue": 1246.28,
+    "purchaseCost": 854.51,
+    "quantity": 3
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1642.15,
+    "purchaseCost": 1078.32,
+    "quantity": 9
   },
   {
     "date": "2026-04-01",
     "brand": "DYNAMIC",
-    "revenue": 214.88,
-    "purchaseCost": 126.55,
-    "quantity": 1
+    "revenue": 8364.35,
+    "purchaseCost": 4650.580000000001,
+    "quantity": 18
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "3M",
+    "revenue": 526.45,
+    "purchaseCost": 279.58000000000004,
+    "quantity": 14
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Spirit",
+    "revenue": 870.0899999999999,
+    "purchaseCost": 712.02,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Piranha",
+    "revenue": 12132.630000000001,
+    "purchaseCost": 6437.79,
+    "quantity": 56
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "KURO SUMI",
+    "revenue": 2384.37,
+    "purchaseCost": 1703.7199999999998,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "KWADRON",
+    "revenue": 19868.440000000006,
+    "purchaseCost": 10419.009999999998,
+    "quantity": 547
   },
   {
     "date": "2026-04-01",
     "brand": "ELITE",
-    "revenue": 10567.679999999998,
-    "purchaseCost": 4517.990000000001,
-    "quantity": 485
+    "revenue": 23108.119999999988,
+    "purchaseCost": 10559.249999999998,
+    "quantity": 661
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "ACUS",
+    "revenue": 268.6,
+    "purchaseCost": 147.95,
+    "quantity": 5
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "CRITICAL TATTOO SUPPLY",
+    "revenue": 5363.64,
+    "purchaseCost": 4422.88,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "SWAVGO",
+    "revenue": 420.46000000000004,
+    "purchaseCost": 210.08,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 2184.83,
+    "purchaseCost": 1303.2199999999998,
+    "quantity": 14
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Killer Ink",
+    "revenue": 778.15,
+    "purchaseCost": 495.31000000000006,
+    "quantity": 10
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 1277.4699999999998,
+    "purchaseCost": 789.25,
+    "quantity": 7
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "UNIGLOVES",
+    "revenue": 5255.56,
+    "purchaseCost": 3193.529999999999,
+    "quantity": 34
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Nezařazeno",
+    "revenue": 7339.999999999998,
+    "purchaseCost": 3370.659999999999,
+    "quantity": 75
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Tattoo Goo",
+    "revenue": 3628.5,
+    "purchaseCost": 2352.3999999999996,
+    "quantity": 35
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Lohmann & Rauscher",
+    "revenue": 1961.9700000000003,
+    "purchaseCost": 1459.2399999999998,
+    "quantity": 7
   },
   {
     "date": "2026-04-01",
@@ -754,108 +28355,73 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-01",
-    "brand": "Hornet Art tattoo Supplies",
-    "revenue": 351.24,
-    "purchaseCost": 198.64999999999998,
-    "quantity": 5
+    "brand": "Bishop Rotary",
+    "revenue": 28710.320000000003,
+    "purchaseCost": 18650.900000000005,
+    "quantity": 102
   },
   {
     "date": "2026-04-01",
-    "brand": "EZ Tattoo Supply",
-    "revenue": 642.1500000000001,
-    "purchaseCost": 200.40000000000003,
-    "quantity": 20
+    "brand": "FK IRONS",
+    "revenue": 4043.8,
+    "purchaseCost": 2819.64,
+    "quantity": 75
   },
   {
     "date": "2026-04-01",
-    "brand": "Nezařazeno",
-    "revenue": 1558.21,
-    "purchaseCost": 613.46,
-    "quantity": 44
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Kokkai Sumi Ink",
-    "revenue": 302.48,
-    "purchaseCost": 189.38,
-    "quantity": 2
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "PEPAX",
-    "revenue": 371.9,
-    "purchaseCost": 157.4,
-    "quantity": 20
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Panthera",
-    "revenue": 605.8199999999999,
-    "purchaseCost": 342.73,
-    "quantity": 2
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "3M",
-    "revenue": 364.46,
-    "purchaseCost": 199.7,
-    "quantity": 10
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "SWAVGO",
-    "revenue": 204.55,
-    "purchaseCost": 105.04,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Ostatní",
-    "revenue": 264.63,
-    "purchaseCost": 158.06,
-    "quantity": 7
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "NITRAS MEDICAL",
-    "revenue": 170.33,
-    "purchaseCost": 112.75,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Piranha",
-    "revenue": 1740.4899999999998,
-    "purchaseCost": 794.5799999999999,
+    "brand": "Celtic Supply",
+    "revenue": 1036.3500000000001,
+    "purchaseCost": 161.39,
     "quantity": 6
   },
   {
     "date": "2026-04-01",
     "brand": "The Inked Army",
-    "revenue": 296.78,
-    "purchaseCost": 184.99,
-    "quantity": 1
+    "revenue": 791,
+    "purchaseCost": 427.59000000000003,
+    "quantity": 3
   },
   {
     "date": "2026-04-01",
-    "brand": "UNISTAR",
-    "revenue": 1254.71,
-    "purchaseCost": 706.6700000000001,
+    "brand": "OZER",
+    "revenue": 982.64,
+    "purchaseCost": 379.59000000000003,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "PEPAX",
+    "revenue": 1953.7099999999998,
+    "purchaseCost": 872.45,
+    "quantity": 100
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Panthera",
+    "revenue": 3924.83,
+    "purchaseCost": 2242.51,
+    "quantity": 8
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "ProTect",
+    "revenue": 493.38,
+    "purchaseCost": 318.22,
+    "quantity": 3
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "TattooMed®",
+    "revenue": 1319.8400000000001,
+    "purchaseCost": 905.31,
     "quantity": 3
   },
   {
     "date": "2026-04-01",
     "brand": "I AM INK",
-    "revenue": 1102.48,
-    "purchaseCost": 1165.2,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Spirit",
-    "revenue": 589.0899999999999,
-    "purchaseCost": 440.02,
-    "quantity": 4
+    "revenue": 1755.37,
+    "purchaseCost": 1797,
+    "quantity": 2
   },
   {
     "date": "2026-04-01",
@@ -867,50 +28433,92 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-01",
     "brand": "Tattoo Stuff",
-    "revenue": 498.02,
-    "purchaseCost": 328.86,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Celtic Supply",
-    "revenue": 879.33,
-    "purchaseCost": 161.39,
-    "quantity": 5
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Emalla",
-    "revenue": 2481.33,
-    "purchaseCost": 860,
-    "quantity": 100
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "FK IRONS",
-    "revenue": 2146.2799999999997,
-    "purchaseCost": 1700.16,
-    "quantity": 58
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "KWADRON",
-    "revenue": 1303.31,
-    "purchaseCost": 558.86,
-    "quantity": 33
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Lohmann & Rauscher",
-    "revenue": 295.87,
-    "purchaseCost": 223.44,
+    "revenue": 820.3299999999999,
+    "purchaseCost": 511.39,
     "quantity": 2
   },
   {
     "date": "2026-04-01",
+    "brand": "Nuva Colors",
+    "revenue": 5776.9000000000015,
+    "purchaseCost": 3630.76,
+    "quantity": 10
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "DRAGONHAWK TATTOO SUPPLY",
+    "revenue": 4537.19,
+    "purchaseCost": 1748.15,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Emalla",
+    "revenue": 2617.6899999999996,
+    "purchaseCost": 906.65,
+    "quantity": 105
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "INTENZE",
+    "revenue": 1456.54,
+    "purchaseCost": 1101.46,
+    "quantity": 5
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Biotat",
+    "revenue": 875.4399999999999,
+    "purchaseCost": 489.79999999999995,
+    "quantity": 4
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Premier Products",
+    "revenue": 470.25,
+    "purchaseCost": 277.25,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "REVOLUTION",
+    "revenue": 330.58,
+    "purchaseCost": 110.49,
+    "quantity": 5
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "ETERNAL",
+    "revenue": 1906.0500000000002,
+    "purchaseCost": 1270.4699999999998,
+    "quantity": 5
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Electrum",
+    "revenue": 47.11,
+    "purchaseCost": 15.98,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Braun",
+    "revenue": 205.79,
+    "purchaseCost": 154.46,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-01",
     "brand": "Dermalize",
-    "revenue": 147.93,
-    "purchaseCost": 95.16,
+    "revenue": 933.05,
+    "purchaseCost": 532.56,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "Amiea",
+    "revenue": 818.18,
+    "purchaseCost": 561.13,
     "quantity": 1
   },
   {
@@ -922,20 +28530,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-01",
-    "brand": "Proton",
-    "revenue": 395.87,
-    "purchaseCost": 204.45,
-    "quantity": 2
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "ETERNAL",
-    "revenue": 1493.65,
-    "purchaseCost": 1014.6899999999998,
-    "quantity": 4
-  },
-  {
-    "date": "2026-04-01",
     "brand": "POPU",
     "revenue": 275.21,
     "purchaseCost": 71.89,
@@ -943,44 +28537,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-01",
-    "brand": "Bishop Rotary",
-    "revenue": 1530.99,
-    "purchaseCost": 1055.4,
-    "quantity": 30
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "DRAGON HAWK MAST",
-    "revenue": 256.2,
-    "purchaseCost": 75,
-    "quantity": 10
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Biotek",
-    "revenue": 16.53,
-    "purchaseCost": 7.74,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
     "brand": "ECOLAB",
     "revenue": 214.05,
     "purchaseCost": 140.77,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Electrum",
-    "revenue": 6.61,
-    "purchaseCost": 4.4,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "TattooMed®",
-    "revenue": 577.69,
-    "purchaseCost": 391.4,
     "quantity": 1
   },
   {
@@ -992,24 +28551,10 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-01",
-    "brand": "Biotat",
-    "revenue": 247.11,
-    "purchaseCost": 151.53,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-01",
     "brand": "Rosa",
     "revenue": 1140.5,
     "purchaseCost": 777.13,
     "quantity": 2
-  },
-  {
-    "date": "2026-04-01",
-    "brand": "Killer Ink",
-    "revenue": 20.66,
-    "purchaseCost": 11.82,
-    "quantity": 1
   },
   {
     "date": "2026-04-01",
@@ -1021,9 +28566,30 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-01",
     "brand": "BLOW ICE",
-    "revenue": 304.96,
-    "purchaseCost": 168.36,
+    "revenue": 609.92,
+    "purchaseCost": 336.72,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-01",
+    "brand": "DC Invention Company",
+    "revenue": 180.99,
+    "purchaseCost": 114.54,
     "quantity": 1
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Nezařazeno",
+    "revenue": 8002.770000000001,
+    "purchaseCost": 3402.2599999999998,
+    "quantity": 40
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Killer Ink",
+    "revenue": 800,
+    "purchaseCost": 483.51,
+    "quantity": 2
   },
   {
     "date": "2026-04-02",
@@ -1035,16 +28601,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-02",
     "brand": "ELITE",
-    "revenue": 4902.089999999999,
-    "purchaseCost": 1875.17,
-    "quantity": 165
+    "revenue": 8532.65,
+    "purchaseCost": 3255.2700000000004,
+    "quantity": 329
   },
   {
     "date": "2026-04-02",
     "brand": "RENOVA",
-    "revenue": 81.82,
-    "purchaseCost": 32,
-    "quantity": 1
+    "revenue": 135.54,
+    "purchaseCost": 61.44,
+    "quantity": 2
   },
   {
     "date": "2026-04-02",
@@ -1056,9 +28622,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-02",
     "brand": "Tattoo Goo",
-    "revenue": 214.88,
-    "purchaseCost": 168.5,
-    "quantity": 10
+    "revenue": 395.87,
+    "purchaseCost": 247.91,
+    "quantity": 11
   },
   {
     "date": "2026-04-02",
@@ -1069,17 +28635,66 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "brand": "Bishop Rotary",
-    "revenue": 1578.5200000000002,
-    "purchaseCost": 846.0899999999999,
-    "quantity": 47
+    "brand": "Biotat",
+    "revenue": 3637.1900000000005,
+    "purchaseCost": 2279.7900000000004,
+    "quantity": 9
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "DYNAMIC",
+    "revenue": 2925.6500000000005,
+    "purchaseCost": 1771.6099999999997,
+    "quantity": 12
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Electrum",
+    "revenue": 53.72,
+    "purchaseCost": 22.62,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Ostatní",
+    "revenue": 2116.54,
+    "purchaseCost": 955.4400000000002,
+    "quantity": 80
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "UNIGLOVES",
+    "revenue": 2235.32,
+    "purchaseCost": 1387.41,
+    "quantity": 17
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Xiantao Xingrong",
+    "revenue": 57.02,
+    "purchaseCost": 12.22,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Piranha",
+    "revenue": 4638.03,
+    "purchaseCost": 2878.9999999999995,
+    "quantity": 51
   },
   {
     "date": "2026-04-02",
     "brand": "Proton",
-    "revenue": 563.72,
-    "purchaseCost": 343.92,
-    "quantity": 5
+    "revenue": 1395.95,
+    "purchaseCost": 734.13,
+    "quantity": 8
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Bishop Rotary",
+    "revenue": 10402.49,
+    "purchaseCost": 6358.2699999999995,
+    "quantity": 315
   },
   {
     "date": "2026-04-02",
@@ -1091,37 +28706,65 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-02",
     "brand": "Hornet Art tattoo Supplies",
-    "revenue": 2600.5,
-    "purchaseCost": 1786.36,
-    "quantity": 36
+    "revenue": 5006.28,
+    "purchaseCost": 3191.0099999999998,
+    "quantity": 49
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "ALOE TATTOO",
+    "revenue": 206.61,
+    "purchaseCost": 99.47,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "EasyTattoo",
+    "revenue": 164.46,
+    "purchaseCost": 95.22,
+    "quantity": 1
   },
   {
     "date": "2026-04-02",
     "brand": "Panthera",
-    "revenue": 896.6999999999999,
-    "purchaseCost": 559.05,
-    "quantity": 3
+    "revenue": 3235.62,
+    "purchaseCost": 1956.6000000000001,
+    "quantity": 8
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "KWADRON",
+    "revenue": 16009.130000000003,
+    "purchaseCost": 9291.090000000002,
+    "quantity": 428
   },
   {
     "date": "2026-04-02",
     "brand": "DRAGON HAWK MAST",
-    "revenue": 1095.25,
-    "purchaseCost": 314.85,
-    "quantity": 45
+    "revenue": 6448.9800000000005,
+    "purchaseCost": 2757.75,
+    "quantity": 96
   },
   {
     "date": "2026-04-02",
     "brand": "Etalon Mix",
-    "revenue": 2808.26,
-    "purchaseCost": 1850.08,
-    "quantity": 2
+    "revenue": 9003.3,
+    "purchaseCost": 6186.599999999999,
+    "quantity": 6
   },
   {
     "date": "2026-04-02",
-    "brand": "Piranha",
-    "revenue": 1585.12,
-    "purchaseCost": 875.02,
-    "quantity": 30
+    "brand": "FineLine",
+    "revenue": 1350.4099999999999,
+    "purchaseCost": 689.4,
+    "quantity": 45
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "I AM INK",
+    "revenue": 769.42,
+    "purchaseCost": 827.22,
+    "quantity": 2
   },
   {
     "date": "2026-04-02",
@@ -1146,10 +28789,10 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "brand": "KWADRON",
-    "revenue": 5104.13,
-    "purchaseCost": 3204.29,
-    "quantity": 151
+    "brand": "EZ Tattoo Supply",
+    "revenue": 2053.7200000000003,
+    "purchaseCost": 587.56,
+    "quantity": 61
   },
   {
     "date": "2026-04-02",
@@ -1160,38 +28803,115 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "brand": "DYNAMIC",
-    "revenue": 1542.9900000000002,
-    "purchaseCost": 962.57,
-    "quantity": 7
+    "brand": "Pegasus Pro GmbH",
+    "revenue": 2454.54,
+    "purchaseCost": 1288.1999999999998,
+    "quantity": 30
   },
   {
     "date": "2026-04-02",
-    "brand": "Pegasus Pro GmbH",
-    "revenue": 818.18,
-    "purchaseCost": 429.4,
+    "brand": "UNISTAR",
+    "revenue": 3301.67,
+    "purchaseCost": 1635.48,
+    "quantity": 9
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "OZER",
+    "revenue": 2295.86,
+    "purchaseCost": 789.67,
+    "quantity": 4
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Prime",
+    "revenue": 239.67,
+    "purchaseCost": 121.5,
     "quantity": 10
   },
   {
     "date": "2026-04-02",
-    "brand": "Ostatní",
-    "revenue": 596.7299999999999,
-    "purchaseCost": 192.89000000000001,
-    "quantity": 20
+    "brand": "The Inked Army",
+    "revenue": 433.51,
+    "purchaseCost": 239.96,
+    "quantity": 2
   },
   {
     "date": "2026-04-02",
-    "brand": "Biotat",
-    "revenue": 1540.4900000000002,
-    "purchaseCost": 1024.36,
+    "brand": "Sharpie",
+    "revenue": 195.04,
+    "purchaseCost": 96.04,
     "quantity": 4
   },
   {
     "date": "2026-04-02",
     "brand": "Spirit",
-    "revenue": 3828.1,
-    "purchaseCost": 2380.97,
+    "revenue": 5142.15,
+    "purchaseCost": 3075.82,
+    "quantity": 4
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Nuva Colors",
+    "revenue": 3466.1400000000003,
+    "purchaseCost": 2256.14,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "KURO SUMI",
+    "revenue": 1303.3,
+    "purchaseCost": 799.55,
+    "quantity": 4
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "3M",
+    "revenue": 80.99,
+    "purchaseCost": 39.94,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "ECOLAB",
+    "revenue": 378.52,
+    "purchaseCost": 242.36,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Tattoo Stuff",
+    "revenue": 1153.1,
+    "purchaseCost": 771.47,
     "quantity": 3
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 1472.7199999999998,
+    "purchaseCost": 862.78,
+    "quantity": 8
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "DC Invention Company",
+    "revenue": 936.36,
+    "purchaseCost": 522.64,
+    "quantity": 4
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "PEPAX",
+    "revenue": 237.18,
+    "purchaseCost": 103.34000000000002,
+    "quantity": 11
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Biotek",
+    "revenue": 1834.7099999999998,
+    "purchaseCost": 1108.08,
+    "quantity": 52
   },
   {
     "date": "2026-04-02",
@@ -1202,10 +28922,24 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "brand": "OZER",
-    "revenue": 1636.3600000000001,
-    "purchaseCost": 503.21000000000004,
+    "brand": "PERMA BLEND",
+    "revenue": 2429.7599999999998,
+    "purchaseCost": 1654.68,
+    "quantity": 3
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Tombow",
+    "revenue": 155.46,
+    "purchaseCost": 84.32,
     "quantity": 2
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "ProTect",
+    "revenue": 164.46,
+    "purchaseCost": 71.45,
+    "quantity": 1
   },
   {
     "date": "2026-04-02",
@@ -1216,31 +28950,17 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "brand": "The Inked Army",
-    "revenue": 211.2,
-    "purchaseCost": 119.98,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-02",
     "brand": "Celtic Supply",
-    "revenue": 243.8,
-    "purchaseCost": 97.78,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-02",
-    "brand": "Nezařazeno",
-    "revenue": 650.4,
-    "purchaseCost": 297.41,
-    "quantity": 7
+    "revenue": 657.02,
+    "purchaseCost": 377.02,
+    "quantity": 3
   },
   {
     "date": "2026-04-02",
     "brand": "DRAGONHAWK TATTOO SUPPLY",
-    "revenue": 3214.88,
-    "purchaseCost": 1367.73,
-    "quantity": 1
+    "revenue": 6429.76,
+    "purchaseCost": 2735.46,
+    "quantity": 2
   },
   {
     "date": "2026-04-02",
@@ -1258,16 +28978,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "brand": "UNIGLOVES",
-    "revenue": 393.18,
-    "purchaseCost": 246.94,
-    "quantity": 3
-  },
-  {
-    "date": "2026-04-02",
     "brand": "Sorry Mom",
     "revenue": 494.22,
     "purchaseCost": 293.34,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-02",
+    "brand": "Rosa",
+    "revenue": 1140.5,
+    "purchaseCost": 776.55,
     "quantity": 2
   },
   {
@@ -1279,6 +28999,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
+    "brand": "The Pigment",
+    "revenue": 1198.35,
+    "purchaseCost": 736.29,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-02",
     "brand": "ETERNAL",
     "revenue": 760.34,
     "purchaseCost": 515.66,
@@ -1286,17 +29013,10 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-02",
-    "brand": "EZ Tattoo Supply",
-    "revenue": 666.12,
-    "purchaseCost": 183.67,
-    "quantity": 28
-  },
-  {
-    "date": "2026-04-02",
     "brand": "FK IRONS",
-    "revenue": 323.97,
-    "purchaseCost": 232.72,
-    "quantity": 8
+    "revenue": 819.84,
+    "purchaseCost": 7343.22,
+    "quantity": 18
   },
   {
     "date": "2026-04-02",
@@ -1304,27 +29024,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 502.48,
     "purchaseCost": 219.2,
     "quantity": 32
-  },
-  {
-    "date": "2026-04-02",
-    "brand": "FineLine",
-    "revenue": 471.07,
-    "purchaseCost": 229.8,
-    "quantity": 15
-  },
-  {
-    "date": "2026-04-02",
-    "brand": "UNISTAR",
-    "revenue": 131.4,
-    "purchaseCost": 75.52,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-02",
-    "brand": "ECOLAB",
-    "revenue": 189.26,
-    "purchaseCost": 121.18,
-    "quantity": 1
   },
   {
     "date": "2026-04-03",
@@ -1336,16 +29035,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-03",
     "brand": "EZ Tattoo Supply",
-    "revenue": 2147.9300000000003,
-    "purchaseCost": 590.4,
-    "quantity": 71
+    "revenue": 2304.13,
+    "purchaseCost": 611.1800000000002,
+    "quantity": 76
   },
   {
     "date": "2026-04-03",
     "brand": "ELITE",
-    "revenue": 9321.48,
-    "purchaseCost": 4500.110000000001,
-    "quantity": 101
+    "revenue": 10964.859999999999,
+    "purchaseCost": 5119.99,
+    "quantity": 170
   },
   {
     "date": "2026-04-03",
@@ -1357,9 +29056,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-03",
     "brand": "Nezařazeno",
-    "revenue": 6335.569999999998,
-    "purchaseCost": 2696.35,
-    "quantity": 26
+    "revenue": 6756.229999999998,
+    "purchaseCost": 2809.0299999999997,
+    "quantity": 29
   },
   {
     "date": "2026-04-03",
@@ -1370,17 +29069,24 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-03",
-    "brand": "Ostatní",
-    "revenue": 799.1600000000001,
-    "purchaseCost": 352.03999999999996,
-    "quantity": 17
+    "brand": "DRAGON HAWK MAST",
+    "revenue": 384.3,
+    "purchaseCost": 109.28,
+    "quantity": 15
   },
   {
     "date": "2026-04-03",
     "brand": "KWADRON",
-    "revenue": 3346.7599999999998,
-    "purchaseCost": 1866.5699999999997,
-    "quantity": 77
+    "revenue": 6425.299999999999,
+    "purchaseCost": 3549.16,
+    "quantity": 142
+  },
+  {
+    "date": "2026-04-03",
+    "brand": "Ostatní",
+    "revenue": 914.0400000000001,
+    "purchaseCost": 421.8899999999999,
+    "quantity": 18
   },
   {
     "date": "2026-04-03",
@@ -1399,9 +29105,23 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-03",
     "brand": "UNISTAR",
-    "revenue": 1879.85,
-    "purchaseCost": 905.7099999999998,
-    "quantity": 7
+    "revenue": 2073.24,
+    "purchaseCost": 979.2699999999998,
+    "quantity": 8
+  },
+  {
+    "date": "2026-04-03",
+    "brand": "NITRAS MEDICAL",
+    "revenue": 189.26,
+    "purchaseCost": 112.75,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-03",
+    "brand": "TattooMed®",
+    "revenue": 1155.37,
+    "purchaseCost": 782.8,
+    "quantity": 2
   },
   {
     "date": "2026-04-03",
@@ -1427,9 +29147,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-03",
     "brand": "UNIGLOVES",
-    "revenue": 819.3,
-    "purchaseCost": 522.31,
-    "quantity": 9
+    "revenue": 974.75,
+    "purchaseCost": 634.74,
+    "quantity": 10
   },
   {
     "date": "2026-04-03",
@@ -1525,9 +29245,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-03",
     "brand": "SWAVGO",
-    "revenue": 227.27,
-    "purchaseCost": 105.04,
-    "quantity": 1
+    "revenue": 454.54,
+    "purchaseCost": 210.08,
+    "quantity": 2
   },
   {
     "date": "2026-04-03",
@@ -1546,9 +29266,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-03",
     "brand": "DYNAMIC",
-    "revenue": 3462.8300000000004,
-    "purchaseCost": 1819,
-    "quantity": 7
+    "revenue": 3812.42,
+    "purchaseCost": 1980.5300000000002,
+    "quantity": 8
   },
   {
     "date": "2026-04-03",
@@ -1563,6 +29283,34 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 1205.79,
     "purchaseCost": 882.1199999999999,
     "quantity": 2
+  },
+  {
+    "date": "2026-04-03",
+    "brand": "BLOW ICE",
+    "revenue": 177.77,
+    "purchaseCost": 134.2,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-03",
+    "brand": "BRONC",
+    "revenue": 6686.78,
+    "purchaseCost": 3094.38,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-03",
+    "brand": "Forte",
+    "revenue": 148.02,
+    "purchaseCost": 122.04,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-03",
+    "brand": "Biotek",
+    "revenue": 2188.42,
+    "purchaseCost": 1294.98,
+    "quantity": 4
   },
   {
     "date": "2026-04-03",
@@ -1622,10 +29370,10 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-03",
-    "brand": "Biotek",
-    "revenue": 454.54,
-    "purchaseCost": 267.66,
-    "quantity": 2
+    "brand": "3M",
+    "revenue": 40.5,
+    "purchaseCost": 19.97,
+    "quantity": 1
   },
   {
     "date": "2026-04-03",
@@ -1693,16 +29441,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-04",
     "brand": "UNIGLOVES",
-    "revenue": 1611.5700000000002,
-    "purchaseCost": 932.69,
-    "quantity": 9
+    "revenue": 1685.9500000000003,
+    "purchaseCost": 961.69,
+    "quantity": 10
   },
   {
     "date": "2026-04-04",
     "brand": "Nezařazeno",
-    "revenue": 8946.28,
-    "purchaseCost": 3790.76,
-    "quantity": 15
+    "revenue": 9146.28,
+    "purchaseCost": 3906.6400000000003,
+    "quantity": 19
   },
   {
     "date": "2026-04-04",
@@ -1742,9 +29490,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-04",
     "brand": "Piranha",
-    "revenue": 2295.05,
-    "purchaseCost": 1354.5400000000002,
-    "quantity": 12
+    "revenue": 2316.54,
+    "purchaseCost": 1362.2400000000002,
+    "quantity": 14
   },
   {
     "date": "2026-04-04",
@@ -1787,6 +29535,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 8256.2,
     "purchaseCost": 5106.51,
     "quantity": 1
+  },
+  {
+    "date": "2026-04-04",
+    "brand": "POPU",
+    "revenue": 290.09000000000003,
+    "purchaseCost": 77.78999999999999,
+    "quantity": 9
   },
   {
     "date": "2026-04-04",
@@ -1917,9 +29672,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-05",
     "brand": "Nezařazeno",
-    "revenue": 1086.8400000000001,
-    "purchaseCost": 509.95,
-    "quantity": 14
+    "revenue": 1741.39,
+    "purchaseCost": 721.4899999999999,
+    "quantity": 29
   },
   {
     "date": "2026-04-05",
@@ -1966,9 +29721,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-05",
     "brand": "UNIGLOVES",
-    "revenue": 585.52,
-    "purchaseCost": 386.86,
-    "quantity": 3
+    "revenue": 610.31,
+    "purchaseCost": 398.23,
+    "quantity": 4
   },
   {
     "date": "2026-04-05",
@@ -1980,9 +29735,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-05",
     "brand": "Piranha",
-    "revenue": 827.5600000000001,
-    "purchaseCost": 496.92,
-    "quantity": 5
+    "revenue": 2082.1000000000004,
+    "purchaseCost": 1275.64,
+    "quantity": 10
   },
   {
     "date": "2026-04-05",
@@ -2113,9 +29868,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-05",
     "brand": "Hornet Art tattoo Supplies",
-    "revenue": 393.38,
-    "purchaseCost": 251.36,
-    "quantity": 4
+    "revenue": 540.49,
+    "purchaseCost": 335.46000000000004,
+    "quantity": 6
   },
   {
     "date": "2026-04-05",
@@ -2182,6 +29937,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-05",
+    "brand": "Braun",
+    "revenue": 123.97,
+    "purchaseCost": 94.7,
+    "quantity": 5
+  },
+  {
+    "date": "2026-04-05",
     "brand": "Killer Ink",
     "revenue": 231.41,
     "purchaseCost": 153.75,
@@ -2204,16 +29966,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-06",
     "brand": "UNIGLOVES",
-    "revenue": 3050.8399999999997,
-    "purchaseCost": 1889.8000000000002,
-    "quantity": 29
+    "revenue": 3454.15,
+    "purchaseCost": 2149.6,
+    "quantity": 31
   },
   {
     "date": "2026-04-06",
     "brand": "Nezařazeno",
-    "revenue": 7680.040000000001,
-    "purchaseCost": 3760.82,
-    "quantity": 41
+    "revenue": 8098.220000000001,
+    "purchaseCost": 3959.94,
+    "quantity": 45
   },
   {
     "date": "2026-04-06",
@@ -2267,16 +30029,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-06",
     "brand": "Ostatní",
-    "revenue": 1864.8899999999999,
-    "purchaseCost": 954.08,
-    "quantity": 50
+    "revenue": 2338.4500000000003,
+    "purchaseCost": 1244.9099999999999,
+    "quantity": 57
   },
   {
     "date": "2026-04-06",
     "brand": "KWADRON",
-    "revenue": 16386.81000000001,
-    "purchaseCost": 9322.069999999996,
-    "quantity": 423
+    "revenue": 18783.500000000004,
+    "purchaseCost": 10465.819999999996,
+    "quantity": 480
   },
   {
     "date": "2026-04-06",
@@ -2295,9 +30057,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-06",
     "brand": "Etalon Mix",
-    "revenue": 6713.39,
-    "purchaseCost": 4739.75,
-    "quantity": 7
+    "revenue": 8943.140000000001,
+    "purchaseCost": 6242.71,
+    "quantity": 9
   },
   {
     "date": "2026-04-06",
@@ -2309,9 +30071,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-06",
     "brand": "Panthera",
-    "revenue": 2418.1800000000003,
-    "purchaseCost": 1403.59,
-    "quantity": 6
+    "revenue": 3160.3200000000006,
+    "purchaseCost": 1803.2299999999998,
+    "quantity": 8
   },
   {
     "date": "2026-04-06",
@@ -2379,16 +30141,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-06",
     "brand": "Spirit",
-    "revenue": 3029.75,
-    "purchaseCost": 1793.7,
-    "quantity": 5
+    "revenue": 4343.8,
+    "purchaseCost": 2488.55,
+    "quantity": 6
   },
   {
     "date": "2026-04-06",
     "brand": "ELITE",
-    "revenue": 18922.949999999997,
-    "purchaseCost": 8422.69,
-    "quantity": 512
+    "revenue": 20727.070000000007,
+    "purchaseCost": 9165.290000000005,
+    "quantity": 587
   },
   {
     "date": "2026-04-06",
@@ -2417,6 +30179,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 3577.47,
     "purchaseCost": 1373.69,
     "quantity": 110
+  },
+  {
+    "date": "2026-04-06",
+    "brand": "OG",
+    "revenue": 5198.35,
+    "purchaseCost": 2430.5,
+    "quantity": 1
   },
   {
     "date": "2026-04-06",
@@ -2452,6 +30221,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 2868.74,
     "purchaseCost": 1495.72,
     "quantity": 7
+  },
+  {
+    "date": "2026-04-06",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 1941.33,
+    "purchaseCost": 1166.06,
+    "quantity": 9
   },
   {
     "date": "2026-04-06",
@@ -2505,9 +30281,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-06",
     "brand": "EZ Tattoo Supply",
-    "revenue": 716.5300000000001,
-    "purchaseCost": 174.23,
-    "quantity": 13
+    "revenue": 1427.28,
+    "purchaseCost": 338.5299999999999,
+    "quantity": 28
   },
   {
     "date": "2026-04-06",
@@ -2518,17 +30294,10 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-06",
-    "brand": "Kokkai Sumi Ink",
-    "revenue": 1742.9799999999996,
-    "purchaseCost": 1049.5,
-    "quantity": 8
-  },
-  {
-    "date": "2026-04-06",
     "brand": "World Famous",
-    "revenue": 429.75,
-    "purchaseCost": 285.89,
-    "quantity": 1
+    "revenue": 859.5,
+    "purchaseCost": 569.91,
+    "quantity": 2
   },
   {
     "date": "2026-04-06",
@@ -2602,6 +30371,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-06",
+    "brand": "Onyx Tattoo Supply",
+    "revenue": 536.36,
+    "purchaseCost": 304.5,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-06",
     "brand": "ProTect",
     "revenue": 328.92,
     "purchaseCost": 188.29000000000002,
@@ -2613,6 +30389,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 165.28,
     "purchaseCost": 59.85000000000001,
     "quantity": 10
+  },
+  {
+    "date": "2026-04-06",
+    "brand": "Braun",
+    "revenue": 371.9,
+    "purchaseCost": 316.51,
+    "quantity": 1
   },
   {
     "date": "2026-04-06",
@@ -2658,6 +30441,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-06",
+    "brand": "KYBROWS",
+    "revenue": 347.11,
+    "purchaseCost": 217.98,
+    "quantity": 1
+  },
+  {
+    "date": "2026-04-06",
     "brand": "PERMA BLEND",
     "revenue": 4049.6,
     "purchaseCost": 2649.32,
@@ -2666,37 +30456,37 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-07",
     "brand": "Proton",
-    "revenue": 4689.78,
-    "purchaseCost": 2552.3600000000006,
-    "quantity": 17
+    "revenue": 5126.14,
+    "purchaseCost": 2763.4300000000007,
+    "quantity": 19
   },
   {
     "date": "2026-04-07",
     "brand": "Ostatní",
-    "revenue": 6649.549999999999,
-    "purchaseCost": 3447.8799999999997,
-    "quantity": 144
+    "revenue": 6711.529999999999,
+    "purchaseCost": 3461.8599999999997,
+    "quantity": 147
   },
   {
     "date": "2026-04-07",
     "brand": "Nezařazeno",
-    "revenue": 17074.819999999996,
-    "purchaseCost": 8706.479999999996,
-    "quantity": 167
+    "revenue": 20012.840000000007,
+    "purchaseCost": 9952.39,
+    "quantity": 177
   },
   {
     "date": "2026-04-07",
     "brand": "KWADRON",
-    "revenue": 43836.88,
-    "purchaseCost": 25430.970000000005,
-    "quantity": 1211
+    "revenue": 49655.05999999998,
+    "purchaseCost": 28454.760000000002,
+    "quantity": 1379
   },
   {
     "date": "2026-04-07",
     "brand": "UNIGLOVES",
-    "revenue": 4497.279999999999,
-    "purchaseCost": 2832.95,
-    "quantity": 36
+    "revenue": 4765.05,
+    "purchaseCost": 3002.249999999999,
+    "quantity": 38
   },
   {
     "date": "2026-04-07",
@@ -2708,30 +30498,30 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-07",
     "brand": "EZ Tattoo Supply",
-    "revenue": 10976.429999999997,
-    "purchaseCost": 3071.3199999999993,
-    "quantity": 360
+    "revenue": 11845.029999999997,
+    "purchaseCost": 3345.8399999999992,
+    "quantity": 387
   },
   {
     "date": "2026-04-07",
     "brand": "ELITE",
-    "revenue": 25818.26000000003,
-    "purchaseCost": 11027.610000000002,
-    "quantity": 980
+    "revenue": 28087.660000000036,
+    "purchaseCost": 11914.86,
+    "quantity": 1047
   },
   {
     "date": "2026-04-07",
     "brand": "Piranha",
-    "revenue": 5916.57,
-    "purchaseCost": 3622.04,
-    "quantity": 83
+    "revenue": 6196.7300000000005,
+    "purchaseCost": 3775.7599999999998,
+    "quantity": 86
   },
   {
     "date": "2026-04-07",
     "brand": "Spirit",
-    "revenue": 6453.73,
-    "purchaseCost": 4104.6,
-    "quantity": 20
+    "revenue": 6594.23,
+    "purchaseCost": 4240.6,
+    "quantity": 21
   },
   {
     "date": "2026-04-07",
@@ -2746,6 +30536,55 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 2595.0299999999997,
     "purchaseCost": 1082,
     "quantity": 170
+  },
+  {
+    "date": "2026-04-07",
+    "brand": "ACQUA HEAL",
+    "revenue": 552.0699999999999,
+    "purchaseCost": 338.46000000000004,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-07",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 3746.3500000000004,
+    "purchaseCost": 2264.32,
+    "quantity": 17
+  },
+  {
+    "date": "2026-04-07",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 2528.2799999999997,
+    "purchaseCost": 1553.36,
+    "quantity": 11
+  },
+  {
+    "date": "2026-04-07",
+    "brand": "YIWU",
+    "revenue": 3139.67,
+    "purchaseCost": 1539.38,
+    "quantity": 3
+  },
+  {
+    "date": "2026-04-07",
+    "brand": "ProTect",
+    "revenue": 328.92,
+    "purchaseCost": 259.86,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-07",
+    "brand": "OZER",
+    "revenue": 1938.0900000000001,
+    "purchaseCost": 780.97,
+    "quantity": 6
+  },
+  {
+    "date": "2026-04-07",
+    "brand": "The Inked Army",
+    "revenue": 1594.6600000000003,
+    "purchaseCost": 866.6999999999999,
+    "quantity": 7
   },
   {
     "date": "2026-04-07",
@@ -2764,9 +30603,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-07",
     "brand": "OTZI by Easy Tattoo",
-    "revenue": 1029.75,
-    "purchaseCost": 638.25,
-    "quantity": 6
+    "revenue": 1324.79,
+    "purchaseCost": 836.43,
+    "quantity": 9
   },
   {
     "date": "2026-04-07",
@@ -2778,44 +30617,30 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-07",
     "brand": "DYNAMIC",
-    "revenue": 14947.579999999996,
-    "purchaseCost": 8602.24,
-    "quantity": 33
+    "revenue": 15724.439999999997,
+    "purchaseCost": 9038.649999999998,
+    "quantity": 35
   },
   {
     "date": "2026-04-07",
     "brand": "Lohmann & Rauscher",
-    "revenue": 2838.21,
-    "purchaseCost": 2359.24,
-    "quantity": 7
+    "revenue": 2908.46,
+    "purchaseCost": 2470.96,
+    "quantity": 8
   },
   {
     "date": "2026-04-07",
     "brand": "PEPAX",
-    "revenue": 2461.61,
-    "purchaseCost": 1084.02,
-    "quantity": 96
+    "revenue": 3039.3,
+    "purchaseCost": 1258.58,
+    "quantity": 97
   },
   {
     "date": "2026-04-07",
     "brand": "DRAGON HAWK MAST",
-    "revenue": 7393.5999999999985,
-    "purchaseCost": 2885.48,
-    "quantity": 152
-  },
-  {
-    "date": "2026-04-07",
-    "brand": "OZER",
-    "revenue": 1443.88,
-    "purchaseCost": 580.2800000000001,
-    "quantity": 4
-  },
-  {
-    "date": "2026-04-07",
-    "brand": "The Inked Army",
-    "revenue": 1372.35,
-    "purchaseCost": 746.72,
-    "quantity": 6
+    "revenue": 7521.699999999999,
+    "purchaseCost": 2919.0800000000004,
+    "quantity": 157
   },
   {
     "date": "2026-04-07",
@@ -2834,9 +30659,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-07",
     "brand": "Electrum",
-    "revenue": 207.45,
-    "purchaseCost": 69.68,
-    "quantity": 5
+    "revenue": 247.95,
+    "purchaseCost": 81.25999999999999,
+    "quantity": 6
   },
   {
     "date": "2026-04-07",
@@ -2868,10 +30693,17 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-07",
+    "brand": "HARTMANN – RICO a.s.",
+    "revenue": 2122.11,
+    "purchaseCost": 1734.6499999999999,
+    "quantity": 24
+  },
+  {
+    "date": "2026-04-07",
     "brand": "UNISTAR",
-    "revenue": 3867.1700000000005,
-    "purchaseCost": 2011.5399999999997,
-    "quantity": 10
+    "revenue": 4082.0500000000006,
+    "purchaseCost": 2085.0999999999995,
+    "quantity": 11
   },
   {
     "date": "2026-04-07",
@@ -2879,13 +30711,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 53.39,
     "purchaseCost": 17.64,
     "quantity": 1
-  },
-  {
-    "date": "2026-04-07",
-    "brand": "HARTMANN – RICO a.s.",
-    "revenue": 1943.6000000000001,
-    "purchaseCost": 1554.6499999999999,
-    "quantity": 22
   },
   {
     "date": "2026-04-07",
@@ -2945,13 +30770,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-07",
-    "brand": "ACQUA HEAL",
-    "revenue": 304.96,
-    "purchaseCost": 181.49,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-07",
     "brand": "PERMA BLEND",
     "revenue": 4551.25,
     "purchaseCost": 3209.5800000000004,
@@ -2980,13 +30798,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-07",
-    "brand": "Hornet Art tattoo Supplies",
-    "revenue": 1695.94,
-    "purchaseCost": 1088.2,
-    "quantity": 13
-  },
-  {
-    "date": "2026-04-07",
     "brand": "NITRAS MEDICAL",
     "revenue": 1939.6799999999998,
     "purchaseCost": 1179.5,
@@ -3001,17 +30812,10 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-07",
-    "brand": "Kokkai Sumi Ink",
-    "revenue": 2300.18,
-    "purchaseCost": 1407.91,
-    "quantity": 9
-  },
-  {
-    "date": "2026-04-07",
     "brand": "MAPO Medical",
-    "revenue": 720.79,
-    "purchaseCost": 550,
-    "quantity": 3
+    "revenue": 835.67,
+    "purchaseCost": 625,
+    "quantity": 4
   },
   {
     "date": "2026-04-07",
@@ -3051,9 +30855,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-07",
     "brand": "Sharpie",
-    "revenue": 167.9,
-    "purchaseCost": 83.48,
-    "quantity": 4
+    "revenue": 216.66,
+    "purchaseCost": 107.49000000000001,
+    "quantity": 5
   },
   {
     "date": "2026-04-07",
@@ -3113,6 +30917,20 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-07",
+    "brand": "ECOLAB",
+    "revenue": 461.16,
+    "purchaseCost": 332.02,
+    "quantity": 2
+  },
+  {
+    "date": "2026-04-07",
+    "brand": "Forte",
+    "revenue": 740.49,
+    "purchaseCost": 539.76,
+    "quantity": 4
+  },
+  {
+    "date": "2026-04-07",
     "brand": "Xtreme Ink",
     "revenue": 361.16,
     "purchaseCost": 296.68,
@@ -3130,13 +30948,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "brand": "ALOE TATTOO",
     "revenue": 280.29,
     "purchaseCost": 168.93,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-07",
-    "brand": "ECOLAB",
-    "revenue": 214.05,
-    "purchaseCost": 140.77,
     "quantity": 1
   },
   {
@@ -3169,13 +30980,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   },
   {
     "date": "2026-04-07",
-    "brand": "Forte",
-    "revenue": 576.0300000000001,
-    "purchaseCost": 417.72,
-    "quantity": 3
-  },
-  {
-    "date": "2026-04-07",
     "brand": "Tattoo Goo",
     "revenue": 40.83,
     "purchaseCost": 33.7,
@@ -3200,20 +31004,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "brand": "DRAGONHAWK TATTOO SUPPLY",
     "revenue": 3214.88,
     "purchaseCost": 1367.73,
-    "quantity": 1
-  },
-  {
-    "date": "2026-04-07",
-    "brand": "YIWU",
-    "revenue": 1693.3899999999999,
-    "purchaseCost": 796.27,
-    "quantity": 2
-  },
-  {
-    "date": "2026-04-07",
-    "brand": "ProTect",
-    "revenue": 164.46,
-    "purchaseCost": 129.93,
     "quantity": 1
   },
   {
@@ -3303,9 +31093,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-08",
     "brand": "Nezařazeno",
-    "revenue": 7535.91,
-    "purchaseCost": 4411.919999999999,
-    "quantity": 62
+    "revenue": 9511.119999999999,
+    "purchaseCost": 5620.919999999999,
+    "quantity": 63
   },
   {
     "date": "2026-04-08",
@@ -3338,9 +31128,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-08",
     "brand": "UNIGLOVES",
-    "revenue": 5228.920000000001,
-    "purchaseCost": 3332.73,
-    "quantity": 41
+    "revenue": 5327.27,
+    "purchaseCost": 3394.0599999999995,
+    "quantity": 42
   },
   {
     "date": "2026-04-08",
@@ -3436,9 +31226,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-08",
     "brand": "FK IRONS",
-    "revenue": 923.97,
-    "purchaseCost": 6123.26,
-    "quantity": 24
+    "revenue": 1171.9,
+    "purchaseCost": 6269.8099999999995,
+    "quantity": 29
   },
   {
     "date": "2026-04-08",
@@ -3481,6 +31271,13 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 81.82,
     "purchaseCost": 23.89,
     "quantity": 1
+  },
+  {
+    "date": "2026-04-08",
+    "brand": "PEPAX",
+    "revenue": 2730.5800000000004,
+    "purchaseCost": 976.4200000000001,
+    "quantity": 72
   },
   {
     "date": "2026-04-08",
@@ -3635,13 +31432,6 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 1022.33,
     "purchaseCost": 654.7299999999999,
     "quantity": 5
-  },
-  {
-    "date": "2026-04-08",
-    "brand": "PEPAX",
-    "revenue": 2152.8900000000003,
-    "purchaseCost": 801.8600000000001,
-    "quantity": 71
   },
   {
     "date": "2026-04-08",
@@ -8133,9 +35923,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-18",
     "brand": "DYNAMIC",
-    "revenue": 818.1899999999999,
-    "purchaseCost": 465.96,
-    "quantity": 3
+    "revenue": 2288.44,
+    "purchaseCost": 1218.25,
+    "quantity": 5
   },
   {
     "date": "2026-04-18",
@@ -8168,16 +35958,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-18",
     "brand": "INTENZE",
-    "revenue": 487.6,
-    "purchaseCost": 339.08,
-    "quantity": 1
+    "revenue": 975.2,
+    "purchaseCost": 678.16,
+    "quantity": 2
   },
   {
     "date": "2026-04-18",
     "brand": "Spirit",
-    "revenue": 1314.05,
-    "purchaseCost": 694.85,
-    "quantity": 1
+    "revenue": 1454.55,
+    "purchaseCost": 830.85,
+    "quantity": 2
   },
   {
     "date": "2026-04-18",
@@ -8189,9 +35979,9 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-18",
     "brand": "Bishop Rotary",
-    "revenue": 1530.99,
-    "purchaseCost": 1093.5,
-    "quantity": 30
+    "revenue": 3411.1499999999996,
+    "purchaseCost": 2028.1499999999999,
+    "quantity": 85
   },
   {
     "date": "2026-04-18",
@@ -8203,16 +35993,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-18",
     "brand": "KWADRON",
-    "revenue": 2002.5,
-    "purchaseCost": 1045.97,
-    "quantity": 58
+    "revenue": 2159.52,
+    "purchaseCost": 1155.41,
+    "quantity": 59
   },
   {
     "date": "2026-04-18",
     "brand": "Nezařazeno",
-    "revenue": 157.02,
-    "purchaseCost": 57.860000000000014,
-    "quantity": 5
+    "revenue": 502.47,
+    "purchaseCost": 252.72000000000003,
+    "quantity": 16
   },
   {
     "date": "2026-04-18",
@@ -8231,16 +36021,16 @@ export const brandDataCZ: BrandRevenueRecord[] = [
   {
     "date": "2026-04-18",
     "brand": "EZ Tattoo Supply",
-    "revenue": 319.01,
-    "purchaseCost": 88.98999999999998,
-    "quantity": 12
+    "revenue": 583.47,
+    "purchaseCost": 172.08999999999997,
+    "quantity": 22
   },
   {
     "date": "2026-04-18",
     "brand": "ELITE",
-    "revenue": 95.86,
-    "purchaseCost": 34.019999999999996,
-    "quantity": 4
+    "revenue": 1207.41,
+    "purchaseCost": 388.85,
+    "quantity": 46
   },
   {
     "date": "2026-04-18",
@@ -8283,5 +36073,26 @@ export const brandDataCZ: BrandRevenueRecord[] = [
     "revenue": 161.98,
     "purchaseCost": 118.58,
     "quantity": 4
+  },
+  {
+    "date": "2026-04-18",
+    "brand": "OTZI by Easy Tattoo",
+    "revenue": 334.71,
+    "purchaseCost": 142.8,
+    "quantity": 3
+  },
+  {
+    "date": "2026-04-18",
+    "brand": "Hornet Art tattoo Supplies",
+    "revenue": 697.51,
+    "purchaseCost": 396.6,
+    "quantity": 3
+  },
+  {
+    "date": "2026-04-18",
+    "brand": "Kokkai Sumi Ink",
+    "revenue": 114.05,
+    "purchaseCost": 72.64,
+    "quantity": 1
   }
 ];
