@@ -163,7 +163,8 @@ export default function AnalyticsPage() {
     setError(null);
     const { start, end } = getDateRange(filters);
     const fmt = localIsoDate;
-    fetch(`/api/analytics?from=${fmt(start)}&to=${fmt(end)}&country=at`)
+    const country = filters.countries.length === 1 ? filters.countries[0] : 'cz';
+    fetch(`/api/analytics?from=${fmt(start)}&to=${fmt(end)}&country=${country}`)
       .then(r => r.json())
       .then(json => {
         if (json.error) { setError(json.error); setData(null); }

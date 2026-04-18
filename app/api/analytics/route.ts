@@ -23,9 +23,19 @@ export async function GET(req: NextRequest) {
   const startDate = searchParams.get('from') ?? '30daysAgo';
   const endDate   = searchParams.get('to')   ?? 'today';
   const country   = searchParams.get('country') ?? 'cz';
-  const propertyId = country === 'sk'
-    ? process.env.GA4_PROPERTY_ID_SK
-    : process.env.GA4_PROPERTY_ID;
+
+  const PROPERTY_IDS: Record<string, string | undefined> = {
+    cz: process.env.GA4_PROPERTY_ID,
+    sk: process.env.GA4_PROPERTY_ID_SK,
+    at: process.env.GA4_PROPERTY_ID_AT,
+    pl: process.env.GA4_PROPERTY_ID_PL,
+    nl: process.env.GA4_PROPERTY_ID_NL,
+    de: process.env.GA4_PROPERTY_ID_DE,
+  };
+  const propertyId = PROPERTY_IDS[country];
+  if (!propertyId) {
+    return NextResponse.json({ error: `GA4 property ID není nakonfigurováno pro trh: ${country.toUpperCase()}` }, { status: 400 });
+  }
 
   const prevStart = shiftYearBack(startDate);
   const prevEnd   = shiftYearBack(endDate);
