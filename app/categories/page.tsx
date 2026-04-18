@@ -14,7 +14,9 @@ import { categoryDataDE } from '@/data/categoryDataDE';
 import { categoryDataSK } from '@/data/categoryDataSK';
 import { categoryDataCZ } from '@/data/categoryDataCZ';
 import { formatCurrency, formatNumber, localIsoDate, formatMonthYear } from '@/lib/formatters';
-import { getDisplayCurrency } from '@/data/types';
+import { getDisplayCurrency, isAllCountries } from '@/data/types';
+import { useExchangeRates, toCZK } from '@/hooks/useExchangeRates';
+import { translateCategory, translateSubCategory } from '@/lib/categoryTranslations';
 
 const HIDDEN_CATEGORIES = new Set(['Skrýt', 'Nach Hersteller', 'Nezařazeno']);
 
@@ -437,9 +439,43 @@ export default function CategoriesPage() {
 
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
-  const country = filters.countries[0];
-  const activeCategoryData = country === 'cz' ? categoryDataCZ : country === 'sk' ? categoryDataSK : country === 'pl' ? categoryDataPL : country === 'nl' ? categoryDataNL : country === 'de' ? categoryDataDE : categoryDataAT;
+  const rates = useExchangeRates();
+  const allCountries = isAllCountries(filters.countries);
   const currency = getDisplayCurrency(filters.countries);
+
+  const activeCategoryData = useMemo(() => {
+    if (allCountries) {
+      const datasets: { data: typeof categoryDataCZ; cur: 'CZK' | 'EUR' | 'PLN' }[] = [
+        { data: categoryDataCZ, cur: 'CZK' },
+        { data: categoryDataSK, cur: 'EUR' },
+        { data: categoryDataAT, cur: 'EUR' },
+        { data: categoryDataNL, cur: 'EUR' },
+        { data: categoryDataDE, cur: 'EUR' },
+        { data: categoryDataPL, cur: 'PLN' },
+      ];
+      return datasets.flatMap(({ data, cur }) =>
+        data.map(r => ({
+          ...r,
+          category: translateCategory(r.category),
+          subCategory: r.subCategory ? translateSubCategory(r.subCategory) : '',
+          revenue: toCZK(r.revenue, cur, rates),
+          purchaseCost: toCZK(r.purchaseCost, cur, rates),
+        }))
+      );
+    }
+    const country = filters.countries[0];
+    const raw = country === 'cz' ? categoryDataCZ
+      : country === 'sk' ? categoryDataSK
+      : country === 'pl' ? categoryDataPL
+      : country === 'nl' ? categoryDataNL
+      : country === 'de' ? categoryDataDE
+      : categoryDataAT;
+    return raw.map(r => ({
+      ...r,
+      category: translateCategory(r.category),
+      subCategory: r.subCategory ? translateSubCategory(r.subCategory) : '',
+    }));
+  }, [allCountries, rates, filters.countries]);
   const fc = (v: number) => formatCurrency(v, currency);
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
   const isMonthly = dayCount > 60;
@@ -616,14 +652,18 @@ export default function CategoriesPage() {
                           )}
                         </div>
                       </td>
-                      <td className="px-5 py-3.5 text-right">
-                        <span className="font-semibold text-slate-800">{fc(row.revenue)}</span>
-                        {hasPrevData && <YoyBadge current={row.revenue} prev={row.prevRevenue} />}
+                      <td className="px-5 py-3.5">
+                        <div className="flex items-center justify-end gap-1">
+                          <span className="font-semibold text-slate-800 tabular-nums">{fc(row.revenue)}</span>
+                          {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={row.revenue} prev={row.prevRevenue} /></span>}
+                        </div>
                       </td>
 
-                      <td className="px-5 py-3.5 text-right">
-                        <span className="font-semibold text-slate-800">{fc(row.revenue - row.purchaseCost)}</span>
-                        {hasPrevData && <YoyBadge current={row.revenue - row.purchaseCost} prev={row.prevRevenue - row.prevPurchaseCost} />}
+                      <td className="px-5 py-3.5">
+                        <div className="flex items-center justify-end gap-1">
+                          <span className="font-semibold text-slate-800 tabular-nums">{fc(row.revenue - row.purchaseCost)}</span>
+                          {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={row.revenue - row.purchaseCost} prev={row.prevRevenue - row.prevPurchaseCost} /></span>}
+                        </div>
                       </td>
                       <td className="px-5 py-3.5 text-right">
                         <MarginBadge
@@ -631,9 +671,11 @@ export default function CategoriesPage() {
                           purchaseCost={row.purchaseCost} prevPurchaseCost={row.prevPurchaseCost}
                         />
                       </td>
-                      <td className="px-5 py-3.5 text-right">
-                        <span className="font-semibold text-slate-800">{formatNumber(row.quantity)}</span>
-                        {hasPrevData && <YoyBadge current={row.quantity} prev={row.prevQuantity} />}
+                      <td className="px-5 py-3.5">
+                        <div className="flex items-center justify-end gap-1">
+                          <span className="font-semibold text-slate-800 tabular-nums">{formatNumber(row.quantity)}</span>
+                          {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={row.quantity} prev={row.prevQuantity} /></span>}
+                        </div>
                       </td>
                       <td className="px-5 py-3.5">
                         <ShareBar pct={row.share} />
@@ -649,14 +691,18 @@ export default function CategoriesPage() {
                           <span className="text-xs text-slate-400 mr-2">└</span>
                           {sub.subCategory}
                         </td>
-                        <td className="px-5 py-2.5 text-right">
-                          <span className="text-slate-700 font-medium">{fc(sub.revenue)}</span>
-                          {hasPrevData && <YoyBadge current={sub.revenue} prev={sub.prevRevenue} />}
+                        <td className="px-5 py-2.5">
+                          <div className="flex items-center justify-end gap-1">
+                            <span className="text-slate-700 font-medium tabular-nums">{fc(sub.revenue)}</span>
+                            {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={sub.revenue} prev={sub.prevRevenue} /></span>}
+                          </div>
                         </td>
 
-                        <td className="px-5 py-2.5 text-right">
-                          <span className="text-slate-700 font-medium">{fc(sub.revenue - sub.purchaseCost)}</span>
-                          {hasPrevData && <YoyBadge current={sub.revenue - sub.purchaseCost} prev={sub.prevRevenue - sub.prevPurchaseCost} />}
+                        <td className="px-5 py-2.5">
+                          <div className="flex items-center justify-end gap-1">
+                            <span className="text-slate-700 font-medium tabular-nums">{fc(sub.revenue - sub.purchaseCost)}</span>
+                            {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={sub.revenue - sub.purchaseCost} prev={sub.prevRevenue - sub.prevPurchaseCost} /></span>}
+                          </div>
                         </td>
                         <td className="px-5 py-2.5 text-right">
                           <MarginBadge
@@ -664,9 +710,11 @@ export default function CategoriesPage() {
                             purchaseCost={sub.purchaseCost} prevPurchaseCost={sub.prevPurchaseCost}
                           />
                         </td>
-                        <td className="px-5 py-2.5 text-right">
-                          <span className="text-slate-600">{formatNumber(sub.quantity)}</span>
-                          {hasPrevData && <YoyBadge current={sub.quantity} prev={sub.prevQuantity} />}
+                        <td className="px-5 py-2.5">
+                          <div className="flex items-center justify-end gap-1">
+                            <span className="text-slate-600 tabular-nums">{formatNumber(sub.quantity)}</span>
+                            {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={sub.quantity} prev={sub.prevQuantity} /></span>}
+                          </div>
                         </td>
                         <td className="px-5 py-2.5">
                           <ShareBar pct={sub.share} muted />
@@ -680,14 +728,18 @@ export default function CategoriesPage() {
             <tfoot>
               <tr className="border-t-2 border-slate-200 bg-slate-50">
                 <td className="px-5 py-3.5 pl-12 font-bold text-slate-700">Celkem</td>
-                <td className="px-5 py-3.5 text-right">
-                  <span className="font-bold text-slate-800">{fc(totalRevenue)}</span>
-                  {hasPrevData && <YoyBadge current={totalRevenue} prev={prevTotalRevenue} />}
+                <td className="px-5 py-3.5">
+                  <div className="flex items-center justify-end gap-1">
+                    <span className="font-bold text-slate-800 tabular-nums">{fc(totalRevenue)}</span>
+                    {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={totalRevenue} prev={prevTotalRevenue} /></span>}
+                  </div>
                 </td>
 
-                <td className="px-5 py-3.5 text-right">
-                  <span className="font-bold text-slate-800">{fc(totalRevenue - totalPurchaseCost)}</span>
-                  {hasPrevData && <YoyBadge current={totalRevenue - totalPurchaseCost} prev={prevTotalRevenue - prevTotalPurchaseCost} />}
+                <td className="px-5 py-3.5">
+                  <div className="flex items-center justify-end gap-1">
+                    <span className="font-bold text-slate-800 tabular-nums">{fc(totalRevenue - totalPurchaseCost)}</span>
+                    {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={totalRevenue - totalPurchaseCost} prev={prevTotalRevenue - prevTotalPurchaseCost} /></span>}
+                  </div>
                 </td>
                 <td className="px-5 py-3.5 text-right">
                   <MarginBadge
@@ -695,9 +747,11 @@ export default function CategoriesPage() {
                     purchaseCost={totalPurchaseCost} prevPurchaseCost={prevTotalPurchaseCost}
                   />
                 </td>
-                <td className="px-5 py-3.5 text-right">
-                  <span className="font-bold text-slate-800">{formatNumber(totalQuantity)}</span>
-                  {hasPrevData && <YoyBadge current={totalQuantity} prev={prevTotalQuantity} />}
+                <td className="px-5 py-3.5">
+                  <div className="flex items-center justify-end gap-1">
+                    <span className="font-bold text-slate-800 tabular-nums">{formatNumber(totalQuantity)}</span>
+                    {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={totalQuantity} prev={prevTotalQuantity} /></span>}
+                  </div>
                 </td>
                 <td className="px-5 py-3.5">
                   <div className="flex items-center gap-2">

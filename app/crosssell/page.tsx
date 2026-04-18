@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { ShoppingBag, Package, TrendingUp, Search } from 'lucide-react';
+import { ShoppingBag, Package, TrendingUp, Search, Tag, Layers } from 'lucide-react';
 import { useFilters } from '@/hooks/useFilters';
 import { crossSellDataAT } from '@/data/crossSellDataAT';
 import { crossSellDataCZ } from '@/data/crossSellDataCZ';
@@ -9,24 +9,45 @@ import { crossSellDataSK } from '@/data/crossSellDataSK';
 import { crossSellDataPL } from '@/data/crossSellDataPL';
 import { crossSellDataNL } from '@/data/crossSellDataNL';
 import { crossSellDataDE } from '@/data/crossSellDataDE';
+import { categoryCrossSellDataAT } from '@/data/categoryCrossSellDataAT';
+import { categoryCrossSellDataCZ } from '@/data/categoryCrossSellDataCZ';
+import { categoryCrossSellDataSK } from '@/data/categoryCrossSellDataSK';
+import { categoryCrossSellDataPL } from '@/data/categoryCrossSellDataPL';
+import { categoryCrossSellDataNL } from '@/data/categoryCrossSellDataNL';
+import { categoryCrossSellDataDE } from '@/data/categoryCrossSellDataDE';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Cell,
 } from 'recharts';
 import StatCard from '@/components/kpi/StatCard';
 import { C } from '@/lib/chartColors';
+import { translateCategory, translateSubCategory } from '@/lib/categoryTranslations';
 
 const COLORS = C.palette;
 
 const crossSellByCountry = { at: crossSellDataAT, cz: crossSellDataCZ, sk: crossSellDataSK, pl: crossSellDataPL, nl: crossSellDataNL, de: crossSellDataDE };
+const catCrossSellByCountry = { at: categoryCrossSellDataAT, cz: categoryCrossSellDataCZ, sk: categoryCrossSellDataSK, pl: categoryCrossSellDataPL, nl: categoryCrossSellDataNL, de: categoryCrossSellDataDE };
+
+function translatePairName(name: string): string {
+  if (name.includes(' › ')) {
+    const idx = name.indexOf(' › ');
+    const root = name.slice(0, idx);
+    const sub  = name.slice(idx + 3);
+    return `${translateCategory(root)} › ${translateSubCategory(sub)}`;
+  }
+  return translateCategory(name);
+}
 
 export default function CrossSellPage() {
   const { filters } = useFilters();
   const [search, setSearch] = useState('');
   const [page, setPage] = useState(0);
+  const [subSearch, setSubSearch] = useState('');
+  const [subPage, setSubPage] = useState(0);
   const PAGE_SIZE = 25;
 
-  const data = crossSellByCountry[filters.countries[0]] ?? crossSellDataAT;
+  const data    = crossSellByCountry[filters.countries[0]] ?? crossSellDataAT;
+  const catData = catCrossSellByCountry[filters.countries[0]] ?? categoryCrossSellDataAT;
 
   const multiPct = data.totalOrders > 0
     ? Math.round((data.multiItemOrders / data.totalOrders) * 100)
@@ -39,6 +60,20 @@ export default function CrossSellPage() {
       p => p.productA.toLowerCase().includes(q) || p.productB.toLowerCase().includes(q)
     );
   }, [data.pairs, search]);
+
+  const catPairs = useMemo(() =>
+    catData.catPairs.map(p => ({ ...p, catA: translateCategory(p.catA), catB: translateCategory(p.catB) })),
+  [catData]);
+
+  const filteredSubPairs = useMemo(() => {
+    const pairs = catData.subCatPairs.map(p => ({ ...p, catA: translatePairName(p.catA), catB: translatePairName(p.catB) }));
+    const q = subSearch.trim().toLowerCase();
+    if (!q) return pairs;
+    return pairs.filter(p => p.catA.toLowerCase().includes(q) || p.catB.toLowerCase().includes(q));
+  }, [catData, subSearch]);
+
+  const subTotalPages  = Math.ceil(filteredSubPairs.length / PAGE_SIZE);
+  const visibleSubPairs = filteredSubPairs.slice(subPage * PAGE_SIZE, (subPage + 1) * PAGE_SIZE);
 
   const totalPages = Math.ceil(filteredPairs.length / PAGE_SIZE);
   const visiblePairs = filteredPairs.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
@@ -233,6 +268,147 @@ export default function CrossSellPage() {
               >
                 →
               </button>
+            </div>
+          </div>
+        )}
+      </div>
+      {/* ── Category 1st order table ─────────────────────────────────────────── */}
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
+        <div className="px-5 py-4 border-b border-slate-100 flex items-center gap-2">
+          <Tag size={15} className="text-blue-600" />
+          <h2 className="text-sm font-semibold text-slate-700">Kategorie 1. řádu — nejčastěji kupované spolu</h2>
+          <span className="ml-auto text-xs text-slate-400">{catPairs.length} párů</span>
+        </div>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr style={{ backgroundColor: '#1e3a5f' }}>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-left w-10">#</th>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-left">Kategorie A</th>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-left">Kategorie B</th>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-right">Objednávky</th>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-right">% z celku</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-50">
+              {catPairs.map((pair, idx) => {
+                const intensity = Math.max(0.08, Math.min(0.35, pair.pct / 25));
+                return (
+                  <tr key={idx} className="hover:bg-blue-50/40 transition-colors">
+                    <td className="px-4 py-2.5 text-slate-400 text-xs font-mono">{idx + 1}</td>
+                    <td className="px-4 py-2.5 text-slate-700 font-medium">
+                      <span className="inline-flex items-center gap-1.5">
+                        <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: `rgba(37,99,235,${intensity + 0.3})` }} />
+                        {pair.catA}
+                      </span>
+                    </td>
+                    <td className="px-4 py-2.5 text-slate-700 font-medium">
+                      <span className="inline-flex items-center gap-1.5">
+                        <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: `rgba(79,70,229,${intensity + 0.3})` }} />
+                        {pair.catB}
+                      </span>
+                    </td>
+                    <td className="px-4 py-2.5 text-right font-semibold text-slate-800">{pair.count}</td>
+                    <td className="px-4 py-2.5 text-right">
+                      <span className="inline-block px-2 py-0.5 rounded-full text-xs font-semibold"
+                        style={{ backgroundColor: `rgba(37,99,235,${intensity})`, color: intensity > 0.2 ? '#1e3a8a' : '#3b82f6' }}>
+                        {pair.pct.toFixed(1)} %
+                      </span>
+                    </td>
+                  </tr>
+                );
+              })}
+              {catPairs.length === 0 && (
+                <tr><td colSpan={5} className="px-4 py-8 text-center text-slate-400 text-sm">Žádná data</td></tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* ── Category 2nd order (subcategory) table ───────────────────────────── */}
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
+        <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between flex-wrap gap-3">
+          <div className="flex items-center gap-2">
+            <Layers size={15} className="text-blue-600" />
+            <h2 className="text-sm font-semibold text-slate-700">Kategorie 2. řádu — nejčastěji kupované spolu</h2>
+            {filteredSubPairs.length !== catData.subCatPairs.length && (
+              <span className="text-xs font-normal text-slate-400">({filteredSubPairs.length} výsledků)</span>
+            )}
+          </div>
+          <div className="relative">
+            <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+            <input
+              type="text"
+              placeholder="Hledat podkategorii…"
+              value={subSearch}
+              onChange={e => { setSubSearch(e.target.value); setSubPage(0); }}
+              className="pl-8 pr-3 py-1.5 text-sm border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-56"
+            />
+          </div>
+        </div>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr style={{ backgroundColor: '#1e3a5f' }}>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-left w-10">#</th>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-left">Podkategorie A</th>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-left">Podkategorie B</th>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-right">Objednávky</th>
+                <th className="px-4 py-3 text-[11px] font-semibold text-white uppercase tracking-wider text-right">% z celku</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-50">
+              {visibleSubPairs.map((pair, idx) => {
+                const rank = subPage * PAGE_SIZE + idx + 1;
+                const intensity = Math.max(0.08, Math.min(0.35, pair.pct / 25));
+                return (
+                  <tr key={idx} className="hover:bg-blue-50/40 transition-colors">
+                    <td className="px-4 py-2.5 text-slate-400 text-xs font-mono">{rank}</td>
+                    <td className="px-4 py-2.5 text-slate-700 max-w-xs">
+                      <span className="inline-flex items-center gap-1.5">
+                        <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: `rgba(37,99,235,${intensity + 0.3})` }} />
+                        {pair.catA}
+                      </span>
+                    </td>
+                    <td className="px-4 py-2.5 text-slate-700 max-w-xs">
+                      <span className="inline-flex items-center gap-1.5">
+                        <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: `rgba(79,70,229,${intensity + 0.3})` }} />
+                        {pair.catB}
+                      </span>
+                    </td>
+                    <td className="px-4 py-2.5 text-right font-semibold text-slate-800">{pair.count}</td>
+                    <td className="px-4 py-2.5 text-right">
+                      <span className="inline-block px-2 py-0.5 rounded-full text-xs font-semibold"
+                        style={{ backgroundColor: `rgba(37,99,235,${intensity})`, color: intensity > 0.2 ? '#1e3a8a' : '#3b82f6' }}>
+                        {pair.pct.toFixed(1)} %
+                      </span>
+                    </td>
+                  </tr>
+                );
+              })}
+              {visibleSubPairs.length === 0 && (
+                <tr><td colSpan={5} className="px-4 py-8 text-center text-slate-400 text-sm">
+                  {subSearch ? `Žádné výsledky pro „${subSearch}"` : 'Žádná data'}
+                </td></tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+        {subTotalPages > 1 && (
+          <div className="px-5 py-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>{subPage * PAGE_SIZE + 1}–{Math.min((subPage + 1) * PAGE_SIZE, filteredSubPairs.length)} z {filteredSubPairs.length}</span>
+            <div className="flex gap-1">
+              <button onClick={() => setSubPage(p => Math.max(0, p - 1))} disabled={subPage === 0}
+                className="px-2.5 py-1 rounded border border-slate-200 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed">←</button>
+              {Array.from({ length: subTotalPages }, (_, i) => (
+                <button key={i} onClick={() => setSubPage(i)}
+                  className={`px-2.5 py-1 rounded border transition-colors ${i === subPage ? 'bg-blue-600 border-blue-600 text-white' : 'border-slate-200 hover:bg-slate-50'}`}>
+                  {i + 1}
+                </button>
+              ))}
+              <button onClick={() => setSubPage(p => Math.min(subTotalPages - 1, p + 1))} disabled={subPage === subTotalPages - 1}
+                className="px-2.5 py-1 rounded border border-slate-200 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed">→</button>
             </div>
           </div>
         )}

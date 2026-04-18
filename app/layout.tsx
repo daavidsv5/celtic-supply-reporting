@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs">
-      <body>
+      <body suppressHydrationWarning>
         <SessionProvider>
           <FiltersProvider>
             <ConditionalLayout>

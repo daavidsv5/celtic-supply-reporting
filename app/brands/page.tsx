@@ -14,7 +14,8 @@ import { brandDataDE } from '@/data/brandDataDE';
 import { brandDataSK } from '@/data/brandDataSK';
 import { brandDataCZ } from '@/data/brandDataCZ';
 import { formatCurrency, formatNumber, localIsoDate, formatMonthYear } from '@/lib/formatters';
-import { getDisplayCurrency } from '@/data/types';
+import { getDisplayCurrency, isAllCountries } from '@/data/types';
+import { useExchangeRates, toCZK } from '@/hooks/useExchangeRates';
 
 const HIDDEN_BRANDS = new Set(['Nezařazeno']);
 
@@ -387,9 +388,36 @@ export default function BrandsPage() {
   const prevStartStr = localIsoDate(prevStart);
   const prevEndStr   = localIsoDate(prevEnd);
 
-  const country = filters.countries[0];
-  const activeBrandData = country === 'cz' ? brandDataCZ : country === 'sk' ? brandDataSK : country === 'pl' ? brandDataPL : country === 'nl' ? brandDataNL : country === 'de' ? brandDataDE : brandDataAT;
+  const rates = useExchangeRates();
+  const allCountries = isAllCountries(filters.countries);
   const currency = getDisplayCurrency(filters.countries);
+
+  const activeBrandData = useMemo(() => {
+    if (allCountries) {
+      const datasets: { data: typeof brandDataCZ; cur: 'CZK' | 'EUR' | 'PLN' }[] = [
+        { data: brandDataCZ, cur: 'CZK' },
+        { data: brandDataSK, cur: 'EUR' },
+        { data: brandDataAT, cur: 'EUR' },
+        { data: brandDataNL, cur: 'EUR' },
+        { data: brandDataDE, cur: 'EUR' },
+        { data: brandDataPL, cur: 'PLN' },
+      ];
+      return datasets.flatMap(({ data, cur }) =>
+        data.map(r => ({
+          ...r,
+          revenue: toCZK(r.revenue, cur, rates),
+          purchaseCost: toCZK(r.purchaseCost, cur, rates),
+        }))
+      );
+    }
+    const country = filters.countries[0];
+    return country === 'cz' ? brandDataCZ
+      : country === 'sk' ? brandDataSK
+      : country === 'pl' ? brandDataPL
+      : country === 'nl' ? brandDataNL
+      : country === 'de' ? brandDataDE
+      : brandDataAT;
+  }, [allCountries, rates, filters.countries]);
   const fc = (v: number) => formatCurrency(v, currency);
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86_400_000);
   const isMonthly = dayCount > 60;
@@ -508,13 +536,17 @@ export default function BrandsPage() {
                   <td className="px-5 py-3.5">
                     <span className="font-semibold text-slate-800">{row.brand}</span>
                   </td>
-                  <td className="px-5 py-3.5 text-right">
-                    <span className="font-semibold text-slate-800">{fc(row.revenue)}</span>
-                    {hasPrevData && <YoyBadge current={row.revenue} prev={row.prevRevenue} />}
+                  <td className="px-5 py-3.5">
+                    <div className="flex items-center justify-end gap-1">
+                      <span className="font-semibold text-slate-800 tabular-nums">{fc(row.revenue)}</span>
+                      {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={row.revenue} prev={row.prevRevenue} /></span>}
+                    </div>
                   </td>
-                  <td className="px-5 py-3.5 text-right">
-                    <span className="font-semibold text-slate-800">{fc(row.revenue - row.purchaseCost)}</span>
-                    {hasPrevData && <YoyBadge current={row.revenue - row.purchaseCost} prev={row.prevRevenue - row.prevPurchaseCost} />}
+                  <td className="px-5 py-3.5">
+                    <div className="flex items-center justify-end gap-1">
+                      <span className="font-semibold text-slate-800 tabular-nums">{fc(row.revenue - row.purchaseCost)}</span>
+                      {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={row.revenue - row.purchaseCost} prev={row.prevRevenue - row.prevPurchaseCost} /></span>}
+                    </div>
                   </td>
                   <td className="px-5 py-3.5 text-right">
                     <MarginBadge
@@ -522,9 +554,11 @@ export default function BrandsPage() {
                       purchaseCost={row.purchaseCost} prevPurchaseCost={row.prevPurchaseCost}
                     />
                   </td>
-                  <td className="px-5 py-3.5 text-right">
-                    <span className="font-semibold text-slate-800">{formatNumber(row.quantity)}</span>
-                    {hasPrevData && <YoyBadge current={row.quantity} prev={row.prevQuantity} />}
+                  <td className="px-5 py-3.5">
+                    <div className="flex items-center justify-end gap-1">
+                      <span className="font-semibold text-slate-800 tabular-nums">{formatNumber(row.quantity)}</span>
+                      {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={row.quantity} prev={row.prevQuantity} /></span>}
+                    </div>
                   </td>
                   <td className="px-5 py-3.5">
                     <ShareBar pct={row.share} />
@@ -535,13 +569,17 @@ export default function BrandsPage() {
             <tfoot>
               <tr className="border-t-2 border-slate-200 bg-slate-50">
                 <td className="px-5 py-3.5 font-bold text-slate-700">Celkem</td>
-                <td className="px-5 py-3.5 text-right">
-                  <span className="font-bold text-slate-800">{fc(totalRevenue)}</span>
-                  {hasPrevData && <YoyBadge current={totalRevenue} prev={prevTotalRevenue} />}
+                <td className="px-5 py-3.5">
+                  <div className="flex items-center justify-end gap-1">
+                    <span className="font-bold text-slate-800 tabular-nums">{fc(totalRevenue)}</span>
+                    {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={totalRevenue} prev={prevTotalRevenue} /></span>}
+                  </div>
                 </td>
-                <td className="px-5 py-3.5 text-right">
-                  <span className="font-bold text-slate-800">{fc(totalRevenue - totalPurchaseCost)}</span>
-                  {hasPrevData && <YoyBadge current={totalRevenue - totalPurchaseCost} prev={prevTotalRevenue - prevTotalPurchaseCost} />}
+                <td className="px-5 py-3.5">
+                  <div className="flex items-center justify-end gap-1">
+                    <span className="font-bold text-slate-800 tabular-nums">{fc(totalRevenue - totalPurchaseCost)}</span>
+                    {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={totalRevenue - totalPurchaseCost} prev={prevTotalRevenue - prevTotalPurchaseCost} /></span>}
+                  </div>
                 </td>
                 <td className="px-5 py-3.5 text-right">
                   <MarginBadge
@@ -549,9 +587,11 @@ export default function BrandsPage() {
                     purchaseCost={totalPurchaseCost} prevPurchaseCost={prevTotalPurchaseCost}
                   />
                 </td>
-                <td className="px-5 py-3.5 text-right">
-                  <span className="font-bold text-slate-800">{formatNumber(totalQuantity)}</span>
-                  {hasPrevData && <YoyBadge current={totalQuantity} prev={prevTotalQuantity} />}
+                <td className="px-5 py-3.5">
+                  <div className="flex items-center justify-end gap-1">
+                    <span className="font-bold text-slate-800 tabular-nums">{formatNumber(totalQuantity)}</span>
+                    {hasPrevData && <span className="w-[72px] shrink-0"><YoyBadge current={totalQuantity} prev={prevTotalQuantity} /></span>}
+                  </div>
                 </td>
                 <td className="px-5 py-3.5">
                   <div className="flex items-center gap-2">

@@ -116,8 +116,9 @@ TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (
 - `filters.countries = ALL_COUNTRIES` (všech 6 zemí)
 - `getDisplayCurrency` vrací `'CZK'`
 - Všechny hodnoty jsou přepočítány aktuálním kurzem do Kč (viz `useExchangeRates`)
-- Stránky s podporou Vše: `/hlavni-dashboard`, `/dashboard`, `/orders`, `/margin`
-- Tlačítko **Vše skryto** na: `/shipping`, `/categories`, `/brands`, `/retention`, `/analytics`, `/crosssell`, `/behavior`
+- Stránky s podporou Vše: `/hlavni-dashboard`, `/dashboard`, `/orders`, `/margin`, `/categories`, `/brands`
+- Na `/categories` a `/brands` se při Vše agregují data ze všech 6 trhů s převodem do CZK (`toCZK`) + překlady kategorií/subkategorií do češtiny (`lib/categoryTranslations.ts`)
+- Tlačítko **Vše skryto** na: `/shipping`, `/retention`, `/analytics`, `/crosssell`, `/behavior`
 
 ### Kurzy měn (`useExchangeRates`)
 
