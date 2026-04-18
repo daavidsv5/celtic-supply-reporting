@@ -89,7 +89,7 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `/marketing` | Marketingové investice — CPC per channel (FB/Google), trend kliky+CPC |
 | `/products` | Prodejnost produktů — ABC analýza, sortovatelná tabulka, YoY, CSV export, graf vývoje tržeb+kusů |
 | `/margin` | Maržový report — marže %, hrubý zisk, grafy |
-| `/analytics` | GA4 integrace — sessions, CVR, sources+devices (YoY), vstupní stránky |
+| `/analytics` | GA4 integrace — sessions, CVR, sources+devices (YoY), vstupní stránky; podporuje selektor zemí (každá země má vlastní GA4 property) |
 | `/meta` | Meta Ads — KPI boxy s YoY, grafy po dnech, tabulka kreativ s filtrem |
 | `/behavior` | Nákupní chování — týdenní srovnání, hourly grid (all-time agregace) |
 | `/crosssell` | Cross-sell potenciál — top 100 produktových párů + 2 tabulky kategoriového cross-sellu (1. a 2. řád) |
@@ -122,6 +122,14 @@ TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (
 - Na `/categories` a `/brands` se při Vše agregují data ze všech 6 trhů s převodem do CZK (`toCZK`) + překlady kategorií/subkategorií do češtiny (`lib/categoryTranslations.ts`)
 - Na `/categories` se překlady aplikují i pro jednotlivé země (ne jen Vše) — kategorie jsou vždy v češtině
 - Tlačítko **Vše skryto** na: `/shipping`, `/retention`, `/analytics`, `/crosssell`, `/behavior`
+
+### GA4 (`/analytics`)
+
+- API route `app/api/analytics/route.ts` — přijímá `?country=cz|sk|at|pl|nl|de`, vybere property ID ze slovníku env proměnných
+- Env proměnné: `GA4_PROPERTY_ID` (CZ), `GA4_PROPERTY_ID_SK`, `GA4_PROPERTY_ID_AT`, `GA4_PROPERTY_ID_PL`, `GA4_PROPERTY_ID_NL`, `GA4_PROPERTY_ID_DE`
+- Credentials (sdílené pro všechny property): `GA4_CLIENT_EMAIL`, `GA4_PRIVATE_KEY`
+- Service account musí mít roli **Viewer** v každé GA4 property
+- Pokud property ID chybí, API vrátí chybovou hlášku (nezhroutí se)
 
 ### Kurzy měn (`useExchangeRates`)
 
@@ -185,7 +193,7 @@ Funkce v `lib/formatters.ts` — vrací datum jako `"YYYY-MM-DD"` v **lokálním
 
 ### fetchShoptetDataCZ.js — resumable full sync
 
-CZ full sync stahuje ~95k objednávek (od 2023-01-01), trvá cca 14 hodin. Klíčové vlastnosti:
+CZ full sync stahuje objednávky od 2025-01-01, trvá cca 14 hodin. Aktuální stav cache: 43 346 objednávek, 682 dní (od ~ledna 2024). Data před lednem 2024 zatím nestažena — dohrát až user řekne. Klíčové vlastnosti:
 - **Resume** — při pádu přeskočí objednávky již uložené v `scripts/orders_cache_cz.json`
 - **Průběžné ukládání** — cache se ukládá každých 1 500 objednávek
 - **Velká cache** — ukládá se streamingem přes `fs.writeSync` (nikoliv `JSON.stringify`), protože ~95k detailních objednávek přesahuje limit délky stringu v Node.js
