@@ -13,1515 +13,1515 @@ export interface HourlyPoint {
 
 export const hourlyDataCZ: HourlyPoint[] = [
   {
-    "dayOfWeek": 5,
-    "hour": 9,
-    "dayCount": 14,
-    "totalRevenue": 129256.58000000003,
-    "totalOrders": 73,
-    "avgRevenue": 9232.61285714286,
-    "avgOrders": 5.214285714285714
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 14,
-    "dayCount": 14,
-    "totalRevenue": 124505.00999999994,
-    "totalOrders": 79,
-    "avgRevenue": 8893.214999999995,
-    "avgOrders": 5.642857142857143
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 22,
-    "dayCount": 12,
-    "totalRevenue": 145881.89,
-    "totalOrders": 70,
-    "avgRevenue": 12156.824166666667,
-    "avgOrders": 5.833333333333333
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 23,
-    "dayCount": 12,
-    "totalRevenue": 94136.52,
-    "totalOrders": 37,
-    "avgRevenue": 7844.71,
-    "avgOrders": 3.0833333333333335
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 0,
-    "dayCount": 12,
-    "totalRevenue": 36539.37999999999,
-    "totalOrders": 24,
-    "avgRevenue": 3044.9483333333324,
-    "avgOrders": 2
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 1,
-    "dayCount": 12,
-    "totalRevenue": 11857.83,
-    "totalOrders": 8,
-    "avgRevenue": 988.1525,
-    "avgOrders": 0.6666666666666666
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 6,
-    "dayCount": 12,
-    "totalRevenue": 35038.14,
-    "totalOrders": 25,
-    "avgRevenue": 2919.845,
-    "avgOrders": 2.0833333333333335
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 7,
-    "dayCount": 12,
-    "totalRevenue": 41841.969999999994,
-    "totalOrders": 30,
-    "avgRevenue": 3486.830833333333,
-    "avgOrders": 2.5
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 8,
-    "dayCount": 12,
-    "totalRevenue": 213362.43999999997,
-    "totalOrders": 106,
-    "avgRevenue": 17780.20333333333,
-    "avgOrders": 8.833333333333334
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 9,
-    "dayCount": 12,
-    "totalRevenue": 166776.41999999993,
-    "totalOrders": 97,
-    "avgRevenue": 13898.034999999994,
-    "avgOrders": 8.083333333333334
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 10,
-    "dayCount": 12,
-    "totalRevenue": 193440.90000000002,
-    "totalOrders": 104,
-    "avgRevenue": 16120.075000000003,
-    "avgOrders": 8.666666666666666
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 11,
-    "dayCount": 12,
-    "totalRevenue": 280149.6999999999,
-    "totalOrders": 129,
-    "avgRevenue": 23345.808333333323,
-    "avgOrders": 10.75
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 12,
-    "dayCount": 12,
-    "totalRevenue": 198091.5,
-    "totalOrders": 116,
-    "avgRevenue": 16507.625,
-    "avgOrders": 9.666666666666666
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 13,
-    "dayCount": 12,
-    "totalRevenue": 223094.61000000007,
-    "totalOrders": 113,
-    "avgRevenue": 18591.217500000006,
-    "avgOrders": 9.416666666666666
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 14,
-    "dayCount": 12,
-    "totalRevenue": 193531.68,
-    "totalOrders": 94,
-    "avgRevenue": 16127.64,
-    "avgOrders": 7.833333333333333
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 15,
-    "dayCount": 12,
-    "totalRevenue": 147847.53999999998,
-    "totalOrders": 97,
-    "avgRevenue": 12320.628333333332,
-    "avgOrders": 8.083333333333334
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 16,
-    "dayCount": 12,
-    "totalRevenue": 105321.41000000005,
-    "totalOrders": 71,
-    "avgRevenue": 8776.78416666667,
-    "avgOrders": 5.916666666666667
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 17,
-    "dayCount": 12,
-    "totalRevenue": 111709.21999999997,
-    "totalOrders": 69,
-    "avgRevenue": 9309.101666666664,
-    "avgOrders": 5.75
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 18,
-    "dayCount": 12,
-    "totalRevenue": 94210.03999999995,
-    "totalOrders": 56,
-    "avgRevenue": 7850.8366666666625,
-    "avgOrders": 4.666666666666667
-  },
-  {
-    "dayOfWeek": 3,
+    "dayOfWeek": 6,
     "hour": 19,
-    "dayCount": 12,
-    "totalRevenue": 102734.31999999999,
-    "totalOrders": 73,
-    "avgRevenue": 8561.193333333333,
-    "avgOrders": 6.083333333333333
+    "dayCount": 80,
+    "totalRevenue": 275319.49,
+    "totalOrders": 163,
+    "avgRevenue": 3441.493625,
+    "avgOrders": 2.0375
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 8,
+    "dayCount": 89,
+    "totalRevenue": 722715.6500000001,
+    "totalOrders": 409,
+    "avgRevenue": 8120.400561797755,
+    "avgOrders": 4.595505617977528
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 15,
+    "dayCount": 95,
+    "totalRevenue": 724674.3200000004,
+    "totalOrders": 378,
+    "avgRevenue": 7628.15073684211,
+    "avgOrders": 3.9789473684210526
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 10,
+    "dayCount": 86,
+    "totalRevenue": 770268.7700000003,
+    "totalOrders": 378,
+    "avgRevenue": 8956.613604651166,
+    "avgOrders": 4.395348837209302
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 15,
+    "dayCount": 89,
+    "totalRevenue": 796956.6400000001,
+    "totalOrders": 424,
+    "avgRevenue": 8954.568988764046,
+    "avgOrders": 4.764044943820225
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 13,
+    "dayCount": 95,
+    "totalRevenue": 1032032.1399999999,
+    "totalOrders": 518,
+    "avgRevenue": 10863.496210526315,
+    "avgOrders": 5.4526315789473685
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 10,
+    "dayCount": 95,
+    "totalRevenue": 963211.3899999998,
+    "totalOrders": 528,
+    "avgRevenue": 10139.067263157893,
+    "avgOrders": 5.557894736842106
   },
   {
     "dayOfWeek": 3,
-    "hour": 20,
-    "dayCount": 12,
-    "totalRevenue": 106030.66,
-    "totalOrders": 76,
-    "avgRevenue": 8835.888333333334,
-    "avgOrders": 6.333333333333333
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 21,
-    "dayCount": 12,
-    "totalRevenue": 99653.75000000003,
-    "totalOrders": 72,
-    "avgRevenue": 8304.47916666667,
+    "hour": 14,
+    "dayCount": 86,
+    "totalRevenue": 919390.6599999998,
+    "totalOrders": 516,
+    "avgRevenue": 10690.58906976744,
     "avgOrders": 6
   },
   {
-    "dayOfWeek": 3,
-    "hour": 22,
-    "dayCount": 12,
-    "totalRevenue": 126797.77999999998,
-    "totalOrders": 73,
-    "avgRevenue": 10566.481666666665,
-    "avgOrders": 6.083333333333333
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 23,
-    "dayCount": 12,
-    "totalRevenue": 42033.68,
-    "totalOrders": 25,
-    "avgRevenue": 3502.806666666667,
-    "avgOrders": 2.0833333333333335
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 0,
-    "dayCount": 12,
-    "totalRevenue": 16300.01,
-    "totalOrders": 17,
-    "avgRevenue": 1358.3341666666668,
-    "avgOrders": 1.4166666666666667
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 1,
-    "dayCount": 12,
-    "totalRevenue": 19601.96,
-    "totalOrders": 14,
-    "avgRevenue": 1633.4966666666667,
-    "avgOrders": 1.1666666666666667
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 6,
-    "dayCount": 12,
-    "totalRevenue": 22645.44,
-    "totalOrders": 11,
-    "avgRevenue": 1887.12,
-    "avgOrders": 0.9166666666666666
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 7,
-    "dayCount": 12,
-    "totalRevenue": 65454.51000000001,
-    "totalOrders": 44,
-    "avgRevenue": 5454.5425000000005,
-    "avgOrders": 3.6666666666666665
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 8,
-    "dayCount": 12,
-    "totalRevenue": 78057.90999999997,
-    "totalOrders": 56,
-    "avgRevenue": 6504.8258333333315,
-    "avgOrders": 4.666666666666667
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 9,
-    "dayCount": 12,
-    "totalRevenue": 154885.83000000005,
-    "totalOrders": 83,
-    "avgRevenue": 12907.152500000004,
-    "avgOrders": 6.916666666666667
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 10,
-    "dayCount": 12,
-    "totalRevenue": 205351.34999999998,
-    "totalOrders": 106,
-    "avgRevenue": 17112.6125,
-    "avgOrders": 8.833333333333334
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 11,
-    "dayCount": 12,
-    "totalRevenue": 238254.16999999998,
-    "totalOrders": 94,
-    "avgRevenue": 19854.514166666664,
-    "avgOrders": 7.833333333333333
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 12,
-    "dayCount": 12,
-    "totalRevenue": 206690.5499999999,
-    "totalOrders": 104,
-    "avgRevenue": 17224.21249999999,
-    "avgOrders": 8.666666666666666
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 13,
-    "dayCount": 12,
-    "totalRevenue": 180965.7900000001,
-    "totalOrders": 105,
-    "avgRevenue": 15080.482500000007,
-    "avgOrders": 8.75
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 14,
-    "dayCount": 12,
-    "totalRevenue": 182615.2399999999,
-    "totalOrders": 105,
-    "avgRevenue": 15217.93666666666,
-    "avgOrders": 8.75
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 15,
-    "dayCount": 12,
-    "totalRevenue": 180104.40000000002,
-    "totalOrders": 76,
-    "avgRevenue": 15008.700000000003,
-    "avgOrders": 6.333333333333333
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 16,
-    "dayCount": 12,
-    "totalRevenue": 91332.37000000001,
-    "totalOrders": 52,
-    "avgRevenue": 7611.030833333334,
-    "avgOrders": 4.333333333333333
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 17,
-    "dayCount": 12,
-    "totalRevenue": 47625.25,
-    "totalOrders": 39,
-    "avgRevenue": 3968.7708333333335,
-    "avgOrders": 3.25
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 18,
-    "dayCount": 12,
-    "totalRevenue": 79996.38,
-    "totalOrders": 50,
-    "avgRevenue": 6666.365000000001,
-    "avgOrders": 4.166666666666667
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 19,
-    "dayCount": 12,
-    "totalRevenue": 94874.06000000001,
-    "totalOrders": 50,
-    "avgRevenue": 7906.171666666668,
-    "avgOrders": 4.166666666666667
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 20,
-    "dayCount": 12,
-    "totalRevenue": 106478.61000000002,
-    "totalOrders": 52,
-    "avgRevenue": 8873.2175,
-    "avgOrders": 4.333333333333333
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 21,
-    "dayCount": 12,
-    "totalRevenue": 67142.16,
-    "totalOrders": 47,
-    "avgRevenue": 5595.18,
-    "avgOrders": 3.9166666666666665
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 22,
-    "dayCount": 12,
-    "totalRevenue": 69067.04000000001,
-    "totalOrders": 38,
-    "avgRevenue": 5755.586666666667,
-    "avgOrders": 3.1666666666666665
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 23,
-    "dayCount": 12,
-    "totalRevenue": 45502.549999999996,
-    "totalOrders": 33,
-    "avgRevenue": 3791.879166666666,
-    "avgOrders": 2.75
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 0,
-    "dayCount": 14,
-    "totalRevenue": 45912.66,
-    "totalOrders": 18,
-    "avgRevenue": 3279.4757142857147,
-    "avgOrders": 1.2857142857142858
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 1,
-    "dayCount": 14,
-    "totalRevenue": 4009.42,
-    "totalOrders": 8,
-    "avgRevenue": 286.38714285714286,
-    "avgOrders": 0.5714285714285714
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 2,
-    "dayCount": 14,
-    "totalRevenue": 10530.95,
-    "totalOrders": 8,
-    "avgRevenue": 752.2107142857143,
-    "avgOrders": 0.5714285714285714
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 6,
-    "dayCount": 14,
-    "totalRevenue": 26535.54,
-    "totalOrders": 12,
-    "avgRevenue": 1895.3957142857143,
-    "avgOrders": 0.8571428571428571
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 7,
-    "dayCount": 14,
-    "totalRevenue": 43531.710000000014,
-    "totalOrders": 31,
-    "avgRevenue": 3109.407857142858,
-    "avgOrders": 2.2142857142857144
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 8,
-    "dayCount": 14,
-    "totalRevenue": 147223.30000000002,
-    "totalOrders": 58,
-    "avgRevenue": 10515.95,
-    "avgOrders": 4.142857142857143
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 10,
-    "dayCount": 14,
-    "totalRevenue": 171261.09999999995,
-    "totalOrders": 81,
-    "avgRevenue": 12232.93571428571,
-    "avgOrders": 5.785714285714286
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 11,
-    "dayCount": 14,
-    "totalRevenue": 183819.11999999997,
-    "totalOrders": 70,
-    "avgRevenue": 13129.937142857141,
-    "avgOrders": 5
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 12,
-    "dayCount": 14,
-    "totalRevenue": 147592.55999999997,
-    "totalOrders": 73,
-    "avgRevenue": 10542.325714285713,
-    "avgOrders": 5.214285714285714
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 13,
-    "dayCount": 14,
-    "totalRevenue": 105753.35,
-    "totalOrders": 69,
-    "avgRevenue": 7553.810714285714,
-    "avgOrders": 4.928571428571429
-  },
-  {
     "dayOfWeek": 5,
     "hour": 15,
-    "dayCount": 14,
-    "totalRevenue": 101434.27,
-    "totalOrders": 56,
-    "avgRevenue": 7245.305,
-    "avgOrders": 4
+    "dayCount": 86,
+    "totalRevenue": 697282.1299999993,
+    "totalOrders": 347,
+    "avgRevenue": 8107.9317441860385,
+    "avgOrders": 4.034883720930233
   },
   {
-    "dayOfWeek": 5,
+    "dayOfWeek": 1,
+    "hour": 10,
+    "dayCount": 90,
+    "totalRevenue": 1152555.5100000002,
+    "totalOrders": 586,
+    "avgRevenue": 12806.172333333336,
+    "avgOrders": 6.511111111111111
+  },
+  {
+    "dayOfWeek": 3,
     "hour": 16,
-    "dayCount": 14,
-    "totalRevenue": 67112.92000000001,
-    "totalOrders": 44,
-    "avgRevenue": 4793.780000000001,
-    "avgOrders": 3.142857142857143
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 17,
-    "dayCount": 14,
-    "totalRevenue": 75855.84,
-    "totalOrders": 41,
-    "avgRevenue": 5418.274285714286,
-    "avgOrders": 2.9285714285714284
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 18,
-    "dayCount": 14,
-    "totalRevenue": 84982.79000000001,
-    "totalOrders": 39,
-    "avgRevenue": 6070.199285714286,
-    "avgOrders": 2.7857142857142856
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 19,
-    "dayCount": 14,
-    "totalRevenue": 71670.97,
-    "totalOrders": 38,
-    "avgRevenue": 5119.3550000000005,
-    "avgOrders": 2.7142857142857144
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 20,
-    "dayCount": 14,
-    "totalRevenue": 38212.09,
-    "totalOrders": 27,
-    "avgRevenue": 2729.435,
-    "avgOrders": 1.9285714285714286
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 21,
-    "dayCount": 14,
-    "totalRevenue": 78885.96,
-    "totalOrders": 42,
-    "avgRevenue": 5634.711428571429,
-    "avgOrders": 3
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 22,
-    "dayCount": 14,
-    "totalRevenue": 62778.55,
-    "totalOrders": 33,
-    "avgRevenue": 4484.182142857143,
-    "avgOrders": 2.357142857142857
-  },
-  {
-    "dayOfWeek": 5,
-    "hour": 23,
-    "dayCount": 14,
-    "totalRevenue": 30315.95,
-    "totalOrders": 22,
-    "avgRevenue": 2165.425,
-    "avgOrders": 1.5714285714285714
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 0,
-    "dayCount": 12,
-    "totalRevenue": 24605.45,
-    "totalOrders": 14,
-    "avgRevenue": 2050.454166666667,
-    "avgOrders": 1.1666666666666667
+    "dayCount": 86,
+    "totalRevenue": 556130.5000000001,
+    "totalOrders": 329,
+    "avgRevenue": 6466.633720930234,
+    "avgOrders": 3.8255813953488373
   },
   {
     "dayOfWeek": 6,
     "hour": 2,
-    "dayCount": 12,
-    "totalRevenue": 3286.79,
-    "totalOrders": 3,
-    "avgRevenue": 273.89916666666664,
-    "avgOrders": 0.25
+    "dayCount": 80,
+    "totalRevenue": 14629.81,
+    "totalOrders": 13,
+    "avgRevenue": 182.872625,
+    "avgOrders": 0.1625
   },
   {
-    "dayOfWeek": 6,
-    "hour": 8,
-    "dayCount": 12,
-    "totalRevenue": 37280.58,
-    "totalOrders": 25,
-    "avgRevenue": 3106.715,
-    "avgOrders": 2.0833333333333335
+    "dayOfWeek": 2,
+    "hour": 0,
+    "dayCount": 89,
+    "totalRevenue": 292377.0600000001,
+    "totalOrders": 105,
+    "avgRevenue": 3285.1355056179787,
+    "avgOrders": 1.1797752808988764
   },
   {
-    "dayOfWeek": 6,
-    "hour": 9,
-    "dayCount": 12,
-    "totalRevenue": 58549.999999999985,
-    "totalOrders": 35,
-    "avgRevenue": 4879.166666666665,
-    "avgOrders": 2.9166666666666665
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 10,
-    "dayCount": 12,
-    "totalRevenue": 37345.88000000001,
-    "totalOrders": 33,
-    "avgRevenue": 3112.1566666666677,
-    "avgOrders": 2.75
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 11,
-    "dayCount": 12,
-    "totalRevenue": 52032.23000000001,
-    "totalOrders": 36,
-    "avgRevenue": 4336.019166666668,
-    "avgOrders": 3
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 12,
-    "dayCount": 12,
-    "totalRevenue": 55853.5,
-    "totalOrders": 38,
-    "avgRevenue": 4654.458333333333,
-    "avgOrders": 3.1666666666666665
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 13,
-    "dayCount": 12,
-    "totalRevenue": 45471.83999999999,
-    "totalOrders": 31,
-    "avgRevenue": 3789.3199999999993,
-    "avgOrders": 2.5833333333333335
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 14,
-    "dayCount": 12,
-    "totalRevenue": 23342.510000000002,
-    "totalOrders": 19,
-    "avgRevenue": 1945.2091666666668,
-    "avgOrders": 1.5833333333333333
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 15,
-    "dayCount": 12,
-    "totalRevenue": 111840.99000000002,
-    "totalOrders": 38,
-    "avgRevenue": 9320.082500000002,
-    "avgOrders": 3.1666666666666665
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 17,
-    "dayCount": 12,
-    "totalRevenue": 68431.04000000001,
-    "totalOrders": 31,
-    "avgRevenue": 5702.586666666667,
-    "avgOrders": 2.5833333333333335
-  },
-  {
-    "dayOfWeek": 6,
+    "dayOfWeek": 0,
     "hour": 18,
-    "dayCount": 12,
-    "totalRevenue": 34220.549999999996,
-    "totalOrders": 35,
-    "avgRevenue": 2851.7124999999996,
-    "avgOrders": 2.9166666666666665
+    "dayCount": 79,
+    "totalRevenue": 474762.94999999995,
+    "totalOrders": 273,
+    "avgRevenue": 6009.657594936708,
+    "avgOrders": 3.4556962025316458
   },
   {
-    "dayOfWeek": 6,
+    "dayOfWeek": 2,
+    "hour": 14,
+    "dayCount": 89,
+    "totalRevenue": 1201194.5299999996,
+    "totalOrders": 558,
+    "avgRevenue": 13496.567752808984,
+    "avgOrders": 6.269662921348314
+  },
+  {
+    "dayOfWeek": 1,
     "hour": 19,
-    "dayCount": 12,
-    "totalRevenue": 29660.489999999994,
-    "totalOrders": 27,
-    "avgRevenue": 2471.7074999999995,
-    "avgOrders": 2.25
+    "dayCount": 90,
+    "totalRevenue": 610702.4000000004,
+    "totalOrders": 352,
+    "avgRevenue": 6785.582222222226,
+    "avgOrders": 3.911111111111111
   },
   {
-    "dayOfWeek": 6,
-    "hour": 20,
-    "dayCount": 12,
-    "totalRevenue": 59177.18,
-    "totalOrders": 46,
-    "avgRevenue": 4931.431666666666,
-    "avgOrders": 3.8333333333333335
+    "dayOfWeek": 3,
+    "hour": 8,
+    "dayCount": 86,
+    "totalRevenue": 827419.2399999999,
+    "totalOrders": 443,
+    "avgRevenue": 9621.15395348837,
+    "avgOrders": 5.151162790697675
   },
   {
-    "dayOfWeek": 6,
-    "hour": 21,
-    "dayCount": 12,
-    "totalRevenue": 51128.009999999995,
-    "totalOrders": 30,
-    "avgRevenue": 4260.6675,
+    "dayOfWeek": 4,
+    "hour": 9,
+    "dayCount": 95,
+    "totalRevenue": 880199.8299999994,
+    "totalOrders": 397,
+    "avgRevenue": 9265.261368421046,
+    "avgOrders": 4.178947368421053
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 13,
+    "dayCount": 90,
+    "totalRevenue": 1254972.2899999984,
+    "totalOrders": 624,
+    "avgRevenue": 13944.136555555539,
+    "avgOrders": 6.933333333333334
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 17,
+    "dayCount": 86,
+    "totalRevenue": 345337.38999999996,
+    "totalOrders": 215,
+    "avgRevenue": 4015.551046511627,
     "avgOrders": 2.5
   },
   {
-    "dayOfWeek": 6,
-    "hour": 22,
-    "dayCount": 12,
-    "totalRevenue": 50104.17000000002,
-    "totalOrders": 38,
-    "avgRevenue": 4175.347500000002,
-    "avgOrders": 3.1666666666666665
+    "dayOfWeek": 3,
+    "hour": 17,
+    "dayCount": 86,
+    "totalRevenue": 506037.40000000014,
+    "totalOrders": 292,
+    "avgRevenue": 5884.15581395349,
+    "avgOrders": 3.395348837209302
   },
   {
-    "dayOfWeek": 6,
-    "hour": 23,
-    "dayCount": 12,
-    "totalRevenue": 28363.089999999986,
+    "dayOfWeek": 5,
+    "hour": 14,
+    "dayCount": 86,
+    "totalRevenue": 750570.2299999999,
+    "totalOrders": 399,
+    "avgRevenue": 8727.560813953487,
+    "avgOrders": 4.6395348837209305
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 12,
+    "dayCount": 95,
+    "totalRevenue": 993953.77,
+    "totalOrders": 509,
+    "avgRevenue": 10462.671263157896,
+    "avgOrders": 5.3578947368421055
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 19,
+    "dayCount": 79,
+    "totalRevenue": 660163.5700000006,
+    "totalOrders": 350,
+    "avgRevenue": 8356.500886075957,
+    "avgOrders": 4.430379746835443
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 2,
+    "dayCount": 95,
+    "totalRevenue": 56969.649999999994,
     "totalOrders": 26,
-    "avgRevenue": 2363.5908333333323,
-    "avgOrders": 2.1666666666666665
+    "avgRevenue": 599.6805263157894,
+    "avgOrders": 0.2736842105263158
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 22,
+    "dayCount": 95,
+    "totalRevenue": 345820.2700000001,
+    "totalOrders": 202,
+    "avgRevenue": 3640.2133684210535,
+    "avgOrders": 2.126315789473684
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 13,
+    "dayCount": 89,
+    "totalRevenue": 1236697.71,
+    "totalOrders": 597,
+    "avgRevenue": 13895.47988764045,
+    "avgOrders": 6.707865168539326
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 5,
+    "dayCount": 95,
+    "totalRevenue": 36266.87,
+    "totalOrders": 33,
+    "avgRevenue": 381.75652631578953,
+    "avgOrders": 0.3473684210526316
   },
   {
     "dayOfWeek": 0,
-    "hour": 0,
-    "dayCount": 11,
-    "totalRevenue": 20007.039999999997,
-    "totalOrders": 9,
-    "avgRevenue": 1818.821818181818,
-    "avgOrders": 0.8181818181818182
+    "hour": 13,
+    "dayCount": 79,
+    "totalRevenue": 423362.3100000003,
+    "totalOrders": 233,
+    "avgRevenue": 5359.016582278485,
+    "avgOrders": 2.949367088607595
   },
   {
-    "dayOfWeek": 0,
+    "dayOfWeek": 5,
+    "hour": 11,
+    "dayCount": 86,
+    "totalRevenue": 835421.9199999998,
+    "totalOrders": 380,
+    "avgRevenue": 9714.20837209302,
+    "avgOrders": 4.4186046511627906
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 15,
+    "dayCount": 90,
+    "totalRevenue": 917705.3400000004,
+    "totalOrders": 518,
+    "avgRevenue": 10196.726000000004,
+    "avgOrders": 5.7555555555555555
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 17,
+    "dayCount": 80,
+    "totalRevenue": 360878.81000000023,
+    "totalOrders": 176,
+    "avgRevenue": 4510.985125000003,
+    "avgOrders": 2.2
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 11,
+    "dayCount": 89,
+    "totalRevenue": 1274787.5000000007,
+    "totalOrders": 614,
+    "avgRevenue": 14323.455056179782,
+    "avgOrders": 6.898876404494382
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 19,
+    "dayCount": 89,
+    "totalRevenue": 645000.6300000001,
+    "totalOrders": 359,
+    "avgRevenue": 7247.198089887642,
+    "avgOrders": 4.033707865168539
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 14,
+    "dayCount": 90,
+    "totalRevenue": 1088888.6099999999,
+    "totalOrders": 535,
+    "avgRevenue": 12098.762333333332,
+    "avgOrders": 5.944444444444445
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 12,
+    "dayCount": 86,
+    "totalRevenue": 768005.8799999994,
+    "totalOrders": 372,
+    "avgRevenue": 8930.300930232552,
+    "avgOrders": 4.325581395348837
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 19,
+    "dayCount": 86,
+    "totalRevenue": 517585.0699999998,
+    "totalOrders": 311,
+    "avgRevenue": 6018.431046511625,
+    "avgOrders": 3.616279069767442
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 1,
+    "dayCount": 89,
+    "totalRevenue": 85756.60999999999,
+    "totalOrders": 46,
+    "avgRevenue": 963.557415730337,
+    "avgOrders": 0.5168539325842697
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 18,
+    "dayCount": 90,
+    "totalRevenue": 647769.8299999995,
+    "totalOrders": 352,
+    "avgRevenue": 7197.44255555555,
+    "avgOrders": 3.911111111111111
+  },
+  {
+    "dayOfWeek": 3,
     "hour": 4,
-    "dayCount": 11,
-    "totalRevenue": 11316.619999999999,
-    "totalOrders": 4,
-    "avgRevenue": 1028.7836363636363,
-    "avgOrders": 0.36363636363636365
+    "dayCount": 86,
+    "totalRevenue": 37255.909999999996,
+    "totalOrders": 21,
+    "avgRevenue": 433.20825581395343,
+    "avgOrders": 0.2441860465116279
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 13,
+    "dayCount": 86,
+    "totalRevenue": 784917.8500000003,
+    "totalOrders": 403,
+    "avgRevenue": 9126.95174418605,
+    "avgOrders": 4.686046511627907
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 16,
+    "dayCount": 95,
+    "totalRevenue": 513267.2299999997,
+    "totalOrders": 243,
+    "avgRevenue": 5402.812947368418,
+    "avgOrders": 2.557894736842105
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 14,
+    "dayCount": 95,
+    "totalRevenue": 923105.8600000001,
+    "totalOrders": 462,
+    "avgRevenue": 9716.903789473685,
+    "avgOrders": 4.863157894736842
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 19,
+    "dayCount": 86,
+    "totalRevenue": 375780.0599999998,
+    "totalOrders": 209,
+    "avgRevenue": 4369.5355813953465,
+    "avgOrders": 2.4302325581395348
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 20,
+    "dayCount": 80,
+    "totalRevenue": 301345.1800000002,
+    "totalOrders": 193,
+    "avgRevenue": 3766.8147500000027,
+    "avgOrders": 2.4125
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 8,
+    "dayCount": 90,
+    "totalRevenue": 804998.15,
+    "totalOrders": 417,
+    "avgRevenue": 8944.423888888889,
+    "avgOrders": 4.633333333333334
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 12,
+    "dayCount": 86,
+    "totalRevenue": 1074072.5599999996,
+    "totalOrders": 525,
+    "avgRevenue": 12489.215813953484,
+    "avgOrders": 6.104651162790698
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 13,
+    "dayCount": 80,
+    "totalRevenue": 305516.65,
+    "totalOrders": 196,
+    "avgRevenue": 3818.958125,
+    "avgOrders": 2.45
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 20,
+    "dayCount": 89,
+    "totalRevenue": 638253.21,
+    "totalOrders": 377,
+    "avgRevenue": 7171.384382022471,
+    "avgOrders": 4.235955056179775
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 18,
+    "dayCount": 95,
+    "totalRevenue": 491853.9700000003,
+    "totalOrders": 241,
+    "avgRevenue": 5177.410210526319,
+    "avgOrders": 2.536842105263158
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 16,
+    "dayCount": 89,
+    "totalRevenue": 625162.6999999997,
+    "totalOrders": 348,
+    "avgRevenue": 7024.2999999999965,
+    "avgOrders": 3.9101123595505616
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 12,
+    "dayCount": 90,
+    "totalRevenue": 1305636.4799999997,
+    "totalOrders": 681,
+    "avgRevenue": 14507.071999999996,
+    "avgOrders": 7.566666666666666
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 10,
+    "dayCount": 89,
+    "totalRevenue": 929407.7599999998,
+    "totalOrders": 530,
+    "avgRevenue": 10442.783820224717,
+    "avgOrders": 5.955056179775281
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 21,
+    "dayCount": 89,
+    "totalRevenue": 722397.3299999995,
+    "totalOrders": 403,
+    "avgRevenue": 8116.823932584264,
+    "avgOrders": 4.52808988764045
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 20,
+    "dayCount": 90,
+    "totalRevenue": 725583.4299999994,
+    "totalOrders": 396,
+    "avgRevenue": 8062.038111111104,
+    "avgOrders": 4.4
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 16,
+    "dayCount": 80,
+    "totalRevenue": 321048.5399999999,
+    "totalOrders": 158,
+    "avgRevenue": 4013.106749999999,
+    "avgOrders": 1.975
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 12,
+    "dayCount": 89,
+    "totalRevenue": 1150508.4800000011,
+    "totalOrders": 607,
+    "avgRevenue": 12927.061573033721,
+    "avgOrders": 6.820224719101123
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 20,
+    "dayCount": 95,
+    "totalRevenue": 451805.4400000001,
+    "totalOrders": 262,
+    "avgRevenue": 4755.846736842106,
+    "avgOrders": 2.7578947368421054
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 22,
+    "dayCount": 89,
+    "totalRevenue": 616639.2500000003,
+    "totalOrders": 329,
+    "avgRevenue": 6928.530898876408,
+    "avgOrders": 3.696629213483146
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 15,
+    "dayCount": 86,
+    "totalRevenue": 875768.79,
+    "totalOrders": 429,
+    "avgRevenue": 10183.358023255814,
+    "avgOrders": 4.988372093023256
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 23,
+    "dayCount": 86,
+    "totalRevenue": 280356.5400000001,
+    "totalOrders": 150,
+    "avgRevenue": 3259.9597674418615,
+    "avgOrders": 1.744186046511628
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 17,
+    "dayCount": 90,
+    "totalRevenue": 603859.3999999998,
+    "totalOrders": 325,
+    "avgRevenue": 6709.548888888887,
+    "avgOrders": 3.611111111111111
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 21,
+    "dayCount": 90,
+    "totalRevenue": 664065.7899999998,
+    "totalOrders": 381,
+    "avgRevenue": 7378.508777777775,
+    "avgOrders": 4.233333333333333
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 18,
+    "dayCount": 80,
+    "totalRevenue": 255871.74999999994,
+    "totalOrders": 167,
+    "avgRevenue": 3198.3968749999995,
+    "avgOrders": 2.0875
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 8,
+    "dayCount": 95,
+    "totalRevenue": 660882.5400000004,
+    "totalOrders": 351,
+    "avgRevenue": 6956.6583157894775,
+    "avgOrders": 3.694736842105263
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 17,
+    "dayCount": 89,
+    "totalRevenue": 658868.4900000002,
+    "totalOrders": 355,
+    "avgRevenue": 7403.016741573037,
+    "avgOrders": 3.9887640449438204
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 9,
+    "dayCount": 86,
+    "totalRevenue": 706421.4299999996,
+    "totalOrders": 352,
+    "avgRevenue": 8214.2026744186,
+    "avgOrders": 4.093023255813954
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 9,
+    "dayCount": 86,
+    "totalRevenue": 1011846.2000000001,
+    "totalOrders": 503,
+    "avgRevenue": 11765.653488372094,
+    "avgOrders": 5.848837209302325
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 1,
+    "dayCount": 95,
+    "totalRevenue": 91102.93999999999,
+    "totalOrders": 57,
+    "avgRevenue": 958.9783157894735,
+    "avgOrders": 0.6
   },
   {
     "dayOfWeek": 0,
+    "hour": 20,
+    "dayCount": 79,
+    "totalRevenue": 825665.8699999994,
+    "totalOrders": 415,
+    "avgRevenue": 10451.466708860751,
+    "avgOrders": 5.253164556962025
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 14,
+    "dayCount": 80,
+    "totalRevenue": 316892.6800000001,
+    "totalOrders": 182,
+    "avgRevenue": 3961.1585000000014,
+    "avgOrders": 2.275
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 22,
+    "dayCount": 79,
+    "totalRevenue": 718653.1900000009,
+    "totalOrders": 357,
+    "avgRevenue": 9096.875822784821,
+    "avgOrders": 4.518987341772152
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 14,
+    "dayCount": 79,
+    "totalRevenue": 398433.95999999985,
+    "totalOrders": 224,
+    "avgRevenue": 5043.467848101264,
+    "avgOrders": 2.8354430379746836
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 7,
+    "dayCount": 90,
+    "totalRevenue": 338592.45,
+    "totalOrders": 203,
+    "avgRevenue": 3762.1383333333333,
+    "avgOrders": 2.2555555555555555
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 1,
+    "dayCount": 80,
+    "totalRevenue": 30947.09,
+    "totalOrders": 28,
+    "avgRevenue": 386.838625,
+    "avgOrders": 0.35
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 16,
+    "dayCount": 90,
+    "totalRevenue": 723978.1499999996,
+    "totalOrders": 373,
+    "avgRevenue": 8044.201666666661,
+    "avgOrders": 4.144444444444445
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 20,
+    "dayCount": 86,
+    "totalRevenue": 533563.5500000002,
+    "totalOrders": 329,
+    "avgRevenue": 6204.227325581397,
+    "avgOrders": 3.8255813953488373
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 23,
+    "dayCount": 79,
+    "totalRevenue": 546136.7499999997,
+    "totalOrders": 250,
+    "avgRevenue": 6913.123417721515,
+    "avgOrders": 3.1645569620253164
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 11,
+    "dayCount": 95,
+    "totalRevenue": 966305.2499999998,
+    "totalOrders": 489,
+    "avgRevenue": 10171.634210526314,
+    "avgOrders": 5.147368421052631
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 20,
+    "dayCount": 86,
+    "totalRevenue": 394442.7500000003,
+    "totalOrders": 199,
+    "avgRevenue": 4586.543604651166,
+    "avgOrders": 2.313953488372093
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 21,
+    "dayCount": 79,
+    "totalRevenue": 826219.8500000003,
+    "totalOrders": 416,
+    "avgRevenue": 10458.479113924055,
+    "avgOrders": 5.265822784810126
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 11,
+    "dayCount": 90,
+    "totalRevenue": 1160303.3299999991,
+    "totalOrders": 619,
+    "avgRevenue": 12892.259222222212,
+    "avgOrders": 6.877777777777778
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 10,
+    "dayCount": 86,
+    "totalRevenue": 873014.59,
+    "totalOrders": 506,
+    "avgRevenue": 10151.332441860464,
+    "avgOrders": 5.883720930232558
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 18,
+    "dayCount": 86,
+    "totalRevenue": 514996.7199999999,
+    "totalOrders": 289,
+    "avgRevenue": 5988.333953488371,
+    "avgOrders": 3.36046511627907
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 22,
+    "dayCount": 86,
+    "totalRevenue": 509392.51999999984,
+    "totalOrders": 282,
+    "avgRevenue": 5923.1688372093,
+    "avgOrders": 3.2790697674418605
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 0,
+    "dayCount": 95,
+    "totalRevenue": 128414.67000000004,
+    "totalOrders": 89,
+    "avgRevenue": 1351.733368421053,
+    "avgOrders": 0.9368421052631579
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 21,
+    "dayCount": 95,
+    "totalRevenue": 494410.7500000001,
+    "totalOrders": 265,
+    "avgRevenue": 5204.323684210528,
+    "avgOrders": 2.789473684210526
+  },
+  {
+    "dayOfWeek": 5,
     "hour": 8,
-    "dayCount": 11,
-    "totalRevenue": 37286.009999999995,
-    "totalOrders": 22,
-    "avgRevenue": 3389.6372727272724,
+    "dayCount": 86,
+    "totalRevenue": 581132.94,
+    "totalOrders": 277,
+    "avgRevenue": 6757.35976744186,
+    "avgOrders": 3.2209302325581395
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 9,
+    "dayCount": 80,
+    "totalRevenue": 236063.57000000004,
+    "totalOrders": 148,
+    "avgRevenue": 2950.7946250000005,
+    "avgOrders": 1.85
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 15,
+    "dayCount": 79,
+    "totalRevenue": 513077.99,
+    "totalOrders": 287,
+    "avgRevenue": 6494.658101265823,
+    "avgOrders": 3.632911392405063
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 5,
+    "dayCount": 89,
+    "totalRevenue": 98987.43999999996,
+    "totalOrders": 30,
+    "avgRevenue": 1112.2184269662916,
+    "avgOrders": 0.33707865168539325
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 17,
+    "dayCount": 95,
+    "totalRevenue": 419661.8999999997,
+    "totalOrders": 215,
+    "avgRevenue": 4417.493684210523,
+    "avgOrders": 2.263157894736842
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 19,
+    "dayCount": 95,
+    "totalRevenue": 509655.35,
+    "totalOrders": 244,
+    "avgRevenue": 5364.793157894736,
+    "avgOrders": 2.568421052631579
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 16,
+    "dayCount": 86,
+    "totalRevenue": 429550.57000000007,
+    "totalOrders": 224,
+    "avgRevenue": 4994.774069767443,
+    "avgOrders": 2.604651162790698
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 18,
+    "dayCount": 86,
+    "totalRevenue": 373235.70000000007,
+    "totalOrders": 189,
+    "avgRevenue": 4339.950000000001,
+    "avgOrders": 2.197674418604651
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 21,
+    "dayCount": 86,
+    "totalRevenue": 465457.22999999975,
+    "totalOrders": 198,
+    "avgRevenue": 5412.2933720930205,
+    "avgOrders": 2.302325581395349
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 22,
+    "dayCount": 86,
+    "totalRevenue": 305488.6600000001,
+    "totalOrders": 157,
+    "avgRevenue": 3552.1937209302337,
+    "avgOrders": 1.8255813953488371
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 23,
+    "dayCount": 86,
+    "totalRevenue": 192678.99999999988,
+    "totalOrders": 106,
+    "avgRevenue": 2240.4534883720917,
+    "avgOrders": 1.2325581395348837
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 0,
+    "dayCount": 80,
+    "totalRevenue": 127110.82000000004,
+    "totalOrders": 57,
+    "avgRevenue": 1588.8852500000005,
+    "avgOrders": 0.7125
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 5,
+    "dayCount": 80,
+    "totalRevenue": 7550.72,
+    "totalOrders": 10,
+    "avgRevenue": 94.384,
+    "avgOrders": 0.125
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 6,
+    "dayCount": 80,
+    "totalRevenue": 35784.13,
+    "totalOrders": 29,
+    "avgRevenue": 447.30162499999994,
+    "avgOrders": 0.3625
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 8,
+    "dayCount": 80,
+    "totalRevenue": 161781.44999999995,
+    "totalOrders": 118,
+    "avgRevenue": 2022.2681249999994,
+    "avgOrders": 1.475
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 10,
+    "dayCount": 80,
+    "totalRevenue": 245814.25,
+    "totalOrders": 149,
+    "avgRevenue": 3072.678125,
+    "avgOrders": 1.8625
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 12,
+    "dayCount": 80,
+    "totalRevenue": 266862.13000000006,
+    "totalOrders": 160,
+    "avgRevenue": 3335.776625000001,
     "avgOrders": 2
   },
   {
+    "dayOfWeek": 6,
+    "hour": 15,
+    "dayCount": 80,
+    "totalRevenue": 384496.60000000003,
+    "totalOrders": 182,
+    "avgRevenue": 4806.2075,
+    "avgOrders": 2.275
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 21,
+    "dayCount": 80,
+    "totalRevenue": 300515.5,
+    "totalOrders": 169,
+    "avgRevenue": 3756.44375,
+    "avgOrders": 2.1125
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 22,
+    "dayCount": 80,
+    "totalRevenue": 345460.26999999996,
+    "totalOrders": 183,
+    "avgRevenue": 4318.253374999999,
+    "avgOrders": 2.2875
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 23,
+    "dayCount": 80,
+    "totalRevenue": 201510.46999999994,
+    "totalOrders": 127,
+    "avgRevenue": 2518.8808749999994,
+    "avgOrders": 1.5875
+  },
+  {
     "dayOfWeek": 0,
-    "hour": 9,
-    "dayCount": 11,
-    "totalRevenue": 28440.269999999993,
-    "totalOrders": 23,
-    "avgRevenue": 2585.4790909090902,
-    "avgOrders": 2.090909090909091
+    "hour": 0,
+    "dayCount": 79,
+    "totalRevenue": 104321.19999999998,
+    "totalOrders": 66,
+    "avgRevenue": 1320.5215189873416,
+    "avgOrders": 0.8354430379746836
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 1,
+    "dayCount": 79,
+    "totalRevenue": 66835.45000000001,
+    "totalOrders": 35,
+    "avgRevenue": 846.0183544303799,
+    "avgOrders": 0.4430379746835443
   },
   {
     "dayOfWeek": 0,
     "hour": 10,
-    "dayCount": 11,
-    "totalRevenue": 46359.770000000004,
-    "totalOrders": 40,
-    "avgRevenue": 4214.524545454546,
-    "avgOrders": 3.6363636363636362
+    "dayCount": 79,
+    "totalRevenue": 359438.81,
+    "totalOrders": 209,
+    "avgRevenue": 4549.85835443038,
+    "avgOrders": 2.6455696202531644
   },
   {
     "dayOfWeek": 0,
     "hour": 11,
-    "dayCount": 11,
-    "totalRevenue": 74377.37000000001,
-    "totalOrders": 44,
-    "avgRevenue": 6761.579090909092,
-    "avgOrders": 4
+    "dayCount": 79,
+    "totalRevenue": 430686.7099999999,
+    "totalOrders": 236,
+    "avgRevenue": 5451.730506329112,
+    "avgOrders": 2.9873417721518987
   },
   {
     "dayOfWeek": 0,
     "hour": 12,
-    "dayCount": 11,
-    "totalRevenue": 88218.50000000001,
-    "totalOrders": 51,
-    "avgRevenue": 8019.863636363638,
-    "avgOrders": 4.636363636363637
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 13,
-    "dayCount": 11,
-    "totalRevenue": 69057.61,
-    "totalOrders": 41,
-    "avgRevenue": 6277.964545454545,
-    "avgOrders": 3.727272727272727
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 14,
-    "dayCount": 11,
-    "totalRevenue": 53090.57,
-    "totalOrders": 41,
-    "avgRevenue": 4826.415454545455,
-    "avgOrders": 3.727272727272727
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 15,
-    "dayCount": 11,
-    "totalRevenue": 115248.22000000002,
-    "totalOrders": 51,
-    "avgRevenue": 10477.11090909091,
-    "avgOrders": 4.636363636363637
+    "dayCount": 79,
+    "totalRevenue": 465247.8499999999,
+    "totalOrders": 249,
+    "avgRevenue": 5889.213291139239,
+    "avgOrders": 3.151898734177215
   },
   {
     "dayOfWeek": 0,
     "hour": 16,
-    "dayCount": 11,
-    "totalRevenue": 77591.21999999997,
-    "totalOrders": 51,
-    "avgRevenue": 7053.74727272727,
-    "avgOrders": 4.636363636363637
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 17,
-    "dayCount": 11,
-    "totalRevenue": 119979.95000000003,
-    "totalOrders": 55,
-    "avgRevenue": 10907.268181818185,
-    "avgOrders": 5
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 18,
-    "dayCount": 11,
-    "totalRevenue": 51652.509999999995,
-    "totalOrders": 39,
-    "avgRevenue": 4695.682727272727,
-    "avgOrders": 3.5454545454545454
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 19,
-    "dayCount": 11,
-    "totalRevenue": 111251.60999999999,
-    "totalOrders": 59,
-    "avgRevenue": 10113.782727272726,
-    "avgOrders": 5.363636363636363
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 20,
-    "dayCount": 11,
-    "totalRevenue": 123551.52000000002,
-    "totalOrders": 64,
-    "avgRevenue": 11231.956363636365,
-    "avgOrders": 5.818181818181818
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 21,
-    "dayCount": 11,
-    "totalRevenue": 169358.5199999999,
-    "totalOrders": 90,
-    "avgRevenue": 15396.229090909083,
-    "avgOrders": 8.181818181818182
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 22,
-    "dayCount": 11,
-    "totalRevenue": 97159.51000000002,
-    "totalOrders": 59,
-    "avgRevenue": 8832.68272727273,
-    "avgOrders": 5.363636363636363
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 23,
-    "dayCount": 11,
-    "totalRevenue": 74327.34000000001,
-    "totalOrders": 46,
-    "avgRevenue": 6757.03090909091,
-    "avgOrders": 4.181818181818182
+    "dayCount": 79,
+    "totalRevenue": 398503.32999999984,
+    "totalOrders": 274,
+    "avgRevenue": 5044.345949367086,
+    "avgOrders": 3.4683544303797467
   },
   {
     "dayOfWeek": 1,
     "hour": 0,
-    "dayCount": 11,
-    "totalRevenue": 47790.960000000014,
-    "totalOrders": 25,
-    "avgRevenue": 4344.6327272727285,
-    "avgOrders": 2.272727272727273
+    "dayCount": 90,
+    "totalRevenue": 212646.90999999995,
+    "totalOrders": 102,
+    "avgRevenue": 2362.743444444444,
+    "avgOrders": 1.1333333333333333
   },
   {
     "dayOfWeek": 1,
-    "hour": 7,
-    "dayCount": 11,
-    "totalRevenue": 61917.23,
-    "totalOrders": 36,
-    "avgRevenue": 5628.839090909091,
-    "avgOrders": 3.272727272727273
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 8,
-    "dayCount": 11,
-    "totalRevenue": 141293.80999999997,
-    "totalOrders": 82,
-    "avgRevenue": 12844.891818181815,
-    "avgOrders": 7.454545454545454
+    "hour": 6,
+    "dayCount": 90,
+    "totalRevenue": 155527.57,
+    "totalOrders": 96,
+    "avgRevenue": 1728.0841111111113,
+    "avgOrders": 1.0666666666666667
   },
   {
     "dayOfWeek": 1,
     "hour": 9,
-    "dayCount": 11,
-    "totalRevenue": 165029.60000000003,
+    "dayCount": 90,
+    "totalRevenue": 1066606.129999999,
+    "totalOrders": 553,
+    "avgRevenue": 11851.17922222221,
+    "avgOrders": 6.144444444444445
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 22,
+    "dayCount": 90,
+    "totalRevenue": 603013.4699999997,
+    "totalOrders": 324,
+    "avgRevenue": 6700.1496666666635,
+    "avgOrders": 3.6
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 23,
+    "dayCount": 90,
+    "totalRevenue": 412092.35000000003,
+    "totalOrders": 200,
+    "avgRevenue": 4578.80388888889,
+    "avgOrders": 2.2222222222222223
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 2,
+    "dayCount": 89,
+    "totalRevenue": 24841,
+    "totalOrders": 20,
+    "avgRevenue": 279.1123595505618,
+    "avgOrders": 0.2247191011235955
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 6,
+    "dayCount": 89,
+    "totalRevenue": 126515.73000000001,
     "totalOrders": 95,
-    "avgRevenue": 15002.690909090912,
-    "avgOrders": 8.636363636363637
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 10,
-    "dayCount": 11,
-    "totalRevenue": 134263.49999999997,
-    "totalOrders": 87,
-    "avgRevenue": 12205.772727272724,
-    "avgOrders": 7.909090909090909
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 11,
-    "dayCount": 11,
-    "totalRevenue": 204381.64999999997,
-    "totalOrders": 107,
-    "avgRevenue": 18580.149999999998,
-    "avgOrders": 9.727272727272727
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 12,
-    "dayCount": 11,
-    "totalRevenue": 235026.31000000006,
-    "totalOrders": 113,
-    "avgRevenue": 21366.028181818187,
-    "avgOrders": 10.272727272727273
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 13,
-    "dayCount": 11,
-    "totalRevenue": 220114.3,
-    "totalOrders": 91,
-    "avgRevenue": 20010.390909090907,
-    "avgOrders": 8.272727272727273
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 14,
-    "dayCount": 11,
-    "totalRevenue": 164813.35000000003,
-    "totalOrders": 85,
-    "avgRevenue": 14983.031818181822,
-    "avgOrders": 7.7272727272727275
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 15,
-    "dayCount": 11,
-    "totalRevenue": 149018.66999999998,
-    "totalOrders": 104,
-    "avgRevenue": 13547.151818181817,
-    "avgOrders": 9.454545454545455
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 16,
-    "dayCount": 11,
-    "totalRevenue": 187350.48999999996,
-    "totalOrders": 76,
-    "avgRevenue": 17031.862727272724,
-    "avgOrders": 6.909090909090909
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 17,
-    "dayCount": 11,
-    "totalRevenue": 137389.43000000005,
-    "totalOrders": 65,
-    "avgRevenue": 12489.948181818187,
-    "avgOrders": 5.909090909090909
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 18,
-    "dayCount": 11,
-    "totalRevenue": 132855.28000000003,
-    "totalOrders": 70,
-    "avgRevenue": 12077.75272727273,
-    "avgOrders": 6.363636363636363
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 19,
-    "dayCount": 11,
-    "totalRevenue": 107614.49999999999,
-    "totalOrders": 69,
-    "avgRevenue": 9783.136363636362,
-    "avgOrders": 6.2727272727272725
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 20,
-    "dayCount": 11,
-    "totalRevenue": 140558.40999999997,
-    "totalOrders": 78,
-    "avgRevenue": 12778.03727272727,
-    "avgOrders": 7.090909090909091
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 21,
-    "dayCount": 11,
-    "totalRevenue": 115857.39000000003,
-    "totalOrders": 71,
-    "avgRevenue": 10532.490000000003,
-    "avgOrders": 6.454545454545454
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 22,
-    "dayCount": 11,
-    "totalRevenue": 96508,
-    "totalOrders": 49,
-    "avgRevenue": 8773.454545454546,
-    "avgOrders": 4.454545454545454
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 23,
-    "dayCount": 11,
-    "totalRevenue": 59709.80000000002,
-    "totalOrders": 39,
-    "avgRevenue": 5428.163636363638,
-    "avgOrders": 3.5454545454545454
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 0,
-    "dayCount": 12,
-    "totalRevenue": 24309.04,
-    "totalOrders": 17,
-    "avgRevenue": 2025.7533333333333,
-    "avgOrders": 1.4166666666666667
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 6,
-    "dayCount": 12,
-    "totalRevenue": 15863.62,
-    "totalOrders": 15,
-    "avgRevenue": 1321.9683333333335,
-    "avgOrders": 1.25
+    "avgRevenue": 1421.5250561797754,
+    "avgOrders": 1.0674157303370786
   },
   {
     "dayOfWeek": 2,
     "hour": 7,
-    "dayCount": 12,
-    "totalRevenue": 72551.74000000002,
-    "totalOrders": 41,
-    "avgRevenue": 6045.978333333335,
-    "avgOrders": 3.4166666666666665
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 8,
-    "dayCount": 12,
-    "totalRevenue": 158264.26000000004,
-    "totalOrders": 90,
-    "avgRevenue": 13188.688333333337,
-    "avgOrders": 7.5
+    "dayCount": 89,
+    "totalRevenue": 401284.1000000002,
+    "totalOrders": 220,
+    "avgRevenue": 4508.8101123595525,
+    "avgOrders": 2.4719101123595504
   },
   {
     "dayOfWeek": 2,
     "hour": 9,
-    "dayCount": 12,
-    "totalRevenue": 194832.47999999998,
-    "totalOrders": 90,
-    "avgRevenue": 16236.039999999999,
-    "avgOrders": 7.5
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 10,
-    "dayCount": 12,
-    "totalRevenue": 201194.33999999997,
-    "totalOrders": 107,
-    "avgRevenue": 16766.194999999996,
-    "avgOrders": 8.916666666666666
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 11,
-    "dayCount": 12,
-    "totalRevenue": 271120.36,
-    "totalOrders": 151,
-    "avgRevenue": 22593.36333333333,
-    "avgOrders": 12.583333333333334
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 12,
-    "dayCount": 12,
-    "totalRevenue": 196002.79,
-    "totalOrders": 129,
-    "avgRevenue": 16333.565833333334,
-    "avgOrders": 10.75
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 13,
-    "dayCount": 12,
-    "totalRevenue": 223508.59000000005,
-    "totalOrders": 114,
-    "avgRevenue": 18625.71583333334,
-    "avgOrders": 9.5
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 14,
-    "dayCount": 12,
-    "totalRevenue": 258649.52999999994,
-    "totalOrders": 114,
-    "avgRevenue": 21554.127499999995,
-    "avgOrders": 9.5
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 15,
-    "dayCount": 12,
-    "totalRevenue": 157077.71000000005,
-    "totalOrders": 77,
-    "avgRevenue": 13089.809166666671,
-    "avgOrders": 6.416666666666667
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 16,
-    "dayCount": 12,
-    "totalRevenue": 93541.38,
-    "totalOrders": 70,
-    "avgRevenue": 7795.115000000001,
-    "avgOrders": 5.833333333333333
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 17,
-    "dayCount": 12,
-    "totalRevenue": 134536.16999999998,
-    "totalOrders": 65,
-    "avgRevenue": 11211.347499999998,
-    "avgOrders": 5.416666666666667
+    "dayCount": 89,
+    "totalRevenue": 881436.6399999997,
+    "totalOrders": 485,
+    "avgRevenue": 9903.782471910108,
+    "avgOrders": 5.449438202247191
   },
   {
     "dayOfWeek": 2,
     "hour": 18,
-    "dayCount": 12,
-    "totalRevenue": 86160.67,
-    "totalOrders": 64,
-    "avgRevenue": 7180.055833333333,
-    "avgOrders": 5.333333333333333
+    "dayCount": 89,
+    "totalRevenue": 559630.7300000003,
+    "totalOrders": 327,
+    "avgRevenue": 6287.985730337083,
+    "avgOrders": 3.6741573033707864
   },
   {
     "dayOfWeek": 2,
-    "hour": 19,
-    "dayCount": 12,
-    "totalRevenue": 143485.93999999997,
-    "totalOrders": 79,
-    "avgRevenue": 11957.161666666665,
-    "avgOrders": 6.583333333333333
+    "hour": 23,
+    "dayCount": 89,
+    "totalRevenue": 442813.3900000001,
+    "totalOrders": 189,
+    "avgRevenue": 4975.431348314608,
+    "avgOrders": 2.1235955056179776
   },
   {
-    "dayOfWeek": 2,
-    "hour": 20,
-    "dayCount": 12,
-    "totalRevenue": 88441.26,
-    "totalOrders": 65,
-    "avgRevenue": 7370.105,
-    "avgOrders": 5.416666666666667
+    "dayOfWeek": 3,
+    "hour": 1,
+    "dayCount": 86,
+    "totalRevenue": 94193.09,
+    "totalOrders": 37,
+    "avgRevenue": 1095.268488372093,
+    "avgOrders": 0.43023255813953487
   },
   {
-    "dayOfWeek": 2,
+    "dayOfWeek": 3,
+    "hour": 11,
+    "dayCount": 86,
+    "totalRevenue": 1061645.6000000003,
+    "totalOrders": 554,
+    "avgRevenue": 12344.716279069771,
+    "avgOrders": 6.441860465116279
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 13,
+    "dayCount": 86,
+    "totalRevenue": 1219648.1599999985,
+    "totalOrders": 648,
+    "avgRevenue": 14181.955348837191,
+    "avgOrders": 7.534883720930233
+  },
+  {
+    "dayOfWeek": 3,
     "hour": 21,
-    "dayCount": 12,
-    "totalRevenue": 166425.51,
-    "totalOrders": 78,
-    "avgRevenue": 13868.792500000001,
-    "avgOrders": 6.5
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 3,
-    "dayCount": 12,
-    "totalRevenue": 7769.43,
-    "totalOrders": 7,
-    "avgRevenue": 647.4525,
-    "avgOrders": 0.5833333333333334
+    "dayCount": 86,
+    "totalRevenue": 667038.7299999995,
+    "totalOrders": 360,
+    "avgRevenue": 7756.264302325576,
+    "avgOrders": 4.186046511627907
   },
   {
     "dayOfWeek": 4,
     "hour": 3,
-    "dayCount": 12,
-    "totalRevenue": 22769.36,
-    "totalOrders": 5,
-    "avgRevenue": 1897.4466666666667,
-    "avgOrders": 0.4166666666666667
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 1,
-    "dayCount": 12,
-    "totalRevenue": 9423.14,
-    "totalOrders": 8,
-    "avgRevenue": 785.2616666666667,
-    "avgOrders": 0.6666666666666666
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 6,
-    "dayCount": 12,
-    "totalRevenue": 2023.9599999999998,
-    "totalOrders": 3,
-    "avgRevenue": 168.66333333333333,
-    "avgOrders": 0.25
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 7,
-    "dayCount": 12,
-    "totalRevenue": 18638.019999999997,
-    "totalOrders": 11,
-    "avgRevenue": 1553.168333333333,
-    "avgOrders": 0.9166666666666666
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 16,
-    "dayCount": 12,
-    "totalRevenue": 50302.62999999999,
-    "totalOrders": 22,
-    "avgRevenue": 4191.885833333333,
-    "avgOrders": 1.8333333333333333
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 1,
-    "dayCount": 11,
-    "totalRevenue": 6465.3,
-    "totalOrders": 6,
-    "avgRevenue": 587.7545454545455,
-    "avgOrders": 0.5454545454545454
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 5,
-    "dayCount": 11,
-    "totalRevenue": 8939.269999999999,
-    "totalOrders": 6,
-    "avgRevenue": 812.660909090909,
-    "avgOrders": 0.5454545454545454
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 6,
-    "dayCount": 11,
-    "totalRevenue": 46077.850000000006,
-    "totalOrders": 18,
-    "avgRevenue": 4188.895454545455,
-    "avgOrders": 1.6363636363636365
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 3,
-    "dayCount": 12,
-    "totalRevenue": 12565.599999999999,
-    "totalOrders": 5,
-    "avgRevenue": 1047.1333333333332,
-    "avgOrders": 0.4166666666666667
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 2,
-    "dayCount": 12,
-    "totalRevenue": 7960.360000000001,
-    "totalOrders": 5,
-    "avgRevenue": 663.3633333333333,
-    "avgOrders": 0.4166666666666667
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 4,
-    "dayCount": 12,
-    "totalRevenue": 4733.0599999999995,
-    "totalOrders": 5,
-    "avgRevenue": 394.4216666666666,
-    "avgOrders": 0.4166666666666667
-  },
-  {
-    "dayOfWeek": 3,
-    "hour": 5,
-    "dayCount": 12,
-    "totalRevenue": 12954.550000000003,
-    "totalOrders": 8,
-    "avgRevenue": 1079.5458333333336,
-    "avgOrders": 0.6666666666666666
+    "dayCount": 95,
+    "totalRevenue": 54620.46,
+    "totalOrders": 21,
+    "avgRevenue": 574.9522105263158,
+    "avgOrders": 0.22105263157894736
   },
   {
     "dayOfWeek": 4,
-    "hour": 2,
-    "dayCount": 12,
-    "totalRevenue": 9095.899999999998,
-    "totalOrders": 3,
-    "avgRevenue": 757.9916666666664,
-    "avgOrders": 0.25
-  },
-  {
-    "dayOfWeek": 4,
-    "hour": 4,
-    "dayCount": 12,
-    "totalRevenue": 4351.710000000001,
-    "totalOrders": 3,
-    "avgRevenue": 362.6425000000001,
-    "avgOrders": 0.25
+    "hour": 23,
+    "dayCount": 95,
+    "totalRevenue": 264521.76000000007,
+    "totalOrders": 140,
+    "avgRevenue": 2784.4395789473692,
+    "avgOrders": 1.4736842105263157
   },
   {
     "dayOfWeek": 5,
-    "hour": 5,
-    "dayCount": 14,
-    "totalRevenue": 4447.12,
-    "totalOrders": 4,
-    "avgRevenue": 317.65142857142854,
-    "avgOrders": 0.2857142857142857
+    "hour": 0,
+    "dayCount": 86,
+    "totalRevenue": 167218.58,
+    "totalOrders": 70,
+    "avgRevenue": 1944.4020930232557,
+    "avgOrders": 0.813953488372093
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 1,
+    "dayCount": 86,
+    "totalRevenue": 54914.729999999996,
+    "totalOrders": 39,
+    "avgRevenue": 638.5433720930232,
+    "avgOrders": 0.45348837209302323
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 7,
+    "dayCount": 86,
+    "totalRevenue": 221918.72999999998,
+    "totalOrders": 135,
+    "avgRevenue": 2580.4503488372093,
+    "avgOrders": 1.569767441860465
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 7,
+    "dayCount": 80,
+    "totalRevenue": 144516.64999999997,
+    "totalOrders": 74,
+    "avgRevenue": 1806.4581249999997,
+    "avgOrders": 0.925
+  },
+  {
+    "dayOfWeek": 6,
+    "hour": 11,
+    "dayCount": 80,
+    "totalRevenue": 311048.6300000002,
+    "totalOrders": 186,
+    "avgRevenue": 3888.1078750000024,
+    "avgOrders": 2.325
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 9,
+    "dayCount": 79,
+    "totalRevenue": 295498.65,
+    "totalOrders": 167,
+    "avgRevenue": 3740.489240506329,
+    "avgOrders": 2.1139240506329116
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 17,
+    "dayCount": 79,
+    "totalRevenue": 542427.2199999995,
+    "totalOrders": 265,
+    "avgRevenue": 6866.167341772146,
+    "avgOrders": 3.3544303797468356
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 1,
+    "dayCount": 90,
+    "totalRevenue": 105366.99999999999,
+    "totalOrders": 64,
+    "avgRevenue": 1170.7444444444443,
+    "avgOrders": 0.7111111111111111
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 0,
+    "dayCount": 86,
+    "totalRevenue": 170358.84,
+    "totalOrders": 99,
+    "avgRevenue": 1980.9167441860466,
+    "avgOrders": 1.1511627906976745
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 6,
+    "dayCount": 86,
+    "totalRevenue": 150374.26000000007,
+    "totalOrders": 98,
+    "avgRevenue": 1748.537906976745,
+    "avgOrders": 1.1395348837209303
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 7,
+    "dayCount": 86,
+    "totalRevenue": 288601.90000000014,
+    "totalOrders": 200,
+    "avgRevenue": 3355.8360465116293,
+    "avgOrders": 2.3255813953488373
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 6,
+    "dayCount": 95,
+    "totalRevenue": 121986.7,
+    "totalOrders": 72,
+    "avgRevenue": 1284.0705263157895,
+    "avgOrders": 0.7578947368421053
+  },
+  {
+    "dayOfWeek": 4,
+    "hour": 7,
+    "dayCount": 95,
+    "totalRevenue": 277148.0500000001,
+    "totalOrders": 173,
+    "avgRevenue": 2917.347894736843,
+    "avgOrders": 1.8210526315789475
   },
   {
     "dayOfWeek": 6,
     "hour": 3,
-    "dayCount": 12,
-    "totalRevenue": 2583.4799999999996,
-    "totalOrders": 2,
-    "avgRevenue": 215.28999999999996,
-    "avgOrders": 0.16666666666666666
+    "dayCount": 80,
+    "totalRevenue": 21192.63,
+    "totalOrders": 17,
+    "avgRevenue": 264.907875,
+    "avgOrders": 0.2125
   },
   {
     "dayOfWeek": 0,
-    "hour": 6,
-    "dayCount": 11,
-    "totalRevenue": 4976.01,
-    "totalOrders": 6,
-    "avgRevenue": 452.36454545454546,
-    "avgOrders": 0.5454545454545454
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 7,
-    "dayCount": 11,
-    "totalRevenue": 34661.770000000004,
+    "hour": 2,
+    "dayCount": 79,
+    "totalRevenue": 34515.22,
     "totalOrders": 12,
-    "avgRevenue": 3151.07,
-    "avgOrders": 1.0909090909090908
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 1,
-    "dayCount": 11,
-    "totalRevenue": 18889.25,
-    "totalOrders": 14,
-    "avgRevenue": 1717.2045454545455,
-    "avgOrders": 1.2727272727272727
+    "avgRevenue": 436.9015189873418,
+    "avgOrders": 0.1518987341772152
   },
   {
     "dayOfWeek": 1,
     "hour": 2,
-    "dayCount": 11,
-    "totalRevenue": 8361.98,
-    "totalOrders": 4,
-    "avgRevenue": 760.18,
-    "avgOrders": 0.36363636363636365
+    "dayCount": 90,
+    "totalRevenue": 44862.350000000006,
+    "totalOrders": 31,
+    "avgRevenue": 498.4705555555556,
+    "avgOrders": 0.34444444444444444
   },
   {
-    "dayOfWeek": 2,
-    "hour": 2,
-    "dayCount": 12,
-    "totalRevenue": 3667.77,
-    "totalOrders": 2,
-    "avgRevenue": 305.6475,
-    "avgOrders": 0.16666666666666666
+    "dayOfWeek": 1,
+    "hour": 3,
+    "dayCount": 90,
+    "totalRevenue": 29643.659999999996,
+    "totalOrders": 20,
+    "avgRevenue": 329.37399999999997,
+    "avgOrders": 0.2222222222222222
   },
   {
-    "dayOfWeek": 2,
+    "dayOfWeek": 1,
     "hour": 5,
-    "dayCount": 12,
-    "totalRevenue": 15446.26,
-    "totalOrders": 5,
-    "avgRevenue": 1287.1883333333333,
-    "avgOrders": 0.4166666666666667
+    "dayCount": 90,
+    "totalRevenue": 43465.08999999999,
+    "totalOrders": 27,
+    "avgRevenue": 482.9454444444443,
+    "avgOrders": 0.3
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 4,
+    "dayCount": 89,
+    "totalRevenue": 15879.999999999998,
+    "totalOrders": 13,
+    "avgRevenue": 178.4269662921348,
+    "avgOrders": 0.14606741573033707
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 2,
+    "dayCount": 86,
+    "totalRevenue": 37669.1,
+    "totalOrders": 20,
+    "avgRevenue": 438.0127906976744,
+    "avgOrders": 0.23255813953488372
+  },
+  {
+    "dayOfWeek": 5,
+    "hour": 3,
+    "dayCount": 86,
+    "totalRevenue": 19963.66,
+    "totalOrders": 15,
+    "avgRevenue": 232.13558139534882,
+    "avgOrders": 0.1744186046511628
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 3,
+    "dayCount": 79,
+    "totalRevenue": 5523.14,
+    "totalOrders": 8,
+    "avgRevenue": 69.91316455696203,
+    "avgOrders": 0.10126582278481013
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 6,
+    "dayCount": 79,
+    "totalRevenue": 33058.380000000005,
+    "totalOrders": 23,
+    "avgRevenue": 418.46050632911397,
+    "avgOrders": 0.2911392405063291
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 7,
+    "dayCount": 79,
+    "totalRevenue": 146465.77,
+    "totalOrders": 70,
+    "avgRevenue": 1853.9970886075948,
+    "avgOrders": 0.8860759493670886
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 8,
+    "dayCount": 79,
+    "totalRevenue": 244382.9500000002,
+    "totalOrders": 118,
+    "avgRevenue": 3093.4550632911414,
+    "avgOrders": 1.4936708860759493
+  },
+  {
+    "dayOfWeek": 3,
+    "hour": 5,
+    "dayCount": 86,
+    "totalRevenue": 52245.46,
+    "totalOrders": 37,
+    "avgRevenue": 607.5053488372093,
+    "avgOrders": 0.43023255813953487
   },
   {
     "dayOfWeek": 4,
-    "hour": 5,
-    "dayCount": 12,
-    "totalRevenue": 7333.88,
-    "totalOrders": 6,
-    "avgRevenue": 611.1566666666666,
-    "avgOrders": 0.5
-  },
-  {
-    "dayOfWeek": 6,
     "hour": 4,
-    "dayCount": 12,
-    "totalRevenue": 114.05,
-    "totalOrders": 1,
-    "avgRevenue": 9.504166666666666,
-    "avgOrders": 0.08333333333333333
-  },
-  {
-    "dayOfWeek": 0,
-    "hour": 5,
-    "dayCount": 11,
-    "totalRevenue": 786.77,
-    "totalOrders": 2,
-    "avgRevenue": 71.52454545454545,
-    "avgOrders": 0.18181818181818182
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 1,
-    "dayCount": 12,
-    "totalRevenue": 22083.71,
-    "totalOrders": 11,
-    "avgRevenue": 1840.3091666666667,
-    "avgOrders": 0.9166666666666666
-  },
-  {
-    "dayOfWeek": 6,
-    "hour": 5,
-    "dayCount": 12,
-    "totalRevenue": 198.35,
-    "totalOrders": 1,
-    "avgRevenue": 16.529166666666665,
-    "avgOrders": 0.08333333333333333
-  },
-  {
-    "dayOfWeek": 1,
-    "hour": 4,
-    "dayCount": 11,
-    "totalRevenue": 5873.94,
-    "totalOrders": 3,
-    "avgRevenue": 533.9945454545455,
-    "avgOrders": 0.2727272727272727
-  },
-  {
-    "dayOfWeek": 2,
-    "hour": 4,
-    "dayCount": 12,
-    "totalRevenue": 5741.33,
-    "totalOrders": 3,
-    "avgRevenue": 478.44416666666666,
-    "avgOrders": 0.25
+    "dayCount": 95,
+    "totalRevenue": 24202.2,
+    "totalOrders": 17,
+    "avgRevenue": 254.76000000000002,
+    "avgOrders": 0.17894736842105263
   },
   {
     "dayOfWeek": 5,
-    "hour": 3,
-    "dayCount": 14,
-    "totalRevenue": 5501.639999999999,
-    "totalOrders": 3,
-    "avgRevenue": 392.97428571428566,
-    "avgOrders": 0.21428571428571427
+    "hour": 6,
+    "dayCount": 86,
+    "totalRevenue": 78976.77,
+    "totalOrders": 46,
+    "avgRevenue": 918.334534883721,
+    "avgOrders": 0.5348837209302325
   },
   {
-    "dayOfWeek": 0,
+    "dayOfWeek": 6,
+    "hour": 4,
+    "dayCount": 80,
+    "totalRevenue": 15709.69,
+    "totalOrders": 8,
+    "avgRevenue": 196.371125,
+    "avgOrders": 0.1
+  },
+  {
+    "dayOfWeek": 2,
+    "hour": 3,
+    "dayCount": 89,
+    "totalRevenue": 32325.17,
+    "totalOrders": 14,
+    "avgRevenue": 363.2041573033708,
+    "avgOrders": 0.15730337078651685
+  },
+  {
+    "dayOfWeek": 5,
     "hour": 2,
-    "dayCount": 11,
-    "totalRevenue": 2042.1700000000003,
-    "totalOrders": 2,
-    "avgRevenue": 185.65181818181821,
-    "avgOrders": 0.18181818181818182
+    "dayCount": 86,
+    "totalRevenue": 62082.469999999994,
+    "totalOrders": 29,
+    "avgRevenue": 721.8891860465116,
+    "avgOrders": 0.3372093023255814
   },
   {
-    "dayOfWeek": 0,
-    "hour": 3,
-    "dayCount": 11,
-    "totalRevenue": 73.55,
-    "totalOrders": 1,
-    "avgRevenue": 6.6863636363636365,
-    "avgOrders": 0.09090909090909091
+    "dayOfWeek": 5,
+    "hour": 5,
+    "dayCount": 86,
+    "totalRevenue": 16344.21,
+    "totalOrders": 15,
+    "avgRevenue": 190.0489534883721,
+    "avgOrders": 0.1744186046511628
+  },
+  {
+    "dayOfWeek": 1,
+    "hour": 4,
+    "dayCount": 90,
+    "totalRevenue": 25550.78,
+    "totalOrders": 15,
+    "avgRevenue": 283.8975555555555,
+    "avgOrders": 0.16666666666666666
   },
   {
     "dayOfWeek": 5,
     "hour": 4,
-    "dayCount": 14,
-    "totalRevenue": 1671.08,
-    "totalOrders": 1,
-    "avgRevenue": 119.36285714285714,
-    "avgOrders": 0.07142857142857142
+    "dayCount": 86,
+    "totalRevenue": 7484.330000000001,
+    "totalOrders": 6,
+    "avgRevenue": 87.02709302325583,
+    "avgOrders": 0.06976744186046512
   },
   {
-    "dayOfWeek": 1,
+    "dayOfWeek": 0,
+    "hour": 5,
+    "dayCount": 79,
+    "totalRevenue": 8047.929999999999,
+    "totalOrders": 11,
+    "avgRevenue": 101.87253164556961,
+    "avgOrders": 0.13924050632911392
+  },
+  {
+    "dayOfWeek": 3,
     "hour": 3,
-    "dayCount": 11,
-    "totalRevenue": 325.61000000000007,
-    "totalOrders": 1,
-    "avgRevenue": 29.6009090909091,
-    "avgOrders": 0.09090909090909091
+    "dayCount": 86,
+    "totalRevenue": 29203.75,
+    "totalOrders": 21,
+    "avgRevenue": 339.57848837209303,
+    "avgOrders": 0.2441860465116279
+  },
+  {
+    "dayOfWeek": 0,
+    "hour": 4,
+    "dayCount": 79,
+    "totalRevenue": 20459.18,
+    "totalOrders": 9,
+    "avgRevenue": 258.9769620253165,
+    "avgOrders": 0.11392405063291139
   }
 ];

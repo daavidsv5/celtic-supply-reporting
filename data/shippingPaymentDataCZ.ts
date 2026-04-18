@@ -11,16 +11,25713 @@ export interface ShippingPaymentRecord {
 
 export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
   {
-    "date": "2025-05-16",
+    "date": "2022-03-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-03-12",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-03-15",
     "type": "shipping",
     "name": "Neznámo",
     "count": 1,
     "revenue_vat": 0
   },
   {
+    "date": "2022-03-15",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-03-31",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-03-31",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-04-29",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-04-29",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-06-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-06-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-06-16",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-06-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-06-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 90
+  },
+  {
+    "date": "2022-06-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-07-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-07-20",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-08-12",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 90
+  },
+  {
+    "date": "2022-08-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-09-05",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-09-05",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-09-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-09-21",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-09-24",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 90
+  },
+  {
+    "date": "2022-09-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-10-18",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-10-18",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-10-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-10-23",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-11-01",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-11-01",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2022-11-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 50
+  },
+  {
+    "date": "2022-11-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-01-04",
+    "type": "shipping",
+    "name": "Česká pošta na poštu",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2023-01-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-01-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-01-19",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-01-30",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-01-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-02-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 50
+  },
+  {
+    "date": "2023-02-17",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-02-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-02-22",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-03-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2023-03-08",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-03-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-03-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-03-16",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-03-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-03-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 50
+  },
+  {
+    "date": "2023-03-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-03-30",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 90
+  },
+  {
+    "date": "2023-03-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-04-06",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 90
+  },
+  {
+    "date": "2023-04-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-04-18",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-04-18",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-04-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 50
+  },
+  {
+    "date": "2023-04-27",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-05-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-05-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-05-26",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 90
+  },
+  {
+    "date": "2023-05-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-05-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 50
+  },
+  {
+    "date": "2023-05-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-06-08",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-06-08",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-07-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-07-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-07-20",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-07-20",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-08-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-08-26",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-09-19",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-09-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-10-03",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2023-10-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-10-09",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-10-09",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-11-03",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-11-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-11-16",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-11-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-11-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 40
+  },
+  {
+    "date": "2023-11-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2023-12-12",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2023-12-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-01-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 59
+  },
+  {
+    "date": "2024-01-15",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-01-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-01-24",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-02-02",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-02-02",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-02-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-02-15",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-03-04",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-03-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-03-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-03-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-04-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-04-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-13",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-18",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-19",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-23",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-04-30",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 55
+  },
+  {
+    "date": "2024-04-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-05-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-05-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-05-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-05-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-05-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-05-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-06-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-10",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-10",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-06-11",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-11",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-11",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-06-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-26",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-06-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-06-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-07-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-07-21",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-07-23",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-31",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-07-31",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-07-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-08-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-08-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-08-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-08-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-08-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-08-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-08-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-08-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-08-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-08-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-09-04",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-05",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-12",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-12",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-22",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-09-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-27",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-27",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-09-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-09-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2024-10-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-10-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-10-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-25",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2024-10-25",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-10-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-10-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-10-28",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-03",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2024-11-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2024-11-04",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-11-16",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-18",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-18",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-11-20",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-11-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2024-12-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-15",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-16",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-16",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2024-12-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-17",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-18",
+    "type": "shipping",
+    "name": "Česká pošta na poštu",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2024-12-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2024-12-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-19",
+    "type": "shipping",
+    "name": "Česká pošta na poštu",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2024-12-20",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-21",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2024-12-22",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-12-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2024-12-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2024-12-23",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-23",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-23",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-24",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-24",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 1,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2024-12-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2024-12-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 7,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2024-12-25",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 3,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2024-12-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2024-12-25",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2024-12-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 3,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2024-12-26",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 4,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2024-12-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-26",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-26",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2024-12-27",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-27",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-27",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2024-12-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2024-12-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2024-12-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2024-12-27",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2024-12-28",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2024-12-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 11,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2024-12-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2024-12-28",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-28",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2024-12-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2024-12-28",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2024-12-29",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2024-12-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2024-12-29",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2024-12-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2024-12-29",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2024-12-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2024-12-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2024-12-30",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2024-12-30",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2024-12-30",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-30",
+    "type": "shipping",
+    "name": "DHL Express",
+    "count": 1,
+    "revenue_vat": 25
+  },
+  {
+    "date": "2024-12-31",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2024-12-31",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-31",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-31",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-31",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-31",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-31",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-31",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 570
+  },
+  {
+    "date": "2024-12-31",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2024-12-31",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2024-12-31",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2024-12-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2024-12-31",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-01-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-01-01",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-01-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-01-01",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-01",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-01",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-01",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-01-02",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-01-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-01-02",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-01-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-02",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-01-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-01-03",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-03",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-03",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-01-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-01-04",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-01-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 9,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-01-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-04",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-04",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-01-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-01-05",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-01-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-05",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-05",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 47,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-01-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 58,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 19,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-01-06",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 51,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 18,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-01-06",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-06",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 42,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-01-07",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-01-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 19,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-01-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-07",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-01-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-01-08",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-09",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 42,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-01-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-09",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 4,
+    "revenue_vat": 330
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-01-09",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-09",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-01-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-01-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-01-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-10",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-10",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-10",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-01-11",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-01-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-01-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-01-11",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-11",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-11",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-01-11",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 10
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 7,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-01-12",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-01-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 16,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-01-12",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-12",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-01-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 51,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-13",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 39,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 4,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 4,
+    "revenue_vat": 1156
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 22,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-01-13",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-13",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-13",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 9,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-01-14",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-01-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 49,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-01-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-14",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-01-15",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-01-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 46,
+    "revenue_vat": 2755
+  },
+  {
+    "date": "2025-01-15",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-15",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-15",
+    "type": "shipping",
+    "name": "DHL Express",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-01-16",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 1995
+  },
+  {
+    "date": "2025-01-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-01-16",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 15
+  },
+  {
+    "date": "2025-01-16",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-01-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-01-17",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-01-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-01-18",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-01-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-18",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-01-18",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-18",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-01-19",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-01-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-01-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-19",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-19",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-19",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 47,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-01-20",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-01-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-01-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-20",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-01-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-01-21",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 772.5
+  },
+  {
+    "date": "2025-01-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-21",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-01-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-01-22",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 39,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-01-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-01-22",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-01-22",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-01-23",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-01-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-01-23",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-01-23",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-23",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-24",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 570
+  },
+  {
+    "date": "2025-01-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-01-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-24",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-01-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-25",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-01-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-01-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-01-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-25",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-01-25",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-01-26",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-01-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-01-26",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-01-26",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-26",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-26",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 44,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-01-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 54,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 21,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-01-27",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-01-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 562.5
+  },
+  {
+    "date": "2025-01-27",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-27",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-27",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 44,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-01-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 49,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-28",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-01-28",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 770
+  },
+  {
+    "date": "2025-01-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 4,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-01-28",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-28",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-01-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 632.5
+  },
+  {
+    "date": "2025-01-29",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-01-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 103.31
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 105
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-29",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-01-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-01-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-30",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 867
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-01-30",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-30",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-01-31",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-01-31",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-31",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 5,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-01-31",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-01-31",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-01-31",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 11,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-02-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-01",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-02-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-01",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-01",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-02-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-02-01",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-02",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-02-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-02-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-02",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-02-02",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 8
+  },
+  {
+    "date": "2025-02-02",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-02",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 206
+  },
+  {
+    "date": "2025-02-03",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 44,
+    "revenue_vat": 2280
+  },
+  {
+    "date": "2025-02-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-02-03",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 51,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 28,
+    "revenue_vat": 1430
+  },
+  {
+    "date": "2025-02-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 4,
+    "revenue_vat": 330
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-03",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 12.4
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 29,
+    "revenue_vat": 1755
+  },
+  {
+    "date": "2025-02-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-02-04",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-04",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-04",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-02-05",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-02-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-02-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 39,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-05",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-05",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-02-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 22,
+    "revenue_vat": 1105
+  },
+  {
+    "date": "2025-02-06",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-06",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-02-06",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-06",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-02-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-07",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-02-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-07",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-02-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-02-08",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-02-08",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-02-08",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-02-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-08",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 16,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-02-09",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-09",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-02-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 57,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 23,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 13,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-02-10",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-02-10",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 2655
+  },
+  {
+    "date": "2025-02-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 25,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2025-02-11",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-11",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-11",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-11",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-11",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-02-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 59,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 24,
+    "revenue_vat": 1365
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 46,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-02-12",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-02-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-12",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-12",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 867
+  },
+  {
+    "date": "2025-02-12",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-02-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 12,
+    "revenue_vat": 207.31
+  },
+  {
+    "date": "2025-02-13",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-13",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-02-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-13",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-13",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-02-14",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-02-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-02-14",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-14",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-15",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-02-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-02-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-15",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-02-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-02-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 31,
+    "revenue_vat": 1950
+  },
+  {
+    "date": "2025-02-16",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 4
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 72.5
+  },
+  {
+    "date": "2025-02-16",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-16",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 27,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-02-17",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 60,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 46,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-02-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 13,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-02-17",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 19,
+    "revenue_vat": 1050
+  },
+  {
+    "date": "2025-02-18",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 56,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 2470
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 21,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-02-18",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-18",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 12,
+    "revenue_vat": 203.31
+  },
+  {
+    "date": "2025-02-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 352.5
+  },
+  {
+    "date": "2025-02-18",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 27,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2025-02-19",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 35,
+    "revenue_vat": 1995
+  },
+  {
+    "date": "2025-02-19",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 25,
+    "revenue_vat": 1430
+  },
+  {
+    "date": "2025-02-20",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 304
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-20",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-21",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-02-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-02-21",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-02-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-21",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-02-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-02-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 7,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-22",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-22",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-22",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-22",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-02-23",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-02-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-02-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 845
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-02-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-23",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-23",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 43,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-02-24",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 51,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-02-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 23,
+    "revenue_vat": 1105
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 6,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 204
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-24",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-02-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-02-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-25",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 26,
+    "revenue_vat": 1170
+  },
+  {
+    "date": "2025-02-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-02-26",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 60,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 4,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-26",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-02-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-27",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-27",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-02-27",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-02-27",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 22,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-02-28",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-02-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-02-28",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 106
+  },
+  {
+    "date": "2025-02-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-02-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-03-01",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 570
+  },
+  {
+    "date": "2025-03-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-03-01",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-01",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-03-01",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-03-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-03-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-03-02",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-02",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-02",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-02",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-02",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-03",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 22,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 47,
+    "revenue_vat": 2090
+  },
+  {
+    "date": "2025-03-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 57,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 204
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-03",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-03",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-03-04",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-03-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-03-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 1170
+  },
+  {
+    "date": "2025-03-04",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-04",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-03-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-03-05",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-03-05",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 6,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-03-05",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-05",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 35,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-03-06",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 24,
+    "revenue_vat": 1365
+  },
+  {
+    "date": "2025-03-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-06",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-03-06",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-06",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-06",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-03-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-07",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-03-07",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-03-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-07",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-07",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-03-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-03-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 9,
+    "revenue_vat": 570
+  },
+  {
+    "date": "2025-03-08",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-08",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-08",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-03-08",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-03-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-03-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-03-09",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 1105
+  },
+  {
+    "date": "2025-03-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-03-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-09",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-09",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-09",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-03-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 52,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-03-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 62,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 34,
+    "revenue_vat": 2015
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-03-10",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-10",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-03-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 53,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-03-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 65,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-03-11",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 61,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 21,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-03-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 30,
+    "revenue_vat": 1755
+  },
+  {
+    "date": "2025-03-11",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-11",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-03-11",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-11",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-03-12",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 2090
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 23,
+    "revenue_vat": 1365
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-03-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-12",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-12",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-03-13",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 49,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 23,
+    "revenue_vat": 1105
+  },
+  {
+    "date": "2025-03-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-13",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-03-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-13",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-03-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 6,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-03-14",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-03-14",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-14",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 19,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-03-15",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-03-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-03-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 142.5
+  },
+  {
+    "date": "2025-03-15",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-15",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-03-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-03-16",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-16",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 12.4
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-16",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-03-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-03-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 54,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 43,
+    "revenue_vat": 2470
+  },
+  {
+    "date": "2025-03-17",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 67,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 108
+  },
+  {
+    "date": "2025-03-17",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-03-17",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-17",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 206
+  },
+  {
+    "date": "2025-03-18",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-03-18",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 70,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 43,
+    "revenue_vat": 1995
+  },
+  {
+    "date": "2025-03-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 31,
+    "revenue_vat": 1755
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-18",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-18",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-03-18",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-03-19",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 51,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-03-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 24,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 5,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-19",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-03-20",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 42,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-03-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 840
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-20",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-20",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-03-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-03-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-03-21",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 360
+  },
+  {
+    "date": "2025-03-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 4
+  },
+  {
+    "date": "2025-03-21",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-03-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-03-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-03-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-22",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 7,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-03-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 360
+  },
+  {
+    "date": "2025-03-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-22",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-03-23",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-03-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-03-23",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-03-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-23",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-23",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-03-23",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-23",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 8,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-03-24",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 80,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-03-24",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 15,
+    "revenue_vat": 103.31
+  },
+  {
+    "date": "2025-03-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 49,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-03-24",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-03-24",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-24",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-25",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-03-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 57,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 47,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 39,
+    "revenue_vat": 1440
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 867
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-25",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-25",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-25",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-03-26",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-03-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-26",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-26",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-26",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-03-27",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 42,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-03-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 440
+  },
+  {
+    "date": "2025-03-27",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-03-27",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-27",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-03-28",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-03-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-28",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-28",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-28",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 570
+  },
+  {
+    "date": "2025-03-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-03-29",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-03-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-03-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-29",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-29",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-03-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-03-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-03-30",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-03-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 6
+  },
+  {
+    "date": "2025-03-30",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-30",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-30",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-03-30",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-30",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 42,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-03-31",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 61,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-03-31",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 57,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 22,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-03-31",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-31",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-03-31",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-04-01",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-04-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-04-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 4
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-01",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 25,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-04-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-04-02",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-04-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-02",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-04-02",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-02",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-02",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-04-02",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 440
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-04-03",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-03",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 440
+  },
+  {
+    "date": "2025-04-04",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-04",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-04",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-04-05",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 9,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-04-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-05",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-04-06",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-04-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-06",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-04-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-04-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-04-06",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-06",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-06",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 60,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 52,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-04-07",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 960
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-04-07",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-04-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-07",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-04-08",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 46,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-04-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 63,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 22,
+    "revenue_vat": 845
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-08",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 867
+  },
+  {
+    "date": "2025-04-08",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-04-08",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-08",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 39,
+    "revenue_vat": 1995
+  },
+  {
+    "date": "2025-04-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 49,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-04-09",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-04-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 960
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-09",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 12.4
+  },
+  {
+    "date": "2025-04-09",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-04-09",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-04-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-04-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-04-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-10",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 680
+  },
+  {
+    "date": "2025-04-11",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 49,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-04-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 3.31
+  },
+  {
+    "date": "2025-04-11",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-11",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-04-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-04-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-04-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 15,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-04-12",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-12",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-04-12",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-12",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-12",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-04-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-04-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 640
+  },
+  {
+    "date": "2025-04-13",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-04-13",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-13",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 53,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-04-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 56,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-04-14",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 64,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-04-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-04-14",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-14",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 42,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-04-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 53,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 40,
+    "revenue_vat": 1202.5
+  },
+  {
+    "date": "2025-04-15",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 57,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-04-15",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-15",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-15",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-04-16",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 44,
+    "revenue_vat": 1995
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 24,
+    "revenue_vat": 880
+  },
+  {
+    "date": "2025-04-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-04-16",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-16",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 24,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-04-17",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-04-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-04-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-04-17",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-17",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-04-17",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-04-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-04-18",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 320
+  },
+  {
+    "date": "2025-04-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-04-18",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-18",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-04-18",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-04-19",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 522.5
+  },
+  {
+    "date": "2025-04-19",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-19",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-04-19",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-19",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-04-19",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 3.31
+  },
+  {
+    "date": "2025-04-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-04-20",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-04-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 480
+  },
+  {
+    "date": "2025-04-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-20",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 9,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-04-20",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-04-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-21",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-04-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-04-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-04-21",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-21",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-21",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-21",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-04-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 60,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 54,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 5,
+    "revenue_vat": 867
+  },
+  {
+    "date": "2025-04-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 61,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-22",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-04-23",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 61,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-04-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 46,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-04-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-23",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-23",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-23",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-04-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 867
+  },
+  {
+    "date": "2025-04-24",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-24",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-04-25",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 680
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-04-25",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-04-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-04-26",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-04-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 482.5
+  },
+  {
+    "date": "2025-04-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-04-26",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 440
+  },
+  {
+    "date": "2025-04-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-04-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-04-27",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-27",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-04-28",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 53,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-04-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 59,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-04-28",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-04-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-28",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 25,
+    "revenue_vat": 920
+  },
+  {
+    "date": "2025-04-29",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 57,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-04-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-04-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 290
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-04-29",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-29",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-04-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-04-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 24,
+    "revenue_vat": 840
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 3,
+    "revenue_vat": 0.30000000000000004
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-04-30",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-04-30",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 480
+  },
+  {
+    "date": "2025-05-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-05-01",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-01",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-01",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-05-01",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 480
+  },
+  {
+    "date": "2025-05-02",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-05-02",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-02",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-02",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-05-02",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 480
+  },
+  {
+    "date": "2025-05-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 9,
+    "revenue_vat": 190
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-05-03",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-03",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-03",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 640
+  },
+  {
+    "date": "2025-05-04",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 24,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-05-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-05-04",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-04",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-05-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-04",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-05-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 65,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 33,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 57,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-05-05",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 61,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-05",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-05",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-05",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 32,
+    "revenue_vat": 1160
+  },
+  {
+    "date": "2025-05-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-05-06",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-06",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-06",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-06",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-06",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-05-07",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-05-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-05-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "GLS na výdejní místo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-07",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-05-07",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 19,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-05-08",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-05-08",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-05-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-05-08",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-05-08",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-08",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-05-09",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 680
+  },
+  {
+    "date": "2025-05-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-05-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-09",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-09",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-05-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-05-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 2,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2025-05-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-05-10",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-05-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-05-11",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 920
+  },
+  {
+    "date": "2025-05-11",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-05-11",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-05-11",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-11",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-11",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 81,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 60,
+    "revenue_vat": 1995
+  },
+  {
+    "date": "2025-05-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 53,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1080
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 845
+  },
+  {
+    "date": "2025-05-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-12",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-05-13",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-05-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 56,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 960
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-05-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-13",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-13",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-13",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 48,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-05-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 49,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-05-14",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 63,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 16,
+    "revenue_vat": 404
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1160
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-14",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-05-15",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1080
+  },
+  {
+    "date": "2025-05-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-15",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-05-16",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-05-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
     "date": "2025-05-16",
     "type": "payment",
     "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-05-16",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-05-17",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-17",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-05-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-05-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-05-18",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "Objednání přepravy pro údržbu strojku",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-05-18",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 640
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-05-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-18",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-05-18",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 36,
+    "revenue_vat": 1240
+  },
+  {
+    "date": "2025-05-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 55,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 60,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 4,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-05-19",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 203.31
+  },
+  {
+    "date": "2025-05-19",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 47,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-05-20",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 33,
+    "revenue_vat": 1240
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 6,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-05-20",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-05-21",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 61,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 35,
+    "revenue_vat": 1240
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-05-21",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 5,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-21",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-05-21",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 640
+  },
+  {
+    "date": "2025-05-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-05-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 204
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-05-22",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-22",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-05-23",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-05-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-23",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 7,
+    "revenue_vat": 190
+  },
+  {
+    "date": "2025-05-24",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-24",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 10
+  },
+  {
+    "date": "2025-05-24",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 440
+  },
+  {
+    "date": "2025-05-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-05-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-05-24",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-24",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-24",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-05-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 640
+  },
+  {
+    "date": "2025-05-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-25",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-25",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-05-25",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-05-25",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-05-26",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 51,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 32,
+    "revenue_vat": 1120
+  },
+  {
+    "date": "2025-05-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-26",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-05-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-05-27",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 57,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 33,
+    "revenue_vat": 1080
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-05-27",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-27",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-05-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-05-28",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-28",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-05-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-28",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-05-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 22,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-05-29",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-05-29",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-29",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 680
+  },
+  {
+    "date": "2025-05-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-05-30",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-30",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 3,
+    "revenue_vat": 578
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-30",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-05-30",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-31",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-05-31",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-31",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-05-31",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-31",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-31",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-31",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-05-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-05-31",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-05-31",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 4,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2025-05-31",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 24,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-06-01",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-06-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-06-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-06-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-01",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-01",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-01",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-06-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-01",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-01",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-01",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 44,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-06-02",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 56,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-06-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 56,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 33,
+    "revenue_vat": 1120
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-06-02",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-06-02",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-02",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-06-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1040
+  },
+  {
+    "date": "2025-06-03",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-03",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-06-04",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1105
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-04",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-06-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-04",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 24,
+    "revenue_vat": 945
+  },
+  {
+    "date": "2025-06-05",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 54,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-06-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-05",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-05",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-06-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-06-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 540
+  },
+  {
+    "date": "2025-06-06",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-06-06",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-06",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-06-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 495
+  },
+  {
+    "date": "2025-06-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 3,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-06-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-07",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-07",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-07",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-06-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-06-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-06-08",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-06-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-06-08",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-08",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 43,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-06-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 55,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-06-09",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-06-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 403.31
+  },
+  {
+    "date": "2025-06-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-09",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-06-09",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-09",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-06-10",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 21,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-06-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 53,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-06-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 4,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-10",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 43,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-06-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-06-11",
+    "type": "payment",
+    "name": "On-line bankovní převod",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-06-11",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-11",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 1995
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-12",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-06-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-06-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-06-13",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-06-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-06-13",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-13",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-13",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-13",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-06-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 5,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2025-06-14",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-06-14",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-06-14",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-06-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-14",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-14",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-06-15",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-06-15",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-06-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 10
+  },
+  {
+    "date": "2025-06-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-06-15",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-15",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 22,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 42,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1305
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 845
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-16",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 46,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 51,
+    "revenue_vat": 1890
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 204
+  },
+  {
+    "date": "2025-06-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-17",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-06-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-06-18",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1080
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-06-18",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-18",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-18",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-06-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-06-19",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-19",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-06-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-06-19",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 19,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-06-20",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-06-20",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-06-20",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 540
+  },
+  {
+    "date": "2025-06-20",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-20",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-06-21",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 270
+  },
+  {
+    "date": "2025-06-21",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-06-21",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-06-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-06-21",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-06-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 19,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-06-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 130
+  },
+  {
+    "date": "2025-06-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-06-22",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-22",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 42,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 18,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 1,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-23",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-06-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1440
+  },
+  {
+    "date": "2025-06-24",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-06-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-06-24",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-06-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-24",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 845
+  },
+  {
+    "date": "2025-06-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-06-25",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-25",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1170
+  },
+  {
+    "date": "2025-06-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 12.4
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-25",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-06-26",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-06-26",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-06-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-06-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-06-26",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "shipping",
+    "name": "DODO - expresní doručení po Praze",
+    "count": 2,
+    "revenue_vat": 289
+  },
+  {
+    "date": "2025-06-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-26",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-06-27",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-06-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 360
+  },
+  {
+    "date": "2025-06-27",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-06-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 540
+  },
+  {
+    "date": "2025-06-28",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 11,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-06-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-06-28",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-28",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-06-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-06-29",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 22,
+    "revenue_vat": 857.5
+  },
+  {
+    "date": "2025-06-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-29",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-06-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-06-29",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-29",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-06-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-06-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-06-30",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 35,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-06-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-06-30",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-06-30",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-06-30",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-07-01",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-07-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 25,
+    "revenue_vat": 990
+  },
+  {
+    "date": "2025-07-01",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-07-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-01",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-07-01",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 190
+  },
+  {
+    "date": "2025-07-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-07-02",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 22,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-07-02",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-07-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-07-02",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-07-02",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-07-03",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-07-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-03",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-07-03",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-03",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-07-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-07-03",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-07-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-07-04",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-07-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-07-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 570
+  },
+  {
+    "date": "2025-07-04",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-04",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 8,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-07-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 2,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2025-07-05",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 360
+  },
+  {
+    "date": "2025-07-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-07-05",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-05",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-05",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 3.31
+  },
+  {
+    "date": "2025-07-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 495
+  },
+  {
+    "date": "2025-07-06",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-07-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-06",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 8,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-07-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-07-06",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-07-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-06",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-07-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 130
+  },
+  {
+    "date": "2025-07-07",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1305
+  },
+  {
+    "date": "2025-07-07",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-07-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 5,
+    "revenue_vat": 440
+  },
+  {
+    "date": "2025-07-07",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-07-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-07-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-07-08",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-07-08",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-07-08",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-08",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-07-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1215
+  },
+  {
+    "date": "2025-07-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-07-09",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-07-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-07-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-09",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-07-10",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 947.5
+  },
+  {
+    "date": "2025-07-10",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-07-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-07-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-07-10",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-10",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-07-11",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-07-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-07-11",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-07-11",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-11",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-07-12",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-07-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 6,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-07-12",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-07-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-12",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-07-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-07-13",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-07-13",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-07-13",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-13",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1485
+  },
+  {
+    "date": "2025-07-14",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-14",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-07-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-07-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-07-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-07-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-14",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-14",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-14",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-07-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1074
+  },
+  {
+    "date": "2025-07-15",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-15",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-15",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-07-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 406
+  },
+  {
+    "date": "2025-07-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-07-15",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-07-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-15",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-15",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 16,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-07-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 44,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-07-16",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 26,
+    "revenue_vat": 945
+  },
+  {
+    "date": "2025-07-16",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-16",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-07-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-07-16",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-16",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-07-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-07-17",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-07-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-07-18",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-07-18",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-07-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-07-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-18",
+    "type": "shipping",
+    "name": "GLS na adresu",
+    "count": 1,
+    "revenue_vat": 234
+  },
+  {
+    "date": "2025-07-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 8,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-07-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 360
+  },
+  {
+    "date": "2025-07-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-19",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-07-19",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-07-19",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-07-20",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 8,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-07-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-07-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-07-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-20",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-20",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-07-21",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-07-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-07-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-07-21",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-07-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-21",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-21",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-21",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-21",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-07-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-07-22",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 24,
+    "revenue_vat": 1035
+  },
+  {
+    "date": "2025-07-22",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-22",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-07-22",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 4,
+    "revenue_vat": 440
+  },
+  {
+    "date": "2025-07-22",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-22",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-07-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-07-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-07-23",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-23",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-23",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-07-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-07-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-07-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-23",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-23",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-07-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-07-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-24",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-07-24",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 26,
+    "revenue_vat": 1035
+  },
+  {
+    "date": "2025-07-24",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-24",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 24,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-07-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-07-25",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 405
+  },
+  {
+    "date": "2025-07-25",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-07-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-07-26",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 5,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-07-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-26",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-07-26",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-26",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-07-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 24,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-07-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-07-27",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-07-27",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-07-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-07-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-27",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 1045
+  },
+  {
+    "date": "2025-07-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1085
+  },
+  {
+    "date": "2025-07-28",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-07-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-07-28",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-07-28",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-28",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-28",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-07-29",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-07-29",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-07-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-07-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "shipping",
+    "name": "Zpětná doprava",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-29",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-07-30",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-07-30",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-07-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-30",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-07-30",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-07-30",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-07-31",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-31",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-07-31",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-31",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 587.5
+  },
+  {
+    "date": "2025-07-31",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-31",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-07-31",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-07-31",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-07-31",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-08-01",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 497.5
+  },
+  {
+    "date": "2025-08-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-08-01",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-01",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 570
+  },
+  {
+    "date": "2025-08-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-08-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-01",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-01",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-08-02",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-08-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-02",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-08-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 9,
+    "revenue_vat": 405
+  },
+  {
+    "date": "2025-08-02",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-02",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-08-03",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-08-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 11,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-08-03",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-03",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 130
+  },
+  {
+    "date": "2025-08-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 35,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-08-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-04",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-08-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-08-05",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-08-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 902.5
+  },
+  {
+    "date": "2025-08-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-08-06",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-08-06",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-08-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-08-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-08-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 571
+  },
+  {
+    "date": "2025-08-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-08-07",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 131
+  },
+  {
+    "date": "2025-08-07",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-08-07",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-07",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 15
+  },
+  {
+    "date": "2025-08-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-08-08",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-08-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-08-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 381
+  },
+  {
+    "date": "2025-08-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-08",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-08",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-08-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-08",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-08-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 270
+  },
+  {
+    "date": "2025-08-09",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-09",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 10,
+    "revenue_vat": 190
+  },
+  {
+    "date": "2025-08-09",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 2,
+    "revenue_vat": 65
+  },
+  {
+    "date": "2025-08-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-08-10",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-08-10",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-08-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-08-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 10
+  },
+  {
+    "date": "2025-08-10",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 26,
+    "revenue_vat": 945
+  },
+  {
+    "date": "2025-08-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 2185
+  },
+  {
+    "date": "2025-08-11",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-08-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-11",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 303.31
+  },
+  {
+    "date": "2025-08-11",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-08-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-11",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-11",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-11",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-08-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-08-12",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-08-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-08-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-08-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-12",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-08-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 22,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-08-13",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-08-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-08-13",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-13",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-13",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-13",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-08-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-08-14",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-08-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-08-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-08-14",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-14",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-08-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-08-15",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-15",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-15",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-08-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-08-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-15",
+    "type": "payment",
+    "name": "Převodem",
     "count": 1,
     "revenue_vat": 0
   },
@@ -28,6 +25725,13 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2025-08-15",
     "type": "shipping",
     "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-15",
+    "type": "payment",
+    "name": "Hotově",
     "count": 2,
     "revenue_vat": 0
   },
@@ -35,27 +25739,16372 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2025-08-15",
     "type": "payment",
     "name": "Platba kartou při osobním odběru",
-    "count": 1,
+    "count": 3,
     "revenue_vat": 0
   },
   {
     "date": "2025-08-15",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-08-16",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-08-16",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 405
+  },
+  {
+    "date": "2025-08-16",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-08-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-17",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-08-17",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 15,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-08-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-08-17",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-08-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-08-17",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-08-18",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 21,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-08-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-08-18",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1035
+  },
+  {
+    "date": "2025-08-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-08-18",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-18",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-18",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-18",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-18",
     "type": "payment",
     "name": "Hotově",
     "count": 1,
     "revenue_vat": 0
   },
   {
-    "date": "2026-01-27",
+    "date": "2025-08-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-08-19",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-19",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-08-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 770
+  },
+  {
+    "date": "2025-08-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-19",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-08-19",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-08-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 25,
+    "revenue_vat": 1035
+  },
+  {
+    "date": "2025-08-20",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-08-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-08-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-08-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-20",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-08-20",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-08-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-08-21",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 845
+  },
+  {
+    "date": "2025-08-21",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-08-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-08-21",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-21",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-21",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 570
+  },
+  {
+    "date": "2025-08-22",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-08-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-08-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-08-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-08-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-22",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-08-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 405
+  },
+  {
+    "date": "2025-08-23",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 15,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-08-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-23",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-08-23",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-23",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-23",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-08-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-24",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 2,
+    "revenue_vat": 0.2
+  },
+  {
+    "date": "2025-08-24",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-08-24",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-24",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-08-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 15,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-08-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-08-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-08-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-08-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-08-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-08-25",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-08-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-25",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-08-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-08-26",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-08-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-08-26",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-26",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 3.31
+  },
+  {
+    "date": "2025-08-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-26",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-26",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-26",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 45
+  },
+  {
+    "date": "2025-08-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-08-27",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 17,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-08-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 35,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-08-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-08-27",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-27",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-08-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-27",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-27",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-08-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 1425
+  },
+  {
+    "date": "2025-08-28",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-28",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-08-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-08-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-08-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-28",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-28",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-08-29",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-08-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-08-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-08-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-08-29",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-29",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-08-29",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 3,
+    "revenue_vat": 135
+  },
+  {
+    "date": "2025-08-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-30",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-08-30",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-08-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 11,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-08-31",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-08-31",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-31",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-08-31",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-08-31",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-31",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-08-31",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-31",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-31",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-08-31",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 25
+  },
+  {
+    "date": "2025-08-31",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-09-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 990
+  },
+  {
+    "date": "2025-09-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-09-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-09-01",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-09-01",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-01",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-09-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-09-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-09-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-09-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-09-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-02",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-09-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-09-03",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 1035
+  },
+  {
+    "date": "2025-09-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-09-03",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-09-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-03",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-09-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1520
+  },
+  {
+    "date": "2025-09-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-09-04",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-04",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-04",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-09-04",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-04",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-09-04",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-04",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-09-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 36,
+    "revenue_vat": 1035
+  },
+  {
+    "date": "2025-09-05",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-09-05",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-09-05",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-05",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-09-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-05",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-05",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2025-09-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-09-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-09-06",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-09-06",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 4,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-06",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-09-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-06",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 19,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-09-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 68,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 32,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-09-07",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 53,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-09-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 39,
+    "revenue_vat": 1305
+  },
+  {
+    "date": "2025-09-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 66,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-09-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-07",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-09-08",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 2090
+  },
+  {
+    "date": "2025-09-08",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 35,
+    "revenue_vat": 1260
+  },
+  {
+    "date": "2025-09-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 56,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-09-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-09-08",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-08",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-08",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-08",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-09-08",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-09-09",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-09-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-09-09",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 990
+  },
+  {
+    "date": "2025-09-09",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-09",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-09-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-09-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-09-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-09-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-09-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-11",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-09-11",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-09-11",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-11",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-11",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 25
+  },
+  {
+    "date": "2025-09-11",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-11",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-09-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-12",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 495
+  },
+  {
+    "date": "2025-09-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-09-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-09-12",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-12",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-12",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 130
+  },
+  {
+    "date": "2025-09-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-09-13",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-13",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 61,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-13",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 61,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 540
+  },
+  {
+    "date": "2025-09-13",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 9,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-09-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 325
+  },
+  {
+    "date": "2025-09-13",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-13",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-09-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-09-14",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-09-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-09-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-14",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 18,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2025-09-15",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2025-09-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1235
+  },
+  {
+    "date": "2025-09-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-09-15",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 26,
+    "revenue_vat": 1170
+  },
+  {
+    "date": "2025-09-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-09-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1080
+  },
+  {
+    "date": "2025-09-16",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-09-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1330
+  },
+  {
+    "date": "2025-09-16",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 1080
+  },
+  {
+    "date": "2025-09-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 520
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-17",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1615
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-09-18",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-18",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 452.5
+  },
+  {
+    "date": "2025-09-19",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-09-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 665
+  },
+  {
+    "date": "2025-09-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-09-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-09-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-19",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-09-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 130
+  },
+  {
+    "date": "2025-09-20",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-09-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 9,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-09-20",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-20",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-20",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-09-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-09-21",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 380
+  },
+  {
+    "date": "2025-09-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-09-21",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-21",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-21",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 42,
+    "revenue_vat": 1710
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 40,
+    "revenue_vat": 1805
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 22,
+    "revenue_vat": 1105
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "payment",
+    "name": "On-line platba kartou.",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-22",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 2185
+  },
+  {
+    "date": "2025-09-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-09-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 650
+  },
+  {
+    "date": "2025-09-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-09-23",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-09-23",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-09-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 45,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-09-25",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-09-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-09-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 455
+  },
+  {
+    "date": "2025-09-25",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-25",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-25",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 3.31
+  },
+  {
+    "date": "2025-09-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-26",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-09-26",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-09-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 21,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-09-26",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-26",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-09-26",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 260
+  },
+  {
+    "date": "2025-09-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-27",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2025-09-27",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 495
+  },
+  {
+    "date": "2025-09-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-09-27",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-27",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-09-28",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 715
+  },
+  {
+    "date": "2025-09-28",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 22,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 21,
+    "revenue_vat": 950
+  },
+  {
+    "date": "2025-09-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-09-28",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-09-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-28",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 12.4
+  },
+  {
+    "date": "2025-09-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2025-09-29",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-09-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 390
+  },
+  {
+    "date": "2025-09-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 32,
+    "revenue_vat": 1170
+  },
+  {
+    "date": "2025-09-29",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-09-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-29",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 26,
+    "revenue_vat": 990
+  },
+  {
+    "date": "2025-09-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 760
+  },
+  {
+    "date": "2025-09-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-09-30",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 21,
+    "revenue_vat": 915
+  },
+  {
+    "date": "2025-09-30",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-09-30",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 1080
+  },
+  {
+    "date": "2025-10-01",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 205
+  },
+  {
+    "date": "2025-10-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 945
+  },
+  {
+    "date": "2025-10-01",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-01",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-10-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 303.31
+  },
+  {
+    "date": "2025-10-01",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-10-01",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-01",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 540
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-10-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-02",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-10-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-10-03",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-10-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-03",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-10-03",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-03",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-10-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-10-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-03",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 10,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-10-04",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-10-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 9,
+    "revenue_vat": 405
+  },
+  {
+    "date": "2025-10-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-10-04",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-04",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-04",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-10-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-10-05",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-10-05",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 10
+  },
+  {
+    "date": "2025-10-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-05",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-10-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-05",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-10-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1170
+  },
+  {
+    "date": "2025-10-06",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1400
+  },
+  {
+    "date": "2025-10-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-10-06",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-10-06",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-06",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-06",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-10-06",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1305
+  },
+  {
+    "date": "2025-10-07",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-10-07",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1500
+  },
+  {
+    "date": "2025-10-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-10-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-10-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-10-08",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-08",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 1295
+  },
+  {
+    "date": "2025-10-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1395
+  },
+  {
+    "date": "2025-10-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-10-08",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-08",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-08",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-10-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-08",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 24,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-10-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-10-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-10-09",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-10-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-09",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 22,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-10-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-10-10",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-10-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-10-10",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 10,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-10-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-10-11",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 12,
+    "revenue_vat": 495
+  },
+  {
+    "date": "2025-10-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-10-11",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-11",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-10-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1127.07
+  },
+  {
+    "date": "2025-10-12",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-10-12",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "GLS na výdejní místo",
+    "count": 2,
+    "revenue_vat": 59
+  },
+  {
+    "date": "2025-10-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1170
+  },
+  {
+    "date": "2025-10-13",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-10-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-10-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-10-13",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-13",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-13",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-13",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 104
+  },
+  {
+    "date": "2025-10-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-13",
+    "type": "shipping",
+    "name": "GLS na výdejní místo",
+    "count": 1,
+    "revenue_vat": 45
+  },
+  {
+    "date": "2025-10-13",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1305
+  },
+  {
+    "date": "2025-10-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 770
+  },
+  {
+    "date": "2025-10-14",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 35,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-10-14",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-10-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-10-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-14",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 37,
+    "revenue_vat": 1530
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 99
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-15",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-10-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2025-10-16",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 32,
+    "revenue_vat": 1260
+  },
+  {
+    "date": "2025-10-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-10-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 770
+  },
+  {
+    "date": "2025-10-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-16",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-16",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-10-16",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-16",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 59
+  },
+  {
+    "date": "2025-10-16",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-17",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 24,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-10-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-10-17",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-10-17",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-10-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-17",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-17",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-10-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-10-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-10-18",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 11,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-18",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-10-18",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-10-18",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-18",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-10-18",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 2,
+    "revenue_vat": 0.2
+  },
+  {
+    "date": "2025-10-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-10-19",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-10-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-19",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 21,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-10-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-10-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-19",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-19",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1700
+  },
+  {
+    "date": "2025-10-20",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-10-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 41,
+    "revenue_vat": 1530
+  },
+  {
+    "date": "2025-10-20",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2025-10-20",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 12,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-10-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-20",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-10-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-10-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-10-21",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 47,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 39,
+    "revenue_vat": 1487.5
+  },
+  {
+    "date": "2025-10-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2025-10-21",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-21",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-21",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-21",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-21",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 39,
+    "revenue_vat": 1620
+  },
+  {
+    "date": "2025-10-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 910
+  },
+  {
+    "date": "2025-10-22",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2025-10-22",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 12,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-10-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-10-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-22",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1127.5
+  },
+  {
+    "date": "2025-10-23",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-10-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-10-23",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-10-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-23",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-10-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-24",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-10-25",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-25",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-10-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-10-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-25",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 5,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-10-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-10-26",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-10-26",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 15,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-10-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-10-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-26",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-26",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 43,
+    "revenue_vat": 1700
+  },
+  {
+    "date": "2025-10-27",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 992.5
+  },
+  {
+    "date": "2025-10-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-10-27",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-10-27",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-10-27",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-27",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-10-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-10-28",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-10-28",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-10-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 24,
+    "revenue_vat": 902.5
+  },
+  {
+    "date": "2025-10-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-10-28",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-28",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-10-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2025-10-29",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-10-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-10-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-10-29",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-10-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 24,
+    "revenue_vat": 945
+  },
+  {
+    "date": "2025-10-30",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-10-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-30",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-10-30",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-30",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-30",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-10-30",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 24,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 360
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-10-31",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 540
+  },
+  {
+    "date": "2025-11-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-01",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-11-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-11-01",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-01",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-11-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-01",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-11-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-11-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-11-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-11-02",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-11-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-02",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-02",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 148
+  },
+  {
+    "date": "2025-11-02",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-11-02",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-02",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-11-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 25,
+    "revenue_vat": 945
+  },
+  {
+    "date": "2025-11-03",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 39,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2025-11-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-11-03",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 203.31
+  },
+  {
+    "date": "2025-11-03",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-03",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 59
+  },
+  {
+    "date": "2025-11-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 45,
+    "revenue_vat": 1890
+  },
+  {
+    "date": "2025-11-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 52,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 980
+  },
+  {
+    "date": "2025-11-04",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-04",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 49,
+    "revenue_vat": 1595
+  },
+  {
+    "date": "2025-11-04",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-04",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-11-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-04",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-04",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 36,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-11-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-11-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 4
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-05",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "DHL Economy Select",
+    "count": 1,
+    "revenue_vat": 10
+  },
+  {
+    "date": "2025-11-06",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1080
+  },
+  {
+    "date": "2025-11-06",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-11-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 139
+  },
+  {
+    "date": "2025-11-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-06",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 19,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-11-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-11-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 495
+  },
+  {
+    "date": "2025-11-07",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-11-07",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-11-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 362.5
+  },
+  {
+    "date": "2025-11-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-11-08",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-08",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-11-08",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-08",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-11-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-11-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-11-09",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-11-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-09",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 48,
+    "revenue_vat": 1700
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 51,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 770
+  },
+  {
+    "date": "2025-11-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 41,
+    "revenue_vat": 1395
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 203.31
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-10",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-11-10",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 39,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-11",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-11-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-11",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 32,
+    "revenue_vat": 1305
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 139
+  },
+  {
+    "date": "2025-11-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-12",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 35,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-11-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1305
+  },
+  {
+    "date": "2025-11-13",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-11-13",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-11-13",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-11-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-11-13",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-13",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-11-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-11-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 21,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-11-14",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-14",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-11-14",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-14",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-11-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2025-11-15",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-11-15",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-15",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 8,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-11-15",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-15",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-15",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 812.5
+  },
+  {
+    "date": "2025-11-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 21,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-11-16",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-16",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-16",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-11-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-11-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-16",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-11-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 3,
+    "revenue_vat": 237
+  },
+  {
+    "date": "2025-11-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1215
+  },
+  {
+    "date": "2025-11-17",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-11-17",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1500
+  },
+  {
+    "date": "2025-11-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-17",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 2,
+    "revenue_vat": 0.2
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 36,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-11-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 60,
+    "revenue_vat": 1400
+  },
+  {
+    "date": "2025-11-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 56,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-11-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-11-18",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 18,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-11-18",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-18",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-18",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 59
+  },
+  {
+    "date": "2025-11-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 35,
+    "revenue_vat": 1035
+  },
+  {
+    "date": "2025-11-19",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 1500
+  },
+  {
+    "date": "2025-11-19",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-11-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-11-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-19",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-19",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-19",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-11-20",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 37,
+    "revenue_vat": 1170
+  },
+  {
+    "date": "2025-11-20",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2025-11-20",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-11-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-20",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-20",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 3,
+    "revenue_vat": 197
+  },
+  {
+    "date": "2025-11-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 3,
+    "revenue_vat": 177
+  },
+  {
+    "date": "2025-11-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-11-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-11-21",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 24,
+    "revenue_vat": 495
+  },
+  {
+    "date": "2025-11-21",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-21",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 6,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-22",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-11-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-22",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 405
+  },
+  {
+    "date": "2025-11-22",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-11-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 855
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 21,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-23",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 59
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 33,
+    "revenue_vat": 1440
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 5,
+    "revenue_vat": 110
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 485
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 35,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "Platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-11-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-24",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 25,
+    "revenue_vat": 902.0699999999999
+  },
+  {
+    "date": "2025-11-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-11-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 44,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-11-25",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-11-25",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 98
+  },
+  {
+    "date": "2025-11-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-25",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 35,
+    "revenue_vat": 1485
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-11-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-26",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1500
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 21,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-11-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-27",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 540
+  },
+  {
+    "date": "2025-11-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-11-28",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-11-28",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-11-28",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-11-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-28",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-11-29",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-29",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2025-11-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 27,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-11-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 585
+  },
+  {
+    "date": "2025-11-29",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-29",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-29",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 64,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-11-30",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 40,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-11-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 62,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 20,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-11-30",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 14,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-11-30",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "shipping",
+    "name": "GLS na adresu",
+    "count": 1,
+    "revenue_vat": 99
+  },
+  {
+    "date": "2025-11-30",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-11-30",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-11-30",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-12-01",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 44,
+    "revenue_vat": 1755
+  },
+  {
+    "date": "2025-12-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-12-01",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 204
+  },
+  {
+    "date": "2025-12-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-12-01",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-01",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-12-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-12-02",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1600
+  },
+  {
+    "date": "2025-12-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-02",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1215
+  },
+  {
+    "date": "2025-12-02",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-12-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-12-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-03",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-03",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-12-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1260
+  },
+  {
+    "date": "2025-12-03",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-03",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-03",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-03",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-12-04",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-12-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-12-04",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2025-12-04",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-04",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-04",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-12-05",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-12-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2025-12-05",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-12-05",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-05",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 8,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2025-12-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-12-06",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 7,
+    "revenue_vat": 195
+  },
+  {
+    "date": "2025-12-06",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-06",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-12-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-06",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-06",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-12-06",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 98
+  },
+  {
+    "date": "2025-12-07",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 3,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-12-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 810
+  },
+  {
+    "date": "2025-12-07",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 204
+  },
+  {
+    "date": "2025-12-07",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-07",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-12-07",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-12-07",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-07",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-12-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-12-08",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 38,
+    "revenue_vat": 1500
+  },
+  {
+    "date": "2025-12-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 114
+  },
+  {
+    "date": "2025-12-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2025-12-08",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 188
+  },
+  {
+    "date": "2025-12-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-08",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2025-12-09",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 16,
+    "revenue_vat": 1050
+  },
+  {
+    "date": "2025-12-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-12-09",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-12-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-09",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-12-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 13,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-12-10",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 945
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 3,
+    "revenue_vat": 148
+  },
+  {
+    "date": "2025-12-10",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "UPS Standard",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 2,
+    "revenue_vat": 0.2
+  },
+  {
+    "date": "2025-12-10",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-10",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1215
+  },
+  {
+    "date": "2025-12-11",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-12-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-12-11",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-12-11",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-11",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-12-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 21,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-12-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 620
+  },
+  {
+    "date": "2025-12-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 27,
+    "revenue_vat": 1035
+  },
+  {
+    "date": "2025-12-12",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-12-12",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-12",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2025-12-13",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 17,
+    "revenue_vat": 720
+  },
+  {
+    "date": "2025-12-13",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-12-13",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 10,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-13",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 25,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-12-14",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 19,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-12-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-12-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-14",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 16,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 42,
+    "revenue_vat": 1980
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 25,
+    "revenue_vat": 1050
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 41,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 3,
+    "revenue_vat": 198
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 2,
+    "revenue_vat": 0.2
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-15",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1400
+  },
+  {
+    "date": "2025-12-16",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 31,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 40,
+    "revenue_vat": 1965
+  },
+  {
+    "date": "2025-12-16",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 46,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 20,
+    "revenue_vat": 1125
+  },
+  {
+    "date": "2025-12-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-12-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-12-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-16",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-12-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 33,
+    "revenue_vat": 1665
+  },
+  {
+    "date": "2025-12-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 835
+  },
+  {
+    "date": "2025-12-17",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2025-12-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-12-17",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-17",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 2,
+    "revenue_vat": 0.2
+  },
+  {
+    "date": "2025-12-18",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-18",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 25,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2025-12-18",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 19,
+    "revenue_vat": 1020
+  },
+  {
+    "date": "2025-12-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-12-18",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-12-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-18",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-12-18",
+    "type": "shipping",
+    "name": "GLS na adresu",
+    "count": 1,
+    "revenue_vat": 99
+  },
+  {
+    "date": "2025-12-18",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-18",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-18",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 500
+  },
+  {
+    "date": "2025-12-19",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 11,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-12-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-19",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 22,
+    "revenue_vat": 1230
+  },
+  {
+    "date": "2025-12-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-19",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-12-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 10,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-20",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 3,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2025-12-20",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 8,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-12-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-20",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2025-12-21",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 645
+  },
+  {
+    "date": "2025-12-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2025-12-21",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 4,
+    "revenue_vat": 0.4
+  },
+  {
+    "date": "2025-12-21",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "GLS na adresu",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-21",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-22",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2025-12-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 3,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2025-12-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 2,
+    "revenue_vat": 0.2
+  },
+  {
+    "date": "2025-12-22",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2025-12-22",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-22",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "shipping",
+    "name": "GLS na adresu",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-22",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-23",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 7,
+    "revenue_vat": 0.7
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
     "type": "shipping",
     "name": "PPL",
     "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 2,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
     "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-23",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-24",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-12-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 3,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 2,
+    "revenue_vat": 120
+  },
+  {
+    "date": "2025-12-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 4,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-12-24",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 2,
+    "revenue_vat": 150
+  },
+  {
+    "date": "2025-12-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-24",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-24",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 3,
+    "revenue_vat": 0.30000000000000004
+  },
+  {
+    "date": "2025-12-24",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2025-12-25",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-25",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 11,
+    "revenue_vat": 645
+  },
+  {
+    "date": "2025-12-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2025-12-25",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 9,
+    "revenue_vat": 415
+  },
+  {
+    "date": "2025-12-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-26",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 9,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-12-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-12-26",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 13,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2025-12-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-26",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-26",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-26",
+    "type": "shipping",
+    "name": "UPS Standard",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 13,
+    "revenue_vat": 400
+  },
+  {
+    "date": "2025-12-27",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 480
+  },
+  {
+    "date": "2025-12-27",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-12-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 275
+  },
+  {
+    "date": "2025-12-27",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-27",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-28",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 14,
+    "revenue_vat": 540
+  },
+  {
+    "date": "2025-12-28",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-28",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-12-28",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-28",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 10,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2025-12-28",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-28",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-28",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 2,
+    "revenue_vat": 108
+  },
+  {
+    "date": "2025-12-28",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-28",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 280
+  },
+  {
+    "date": "2025-12-29",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 28,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 825
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2025-12-29",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2025-12-29",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-29",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 100
+  },
+  {
+    "date": "2025-12-30",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2025-12-30",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 830
+  },
+  {
+    "date": "2025-12-30",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 220
+  },
+  {
+    "date": "2025-12-30",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 1230
+  },
+  {
+    "date": "2025-12-30",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2025-12-30",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-30",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2025-12-31",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 405
+  },
+  {
+    "date": "2025-12-31",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-31",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-31",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-31",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2025-12-31",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-31",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-31",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-31",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 5,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2025-12-31",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 6,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2025-12-31",
+    "type": "payment",
+    "name": "PayPal",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2025-12-31",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 3,
+    "revenue_vat": 70
+  },
+  {
+    "date": "2025-12-31",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2026-01-01",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2026-01-01",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 240
+  },
+  {
+    "date": "2026-01-01",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-01",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 1,
+    "revenue_vat": 75
+  },
+  {
+    "date": "2026-01-02",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 840
+  },
+  {
+    "date": "2026-01-02",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-02",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 19,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2026-01-02",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-02",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2026-01-02",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-02",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 485
+  },
+  {
+    "date": "2026-01-02",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-02",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-02",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-02",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-02",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-02",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-03",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 14,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2026-01-03",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 26,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-03",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 625
+  },
+  {
+    "date": "2026-01-03",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-03",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2026-01-03",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-03",
+    "type": "shipping",
+    "name": "Zaslání emailem (dárkové poukazy)",
+    "count": 1,
+    "revenue_vat": 0.1
+  },
+  {
+    "date": "2026-01-03",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-03",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 267
+  },
+  {
+    "date": "2026-01-03",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2026-01-03",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-03",
+    "type": "shipping",
+    "name": "GLS na adresu",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-04",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 17,
+    "revenue_vat": 695
+  },
+  {
+    "date": "2026-01-04",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-04",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-04",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2026-01-04",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-04",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2026-01-04",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 350
+  },
+  {
+    "date": "2026-01-04",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 3,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2026-01-04",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-04",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 89
+  },
+  {
+    "date": "2026-01-04",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-04",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 10,
+    "revenue_vat": 623
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 55,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 36,
+    "revenue_vat": 1262.5
+  },
+  {
+    "date": "2026-01-05",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 41,
+    "revenue_vat": 1900
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 35,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-05",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 129
+  },
+  {
+    "date": "2026-01-05",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-06",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1700
+  },
+  {
+    "date": "2026-01-06",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-06",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 267
+  },
+  {
+    "date": "2026-01-06",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-06",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 22,
+    "revenue_vat": 1120
+  },
+  {
+    "date": "2026-01-06",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-06",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-06",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 129
+  },
+  {
+    "date": "2026-01-06",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1410
+  },
+  {
+    "date": "2026-01-06",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 15,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2026-01-06",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-06",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-06",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-06",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 36,
+    "revenue_vat": 1680
+  },
+  {
+    "date": "2026-01-07",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 45,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 33,
+    "revenue_vat": 1895
+  },
+  {
+    "date": "2026-01-07",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 8,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2026-01-07",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 445
+  },
+  {
+    "date": "2026-01-07",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 13,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 22,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2026-01-07",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-07",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 89
+  },
+  {
+    "date": "2026-01-08",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-08",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-08",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 25,
+    "revenue_vat": 1380
+  },
+  {
+    "date": "2026-01-08",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-08",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 38,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-08",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 21,
+    "revenue_vat": 840
+  },
+  {
+    "date": "2026-01-08",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2026-01-08",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 30,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2026-01-08",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 356
+  },
+  {
+    "date": "2026-01-08",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-08",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-08",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-08",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-08",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2026-01-09",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 15,
+    "revenue_vat": 835
+  },
+  {
+    "date": "2026-01-09",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-09",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2026-01-09",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-09",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-09",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 25,
+    "revenue_vat": 1400
+  },
+  {
+    "date": "2026-01-09",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 356
+  },
+  {
+    "date": "2026-01-09",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2026-01-09",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-09",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-09",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-09",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-09",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-09",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2026-01-10",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 8,
+    "revenue_vat": 200
+  },
+  {
+    "date": "2026-01-10",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2026-01-10",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 8,
+    "revenue_vat": 480
+  },
+  {
+    "date": "2026-01-10",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-10",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-11",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 18,
+    "revenue_vat": 960
+  },
+  {
+    "date": "2026-01-11",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-11",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-11",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-11",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 16,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2026-01-11",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 12,
+    "revenue_vat": 1000
+  },
+  {
+    "date": "2026-01-11",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 267
+  },
+  {
+    "date": "2026-01-11",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 765
+  },
+  {
+    "date": "2026-01-11",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-11",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1600
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 23,
+    "revenue_vat": 840
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 15,
+    "revenue_vat": 630.31
+  },
+  {
+    "date": "2026-01-12",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 19,
+    "revenue_vat": 975
+  },
+  {
+    "date": "2026-01-12",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1367.5
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-12",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 15,
+    "revenue_vat": 894
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 40,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 37,
+    "revenue_vat": 1260
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 64,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 21,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 34,
+    "revenue_vat": 1622.07
+  },
+  {
+    "date": "2026-01-13",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 36,
+    "revenue_vat": 1600
+  },
+  {
+    "date": "2026-01-13",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 750
+  },
+  {
+    "date": "2026-01-13",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-13",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 895
+  },
+  {
+    "date": "2026-01-14",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 37,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 178
+  },
+  {
+    "date": "2026-01-14",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1607.5
+  },
+  {
+    "date": "2026-01-14",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 17,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2026-01-14",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 11,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-14",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 31,
+    "revenue_vat": 1300
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 12,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 1140
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 29,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 275
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 13,
+    "revenue_vat": 770
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 6,
+    "revenue_vat": 267
+  },
+  {
+    "date": "2026-01-15",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-15",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 18,
+    "revenue_vat": 840
+  },
+  {
+    "date": "2026-01-16",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 900
+  },
+  {
+    "date": "2026-01-16",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 12,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2026-01-16",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 885
+  },
+  {
+    "date": "2026-01-16",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 16,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 6,
+    "revenue_vat": 450
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 267
+  },
+  {
+    "date": "2026-01-16",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2026-01-16",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2026-01-17",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 6,
+    "revenue_vat": 210
+  },
+  {
+    "date": "2026-01-17",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-17",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2026-01-17",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-17",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2026-01-17",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-17",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 14,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-17",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 4,
+    "revenue_vat": 89
+  },
+  {
+    "date": "2026-01-17",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 4,
+    "revenue_vat": 140
+  },
+  {
+    "date": "2026-01-17",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-17",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-17",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2026-01-17",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-18",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 14,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2026-01-18",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-18",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 15,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2026-01-18",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-18",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 20,
+    "revenue_vat": 842.5
+  },
+  {
+    "date": "2026-01-18",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-18",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 3,
+    "revenue_vat": 178
+  },
+  {
+    "date": "2026-01-18",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 10,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2026-01-18",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2026-01-18",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-18",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-18",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-18",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-18",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2026-01-18",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 445
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 50,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 31,
+    "revenue_vat": 1545
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 51,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 25,
+    "revenue_vat": 1190
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 26,
+    "revenue_vat": 800
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 26,
+    "revenue_vat": 905
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 20,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 6,
+    "revenue_vat": 475
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 2,
+    "revenue_vat": 129
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 9,
+    "revenue_vat": 375
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-19",
+    "type": "shipping",
+    "name": "GLS na adresu",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 37,
+    "revenue_vat": 1495
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 48,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 29,
+    "revenue_vat": 1545
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 23,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 15,
+    "revenue_vat": 770
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 28,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 13,
+    "revenue_vat": 890
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 4,
+    "revenue_vat": 285
+  },
+  {
+    "date": "2026-01-20",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-20",
+    "type": "payment",
+    "name": "Klarna Zaplať později",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 32,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 32,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 30,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 44,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 7,
+    "revenue_vat": 89
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 16,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 12,
+    "revenue_vat": 525
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 610
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 11,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 9,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 3,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 129
+  },
+  {
+    "date": "2026-01-21",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-21",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 22,
+    "revenue_vat": 1050
+  },
+  {
+    "date": "2026-01-22",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 15,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 13,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2026-01-22",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 20,
+    "revenue_vat": 1095
+  },
+  {
+    "date": "2026-01-22",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 18,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 33,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 445
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 11,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-22",
+    "type": "shipping",
+    "name": "GLS na adresu",
+    "count": 1,
+    "revenue_vat": 99
+  },
+  {
+    "date": "2026-01-22",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 18,
+    "revenue_vat": 595
+  },
+  {
+    "date": "2026-01-23",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 15,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 16,
+    "revenue_vat": 780
+  },
+  {
+    "date": "2026-01-23",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 23,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 7,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 19,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 5,
+    "revenue_vat": 178
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 10,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2026-01-23",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 7,
+    "revenue_vat": 420
+  },
+  {
+    "date": "2026-01-23",
+    "type": "payment",
+    "name": "PlatímPak – platba až za 30 dnů",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 129
+  },
+  {
+    "date": "2026-01-23",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-23",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 15,
+    "revenue_vat": 705
+  },
+  {
+    "date": "2026-01-24",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 24,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 14,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2026-01-24",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 16,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2026-01-24",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 22,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 10,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2026-01-24",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2026-01-24",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 4,
+    "revenue_vat": 225
+  },
+  {
+    "date": "2026-01-24",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-24",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 1,
+    "revenue_vat": 89
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 19,
+    "revenue_vat": 840
+  },
+  {
+    "date": "2026-01-25",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 34,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 8,
+    "revenue_vat": 356
+  },
+  {
+    "date": "2026-01-25",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 10,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 23,
+    "revenue_vat": 1185
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 23,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2026-01-25",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 30,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 7,
+    "revenue_vat": 300
+  },
+  {
+    "date": "2026-01-25",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 13,
+    "revenue_vat": 700
+  },
+  {
+    "date": "2026-01-25",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 2,
+    "revenue_vat": 95
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "Balíkovna plus",
+    "count": 1,
+    "revenue_vat": 129
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-25",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-25",
+    "type": "shipping",
+    "name": "BASE",
+    "count": 1,
+    "revenue_vat": 49
+  },
+  {
+    "date": "2026-01-26",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 28,
+    "revenue_vat": 1200
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Dobírkou",
+    "count": 43,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "shipping",
+    "name": "DPD",
+    "count": 3,
+    "revenue_vat": 190
+  },
+  {
+    "date": "2026-01-26",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 34,
+    "revenue_vat": 1400
+  },
+  {
+    "date": "2026-01-26",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 8,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Neznámo",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 9,
+    "revenue_vat": 534
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 16,
+    "revenue_vat": 630
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 17,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 11,
+    "revenue_vat": 490
+  },
+  {
+    "date": "2026-01-26",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 600
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Hotově",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Klarna Zaplať ve 3 platbách",
+    "count": 1,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-26",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-27",
+    "type": "shipping",
+    "name": "PPL - Výdejní místo",
+    "count": 24,
+    "revenue_vat": 760
   },
   {
     "date": "2026-01-27",
     "type": "payment",
     "name": "Dobírkou",
+    "count": 39,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-27",
+    "type": "shipping",
+    "name": "PPL",
+    "count": 29,
+    "revenue_vat": 1100
+  },
+  {
+    "date": "2026-01-27",
+    "type": "payment",
+    "name": "Apple Pay",
+    "count": 36,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-27",
+    "type": "shipping",
+    "name": "GLS ParcelShop",
+    "count": 21,
+    "revenue_vat": 962.5
+  },
+  {
+    "date": "2026-01-27",
+    "type": "shipping",
+    "name": "Balíkovna",
+    "count": 10,
+    "revenue_vat": 675
+  },
+  {
+    "date": "2026-01-27",
+    "type": "payment",
+    "name": "Online platba kartou",
+    "count": 27,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-27",
+    "type": "shipping",
+    "name": "Osobní odběr",
+    "count": 6,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-27",
+    "type": "payment",
+    "name": "Platba kartou při osobním odběru",
+    "count": 2,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-27",
+    "type": "payment",
+    "name": "Převodem",
+    "count": 5,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-27",
+    "type": "shipping",
+    "name": "GLS",
+    "count": 12,
+    "revenue_vat": 449
+  },
+  {
+    "date": "2026-01-27",
+    "type": "shipping",
+    "name": "DPD Pickup + Zásilkovna",
+    "count": 11,
+    "revenue_vat": 560
+  },
+  {
+    "date": "2026-01-27",
+    "type": "payment",
+    "name": "Google Pay",
+    "count": 4,
+    "revenue_vat": 0
+  },
+  {
+    "date": "2026-01-27",
+    "type": "payment",
+    "name": "Neznámo",
     "count": 2,
     "revenue_vat": 0
   },
@@ -63,22 +42112,8 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2026-01-27",
     "type": "shipping",
     "name": "DPD",
-    "count": 1,
-    "revenue_vat": 0
-  },
-  {
-    "date": "2026-01-27",
-    "type": "payment",
-    "name": "Apple Pay",
-    "count": 1,
-    "revenue_vat": 0
-  },
-  {
-    "date": "2026-01-27",
-    "type": "shipping",
-    "name": "PPL - Výdejní místo",
-    "count": 1,
-    "revenue_vat": 0
+    "count": 2,
+    "revenue_vat": 95
   },
   {
     "date": "2026-01-28",
@@ -2506,8 +44541,8 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2026-02-18",
     "type": "shipping",
     "name": "DPD Pickup + Zásilkovna",
-    "count": 44,
-    "revenue_vat": 1666
+    "count": 45,
+    "revenue_vat": 1715
   },
   {
     "date": "2026-02-18",
@@ -2541,7 +44576,7 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2026-02-18",
     "type": "payment",
     "name": "Online platba kartou",
-    "count": 25,
+    "count": 26,
     "revenue_vat": 0
   },
   {
@@ -9646,22 +51681,22 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2026-04-18",
     "type": "shipping",
     "name": "PPL - Výdejní místo",
-    "count": 1,
-    "revenue_vat": 70
+    "count": 3,
+    "revenue_vat": 140
   },
   {
     "date": "2026-04-18",
     "type": "payment",
     "name": "Dobírkou",
-    "count": 6,
+    "count": 7,
     "revenue_vat": 0
   },
   {
     "date": "2026-04-18",
     "type": "shipping",
     "name": "PPL",
-    "count": 7,
-    "revenue_vat": 380
+    "count": 9,
+    "revenue_vat": 475
   },
   {
     "date": "2026-04-18",
@@ -9674,15 +51709,15 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2026-04-18",
     "type": "payment",
     "name": "Apple Pay",
-    "count": 8,
+    "count": 13,
     "revenue_vat": 0
   },
   {
     "date": "2026-04-18",
     "type": "shipping",
     "name": "GLS ParcelShop",
-    "count": 5,
-    "revenue_vat": 255
+    "count": 6,
+    "revenue_vat": 320
   },
   {
     "date": "2026-04-18",
@@ -9695,7 +51730,7 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2026-04-18",
     "type": "shipping",
     "name": "DPD Pickup + Zásilkovna",
-    "count": 1,
+    "count": 2,
     "revenue_vat": 73
   },
   {
@@ -9709,8 +51744,8 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2026-04-18",
     "type": "shipping",
     "name": "Balíkovna",
-    "count": 3,
-    "revenue_vat": 225
+    "count": 4,
+    "revenue_vat": 300
   },
   {
     "date": "2026-04-18",
@@ -9730,7 +51765,7 @@ export const shippingPaymentDataCZ: ShippingPaymentRecord[] = [
     "date": "2026-04-18",
     "type": "payment",
     "name": "Převodem",
-    "count": 1,
+    "count": 2,
     "revenue_vat": 0
   }
 ];

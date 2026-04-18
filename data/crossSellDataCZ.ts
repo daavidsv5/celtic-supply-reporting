@@ -15,608 +15,608 @@ export interface CrossSellData {
 }
 
 export const crossSellDataCZ: CrossSellData = {
-  "totalOrders": 7864,
-  "multiItemOrders": 6027,
+  "totalOrders": 40389,
+  "multiItemOrders": 31891,
   "pairs": [
     {
       "productA": "Kwadron Round Liner Long Taper",
       "productB": "Kwadron Round Liner Long Taper",
-      "count": 2195,
-      "pct": 27.912004069175993
+      "count": 10846,
+      "pct": 26.85384634430167
     },
     {
       "productA": "Kwadron Round Liner Long Taper",
       "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "count": 1465,
-      "pct": 18.629196337741607
-    },
-    {
-      "productA": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "count": 939,
-      "pct": 11.940488301119023
+      "count": 7090,
+      "pct": 17.554284582435812
     },
     {
       "productA": "Elite III Round Liner",
       "productB": "Elite III Round Liner",
-      "count": 917,
-      "pct": 11.660732451678534
-    },
-    {
-      "productA": "Elite III Bugpin Round Liner",
-      "productB": "Elite III Bugpin Round Liner",
-      "count": 843,
-      "pct": 10.719735503560528
+      "count": 5360,
+      "pct": 13.270940107455
     },
     {
       "productA": "Bishop DaVinci V2 Liner",
       "productB": "Bishop DaVinci V2 Liner",
-      "count": 820,
-      "pct": 10.427263479145472
-    },
-    {
-      "productA": "Ochranná páska na grip - omotávka",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 769,
-      "pct": 9.778738555442523
+      "count": 4963,
+      "pct": 12.287999207705068
     },
     {
       "productA": "Elite III Bugpin Round Liner",
-      "productB": "Elite III Curved Magnum Medium Taper (Soft Edge)",
-      "count": 628,
-      "pct": 7.985757884028484
+      "productB": "Elite III Bugpin Round Liner",
+      "count": 4848,
+      "pct": 12.003268216593627
     },
     {
-      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
-      "productB": "Elite III Curved Magnum Medium Taper (Soft Edge)",
-      "count": 609,
-      "pct": 7.7441505595116995
+      "productA": "Kwadron Soft Edge kulaté stínovací Long taper",
+      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
+      "count": 4720,
+      "pct": 11.686350243878284
     },
     {
       "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
       "productB": "Elite III Round Liner",
-      "count": 557,
-      "pct": 7.082909460834181
+      "count": 3914,
+      "pct": 9.690757384436356
     },
     {
-      "productA": "Bishop DaVinci V2 Curved Magnum",
-      "productB": "Bishop DaVinci V2 Liner",
-      "count": 555,
-      "pct": 7.057477110885045
+      "productA": "ELITE Infini Round Liner",
+      "productB": "ELITE Infini Round Liner",
+      "count": 3832,
+      "pct": 9.48773180816559
     },
     {
-      "productA": "Kwadron cartridge PMU Optima Liner",
-      "productB": "Kwadron cartridge PMU Optima Liner",
-      "count": 496,
-      "pct": 6.3072227873855535
+      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
+      "productB": "Elite III Curved Magnum Medium Taper (Soft Edge)",
+      "count": 3830,
+      "pct": 9.482779964841912
+    },
+    {
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Elite III Curved Magnum Medium Taper (Soft Edge)",
+      "count": 3627,
+      "pct": 8.980167867488673
     },
     {
       "productA": "Dragonhawk YUE Round Liner",
       "productB": "Dragonhawk YUE Round Liner",
-      "count": 495,
-      "pct": 6.294506612410987
-    },
-    {
-      "productA": "PEPAX LANCE Round Liner",
-      "productB": "PEPAX LANCE Round Liner",
-      "count": 448,
-      "pct": 5.696846388606307
-    },
-    {
-      "productA": "Elite III Bugpin Round Liner",
-      "productB": "Elite III Round Shader",
-      "count": 446,
-      "pct": 5.671414038657172
-    },
-    {
-      "productA": "ELITE Infini Round Liner",
-      "productB": "ELITE Infini Round Liner",
-      "count": 439,
-      "pct": 5.582400813835198
-    },
-    {
-      "productA": "Elite III Round Liner",
-      "productB": "Elite III Round Shader",
-      "count": 423,
-      "pct": 5.378942014242116
+      "count": 3456,
+      "pct": 8.55678526331427
     },
     {
       "productA": "Kwadron Round Liner Long Taper",
       "productB": "Kwadron Round Shader Long Taper",
-      "count": 405,
-      "pct": 5.150050864699899
+      "count": 3309,
+      "pct": 8.192824779023992
+    },
+    {
+      "productA": "Elite III Round Liner",
+      "productB": "Elite III Round Shader",
+      "count": 2905,
+      "pct": 7.19255242764119
+    },
+    {
+      "productA": "Kwadron cartridge PMU Optima Liner",
+      "productB": "Kwadron cartridge PMU Optima Liner",
+      "count": 2594,
+      "pct": 6.4225407908093795
+    },
+    {
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Elite III Round Shader",
+      "count": 2576,
+      "pct": 6.377974200896283
+    },
+    {
+      "productA": "Ochranná páska na grip - omotávka",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 2549,
+      "pct": 6.311124316026641
+    },
+    {
+      "productA": "Bishop DaVinci V2 Curved Magnum",
+      "productB": "Bishop DaVinci V2 Liner",
+      "count": 2528,
+      "pct": 6.259129961128029
     },
     {
       "productA": "Cheyenne Safety Liner - Linkovací cartridge",
       "productB": "Cheyenne Safety Liner - Linkovací cartridge",
-      "count": 398,
-      "pct": 5.061037639877925
-    },
-    {
-      "productA": "Kwadron Round Liner Long Taper",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 395,
-      "pct": 5.022889114954221
-    },
-    {
-      "productA": "Elite III Bugpin Round Liner",
-      "productB": "Elite III Round Liner",
-      "count": 367,
-      "pct": 4.6668362156663274
-    },
-    {
-      "productA": "Cartridge Mast Ocean Heart",
-      "productB": "Cartridge Mast Ocean Heart",
-      "count": 341,
-      "pct": 4.336215666327568
-    },
-    {
-      "productA": "Kwadron Round Shader Long Taper",
-      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "count": 341,
-      "pct": 4.336215666327568
-    },
-    {
-      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
-      "productB": "Elite III Round Shader",
-      "count": 306,
-      "pct": 3.8911495422177005
+      "count": 2509,
+      "pct": 6.212087449553096
     },
     {
       "productA": "Kwadron Magnum Long Taper",
       "productB": "Kwadron Round Liner Long Taper",
-      "count": 304,
-      "pct": 3.8657171922685656
+      "count": 2397,
+      "pct": 5.9347842234271715
     },
     {
-      "productA": "Elite III Round Shader",
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Elite III Round Liner",
+      "count": 2342,
+      "pct": 5.798608532026046
+    },
+    {
+      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
       "productB": "Elite III Round Shader",
-      "count": 289,
-      "pct": 3.6749745676500507
+      "count": 2320,
+      "pct": 5.7441382554655975
     },
     {
-      "productA": "AVA Arrow Cartridge Round Liner",
-      "productB": "AVA Arrow Cartridge Round Liner",
-      "count": 288,
-      "pct": 3.6622583926754833
-    },
-    {
-      "productA": "Bishop DaVinci V2 Liner",
-      "productB": "Bishop DaVinci V2 Round Shader",
-      "count": 288,
-      "pct": 3.6622583926754833
-    },
-    {
-      "productA": "Elite III Bugpin Round Liner",
-      "productB": "Elite III Magnum",
-      "count": 271,
-      "pct": 3.446083418107833
-    },
-    {
-      "productA": "Elite III Bugpin Round Liner",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 266,
-      "pct": 3.382502543234995
+      "productA": "Kwadron Round Shader Long Taper",
+      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
+      "count": 2253,
+      "pct": 5.578251504122409
     },
     {
       "productA": "Emalla Eliot Pro Cartridge Round Liner",
       "productB": "Emalla Eliot Pro Cartridge Round Liner",
-      "count": 250,
-      "pct": 3.1790437436419126
+      "count": 2041,
+      "pct": 5.053356111812622
     },
     {
-      "productA": "Kwadron Round Liner Medium Taper",
-      "productB": "Kwadron Round Liner Medium Taper",
-      "count": 248,
-      "pct": 3.1536113936927768
+      "productA": "Kwadron Round Liner Long Taper",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 1989,
+      "pct": 4.924608185397014
     },
     {
-      "productA": "Bishop DaVinci V2 Curved Magnum",
-      "productB": "Bishop DaVinci V2 Curved Magnum",
-      "count": 244,
-      "pct": 3.1027466937945065
+      "productA": "PEPAX LANCE Round Liner",
+      "productB": "PEPAX LANCE Round Liner",
+      "count": 1875,
+      "pct": 4.642353115947411
     },
     {
       "productA": "Elite III Magnum",
       "productB": "Elite III Round Liner",
-      "count": 231,
-      "pct": 2.937436419125127
+      "count": 1686,
+      "pct": 4.174403921859912
     },
     {
-      "productA": "Elite III Magnum",
-      "productB": "Elite III Magnum",
-      "count": 227,
-      "pct": 2.8865717192268563
+      "productA": "Bishop DaVinci V2 Liner",
+      "productB": "Bishop DaVinci V2 Round Shader",
+      "count": 1681,
+      "pct": 4.162024313550719
+    },
+    {
+      "productA": "Elite III Round Shader",
+      "productB": "Elite III Round Shader",
+      "count": 1630,
+      "pct": 4.03575230879695
     },
     {
       "productA": "Kwadron Round Shader Long Taper",
       "productB": "Kwadron Round Shader Long Taper",
-      "count": 222,
-      "pct": 2.822990844354018
+      "count": 1569,
+      "pct": 3.884721087424794
     },
     {
-      "productA": "Elite III Magnum",
-      "productB": "Elite III Round Shader",
-      "count": 216,
-      "pct": 2.746693794506612
-    },
-    {
-      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 211,
-      "pct": 2.683112919633774
-    },
-    {
-      "productA": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 210,
-      "pct": 2.6703967446592065
+      "productA": "Cartridge Mast Ocean Heart",
+      "productB": "Cartridge Mast Ocean Heart",
+      "count": 1549,
+      "pct": 3.8352026541880213
     },
     {
       "productA": "EZ INkin REVO Round Liner",
       "productB": "EZ INkin REVO Round Liner",
-      "count": 208,
-      "pct": 2.644964394710071
-    },
-    {
-      "productA": "Mosquito kanyla - samouvolňovací 1ks",
-      "productB": "Mosquito kanyla - samouvolňovací 1ks",
-      "count": 200,
-      "pct": 2.5432349949135302
-    },
-    {
-      "productA": "Bishop DaVinci V2 Curved Magnum",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 191,
-      "pct": 2.428789420142421
-    },
-    {
-      "productA": "Cheyenne Safety Liner - Linkovací cartridge",
-      "productB": "Cheyenne Safety Soft Edge zakulacená špička plochá",
-      "count": 191,
-      "pct": 2.428789420142421
-    },
-    {
-      "productA": "Dřevěné špachtle lžičky do úst, 100ks",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 164,
-      "pct": 2.0854526958290944
-    },
-    {
-      "productA": "Piranha linkovací jehly Round Liner - 5ks",
-      "productB": "Piranha linkovací jehly Round Liner - 5ks",
-      "count": 164,
-      "pct": 2.0854526958290944
-    },
-    {
-      "productA": "Jednorázová podložka na pracovní plochu, mix barev 50ks",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 162,
-      "pct": 2.060020345879959
-    },
-    {
-      "productA": "Kopírovací papír ReproFX Spirit THERMAL do termokopírky",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 159,
-      "pct": 2.0218718209562563
-    },
-    {
-      "productA": "AVA Arrow Cartridge Round Liner",
-      "productB": "AVA Arrow Cartridge Round Shader",
-      "count": 158,
-      "pct": 2.0091556459816884
-    },
-    {
-      "productA": "Cheyenne Safety Liner - Linkovací cartridge",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 154,
-      "pct": 1.9582909460834181
-    },
-    {
-      "productA": "Jednorázová podložka na pracovní plochu, mix barev 50ks",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 149,
-      "pct": 1.89471007121058
-    },
-    {
-      "productA": "EZ INkin REVO Round Liner",
-      "productB": "EZ INkin REVO Round Shader",
-      "count": 148,
-      "pct": 1.8819938962360123
-    },
-    {
-      "productA": "Kalíšky na barvy - inkcupy",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 144,
-      "pct": 1.8311291963377416
-    },
-    {
-      "productA": "Kalíšky na barvy - inkcupy",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 143,
-      "pct": 1.818413021363174
-    },
-    {
-      "productA": "Bishop DaVinci V2 Liner",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 142,
-      "pct": 1.8056968463886065
-    },
-    {
-      "productA": "Dragonhawk YUE Round Liner",
-      "productB": "Dragonhawk YUE Round Magnum",
-      "count": 140,
-      "pct": 1.780264496439471
-    },
-    {
-      "productA": "Elite III Round Liner",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 138,
-      "pct": 1.7548321464903358
-    },
-    {
-      "productA": "Bishop DaVinci V2 Liner",
-      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "count": 132,
-      "pct": 1.6785350966429298
-    },
-    {
-      "productA": "Kwadron Magnum Long Taper",
-      "productB": "Kwadron Magnum Long Taper",
-      "count": 132,
-      "pct": 1.6785350966429298
-    },
-    {
-      "productA": "Dřevěné špachtle lžičky do úst, 100ks",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 130,
-      "pct": 1.6531027466937944
-    },
-    {
-      "productA": "Fólie potravinářská",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 129,
-      "pct": 1.6403865717192267
-    },
-    {
-      "productA": "Kalíšky na barvy - inkcupy",
-      "productB": "Kalíšky na barvy - inkcupy",
-      "count": 129,
-      "pct": 1.6403865717192267
-    },
-    {
-      "productA": "ELITE Infini Closed Curved Magnum Bugpin (SoftEdge)",
-      "productB": "ELITE Infini Round Liner",
-      "count": 128,
-      "pct": 1.627670396744659
+      "count": 1475,
+      "pct": 3.6519844512119635
     },
     {
       "productA": "CRAFT Liner linkovací cartridge",
       "productB": "CRAFT Liner linkovací cartridge",
-      "count": 127,
-      "pct": 1.6149542217700916
-    },
-    {
-      "productA": "Bishop DaVinci V2 Curved Magnum",
-      "productB": "Bishop DaVinci V2 Round Shader",
-      "count": 125,
-      "pct": 1.5895218718209563
-    },
-    {
-      "productA": "Jednorázové nitrilové rukavice Uniprotect Black",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 124,
-      "pct": 1.5768056968463884
-    },
-    {
-      "productA": "Kopírovací papír ReproFX Spirit THERMAL do termokopírky",
-      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "count": 123,
-      "pct": 1.564089521871821
-    },
-    {
-      "productA": "Kalíšky na barvy - inkcupy",
-      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "count": 123,
-      "pct": 1.564089521871821
-    },
-    {
-      "productA": "Kwadron Round Liner Long Taper",
-      "productB": "Unistar - hojivá fólie (náplast) v roli 10m x 15cm",
-      "count": 121,
-      "pct": 1.5386571719226856
-    },
-    {
-      "productA": "Bishop DaVinci V2 Liner",
-      "productB": "Elite III Round Liner",
-      "count": 121,
-      "pct": 1.5386571719226856
-    },
-    {
-      "productA": "Prime+ Cartridge - Round Liner",
-      "productB": "Prime+ Cartridge - Round Liner",
-      "count": 119,
-      "pct": 1.5132248219735502
-    },
-    {
-      "productA": "Cheyenne Safety Soft Edge zakulacená špička plochá",
-      "productB": "Cheyenne Safety Soft Edge zakulacená špička plochá",
-      "count": 118,
-      "pct": 1.5005086469989828
-    },
-    {
-      "productA": "Jednorázové nitrilové rukavice Uniprotect Black",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 117,
-      "pct": 1.487792472024415
-    },
-    {
-      "productA": "Kwadron Round Liner Long Taper",
-      "productB": "Kwadron Round Liner Medium Taper",
-      "count": 116,
-      "pct": 1.4750762970498474
-    },
-    {
-      "productA": "Cheyenne Safety Liner - Linkovací cartridge",
-      "productB": "Cheyenne Safety Shader stínovací jehly na detailní stíny",
-      "count": 116,
-      "pct": 1.4750762970498474
-    },
-    {
-      "productA": "Bishop DaVinci V2 Liner",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 113,
-      "pct": 1.4369277721261444
-    },
-    {
-      "productA": "Kwadron Magnum Medium Taper",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 112,
-      "pct": 1.4242115971515767
-    },
-    {
-      "productA": "Dřevěné špachtle lžičky do úst, 100ks",
-      "productB": "Elite III Round Liner",
-      "count": 112,
-      "pct": 1.4242115971515767
-    },
-    {
-      "productA": "AVA Arrow Cartridge Magnum",
-      "productB": "AVA Arrow Cartridge Round Liner",
-      "count": 110,
-      "pct": 1.3987792472024414
-    },
-    {
-      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 110,
-      "pct": 1.3987792472024414
-    },
-    {
-      "productA": "EZ INkin REVO Magnum",
-      "productB": "EZ INkin REVO Round Liner",
-      "count": 110,
-      "pct": 1.3987792472024414
-    },
-    {
-      "productA": "Cartridge Mast Ocean Heart",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 109,
-      "pct": 1.386063072227874
-    },
-    {
-      "productA": "PEPAX LANCE Curved Magnum",
-      "productB": "PEPAX LANCE Round Liner",
-      "count": 109,
-      "pct": 1.386063072227874
-    },
-    {
-      "productA": "Bishop DaVinci V2 Liner",
-      "productB": "Bishop DaVinci V2 Magnum",
-      "count": 107,
-      "pct": 1.3606307222787386
+      "count": 1471,
+      "pct": 3.642080764564609
     },
     {
       "productA": "Elite III Bugpin Round Liner",
-      "productB": "Kalíšky na barvy - inkcupy",
-      "count": 104,
-      "pct": 1.3224821973550356
+      "productB": "Elite III Magnum",
+      "count": 1439,
+      "pct": 3.562851271385773
+    },
+    {
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 1286,
+      "pct": 3.1840352571244646
+    },
+    {
+      "productA": "Elite III Magnum",
+      "productB": "Elite III Magnum",
+      "count": 1267,
+      "pct": 3.136992745549531
+    },
+    {
+      "productA": "Cheyenne Safety Liner - Linkovací cartridge",
+      "productB": "Cheyenne Safety Soft Edge zakulacená špička plochá",
+      "count": 1178,
+      "pct": 2.9166357176458937
+    },
+    {
+      "productA": "Elite III Magnum",
+      "productB": "Elite III Round Shader",
+      "count": 1132,
+      "pct": 2.802743321201317
+    },
+    {
+      "productA": "Kwadron Soft Edge kulaté stínovací Long taper",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 1132,
+      "pct": 2.802743321201317
+    },
+    {
+      "productA": "Mosquito kanyla - samouvolňovací 1ks",
+      "productB": "Mosquito kanyla - samouvolňovací 1ks",
+      "count": 1121,
+      "pct": 2.7755081829210924
     },
     {
       "productA": "ELITE Infini Round Liner",
       "productB": "ELITE Infini Round Shader",
-      "count": 103,
-      "pct": 1.309766022380468
+      "count": 1086,
+      "pct": 2.6888509247567405
     },
     {
-      "productA": "Dřevěné špachtle lžičky do úst, 100ks",
-      "productB": "Elite III Bugpin Round Liner",
-      "count": 101,
-      "pct": 1.2843336724313326
-    },
-    {
-      "productA": "AVA Arrow Cartridge Curved Magnum",
-      "productB": "AVA Arrow Cartridge Round Liner",
-      "count": 101,
-      "pct": 1.2843336724313326
-    },
-    {
-      "productA": "Dragonhawk YUE Round Liner",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 101,
-      "pct": 1.2843336724313326
-    },
-    {
-      "productA": "Fólie potravinářská",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 100,
-      "pct": 1.2716174974567651
-    },
-    {
-      "productA": "Kwadron Round Liner Long Taper",
-      "productB": "Kwadron cartridge PMU Optima Liner",
-      "count": 100,
-      "pct": 1.2716174974567651
-    },
-    {
-      "productA": "Elite III Bugpin Round Liner",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 99,
-      "pct": 1.2589013224821972
-    },
-    {
-      "productA": "3M Transpore lepicí páska, 2,5cm x 9,15m",
-      "productB": "Ochranná páska na grip - omotávka",
-      "count": 99,
-      "pct": 1.2589013224821972
+      "productA": "Bishop DaVinci V2 Curved Magnum",
+      "productB": "Bishop DaVinci V2 Curved Magnum",
+      "count": 1070,
+      "pct": 2.649236178167323
     },
     {
       "productA": "Kwadron Round Liner Medium Taper",
-      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "count": 95,
-      "pct": 1.2080366225839267
+      "productB": "Kwadron Round Liner Medium Taper",
+      "count": 1061,
+      "pct": 2.626952883210775
+    },
+    {
+      "productA": "Piranha linkovací jehly Round Liner - 5ks",
+      "productB": "Piranha linkovací jehly Round Liner - 5ks",
+      "count": 1051,
+      "pct": 2.602193666592389
+    },
+    {
+      "productA": "Elite III Round Liner",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 1010,
+      "pct": 2.500680878457006
+    },
+    {
+      "productA": "Kwadron Magnum Long Taper",
+      "productB": "Kwadron Magnum Long Taper",
+      "count": 1001,
+      "pct": 2.478397583500458
+    },
+    {
+      "productA": "Dragonhawk YUE Round Liner",
+      "productB": "Dragonhawk YUE Round Magnum",
+      "count": 996,
+      "pct": 2.466017975191265
+    },
+    {
+      "productA": "Bishop DaVinci V2 Liner",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 987,
+      "pct": 2.4437346802347175
+    },
+    {
+      "productA": "Bishop DaVinci V2 Liner",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 945,
+      "pct": 2.3397459704374954
+    },
+    {
+      "productA": "Kopírovací papír ReproFX Spirit THERMAL do termokopírky",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 944,
+      "pct": 2.3372700487756566
+    },
+    {
+      "productA": "ELITE Infini Closed Curved Magnum Bugpin (SoftEdge)",
+      "productB": "ELITE Infini Round Liner",
+      "count": 931,
+      "pct": 2.3050830671717546
+    },
+    {
+      "productA": "Bishop DaVinci V2 Liner",
+      "productB": "Bishop DaVinci V2 Magnum",
+      "count": 920,
+      "pct": 2.27784792889153
+    },
+    {
+      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 898,
+      "pct": 2.22337765233108
+    },
+    {
+      "productA": "Jednorázová podložka na pracovní plochu, mix barev 50ks",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 858,
+      "pct": 2.1243407858575356
+    },
+    {
+      "productA": "Kalíšky na barvy - inkcupy",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 851,
+      "pct": 2.1070093342246654
+    },
+    {
+      "productA": "Kalíšky na barvy - inkcupy",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 822,
+      "pct": 2.0352076060313453
     },
     {
       "productA": "Emalla Eliot Pro Cartridge Curved Magnum",
       "productB": "Emalla Eliot Pro Cartridge Round Liner",
-      "count": 95,
-      "pct": 1.2080366225839267
+      "count": 813,
+      "pct": 2.0129243110747974
     },
     {
-      "productA": "Ochranná páska na grip - omotávka",
-      "productB": "PEPAX LANCE Round Liner",
-      "count": 94,
-      "pct": 1.1953204476093593
+      "productA": "Jednorázová podložka na pracovní plochu, mix barev 50ks",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 793,
+      "pct": 1.9634058778380252
     },
     {
-      "productA": "ELITE Infini Round Liner",
+      "productA": "Bishop DaVinci V2 Liner",
       "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "count": 93,
-      "pct": 1.1826042726347914
+      "count": 781,
+      "pct": 1.9336948178959616
+    },
+    {
+      "productA": "Kalíšky na barvy - inkcupy",
+      "productB": "Kalíšky na barvy - inkcupy",
+      "count": 743,
+      "pct": 1.8396097947460943
+    },
+    {
+      "productA": "Kwadron Round Liner Long Taper",
+      "productB": "Unistar - hojivá fólie (náplast) v roli 10m x 15cm",
+      "count": 721,
+      "pct": 1.7851395181856446
+    },
+    {
+      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
+      "productB": "Elite III Magnum",
+      "count": 713,
+      "pct": 1.7653321448909358
+    },
+    {
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 708,
+      "pct": 1.7529525365817427
+    },
+    {
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Kalíšky na barvy - inkcupy",
+      "count": 704,
+      "pct": 1.743048849934388
+    },
+    {
+      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 699,
+      "pct": 1.7306692416251948
+    },
+    {
+      "productA": "Jednorázové nitrilové rukavice Uniprotect Black",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 693,
+      "pct": 1.7158137116541632
+    },
+    {
+      "productA": "Kwadron Magnum Long Taper",
+      "productB": "Kwadron Round Shader Long Taper",
+      "count": 685,
+      "pct": 1.6960063383594544
+    },
+    {
+      "productA": "Jednorázové nitrilové rukavice Uniprotect Black",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 683,
+      "pct": 1.691054495035777
+    },
+    {
+      "productA": "Kwadron Round Liner Long Taper",
+      "productB": "Kwadron cartridge PMU Optima Liner",
+      "count": 678,
+      "pct": 1.678674886726584
+    },
+    {
+      "productA": "Elite III Curved Magnum Medium Taper (Soft Edge)",
+      "productB": "Kalíšky na barvy - inkcupy",
+      "count": 664,
+      "pct": 1.6440119834608433
+    },
+    {
+      "productA": "Bishop DaVinci V2 Curved Magnum",
+      "productB": "Bishop DaVinci V2 Round Shader",
+      "count": 662,
+      "pct": 1.6390601401371658
+    },
+    {
+      "productA": "Fólie potravinářská",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 661,
+      "pct": 1.6365842184753274
+    },
+    {
+      "productA": "Cheyenne Safety Liner - Linkovací cartridge",
+      "productB": "Cheyenne Safety Shader stínovací jehly na detailní stíny",
+      "count": 653,
+      "pct": 1.6167768451806186
+    },
+    {
+      "productA": "CRAFT Liner linkovací cartridge",
+      "productB": "CRAFT Shader stínovací cartridge",
+      "count": 651,
+      "pct": 1.6118250018569413
+    },
+    {
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Jednorázová podložka na pracovní plochu, mix barev 50ks",
+      "count": 648,
+      "pct": 1.6043972368714254
+    },
+    {
+      "productA": "Kwadron Round Liner Long Taper",
+      "productB": "Kwadron Round Liner Medium Taper",
+      "count": 648,
+      "pct": 1.6043972368714254
+    },
+    {
+      "productA": "Dřevěné špachtle lžičky do úst, 100ks",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 644,
+      "pct": 1.5944935502240707
+    },
+    {
+      "productA": "Kopírovací papír ReproFX Spirit THERMAL do termokopírky",
+      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
+      "count": 642,
+      "pct": 1.5895417069003936
+    },
+    {
+      "productA": "Dřevěné špachtle lžičky do úst, 100ks",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 640,
+      "pct": 1.5845898635767166
+    },
+    {
+      "productA": "Cheyenne Safety Liner - Linkovací cartridge",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 624,
+      "pct": 1.5449751169872985
+    },
+    {
+      "productA": "Fólie potravinářská",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 615,
+      "pct": 1.5226918220307508
+    },
+    {
+      "productA": "Elite III Round Shader",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 598,
+      "pct": 1.4806011537794945
+    },
+    {
+      "productA": "Kwadron Round Liner Long Taper",
+      "productB": "Kwadron Soft Edge kulaté stínovací Medium taper",
+      "count": 598,
+      "pct": 1.4806011537794945
+    },
+    {
+      "productA": "Cartridge Mast Ocean Heart",
+      "productB": "Kwadron cartridge PMU Optima Liner",
+      "count": 594,
+      "pct": 1.47069746713214
+    },
+    {
+      "productA": "Emalla Eliot Pro Cartridge Round Liner",
+      "productB": "Emalla Eliot Pro Cartridge Round Shader",
+      "count": 588,
+      "pct": 1.4558419371611082
+    },
+    {
+      "productA": "Elite III Round Liner",
+      "productB": "Kalíšky na barvy - inkcupy",
+      "count": 575,
+      "pct": 1.4236549555572062
+    },
+    {
+      "productA": "Cheyenne Safety Soft Edge zakulacená špička plochá",
+      "productB": "Cheyenne Safety Soft Edge zakulacená špička plochá",
+      "count": 575,
+      "pct": 1.4236549555572062
+    },
+    {
+      "productA": "AVA Arrow Cartridge Round Liner",
+      "productB": "AVA Arrow Cartridge Round Liner",
+      "count": 571,
+      "pct": 1.4137512689098517
+    },
+    {
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
+      "count": 565,
+      "pct": 1.3988957389388201
+    },
+    {
+      "productA": "Kalíšky na barvy - inkcupy",
+      "productB": "Kwadron Soft Edge kulaté stínovací Long taper",
+      "count": 564,
+      "pct": 1.3964198172769813
+    },
+    {
+      "productA": "Cartridge Mast Ocean Heart",
+      "productB": "Kwadron Round Liner Long Taper",
+      "count": 564,
+      "pct": 1.3964198172769813
+    },
+    {
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Kopírovací papír ReproFX Spirit THERMAL do termokopírky",
+      "count": 545,
+      "pct": 1.3493773057020475
     },
     {
       "productA": "ELITE Infini Closed Magnum Bugpin",
       "productB": "ELITE Infini Round Liner",
-      "count": 91,
-      "pct": 1.157171922685656
+      "count": 545,
+      "pct": 1.3493773057020475
     },
     {
-      "productA": "Kwadron Soft Edge kulaté stínovací Long taper",
-      "productB": "Unistar - hojivá fólie (náplast) v roli 10m x 15cm",
-      "count": 90,
-      "pct": 1.1444557477110884
+      "productA": "Elite III Bugpin Round Liner",
+      "productB": "Jednorázové nitrilové rukavice Uniprotect Black",
+      "count": 539,
+      "pct": 1.334521775731016
     },
     {
-      "productA": "Kwadron PMU Optima Round Liner Medium Taper",
-      "productB": "Kwadron cartridge PMU Optima Liner",
-      "count": 89,
-      "pct": 1.131739572736521
+      "productA": "Dřevěné špachtle lžičky do úst, 100ks",
+      "productB": "Elite III Bugpin Round Liner",
+      "count": 531,
+      "pct": 1.3147144024363069
     },
     {
-      "productA": "Jednorázový potah na lehátko",
-      "productB": "Kwadron Round Liner Long Taper",
-      "count": 86,
-      "pct": 1.093591047812818
+      "productA": "ELITE Infini Round Liner",
+      "productB": "Elite III Curved Magnum Medium Taper (Soft Edge)",
+      "count": 531,
+      "pct": 1.3147144024363069
+    },
+    {
+      "productA": "PEPAX LANCE Curved Magnum",
+      "productB": "PEPAX LANCE Round Liner",
+      "count": 531,
+      "pct": 1.3147144024363069
+    },
+    {
+      "productA": "3M Transpore lepicí páska, 2,5cm x 9,15m",
+      "productB": "Ochranná páska na grip - omotávka",
+      "count": 520,
+      "pct": 1.2874792641560822
+    },
+    {
+      "productA": "PEPAX LANCE Round Liner",
+      "productB": "PEPAX LANCE Round Shader",
+      "count": 518,
+      "pct": 1.282527420832405
+    },
+    {
+      "productA": "EZ INkin REVO Magnum",
+      "productB": "EZ INkin REVO Round Liner",
+      "count": 513,
+      "pct": 1.270147812523212
+    },
+    {
+      "productA": "EZ INkin REVO Round Liner",
+      "productB": "EZ INkin REVO Round Shader",
+      "count": 511,
+      "pct": 1.2651959691995345
     }
   ]
 };
