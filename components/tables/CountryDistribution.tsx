@@ -40,12 +40,12 @@ const countryColors: Record<Country, string> = {
 };
 
 const countryLabels: Record<Country, string> = {
-  at: 'Österreich (AT)',
+  at: 'Rakousko (AT)',
   cz: 'Česká republika (CZ)',
   sk: 'Slovensko (SK)',
-  pl: 'Polska (PL)',
-  nl: 'Nederland (NL)',
-  de: 'Deutschland (DE)',
+  pl: 'Polsko (PL)',
+  nl: 'Nizozemsko (NL)',
+  de: 'Německo (DE)',
 };
 
 
