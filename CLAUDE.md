@@ -29,6 +29,8 @@ node scripts/fetchShoptetDataSK.js            # Inkrementální sync SK
 node scripts/fetchShoptetDataSK.js --full
 node scripts/fetchShoptetDataCZ.js            # Inkrementální sync CZ
 node scripts/fetchShoptetDataCZ.js --full     # Full sync CZ (od 2023-01-01)
+
+node scripts/generateCategoryCrossSell.js     # Vygeneruje categoryCrossSellData{XX}.ts pro všechny trhy z order cache
 ```
 
 V projektu nejsou nakonfigurované linter ani testy.
@@ -90,11 +92,11 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `/analytics` | GA4 integrace — sessions, CVR, sources+devices (YoY), vstupní stránky |
 | `/meta` | Meta Ads — KPI boxy s YoY, grafy po dnech, tabulka kreativ s filtrem |
 | `/behavior` | Nákupní chování — týdenní srovnání, hourly grid (all-time agregace) |
-| `/crosssell` | Cross-sell potenciál — top 100 produktových párů |
+| `/crosssell` | Cross-sell potenciál — top 100 produktových párů + 2 tabulky kategoriového cross-sellu (1. a 2. řád) |
 | `/retention` | Retenční analýza — RFM segmentace, LTV, AOV, repeat purchase rate, měsíční graf Noví vs. stávající |
 | `/shipping` | Doprava a platby — KPI vč. zisku/ztráty dopravy, ceník dopravců, P&L tabulka per dopravce |
-| `/categories` | Kategorie prodejnost — tržby bez DPH dle kategorií, trendový graf, YoY tabulka + sloupec Počet ks s YoY; bez selektoru Vše |
-| `/brands` | Značky — tržby bez DPH dle značek/výrobců, trendový graf, YoY tabulka + sloupec Počet ks s YoY; bez selektoru Vše |
+| `/categories` | Kategorie prodejnost — tržby bez DPH dle kategorií, trendový graf, YoY tabulka + sloupec Počet ks s YoY; podporuje selektor Vše (agregace 6 trhů v CZK, překlady do češtiny) |
+| `/brands` | Značky — tržby bez DPH dle značek/výrobců, trendový graf, YoY tabulka + sloupec Počet ks s YoY; podporuje selektor Vše (agregace 6 trhů v CZK) |
 | `/login` | Přihlášení (NextAuth) |
 | `/admin/users` | Správa uživatelů (admin only) |
 
@@ -118,6 +120,7 @@ TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (
 - Všechny hodnoty jsou přepočítány aktuálním kurzem do Kč (viz `useExchangeRates`)
 - Stránky s podporou Vše: `/hlavni-dashboard`, `/dashboard`, `/orders`, `/margin`, `/categories`, `/brands`
 - Na `/categories` a `/brands` se při Vše agregují data ze všech 6 trhů s převodem do CZK (`toCZK`) + překlady kategorií/subkategorií do češtiny (`lib/categoryTranslations.ts`)
+- Na `/categories` se překlady aplikují i pro jednotlivé země (ne jen Vše) — kategorie jsou vždy v češtině
 - Tlačítko **Vše skryto** na: `/shipping`, `/retention`, `/analytics`, `/crosssell`, `/behavior`
 
 ### Kurzy měn (`useExchangeRates`)
@@ -149,6 +152,8 @@ TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (
 | `data/retentionData*.ts` | Per-customer retence `{ dates, revenues, revsVat }[]` — auto-gen |
 | `data/orderValueData*.ts` | Per-order košík bez DPH `{ date, value }[]` — auto-gen |
 | `data/shippingPaymentData*.ts` | Doprava+platby po dnech — auto-gen |
+| `data/categoryCrossSellData*.ts` | Kategoriový cross-sell (root páry + subkategorie páry) — gen přes `generateCategoryCrossSell.js` |
+| `lib/categoryTranslations.ts` | Překlady kategorií z DE/PL/NL/SK do češtiny (`translateCategory`, `translateSubCategory`) |
 | `lib/db.ts` | Neon PostgreSQL pool (singleton) |
 | `lib/users.ts` | CRUD uživatelů přes Neon DB (getUsers, getUserByEmail, addUser, deleteUser, updatePassword) |
 | `lib/schema.sql` | Schéma tabulky `users` |
@@ -165,7 +170,7 @@ TopBar obsahuje tlačítko **Vše** (první) + individuální tlačítka zemí (
 | `app/api/update/route.ts` | POST endpoint — admin only; Vercel Deploy Hook nebo lokální skript |
 | `app/api/exchange-rates/route.ts` | GET endpoint — vrací aktuální kurzy EUR_CZK + PLN_CZK (frankfurter.app, revalidate 24 h) |
 | `components/tables/DailyTable.tsx` | Tabulka „Přehled po dnech"; prop `currency?: Currency` (default `'EUR'`) — předávat vždy z page |
-| `components/tables/CountryDistribution.tsx` | Tabulka distribuce dle zemí (multi-country view); hodnoty vždy v CZK; YoY badges + sloupce AOV, Marže %, Hrubý zisk, Hrubý zisk % |
+| `components/tables/CountryDistribution.tsx` | Tabulka distribuce dle zemí (multi-country view); hodnoty vždy v CZK; YoY badges + sloupce AOV, Marže %, Hrubý zisk, Hrubý zisk %; názvy zemí v češtině |
 | `components/layout/TopBar.tsx` | Selektor zemí: tlačítko **Vše** (první) + single-select jednotlivé země; rok-selector pro `/hlavni-dashboard` |
 
 ### KPI komponenty
