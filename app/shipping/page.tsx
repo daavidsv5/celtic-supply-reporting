@@ -10,7 +10,7 @@ import { shippingPaymentDataPL } from '@/data/shippingPaymentDataPL';
 import { shippingPaymentDataNL } from '@/data/shippingPaymentDataNL';
 import { shippingPaymentDataDE } from '@/data/shippingPaymentDataDE';
 import { formatCurrency, formatNumber, formatDate, localIsoDate } from '@/lib/formatters';
-import { Truck, CreditCard, DollarSign, Banknote, Star, Award, Gift, Save, RotateCcw } from 'lucide-react';
+import { Truck, CreditCard, DollarSign, Banknote, Star, Award, Gift, Save, RotateCcw, TrendingUp, TrendingDown } from 'lucide-react';
 
 interface CarrierCost {
   at: string;  // cena, prázdný řetězec = nevyplněno
@@ -282,6 +282,18 @@ export default function ShippingPage() {
 
   const shippingRows = useMemo(() => methodRows(shipping), [shipping]);
   const paymentRows  = useMemo(() => methodRows(payment),  [payment]);
+
+  const prevShipMap = useMemo(() => {
+    const m: Record<string, number> = {};
+    for (const r of prevShipping) m[r.name] = (m[r.name] || 0) + r.count;
+    return m;
+  }, [prevShipping]);
+
+  const prevPayMap = useMemo(() => {
+    const m: Record<string, number> = {};
+    for (const r of prevPayment) m[r.name] = (m[r.name] || 0) + r.count;
+    return m;
+  }, [prevPayment]);
 
   // ── Trend data — % stacked per method (by count) ──────────────────────────
   function buildPctTrendData(data: typeof shipping, palette: string[]) {
@@ -619,18 +631,32 @@ export default function ShippingPage() {
                 </tr>
               </thead>
               <tbody>
-                {shippingRows.map((r, i) => (
-                  <tr key={r.name} className={`border-b border-slate-50 hover:bg-slate-50 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
-                    <td className="px-4 py-2.5 text-slate-700 font-medium flex items-center gap-2">
-                      <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ background: SHIP_PALETTE[i % SHIP_PALETTE.length] }} />
-                      {r.name}
-                    </td>
-                    <td className="px-4 py-2.5 text-right text-slate-600">{formatNumber(r.count)}</td>
-                    <td className="px-4 py-2.5 text-right text-slate-400 text-xs">{r.pct_count.toFixed(1)}%</td>
-                    <td className="px-4 py-2.5 text-right font-semibold text-slate-800">{fc(r.revenue_vat)}</td>
-                    <td className="px-4 py-2.5 text-right text-slate-500">{fc(r.avg)}</td>
-                  </tr>
-                ))}
+                {shippingRows.map((r, i) => {
+                  const prev = prevShipMap[r.name] ?? 0;
+                  const pct  = hasPrevData && prev > 0 ? ((r.count - prev) / prev) * 100 : null;
+                  return (
+                    <tr key={r.name} className={`border-b border-slate-50 hover:bg-slate-50 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
+                      <td className="px-4 py-2.5 text-slate-700 font-medium flex items-center gap-2">
+                        <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ background: SHIP_PALETTE[i % SHIP_PALETTE.length] }} />
+                        {r.name}
+                      </td>
+                      <td className="px-4 py-2.5 text-right">
+                        <div className="flex items-center justify-end gap-1.5">
+                          <span className="tabular-nums text-slate-600">{formatNumber(r.count)}</span>
+                          {pct !== null && (
+                            <span className={`inline-flex items-center gap-0.5 text-[10px] font-semibold px-1.5 py-0.5 rounded-full whitespace-nowrap ${pct >= 0 ? 'bg-emerald-50 text-emerald-700' : 'bg-rose-50 text-rose-600'}`}>
+                              {pct >= 0 ? <TrendingUp size={9} /> : <TrendingDown size={9} />}
+                              {pct >= 0 ? '+' : ''}{pct.toFixed(1)}%
+                            </span>
+                          )}
+                        </div>
+                      </td>
+                      <td className="px-4 py-2.5 text-right text-slate-400 text-xs">{r.pct_count.toFixed(1)}%</td>
+                      <td className="px-4 py-2.5 text-right font-semibold text-slate-800">{fc(r.revenue_vat)}</td>
+                      <td className="px-4 py-2.5 text-right text-slate-500">{fc(r.avg)}</td>
+                    </tr>
+                  );
+                })}
                 {shippingRows.length === 0 && (
                   <tr><td colSpan={5} className="px-4 py-6 text-center text-slate-400 text-sm">Žádná data</td></tr>
                 )}
@@ -639,7 +665,16 @@ export default function ShippingPage() {
                 <tfoot>
                   <tr className="bg-blue-50 border-t-2 border-blue-100 font-semibold">
                     <td className="px-4 py-3 text-blue-600 text-xs">Celkem</td>
-                    <td className="px-4 py-3 text-right text-xs text-slate-600">{formatNumber(totalShipCount)}</td>
+                    <td className="px-4 py-3 text-right">
+                      <div className="flex items-center justify-end gap-1.5">
+                        <span className="tabular-nums text-xs text-slate-600">{formatNumber(totalShipCount)}</span>
+                        {hasPrevData && prevShipCount > 0 && (() => { const p = ((totalShipCount - prevShipCount) / prevShipCount) * 100; return (
+                          <span className={`inline-flex items-center gap-0.5 text-[10px] font-semibold px-1.5 py-0.5 rounded-full ${p >= 0 ? 'bg-emerald-50 text-emerald-700' : 'bg-rose-50 text-rose-600'}`}>
+                            {p >= 0 ? <TrendingUp size={9} /> : <TrendingDown size={9} />}{p >= 0 ? '+' : ''}{p.toFixed(1)}%
+                          </span>
+                        ); })()}
+                      </div>
+                    </td>
                     <td className="px-4 py-3 text-right text-xs text-slate-400">100%</td>
                     <td className="px-4 py-3 text-right text-slate-700">{fc(totalShippingRev)}</td>
                     <td className="px-4 py-3 text-right text-slate-500">{fc(avgShipping)}</td>
@@ -664,18 +699,32 @@ export default function ShippingPage() {
                 </tr>
               </thead>
               <tbody>
-                {paymentRows.map((r, i) => (
-                  <tr key={r.name} className={`border-b border-slate-50 hover:bg-slate-50 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
-                    <td className="px-4 py-2.5 text-slate-700 font-medium flex items-center gap-2">
-                      <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ background: PAY_PALETTE[i % PAY_PALETTE.length] }} />
-                      {r.name}
-                    </td>
-                    <td className="px-4 py-2.5 text-right text-slate-600">{formatNumber(r.count)}</td>
-                    <td className="px-4 py-2.5 text-right text-slate-400 text-xs">{r.pct_count.toFixed(1)}%</td>
-                    <td className="px-4 py-2.5 text-right font-semibold text-slate-800">{fc(r.revenue_vat)}</td>
-                    <td className="px-4 py-2.5 text-right text-slate-500">{fc(r.avg)}</td>
-                  </tr>
-                ))}
+                {paymentRows.map((r, i) => {
+                  const prev = prevPayMap[r.name] ?? 0;
+                  const pct  = hasPrevData && prev > 0 ? ((r.count - prev) / prev) * 100 : null;
+                  return (
+                    <tr key={r.name} className={`border-b border-slate-50 hover:bg-slate-50 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
+                      <td className="px-4 py-2.5 text-slate-700 font-medium flex items-center gap-2">
+                        <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ background: PAY_PALETTE[i % PAY_PALETTE.length] }} />
+                        {r.name}
+                      </td>
+                      <td className="px-4 py-2.5 text-right">
+                        <div className="flex items-center justify-end gap-1.5">
+                          <span className="tabular-nums text-slate-600">{formatNumber(r.count)}</span>
+                          {pct !== null && (
+                            <span className={`inline-flex items-center gap-0.5 text-[10px] font-semibold px-1.5 py-0.5 rounded-full whitespace-nowrap ${pct >= 0 ? 'bg-emerald-50 text-emerald-700' : 'bg-rose-50 text-rose-600'}`}>
+                              {pct >= 0 ? <TrendingUp size={9} /> : <TrendingDown size={9} />}
+                              {pct >= 0 ? '+' : ''}{pct.toFixed(1)}%
+                            </span>
+                          )}
+                        </div>
+                      </td>
+                      <td className="px-4 py-2.5 text-right text-slate-400 text-xs">{r.pct_count.toFixed(1)}%</td>
+                      <td className="px-4 py-2.5 text-right font-semibold text-slate-800">{fc(r.revenue_vat)}</td>
+                      <td className="px-4 py-2.5 text-right text-slate-500">{fc(r.avg)}</td>
+                    </tr>
+                  );
+                })}
                 {paymentRows.length === 0 && (
                   <tr><td colSpan={5} className="px-4 py-6 text-center text-slate-400 text-sm">Žádná data</td></tr>
                 )}
@@ -684,7 +733,16 @@ export default function ShippingPage() {
                 <tfoot>
                   <tr className="bg-blue-50 border-t-2 border-blue-100 font-semibold">
                     <td className="px-4 py-3 text-blue-600 text-xs">Celkem</td>
-                    <td className="px-4 py-3 text-right text-xs text-slate-600">{formatNumber(totalPayCount)}</td>
+                    <td className="px-4 py-3 text-right">
+                      <div className="flex items-center justify-end gap-1.5">
+                        <span className="tabular-nums text-xs text-slate-600">{formatNumber(totalPayCount)}</span>
+                        {hasPrevData && prevPayCount > 0 && (() => { const p = ((totalPayCount - prevPayCount) / prevPayCount) * 100; return (
+                          <span className={`inline-flex items-center gap-0.5 text-[10px] font-semibold px-1.5 py-0.5 rounded-full ${p >= 0 ? 'bg-emerald-50 text-emerald-700' : 'bg-rose-50 text-rose-600'}`}>
+                            {p >= 0 ? <TrendingUp size={9} /> : <TrendingDown size={9} />}{p >= 0 ? '+' : ''}{p.toFixed(1)}%
+                          </span>
+                        ); })()}
+                      </div>
+                    </td>
                     <td className="px-4 py-3 text-right text-xs text-slate-400">100%</td>
                     <td className="px-4 py-3 text-right text-slate-700">{fc(totalPaymentRev)}</td>
                     <td className="px-4 py-3 text-right text-slate-500">{fc(avgPayment)}</td>
