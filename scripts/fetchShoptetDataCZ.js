@@ -254,8 +254,10 @@ async function fetchOrderDetail(code) {
 // ── Cache helpers ──────────────────────────────────────────────────────────────
 function loadCache() {
   if (fs.existsSync(CACHE_FILE)) {
-    try { return v8.deserialize(fs.readFileSync(CACHE_FILE)); }
-    catch { log('Cache file corrupt, starting fresh.'); }
+    const buf = fs.readFileSync(CACHE_FILE);
+    try { return v8.deserialize(buf); } catch {}
+    try { return JSON.parse(buf.toString('utf8')); } catch {}
+    log('Cache file corrupt, starting fresh.');
   }
   return {};
 }
