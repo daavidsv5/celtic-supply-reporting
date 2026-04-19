@@ -63,10 +63,12 @@ const MarzeTooltip = ({ active, payload, label, currency, isMonthly }: any) => {
 export default function MarginPage() {
   const { filters } = useFilters();
   const rates = useExchangeRates();
-  const { start, end } = getDateRange(filters);
+  const { start, end, prevStart, prevEnd } = getDateRange(filters);
 
-  const startStr = localIsoDate(start);
-  const endStr   = localIsoDate(end);
+  const startStr     = localIsoDate(start);
+  const endStr       = localIsoDate(end);
+  const prevStartStr = localIsoDate(prevStart);
+  const prevEndStr   = localIsoDate(prevEnd);
   const subtitle = `${formatDate(start)} – ${formatDate(end)}`;
 
   const marginByCountry  = { at: marginDataAT, cz: marginDataCZ, sk: marginDataSK, pl: marginDataPL, nl: marginDataNL, de: marginDataDE };
@@ -107,84 +109,66 @@ export default function MarginPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [country, multiCountry, rates]);
 
-  const { totals, chartData, isMonthly } = useMemo(() => {
-    let revVat = 0, rev = 0, orders = 0, cost = 0, purchaseCost = 0, marginRev = 0;
+  type TotalsResult = {
+    revVat: number; rev: number; orders: number; cost: number;
+    purchaseCost: number; margin: number; marginPct: number;
+    grossProfit: number; grossPct: number; pno: number;
+  };
+  type ChartRow = { date: string; marze: number; marzePct: number; hrubyZisk: number; hrubyZiskPct: number };
 
+  function computePeriod(s: string, e: string, rbd: typeof realByDate): { totals: TotalsResult; chartRows: ChartRow[]; isMonthly: boolean } {
+    let revVat = 0, rev = 0, orders = 0, cost = 0, purchaseCost = 0, marginRev = 0;
     const dailyMap: Record<string, { date: string; marze: number; marzePct: number; hrubyZisk: number; hrubyZiskPct: number; _marginRev: number }> = {};
     const datesInRange = new Set<string>();
-
-    const marginSources = multiCountry
+    const mSources = multiCountry
       ? allMarginSources
       : [{ data: marginData, realSrc: realData, cur: (currency === 'PLN' ? 'PLN' : currency === 'CZK' ? 'CZK' : 'EUR') as 'EUR' | 'CZK' | 'PLN' }];
-
-    for (const { data, cur } of marginSources) {
+    for (const { data, cur } of mSources) {
       const factor = multiCountry ? toCZK(1, cur, rates) : 1;
       for (const r of data) {
-        if (r.date < startStr || r.date > endStr) continue;
+        if (r.date < s || r.date > e) continue;
         datesInRange.add(r.date);
         const pc = r.purchaseCost * factor;
         const mr = r.revenue * factor;
         purchaseCost += pc;
         marginRev    += mr;
-        const dayCost  = realByDate[r.date]?.cost ?? 0;
+        const dayCost  = rbd[r.date]?.cost ?? 0;
         const dayMarze = mr - pc;
         const dayHZ    = dayMarze - dayCost;
         const prev = dailyMap[r.date];
-        const prevMarze = prev?.marze ?? 0;
-        const prevHZ    = prev?.hrubyZisk ?? 0;
-        const prevMR    = prev?._marginRev ?? 0;
         dailyMap[r.date] = {
-          date:         r.date,
-          _marginRev:   prevMR + mr,
-          marze:        Math.round(prevMarze + dayMarze),
-          marzePct:     0, // computed below after aggregating
-          hrubyZisk:    Math.round(prevHZ + dayHZ),
+          date: r.date, _marginRev: (prev?._marginRev ?? 0) + mr,
+          marze: Math.round((prev?.marze ?? 0) + dayMarze),
+          marzePct: 0,
+          hrubyZisk: Math.round((prev?.hrubyZisk ?? 0) + dayHZ),
           hrubyZiskPct: 0,
         };
       }
     }
-
-    // Compute percentages after full aggregation
     for (const d of Object.keys(dailyMap)) {
       const v = dailyMap[d];
       v.marzePct     = v._marginRev > 0 ? (v.marze     / v._marginRev) * 100 : 0;
       v.hrubyZiskPct = v._marginRev > 0 ? (v.hrubyZisk / v._marginRev) * 100 : 0;
     }
-
-    for (const [d, r] of Object.entries(realByDate)) {
-      if (d < startStr || d > endStr) continue;
+    for (const [d, r] of Object.entries(rbd)) {
+      if (d < s || d > e) continue;
       datesInRange.add(d);
-      revVat  += r.revenue_vat;
-      rev     += r.revenue;
-      orders  += r.orders;
-      cost    += r.cost;
+      revVat += r.revenue_vat; rev += r.revenue; orders += r.orders; cost += r.cost;
     }
-
-    // Group chart data by month if period > 60 days, else daily
     const allDays  = [...datesInRange].sort();
     const dayCount = allDays.length;
-    let chartRows: { date: string; marze: number; marzePct: number; hrubyZisk: number; hrubyZiskPct: number }[];
-
+    let chartRows: ChartRow[];
     if (dayCount > 60) {
       const byMonth: Record<string, { marze: number; marzePct_sum: number; hrubyZisk: number; hrubyZiskPct_sum: number; count: number }> = {};
       for (const [, v] of Object.entries(dailyMap)) {
         const key = v.date.substring(0, 7);
         if (!byMonth[key]) byMonth[key] = { marze: 0, marzePct_sum: 0, hrubyZisk: 0, hrubyZiskPct_sum: 0, count: 0 };
-        byMonth[key].marze            += v.marze;
-        byMonth[key].marzePct_sum     += v.marzePct;
-        byMonth[key].hrubyZisk        += v.hrubyZisk;
-        byMonth[key].hrubyZiskPct_sum += v.hrubyZiskPct;
+        byMonth[key].marze += v.marze; byMonth[key].marzePct_sum += v.marzePct;
+        byMonth[key].hrubyZisk += v.hrubyZisk; byMonth[key].hrubyZiskPct_sum += v.hrubyZiskPct;
         byMonth[key].count++;
       }
-      chartRows = Object.entries(byMonth)
-        .sort(([a], [b]) => a.localeCompare(b))
-        .map(([key, v]) => ({
-          date:         key + '-01',
-          marze:        Math.round(v.marze),
-          marzePct:     v.count > 0 ? v.marzePct_sum / v.count : 0,
-          hrubyZisk:    Math.round(v.hrubyZisk),
-          hrubyZiskPct: v.count > 0 ? v.hrubyZiskPct_sum / v.count : 0,
-        }));
+      chartRows = Object.entries(byMonth).sort(([a], [b]) => a.localeCompare(b))
+        .map(([key, v]) => ({ date: key + '-01', marze: Math.round(v.marze), marzePct: v.count > 0 ? v.marzePct_sum / v.count : 0, hrubyZisk: Math.round(v.hrubyZisk), hrubyZiskPct: v.count > 0 ? v.hrubyZiskPct_sum / v.count : 0 }));
     } else {
       chartRows = allDays.map(d => {
         const v = dailyMap[d];
@@ -192,36 +176,53 @@ export default function MarginPage() {
                  : { date: d, marze: 0, marzePct: 0, hrubyZisk: 0, hrubyZiskPct: 0 };
       });
     }
-
     const margin      = marginRev - purchaseCost;
     const marginPct   = marginRev > 0 ? (margin / marginRev) * 100 : 0;
     const grossProfit = margin - cost;
     const grossPct    = marginRev > 0 ? (grossProfit / marginRev) * 100 : 0;
     const pno         = rev > 0 ? (cost / rev) * 100 : 0;
+    return { totals: { revVat, rev, orders, cost, purchaseCost, margin, marginPct, grossProfit, grossPct, pno }, chartRows, isMonthly: dayCount > 60 };
+  }
+
+  const { totals, chartData, isMonthly, prevTotals, hasPrevData } = useMemo(() => {
+    const cur  = computePeriod(startStr, endStr, realByDate);
+    const prev = computePeriod(prevStartStr, prevEndStr, realByDate);
+
+    // Merge prev year into chart rows by position
+    const merged = cur.chartRows.map((row, i) => ({
+      ...row,
+      marze_prev:        prev.chartRows[i]?.marze        ?? null,
+      marzePct_prev:     prev.chartRows[i]?.marzePct     ?? null,
+      hrubyZisk_prev:    prev.chartRows[i]?.hrubyZisk    ?? null,
+      hrubyZiskPct_prev: prev.chartRows[i]?.hrubyZiskPct ?? null,
+    }));
 
     return {
-      totals: { revVat, rev, orders, cost, purchaseCost, margin, marginPct, grossProfit, grossPct, pno },
-      chartData: chartRows,
-      isMonthly: dayCount > 60,
+      totals:      cur.totals,
+      chartData:   merged,
+      isMonthly:   cur.isMonthly,
+      prevTotals:  prev.totals,
+      hasPrevData: prev.totals.rev > 0,
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [startStr, endStr, realByDate, multiCountry, rates]);
+  }, [startStr, endStr, prevStartStr, prevEndStr, realByDate, multiCountry, rates]);
 
   const { revVat, rev, orders, cost, margin, marginPct, grossProfit, grossPct, pno } = totals;
   const dateTickFormatter = isMonthly ? formatMonthYear : formatShortDate;
-
   const currLabel = currency === 'CZK' ? 'Kč' : currency === 'PLN' ? 'zł' : '€';
 
+  function yoy(cur: number, prev: number) { return prev > 0 ? ((cur - prev) / prev) * 100 : null; }
+
   const kpiCards = [
-    { title: 'Tržby s DPH',           value: formatCurrency(revVat, currency), subtitle: `z objednávek ${multiCountry ? 'Vše (Kč)' : country.toUpperCase()}`,  icon: <Wallet size={18} /> },
-    { title: 'Tržby bez DPH',         value: formatCurrency(rev, currency),    subtitle: 'základ pro PNO a marži',               icon: <Banknote size={18} /> },
-    { title: 'Počet objednávek',       value: formatNumber(orders),             subtitle: 'dokončené objednávky',                 icon: <ShoppingCart size={18} /> },
-    { title: 'Marketingové investice', value: formatCurrency(cost, currency),   subtitle: 'Google + Facebook', negative: false,  icon: <TrendingUp size={18} /> },
-    { title: 'PNO (%)',                value: formatPercent(pno, 2),            subtitle: 'náklady / tržby bez DPH',              icon: <Percent size={18} /> },
-    { title: 'Marže',                  value: formatCurrency(margin, currency), subtitle: 'tržby bez DPH − nákupní cena', negative: margin < 0,          icon: <BarChart2 size={18} /> },
-    { title: 'Marže %',                value: formatPercent(marginPct, 1),      subtitle: 'marže / tržby bez DPH', negative: marginPct < 0,              icon: <Percent size={18} /> },
-    { title: 'Hrubý zisk',             value: formatCurrency(grossProfit, currency), subtitle: 'marže − marketingové investice', negative: grossProfit < 0, highlight: true, icon: <DollarSign size={18} /> },
-    { title: 'Hrubý zisk %',           value: formatPercent(grossPct, 1),       subtitle: 'hrubý zisk / tržby bez DPH', negative: grossPct < 0, highlight: true,             icon: <Percent size={18} /> },
+    { title: 'Tržby s DPH',           value: formatCurrency(revVat, currency), subtitle: `z objednávek ${multiCountry ? 'Vše (Kč)' : country.toUpperCase()}`,  icon: <Wallet size={18} />,    yoyVal: yoy(revVat, prevTotals.revVat) },
+    { title: 'Tržby bez DPH',         value: formatCurrency(rev, currency),    subtitle: 'základ pro PNO a marži',               icon: <Banknote size={18} />,   yoyVal: yoy(rev, prevTotals.rev) },
+    { title: 'Počet objednávek',       value: formatNumber(orders),             subtitle: 'dokončené objednávky',                 icon: <ShoppingCart size={18} />, yoyVal: yoy(orders, prevTotals.orders) },
+    { title: 'Marketingové investice', value: formatCurrency(cost, currency),   subtitle: 'Google + Facebook',                   icon: <TrendingUp size={18} />,  yoyVal: yoy(cost, prevTotals.cost), invertYoy: true },
+    { title: 'PNO (%)',                value: formatPercent(pno, 2),            subtitle: 'náklady / tržby bez DPH',              icon: <Percent size={18} />,     yoyVal: yoy(pno, prevTotals.pno), invertYoy: true },
+    { title: 'Marže',                  value: formatCurrency(margin, currency), subtitle: 'tržby bez DPH − nákupní cena', negative: margin < 0,          icon: <BarChart2 size={18} />, yoyVal: yoy(margin, prevTotals.margin) },
+    { title: 'Marže %',                value: formatPercent(marginPct, 1),      subtitle: 'marže / tržby bez DPH', negative: marginPct < 0,              icon: <Percent size={18} />,   yoyVal: yoy(marginPct, prevTotals.marginPct) },
+    { title: 'Hrubý zisk',             value: formatCurrency(grossProfit, currency), subtitle: 'marže − marketingové investice', negative: grossProfit < 0, highlight: true, icon: <DollarSign size={18} />, yoyVal: yoy(grossProfit, prevTotals.grossProfit) },
+    { title: 'Hrubý zisk %',           value: formatPercent(grossPct, 1),       subtitle: 'hrubý zisk / tržby bez DPH', negative: grossPct < 0, highlight: true, icon: <Percent size={18} />, yoyVal: yoy(grossPct, prevTotals.grossPct) },
   ];
 
   return (
@@ -244,6 +245,9 @@ export default function MarginPage() {
             sub={card.subtitle}
             negative={card.negative}
             highlight={card.highlight && !card.negative}
+            yoy={card.yoyVal}
+            hasPrevData={hasPrevData}
+            invertYoy={card.invertYoy}
           />
         ))}
       </div>
@@ -284,7 +288,9 @@ export default function MarginPage() {
               <Tooltip content={<MarzeTooltip currency={currency} isMonthly={isMonthly} />} cursor={{ fill: '#f8fafc' }} />
               <Legend wrapperStyle={{ fontSize: 11, paddingTop: 16, color: '#64748b' }} iconType="square" iconSize={9} />
               <Bar yAxisId="left" dataKey="marze" name={`Marže (${currLabel})`} fill={C.margin} radius={[3, 3, 0, 0]} barSize={8} />
+              {hasPrevData && <Bar yAxisId="left" dataKey="marze_prev" name={`Marže loni (${currLabel})`} fill={C.margin} fillOpacity={0.25} radius={[3, 3, 0, 0]} barSize={8} />}
               <Line yAxisId="right" type="monotone" dataKey="marzePct" name="Marže %" stroke={C.marginLight} strokeWidth={2} dot={false} />
+              {hasPrevData && <Line yAxisId="right" type="monotone" dataKey="marzePct_prev" name="Marže % loni" stroke={C.marginLight} strokeWidth={1.5} strokeDasharray="4 3" dot={false} />}
             </ComposedChart>
           </ResponsiveContainer>
         </div>
@@ -323,7 +329,9 @@ export default function MarginPage() {
               <Tooltip content={<MarzeTooltip currency={currency} isMonthly={isMonthly} />} cursor={{ fill: '#f8fafc' }} />
               <Legend wrapperStyle={{ fontSize: 11, paddingTop: 16, color: '#64748b' }} iconType="square" iconSize={9} />
               <Bar yAxisId="left" dataKey="hrubyZisk" name={`Hrubý zisk (${currLabel})`} fill={C.grossProfit} radius={[3, 3, 0, 0]} barSize={8} />
+              {hasPrevData && <Bar yAxisId="left" dataKey="hrubyZisk_prev" name={`Hrubý zisk loni (${currLabel})`} fill={C.grossProfit} fillOpacity={0.25} radius={[3, 3, 0, 0]} barSize={8} />}
               <Line yAxisId="right" type="monotone" dataKey="hrubyZiskPct" name="Hrubý zisk %" stroke={C.grossProfitLight} strokeWidth={2} dot={false} />
+              {hasPrevData && <Line yAxisId="right" type="monotone" dataKey="hrubyZiskPct_prev" name="Hrubý zisk % loni" stroke={C.grossProfitLight} strokeWidth={1.5} strokeDasharray="4 3" dot={false} />}
             </ComposedChart>
           </ResponsiveContainer>
         </div>
