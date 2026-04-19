@@ -24,7 +24,7 @@ export interface KpiData {
   cancelRate: number;
 }
 
-export type TimePeriod = 'current_year' | 'current_month' | 'last_month' | 'last_14_days' | 'last_year' | 'custom';
+export type TimePeriod = 'yesterday' | 'last_7_days' | 'current_month' | 'last_month' | 'last_14_days' | 'current_year' | 'last_year' | 'all_time' | 'custom';
 
 export interface FilterState {
   countries: Country[];

@@ -17,11 +17,14 @@ interface TopBarProps {
 }
 
 const periodLabels: Record<TimePeriod, string> = {
-  current_year:  'Aktuální rok',
+  yesterday:     'Včerejší den',
+  last_7_days:   'Posledních 7 dní',
   current_month: 'Aktuální měsíc',
   last_month:    'Minulý měsíc',
   last_14_days:  'Posledních 14 dní',
+  current_year:  'Aktuální rok',
   last_year:     'Minulý rok',
+  all_time:      'Celé období',
   custom:        'Vlastní období',
 };
 

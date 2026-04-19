@@ -23,6 +23,18 @@ export function getDateRange(filters: FilterState): DateRange {
   let end: Date;
 
   switch (filters.timePeriod) {
+    case 'yesterday': {
+      start = new Date(TODAY);
+      start.setDate(start.getDate() - 1);
+      end = new Date(start);
+      break;
+    }
+    case 'last_7_days': {
+      end = new Date(TODAY);
+      start = new Date(TODAY);
+      start.setDate(start.getDate() - 6);
+      break;
+    }
     case 'current_year': {
       start = new Date(TODAY.getFullYear(), 0, 1);
       end = new Date(TODAY);
@@ -48,6 +60,11 @@ export function getDateRange(filters: FilterState): DateRange {
       const ly = TODAY.getFullYear() - 1;
       start = new Date(ly, 0, 1);
       end   = new Date(ly, 11, 31);
+      break;
+    }
+    case 'all_time': {
+      start = new Date(2023, 0, 1);
+      end   = new Date(TODAY);
       break;
     }
     case 'custom': {
