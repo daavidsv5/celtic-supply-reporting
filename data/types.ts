@@ -40,7 +40,7 @@ export function getDisplayCurrency(countries: Country[]): Currency {
   return 'EUR';
 }
 
-export const ALL_COUNTRIES: Country[] = ['at', 'cz', 'sk', 'pl', 'nl', 'de'];
+export const ALL_COUNTRIES: Country[] = ['cz', 'sk', 'de', 'at', 'pl', 'nl'];
 
 export function isAllCountries(countries: Country[]): boolean {
   return countries.length === ALL_COUNTRIES.length;
