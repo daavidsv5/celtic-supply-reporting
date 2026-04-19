@@ -88,7 +88,7 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
 | `/orders` | Objednávky — tržby vs počet, distribuce hodnot košíku (histogram) |
 | `/marketing` | Marketingové investice — CPC per channel (FB/Google), trend kliky+CPC |
 | `/products` | Prodejnost produktů — ABC analýza, sortovatelná tabulka, YoY, CSV export, graf vývoje tržeb+kusů |
-| `/margin` | Maržový report — marže %, hrubý zisk, grafy |
+| `/margin` | Maržový report — marže %, hrubý zisk, grafy; KPI boxy s YoY badge, grafy s předchozím rokem (světlý bar + přerušovaná čára) |
 | `/analytics` | GA4 integrace — sessions, CVR, sources+devices (YoY), vstupní stránky; podporuje selektor zemí (každá země má vlastní GA4 property) |
 | `/meta` | Meta Ads — KPI boxy s YoY, grafy po dnech, tabulka kreativ s filtrem |
 | `/behavior` | Nákupní chování — týdenní srovnání, hourly grid (all-time agregace) |
@@ -110,7 +110,9 @@ app/(dashboard|orders|marketing|products|margin|analytics|behavior|crosssell|ret
   - Ostatní (AT/SK/NL/DE) → `'EUR'`
 - `formatCurrency(v, currency)` v `lib/formatters.ts` podporuje `'CZK' | 'EUR' | 'PLN'`
 - `Country = 'at' | 'cz' | 'sk' | 'pl' | 'nl' | 'de'`
-- `ALL_COUNTRIES: Country[]` a `isAllCountries(countries)` exportovány z `data/types.ts`
+- `ALL_COUNTRIES: Country[] = ['cz', 'sk', 'de', 'at', 'pl', 'nl']` — pořadí selektorů v TopBaru
+- `ALL_COUNTRIES` a `isAllCountries(countries)` exportovány z `data/types.ts`
+- `TimePeriod` hodnoty: `yesterday` | `last_7_days` | `current_month` | `last_month` | `last_14_days` | `current_year` | `last_year` | `all_time` | `custom`
 
 ### Multi-country „Vše" selektor
 
